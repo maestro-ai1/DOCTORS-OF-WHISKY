@@ -9,48 +9,37 @@ import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Sparkles, Phone } f
 const SLIDES = [
   {
     id: 1,
+    tag: 'ICONIC BLENDED SCOTCH',
+    title: 'Johnnie Walker — A Master Blender’s Legacy',
+    subtitle: 'From the everyday Black Label to the ultra-rare King George V Edition — 200 years of consistent, iconic blending.',
+    badge: 'Est. 1820',
+    price: '$890 AUD',
+    cryptoPrice: '$783.20 AUD with Crypto',
+    link: '/shop/whisky/johnnie-walker-king-george-v-rare-edition',
+    image: '/images/hero/johnnie-walker-black-label-hero.jpg',
+  },
+  {
+    id: 2,
     tag: 'RARE SPEYSIDE VINTAGE',
-    title: 'The Macallan 25 Year Old Sherry Oak',
+    title: 'The Macallan — Sherry Oak Mastery',
     subtitle: 'Matured exclusively in hand-picked Oloroso sherry seasoned oak casks from Jerez, Spain. Sydney vault verified.',
     badge: '100% Provenance Seal',
     price: '$4,850 AUD',
     cryptoPrice: '$4,268 AUD with Crypto',
     link: '/shop/whisky/macallan-25-year-old-sherry-oak-single-malt',
-    image: '/images/hero/macallan-hero.png',
-  },
-  {
-    id: 2,
-    tag: 'JAPANESE COLLECTOR ALLOCATION',
-    title: 'Nikka Taketsuru 21 Year Old Pure Malt',
-    subtitle: 'World-renowned discontinued pure malt blending Yoichi peat and Miyagikyo sherry elegance.',
-    badge: 'Discontinued Heritage',
-    price: '$1,850 AUD',
-    cryptoPrice: '$1,628 AUD with Crypto',
-    link: '/shop/whisky/nikka-taketsuru-21-year-old-pure-malt',
-    image: '/images/hero/nikka-hero.png',
+    image: '/images/hero/macallan-m-decanter-hero.jpg',
   },
   {
     id: 3,
-    tag: 'ULTRA-PREMIUM TEQUILA SOLERA',
-    title: 'Don Julio 1942 Ultima Reserva Extra Añejo',
-    subtitle: 'Crafted from the final agave field planted by Don Julio González in 2006. Finished in Madeira wine casks.',
-    badge: 'Final 2006 Harvest',
-    price: '$990 AUD',
-    cryptoPrice: '$871.20 AUD with Crypto',
-    link: '/shop/spirit/don-julio-1942-ultima-reserva-extra-anejo',
-    image: '/images/hero/don-julio-hero.png',
+    tag: 'HIGHLAND SINGLE CASK',
+    title: 'The GlenDronach — Sherry Cask Icon',
+    subtitle: 'Distilled in 1993 and matured for 26 years in a single Pedro Ximénez sherry puncheon. A quintessential Highland sherry monster.',
+    badge: 'Single Cask Batch 18',
+    price: '$1,250 AUD',
+    cryptoPrice: '$1,100 AUD with Crypto',
+    link: '/shop/whisky/glendronach-1993-26-year-old-single-cask',
+    image: '/images/hero/glendronach-ode-collection-hero.jpg',
   },
-  {
-    id: 4,
-    tag: 'GLACIAL FILTERED LUXURY VODKA',
-    title: 'Grey Goose Altius French Glacial Reserve',
-    subtitle: 'Filtered at sub-zero temperatures using French Alpine glacial spring water in hand-sculpted decanters.',
-    badge: 'Sub-Zero Filtered',
-    price: '$290 AUD',
-    cryptoPrice: '$255.20 AUD with Crypto',
-    link: '/shop/spirit/grey-goose-altius-ultra-premium-french-vodka',
-    image: '/images/hero/grey-goose-hero.png',
-  }
 ];
 
 export function HeroSlider() {
@@ -67,11 +56,7 @@ export function HeroSlider() {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
 
   return (
-    <div className="relative w-full h-[580px] sm:h-[640px] lg:h-[700px] overflow-hidden border-b border-amber-900/30 bg-gradient-to-br from-neutral-950 via-[#3a1d05] to-amber-900">
-      {/* Ambient warm glow accents (orange/black brand theme) */}
-      <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-amber-500/25 blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 left-1/3 w-[400px] h-[400px] rounded-full bg-orange-600/20 blur-[100px] pointer-events-none" />
-
+    <div className="relative w-full h-[580px] sm:h-[640px] lg:h-[700px] overflow-hidden border-b border-amber-900/30 bg-neutral-950">
       {/* Background Slides */}
       {SLIDES.map((slide, idx) => (
         <div
@@ -80,20 +65,20 @@ export function HeroSlider() {
             idx === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
           }`}
         >
-          {/* Product bottle, glowing on the right, lightening the whole scene */}
-          <div className="absolute right-[-40px] sm:right-8 lg:right-16 top-1/2 -translate-y-1/2 w-[220px] sm:w-[320px] lg:w-[420px] h-[75%] pointer-events-none">
-            <div className="absolute inset-0 rounded-full bg-amber-400/30 blur-[90px]" />
-            <Image
-              src={slide.image}
-              alt={slide.title}
-              fill
-              priority={idx === 0}
-              className="object-contain drop-shadow-[0_0_60px_rgba(251,191,36,0.35)]"
-              sizes="(max-width: 640px) 220px, (max-width: 1024px) 320px, 420px"
-            />
-          </div>
+          {/* Real, on-brand bottle photography as a bright full-bleed background */}
+          <Image
+            src={slide.image}
+            alt={slide.title}
+            fill
+            priority={idx === 0}
+            className="object-cover object-center"
+            sizes="100vw"
+          />
 
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/70 to-transparent" />
+          {/* Warm amber/black brand-tint overlay — kept light so the photo stays bright */}
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/90 via-neutral-950/45 to-amber-950/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/10" />
+          <div className="absolute inset-0 mix-blend-overlay bg-gradient-to-br from-amber-500/25 via-transparent to-transparent" />
 
           {/* Slide Content */}
           <div className="relative z-20 max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
