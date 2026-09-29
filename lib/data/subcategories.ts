@@ -14,21 +14,21 @@ export const SUBCATEGORIES: Subcategory[] = [
       "macallan",
       "royal salute 21",
       "royal salute",
-      "scotch whiskey",
       "maclagan whisky",
       "glendronach 18",
       "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
       "johnny walker scotch",
-      "maccallan",
       "glendronach 21",
       "laphroiag",
       "royal salute scotch",
       "macallan uisque",
       "macallan 12 price",
       "macalln 12",
-      "the macallan single malt"
+      "the macallan single malt",
+      "maccalan",
+      "macellan whiskey",
+      "the macallan scotch",
+      "the macallan scotch whiskey"
     ],
     "faqs": [
       {
@@ -58,16 +58,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "scotch whisky",
       "wild turkey bourbon",
       "american whiskey",
-      "bourbons",
       "united states whiskey",
       "japanese whiskey yamazaki",
       "buy whiskey",
       "japanese blend whisky",
       "bourbon australia",
       "american bourbon",
-      "bourbon bourbon whisky",
-      "bourbon whisky",
-      "buy bourbon online"
+      "bourbon on sale",
+      "buy bourbon online",
+      "bourbon alcohol",
+      "japanese whiske"
     ],
     "faqs": [
       {
@@ -101,12 +101,12 @@ export const SUBCATEGORIES: Subcategory[] = [
       "bourbon vs whiskey vs rye",
       "ryes spirits",
       "rossville union rye whiskey",
-      "whats rye whiskey",
       "buy rye whiskey online",
       "rittenhouse straight rye",
       "rossville union master crafted straight rye whiskey",
       "rye vs bourbon whiskey",
-      "what rye whiskey"
+      "what rye whiskey",
+      "white rye whiskey"
     ],
     "faqs": [
       {
@@ -131,12 +131,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/japanese-whisky/nikka--tds-nikka-12-2.jpg",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
-      "japanese whisky",
       "japanese blend whisky",
       "japan whisky",
-      "japanese whiske",
       "whisky japanese",
-      "japenese whiskey",
       "japanese whiskey bar sydney",
       "japanese whiskies",
       "suntory japanese whisky",
@@ -144,13 +141,15 @@ export const SUBCATEGORIES: Subcategory[] = [
       "japanese scotch whisky",
       "japenese whisky",
       "japanese wisky",
-      "whiskey japanese",
       "whisky japan",
       "japanese whiksy",
       "japanese whisky bar",
       "japanese whisky delivery",
       "japanses whisky",
-      "santori whiskey"
+      "santori whiskey",
+      "whiskey brands japan",
+      "jap whiskey",
+      "matsui whisky"
     ],
     "faqs": [
       {
@@ -177,19 +176,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "secondaryKeywords": [
       "australian whiskey brands",
       "australian single malt whiskey",
-      "australian whiskeys",
       "australian whiskies",
-      "australian whisky brands",
       "top 10 whisky in australia",
       "best australian whiskies",
       "australian made whiskey",
       "honey whiskey australia",
-      "best australian whisky 2025",
-      "best single malt whiskey in australia",
-      "best whiskey under $100 australia",
+      "australian scotch whisky",
+      "best bourbon whiskey australia",
+      "best smoky whisky australia",
       "best whisky under $150 australia",
       "whiskey reviews australia",
-      "whisky or whiskey australia"
+      "whisky or whiskey australia",
+      "australia famous whiskey",
+      "australian bourbon whisky"
     ],
     "faqs": [
       {
@@ -207,80 +206,197 @@ export const SUBCATEGORIES: Subcategory[] = [
     ]
   },
   {
-    "slug": "vodka",
-    "name": "Premium Vodka",
+    "slug": "french-vodka",
+    "name": "French Vodka",
     "category": "spirit",
-    "description": "Shop Premium Vodka at Doctors of Whisky — vodka specialists with 39 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/vodka/french-vodka--tds-ciroc-pineapple.jpg",
-    "primaryKeyword": "vodka",
+    "description": "Shop French Vodka at Doctors of Whisky — french vodka specialists with 4 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/french-vodka/french-vodka--tds-ciroc-pineapple.jpg",
+    "primaryKeyword": "french vodka",
     "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
+      "vodka",
+      "grey goose",
+      "gray goose liquor",
       "vodka bottle",
       "bottle of vodka",
       "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
+      "vodka price",
+      "vodka grey goose",
+      "absolut absolut vodka",
+      "vodka on sale",
+      "grey goose bottle",
+      "grey goose cost",
+      "gray goose 1 liter price",
+      "gray goose vodka 1 liter price",
+      "grey goose price 1 liter price"
     ],
     "faqs": [
       {
-        "question": "What makes Premium Vodka worth buying?",
-        "answer": "Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes French Vodka worth buying?",
+        "answer": "French Vodka is a genuine, provenance-verified french vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Premium Vodka authentic, and how is it stored?",
+        "question": "Is French Vodka authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Premium Vodka?",
-        "answer": "Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for French Vodka?",
+        "answer": "French Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
   {
-    "slug": "tequila",
-    "name": "Tequila",
+    "slug": "russian-vodka",
+    "name": "Russian Vodka",
     "category": "spirit",
-    "description": "Shop Tequila at Doctors of Whisky — tequila specialists with 42 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/tequila/don-julio--tds-don-julio-1942-50ml.jpg",
-    "primaryKeyword": "tequila",
+    "description": "Shop Russian Vodka at Doctors of Whisky — russian vodka specialists with 16 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/russian-vodka/russian-vodka--tds-belenkaya-vodka.jpg",
+    "primaryKeyword": "russian vodka",
     "secondaryKeywords": [
-      "don julio",
-      "patron",
-      "donjulio",
-      "don hulio",
-      "teqila",
-      "tiquila",
-      "trquila",
-      "tequil",
-      "tequilaa",
-      "don juilio",
-      "don jolio",
-      "don julio reposado",
-      "silver patron tequila",
-      "silver tequila",
-      "tequila patron"
+      "vodla",
+      "russian standard vodka",
+      "codka",
+      "vodka best in the world",
+      "vodka australia",
+      "bottle of vodka cost",
+      "russian vodka brands",
+      "vodka prices",
+      "finest russian vodka",
+      "best rated vodkas in the world",
+      "russian standard vodka company",
+      "russian standard vodka gold",
+      "russian vodka australia",
+      "best vodka of russia",
+      "voldka"
     ],
     "faqs": [
       {
-        "question": "What makes Tequila worth buying?",
-        "answer": "Tequila is a genuine, provenance-verified tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Russian Vodka worth buying?",
+        "answer": "Russian Vodka is a genuine, provenance-verified russian vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Tequila authentic, and how is it stored?",
+        "question": "Is Russian Vodka authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Tequila?",
-        "answer": "Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Russian Vodka?",
+        "answer": "Russian Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "polish-vodka",
+    "name": "Polish Vodka",
+    "category": "spirit",
+    "description": "Shop Polish Vodka at Doctors of Whisky — polish vodka specialists with 9 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/polish-vodka/polish-vodka--tds-belvedere-1l.jpg",
+    "primaryKeyword": "polish vodka",
+    "secondaryKeywords": [
+      "vodla",
+      "vodka bottle",
+      "vodka price",
+      "vodka on sale",
+      "codka",
+      "vodka alcohol",
+      "vodka alc",
+      "vodka bottle price",
+      "polish vodka australia",
+      "vodkas",
+      "bottle of vodka price",
+      "how much is a bottle of vodka",
+      "vodka of poland",
+      "vofka",
+      "vodka buy"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Polish Vodka worth buying?",
+        "answer": "Polish Vodka is a genuine, provenance-verified polish vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Polish Vodka authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Polish Vodka?",
+        "answer": "Polish Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "grey-goose",
+    "name": "Grey Goose",
+    "category": "spirit",
+    "description": "Shop Grey Goose at Doctors of Whisky — grey goose specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/grey-goose/grey-goose--tds-grey-goose-1l.jpg",
+    "primaryKeyword": "grey goose",
+    "secondaryKeywords": [
+      "vodka",
+      "grey goose vodka",
+      "grey goose 1l",
+      "grey goose 1 litre",
+      "grey goose vodka 1l",
+      "bottle of vodka",
+      "vodka grey goose",
+      "vodka price",
+      "liquor grey goose",
+      "vodka sale",
+      "vodka on special",
+      "price of grey goose",
+      "grey goose liquor price",
+      "grey grouse vodka price",
+      "price of grey goose vodka 1 litre"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Grey Goose worth buying?",
+        "answer": "Grey Goose is a genuine, provenance-verified grey goose bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Grey Goose authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Grey Goose?",
+        "answer": "Grey Goose can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "belvedere",
+    "name": "Belvedere",
+    "category": "spirit",
+    "description": "Shop Belvedere at Doctors of Whisky — belvedere specialists with 8 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/belvedere/belvedere--tds-belvedere-1l.jpg",
+    "primaryKeyword": "belvedere",
+    "secondaryKeywords": [
+      "vodka",
+      "vodka bottle",
+      "vodka price",
+      "vodka sale",
+      "vodka on special",
+      "vodka drink price",
+      "cheap cheap vodka",
+      "smirnoff vodka smirnoff",
+      "vodka australia",
+      "bottle of vodka cost",
+      "belvedere near me",
+      "bottle vodka",
+      "vokda",
+      "how much is a bottle of vodka",
+      "belevedere hotel"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Belvedere worth buying?",
+        "answer": "Belvedere is a genuine, provenance-verified belvedere bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Belvedere authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Belvedere?",
+        "answer": "Belvedere can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -292,21 +408,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/mezcal/mezcal--tds-guerrero-mezcal-50ml-nohat.jpg",
     "primaryKeyword": "mezcal",
     "secondaryKeywords": [
-      "mez cal",
-      "mezcals",
-      "mazcal",
-      "mezcal and tequila",
-      "mezcals tequila bar & restaurant merimbula",
-      "mezcal near me",
-      "mescal tequila",
+      "mezcal tequila",
+      "buy mezcal online australia",
+      "mezcal alcohol",
+      "what is mescal",
+      "mescal meaning",
       "mezcaleria near me",
       "where does mezcal come from",
       "buy mezcal tequila",
       "definition of mezcal",
-      "how to pronounce mezcal",
-      "is mezcal mexican",
-      "maz mezcal restaurant",
-      "meaning of mezcal"
+      "is mescal an irish name",
+      "la mezcaleria vancouver",
+      "maz mezcal restaurant nyc",
+      "mescal last name",
+      "mescal name",
+      "mescal or mezcal"
     ],
     "faqs": [
       {
@@ -324,41 +440,275 @@ export const SUBCATEGORIES: Subcategory[] = [
     ]
   },
   {
-    "slug": "cognac-brandy",
-    "name": "Cognac & Brandy",
+    "slug": "patron",
+    "name": "Patrón",
     "category": "spirit",
-    "description": "Shop Cognac & Brandy at Doctors of Whisky — brandy specialists with 35 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/cognac-brandy/martell--tds-martell-blue-swift-90a7dfbe-881b-48a1-9ac0-b4e9564f57bf.jpg",
-    "primaryKeyword": "brandy",
+    "description": "Shop Patrón at Doctors of Whisky — patron specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/patron/patron--tds-patron-50ml-collection.jpg",
+    "primaryKeyword": "patron",
     "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
+      "tequila",
+      "tequila tequila tequila",
+      "tequila blanco",
+      "silver tequila",
+      "white tequila",
+      "tequila sierra",
+      "white and blue bottle of tequila",
+      "tequila 1l",
+      "tequlia",
+      "tequila for sale",
+      "tequila 700ml",
+      "tequila drink price",
+      "tequila anejo",
+      "tequila online",
+      "blue and white bottle of tequila"
     ],
     "faqs": [
       {
-        "question": "What makes Cognac & Brandy worth buying?",
-        "answer": "Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Patrón worth buying?",
+        "answer": "Patrón is a genuine, provenance-verified patrón bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Cognac & Brandy authentic, and how is it stored?",
+        "question": "Is Patrón authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Cognac & Brandy?",
-        "answer": "Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Patrón?",
+        "answer": "Patrón can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "don-julio",
+    "name": "Don Julio",
+    "category": "spirit",
+    "description": "Shop Don Julio at Doctors of Whisky — don julio specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/don-julio/don-julio--tds-don-julio-1942-50ml.jpg",
+    "primaryKeyword": "don julio",
+    "secondaryKeywords": [
+      "tequila",
+      "don julio brand",
+      "don julio branding",
+      "tequila 1942 don julio",
+      "don hulio 1942",
+      "don julio price 1942",
+      "don julio tequilla",
+      "don julio 1942 50ml",
+      "don julio 1942 dan murphy",
+      "don julio tequila 1842",
+      "price don julio tequila",
+      "real don julio tequila",
+      "don julio the real",
+      "price for don julio",
+      "real tequila don julio"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Don Julio worth buying?",
+        "answer": "Don Julio is a genuine, provenance-verified don julio bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Don Julio authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Don Julio?",
+        "answer": "Don Julio can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "jose-cuervo",
+    "name": "Jose Cuervo",
+    "category": "spirit",
+    "description": "Shop Jose Cuervo at Doctors of Whisky — jose cuervo specialists with 4 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/jose-cuervo/jose-cuervo--tds-jose-cuervo-cristalino-anejo.jpg",
+    "primaryKeyword": "jose cuervo",
+    "secondaryKeywords": [
+      "tequila",
+      "josé cuervo tequilería",
+      "jose cuervo marg",
+      "jose cuervo tequila 1l",
+      "tequilas cuervo",
+      "jose cuervo premix",
+      "bws jose cuervo",
+      "cuervo tequila price",
+      "jose cuervo blanco",
+      "jose cuervo cost",
+      "jose cuervo distributor",
+      "jose cuervo especial silver",
+      "jose cuervo mix",
+      "jose cuervo price",
+      "jose cuervo tequila price"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Jose Cuervo worth buying?",
+        "answer": "Jose Cuervo is a genuine, provenance-verified jose cuervo bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Jose Cuervo authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Jose Cuervo?",
+        "answer": "Jose Cuervo can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "white-tequila",
+    "name": "White Tequila",
+    "category": "spirit",
+    "description": "Shop White Tequila at Doctors of Whisky — white tequila specialists with 9 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/white-tequila/white-tequila--tds-cabo-wabo-blanco-new.jpg",
+    "primaryKeyword": "white tequila",
+    "secondaryKeywords": [
+      "tequila",
+      "tequila blanco",
+      "white and blue bottle of tequila",
+      "jose tequila",
+      "tequlia",
+      "tequila jimador",
+      "tequila affordable",
+      "best inexpensive tequila",
+      "tequila alcohol",
+      "mexico tequila",
+      "blue white bottle tequila",
+      "tequila white bottle",
+      "clase azul plata tequila",
+      "tequila with blue and white bottle",
+      "cheap tequilla"
+    ],
+    "faqs": [
+      {
+        "question": "What makes White Tequila worth buying?",
+        "answer": "White Tequila is a genuine, provenance-verified white tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is White Tequila authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for White Tequila?",
+        "answer": "White Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "gold-tequila",
+    "name": "Gold Tequila",
+    "category": "spirit",
+    "description": "Shop Gold Tequila at Doctors of Whisky — gold tequila specialists with 9 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/gold-tequila/gold-tequila--tds-cabo-wabo-anejo-new.jpg",
+    "primaryKeyword": "gold tequila",
+    "secondaryKeywords": [
+      "tequila gold",
+      "teqila",
+      "trquila",
+      "tequilaa",
+      "tequila australia",
+      "white and blue bottle of tequila",
+      "tequlia",
+      "tequila for sale",
+      "tequila deals",
+      "tequila jimador",
+      "blue and white bottle of tequila",
+      "tequila au",
+      "bottle of tequila",
+      "tequila cuervo gold",
+      "jose cuervo tequila gold"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Gold Tequila worth buying?",
+        "answer": "Gold Tequila is a genuine, provenance-verified gold tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Gold Tequila authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Gold Tequila?",
+        "answer": "Gold Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "spiced-rum",
+    "name": "Spiced Rum",
+    "category": "spirit",
+    "description": "Shop Spiced Rum at Doctors of Whisky — spiced rum specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Dark Rum on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg",
+    "primaryKeyword": "spiced rum",
+    "secondaryKeywords": [
+      "rum with spices",
+      "chairman's reserve spiced rum",
+      "rum spice",
+      "spiced rum spices",
+      "spicy rum",
+      "foursquare spiced rum",
+      "nice spiced rum",
+      "cocktails made with spiced rum",
+      "beach house spiced rum",
+      "husk spiced rum",
+      "infused with cloves and cinnamon rum crossword clue",
+      "original spiced rum",
+      "spiced rum best",
+      "spiced rum liquorland",
+      "what is spiced rum"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Spiced Rum worth buying?",
+        "answer": "Spiced Rum is a genuine, provenance-verified spiced rum bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Spiced Rum authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Spiced Rum?",
+        "answer": "Spiced Rum can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "white-rum",
+    "name": "White Rum",
+    "category": "spirit",
+    "description": "Shop White Rum at Doctors of Whisky — white rum specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/white-rum/white-rum--tds-bacardi-blanca-200.jpg",
+    "primaryKeyword": "white rum",
+    "secondaryKeywords": [
+      "rum white",
+      "white rum for daiquiri",
+      "white rum for mojitos",
+      "whats white rum",
+      "white rum vs dark rum",
+      "best white rum for pina colada",
+      "kinds of white rum",
+      "white rum liquorland",
+      "best white rum mojito",
+      "dark rum vs white rum",
+      "difference between white rum and dark rum",
+      "liquorland white rum",
+      "miniature white rum",
+      "white rum 1l",
+      "white rum best for mojito"
+    ],
+    "faqs": [
+      {
+        "question": "What makes White Rum worth buying?",
+        "answer": "White Rum is a genuine, provenance-verified white rum bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is White Rum authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for White Rum?",
+        "answer": "White Rum can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -370,23 +720,27 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/gin/gin--tds-bombay-sapphire-be97ac0d-3a44-4d13-b66c-ecd440264060.jpg",
     "primaryKeyword": "gin",
     "secondaryKeywords": [
-      "gin]",
       "gins",
-      "buy gin",
       "australia gin",
-      "pre-mixed vodka",
-      "premix vodka",
-      "vodka premixes",
-      "gin in a can",
-      "vodka pre mix",
-      "whiskey premix",
-      "premixed vodka soda",
-      "boutique gin",
-      "gin as a gift",
-      "award winning gin",
-      "rum premix"
+      "gin online",
+      "gin au",
+      "gin from australia",
+      "award winning australian gin",
+      "gins brands",
+      "best gin to buy in australia",
+      "liqourland gin",
+      "most popular gin in australia",
+      "best gin bottles",
+      "brand of gin",
+      "premium gin australia",
+      "gin for a gift",
+      "australian craft gin"
     ],
     "faqs": [
+      {
+        "question": "Can I buy Gin online in Australia?",
+        "answer": "Yes — Gin is available to buy online through Doctors of Whisky, with insured, signature-on-delivery shipping Australia-wide. Orders over $1500 AUD qualify for free express courier, and a 12% discount applies automatically when paying with Bitcoin or USDT."
+      },
       {
         "question": "What makes Gin worth buying?",
         "answer": "Gin is a genuine, provenance-verified gin bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
@@ -394,49 +748,6 @@ export const SUBCATEGORIES: Subcategory[] = [
       {
         "question": "Is Gin authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Gin?",
-        "answer": "Gin can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ]
-  },
-  {
-    "slug": "rum",
-    "name": "Rum",
-    "category": "spirit",
-    "description": "Shop Rum at Doctors of Whisky — dark rum specialists with 15 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/rum/white-rum--tds-bacardi-blanca-200.jpg",
-    "primaryKeyword": "dark rum",
-    "secondaryKeywords": [
-      "bacardi black rum",
-      "bacardi dark rum",
-      "bacardi black 1l",
-      "bacardi black australia",
-      "bacardi black label",
-      "bacardi black rum price",
-      "bacardi brown rum",
-      "bacardi carta negra 1l",
-      "bacardi carta negra review",
-      "bacardi dark",
-      "bacardi double black",
-      "bacardi negra rum",
-      "bacardí black rum",
-      "black bart rum review",
-      "black by bacardi"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Rum worth buying?",
-        "answer": "Rum is a genuine, provenance-verified rum bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Rum authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Rum?",
-        "answer": "Rum can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -450,19 +761,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "secondaryKeywords": [
       "chinese baijiu",
       "baijiu chinese drink",
-      "bai jiu",
-      "baijiu alcohol",
+      "白酒",
       "wines from china",
-      "白酒 英文",
-      "bai jiu alcohol",
-      "chinese alcohol spirit",
+      "moutai baijiu",
       "chinese liqour",
-      "what is baiju",
-      "chinese alcoholic beverages",
-      "chinese wines",
-      "白酒 介紹",
+      "china whiskey",
+      "chinese alcoholic drinks",
       "baijui",
-      "baijiu chinese alcohol"
+      "baijiu chinese alcohol",
+      "best chinese baijiu",
+      "chinese alcohol baijiu",
+      "chinese bamboo wine",
+      "chinese liquors",
+      "chinese spirit baijiu"
     ],
     "faqs": [
       {
@@ -480,80 +791,353 @@ export const SUBCATEGORIES: Subcategory[] = [
     ]
   },
   {
-    "slug": "italian-liqueurs",
-    "name": "Italian Liqueurs & Aperitifs",
+    "slug": "cognac-brandy",
+    "name": "Cognac & Brandy",
     "category": "spirit",
-    "description": "Shop Italian Liqueurs & Aperitifs at Doctors of Whisky — limoncello specialists with 23 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/italian-liqueurs/amaro--tds-amaro-averna.jpg",
-    "primaryKeyword": "limoncello",
+    "description": "Shop Cognac & Brandy at Doctors of Whisky — brandy specialists with 35 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/cognac-brandy/martell--tds-martell-blue-swift-90a7dfbe-881b-48a1-9ac0-b4e9564f57bf.jpg",
+    "primaryKeyword": "brandy",
     "secondaryKeywords": [
-      "aperol",
-      "sambuca",
-      "camapri",
-      "lemonchello",
-      "limoncello lemoncello",
-      "galliano sambuca",
-      "compari",
-      "what is limoncello",
-      "sambuca alcohol",
-      "what is limoncello liqueur",
-      "limonchello",
-      "what is a limoncello",
-      "limoncello alcohol",
-      "amaro o",
-      "limoncello spritzer cocktail"
+      "cognac",
+      "martell",
+      "martell blue swift",
+      "cognac is what",
+      "martell xo",
+      "vsop cognac",
+      "remy martin cognac",
+      "hennessy xo cognac",
+      "martell cognac xo",
+      "brandymelvilleusa",
+      "cognac brandy",
+      "brandy booze",
+      "xo in cognac",
+      "buy cognac online",
+      "cognac xo hennessy"
     ],
     "faqs": [
       {
-        "question": "What makes Italian Liqueurs & Aperitifs worth buying?",
-        "answer": "Italian Liqueurs & Aperitifs is a genuine, provenance-verified italian liqueurs & aperitifs bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Cognac & Brandy worth buying?",
+        "answer": "Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Italian Liqueurs & Aperitifs authentic, and how is it stored?",
+        "question": "Is Cognac & Brandy authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Italian Liqueurs & Aperitifs?",
-        "answer": "Italian Liqueurs & Aperitifs can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Cognac & Brandy?",
+        "answer": "Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
   {
-    "slug": "flavoured-cream-liqueurs",
-    "name": "Flavoured & Cream Liqueurs",
+    "slug": "baileys-irish-cream",
+    "name": "Baileys Irish Cream",
     "category": "spirit",
-    "description": "Shop Flavoured & Cream Liqueurs at Doctors of Whisky — baileys irish cream specialists with 33 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/flavoured-cream-liqueurs/orange-liqueur--tds-1800-guachimonton.jpg",
+    "description": "Shop Baileys Irish Cream at Doctors of Whisky — baileys irish cream specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/baileys-irish-cream/baileys-irish-cream--tds-baileys-1l.jpg",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
-      "orange liqueur",
-      "orange liquer",
-      "dissarono",
+      "cream liqueur",
       "cream baileys",
-      "dissaronno",
-      "cinnamon liqueur",
-      "grandmarnier",
-      "disaronno originale amaretto liqueur",
-      "coontreau",
-      "price for disaronno",
-      "cinnamon flavored whiskey",
-      "cinnamon whisky cocktail",
-      "cinnamon schnapps",
-      "disorano",
-      "cinnamon booze"
+      "baileys irish",
+      "baileys liqueur",
+      "liqueur baileys",
+      "baileys irish cream 1 litre",
+      "jameson irish",
+      "baileys irish cream liqueur 1 litre",
+      "baileys liqueur 1l",
+      "baileys irish cream price",
+      "baileys alcohol price",
+      "cream bailey",
+      "baileys irish cream 700ml",
+      "baileys irish cream specials",
+      "baileys irish cream liqueur price"
     ],
     "faqs": [
       {
-        "question": "What makes Flavoured & Cream Liqueurs worth buying?",
-        "answer": "Flavoured & Cream Liqueurs is a genuine, provenance-verified flavoured & cream liqueurs bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Baileys Irish Cream worth buying?",
+        "answer": "Baileys Irish Cream is a genuine, provenance-verified baileys irish cream bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Flavoured & Cream Liqueurs authentic, and how is it stored?",
+        "question": "Is Baileys Irish Cream authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Flavoured & Cream Liqueurs?",
-        "answer": "Flavoured & Cream Liqueurs can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Baileys Irish Cream?",
+        "answer": "Baileys Irish Cream can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "coffee-liqueur",
+    "name": "Coffee Liqueur",
+    "category": "spirit",
+    "description": "Shop Coffee Liqueur at Doctors of Whisky — coffee liqueur specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Kahlúa on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/coffee-liqueur/coffee-liqueur--tds-avion-espresso-tequila.jpg",
+    "primaryKeyword": "coffee liqueur",
+    "secondaryKeywords": [
+      "coffee liqueur bws",
+      "premium coffee liqueur",
+      "coffee liquier",
+      "coffe liquer",
+      "coffee liqueur woolworths",
+      "coffee liquors",
+      "grada coffee liqueur",
+      "liqueur coffee flavor",
+      "dark coffee liqueur",
+      "coffee liqueur for tiramisu",
+      "cold brew coffee liqueur",
+      "alcoholic coffee beverages",
+      "coffee and liquor drinks",
+      "coffee liquor drinks",
+      "make coffee liqueur at home"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Coffee Liqueur worth buying?",
+        "answer": "Coffee Liqueur is a genuine, provenance-verified coffee liqueur bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Coffee Liqueur authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Coffee Liqueur?",
+        "answer": "Coffee Liqueur can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "orange-liqueur",
+    "name": "Orange Liqueur",
+    "category": "spirit",
+    "description": "Shop Orange Liqueur at Doctors of Whisky — orange liqueur specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Cointreau, Grand Marnier on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/orange-liqueur/orange-liqueur--tds-1800-guachimonton.jpg",
+    "primaryKeyword": "orange liqueur",
+    "secondaryKeywords": [
+      "coontreau",
+      "contreau",
+      "orange flavoured liqueur",
+      "cointreu",
+      "grand monet",
+      "cointreau liquorland",
+      "cointreau cost",
+      "contrieu",
+      "what is cointreau liqueur",
+      "orange alcohol",
+      "liqueur orange flavored",
+      "cointreau alcohol",
+      "contreui",
+      "cointreau 700ml best price",
+      "cointreay"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Orange Liqueur worth buying?",
+        "answer": "Orange Liqueur is a genuine, provenance-verified orange liqueur bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Orange Liqueur authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Orange Liqueur?",
+        "answer": "Orange Liqueur can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "cinnamon-liqueur",
+    "name": "Cinnamon Liqueur",
+    "category": "spirit",
+    "description": "Shop Cinnamon Liqueur at Doctors of Whisky — cinnamon liqueur specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/cinnamon-liqueur/cinnamon-liqueur--tds-baileys-cinnamon-scroll.jpg",
+    "primaryKeyword": "cinnamon liqueur",
+    "secondaryKeywords": [
+      "cinnamon flavored whiskey",
+      "cinnamon whisky cocktail",
+      "cinnamon schnapps",
+      "shots cinnamon whiskey",
+      "cinnamon booze",
+      "cinnamon cocktails",
+      "cinnamon hard liquor",
+      "cinnamon schnapps drinks",
+      "cinnamon vodka",
+      "drink with cinnamon whiskey",
+      "what can i mix with cinnamon whiskey",
+      "what mixes well with cinnamon whiskey",
+      "aftershock cinnamon liqueur",
+      "alcohol that taste like cinnamon",
+      "alcoholic drinks with cinnamon"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Cinnamon Liqueur worth buying?",
+        "answer": "Cinnamon Liqueur is a genuine, provenance-verified cinnamon liqueur bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Cinnamon Liqueur authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Cinnamon Liqueur?",
+        "answer": "Cinnamon Liqueur can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "amaro",
+    "name": "Amaro",
+    "category": "spirit",
+    "description": "Shop Amaro at Doctors of Whisky — amaro specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Campari, Aperol, Chartreuse, Jägermeister, Disaronno on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/amaro/amaro--tds-amaro-averna.jpg",
+    "primaryKeyword": "amaro",
+    "secondaryKeywords": [
+      "dissarono",
+      "chatruese",
+      "disorano",
+      "jägermeister",
+      "chartruce",
+      "chartuse",
+      "chartreuse green paint",
+      "chartreuse lure color",
+      "chartreuse acrylic paint",
+      "chartreuse code",
+      "chartreuse color green",
+      "chartreuse color vs lime green",
+      "chartreuse dye",
+      "chartreuse eyes",
+      "chartreuse gem"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Amaro worth buying?",
+        "answer": "Amaro is a genuine, provenance-verified amaro bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Amaro authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Amaro?",
+        "answer": "Amaro can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "absinthe",
+    "name": "Absinthe",
+    "category": "spirit",
+    "description": "Shop Absinthe at Doctors of Whisky — absinthe specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/absinthe/absinthe--tds-absinthe-black-100.jpg",
+    "primaryKeyword": "absinthe",
+    "secondaryKeywords": [
+      "absinthe alcohol",
+      "absinthe australia",
+      "absinthe drink",
+      "absenta absinthe",
+      "absinthe fountain",
+      "absine",
+      "absinthe in australia",
+      "green fairy absinthe drink",
+      "absithne",
+      "absinthe booze",
+      "absinthe purchase",
+      "spirit absinthe",
+      "absinthe the green fairy",
+      "absinthe drink buy",
+      "can you get real absinthe anymore"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Absinthe worth buying?",
+        "answer": "Absinthe is a genuine, provenance-verified absinthe bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Absinthe authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Absinthe?",
+        "answer": "Absinthe can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "limoncello",
+    "name": "Limoncello",
+    "category": "spirit",
+    "description": "Shop Limoncello at Doctors of Whisky — limoncello specialists with 8 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing St Germain on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/limoncello/limoncello--tds-24-ice-frozen-cocktails-5pack.jpg",
+    "primaryKeyword": "limoncello",
+    "secondaryKeywords": [
+      "st germain",
+      "lemonchello",
+      "limoncello lemoncello",
+      "what is limoncello",
+      "homemade limoncello",
+      "limoncello spritzer cocktail",
+      "limoncello black cockatoo",
+      "liqueur st germain",
+      "drink recipes with limoncello",
+      "recipe for limoncello liqueur",
+      "san germain liquor",
+      "lemoncillo",
+      "how do you make limoncello liqueur",
+      "is limoncello alcoholic",
+      "st-germain elderflower liqueur"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Limoncello worth buying?",
+        "answer": "Limoncello is a genuine, provenance-verified limoncello bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Limoncello authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Limoncello?",
+        "answer": "Limoncello can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "sambuca",
+    "name": "Sambuca",
+    "category": "spirit",
+    "description": "Shop Sambuca at Doctors of Whisky — sambuca specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/sambuca/sambuca--tds-galliano-authentico.jpg",
+    "primaryKeyword": "sambuca",
+    "secondaryKeywords": [
+      "galliano sambuca",
+      "sambooka",
+      "alcohol in sambuca",
+      "blue sambuca",
+      "whats sambuca",
+      "sambuca price",
+      "red sambuca",
+      "sambuca liqueur",
+      "what is sambuca liqueur",
+      "alcohol sambuca",
+      "black zambucca",
+      "sambuca italy",
+      "sambuca sicilia",
+      "what does sambuca taste like",
+      "alcohol free sambuca"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Sambuca worth buying?",
+        "answer": "Sambuca is a genuine, provenance-verified sambuca bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Sambuca authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Sambuca?",
+        "answer": "Sambuca can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -566,20 +1150,20 @@ export const SUBCATEGORIES: Subcategory[] = [
     "primaryKeyword": "soju",
     "secondaryKeywords": [
       "soju alcohol",
-      "soju alcohol percentage",
+      "soju drink",
       "soju beverage",
       "soju flavours",
       "korean liquor soju",
       "soju alcohol volume",
-      "soju korean",
       "soju percentage",
       "soju alc content",
       "soju strawberry",
-      "so ju",
       "soju drink buy",
       "korean alcoholic drink soju",
       "soju korean alcohol",
-      "soju korean wine"
+      "soju korean wine",
+      "soju grape",
+      "define soju"
     ],
     "faqs": [
       {
@@ -597,41 +1181,80 @@ export const SUBCATEGORIES: Subcategory[] = [
     ]
   },
   {
-    "slug": "craft-imported-beer",
-    "name": "Craft & Imported Beer",
+    "slug": "lager",
+    "name": "Lager",
     "category": "beer-premix-wine",
-    "description": "Shop Craft & Imported Beer at Doctors of Whisky — imported beer specialists with 6 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/craft-imported-beer/lager--tds-budweiser-330ml.jpg",
-    "primaryKeyword": "imported beer",
+    "description": "Shop Lager at Doctors of Whisky — lager specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Pale Ale on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/lager/lager--tds-budweiser-330ml.jpg",
+    "primaryKeyword": "lager",
     "secondaryKeywords": [
-      "imported beers",
-      "pale.ale",
       "pale alw",
-      "lager beer",
-      "india pale ales",
+      "p ale",
       "coopers premium light",
-      "ipa online",
-      "ipa ales",
-      "what is a i.p.a",
-      "lager beers",
-      "ipa style beer",
-      "what is pale beer",
-      "beer india pale ale",
+      "lager beer australia",
       "beer lager",
-      "what is a pale ale"
+      "cooper draught",
+      "coopers australian lager 440ml",
+      "coopers australia",
+      "coopers european lager",
+      "liquorland coopers",
+      "name of beer",
+      "australian lager recipe",
+      "best coopers beer",
+      "bws coopers australian lager",
+      "carton of coopers"
     ],
     "faqs": [
       {
-        "question": "Is Craft & Imported Beer aged, and does that affect the price?",
-        "answer": "Craft & Imported Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
+        "question": "Is Lager aged, and does that affect the price?",
+        "answer": "Lager does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
       },
       {
-        "question": "What makes Craft & Imported Beer worth buying?",
-        "answer": "Craft & Imported Beer is a genuine, provenance-verified craft & imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Lager worth buying?",
+        "answer": "Lager is a genuine, provenance-verified lager bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Craft & Imported Beer authentic, and how is it stored?",
+        "question": "Is Lager authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      }
+    ]
+  },
+  {
+    "slug": "imported-beer",
+    "name": "Imported Beer",
+    "category": "beer-premix-wine",
+    "description": "Shop Imported Beer at Doctors of Whisky — imported beer specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing IPA on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg",
+    "primaryKeyword": "imported beer",
+    "secondaryKeywords": [
+      "ipa",
+      "australian beer",
+      "india pale ales",
+      "ipa online",
+      "ipa ales",
+      "what is a i p a",
+      "what is an i p a beer",
+      "beer au",
+      "beer india pale ale",
+      "australia ipa",
+      "ipa the",
+      "beer what does ipa stand for",
+      "what does i p a stand for in beer",
+      "what does ipa mean",
+      "whats ipa"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Imported Beer worth buying?",
+        "answer": "Imported Beer is a genuine, provenance-verified imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Imported Beer authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Imported Beer?",
+        "answer": "Imported Beer can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -643,23 +1266,27 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-clausthaler-original-500ml.jpg",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
-      "light beers",
       "non alcoholic beverage",
       "no alcohol drinks",
       "non alc drinks",
-      "non-alc",
-      "lightweight beer",
-      "non wine",
-      "non alcoholic red wine",
-      "non alcoholic wine drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
+      "non alcoholic",
+      "non alcohol",
+      "non alcoholic beverages",
+      "alcohol free drinks",
+      "lite beer",
+      "zero alcohol",
+      "light beer australia",
+      "alcohol free",
       "zero alcohol drinks",
-      "no alcohol",
-      "no alcohol wine"
+      "no alcohol wine",
+      "non alcohol drinks",
+      "non alcoholic drinks australia"
     ],
     "faqs": [
+      {
+        "question": "Is Non-Alcoholic Beer aged, and does that affect the price?",
+        "answer": "Non-Alcoholic Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
+      },
       {
         "question": "What makes Non-Alcoholic Beer worth buying?",
         "answer": "Non-Alcoholic Beer is a genuine, provenance-verified non-alcoholic beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
@@ -667,49 +1294,45 @@ export const SUBCATEGORIES: Subcategory[] = [
       {
         "question": "Is Non-Alcoholic Beer authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Non-Alcoholic Beer?",
-        "answer": "Non-Alcoholic Beer can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
   {
-    "slug": "cider",
-    "name": "Cider",
+    "slug": "ginger-beer",
+    "name": "Ginger Beer",
     "category": "beer-premix-wine",
-    "description": "Shop Cider at Doctors of Whisky — cider specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/cider/cider--tds-little-fat-lamb-creaming-soda.jpg",
-    "primaryKeyword": "cider",
+    "description": "Shop Ginger Beer at Doctors of Whisky — ginger beer specialists with 1 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/ginger-beer/ginger-beer--tds-ginger-kid-ginger-beer.jpg",
+    "primaryKeyword": "ginger beer",
     "secondaryKeywords": [
-      "cider cider cider",
-      "cider aus",
-      "berry cider",
-      "cider au",
-      "bundaberg apple cider",
-      "crafted cider",
-      "honey cider",
-      "apple cidae",
-      "cider sales",
-      "is drinking apple cider healthy",
-      "whats apple cider",
-      "cidder",
-      "apple cider is good for you",
-      "apple ciider",
-      "buy apple cider"
+      "beer ginger beer",
+      "ginger and beer",
+      "does ginger beer have alcohol",
+      "brown snake ginger beer",
+      "goat ginger beer",
+      "ginger beer au",
+      "ginger beer beer",
+      "ginger beer alcoholic percentage",
+      "bobby ginger beer",
+      "does ginger beer contain caffeine",
+      "whats ginger beer",
+      "ginger beer and ginger ale",
+      "mulled ginger beer",
+      "yeast in ginger beer",
+      "alcohol content of ginger beer"
     ],
     "faqs": [
       {
-        "question": "Is Cider aged, and does that affect the price?",
-        "answer": "Cider does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
+        "question": "What makes Ginger Beer worth buying?",
+        "answer": "Ginger Beer is a genuine, provenance-verified ginger beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "What makes Cider worth buying?",
-        "answer": "Cider is a genuine, provenance-verified cider bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Cider authentic, and how is it stored?",
+        "question": "Is Ginger Beer authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Ginger Beer?",
+        "answer": "Ginger Beer can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
@@ -725,17 +1348,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "rose wine",
       "wine delivery",
       "wine red",
-      "red wine au",
-      "buy wine online",
-      "buy red wine",
-      "red wine shiraz",
+      "shop wines",
+      "wine red wine",
+      "buy red wine online",
+      "red wine australia",
       "شاردوناي",
-      "order wine online",
-      "redwine",
+      "riesling wines",
       "red wine delivery",
       "online wine australia",
-      "buying wines",
-      "red wine bottle"
+      "wine offers",
+      "red wine offers",
+      "online wine shop"
     ],
     "faqs": [
       {
@@ -760,21 +1383,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/white-wine/white-wine--tds-alexanderhill-chardonnay.jpg",
     "primaryKeyword": "white wine",
     "secondaryKeywords": [
-      "a white wine",
-      "whitr wine",
-      "whote wine",
       "wine white",
-      "wine white wines",
-      "wine blanc",
-      "wines",
+      "red wine",
+      "wine and white",
+      "wine delivery",
+      "shiraz wine",
       "souvignier blanc",
       "white wine and",
-      "white wine varieties",
-      "shop wines",
-      "wine red wine",
-      "white dry wines",
-      "sauvignon blanc white wine",
-      "order wine online"
+      "cabernet sauvignon wine",
+      "buy wine online",
+      "wine online",
+      "australian white wine",
+      "chardonnay wines",
+      "white wine sauvignon blanc",
+      "buy white wine",
+      "riesling wines"
     ],
     "faqs": [
       {
@@ -801,19 +1424,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "secondaryKeywords": [
       "wine",
       "red wine",
-      "wines",
-      "chardonnay wine",
-      "white wines",
-      "cabernet sauvignon wine",
-      "shop wines",
-      "wine red wine",
-      "buy red wine",
-      "chardonnay white wine",
-      "chardonnay wines",
+      "shiraz wine",
+      "wine pinot",
+      "cab sav wine",
+      "red wine au",
+      "buy wine online",
+      "wine online",
+      "red wine shiraz",
+      "شاردوناي",
       "riesling wines",
-      "buy wines online",
-      "wine offers",
-      "online wines"
+      "buying wines",
+      "online wines",
+      "pinot wine",
+      "wine for sale online"
     ],
     "faqs": [
       {
@@ -831,119 +1454,197 @@ export const SUBCATEGORIES: Subcategory[] = [
     ]
   },
   {
-    "slug": "sparkling-fortified-wine",
-    "name": "Sparkling & Fortified Wine",
+    "slug": "sparkling",
+    "name": "Sparkling Wine",
     "category": "beer-premix-wine",
-    "description": "Shop Sparkling & Fortified Wine at Doctors of Whisky — sparkling specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/sparkling-fortified-wine/sparkling--tds-gh-mumm-corodn-rouge-brut-4ed4acd1-ceed-4bd6-a095-bebd780071c7.jpg",
-    "primaryKeyword": "sparkling",
+    "description": "Shop Sparkling Wine at Doctors of Whisky — sparkling wine specialists with 6 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/sparkling/sparkling--tds-gh-mumm-corodn-rouge-brut-4ed4acd1-ceed-4bd6-a095-bebd780071c7.jpg",
+    "primaryKeyword": "sparkling wine",
     "secondaryKeywords": [
       "wine",
-      "red wine",
+      "sparkling",
       "wine delivery",
-      "shiraz wine",
-      "chardonnay wine",
-      "white wines",
-      "cabernet sauvignon wine",
-      "shop wines",
-      "sparkling wines",
+      "sparkling winemaking",
+      "wine pinot",
+      "cab sav wine",
+      "red wine au",
+      "buy wine online",
       "wine online",
       "red wine shiraz",
       "شاردوناي",
-      "order wine online",
       "riesling wines",
-      "buy wines online"
+      "buying wines",
+      "bubbles wines",
+      "sparkling wine wine"
     ],
     "faqs": [
       {
-        "question": "What makes Sparkling & Fortified Wine worth buying?",
-        "answer": "Sparkling & Fortified Wine is a genuine, provenance-verified sparkling & fortified wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Sparkling Wine worth buying?",
+        "answer": "Sparkling Wine is a genuine, provenance-verified sparkling wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Sparkling & Fortified Wine authentic, and how is it stored?",
+        "question": "Is Sparkling Wine authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Sparkling & Fortified Wine?",
-        "answer": "Sparkling & Fortified Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Sparkling Wine?",
+        "answer": "Sparkling Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
   {
-    "slug": "vodka-gin-premix",
-    "name": "Vodka & Gin Premix",
+    "slug": "port-wine",
+    "name": "Port",
     "category": "beer-premix-wine",
-    "description": "Shop Vodka & Gin Premix at Doctors of Whisky — vodka premix specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/vodka-gin-premix/vodka-premix--tds-24-ice-frozen-cocktails-5pack.jpg",
+    "description": "Shop Port at Doctors of Whisky — port wine specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/port-wine/port-wine--tds-penfolds-30yo-great-grandfather.jpg",
+    "primaryKeyword": "port wine",
+    "secondaryKeywords": [
+      "wine",
+      "red wine",
+      "shiraz wine",
+      "wine pinot",
+      "cab sav wine",
+      "red wine au",
+      "buy wine online",
+      "wine online",
+      "red wine shiraz",
+      "شاردوناي",
+      "riesling wines",
+      "buying wines",
+      "online wines",
+      "pinot wine",
+      "wine for sale online"
+    ],
+    "faqs": [
+      {
+        "question": "Do you deliver Port across Australia?",
+        "answer": "Yes — we ship Port to every Australian state and territory via insured, discreet courier with signature-on-delivery. Standard shipping is $75 AUD, or free on orders over $1500 AUD."
+      },
+      {
+        "question": "What makes Port worth buying?",
+        "answer": "Port is a genuine, provenance-verified port bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Port authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      }
+    ]
+  },
+  {
+    "slug": "vodka-premix",
+    "name": "Vodka Premix",
+    "category": "beer-premix-wine",
+    "description": "Shop Vodka Premix at Doctors of Whisky — vodka premix specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery. Also sourcing Gin Premix on request via our concierge — ask us to add it to your order.",
+    "heroImage": "/images/products/vodka-premix/vodka-premix--tds-24-ice-frozen-cocktails-5pack.jpg",
     "primaryKeyword": "vodka premix",
     "secondaryKeywords": [
       "pre-mixed vodka",
       "vodka premix drinks",
       "premix vodka",
       "vodka premixes",
-      "premixed vodka",
-      "vodka pre mix",
-      "pre mixed vodka",
-      "smirnoff premix",
-      "ready-to-drink cocktail",
-      "japanese vodka premix",
+      "pink gin premix",
+      "premix gin",
+      "premix gin and tonic",
+      "jameson premix",
       "pre mixed alcoholic drinks",
       "pre mix alcoholic drinks",
       "premix alcohol",
       "bourbon premix",
-      "cocktail vodka soda"
+      "cocktail vodka soda",
+      "drinks with vodka and club soda",
+      "recipe vodka soda"
     ],
     "faqs": [
       {
-        "question": "What makes Vodka & Gin Premix worth buying?",
-        "answer": "Vodka & Gin Premix is a genuine, provenance-verified vodka & gin premix bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Vodka Premix worth buying?",
+        "answer": "Vodka Premix is a genuine, provenance-verified vodka premix bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Vodka & Gin Premix authentic, and how is it stored?",
+        "question": "Is Vodka Premix authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Vodka & Gin Premix?",
-        "answer": "Vodka & Gin Premix can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Vodka Premix?",
+        "answer": "Vodka Premix can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ]
   },
   {
     "slug": "zero-sugar-seltzers",
-    "name": "Zero Sugar Seltzers",
+    "name": "Zero Sugar",
     "category": "beer-premix-wine",
-    "description": "Shop Zero Sugar Seltzers at Doctors of Whisky — zero sugar specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Zero Sugar at Doctors of Whisky — zero sugar specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/zero-sugar-seltzers/zero-sugar--tds-d9-sparkling-grape.jpg",
     "primaryKeyword": "zero sugar",
     "secondaryKeywords": [
       "light beer",
-      "light beers",
-      "lightweight beer",
-      "light beer australia",
-      "gin and tonic premix",
-      "premix gin",
-      "premix gin and tonic",
-      "premixes",
+      "premix drinks",
+      "lite beer",
+      "zero sugar drinks",
       "premix alcohol",
-      "smirnoff vodka premix",
-      "no sugar no sugar",
       "good lite beer",
-      "rum premix",
-      "good light beer",
-      "australian mid strength beers"
+      "great light beers",
+      "mid strength beers australia",
+      "beer light alcohol content",
+      "best mid strength beers australia",
+      "light beer alcohol content",
+      "nature light beer",
+      "australian light beer",
+      "best low carb mid strength beer australia",
+      "discount light beer"
     ],
     "faqs": [
       {
-        "question": "What makes Zero Sugar Seltzers worth buying?",
-        "answer": "Zero Sugar Seltzers is a genuine, provenance-verified zero sugar seltzers bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Zero Sugar worth buying?",
+        "answer": "Zero Sugar is a genuine, provenance-verified zero sugar bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Zero Sugar Seltzers authentic, and how is it stored?",
+        "question": "Is Zero Sugar authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Zero Sugar Seltzers?",
-        "answer": "Zero Sugar Seltzers can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Zero Sugar?",
+        "answer": "Zero Sugar can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ]
+  },
+  {
+    "slug": "cider",
+    "name": "Cider",
+    "category": "beer-premix-wine",
+    "description": "Shop Cider at Doctors of Whisky — cider specialists with 5 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/cider/cider--tds-little-fat-lamb-creaming-soda.jpg",
+    "primaryKeyword": "cider",
+    "secondaryKeywords": [
+      "cider cider cider",
+      "cider beverage",
+      "cider apple cider",
+      "bundaberg apple cider",
+      "crafted cider",
+      "honey cider",
+      "apple cidae",
+      "cider sales",
+      "is drinking apple cider healthy",
+      "whats apple cider",
+      "apple cider is good for you",
+      "apple ciider",
+      "buy apple cider",
+      "fruit cider",
+      "new zealand cider"
+    ],
+    "faqs": [
+      {
+        "question": "Is Cider aged, and does that affect the price?",
+        "answer": "Cider does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
+      },
+      {
+        "question": "What makes Cider worth buying?",
+        "answer": "Cider is a genuine, provenance-verified cider bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Cider authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       }
     ]
   },
@@ -951,25 +1652,25 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "mixers-water-condiments",
     "name": "Mixers, Water & Condiments",
     "category": "other",
-    "description": "Shop Mixers, Water & Condiments at Doctors of Whisky — energy drink specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/mixers-water-condiments/ginger-beer--tds-ginger-kid-ginger-beer.jpg",
+    "description": "Shop Mixers, Water & Condiments at Doctors of Whisky — energy drink specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/mixers-water-condiments/water--tds-san-pel-plastic-1l.jpg",
     "primaryKeyword": "energy drink",
     "secondaryKeywords": [
       "water",
+      "energy energy drinks",
       "condiments",
-      "energy drinks",
-      "energy drink energy",
-      "ginger and beer",
-      "has water",
       "sugar free energy drinks",
       "water supply",
       "energetic drinks",
-      "alcohol ginger beer",
-      "what about energy drinks",
-      "sugar free energy drink",
+      "energy drinks australia",
       "australia water",
       "condimental",
-      "brown snake ginger beer"
+      "jobs at water corporation",
+      "condiments & sauces",
+      "engry drink",
+      "water australia",
+      "water auth",
+      "watercopr"
     ],
     "faqs": [
       {

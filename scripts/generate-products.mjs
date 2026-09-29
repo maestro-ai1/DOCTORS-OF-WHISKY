@@ -153,11 +153,15 @@ for (const sub of SUBCATEGORIES) {
   const heroImage = images[0]?.webPath || heroManifest[Object.keys(heroManifest)[0]] || '/images/brands/macallan.jpg';
   const productCount = images.length + EXISTING_PRODUCTS.filter((p) => p.subCategorySlug === sub.slug).length;
 
+  const inquiryNote = sub.relatedInquiry && sub.relatedInquiry.length > 0
+    ? ` Also sourcing ${sub.relatedInquiry.join(', ')} on request via our concierge — ask us to add it to your order.`
+    : '';
+
   subcategoriesOut.push({
     slug: sub.slug,
     name: sub.name,
     category: sub.category,
-    description: `Shop ${sub.name} at Doctors of Whisky — ${kw.primaryKeyword} specialists with ${productCount} hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.`,
+    description: `Shop ${sub.name} at Doctors of Whisky — ${kw.primaryKeyword} specialists with ${productCount} hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.${inquiryNote}`,
     heroImage,
     primaryKeyword: kw.primaryKeyword,
     secondaryKeywords: kw.secondaryKeywords,

@@ -47,30 +47,58 @@ export function priceFor(seedStr, [min, max]) {
 }
 
 const STYLE_DEFAULTS = {
+  // Whisky
   'scotch-whisky': { abv: '40.0% - 46.0%', size: '700ml' },
   'bourbon': { abv: '40.0% - 50.0%', size: '700ml' },
   'rye-whiskey': { abv: '40.0% - 50.0%', size: '700ml' },
   'japanese-whisky': { abv: '43.0%', size: '700ml' },
   'australian-whisky': { abv: '43.0% - 58.0%', size: '700ml' },
-  'vodka': { abv: '37.5% - 40.0%', size: '700ml' },
-  'tequila': { abv: '38.0% - 40.0%', size: '700ml' },
+  // Vodka
+  'french-vodka': { abv: '37.5% - 40.0%', size: '700ml' },
+  'russian-vodka': { abv: '37.5% - 40.0%', size: '700ml' },
+  'polish-vodka': { abv: '37.5% - 40.0%', size: '700ml' },
+  'grey-goose': { abv: '40.0%', size: '700ml' },
+  'belvedere': { abv: '40.0%', size: '700ml' },
+  // Tequila & Mezcal
   'mezcal': { abv: '40.0% - 45.0%', size: '700ml' },
-  'cognac-brandy': { abv: '40.0%', size: '700ml' },
+  'patron': { abv: '38.0% - 40.0%', size: '700ml' },
+  'don-julio': { abv: '38.0% - 40.0%', size: '700ml' },
+  'jose-cuervo': { abv: '38.0% - 40.0%', size: '700ml' },
+  'white-tequila': { abv: '38.0% - 40.0%', size: '700ml' },
+  'gold-tequila': { abv: '38.0% - 40.0%', size: '700ml' },
+  // Rum, gin, baijiu, cognac
+  'spiced-rum': { abv: '35.0% - 40.0%', size: '700ml' },
+  'white-rum': { abv: '37.5% - 40.0%', size: '700ml' },
   'gin': { abv: '37.5% - 42.0%', size: '700ml' },
-  'rum': { abv: '37.5% - 40.0%', size: '700ml' },
   'baijiu': { abv: '38.0% - 53.0%', size: '500ml' },
-  'italian-liqueurs': { abv: '18.0% - 32.0%', size: '700ml' },
-  'flavoured-cream-liqueurs': { abv: '15.0% - 20.0%', size: '700ml' },
+  'cognac-brandy': { abv: '40.0%', size: '700ml' },
+  // Liqueurs
+  'baileys-irish-cream': { abv: '17.0%', size: '700ml' },
+  'coffee-liqueur': { abv: '20.0% - 26.5%', size: '700ml' },
+  'orange-liqueur': { abv: '20.0% - 40.0%', size: '700ml' },
+  'cinnamon-liqueur': { abv: '15.0% - 33.0%', size: '700ml' },
+  'amaro': { abv: '16.0% - 32.0%', size: '700ml' },
+  'absinthe': { abv: '45.0% - 74.0%', size: '700ml' },
+  'limoncello': { abv: '25.0% - 32.0%', size: '700ml' },
+  'sambuca': { abv: '38.0% - 42.0%', size: '700ml' },
+  // Other
   'soju': { abv: '13.0% - 20.0%', size: '360ml' },
-  'craft-imported-beer': { abv: '4.2% - 5.5%', size: '330ml (Case of 24)' },
+  // Beer
+  'lager': { abv: '4.2% - 5.0%', size: '330ml (Case of 24)' },
+  'imported-beer': { abv: '4.5% - 5.5%', size: '330ml (Case of 24)' },
   'non-alcoholic-beer': { abv: '<0.5%', size: '330ml (Case of 24)' },
+  'ginger-beer': { abv: '0.0% - 4.0%', size: '330ml (Case of 24)' },
   'cider': { abv: '4.5% - 5.5%', size: '330ml (Case of 24)' },
+  // Wine
   'red-wine': { abv: '13.0% - 14.5%', size: '750ml' },
   'white-wine': { abv: '11.5% - 13.0%', size: '750ml' },
   'rose-wine': { abv: '12.0% - 13.0%', size: '750ml' },
-  'sparkling-fortified-wine': { abv: '12.0% - 19.0%', size: '750ml' },
-  'vodka-gin-premix': { abv: '4.5% - 6.0%', size: '375ml (Case of 24)' },
+  'sparkling': { abv: '11.5% - 12.5%', size: '750ml' },
+  'port-wine': { abv: '18.0% - 20.0%', size: '750ml' },
+  // Premix
+  'vodka-premix': { abv: '4.5% - 6.0%', size: '375ml (Case of 24)' },
   'zero-sugar-seltzers': { abv: '4.5% - 5.0%', size: '330ml (Case of 24)' },
+  // Mixers
   'mixers-water-condiments': { abv: '0.0%', size: '330ml' },
 };
 

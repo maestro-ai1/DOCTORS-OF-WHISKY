@@ -103,7 +103,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'how-vodka-is-made',
     title: 'How Vodka Is Made: From Grain to Glass',
-    subcategorySlug: 'vodka',
+    subcategorySlug: 'grey-goose',
     category: 'Spirit Guide',
     readTime: '5 min read',
     excerpt: 'Vodka is defined by its neutrality — but the raw ingredient, distillation method, and filtration all still shape the final bottle.',
@@ -123,7 +123,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'tequila-aging-guide-blanco-reposado-anejo',
     title: 'Blanco, Reposado & Añejo: A Tequila Aging Guide',
-    subcategorySlug: 'tequila',
+    subcategorySlug: 'don-julio',
     category: 'Spirit Guide',
     readTime: '6 min read',
     excerpt: 'Every tequila label carries an aging category that tells you almost everything about how it will taste — here’s how to read one.',
@@ -200,7 +200,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'white-spiced-dark-rum-guide',
     title: 'White, Spiced & Dark Rum: Choosing the Right Bottle',
-    subcategorySlug: 'rum',
+    subcategorySlug: 'spiced-rum',
     category: 'Spirit Guide',
     readTime: '5 min read',
     excerpt: 'Rum’s colour is a starting clue, not a guarantee, of style — here’s what actually separates white, spiced, and dark rum.',
@@ -239,7 +239,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'amaro-101-italy-bittersweet-tradition',
     title: 'Amaro 101: Italy’s Bittersweet Tradition',
-    subcategorySlug: 'italian-liqueurs',
+    subcategorySlug: 'amaro',
     category: 'Liqueur Guide',
     readTime: '5 min read',
     excerpt: 'From Averna to Fernet-Branca, amaro covers a huge range of bitter Italian liqueurs — here’s how to start exploring the category.',
@@ -259,7 +259,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'best-cream-coffee-liqueurs-for-cocktails',
     title: 'Best Cream & Coffee Liqueurs for Cocktails',
-    subcategorySlug: 'flavoured-cream-liqueurs',
+    subcategorySlug: 'baileys-irish-cream',
     category: 'Liqueur Guide',
     readTime: '4 min read',
     excerpt: 'Baileys, Kahlúa, and their flavoured cousins are cocktail-cabinet staples — here’s how to use them well.',
@@ -297,7 +297,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'lager-vs-imported-beer-buyers-guide',
     title: 'Lager vs Imported Beer: A Buyer’s Guide',
-    subcategorySlug: 'craft-imported-beer',
+    subcategorySlug: 'imported-beer',
     category: 'Beer Guide',
     readTime: '4 min read',
     excerpt: 'Not all lager is created equal — here’s what actually separates a crisp local lager from a premium imported one.',
@@ -412,7 +412,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'champagne-vs-sparkling-wine-vs-port',
     title: 'Champagne vs Sparkling Wine vs Port: What’s the Difference?',
-    subcategorySlug: 'sparkling-fortified-wine',
+    subcategorySlug: 'sparkling',
     category: 'Wine Guide',
     readTime: '5 min read',
     excerpt: 'Three very different production methods produce three very different celebratory drinks — here’s how to tell them apart.',
@@ -431,7 +431,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'ready-to-drink-premix-trend',
     title: 'Why Ready-to-Drink Premixes Are Taking Over',
-    subcategorySlug: 'vodka-gin-premix',
+    subcategorySlug: 'vodka-premix',
     category: 'Trend Report',
     readTime: '4 min read',
     excerpt: 'Canned cocktails have gone from a novelty to one of the fastest-growing categories in the entire alcohol industry.',
@@ -527,7 +527,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'don-julio-vs-patron-tequila-compared',
     title: 'Don Julio vs Patrón: Comparing Mexico’s Icon Tequilas',
-    subcategorySlug: 'tequila',
+    subcategorySlug: 'don-julio',
     category: 'Brand Comparison',
     readTime: '5 min read',
     excerpt: 'Two of the world’s best-known premium tequila houses, built on very different founding stories and production philosophies.',
@@ -546,7 +546,7 @@ export const BLOG_TOPICS = [
   {
     slug: 'grey-goose-vs-belvedere-vodka-compared',
     title: 'Grey Goose vs Belvedere: Ultra-Premium Vodka Compared',
-    subcategorySlug: 'vodka',
+    subcategorySlug: 'grey-goose',
     category: 'Brand Comparison',
     readTime: '4 min read',
     excerpt: 'French wheat versus Polish rye — two very different approaches built the modern ultra-premium vodka category.',

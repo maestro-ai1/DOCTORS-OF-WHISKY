@@ -79,61 +79,54 @@ export const MAIN_CATEGORIES: CategoryGroup[] = [
     description: 'Rare Cognac decanters, artisanal extra añejo tequilas, ultra-pure vodkas, and monastery herbal liqueurs.',
     subGroups: [
       {
-        title: 'Shop by Collection',
-        items: [
-          { label: 'Vodka', href: '/shop/spirit/collection/vodka' },
-          { label: 'Tequila', href: '/shop/spirit/collection/tequila' },
-          { label: 'Mezcal', href: '/shop/spirit/collection/mezcal' },
-          { label: 'Cognac & Brandy', href: '/shop/spirit/collection/cognac-brandy' },
-          { label: 'Gin', href: '/shop/spirit/collection/gin' },
-          { label: 'Rum', href: '/shop/spirit/collection/rum' },
-          { label: 'Baijiu', href: '/shop/spirit/collection/baijiu' },
-          { label: 'Italian Liqueurs & Aperitifs', href: '/shop/spirit/collection/italian-liqueurs' },
-          { label: 'Flavoured & Cream Liqueurs', href: '/shop/spirit/collection/flavoured-cream-liqueurs' },
-        ]
-      },
-      {
-        title: 'Brandy & Cognac',
-        items: [
-          { label: 'Cognac (Grande Champagne)', href: '/shop?category=spirit&search=Cognac' },
-          { label: 'Louis XIII & Rémy Martin', href: '/shop?category=spirit&search=Remy' },
-          { label: 'Martell Cordon Bleu', href: '/shop?category=spirit&search=Martell' },
-          { label: 'Calvados Reserve', href: '/shop?category=spirit&search=Calvados' }
-        ]
-      },
-      {
-        title: 'Liqueur & Aperitif',
-        items: [
-          { label: 'Chartreuse V.E.P. & Herbal', href: '/shop?category=spirit&search=Chartreuse' },
-          { label: 'Baileys & Coffee Liqueurs', href: '/shop?category=spirit&search=Liqueur' },
-          { label: 'Campari, Aperol & Amaro', href: '/shop?category=spirit&search=Amaro' },
-          { label: 'Cointreau & Grand Marnier', href: '/shop?category=spirit&search=Orange' }
-        ]
-      },
-      {
         title: 'Vodka',
         items: [
-          { label: 'Grey Goose Altius & French', href: '/shop?category=spirit&search=Grey Goose' },
-          { label: 'Belvedere 10 & Diamond Rye', href: '/shop?category=spirit&search=Belvedere' },
-          { label: 'Polish & Russian Vodka', href: '/shop?category=spirit&search=Vodka' }
+          { label: 'Grey Goose', href: '/shop/spirit/collection/grey-goose' },
+          { label: 'Belvedere', href: '/shop/spirit/collection/belvedere' },
+          { label: 'French Vodka', href: '/shop/spirit/collection/french-vodka' },
+          { label: 'Russian Vodka', href: '/shop/spirit/collection/russian-vodka' },
+          { label: 'Polish Vodka', href: '/shop/spirit/collection/polish-vodka' },
         ]
       },
       {
         title: 'Tequila & Mezcal',
         items: [
-          { label: 'Don Julio 1942 Ultima Reserva', href: '/shop?category=spirit&search=Don Julio' },
-          { label: 'Gran Patrón Burdeos', href: '/shop?category=spirit&search=Patron' },
-          { label: 'Extra Añejo & Mezcal', href: '/shop?category=spirit&search=Tequila' }
+          { label: 'Don Julio', href: '/shop/spirit/collection/don-julio' },
+          { label: 'Patrón', href: '/shop/spirit/collection/patron' },
+          { label: 'Jose Cuervo', href: '/shop/spirit/collection/jose-cuervo' },
+          { label: 'White Tequila', href: '/shop/spirit/collection/white-tequila' },
+          { label: 'Gold Tequila', href: '/shop/spirit/collection/gold-tequila' },
+          { label: 'Mezcal', href: '/shop/spirit/collection/mezcal' },
         ]
       },
       {
         title: 'Rum, Gin & Baijiu',
         items: [
-          { label: 'Kweichow Moutai 53% Baijiu', href: '/shop?category=spirit&search=Moutai' },
-          { label: 'Diplomatico & Dark Premium Rum', href: '/shop?category=spirit&search=Rum' },
-          { label: 'Artisanal & Distiller Gin', href: '/shop?category=spirit&search=Gin' }
+          { label: 'Spiced Rum', href: '/shop/spirit/collection/spiced-rum' },
+          { label: 'White Rum', href: '/shop/spirit/collection/white-rum' },
+          { label: 'Gin', href: '/shop/spirit/collection/gin' },
+          { label: 'Baijiu', href: '/shop/spirit/collection/baijiu' },
         ]
-      }
+      },
+      {
+        title: 'Cognac & Brandy',
+        items: [
+          { label: 'Cognac & Brandy', href: '/shop/spirit/collection/cognac-brandy' },
+        ]
+      },
+      {
+        title: 'Liqueur',
+        items: [
+          { label: 'Baileys Irish Cream', href: '/shop/spirit/collection/baileys-irish-cream' },
+          { label: 'Coffee Liqueur', href: '/shop/spirit/collection/coffee-liqueur' },
+          { label: 'Orange Liqueur', href: '/shop/spirit/collection/orange-liqueur' },
+          { label: 'Cinnamon Liqueur', href: '/shop/spirit/collection/cinnamon-liqueur' },
+          { label: 'Amaro', href: '/shop/spirit/collection/amaro' },
+          { label: 'Absinthe', href: '/shop/spirit/collection/absinthe' },
+          { label: 'Limoncello', href: '/shop/spirit/collection/limoncello' },
+          { label: 'Sambuca', href: '/shop/spirit/collection/sambuca' },
+        ]
+      },
     ]
   },
   {
@@ -143,42 +136,35 @@ export const MAIN_CATEGORIES: CategoryGroup[] = [
     description: 'Heritage Australian Icon Wines, Vintage Champagnes, Master Cask Beers, and Luxury Premixes.',
     subGroups: [
       {
-        title: 'Shop by Collection',
+        title: 'Beer',
+        items: [
+          { label: 'Lager', href: '/shop/beer-premix-wine/collection/lager' },
+          { label: 'Imported Beer', href: '/shop/beer-premix-wine/collection/imported-beer' },
+          { label: 'Non-Alcoholic Beer', href: '/shop/beer-premix-wine/collection/non-alcoholic-beer' },
+          { label: 'Ginger Beer', href: '/shop/beer-premix-wine/collection/ginger-beer' },
+        ]
+      },
+      {
+        title: 'Wine',
         items: [
           { label: 'Red Wine', href: '/shop/beer-premix-wine/collection/red-wine' },
           { label: 'White Wine', href: '/shop/beer-premix-wine/collection/white-wine' },
           { label: 'Rosé Wine', href: '/shop/beer-premix-wine/collection/rose-wine' },
-          { label: 'Sparkling & Fortified Wine', href: '/shop/beer-premix-wine/collection/sparkling-fortified-wine' },
-          { label: 'Craft & Imported Beer', href: '/shop/beer-premix-wine/collection/craft-imported-beer' },
-          { label: 'Non-Alcoholic Beer', href: '/shop/beer-premix-wine/collection/non-alcoholic-beer' },
+          { label: 'Sparkling', href: '/shop/beer-premix-wine/collection/sparkling' },
+          { label: 'Port', href: '/shop/beer-premix-wine/collection/port-wine' },
+        ]
+      },
+      {
+        title: 'Premix',
+        items: [
+          { label: 'Vodka Premix', href: '/shop/beer-premix-wine/collection/vodka-premix' },
+          { label: 'Zero Sugar', href: '/shop/beer-premix-wine/collection/zero-sugar-seltzers' },
+        ]
+      },
+      {
+        title: 'Cider',
+        items: [
           { label: 'Cider', href: '/shop/beer-premix-wine/collection/cider' },
-          { label: 'Vodka & Gin Premix', href: '/shop/beer-premix-wine/collection/vodka-gin-premix' },
-          { label: 'Zero Sugar Seltzers', href: '/shop/beer-premix-wine/collection/zero-sugar-seltzers' },
-        ]
-      },
-      {
-        title: 'Icon & Fine Wine',
-        items: [
-          { label: 'Penfolds Grange Shiraz', href: '/shop?category=beer-premix-wine&search=Penfolds' },
-          { label: 'Australian Red Wine', href: '/shop?category=beer-premix-wine&search=Shiraz' },
-          { label: 'Dom Pérignon Vintage Champagne', href: '/shop?category=beer-premix-wine&search=Champagne' },
-          { label: 'Sparkling & Vintage Port', href: '/shop?category=beer-premix-wine&search=Sparkling' }
-        ]
-      },
-      {
-        title: 'Craft Beer',
-        items: [
-          { label: 'Coopers Master Vintage Ale', href: '/shop?category=beer-premix-wine&search=Ale' },
-          { label: 'Pale Ale & IPA Reserve', href: '/shop?category=beer-premix-wine&search=Beer' },
-          { label: 'Ginger Beer & Imported Lager', href: '/shop?category=beer-premix-wine&search=Lager' }
-        ]
-      },
-      {
-        title: 'Luxury Premix',
-        items: [
-          { label: 'Hard FIZZ Ultra Premix', href: '/shop?category=beer-premix-wine&search=Premix' },
-          { label: 'Vodka & Gin Premix Cases', href: '/shop?category=beer-premix-wine&search=Premix' },
-          { label: 'Zero Sugar Crafted Mixers', href: '/shop?category=beer-premix-wine&search=Zero' }
         ]
       }
     ]
@@ -194,20 +180,6 @@ export const MAIN_CATEGORIES: CategoryGroup[] = [
         items: [
           { label: 'Soju', href: '/shop/other/collection/soju' },
           { label: 'Mixers, Water & Condiments', href: '/shop/other/collection/mixers-water-condiments' },
-        ]
-      },
-      {
-        title: 'Specialty Spirits & Soju',
-        items: [
-          { label: 'Ilpoom Jinro Heritage Soju', href: '/shop?category=other&search=Jinro' },
-          { label: 'Artisanal Cider Selection', href: '/shop?category=other&search=Cider' }
-        ]
-      },
-      {
-        title: 'Mixers & Mineral Water',
-        items: [
-          { label: 'San Pellegrino Oak Edition', href: '/shop?category=other&search=Water' },
-          { label: 'Premium Craft Tonic & Energy', href: '/shop?category=other&search=Energy' }
         ]
       }
     ]
