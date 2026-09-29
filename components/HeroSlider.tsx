@@ -75,10 +75,9 @@ export function HeroSlider() {
             sizes="100vw"
           />
 
-          {/* Warm amber/black brand-tint overlay — kept light so the photo stays bright */}
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/90 via-neutral-950/45 to-amber-950/20" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/10" />
-          <div className="absolute inset-0 mix-blend-overlay bg-gradient-to-br from-amber-500/25 via-transparent to-transparent" />
+          {/* Minimal left-side scrim — just enough for text contrast, photo stays bright */}
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/70 via-neutral-950/15 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
 
           {/* Slide Content */}
           <div className="relative z-20 max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">

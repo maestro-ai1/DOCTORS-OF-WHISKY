@@ -27,7 +27,11 @@ async function processHero(srcPath, destPath) {
   await fs.promises.mkdir(path.dirname(destPath), { recursive: true });
   await sharp(srcPath)
     .resize(1920, 1080, { fit: 'cover', position: 'attention' })
-    .jpeg({ quality: 82, mozjpeg: true })
+    // Brighten and lift contrast/saturation — source shots are moody studio
+    // photography, too dark to read well as a full-bleed website hero.
+    .modulate({ brightness: 1.28, saturation: 1.18 })
+    .linear(1.08, -8)
+    .jpeg({ quality: 85, mozjpeg: true })
     .toFile(destPath);
 }
 
