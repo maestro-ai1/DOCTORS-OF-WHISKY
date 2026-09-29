@@ -1,6 +1,7 @@
 // Processes the user-supplied hero photography into SEO-standard hero background
-// images: correct dimensions for a 1920-wide hero banner, compressed, descriptive
-// filenames, served as optimized JPEG (broad compatibility) at 82% quality.
+// images: 1920x1080 (standard hero/OG banner ratio), mild auto-contrast/normalize
+// (not an aggressive filter — these source shots are already good quality),
+// compressed JPEG with descriptive filenames for SEO.
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -9,28 +10,18 @@ const ROOT = path.resolve(process.cwd(), '..');
 const OUT_DIR = path.join(process.cwd(), 'public', 'images', 'hero');
 
 const TARGETS = [
-  {
-    src: path.join(ROOT, 'hero2.jpg'),
-    out: 'johnnie-walker-black-label-hero.jpg',
-  },
-  {
-    src: path.join(ROOT, 'hero3.jpg'),
-    out: 'macallan-m-decanter-hero.jpg',
-  },
-  {
-    src: path.join(ROOT, 'Glendronach-BadCompany1920-CokeRiera-1-1-3-1024x683.avif'),
-    out: 'glendronach-ode-collection-hero.jpg',
-  },
+  { src: path.join(ROOT, 'pic1.jpg'), out: 'glendronach-lineup-hero.jpg' },
+  { src: path.join(ROOT, 'pic2.jpg'), out: 'glendronach-tasting-hero.jpg' },
+  { src: path.join(ROOT, 'pic3.jpg'), out: 'don-julio-blanco-hero.jpg' },
 ];
 
 async function processHero(srcPath, destPath) {
   await fs.promises.mkdir(path.dirname(destPath), { recursive: true });
   await sharp(srcPath)
     .resize(1920, 1080, { fit: 'cover', position: 'attention' })
-    // Brighten and lift contrast/saturation — source shots are moody studio
-    // photography, too dark to read well as a full-bleed website hero.
-    .modulate({ brightness: 1.28, saturation: 1.18 })
-    .linear(1.08, -8)
+    .normalise({ lower: 1, upper: 99 })
+    .modulate({ brightness: 1.04, saturation: 1.06 })
+    .sharpen({ sigma: 0.6 })
     .jpeg({ quality: 85, mozjpeg: true })
     .toFile(destPath);
 }

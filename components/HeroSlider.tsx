@@ -9,36 +9,36 @@ import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Sparkles, Phone } f
 const SLIDES = [
   {
     id: 1,
-    tag: 'ICONIC BLENDED SCOTCH',
-    title: 'Johnnie Walker — A Master Blender’s Legacy',
-    subtitle: 'From the everyday Black Label to the ultra-rare King George V Edition — 200 years of consistent, iconic blending.',
-    badge: 'Est. 1820',
-    price: '$890 AUD',
-    cryptoPrice: '$783.20 AUD with Crypto',
-    link: '/shop/whisky/johnnie-walker-king-george-v-rare-edition',
-    image: '/images/hero/johnnie-walker-black-label-hero.jpg',
+    tag: 'HIGHLAND SINGLE MALT RANGE',
+    title: 'The GlenDronach — Five Sherry Cask Icons',
+    subtitle: 'From Original 12 to the rare 21 Year Old Parliament, every GlenDronach expression is matured in the finest Oloroso and Pedro Ximénez sherry casks from Spain.',
+    badge: 'Est. 1826',
+    price: '$1,250 AUD',
+    cryptoPrice: '$1,100 AUD with Crypto',
+    link: '/shop/whisky/glendronach-1993-26-year-old-single-cask',
+    image: '/images/hero/glendronach-lineup-hero.jpg',
   },
   {
     id: 2,
-    tag: 'RARE SPEYSIDE VINTAGE',
-    title: 'The Macallan — Sherry Oak Mastery',
-    subtitle: 'Matured exclusively in hand-picked Oloroso sherry seasoned oak casks from Jerez, Spain. Sydney vault verified.',
-    badge: '100% Provenance Seal',
-    price: '$4,850 AUD',
-    cryptoPrice: '$4,268 AUD with Crypto',
-    link: '/shop/whisky/macallan-25-year-old-sherry-oak-single-malt',
-    image: '/images/hero/macallan-m-decanter-hero.jpg',
-  },
-  {
-    id: 3,
-    tag: 'HIGHLAND SINGLE CASK',
-    title: 'The GlenDronach — Sherry Cask Icon',
-    subtitle: 'Distilled in 1993 and matured for 26 years in a single Pedro Ximénez sherry puncheon. A quintessential Highland sherry monster.',
+    tag: 'HIGHLAND SHERRY CASK VINTAGE',
+    title: 'The GlenDronach 1993 — 26 Years in a Single Cask',
+    subtitle: 'Distilled in 1993 and matured for 26 years in a single Pedro Ximénez sherry puncheon, bottled at natural cask strength without chill filtration.',
     badge: 'Single Cask Batch 18',
     price: '$1,250 AUD',
     cryptoPrice: '$1,100 AUD with Crypto',
     link: '/shop/whisky/glendronach-1993-26-year-old-single-cask',
-    image: '/images/hero/glendronach-ode-collection-hero.jpg',
+    image: '/images/hero/glendronach-tasting-hero.jpg',
+  },
+  {
+    id: 3,
+    tag: 'ORIGINAL SIPPING TEQUILA',
+    title: 'Don Julio Blanco — Crafted Agave Purity',
+    subtitle: 'Founded in 1942 by Don Julio González, this 100% blue Weber agave blanco helped define sipping-quality tequila. Double-distilled in small batches in Jalisco.',
+    badge: 'Est. 1942',
+    price: '$515 AUD',
+    cryptoPrice: '$453.20 AUD with Crypto',
+    link: '/shop/spirit/don-julio-blanco-tequila',
+    image: '/images/hero/don-julio-blanco-hero.jpg',
   },
 ];
 
@@ -65,7 +65,7 @@ export function HeroSlider() {
             idx === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
           }`}
         >
-          {/* Real, on-brand bottle photography as a bright full-bleed background */}
+          {/* Real, on-brand bottle photography as a full-bleed background */}
           <Image
             src={slide.image}
             alt={slide.title}
@@ -75,9 +75,9 @@ export function HeroSlider() {
             sizes="100vw"
           />
 
-          {/* Minimal left-side scrim — just enough for text contrast, photo stays bright */}
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/70 via-neutral-950/15 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+          {/* Moderate left-side scrim for text contrast — tuned for legibility without dulling the photo */}
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/80 via-neutral-950/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
 
           {/* Slide Content */}
           <div className="relative z-20 max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
