@@ -19,17 +19,6 @@ const SLIDES = [
     image: '/images/hero/glendronach-lineup-hero.jpg',
   },
   {
-    id: 2,
-    tag: 'HIGHLAND SHERRY CASK VINTAGE',
-    title: 'The GlenDronach 1993 — 26 Years in a Single Cask',
-    subtitle: 'Distilled in 1993 and matured for 26 years in a single Pedro Ximénez sherry puncheon, bottled at natural cask strength without chill filtration.',
-    badge: 'Single Cask Batch 18',
-    price: '$1,250 AUD',
-    cryptoPrice: '$1,100 AUD with Crypto',
-    link: '/shop/whisky/glendronach-1993-26-year-old-single-cask',
-    image: '/images/hero/glendronach-tasting-hero.jpg',
-  },
-  {
     id: 3,
     tag: 'ORIGINAL SIPPING TEQUILA',
     title: 'Don Julio Blanco — Crafted Agave Purity',

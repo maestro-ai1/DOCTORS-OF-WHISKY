@@ -11,7 +11,6 @@ const OUT_DIR = path.join(process.cwd(), 'public', 'images', 'hero');
 
 const TARGETS = [
   { src: path.join(ROOT, 'pic1.jpg'), out: 'glendronach-lineup-hero.jpg' },
-  { src: path.join(ROOT, 'pic2.jpg'), out: 'glendronach-tasting-hero.jpg' },
   { src: path.join(ROOT, 'pic3.jpg'), out: 'don-julio-blanco-hero.jpg' },
 ];
 
