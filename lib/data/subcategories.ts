@@ -5,7 +5,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "scotch-whisky",
     "name": "Scotch Whisky",
     "category": "whisky",
-    "description": "Shop Scotch Whisky at Doctors of Whisky — scotch whisky specialists with 75 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Scotch Whisky at Doctors of Whisky — scotch whisky specialists with 65 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/scotch-whisky/macallan--tds-macallan-12-sherry-oak-new.jpg",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -127,7 +127,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "japanese-whisky",
     "name": "Japanese Whisky",
     "category": "whisky",
-    "description": "Shop Japanese Whisky at Doctors of Whisky — japanese whiskey specialists with 23 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Japanese Whisky at Doctors of Whisky — japanese whiskey specialists with 20 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/japanese-whisky/nikka--tds-nikka-12-2.jpg",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -171,8 +171,8 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "australian-whisky",
     "name": "Australian Whisky",
     "category": "whisky",
-    "description": "Shop Australian Whisky at Doctors of Whisky — australian whiskey specialists with 12 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/australian-whisky/lark--lark.jpg",
+    "description": "Shop Australian Whisky at Doctors of Whisky — australian whiskey specialists with 11 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/australian-whisky/lark--tds-dark-lark-2026.jpg",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
       "australian whiskey brands",
@@ -210,7 +210,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "vodka",
     "name": "Premium Vodka",
     "category": "spirit",
-    "description": "Shop Premium Vodka at Doctors of Whisky — vodka specialists with 48 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Premium Vodka at Doctors of Whisky — vodka specialists with 39 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/vodka/french-vodka--tds-ciroc-pineapple.jpg",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
@@ -249,7 +249,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "tequila",
     "name": "Tequila",
     "category": "spirit",
-    "description": "Shop Tequila at Doctors of Whisky — tequila specialists with 44 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Tequila at Doctors of Whisky — tequila specialists with 42 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/tequila/don-julio--tds-don-julio-1942-50ml.jpg",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -327,7 +327,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "cognac-brandy",
     "name": "Cognac & Brandy",
     "category": "spirit",
-    "description": "Shop Cognac & Brandy at Doctors of Whisky — brandy specialists with 42 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Cognac & Brandy at Doctors of Whisky — brandy specialists with 35 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/cognac-brandy/martell--tds-martell-blue-swift-90a7dfbe-881b-48a1-9ac0-b4e9564f57bf.jpg",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -522,7 +522,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "flavoured-cream-liqueurs",
     "name": "Flavoured & Cream Liqueurs",
     "category": "spirit",
-    "description": "Shop Flavoured & Cream Liqueurs at Doctors of Whisky — baileys irish cream specialists with 35 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Flavoured & Cream Liqueurs at Doctors of Whisky — baileys irish cream specialists with 33 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/flavoured-cream-liqueurs/orange-liqueur--tds-1800-guachimonton.jpg",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -600,7 +600,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "craft-imported-beer",
     "name": "Craft & Imported Beer",
     "category": "beer-premix-wine",
-    "description": "Shop Craft & Imported Beer at Doctors of Whisky — imported beer specialists with 10 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "description": "Shop Craft & Imported Beer at Doctors of Whisky — imported beer specialists with 6 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
     "heroImage": "/images/products/craft-imported-beer/lager--tds-budweiser-330ml.jpg",
     "primaryKeyword": "imported beer",
     "secondaryKeywords": [
@@ -639,8 +639,8 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "non-alcoholic-beer",
     "name": "Non-Alcoholic Beer",
     "category": "beer-premix-wine",
-    "description": "Shop Non-Alcoholic Beer at Doctors of Whisky — light beer specialists with 9 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
-    "heroImage": "/images/products/non-alcoholic-beer/non-alcoholic-beer--imported-beer.jpg",
+    "description": "Shop Non-Alcoholic Beer at Doctors of Whisky — light beer specialists with 8 hand-selected bottles, Sydney vault storage, and insured Australia-wide delivery.",
+    "heroImage": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-clausthaler-original-500ml.jpg",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
       "light beers",

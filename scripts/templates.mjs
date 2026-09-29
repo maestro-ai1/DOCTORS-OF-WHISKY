@@ -5,7 +5,18 @@ const GENERIC_FIRST_WORDS = new Set([
   'french', 'polish', 'russian', 'cognac', 'calvados', 'orange', 'cinnamon', 'coffee', 'italian',
 ]);
 
+const KNOWN_MULTI_WORD_BRANDS = [
+  'Grey Goose', 'Johnnie Walker', 'Don Julio', 'Jose Cuervo', 'Royal Salute',
+  'Gran Patron', 'Jack Daniels', 'Four Roses', 'Wild Turkey', 'Maker’s Mark',
+  'Woodford Reserve', 'Crown Royal', 'Chivas Regal', 'Dewars White',
+];
+
 export function deriveBrand(folder, humanizedName) {
+  for (const brand of KNOWN_MULTI_WORD_BRANDS) {
+    if (humanizedName.toLowerCase().startsWith(brand.toLowerCase())) {
+      return brand;
+    }
+  }
   const first = humanizedName.split(' ')[0];
   if (first && first.length > 2 && !GENERIC_FIRST_WORDS.has(first.toLowerCase())) {
     return first;

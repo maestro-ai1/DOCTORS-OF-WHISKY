@@ -163,7 +163,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Mizunara oak, a type of Japanese oak used for maturation, is another signature element. It’s notoriously difficult to work with (it’s porous and prone to leaking) but imparts a distinctive incense, sandalwood, and coconut character that doesn’t appear in Scotch matured purely in American or European oak.",
       "For collectors, Japanese whisky today sits in a similar space to rare Scotch: age-stated bottles from the 1990s and 2000s distillation era are increasingly scarce, while NAS (no age statement) releases have become the norm for everyday drinking expressions."
     ],
-    "image": "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2-180x-1.jpg",
+    "image": "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2-360x-1.jpg",
     "category": "Distillery Profile",
     "date": "September 16, 2026",
     "readTime": "7 min read",
@@ -217,7 +217,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Flavour-wise, Australian whisky varies enormously by producer, but a common thread is fruit-forward richness from ex-fortified wine casks (particularly old Tawny and Muscat casks from Australia’s own wine industry) layered over gentle, often lightly peated, malt character.",
       "Because production runs are so small, allocations sell out fast and rarely get restocked at the same price — which is why single-cask Australian releases, especially from Lark’s Legacy and rare cask series, have become genuine collector items rather than just a local curiosity."
     ],
-    "image": "/images/products/australian-whisky/lark--tds-lark-classic-pack.jpg",
+    "image": "/images/products/australian-whisky/lark--tds-lark-dark-lark-2023.jpg",
     "category": "Australian Distilling",
     "date": "September 12, 2026",
     "readTime": "6 min read",
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "When comparing a local lager to an imported one, freshness genuinely matters more than most drinkers realise — lager is best consumed relatively young, and imported beer that’s spent months in transit and storage can taste noticeably flatter or more oxidised than the same beer fresh from a local brewery.",
       "For the best experience with either style, look for a clear bottling or best-before date, store bottles cold and out of direct light (UV exposure is what causes the “skunked” aroma in green or clear glass bottles), and drink imported beer sooner rather than later after purchase."
     ],
-    "image": "/images/products/craft-imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg",
+    "image": "/images/products/craft-imported-beer/lager--tds-modelo-especial.jpg",
     "category": "Beer Guide",
     "date": "July 30, 2026",
     "readTime": "4 min read",
@@ -797,7 +797,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Modern brewers have also gotten much better at compensating for the body and mouthfeel that alcohol normally provides, using specialty malts, later hop additions, and careful yeast selection to build back the fullness that early non-alcoholic beers famously lacked.",
       "When shopping non-alcoholic, look for a recent production date — the category is improving quickly, and beers made even two or three years ago often taste noticeably thinner than current releases from the same brewery."
     ],
-    "image": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-modelo-especial.jpg",
+    "image": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-clausthaler-original-500ml.jpg",
     "category": "Beer Guide",
     "date": "July 26, 2026",
     "readTime": "4 min read",
@@ -1230,7 +1230,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "That sherry-oak-first philosophy is why Macallan whisky is typically much darker and richer than many Speyside competitors, carrying dried fruit, ginger, and rich wood spice notes that come directly from the wine-soaked oak rather than caramel colouring.",
       "It’s also why older, rare Macallan releases — particularly 25-year-old and above expressions matured entirely in first-fill sherry oak — command such significant prices at auction: the combination of genuine scarcity, an expensive and slow production method, and consistently high critical scores has made The Macallan one of the most collected whisky brands in the world."
     ],
-    "image": "/images/products/scotch-whisky/macallan--tds-macallan-quest-1l-new.jpg",
+    "image": "/images/products/scotch-whisky/glendronach--tds-glendronach-18-nc.jpg",
     "category": "Distillery Profile",
     "date": "June 20, 2026",
     "readTime": "6 min read",
@@ -1284,7 +1284,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "For genuinely rare or high-value bottles, humidity control (aim for 50-70%) helps prevent the cork from drying out and shrinking over many years, and keeping original packaging, boxes, and any certificates of authenticity intact preserves both provenance and resale value.",
       "Finally, once a bottle is opened, oxygen exposure becomes the main concern — the more empty space (headspace) in an opened bottle, the faster subtle flavour changes will occur, so decanting a half-empty bottle into a smaller, airtight container is a simple way to extend its life once opened."
     ],
-    "image": "/images/products/scotch-whisky/macallan--tds-macallan-quest-new.jpg",
+    "image": "/images/products/scotch-whisky/glendronach--tds-glendronach-21-chill.jpg",
     "category": "Collector Guide",
     "date": "June 16, 2026",
     "readTime": "5 min read",
@@ -1337,7 +1337,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "On production, both houses use 100% blue Weber agave and traditional brick oven or autoclave cooking methods, but their top-tier releases diverge: Don Julio’s 1942 and Ultima Reserva expressions lean into extended solera-style aging and wine cask finishing, while Patrón’s Gran Patrón Burdeos is explicitly finished in Bordeaux wine barrels, both chasing a richer, more whisky-adjacent flavour profile at the top of their ranges.",
       "For everyday drinking, both brands’ blanco and reposado expressions are excellent, reliable choices; the real differentiation happens at the top of each range, where cask finishing, aging length, and presentation become the deciding factors for collectors rather than everyday drinkers."
     ],
-    "image": "/images/products/tequila/gold-tequila--tds-herradurra-anejo-new.jpg",
+    "image": "/images/products/tequila/gold-tequila--tds-herradurra-plata-fb430363-05dd-4356-87df-7d61570b894b.jpg",
     "category": "Brand Comparison",
     "date": "June 12, 2026",
     "readTime": "5 min read",
@@ -1434,7 +1434,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Liquidity is the category’s biggest practical drawback compared to traditional investments — selling a rare bottle quickly, at a fair price, generally requires access to specialist auction houses or collector networks, not a quick trade on an open exchange, so rare whisky is better suited to patient, multi-year holding than short-term speculation.",
       "For beginners, the safest starting point is well-known, already-established collectable categories — discontinued age-stated releases from major distilleries, limited single-cask bottlings, or brands with a long auction track record — rather than chasing speculative new releases with no price history to evaluate."
     ],
-    "image": "/images/products/scotch-whisky/glendronach--tds-glendronach-12yo-50ml.jpg",
+    "image": "/images/products/scotch-whisky/glenfiddich--tds-glenfiddich-16-aston-martin-no2.jpg",
     "category": "Collector Guide",
     "date": "June 4, 2026",
     "readTime": "7 min read",

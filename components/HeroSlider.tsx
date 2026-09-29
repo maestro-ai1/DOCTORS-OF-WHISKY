@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { CONTACT } from '@/lib/config';
 import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Sparkles, Phone } from 'lucide-react';
 
@@ -15,7 +16,7 @@ const SLIDES = [
     price: '$4,850 AUD',
     cryptoPrice: '$4,268 AUD with Crypto',
     link: '/shop/whisky/macallan-25-year-old-sherry-oak-single-malt',
-    image: 'https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1920&q=85',
+    image: '/images/hero/macallan-hero.png',
   },
   {
     id: 2,
@@ -26,7 +27,7 @@ const SLIDES = [
     price: '$1,850 AUD',
     cryptoPrice: '$1,628 AUD with Crypto',
     link: '/shop/whisky/nikka-taketsuru-21-year-old-pure-malt',
-    image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1920&q=85',
+    image: '/images/hero/nikka-hero.png',
   },
   {
     id: 3,
@@ -37,7 +38,7 @@ const SLIDES = [
     price: '$990 AUD',
     cryptoPrice: '$871.20 AUD with Crypto',
     link: '/shop/spirit/don-julio-1942-ultima-reserva-extra-anejo',
-    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1920&q=85',
+    image: '/images/hero/don-julio-hero.png',
   },
   {
     id: 4,
@@ -48,7 +49,7 @@ const SLIDES = [
     price: '$290 AUD',
     cryptoPrice: '$255.20 AUD with Crypto',
     link: '/shop/spirit/grey-goose-altius-ultra-premium-french-vodka',
-    image: 'https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=1920&q=85',
+    image: '/images/hero/grey-goose-hero.png',
   }
 ];
 
@@ -66,7 +67,11 @@ export function HeroSlider() {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
 
   return (
-    <div className="relative w-full h-[580px] sm:h-[640px] lg:h-[700px] bg-neutral-950 overflow-hidden border-b border-amber-900/30">
+    <div className="relative w-full h-[580px] sm:h-[640px] lg:h-[700px] overflow-hidden border-b border-amber-900/30 bg-gradient-to-br from-neutral-950 via-[#3a1d05] to-amber-900">
+      {/* Ambient warm glow accents (orange/black brand theme) */}
+      <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-amber-500/25 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-0 left-1/3 w-[400px] h-[400px] rounded-full bg-orange-600/20 blur-[100px] pointer-events-none" />
+
       {/* Background Slides */}
       {SLIDES.map((slide, idx) => (
         <div
@@ -75,13 +80,20 @@ export function HeroSlider() {
             idx === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
           }`}
         >
-          {/* Background Image with Dark Vignette and Gradient Overlay */}
-          <div
-            className="absolute inset-0 bg-cover bg-center scale-105 transition-transform duration-10000"
-            style={{ backgroundImage: `url('${slide.image}')` }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/80 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-black/40" />
+          {/* Product bottle, glowing on the right, lightening the whole scene */}
+          <div className="absolute right-[-40px] sm:right-8 lg:right-16 top-1/2 -translate-y-1/2 w-[220px] sm:w-[320px] lg:w-[420px] h-[75%] pointer-events-none">
+            <div className="absolute inset-0 rounded-full bg-amber-400/30 blur-[90px]" />
+            <Image
+              src={slide.image}
+              alt={slide.title}
+              fill
+              priority={idx === 0}
+              className="object-contain drop-shadow-[0_0_60px_rgba(251,191,36,0.35)]"
+              sizes="(max-width: 640px) 220px, (max-width: 1024px) 320px, 420px"
+            />
+          </div>
+
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/70 to-transparent" />
 
           {/* Slide Content */}
           <div className="relative z-20 max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">

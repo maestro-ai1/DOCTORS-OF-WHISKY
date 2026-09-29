@@ -114,7 +114,7 @@ function buildGeneratedProduct(sub, imgEntry, index, kw) {
     price,
     abv: defaults.abv,
     size: defaults.size,
-    images: [imgEntry.webPath],
+    images: imgEntry.images && imgEntry.images.length > 0 ? imgEntry.images : [imgEntry.webPath],
     description,
     tastingNotes,
     ...(badge ? { badge } : {}),

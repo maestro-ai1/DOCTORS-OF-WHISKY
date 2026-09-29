@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import sharp from 'sharp';
 import { SUBCATEGORIES } from './subcategory-map.mjs';
 
@@ -21,6 +22,11 @@ function humanize(baseName) {
   let s = baseName.replace(/^tds-/, '');
   s = s.replace(/[-_][a-f0-9]{8}(-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i, ''); // strip uuid suffix
   s = s.replace(/\b(new|nohat|no-hat|copy|v2|final)\b/gi, '').trim();
+  // Filenames with no separators at all (camelCase blobs like "StefaniEstateShiraz")
+  // get split on capital-letter boundaries first.
+  if (!/[-_]/.test(s) && /[a-z][A-Z]/.test(s)) {
+    s = s.replace(/([a-z])([A-Z])/g, '$1-$2');
+  }
   const words = s.split(/[-_]+/).filter(Boolean).map((w) => {
     if (/^\d+ml$/i.test(w)) return w.toLowerCase();
     if (/^\d+l$/i.test(w)) return w.toUpperCase();
@@ -58,41 +64,90 @@ async function normalizeToWhiteCanvas(srcPath, destPath) {
     .toFile(destPath);
 }
 
+function dedupeKeyFor(humanizedName) {
+  // Trailing lone 1-2 digit marker (e.g. "Macallan Art Flower 2") usually denotes
+  // an alternate photo of the SAME bottle, not a different product/edition.
+  // Years (2022), ages (12yo), and vintages (1942) are all longer, so they're untouched.
+  return humanizedName.replace(/\s\d{1,2}$/, '').trim();
+}
+
 async function main() {
   const manifest = {};
   let totalImages = 0;
 
   for (const sub of SUBCATEGORIES) {
-    manifest[sub.slug] = [];
+    const rawEntries = [];
+    const seenHashes = new Set();
     for (const folder of sub.folders) {
       const folderPath = path.join(SRC_DIR, folder);
       if (!fs.existsSync(folderPath)) {
         console.warn(`Missing source folder: ${folder}`);
         continue;
       }
+      const allFolderNames = SUBCATEGORIES.flatMap((s) => s.folders).map((f) => f.toLowerCase());
       const files = fs.readdirSync(folderPath)
         .filter((f) => /\.(jpe?g|png|webp)$/i.test(f))
-        .filter((f) => !/trusted.service.award|platinum.trusted/i.test(f));
+        .filter((f) => !/trusted.service.award|platinum.trusted|country.?flags?/i.test(f))
+        .filter((f) => {
+          const stem = f.replace(/\.(jpe?g|png|webp)$/i, '').toLowerCase();
+          // Exclude brand logo/banner files literally named after a brand/folder (e.g. "Glenfiddich.jpg")
+          return !allFolderNames.includes(stem);
+        });
       const picked = pickLargestPerBase(files);
 
       for (const { base, file } of picked) {
+        const srcPath = path.join(folderPath, file);
+
+        // Skip byte-identical source photos that have been filed under more than
+        // one folder (e.g. the same bottle shot copied into both "Belvedere" and
+        // "Polish Vodka") so they don't become two separate product listings.
+        const hash = crypto.createHash('md5').update(fs.readFileSync(srcPath)).digest('hex');
+        if (seenHashes.has(hash)) continue;
+        seenHashes.add(hash);
+
         const brandSlug = slugify(folder);
         const nameSlug = slugify(base);
         const outFile = `${brandSlug}--${nameSlug}.jpg`;
         const destPath = path.join(OUT_PRODUCTS, sub.slug, outFile);
-        const srcPath = path.join(folderPath, file);
 
         await normalizeToWhiteCanvas(srcPath, destPath);
 
-        manifest[sub.slug].push({
+        rawEntries.push({
           brand: folder,
+          brandSlug,
           humanizedName: humanize(base),
           webPath: `/images/products/${sub.slug}/${outFile}`,
         });
         totalImages++;
       }
     }
-    console.log(`${sub.slug}: ${manifest[sub.slug].length} images`);
+
+    // Merge entries that are really just alternate photos of the same bottle
+    // (same brand + same name once a trailing "-2"/"-3" photo-variant marker is stripped)
+    // into a single product with multiple images, instead of near-duplicate products.
+    const merged = new Map();
+    for (const entry of rawEntries) {
+      const key = `${entry.brandSlug}::${dedupeKeyFor(entry.humanizedName)}`;
+      const existing = merged.get(key);
+      if (existing) {
+        existing.images.push(entry.webPath);
+      } else {
+        merged.set(key, {
+          brand: entry.brand,
+          humanizedName: dedupeKeyFor(entry.humanizedName),
+          images: [entry.webPath],
+        });
+      }
+    }
+
+    manifest[sub.slug] = Array.from(merged.values()).map((m) => ({
+      brand: m.brand,
+      humanizedName: m.humanizedName,
+      webPath: m.images[0],
+      images: m.images,
+    }));
+
+    console.log(`${sub.slug}: ${manifest[sub.slug].length} products (from ${rawEntries.length} photos)`);
   }
 
   // Brand hero shots: pick the single best (largest) image for each top brand folder

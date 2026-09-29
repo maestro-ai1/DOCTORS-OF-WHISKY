@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     "abv": "43.0%",
     "size": "700ml",
     "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-estate.jpg"
+      "/images/products/scotch-whisky/macallan--tds-macallan-estate-50ml.jpg"
     ],
     "description": "An iconic masterwork of Speyside distillation. Matured exclusively in hand-picked sherry seasoned oak casks from Jerez, Spain for a quarter of a century. Rich, dark mahogany hue with unparalleled dried fruit richness and wood smoke complexity.",
     "tastingNotes": {
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
     "abv": "43.0%",
     "size": "700ml",
     "images": [
-      "/images/products/japanese-whisky/nikka--tds-nikka-gold-gold-2.jpg"
+      "/images/products/japanese-whisky/nikka--tds-nikka-gold-samurai-2-94b40e70-0a8a-4ec9-8659-3f094b57e513.jpg"
     ],
     "description": "Winner of World Best Blended Malt Whisky. A blend of aged single malts from Yoichi and Miyagikyo distilleries. Perfectly balances peat, elegant fruit, and mature sherry cask depth.",
     "tastingNotes": {
@@ -423,7 +423,7 @@ export const PRODUCTS: Product[] = [
     "abv": "43.0%",
     "size": "700ml",
     "images": [
-      "/images/products/japanese-whisky/nikka--tds-nikka-coffey-grain-gb.jpg"
+      "/images/products/japanese-whisky/nikka--tds-nikka-coffey-malt.jpg"
     ],
     "description": "A global benchmark for luxury whisky. Matured predominantly in sherry butts with American and Mizunara oak influences. Deep amber with resinous wood spice and strawberry jam notes.",
     "tastingNotes": {
@@ -690,7 +690,7 @@ export const PRODUCTS: Product[] = [
     "abv": "43.0%",
     "size": "700ml",
     "images": [
-      "/images/products/scotch-whisky/glenfiddich--tds-glenfiddich-18yo-200ml.jpg"
+      "/images/products/scotch-whisky/glenfiddich--tds-glenfiddich-18yo-perpetual-vat-04.jpg"
     ],
     "description": "Part of the Glenfiddich Time Re:Imagined collection. Encased in a bespoke sculpture of moving ribbons representing suspended moments of master maturation.",
     "tastingNotes": {
@@ -820,7 +820,7 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0%",
     "size": "700ml Baccarat Decanter",
     "images": [
-      "/images/products/cognac-brandy/cognac--tds-hennessy-vsop-new.jpg"
+      "/images/products/cognac-brandy/cognac--tds-grand-marnier-50ml.jpg"
     ],
     "description": "A blend of up to 1,200 individual eaux-de-vie sourced 100% from Grande Champagne, aged in century-old tierçons casks. Encased in a hand-blown crystal Baccarat decanter with 20-carat gold neck.",
     "tastingNotes": {
@@ -1379,7 +1379,8 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-12yo-double-new.jpg"
+      "/images/products/scotch-whisky/macallan--tds-macallan-12yo-double-new.jpg",
+      "/images/products/scotch-whisky/macallan--tds-macallan-12yo-double.jpg"
     ],
     "description": "Macallan 12yo Double Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
@@ -1389,72 +1390,6 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 6,
     "sku": "MACALLAN-MACALLAN-12YO-DOUBLE",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan 12yo Double Scotch Whisky worth buying?",
-        "answer": "Macallan 12yo Double Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan 12yo Double Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan 12yo Double Scotch Whisky?",
-        "answer": "Macallan 12yo Double Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan 12yo Double Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan 12yo Double Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
-  },
-  {
-    "id": "prod-macallan-12yo-double-scotch-whisky-2",
-    "slug": "macallan-12yo-double-scotch-whisky-2",
-    "name": "Macallan 12yo Double Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 4285,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-12yo-double.jpg"
-    ],
-    "description": "Macallan 12yo Double Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Heather honey with a whisper of smoke.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Clean and mellow with a honeyed close."
-    },
-    "badge": "LIMITED EDITION",
-    "stock": 7,
-    "sku": "MACALLAN-MACALLAN-12YO-DOUBLE-2",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -1518,7 +1453,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 8,
+    "badge": "LIMITED EDITION",
+    "stock": 7,
     "sku": "MACALLAN-MACALLAN-15YO-DOUBLE",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -1583,7 +1519,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 9,
+    "stock": 8,
     "sku": "MACALLAN-MACALLAN-18YO-COLOUR",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -1648,8 +1584,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
+    "stock": 9,
     "sku": "MACALLAN-MACALLAN-AERA-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -1692,9 +1627,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Aera Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto dis..."
   },
   {
-    "id": "prod-macallan-art-flower-2-scotch-whisky",
-    "slug": "macallan-art-flower-2-scotch-whisky",
-    "name": "Macallan Art Flower 2 Scotch Whisky",
+    "id": "prod-macallan-art-flower-scotch-whisky",
+    "slug": "macallan-art-flower-scotch-whisky",
+    "name": "Macallan Art Flower Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -1706,81 +1641,18 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-art-flower-2.jpg"
+      "/images/products/scotch-whisky/macallan--tds-macallan-art-flower-2.jpg",
+      "/images/products/scotch-whisky/macallan--tds-macallan-art-flower.jpg"
     ],
-    "description": "Macallan Art Flower 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Art Flower Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Rich caramel and baked apple.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 11,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 10,
     "sku": "MACALLAN-MACALLAN-ART-FLOWER",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan Art Flower 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Art Flower 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan Art Flower 2 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan Art Flower 2 Scotch Whisky?",
-        "answer": "Macallan Art Flower 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan Art Flower 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Art Flower 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cr..."
-  },
-  {
-    "id": "prod-macallan-art-flower-scotch-whisky",
-    "slug": "macallan-art-flower-scotch-whisky",
-    "name": "Macallan Art Flower Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 1070,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-art-flower.jpg"
-    ],
-    "description": "Macallan Art Flower Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Honeyed malt and gentle spice.",
-      "palate": "Silky malt with ginger spice.",
-      "finish": "Satisfying with soft smoke and dried fruit."
-    },
-    "stock": 12,
-    "sku": "MACALLAN-MACALLAN-ART-FLOWER-2",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -1822,9 +1694,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Art Flower Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cryp..."
   },
   {
-    "id": "prod-macallan-concept-no2-2-scotch-whisky",
-    "slug": "macallan-concept-no2-2-scotch-whisky",
-    "name": "Macallan Concept No2 2 Scotch Whisky",
+    "id": "prod-macallan-concept-no2-scotch-whisky",
+    "slug": "macallan-concept-no2-scotch-whisky",
+    "name": "Macallan Concept No2 Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -1838,13 +1710,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/macallan--tds-macallan-concept-no2-2.jpg"
     ],
-    "description": "Macallan Concept No2 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Concept No2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Rich caramel and baked apple.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 4,
+    "stock": 11,
     "sku": "MACALLAN-MACALLAN-CONCEPT-NO2",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -1871,20 +1743,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Macallan Concept No2 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Concept No2 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Macallan Concept No2 Scotch Whisky worth buying?",
+        "answer": "Macallan Concept No2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Macallan Concept No2 2 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Macallan Concept No2 Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Macallan Concept No2 2 Scotch Whisky?",
-        "answer": "Macallan Concept No2 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Macallan Concept No2 Scotch Whisky?",
+        "answer": "Macallan Concept No2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Macallan Concept No2 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Concept No2 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% c..."
+    "metaTitle": "Macallan Concept No2 Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Concept No2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
   },
   {
     "id": "prod-macallan-double-cask-gold-scotch-whisky",
@@ -1909,8 +1781,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Long, warming, and gently spiced."
     },
-    "badge": "BEST SELLER",
-    "stock": 5,
+    "stock": 12,
     "sku": "MACALLAN-MACALLAN-DOUBLE-CASK",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -1953,9 +1824,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Double Cask Gold Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
   },
   {
-    "id": "prod-macallan-edition-6-scotch-whisky",
-    "slug": "macallan-edition-6-scotch-whisky",
-    "name": "Macallan Edition 6 Scotch Whisky",
+    "id": "prod-macallan-edition-scotch-whisky",
+    "slug": "macallan-edition-scotch-whisky",
+    "name": "Macallan Edition Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -1969,14 +1840,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/macallan--tds-macallan-edition-6.jpg"
     ],
-    "description": "Macallan Edition 6 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Edition Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 6,
-    "sku": "MACALLAN-MACALLAN-EDITION-6",
+    "stock": 4,
+    "sku": "MACALLAN-MACALLAN-EDITION-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -2002,20 +1873,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Macallan Edition 6 Scotch Whisky worth buying?",
-        "answer": "Macallan Edition 6 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Macallan Edition Scotch Whisky worth buying?",
+        "answer": "Macallan Edition Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Macallan Edition 6 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Macallan Edition Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Macallan Edition 6 Scotch Whisky?",
-        "answer": "Macallan Edition 6 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Macallan Edition Scotch Whisky?",
+        "answer": "Macallan Edition Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Macallan Edition 6 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Edition 6 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypt..."
+    "metaTitle": "Macallan Edition Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Edition Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
   },
   {
     "id": "prod-macallan-edition-no5-scotch-whisky",
@@ -2040,7 +1911,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 7,
+    "badge": "BEST SELLER",
+    "stock": 5,
     "sku": "MACALLAN-MACALLAN-EDITION-NO5",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2083,9 +1955,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Edition No5 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
   },
   {
-    "id": "prod-macallan-enigma-2-scotch-whisky",
-    "slug": "macallan-enigma-2-scotch-whisky",
-    "name": "Macallan Enigma 2 Scotch Whisky",
+    "id": "prod-macallan-enigma-scotch-whisky",
+    "slug": "macallan-enigma-scotch-whisky",
+    "name": "Macallan Enigma Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -2099,15 +1971,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/macallan--tds-macallan-enigma-2.jpg"
     ],
-    "description": "Macallan Enigma 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Enigma Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 8,
-    "sku": "MACALLAN-MACALLAN-ENIGMA-2",
+    "stock": 6,
+    "sku": "MACALLAN-MACALLAN-ENIGMA-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -2133,150 +2004,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Macallan Enigma 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Enigma 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Macallan Enigma Scotch Whisky worth buying?",
+        "answer": "Macallan Enigma Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Macallan Enigma 2 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Macallan Enigma Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Macallan Enigma 2 Scotch Whisky?",
-        "answer": "Macallan Enigma 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Macallan Enigma Scotch Whisky?",
+        "answer": "Macallan Enigma Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Macallan Enigma 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Enigma 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
-  },
-  {
-    "id": "prod-macallan-estate-2-scotch-whisky",
-    "slug": "macallan-estate-2-scotch-whisky",
-    "name": "Macallan Estate 2 Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 420,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-estate-2.jpg"
-    ],
-    "description": "Macallan Estate 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Dried orchard fruit and toasted oak.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Long, warming, and gently spiced."
-    },
-    "stock": 9,
-    "sku": "MACALLAN-MACALLAN-ESTATE-2",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan Estate 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Estate 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan Estate 2 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan Estate 2 Scotch Whisky?",
-        "answer": "Macallan Estate 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan Estate 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Estate 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
-  },
-  {
-    "id": "prod-macallan-estate-50ml-scotch-whisky",
-    "slug": "macallan-estate-50ml-scotch-whisky",
-    "name": "Macallan Estate 50ml Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 4065,
-    "abv": "40.0% - 46.0%",
-    "size": "50ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-estate-50ml.jpg"
-    ],
-    "description": "Macallan Estate 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Heather honey with a whisper of smoke.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Satisfying with soft smoke and dried fruit."
-    },
-    "stock": 10,
-    "sku": "MACALLAN-MACALLAN-ESTATE-50ML",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan Estate 50ml Scotch Whisky worth buying?",
-        "answer": "Macallan Estate 50ml Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan Estate 50ml Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan Estate 50ml Scotch Whisky?",
-        "answer": "Macallan Estate 50ml Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan Estate 50ml Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Estate 50ml Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
+    "metaTitle": "Macallan Enigma Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Enigma Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
   },
   {
     "id": "prod-macallan-estate-scotch-whisky",
@@ -2289,20 +2030,20 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 2780,
+    "price": 420,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
+      "/images/products/scotch-whisky/macallan--tds-macallan-estate-2.jpg",
       "/images/products/scotch-whisky/macallan--tds-macallan-estate.jpg"
     ],
     "description": "Macallan Estate Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
-      "nose": "Vanilla, toffee and light citrus zest.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Smooth with a lingering oak sweetness."
+      "nose": "Dried orchard fruit and toasted oak.",
+      "palate": "Dark chocolate and roasted nuts.",
+      "finish": "Long, warming, and gently spiced."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 11,
+    "stock": 7,
     "sku": "MACALLAN-MACALLAN-ESTATE-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2345,6 +2086,72 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Estate Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
   },
   {
+    "id": "prod-macallan-estate-50ml-scotch-whisky",
+    "slug": "macallan-estate-50ml-scotch-whisky",
+    "name": "Macallan Estate 50ml Scotch Whisky",
+    "brand": "Macallan",
+    "category": "whisky",
+    "subCategory": "Scotch Whisky",
+    "subCategorySlug": "scotch-whisky",
+    "style": "Single Malt / Blended Scotch",
+    "country": "Scotland",
+    "region": "Scotland",
+    "price": 4065,
+    "abv": "40.0% - 46.0%",
+    "size": "50ml",
+    "images": [
+      "/images/products/scotch-whisky/macallan--tds-macallan-estate-50ml.jpg"
+    ],
+    "description": "Macallan Estate 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "tastingNotes": {
+      "nose": "Heather honey with a whisper of smoke.",
+      "palate": "Butterscotch and gentle peat warmth.",
+      "finish": "Satisfying with soft smoke and dried fruit."
+    },
+    "badge": "LIMITED EDITION",
+    "stock": 8,
+    "sku": "MACALLAN-MACALLAN-ESTATE-50ML",
+    "primaryKeyword": "scotch whisky",
+    "secondaryKeywords": [
+      "johnnie walker",
+      "single malt",
+      "macallan",
+      "royal salute 21",
+      "royal salute",
+      "scotch whiskey",
+      "maclagan whisky",
+      "glendronach 18",
+      "johnnie walker scotch",
+      "mccallan",
+      "johnie walker",
+      "johnny walker scotch",
+      "maccallan",
+      "glendronach 21",
+      "laphroiag",
+      "royal salute scotch",
+      "macallan uisque",
+      "macallan 12 price",
+      "macalln 12",
+      "the macallan single malt"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Macallan Estate 50ml Scotch Whisky worth buying?",
+        "answer": "Macallan Estate 50ml Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+      },
+      {
+        "question": "Is Macallan Estate 50ml Scotch Whisky authentic, and how is it stored?",
+        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
+      },
+      {
+        "question": "What payment options are available for Macallan Estate 50ml Scotch Whisky?",
+        "answer": "Macallan Estate 50ml Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+      }
+    ],
+    "metaTitle": "Macallan Estate 50ml Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Estate 50ml Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
+  },
+  {
     "id": "prod-macallan-harmony-rich-cacao-scotch-whisky",
     "slug": "macallan-harmony-rich-cacao-scotch-whisky",
     "name": "Macallan Harmony Rich Cacao Scotch Whisky",
@@ -2367,7 +2174,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 12,
+    "stock": 9,
     "sku": "MACALLAN-MACALLAN-HARMONY-RICH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2410,9 +2217,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Harmony Rich Cacao Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
   },
   {
-    "id": "prod-macallan-litha-2-scotch-whisky",
-    "slug": "macallan-litha-2-scotch-whisky",
-    "name": "Macallan Litha 2 Scotch Whisky",
+    "id": "prod-macallan-litha-scotch-whisky",
+    "slug": "macallan-litha-scotch-whisky",
+    "name": "Macallan Litha Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -2424,80 +2231,16 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-litha-2.jpg"
+      "/images/products/scotch-whisky/macallan--tds-macallan-litha-2.jpg",
+      "/images/products/scotch-whisky/macallan--tds-macallan-litha.jpg"
     ],
-    "description": "Macallan Litha 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Litha Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 4,
-    "sku": "MACALLAN-MACALLAN-LITHA-2",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan Litha 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Litha 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan Litha 2 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan Litha 2 Scotch Whisky?",
-        "answer": "Macallan Litha 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan Litha 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Litha 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
-  },
-  {
-    "id": "prod-macallan-litha-scotch-whisky",
-    "slug": "macallan-litha-scotch-whisky",
-    "name": "Macallan Litha Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 4805,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-litha.jpg"
-    ],
-    "description": "Macallan Litha Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Heather honey with a whisper of smoke.",
-      "palate": "Brown sugar, oak and stewed fruit.",
-      "finish": "Clean and mellow with a honeyed close."
-    },
-    "stock": 5,
+    "stock": 10,
     "sku": "MACALLAN-MACALLAN-LITHA-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2540,9 +2283,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan Litha Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto di..."
   },
   {
-    "id": "prod-macallan-lumina-2-scotch-whisky",
-    "slug": "macallan-lumina-2-scotch-whisky",
-    "name": "Macallan Lumina 2 Scotch Whisky",
+    "id": "prod-macallan-lumina-scotch-whisky",
+    "slug": "macallan-lumina-scotch-whisky",
+    "name": "Macallan Lumina Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -2556,15 +2299,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/macallan--tds-macallan-lumina-2.jpg"
     ],
-    "description": "Macallan Lumina 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Lumina Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Rich caramel and baked apple.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "BEST SELLER",
-    "stock": 6,
-    "sku": "MACALLAN-MACALLAN-LUMINA-2",
+    "badge": "COLLECTOR RELEASE",
+    "stock": 11,
+    "sku": "MACALLAN-MACALLAN-LUMINA-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -2590,20 +2333,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Macallan Lumina 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Lumina 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Macallan Lumina Scotch Whisky worth buying?",
+        "answer": "Macallan Lumina Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Macallan Lumina 2 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Macallan Lumina Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Macallan Lumina 2 Scotch Whisky?",
-        "answer": "Macallan Lumina 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Macallan Lumina Scotch Whisky?",
+        "answer": "Macallan Lumina Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Macallan Lumina 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Lumina 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
+    "metaTitle": "Macallan Lumina Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Lumina Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
   },
   {
     "id": "prod-macallan-m-black-2022-scotch-whisky",
@@ -2628,7 +2371,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 7,
+    "stock": 12,
     "sku": "MACALLAN-MACALLAN-M-BLACK",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2671,9 +2414,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Macallan M Black 2022 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cr..."
   },
   {
-    "id": "prod-macallan-makers-edition-2-scotch-whisky",
-    "slug": "macallan-makers-edition-2-scotch-whisky",
-    "name": "Macallan Makers Edition 2 Scotch Whisky",
+    "id": "prod-macallan-makers-edition-scotch-whisky",
+    "slug": "macallan-makers-edition-scotch-whisky",
+    "name": "Macallan Makers Edition Scotch Whisky",
     "brand": "Macallan",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -2687,13 +2430,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/macallan--tds-macallan-makers-edition-2.jpg"
     ],
-    "description": "Macallan Makers Edition 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Macallan Makers Edition Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Dried orchard fruit and toasted oak.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 8,
+    "stock": 4,
     "sku": "MACALLAN-MACALLAN-MAKERS-EDITION",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2720,86 +2463,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Macallan Makers Edition 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Makers Edition 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Macallan Makers Edition Scotch Whisky worth buying?",
+        "answer": "Macallan Makers Edition Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Macallan Makers Edition 2 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Macallan Makers Edition Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Macallan Makers Edition 2 Scotch Whisky?",
-        "answer": "Macallan Makers Edition 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Macallan Makers Edition Scotch Whisky?",
+        "answer": "Macallan Makers Edition Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Macallan Makers Edition 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Makers Edition 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
-  },
-  {
-    "id": "prod-macallan-oscuro-2-scotch-whisky",
-    "slug": "macallan-oscuro-2-scotch-whisky",
-    "name": "Macallan Oscuro 2 Scotch Whisky",
-    "brand": "Macallan",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 3885,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/macallan--tds-macallan-oscuro-new-2.jpg"
-    ],
-    "description": "Macallan Oscuro 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Sherried dried fruit and warm cinnamon.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Long, warming, and gently spiced."
-    },
-    "badge": "LIMITED EDITION",
-    "stock": 9,
-    "sku": "MACALLAN-MACALLAN-OSCURO-2",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Macallan Oscuro 2 Scotch Whisky worth buying?",
-        "answer": "Macallan Oscuro 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Macallan Oscuro 2 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Macallan Oscuro 2 Scotch Whisky?",
-        "answer": "Macallan Oscuro 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Macallan Oscuro 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Macallan Oscuro 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
+    "metaTitle": "Macallan Makers Edition Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Macallan Makers Edition Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% ..."
   },
   {
     "id": "prod-macallan-oscuro-scotch-whisky",
@@ -2812,19 +2489,20 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3730,
+    "price": 3885,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
+      "/images/products/scotch-whisky/macallan--tds-macallan-oscuro-new-2.jpg",
       "/images/products/scotch-whisky/macallan--tds-macallan-oscuro-new.jpg"
     ],
     "description": "Macallan Oscuro Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Macallan is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
-      "palate": "Rich caramel and baked apple.",
+      "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 10,
+    "stock": 5,
     "sku": "MACALLAN-MACALLAN-OSCURO-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2889,7 +2567,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 11,
+    "badge": "BEST SELLER",
+    "stock": 6,
     "sku": "MACALLAN-MACALLAN-QUEST-1L",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -2954,8 +2633,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 12,
+    "stock": 7,
     "sku": "MACALLAN-MACALLAN-QUEST-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3020,7 +2698,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 4,
+    "stock": 8,
     "sku": "MACALLAN-MACALLAN-RARE-CASK",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3085,7 +2763,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 5,
+    "badge": "LIMITED EDITION",
+    "stock": 9,
     "sku": "MACALLAN-MACALLAN-TERRA-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3150,7 +2829,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 6,
+    "stock": 10,
     "sku": "GLENDRONACH-GLENDRONACH-12YO-50ML",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3215,8 +2894,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "badge": "BEST SELLER",
-    "stock": 7,
+    "stock": 11,
     "sku": "GLENDRONACH-GLENDRONACH-18-NC",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3281,7 +2959,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 8,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 12,
     "sku": "GLENDRONACH-GLENDRONACH-21-CHILL",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3346,7 +3025,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 9,
+    "stock": 4,
     "sku": "GLENDRONACH-GLENDRONACH-30YO-SCOTCH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3389,9 +3068,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Glendronach 30yo Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
   },
   {
-    "id": "prod-glendronach-cask-strength-batch-12-scotch-whisky",
-    "slug": "glendronach-cask-strength-batch-12-scotch-whisky",
-    "name": "Glendronach Cask Strength Batch 12 Scotch Whisky",
+    "id": "prod-glendronach-cask-strength-batch-scotch-whisky",
+    "slug": "glendronach-cask-strength-batch-scotch-whisky",
+    "name": "Glendronach Cask Strength Batch Scotch Whisky",
     "brand": "Glendronach",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -3405,14 +3084,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/glendronach--tds-glendronach-cask-strength-batch-12.jpg"
     ],
-    "description": "Glendronach Cask Strength Batch 12 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Glendronach is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Glendronach Cask Strength Batch Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Glendronach is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 10,
+    "stock": 5,
     "sku": "GLENDRONACH-GLENDRONACH-CASK-STRENGTH",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3439,150 +3117,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Glendronach Cask Strength Batch 12 Scotch Whisky worth buying?",
-        "answer": "Glendronach Cask Strength Batch 12 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Glendronach Cask Strength Batch Scotch Whisky worth buying?",
+        "answer": "Glendronach Cask Strength Batch Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Glendronach Cask Strength Batch 12 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Glendronach Cask Strength Batch Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Glendronach Cask Strength Batch 12 Scotch Whisky?",
-        "answer": "Glendronach Cask Strength Batch 12 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Glendronach Cask Strength Batch Scotch Whisky?",
+        "answer": "Glendronach Cask Strength Batch Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Glendronach Cask Strength Batch 12 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Glendronach Cask Strength Batch 12 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery,..."
-  },
-  {
-    "id": "prod-country-flags-40-scotch-whisky",
-    "slug": "country-flags-40-scotch-whisky",
-    "name": "Country Flags 40 Scotch Whisky",
-    "brand": "Country",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 295,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/glenfiddich--country-flags-40.jpg"
-    ],
-    "description": "Country Flags 40 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Country is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Dried orchard fruit and toasted oak.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Smooth with a lingering oak sweetness."
-    },
-    "stock": 11,
-    "sku": "COUNTRY-COUNTRY-FLAGS-40",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Country Flags 40 Scotch Whisky worth buying?",
-        "answer": "Country Flags 40 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Country Flags 40 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Country Flags 40 Scotch Whisky?",
-        "answer": "Country Flags 40 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Country Flags 40 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Country Flags 40 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
-  },
-  {
-    "id": "prod-glenfiddich-scotch-whisky",
-    "slug": "glenfiddich-scotch-whisky",
-    "name": "Glenfiddich Scotch Whisky",
-    "brand": "Glenfiddich",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 2605,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/glenfiddich--glenfiddich.jpg"
-    ],
-    "description": "Glenfiddich Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Glenfiddich is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Vanilla, toffee and light citrus zest.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Smooth with a lingering oak sweetness."
-    },
-    "stock": 12,
-    "sku": "GLENFIDDICH-GLENFIDDICH-SCOTCH-WHISKY",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Glenfiddich Scotch Whisky worth buying?",
-        "answer": "Glenfiddich Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Glenfiddich Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Glenfiddich Scotch Whisky?",
-        "answer": "Glenfiddich Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Glenfiddich Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Glenfiddich Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto disco..."
+    "metaTitle": "Glendronach Cask Strength Batch Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Glendronach Cask Strength Batch Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, an..."
   },
   {
     "id": "prod-glenfiddich-16-aston-martin-no2-scotch-whisky",
@@ -3607,8 +3155,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 4,
+    "stock": 6,
     "sku": "GLENFIDDICH-GLENFIDDICH-16-ASTON",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3673,7 +3220,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 5,
+    "badge": "BEST SELLER",
+    "stock": 7,
     "sku": "GLENFIDDICH-GLENFIDDICH-18YO-200ML",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3716,9 +3264,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Glenfiddich 18yo 200ml Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% c..."
   },
   {
-    "id": "prod-glenfiddich-18yo-perpetual-vat-04-scotch-whisky",
-    "slug": "glenfiddich-18yo-perpetual-vat-04-scotch-whisky",
-    "name": "Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky",
+    "id": "prod-glenfiddich-18yo-perpetual-vat-scotch-whisky",
+    "slug": "glenfiddich-18yo-perpetual-vat-scotch-whisky",
+    "name": "Glenfiddich 18yo Perpetual Vat Scotch Whisky",
     "brand": "Glenfiddich",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -3732,13 +3280,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/glenfiddich--tds-glenfiddich-18yo-perpetual-vat-04.jpg"
     ],
-    "description": "Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Glenfiddich is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Glenfiddich 18yo Perpetual Vat Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Glenfiddich is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 6,
+    "stock": 8,
     "sku": "GLENFIDDICH-GLENFIDDICH-18YO-PERPETUAL",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3765,20 +3313,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky worth buying?",
-        "answer": "Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Glenfiddich 18yo Perpetual Vat Scotch Whisky worth buying?",
+        "answer": "Glenfiddich 18yo Perpetual Vat Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Glenfiddich 18yo Perpetual Vat Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky?",
-        "answer": "Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Glenfiddich 18yo Perpetual Vat Scotch Whisky?",
+        "answer": "Glenfiddich 18yo Perpetual Vat Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Glenfiddich 18yo Perpetual Vat 04 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, ..."
+    "metaTitle": "Glenfiddich 18yo Perpetual Vat Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Glenfiddich 18yo Perpetual Vat Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and..."
   },
   {
     "id": "prod-glenfiddich-malt-masters-scotch-whisky",
@@ -3803,7 +3351,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 7,
+    "stock": 9,
     "sku": "GLENFIDDICH-GLENFIDDICH-MALT-MASTERS",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3868,8 +3416,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
-    "badge": "BEST SELLER",
-    "stock": 8,
+    "badge": "LIMITED EDITION",
+    "stock": 10,
     "sku": "GLENFIDDICH-GLENFIDDICH-SELECT-CASK",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -3912,136 +3460,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Glenfiddich Select Cask 50ml Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
   },
   {
-    "id": "prod-country-flags-40-scotch-whisky-2",
-    "slug": "country-flags-40-scotch-whisky-2",
-    "name": "Country Flags 40 Scotch Whisky",
-    "brand": "Country",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 4485,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/laphroaig--country-flags-40.jpg"
-    ],
-    "description": "Country Flags 40 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Country is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Heather honey with a whisper of smoke.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Smooth with a lingering oak sweetness."
-    },
-    "stock": 9,
-    "sku": "COUNTRY-COUNTRY-FLAGS-40-2",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Country Flags 40 Scotch Whisky worth buying?",
-        "answer": "Country Flags 40 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Country Flags 40 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Country Flags 40 Scotch Whisky?",
-        "answer": "Country Flags 40 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Country Flags 40 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Country Flags 40 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
-  },
-  {
-    "id": "prod-laphroaig-scotch-whisky",
-    "slug": "laphroaig-scotch-whisky",
-    "name": "Laphroaig Scotch Whisky",
-    "brand": "Laphroaig",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 95,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/laphroaig--laphroaig.jpg"
-    ],
-    "description": "Laphroaig Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Laphroaig is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Dried orchard fruit and toasted oak.",
-      "palate": "Rich caramel and baked apple.",
-      "finish": "Smooth with a lingering oak sweetness."
-    },
-    "stock": 10,
-    "sku": "LAPHROAIG-LAPHROAIG-SCOTCH-WHISKY",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Laphroaig Scotch Whisky worth buying?",
-        "answer": "Laphroaig Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Laphroaig Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Laphroaig Scotch Whisky?",
-        "answer": "Laphroaig Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Laphroaig Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Laphroaig Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-laphroaig-10-glass-pack-scotch-whisky",
     "slug": "laphroaig-10-glass-pack-scotch-whisky",
     "name": "Laphroaig 10 Glass Pack Scotch Whisky",
@@ -4064,7 +3482,6 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "LIMITED EDITION",
     "stock": 11,
     "sku": "LAPHROAIG-LAPHROAIG-10-GLASS",
     "primaryKeyword": "scotch whisky",
@@ -4195,6 +3612,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Long, warming, and gently spiced."
     },
+    "badge": "COLLECTOR RELEASE",
     "stock": 4,
     "sku": "LAPHROAIG-LAPHROAIG-10YO-GLASS",
     "primaryKeyword": "scotch whisky",
@@ -4260,7 +3678,6 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "COLLECTOR RELEASE",
     "stock": 5,
     "sku": "LAPHROAIG-LAPHROAIG-12YO-SCOTCH",
     "primaryKeyword": "scotch whisky",
@@ -4456,6 +3873,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
+    "badge": "BEST SELLER",
     "stock": 8,
     "sku": "LAPHROAIG-LAPHROAIG-LORE-SCOTCH",
     "primaryKeyword": "scotch whisky",
@@ -4521,7 +3939,6 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "BEST SELLER",
     "stock": 9,
     "sku": "LAPHROAIG-LAPHROAIG-OAK-SELECT",
     "primaryKeyword": "scotch whisky",
@@ -4652,6 +4069,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
+    "badge": "LIMITED EDITION",
     "stock": 11,
     "sku": "LAPHROAIG-LAPHROAIG-QUARTER-CASKS",
     "primaryKeyword": "scotch whisky",
@@ -4717,7 +4135,6 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "badge": "LIMITED EDITION",
     "stock": 12,
     "sku": "ROYAL-ROYAL-SALUT-ETERNAL",
     "primaryKeyword": "scotch whisky",
@@ -4764,7 +4181,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-21-jodjpur-polo-50ml-scotch-whisky",
     "slug": "royal-salute-21-jodjpur-polo-50ml-scotch-whisky",
     "name": "Royal Salute 21 Jodjpur Polo 50ml Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -4777,14 +4194,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-21-jodjpur-polo-50ml.jpg"
     ],
-    "description": "Royal Salute 21 Jodjpur Polo 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 21 Jodjpur Polo 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Dried orchard fruit and toasted oak.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
     "stock": 4,
-    "sku": "ROYAL-ROYAL-SALUTE-21",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -4829,7 +4246,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-21yo-polo-estancia-edition-scotch-whisky",
     "slug": "royal-salute-21yo-polo-estancia-edition-scotch-whisky",
     "name": "Royal Salute 21yo Polo Estancia Edition Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -4842,14 +4259,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-21yo-polo-estancia-edition.jpg"
     ],
-    "description": "Royal Salute 21yo Polo Estancia Edition Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 21yo Polo Estancia Edition Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Long, warming, and gently spiced."
     },
+    "badge": "COLLECTOR RELEASE",
     "stock": 5,
-    "sku": "ROYAL-ROYAL-SALUTE-21YO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-2",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -4894,7 +4312,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-21yo-signature-scotch-whisky",
     "slug": "royal-salute-21yo-signature-scotch-whisky",
     "name": "Royal Salute 21yo Signature Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -4907,15 +4325,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-21yo-signature.jpg"
     ],
-    "description": "Royal Salute 21yo Signature Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 21yo Signature Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Dried orchard fruit and toasted oak.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "COLLECTOR RELEASE",
     "stock": 6,
-    "sku": "ROYAL-ROYAL-SALUTE-21YO-2",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-3",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -4960,7 +4377,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-24yo-cognac-cask",
     "slug": "royal-salute-24yo-cognac-cask",
     "name": "Royal Salute 24yo Cognac Cask",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -4973,14 +4390,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-24yo-cognac-cask.jpg"
     ],
-    "description": "Royal Salute 24yo Cognac Cask is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 24yo Cognac Cask is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Clean and mellow with a honeyed close."
     },
     "stock": 7,
-    "sku": "ROYAL-ROYAL-SALUTE-24YO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-4",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5025,7 +4442,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-25yo-scotch-whisky",
     "slug": "royal-salute-25yo-scotch-whisky",
     "name": "Royal Salute 25yo Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5038,14 +4455,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-25yo-new.jpg"
     ],
-    "description": "Royal Salute 25yo Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 25yo Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Rich caramel and baked apple.",
       "finish": "Smooth with a lingering oak sweetness."
     },
     "stock": 8,
-    "sku": "ROYAL-ROYAL-SALUTE-25YO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-5",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5090,7 +4507,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-29yo-scotch-whisky",
     "slug": "royal-salute-29yo-scotch-whisky",
     "name": "Royal Salute 29yo Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5103,14 +4520,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-29yo.jpg"
     ],
-    "description": "Royal Salute 29yo Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 29yo Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
+    "badge": "BEST SELLER",
     "stock": 9,
-    "sku": "ROYAL-ROYAL-SALUTE-29YO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-6",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5155,7 +4573,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-32yo-precious-scotch-whisky",
     "slug": "royal-salute-32yo-precious-scotch-whisky",
     "name": "Royal Salute 32yo Precious Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5168,15 +4586,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-32yo-precious.jpg"
     ],
-    "description": "Royal Salute 32yo Precious Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute 32yo Precious Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Dried orchard fruit and toasted oak.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "badge": "BEST SELLER",
     "stock": 10,
-    "sku": "ROYAL-ROYAL-SALUTE-32YO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-7",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5221,7 +4638,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-royal-salute-rio-janeiro-scotch-whisky",
     "slug": "royal-salute-rio-janeiro-scotch-whisky",
     "name": "Royal Salute Rio Janeiro Scotch Whisky",
-    "brand": "Royal",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5234,14 +4651,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-rio-janeiro.jpg"
     ],
-    "description": "Royal Salute Rio Janeiro Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute Rio Janeiro Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
     "stock": 11,
-    "sku": "ROYAL-ROYAL-SALUTE-RIO",
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-8",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5283,10 +4700,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Royal Salute Rio Janeiro Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12%..."
   },
   {
-    "id": "prod-royal-salute-snow-polo-21-scotch-whisky",
-    "slug": "royal-salute-snow-polo-21-scotch-whisky",
-    "name": "Royal Salute Snow Polo 21 Scotch Whisky",
-    "brand": "Royal",
+    "id": "prod-royal-salute-snow-polo-scotch-whisky",
+    "slug": "royal-salute-snow-polo-scotch-whisky",
+    "name": "Royal Salute Snow Polo Scotch Whisky",
+    "brand": "Royal Salute",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5299,80 +4716,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/royal-salute--tds-royal-salute-snow-polo-21.jpg"
     ],
-    "description": "Royal Salute Snow Polo 21 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Royal Salute Snow Polo Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Royal Salute is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Rich caramel and baked apple.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 12,
-    "sku": "ROYAL-ROYAL-SALUTE-SNOW",
-    "primaryKeyword": "scotch whisky",
-    "secondaryKeywords": [
-      "johnnie walker",
-      "single malt",
-      "macallan",
-      "royal salute 21",
-      "royal salute",
-      "scotch whiskey",
-      "maclagan whisky",
-      "glendronach 18",
-      "johnnie walker scotch",
-      "mccallan",
-      "johnie walker",
-      "johnny walker scotch",
-      "maccallan",
-      "glendronach 21",
-      "laphroiag",
-      "royal salute scotch",
-      "macallan uisque",
-      "macallan 12 price",
-      "macalln 12",
-      "the macallan single malt"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Royal Salute Snow Polo 21 Scotch Whisky worth buying?",
-        "answer": "Royal Salute Snow Polo 21 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Royal Salute Snow Polo 21 Scotch Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Royal Salute Snow Polo 21 Scotch Whisky?",
-        "answer": "Royal Salute Snow Polo 21 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Royal Salute Snow Polo 21 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Royal Salute Snow Polo 21 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
-  },
-  {
-    "id": "prod-johnnie-walker-scotch-whisky",
-    "slug": "johnnie-walker-scotch-whisky",
-    "name": "Johnnie Walker Scotch Whisky",
-    "brand": "Johnnie",
-    "category": "whisky",
-    "subCategory": "Scotch Whisky",
-    "subCategorySlug": "scotch-whisky",
-    "style": "Single Malt / Blended Scotch",
-    "country": "Scotland",
-    "region": "Scotland",
-    "price": 3335,
-    "abv": "40.0% - 46.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/scotch-whisky/johnnie-walker--johnnie-walker.jpg"
-    ],
-    "description": "Johnnie Walker Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Sherried dried fruit and warm cinnamon.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Satisfying with soft smoke and dried fruit."
-    },
     "badge": "LIMITED EDITION",
-    "stock": 4,
-    "sku": "JOHNNIE-JOHNNIE-WALKER-SCOTCH",
+    "stock": 12,
+    "sku": "ROYAL-SALUTE-ROYAL-SALUTE-9",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5398,25 +4750,25 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Johnnie Walker Scotch Whisky worth buying?",
-        "answer": "Johnnie Walker Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Royal Salute Snow Polo Scotch Whisky worth buying?",
+        "answer": "Royal Salute Snow Polo Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Johnnie Walker Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Royal Salute Snow Polo Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Johnnie Walker Scotch Whisky?",
-        "answer": "Johnnie Walker Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Royal Salute Snow Polo Scotch Whisky?",
+        "answer": "Royal Salute Snow Polo Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Johnnie Walker Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Johnnie Walker Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto di..."
+    "metaTitle": "Royal Salute Snow Polo Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Royal Salute Snow Polo Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% c..."
   },
   {
-    "id": "prod-johnnie-blue-200ml-2-scotch-whisky",
-    "slug": "johnnie-blue-200ml-2-scotch-whisky",
-    "name": "Johnnie Blue 200ml 2 Scotch Whisky",
+    "id": "prod-johnnie-blue-200ml-scotch-whisky",
+    "slug": "johnnie-blue-200ml-scotch-whisky",
+    "name": "Johnnie Blue 200ml Scotch Whisky",
     "brand": "Johnnie",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
@@ -5430,13 +4782,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/johnnie-walker--tds-johnnie-blue-200ml-2.jpg"
     ],
-    "description": "Johnnie Blue 200ml 2 Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Johnnie Blue 200ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 5,
+    "stock": 4,
     "sku": "JOHNNIE-JOHNNIE-BLUE-200ML",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -5463,20 +4815,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Johnnie Blue 200ml 2 Scotch Whisky worth buying?",
-        "answer": "Johnnie Blue 200ml 2 Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Johnnie Blue 200ml Scotch Whisky worth buying?",
+        "answer": "Johnnie Blue 200ml Scotch Whisky is a genuine, provenance-verified scotch whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Johnnie Blue 200ml 2 Scotch Whisky authentic, and how is it stored?",
+        "question": "Is Johnnie Blue 200ml Scotch Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Johnnie Blue 200ml 2 Scotch Whisky?",
-        "answer": "Johnnie Blue 200ml 2 Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Johnnie Blue 200ml Scotch Whisky?",
+        "answer": "Johnnie Blue 200ml Scotch Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Johnnie Blue 200ml 2 Scotch Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Johnnie Blue 200ml 2 Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
+    "metaTitle": "Johnnie Blue 200ml Scotch Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Johnnie Blue 200ml Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypt..."
   },
   {
     "id": "prod-johnnie-blue-700ml-scotch-whisky",
@@ -5501,7 +4853,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 6,
+    "stock": 5,
     "sku": "JOHNNIE-JOHNNIE-BLUE-700ML",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
@@ -5547,7 +4899,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-johnnie-walker-15yo-sherry-scotch-whisky",
     "slug": "johnnie-walker-15yo-sherry-scotch-whisky",
     "name": "Johnnie Walker 15yo Sherry Scotch Whisky",
-    "brand": "Johnnie",
+    "brand": "Johnnie Walker",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5560,15 +4912,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/johnnie-walker--tds-johnnie-walker-15yo-sherry-new.jpg"
     ],
-    "description": "Johnnie Walker 15yo Sherry Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Johnnie Walker 15yo Sherry Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie Walker is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
     "badge": "COLLECTOR RELEASE",
-    "stock": 7,
-    "sku": "JOHNNIE-JOHNNIE-WALKER-15YO",
+    "stock": 6,
+    "sku": "JOHNNIE-WALKER-JOHNNIE-WALKER",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5613,7 +4965,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-johnnie-walker-black-50ml-scotch-whisky",
     "slug": "johnnie-walker-black-50ml-scotch-whisky",
     "name": "Johnnie Walker Black 50ml Scotch Whisky",
-    "brand": "Johnnie",
+    "brand": "Johnnie Walker",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5626,14 +4978,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/johnnie-walker--tds-johnnie-walker-black-50ml.jpg"
     ],
-    "description": "Johnnie Walker Black 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Johnnie Walker Black 50ml Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie Walker is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 8,
-    "sku": "JOHNNIE-JOHNNIE-WALKER-BLACK",
+    "stock": 7,
+    "sku": "JOHNNIE-WALKER-JOHNNIE-WALKER-2",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5678,7 +5030,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-johnnie-walker-xr-scotch-whisky",
     "slug": "johnnie-walker-xr-scotch-whisky",
     "name": "Johnnie Walker Xr Scotch Whisky",
-    "brand": "Johnnie",
+    "brand": "Johnnie Walker",
     "category": "whisky",
     "subCategory": "Scotch Whisky",
     "subCategorySlug": "scotch-whisky",
@@ -5691,14 +5043,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/johnnie-walker--tds-johnnie-walker-xr-new.jpg"
     ],
-    "description": "Johnnie Walker Xr Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Johnnie Walker Xr Scotch Whisky is one of Doctors of Whisky's hand-selected scotch whisky allocations, sourced from Scotland and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to johnnie walker, or wanting to explore single malt. Every bottle from Johnnie Walker is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 9,
-    "sku": "JOHNNIE-JOHNNIE-WALKER-XR",
+    "stock": 8,
+    "sku": "JOHNNIE-WALKER-JOHNNIE-WALKER-3",
     "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "johnnie walker",
@@ -5740,9 +5092,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Johnnie Walker Xr Scotch Whisky online in Australia. Scotch whisky experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
   },
   {
-    "id": "prod-buffalo-trace-1l-45-bourbon-whiskey",
-    "slug": "buffalo-trace-1l-45-bourbon-whiskey",
-    "name": "Buffalo Trace 1L 45 Bourbon Whiskey",
+    "id": "prod-buffalo-trace-1l-bourbon-whiskey",
+    "slug": "buffalo-trace-1l-bourbon-whiskey",
+    "name": "Buffalo Trace 1L Bourbon Whiskey",
     "brand": "Buffalo",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
@@ -5756,7 +5108,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-buffalo-trace-1l-45.jpg"
     ],
-    "description": "Buffalo Trace 1L 45 Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Buffalo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Buffalo Trace 1L Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Buffalo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Rich caramel and baked apple.",
@@ -5785,20 +5137,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Buffalo Trace 1L 45 Bourbon Whiskey worth buying?",
-        "answer": "Buffalo Trace 1L 45 Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Buffalo Trace 1L Bourbon Whiskey worth buying?",
+        "answer": "Buffalo Trace 1L Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Buffalo Trace 1L 45 Bourbon Whiskey authentic, and how is it stored?",
+        "question": "Is Buffalo Trace 1L Bourbon Whiskey authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Buffalo Trace 1L 45 Bourbon Whiskey?",
-        "answer": "Buffalo Trace 1L 45 Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Buffalo Trace 1L Bourbon Whiskey?",
+        "answer": "Buffalo Trace 1L Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Buffalo Trace 1L 45 Bourbon Whiskey | Doctors of Whisky",
-    "metaDescription": "Buy Buffalo Trace 1L 45 Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
+    "metaTitle": "Buffalo Trace 1L Bourbon Whiskey | Doctors of Whisky",
+    "metaDescription": "Buy Buffalo Trace 1L Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto disc..."
   },
   {
     "id": "prod-colonel-eh-bourbon-whiskey",
@@ -5861,9 +5213,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Colonel Eh Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-eagle-rare-10-bourbon-whiskey",
-    "slug": "eagle-rare-10-bourbon-whiskey",
-    "name": "Eagle Rare 10 Bourbon Whiskey",
+    "id": "prod-eagle-rare-bourbon-whiskey",
+    "slug": "eagle-rare-bourbon-whiskey",
+    "name": "Eagle Rare Bourbon Whiskey",
     "brand": "Eagle",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
@@ -5877,14 +5229,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-eagle-rare-10.jpg"
     ],
-    "description": "Eagle Rare 10 Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Eagle is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Eagle Rare Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Eagle is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Long, warming, and gently spiced."
     },
     "stock": 6,
-    "sku": "EAGLE-EAGLE-RARE-10",
+    "sku": "EAGLE-EAGLE-RARE-BOURBON",
     "primaryKeyword": "bourbon",
     "secondaryKeywords": [
       "whiskey and american",
@@ -5905,26 +5257,26 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Eagle Rare 10 Bourbon Whiskey worth buying?",
-        "answer": "Eagle Rare 10 Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Eagle Rare Bourbon Whiskey worth buying?",
+        "answer": "Eagle Rare Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Eagle Rare 10 Bourbon Whiskey authentic, and how is it stored?",
+        "question": "Is Eagle Rare Bourbon Whiskey authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Eagle Rare 10 Bourbon Whiskey?",
-        "answer": "Eagle Rare 10 Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Eagle Rare Bourbon Whiskey?",
+        "answer": "Eagle Rare Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Eagle Rare 10 Bourbon Whiskey | Doctors of Whisky",
-    "metaDescription": "Buy Eagle Rare 10 Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
+    "metaTitle": "Eagle Rare Bourbon Whiskey | Doctors of Whisky",
+    "metaDescription": "Buy Eagle Rare Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
     "id": "prod-four-roses-single-barrel-bourbon-whiskey",
     "slug": "four-roses-single-barrel-bourbon-whiskey",
     "name": "Four Roses Single Barrel Bourbon Whiskey",
-    "brand": "Four",
+    "brand": "Four Roses",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
     "subCategorySlug": "bourbon",
@@ -5937,7 +5289,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-four-roses-single-barrel.jpg"
     ],
-    "description": "Four Roses Single Barrel Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Four is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Four Roses Single Barrel Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Four Roses is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Sherried dried fruit and warm cinnamon.",
       "palate": "Rich caramel and baked apple.",
@@ -5945,7 +5297,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "LIMITED EDITION",
     "stock": 7,
-    "sku": "FOUR-FOUR-ROSES-SINGLE",
+    "sku": "FOUR-ROSES-FOUR-ROSES",
     "primaryKeyword": "bourbon",
     "secondaryKeywords": [
       "whiskey and american",
@@ -5982,9 +5334,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Four Roses Single Barrel Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
   },
   {
-    "id": "prod-makers-mark-101-2-bourbon-whiskey",
-    "slug": "makers-mark-101-2-bourbon-whiskey",
-    "name": "Makers Mark 101 2 Bourbon Whiskey",
+    "id": "prod-makers-mark-101-bourbon-whiskey",
+    "slug": "makers-mark-101-bourbon-whiskey",
+    "name": "Makers Mark 101 Bourbon Whiskey",
     "brand": "Makers",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
@@ -5998,7 +5350,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-makers-mark-101-2.jpg"
     ],
-    "description": "Makers Mark 101 2 Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Makers is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Makers Mark 101 Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Makers is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Brown sugar, oak and stewed fruit.",
@@ -6026,20 +5378,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Makers Mark 101 2 Bourbon Whiskey worth buying?",
-        "answer": "Makers Mark 101 2 Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Makers Mark 101 Bourbon Whiskey worth buying?",
+        "answer": "Makers Mark 101 Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Makers Mark 101 2 Bourbon Whiskey authentic, and how is it stored?",
+        "question": "Is Makers Mark 101 Bourbon Whiskey authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Makers Mark 101 2 Bourbon Whiskey?",
-        "answer": "Makers Mark 101 2 Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Makers Mark 101 Bourbon Whiskey?",
+        "answer": "Makers Mark 101 Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Makers Mark 101 2 Bourbon Whiskey | Doctors of Whisky",
-    "metaDescription": "Buy Makers Mark 101 2 Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto dis..."
+    "metaTitle": "Makers Mark 101 Bourbon Whiskey | Doctors of Whisky",
+    "metaDescription": "Buy Makers Mark 101 Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto disco..."
   },
   {
     "id": "prod-mellow-corn-bourbon-bourbon-whiskey",
@@ -6226,7 +5578,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-wild-turkey-kentucky-spirit-1l-bourbon-whiskey",
     "slug": "wild-turkey-kentucky-spirit-1l-bourbon-whiskey",
     "name": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey",
-    "brand": "Wild",
+    "brand": "Wild Turkey",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
     "subCategorySlug": "bourbon",
@@ -6239,14 +5591,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-wild-turkey-kentucky-spirit-1l.jpg"
     ],
-    "description": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Wild is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Wild Turkey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Smooth with a lingering oak sweetness."
     },
     "stock": 12,
-    "sku": "WILD-WILD-TURKEY-KENTUCKY",
+    "sku": "WILD-TURKEY-WILD-TURKEY",
     "primaryKeyword": "bourbon",
     "secondaryKeywords": [
       "whiskey and american",
@@ -6283,10 +5635,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 1..."
   },
   {
-    "id": "prod-wild-turkey-rare-breed-1l-new-1-bourbon-whiskey",
-    "slug": "wild-turkey-rare-breed-1l-new-1-bourbon-whiskey",
-    "name": "Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey",
-    "brand": "Wild",
+    "id": "prod-wild-turkey-rare-breed-1l-new-bourbon-whiskey",
+    "slug": "wild-turkey-rare-breed-1l-new-bourbon-whiskey",
+    "name": "Wild Turkey Rare Breed 1L New Bourbon Whiskey",
+    "brand": "Wild Turkey",
     "category": "whisky",
     "subCategory": "Bourbon Whiskey",
     "subCategorySlug": "bourbon",
@@ -6299,14 +5651,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-wild-turkey-rare-breed-1l-new-1.jpg"
     ],
-    "description": "Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Wild is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Wild Turkey Rare Breed 1L New Bourbon Whiskey is one of Doctors of Whisky's hand-selected bourbon whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to whiskey and american, or wanting to explore barboun. Every bottle from Wild Turkey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Silky malt with ginger spice.",
       "finish": "Clean and mellow with a honeyed close."
     },
     "stock": 4,
-    "sku": "WILD-WILD-TURKEY-RARE",
+    "sku": "WILD-TURKEY-WILD-TURKEY-2",
     "primaryKeyword": "bourbon",
     "secondaryKeywords": [
       "whiskey and american",
@@ -6327,20 +5679,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey worth buying?",
-        "answer": "Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Wild Turkey Rare Breed 1L New Bourbon Whiskey worth buying?",
+        "answer": "Wild Turkey Rare Breed 1L New Bourbon Whiskey is a genuine, provenance-verified bourbon whiskey bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey authentic, and how is it stored?",
+        "question": "Is Wild Turkey Rare Breed 1L New Bourbon Whiskey authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey?",
-        "answer": "Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Wild Turkey Rare Breed 1L New Bourbon Whiskey?",
+        "answer": "Wild Turkey Rare Breed 1L New Bourbon Whiskey can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey | Doctors of Whisky",
-    "metaDescription": "Buy Wild Turkey Rare Breed 1L New 1 Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
+    "metaTitle": "Wild Turkey Rare Breed 1L New Bourbon Whiskey | Doctors of Whisky",
+    "metaDescription": "Buy Wild Turkey Rare Breed 1L New Bourbon Whiskey online in Australia. Bourbon experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
   },
   {
     "id": "prod-elijah-craig-rye-rye-whiskey",
@@ -6467,7 +5819,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jack-daniels-barrel-proof-rye-rye-whiskey",
     "slug": "jack-daniels-barrel-proof-rye-rye-whiskey",
     "name": "Jack Daniels Barrel Proof Rye Rye Whiskey",
-    "brand": "Jack",
+    "brand": "Jack Daniels",
     "category": "whisky",
     "subCategory": "Rye Whiskey",
     "subCategorySlug": "rye-whiskey",
@@ -6480,14 +5832,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/rye-whiskey/rye-whiskey--tds-jack-daniels-barrel-proof-rye.jpg"
     ],
-    "description": "Jack Daniels Barrel Proof Rye Rye Whiskey is one of Doctors of Whisky's hand-selected rye whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to manhattan rye whiskey, or wanting to explore whisky and rye. Every bottle from Jack is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jack Daniels Barrel Proof Rye Rye Whiskey is one of Doctors of Whisky's hand-selected rye whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to manhattan rye whiskey, or wanting to explore whisky and rye. Every bottle from Jack Daniels is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
     "stock": 6,
-    "sku": "JACK-JACK-DANIELS-BARREL",
+    "sku": "JACK-DANIELS-JACK-DANIELS",
     "primaryKeyword": "rye whiskey",
     "secondaryKeywords": [
       "manhattan rye whiskey",
@@ -6889,7 +6241,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-wild-turkey-masters-keep-triumph-rye-whiskey",
     "slug": "wild-turkey-masters-keep-triumph-rye-whiskey",
     "name": "Wild Turkey Masters Keep Triumph Rye Whiskey",
-    "brand": "Wild",
+    "brand": "Wild Turkey",
     "category": "whisky",
     "subCategory": "Rye Whiskey",
     "subCategorySlug": "rye-whiskey",
@@ -6902,14 +6254,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/rye-whiskey/rye-whiskey--tds-wild-turkey-masters-keep-triumph.jpg"
     ],
-    "description": "Wild Turkey Masters Keep Triumph Rye Whiskey is one of Doctors of Whisky's hand-selected rye whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to manhattan rye whiskey, or wanting to explore whisky and rye. Every bottle from Wild is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Wild Turkey Masters Keep Triumph Rye Whiskey is one of Doctors of Whisky's hand-selected rye whiskey allocations, sourced from United States and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to manhattan rye whiskey, or wanting to explore whisky and rye. Every bottle from Wild Turkey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
     "stock": 4,
-    "sku": "WILD-WILD-TURKEY-MASTERS",
+    "sku": "WILD-TURKEY-WILD-TURKEY-3",
     "primaryKeyword": "rye whiskey",
     "secondaryKeywords": [
       "manhattan rye whiskey",
@@ -6946,9 +6298,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Wild Turkey Masters Keep Triumph Rye Whiskey online in Australia. Rye whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
   },
   {
-    "id": "prod-nikka-12-2-japanese-whisky",
-    "slug": "nikka-12-2-japanese-whisky",
-    "name": "Nikka 12 2 Japanese Whisky",
+    "id": "prod-nikka-12-japanese-whisky",
+    "slug": "nikka-12-japanese-whisky",
+    "name": "Nikka 12 Japanese Whisky",
     "brand": "Nikka",
     "category": "whisky",
     "subCategory": "Japanese Whisky",
@@ -6962,7 +6314,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/japanese-whisky/nikka--tds-nikka-12-2.jpg"
     ],
-    "description": "Nikka 12 2 Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Nikka 12 Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Brown sugar, oak and stewed fruit.",
@@ -6970,7 +6322,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "BEST SELLER",
     "stock": 4,
-    "sku": "NIKKA-NIKKA-12-2",
+    "sku": "NIKKA-NIKKA-12-JAPANESE",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
       "japanese whisky",
@@ -6996,20 +6348,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Nikka 12 2 Japanese Whisky worth buying?",
-        "answer": "Nikka 12 2 Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Nikka 12 Japanese Whisky worth buying?",
+        "answer": "Nikka 12 Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Nikka 12 2 Japanese Whisky authentic, and how is it stored?",
+        "question": "Is Nikka 12 Japanese Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Nikka 12 2 Japanese Whisky?",
-        "answer": "Nikka 12 2 Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Nikka 12 Japanese Whisky?",
+        "answer": "Nikka 12 Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Nikka 12 2 Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka 12 2 Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
+    "metaTitle": "Nikka 12 Japanese Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Nikka 12 Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto dis..."
   },
   {
     "id": "prod-nikka-barrel-2-1080x-1-japanese-whisky",
@@ -7077,71 +6429,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Nikka Barrel 2 1080x (1) Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and ..."
   },
   {
-    "id": "prod-nikka-barrel-2-japanese-whisky",
-    "slug": "nikka-barrel-2-japanese-whisky",
-    "name": "Nikka Barrel 2 Japanese Whisky",
-    "brand": "Nikka",
-    "category": "whisky",
-    "subCategory": "Japanese Whisky",
-    "subCategorySlug": "japanese-whisky",
-    "style": "Pure Malt / Blended",
-    "country": "Japan",
-    "region": "Japan",
-    "price": 1020,
-    "abv": "43.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2.jpg"
-    ],
-    "description": "Nikka Barrel 2 Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Vanilla, toffee and light citrus zest.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Clean and mellow with a honeyed close."
-    },
-    "stock": 6,
-    "sku": "NIKKA-NIKKA-BARREL-2-2",
-    "primaryKeyword": "japanese whiskey",
-    "secondaryKeywords": [
-      "japanese whisky",
-      "japanese blend whisky",
-      "japan whisky",
-      "japanese whiske",
-      "whisky japanese",
-      "japenese whiskey",
-      "japanese whiskey bar sydney",
-      "japanese whiskies",
-      "suntory japanese whisky",
-      "togouchi whiskey",
-      "japanese scotch whisky",
-      "japenese whisky",
-      "japanese wisky",
-      "whiskey japanese",
-      "whisky japan",
-      "japanese whiksy",
-      "japanese whisky bar",
-      "japanese whisky delivery",
-      "japanses whisky",
-      "santori whiskey"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Nikka Barrel 2 Japanese Whisky worth buying?",
-        "answer": "Nikka Barrel 2 Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Nikka Barrel 2 Japanese Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Nikka Barrel 2 Japanese Whisky?",
-        "answer": "Nikka Barrel 2 Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Nikka Barrel 2 Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka Barrel 2 Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cryp..."
-  },
-  {
     "id": "prod-nikka-barrel-2-180x-1-japanese-whisky",
     "slug": "nikka-barrel-2-180x-1-japanese-whisky",
     "name": "Nikka Barrel 2 180x (1) Japanese Whisky",
@@ -7164,9 +6451,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 7,
-    "sku": "NIKKA-NIKKA-BARREL-2-3",
+    "stock": 6,
+    "sku": "NIKKA-NIKKA-BARREL-2-2",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
       "japanese whisky",
@@ -7230,8 +6516,9 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 8,
-    "sku": "NIKKA-NIKKA-BARREL-2-4",
+    "badge": "LIMITED EDITION",
+    "stock": 7,
+    "sku": "NIKKA-NIKKA-BARREL-2-3",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
       "japanese whisky",
@@ -7295,8 +6582,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 9,
-    "sku": "NIKKA-NIKKA-BARREL-2-5",
+    "stock": 8,
+    "sku": "NIKKA-NIKKA-BARREL-2-4",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
       "japanese whisky",
@@ -7338,137 +6625,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Nikka Barrel 2 540x (1) Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
   },
   {
-    "id": "prod-nikka-barrel-2-720x-1-japanese-whisky",
-    "slug": "nikka-barrel-2-720x-1-japanese-whisky",
-    "name": "Nikka Barrel 2 720x (1) Japanese Whisky",
-    "brand": "Nikka",
-    "category": "whisky",
-    "subCategory": "Japanese Whisky",
-    "subCategorySlug": "japanese-whisky",
-    "style": "Pure Malt / Blended",
-    "country": "Japan",
-    "region": "Japan",
-    "price": 1375,
-    "abv": "43.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2-720x-1.jpg"
-    ],
-    "description": "Nikka Barrel 2 720x (1) Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Sherried dried fruit and warm cinnamon.",
-      "palate": "Dark chocolate and roasted nuts.",
-      "finish": "Satisfying with soft smoke and dried fruit."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
-    "sku": "NIKKA-NIKKA-BARREL-2-6",
-    "primaryKeyword": "japanese whiskey",
-    "secondaryKeywords": [
-      "japanese whisky",
-      "japanese blend whisky",
-      "japan whisky",
-      "japanese whiske",
-      "whisky japanese",
-      "japenese whiskey",
-      "japanese whiskey bar sydney",
-      "japanese whiskies",
-      "suntory japanese whisky",
-      "togouchi whiskey",
-      "japanese scotch whisky",
-      "japenese whisky",
-      "japanese wisky",
-      "whiskey japanese",
-      "whisky japan",
-      "japanese whiksy",
-      "japanese whisky bar",
-      "japanese whisky delivery",
-      "japanses whisky",
-      "santori whiskey"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Nikka Barrel 2 720x (1) Japanese Whisky worth buying?",
-        "answer": "Nikka Barrel 2 720x (1) Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Nikka Barrel 2 720x (1) Japanese Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Nikka Barrel 2 720x (1) Japanese Whisky?",
-        "answer": "Nikka Barrel 2 720x (1) Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Nikka Barrel 2 720x (1) Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka Barrel 2 720x (1) Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
-  },
-  {
-    "id": "prod-nikka-barrel-2-900x-1-japanese-whisky",
-    "slug": "nikka-barrel-2-900x-1-japanese-whisky",
-    "name": "Nikka Barrel 2 900x (1) Japanese Whisky",
-    "brand": "Nikka",
-    "category": "whisky",
-    "subCategory": "Japanese Whisky",
-    "subCategorySlug": "japanese-whisky",
-    "style": "Pure Malt / Blended",
-    "country": "Japan",
-    "region": "Japan",
-    "price": 1210,
-    "abv": "43.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2-900x-1.jpg"
-    ],
-    "description": "Nikka Barrel 2 900x (1) Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Sherried dried fruit and warm cinnamon.",
-      "palate": "Silky malt with ginger spice.",
-      "finish": "Clean and mellow with a honeyed close."
-    },
-    "stock": 11,
-    "sku": "NIKKA-NIKKA-BARREL-2-7",
-    "primaryKeyword": "japanese whiskey",
-    "secondaryKeywords": [
-      "japanese whisky",
-      "japanese blend whisky",
-      "japan whisky",
-      "japanese whiske",
-      "whisky japanese",
-      "japenese whiskey",
-      "japanese whiskey bar sydney",
-      "japanese whiskies",
-      "suntory japanese whisky",
-      "togouchi whiskey",
-      "japanese scotch whisky",
-      "japenese whisky",
-      "japanese wisky",
-      "whiskey japanese",
-      "whisky japan",
-      "japanese whiksy",
-      "japanese whisky bar",
-      "japanese whisky delivery",
-      "japanses whisky",
-      "santori whiskey"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Nikka Barrel 2 900x (1) Japanese Whisky worth buying?",
-        "answer": "Nikka Barrel 2 900x (1) Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Nikka Barrel 2 900x (1) Japanese Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Nikka Barrel 2 900x (1) Japanese Whisky?",
-        "answer": "Nikka Barrel 2 900x (1) Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Nikka Barrel 2 900x (1) Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka Barrel 2 900x (1) Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
-  },
-  {
     "id": "prod-nikka-coffey-grain-gb-japanese-whisky",
     "slug": "nikka-coffey-grain-gb-japanese-whisky",
     "name": "Nikka Coffey Grain Gb Japanese Whisky",
@@ -7491,7 +6647,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 12,
+    "stock": 9,
     "sku": "NIKKA-NIKKA-COFFEY-GRAIN",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7556,7 +6712,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 4,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 10,
     "sku": "NIKKA-NIKKA-COFFEY-MALT",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7621,8 +6778,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "BEST SELLER",
-    "stock": 5,
+    "stock": 11,
     "sku": "NIKKA-NIKKA-COFFEY-MALT-2",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7687,7 +6843,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 6,
+    "stock": 12,
     "sku": "NIKKA-NIKKA-COFFEY-JAPANESE",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7730,9 +6886,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Nikka Coffey Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
   },
   {
-    "id": "prod-nikka-gold-gold-2-japanese-whisky",
-    "slug": "nikka-gold-gold-2-japanese-whisky",
-    "name": "Nikka Gold Gold 2 Japanese Whisky",
+    "id": "prod-nikka-gold-gold-japanese-whisky",
+    "slug": "nikka-gold-gold-japanese-whisky",
+    "name": "Nikka Gold Gold Japanese Whisky",
     "brand": "Nikka",
     "category": "whisky",
     "subCategory": "Japanese Whisky",
@@ -7746,13 +6902,13 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/japanese-whisky/nikka--tds-nikka-gold-gold-2.jpg"
     ],
-    "description": "Nikka Gold Gold 2 Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Nikka Gold Gold Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 7,
+    "stock": 4,
     "sku": "NIKKA-NIKKA-GOLD-GOLD",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7779,25 +6935,25 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Nikka Gold Gold 2 Japanese Whisky worth buying?",
-        "answer": "Nikka Gold Gold 2 Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Nikka Gold Gold Japanese Whisky worth buying?",
+        "answer": "Nikka Gold Gold Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Nikka Gold Gold 2 Japanese Whisky authentic, and how is it stored?",
+        "question": "Is Nikka Gold Gold Japanese Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Nikka Gold Gold 2 Japanese Whisky?",
-        "answer": "Nikka Gold Gold 2 Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Nikka Gold Gold Japanese Whisky?",
+        "answer": "Nikka Gold Gold Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Nikka Gold Gold 2 Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka Gold Gold 2 Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% c..."
+    "metaTitle": "Nikka Gold Gold Japanese Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Nikka Gold Gold Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
   },
   {
-    "id": "prod-nikka-gold-samurai-2-japanese-whisky",
-    "slug": "nikka-gold-samurai-2-japanese-whisky",
-    "name": "Nikka Gold Samurai 2 Japanese Whisky",
+    "id": "prod-nikka-gold-samurai-japanese-whisky",
+    "slug": "nikka-gold-samurai-japanese-whisky",
+    "name": "Nikka Gold Samurai Japanese Whisky",
     "brand": "Nikka",
     "category": "whisky",
     "subCategory": "Japanese Whisky",
@@ -7811,14 +6967,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/japanese-whisky/nikka--tds-nikka-gold-samurai-2-94b40e70-0a8a-4ec9-8659-3f094b57e513.jpg"
     ],
-    "description": "Nikka Gold Samurai 2 Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Nikka Gold Samurai Japanese Whisky is one of Doctors of Whisky's hand-selected japanese whisky allocations, sourced from Japan and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to japanese whisky, or wanting to explore japanese blend whisky. Every bottle from Nikka is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 8,
+    "badge": "BEST SELLER",
+    "stock": 5,
     "sku": "NIKKA-NIKKA-GOLD-SAMURAI",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7845,20 +7001,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Nikka Gold Samurai 2 Japanese Whisky worth buying?",
-        "answer": "Nikka Gold Samurai 2 Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Nikka Gold Samurai Japanese Whisky worth buying?",
+        "answer": "Nikka Gold Samurai Japanese Whisky is a genuine, provenance-verified japanese whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Nikka Gold Samurai 2 Japanese Whisky authentic, and how is it stored?",
+        "question": "Is Nikka Gold Samurai Japanese Whisky authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Nikka Gold Samurai 2 Japanese Whisky?",
-        "answer": "Nikka Gold Samurai 2 Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Nikka Gold Samurai Japanese Whisky?",
+        "answer": "Nikka Gold Samurai Japanese Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Nikka Gold Samurai 2 Japanese Whisky | Doctors of Whisky",
-    "metaDescription": "Buy Nikka Gold Samurai 2 Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
+    "metaTitle": "Nikka Gold Samurai Japanese Whisky | Doctors of Whisky",
+    "metaDescription": "Buy Nikka Gold Samurai Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% ..."
   },
   {
     "id": "prod-nikka-miyagikyo-fruity-rich-japanese-whisky",
@@ -7883,7 +7039,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 9,
+    "stock": 6,
     "sku": "NIKKA-NIKKA-MIYAGIKYO-FRUITY",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -7948,7 +7104,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 10,
+    "stock": 7,
     "sku": "NIKKA-NIKKA-MIYAGIKYO-GB",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8013,8 +7169,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 11,
+    "badge": "LIMITED EDITION",
+    "stock": 8,
     "sku": "NIKKA-NIKKA-MIYAGIKYO-JAPANESE",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8079,7 +7235,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 12,
+    "stock": 9,
     "sku": "NIKKA-NIKKA-TAKESURU-2020",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8144,7 +7300,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 4,
+    "stock": 10,
     "sku": "NIKKA-NIKKA-TAKETSURU-GB",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8209,7 +7365,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Long, warming, and gently spiced."
     },
-    "stock": 5,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 11,
     "sku": "NIKKA-NIKKA-YOICHI-GB",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8274,8 +7431,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "BEST SELLER",
-    "stock": 6,
+    "stock": 12,
     "sku": "NIKKA-NIKKA-YOICHI-JAPANESE",
     "primaryKeyword": "japanese whiskey",
     "secondaryKeywords": [
@@ -8318,67 +7474,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Nikka Yoichi Japanese Whisky online in Australia. Japanese whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
   },
   {
-    "id": "prod-lark-australian-whisky",
-    "slug": "lark-australian-whisky",
-    "name": "Lark Australian Whisky",
-    "brand": "Lark",
-    "category": "whisky",
-    "subCategory": "Australian Whisky",
-    "subCategorySlug": "australian-whisky",
-    "style": "Single Malt",
-    "country": "Australia",
-    "region": "Australia",
-    "price": 160,
-    "abv": "43.0% - 58.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/australian-whisky/lark--lark.jpg"
-    ],
-    "description": "Lark Australian Whisky is one of Doctors of Whisky's hand-selected australian whisky allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to australian whiskey brands, or wanting to explore australian single malt whiskey. Every bottle from Lark is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Dried orchard fruit and toasted oak.",
-      "palate": "Butterscotch and gentle peat warmth.",
-      "finish": "Smooth with a lingering oak sweetness."
-    },
-    "badge": "BEST SELLER",
-    "stock": 4,
-    "sku": "LARK-LARK-AUSTRALIAN-WHISKY",
-    "primaryKeyword": "australian whiskey",
-    "secondaryKeywords": [
-      "australian whiskey brands",
-      "australian single malt whiskey",
-      "australian whiskeys",
-      "australian whiskies",
-      "australian whisky brands",
-      "top 10 whisky in australia",
-      "best australian whiskies",
-      "australian made whiskey",
-      "honey whiskey australia",
-      "best australian whisky 2025",
-      "best single malt whiskey in australia",
-      "best whiskey under $100 australia",
-      "best whisky under $150 australia",
-      "whiskey reviews australia",
-      "whisky or whiskey australia"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Lark Australian Whisky worth buying?",
-        "answer": "Lark Australian Whisky is a genuine, provenance-verified australian whisky bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Lark Australian Whisky authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Lark Australian Whisky?",
-        "answer": "Lark Australian Whisky can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Lark Australian Whisky | Buy Online Australia | Doctors of Whisky",
-    "metaDescription": "Buy Lark Australian Whisky online in Australia. Australian whiskey experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto dis..."
-  },
-  {
     "id": "prod-dark-lark-2026-australian-whisky",
     "slug": "dark-lark-2026-australian-whisky",
     "name": "Dark Lark 2026 Australian Whisky",
@@ -8401,7 +7496,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 5,
+    "badge": "BEST SELLER",
+    "stock": 4,
     "sku": "LARK-DARK-LARK-2026",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8461,7 +7557,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky malt with ginger spice.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 6,
+    "stock": 5,
     "sku": "LARK-LARK-CHRISTMAS-CASK",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8521,8 +7617,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 7,
+    "stock": 6,
     "sku": "LARK-LARK-CLASSIC-100ML",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8582,7 +7677,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Brown sugar, oak and stewed fruit.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 8,
+    "badge": "LIMITED EDITION",
+    "stock": 7,
     "sku": "LARK-LARK-CLASSIC-PACK",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8642,7 +7738,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Satisfying with soft smoke and dried fruit."
     },
-    "stock": 9,
+    "stock": 8,
     "sku": "LARK-LARK-DARK-LARK",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8702,8 +7798,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
+    "stock": 9,
     "sku": "LARK-LARK-DEVILS-STORM",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8763,7 +7858,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Butterscotch and gentle peat warmth.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 11,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 10,
     "sku": "LARK-LARK-FIRE-TRAIL",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8823,7 +7919,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Rich caramel and baked apple.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "stock": 12,
+    "stock": 11,
     "sku": "LARK-LARK-RUBY-ABYSS",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8883,7 +7979,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Smooth with a lingering oak sweetness."
     },
-    "stock": 4,
+    "stock": 12,
     "sku": "LARK-LARK-SYMPHONY-NO1",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -8943,8 +8039,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Dark chocolate and roasted nuts.",
       "finish": "Clean and mellow with a honeyed close."
     },
-    "badge": "BEST SELLER",
-    "stock": 5,
+    "stock": 4,
     "sku": "LARK-LARK-XMAS-CASK",
     "primaryKeyword": "australian whiskey",
     "secondaryKeywords": [
@@ -9046,7 +8141,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-700ml-premium-vodka",
     "slug": "grey-goose-700ml-premium-vodka",
     "name": "Grey Goose 700ml Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -9059,14 +8154,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/french-vodka--tds-grey-goose-700ml.jpg"
     ],
-    "description": "Grey Goose 700ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose 700ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Refreshing with a subtle sweet finish."
     },
     "stock": 5,
-    "sku": "GREY-GREY-GOOSE-700ML",
+    "sku": "GREY-GOOSE-GREY-GOOSE",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -9106,7 +8201,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-essences-peach-rosemary-premium-vodka",
     "slug": "grey-goose-essences-peach-rosemary-premium-vodka",
     "name": "Grey Goose Essences Peach Rosemary Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -9119,14 +8214,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/french-vodka--tds-grey-goose-essences-peach-rosemary.jpg"
     ],
-    "description": "Grey Goose Essences Peach Rosemary Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose Essences Peach Rosemary Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp botanicals and clean citrus.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Smooth and lingering with gentle spice."
     },
     "stock": 6,
-    "sku": "GREY-GREY-GOOSE-ESSENCES",
+    "sku": "GREY-GOOSE-GREY-GOOSE-2",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -9166,7 +8261,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-essences-watermelon-basil-premium-vodka",
     "slug": "grey-goose-essences-watermelon-basil-premium-vodka",
     "name": "Grey Goose Essences Watermelon Basil Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -9179,7 +8274,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/french-vodka--tds-grey-goose-essences-watermelon-basil.jpg"
     ],
-    "description": "Grey Goose Essences Watermelon Basil Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose Essences Watermelon Basil Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Clean, rounded, and refreshingly smooth.",
@@ -9187,7 +8282,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "LIMITED EDITION",
     "stock": 7,
-    "sku": "GREY-GREY-GOOSE-ESSENCES-2",
+    "sku": "GREY-GOOSE-GREY-GOOSE-3",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -10369,9 +9464,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Russian Standard Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-smirnoff-50ml-2-premium-vodka",
-    "slug": "smirnoff-50ml-2-premium-vodka",
-    "name": "Smirnoff 50ml 2 Premium Vodka",
+    "id": "prod-smirnoff-50ml-premium-vodka",
+    "slug": "smirnoff-50ml-premium-vodka",
+    "name": "Smirnoff 50ml Premium Vodka",
     "brand": "Smirnoff",
     "category": "spirit",
     "subCategory": "Premium Vodka",
@@ -10385,7 +9480,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/russian-vodka--tds-smirnoff-50ml-2.jpg"
     ],
-    "description": "Smirnoff 50ml 2 Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Smirnoff is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Smirnoff 50ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Smirnoff is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Silky texture with citrus and pepper.",
@@ -10393,7 +9488,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "LIMITED EDITION",
     "stock": 9,
-    "sku": "SMIRNOFF-SMIRNOFF-50ML-2",
+    "sku": "SMIRNOFF-SMIRNOFF-50ML-PREMIUM",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -10414,20 +9509,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Smirnoff 50ml 2 Premium Vodka worth buying?",
-        "answer": "Smirnoff 50ml 2 Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Smirnoff 50ml Premium Vodka worth buying?",
+        "answer": "Smirnoff 50ml Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Smirnoff 50ml 2 Premium Vodka authentic, and how is it stored?",
+        "question": "Is Smirnoff 50ml Premium Vodka authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Smirnoff 50ml 2 Premium Vodka?",
-        "answer": "Smirnoff 50ml 2 Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Smirnoff 50ml Premium Vodka?",
+        "answer": "Smirnoff 50ml Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Smirnoff 50ml 2 Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Smirnoff 50ml 2 Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
+    "metaTitle": "Smirnoff 50ml Premium Vodka | Doctors of Whisky",
+    "metaDescription": "Buy Smirnoff 50ml Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
     "id": "prod-smirnoff-blue-1l-premium-vodka",
@@ -10731,127 +9826,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Smirnoff White Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-belvedere-1l-premium-vodka-2",
-    "slug": "belvedere-1l-premium-vodka-2",
-    "name": "Belvedere 1L Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 100,
-    "abv": "37.5% - 40.0%",
-    "size": "1L",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-1l.jpg"
-    ],
-    "description": "Belvedere 1L Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Smooth grain character with mineral freshness.",
-      "palate": "Clean, rounded, and refreshingly smooth.",
-      "finish": "Crisp and clean with a soft warmth."
-    },
-    "stock": 6,
-    "sku": "BELVEDERE-BELVEDERE-1L-PREMIUM-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere 1L Premium Vodka worth buying?",
-        "answer": "Belvedere 1L Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere 1L Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere 1L Premium Vodka?",
-        "answer": "Belvedere 1L Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere 1L Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere 1L Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
-    "id": "prod-belvedere-200ml-premium-vodka-2",
-    "slug": "belvedere-200ml-premium-vodka-2",
-    "name": "Belvedere 200ml Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 205,
-    "abv": "37.5% - 40.0%",
-    "size": "200ml",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-200ml.jpg"
-    ],
-    "description": "Belvedere 200ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Aromatic herbs and delicate florals.",
-      "palate": "Silky texture with citrus and pepper.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "badge": "BEST SELLER",
-    "stock": 7,
-    "sku": "BELVEDERE-BELVEDERE-200ML-PREMIUM-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere 200ml Premium Vodka worth buying?",
-        "answer": "Belvedere 200ml Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere 200ml Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere 200ml Premium Vodka?",
-        "answer": "Belvedere 200ml Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere 200ml Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere 200ml Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-belvedere-375ml-premium-vodka",
     "slug": "belvedere-375ml-premium-vodka",
     "name": "Belvedere 375ml Premium Vodka",
@@ -10874,7 +9848,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 8,
+    "stock": 6,
     "sku": "BELVEDERE-BELVEDERE-375ML-PREMIUM",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
@@ -10912,127 +9886,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Belvedere 375ml Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-belvedere-700-premium-vodka-2",
-    "slug": "belvedere-700-premium-vodka-2",
-    "name": "Belvedere 700 Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 85,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-700.jpg"
-    ],
-    "description": "Belvedere 700 Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Crisp botanicals and clean citrus.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Crisp and clean with a soft warmth."
-    },
-    "stock": 9,
-    "sku": "BELVEDERE-BELVEDERE-700-PREMIUM-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere 700 Premium Vodka worth buying?",
-        "answer": "Belvedere 700 Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere 700 Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere 700 Premium Vodka?",
-        "answer": "Belvedere 700 Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere 700 Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere 700 Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
-    "id": "prod-belvedere-citrus-premium-vodka-2",
-    "slug": "belvedere-citrus-premium-vodka-2",
-    "name": "Belvedere Citrus Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 120,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-citrus.jpg"
-    ],
-    "description": "Belvedere Citrus Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Smooth grain character with mineral freshness.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Smooth and lingering with gentle spice."
-    },
-    "badge": "LIMITED EDITION",
-    "stock": 10,
-    "sku": "BELVEDERE-BELVEDERE-CITRUS-PREMIUM-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere Citrus Premium Vodka worth buying?",
-        "answer": "Belvedere Citrus Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere Citrus Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere Citrus Premium Vodka?",
-        "answer": "Belvedere Citrus Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere Citrus Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere Citrus Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-belvedere-ginger-zest-2",
     "slug": "belvedere-ginger-zest-2",
     "name": "Belvedere Ginger Zest",
@@ -11055,7 +9908,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 11,
+    "badge": "BEST SELLER",
+    "stock": 7,
     "sku": "BELVEDERE-BELVEDERE-GINGER-ZEST-2",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
@@ -11093,131 +9947,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Belvedere Ginger Zest online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-belvedere-mango-gb-premium-vodka-2",
-    "slug": "belvedere-mango-gb-premium-vodka-2",
-    "name": "Belvedere Mango Gb Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 150,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-mango-gb.jpg"
-    ],
-    "description": "Belvedere Mango Gb Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Agave-forward sweetness with hints of pepper.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Smooth and lingering with gentle spice."
-    },
-    "stock": 12,
-    "sku": "BELVEDERE-BELVEDERE-MANGO-GB-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere Mango Gb Premium Vodka worth buying?",
-        "answer": "Belvedere Mango Gb Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere Mango Gb Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere Mango Gb Premium Vodka?",
-        "answer": "Belvedere Mango Gb Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere Mango Gb Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere Mango Gb Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
-    "id": "prod-belvedere-smogory-forest-premium-vodka-2",
-    "slug": "belvedere-smogory-forest-premium-vodka-2",
-    "name": "Belvedere Smogory Forest Premium Vodka",
-    "brand": "Belvedere",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 155,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/belvedere--tds-belvedere-smogory-forest.jpg"
-    ],
-    "description": "Belvedere Smogory Forest Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Belvedere is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Agave-forward sweetness with hints of pepper.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Crisp and clean with a soft warmth."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 4,
-    "sku": "BELVEDERE-BELVEDERE-SMOGORY-FOREST-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Belvedere Smogory Forest Premium Vodka worth buying?",
-        "answer": "Belvedere Smogory Forest Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Belvedere Smogory Forest Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Belvedere Smogory Forest Premium Vodka?",
-        "answer": "Belvedere Smogory Forest Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Belvedere Smogory Forest Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Belvedere Smogory Forest Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto ..."
-  },
-  {
     "id": "prod-grey-goose-1l-premium-vodka",
     "slug": "grey-goose-1l-premium-vodka",
     "name": "Grey Goose 1L Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11230,14 +9963,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-1l.jpg"
     ],
-    "description": "Grey Goose 1L Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose 1L Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 5,
-    "sku": "GREY-GREY-GOOSE-1L",
+    "stock": 8,
+    "sku": "GREY-GOOSE-GREY-GOOSE-4",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11277,7 +10010,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-50ml-premium-vodka",
     "slug": "grey-goose-50ml-premium-vodka",
     "name": "Grey Goose 50ml Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11290,14 +10023,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-50ml.jpg"
     ],
-    "description": "Grey Goose 50ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose 50ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp botanicals and clean citrus.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 6,
-    "sku": "GREY-GREY-GOOSE-50ML",
+    "stock": 9,
+    "sku": "GREY-GOOSE-GREY-GOOSE-5",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11334,70 +10067,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Grey Goose 50ml Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-grey-goose-700ml-premium-vodka-2",
-    "slug": "grey-goose-700ml-premium-vodka-2",
-    "name": "Grey Goose 700ml Premium Vodka",
-    "brand": "Grey",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 155,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/grey-goose--tds-grey-goose-700ml.jpg"
-    ],
-    "description": "Grey Goose 700ml Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Agave-forward sweetness with hints of pepper.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Long, satisfying, and well-balanced."
-    },
-    "stock": 7,
-    "sku": "GREY-GREY-GOOSE-700ML-2",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Grey Goose 700ml Premium Vodka worth buying?",
-        "answer": "Grey Goose 700ml Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Grey Goose 700ml Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Grey Goose 700ml Premium Vodka?",
-        "answer": "Grey Goose 700ml Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Grey Goose 700ml Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Grey Goose 700ml Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-grey-goose-ducasse-premium-vodka",
     "slug": "grey-goose-ducasse-premium-vodka",
     "name": "Grey Goose Ducasse Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11410,15 +10083,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-ducasse.jpg"
     ],
-    "description": "Grey Goose Ducasse Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose Ducasse Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp botanicals and clean citrus.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "badge": "BEST SELLER",
-    "stock": 8,
-    "sku": "GREY-GREY-GOOSE-DUCASSE",
+    "badge": "LIMITED EDITION",
+    "stock": 10,
+    "sku": "GREY-GOOSE-GREY-GOOSE-6",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11455,70 +10128,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Grey Goose Ducasse Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-grey-goose-essences-peach-rosemary-premium-vodka-2",
-    "slug": "grey-goose-essences-peach-rosemary-premium-vodka-2",
-    "name": "Grey Goose Essences Peach Rosemary Premium Vodka",
-    "brand": "Grey",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 215,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/grey-goose--tds-grey-goose-essences-peach-rosemary.jpg"
-    ],
-    "description": "Grey Goose Essences Peach Rosemary Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Toasted oak and dried spice.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Smooth and lingering with gentle spice."
-    },
-    "stock": 9,
-    "sku": "GREY-GREY-GOOSE-ESSENCES-3",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Grey Goose Essences Peach Rosemary Premium Vodka worth buying?",
-        "answer": "Grey Goose Essences Peach Rosemary Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Grey Goose Essences Peach Rosemary Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Grey Goose Essences Peach Rosemary Premium Vodka?",
-        "answer": "Grey Goose Essences Peach Rosemary Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Grey Goose Essences Peach Rosemary Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Grey Goose Essences Peach Rosemary Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 1..."
-  },
-  {
     "id": "prod-grey-goose-essences-strawberry-lemongrass-premium-vodka",
     "slug": "grey-goose-essences-strawberry-lemongrass-premium-vodka",
     "name": "Grey Goose Essences Strawberry Lemongrass Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11531,14 +10144,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-essences-strawberry-lemongrass.jpg"
     ],
-    "description": "Grey Goose Essences Strawberry Lemongrass Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose Essences Strawberry Lemongrass Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 10,
-    "sku": "GREY-GREY-GOOSE-ESSENCES-4",
+    "stock": 11,
+    "sku": "GREY-GOOSE-GREY-GOOSE-7",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11575,71 +10188,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Grey Goose Essences Strawberry Lemongrass Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, ..."
   },
   {
-    "id": "prod-grey-goose-essences-watermelon-basil-premium-vodka-2",
-    "slug": "grey-goose-essences-watermelon-basil-premium-vodka-2",
-    "name": "Grey Goose Essences Watermelon Basil Premium Vodka",
-    "brand": "Grey",
-    "category": "spirit",
-    "subCategory": "Premium Vodka",
-    "subCategorySlug": "vodka",
-    "style": "Vodka",
-    "country": "France / Poland / Russia",
-    "region": "France / Poland / Russia",
-    "price": 105,
-    "abv": "37.5% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/vodka/grey-goose--tds-grey-goose-essences-watermelon-basil.jpg"
-    ],
-    "description": "Grey Goose Essences Watermelon Basil Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Smooth grain character with mineral freshness.",
-      "palate": "Silky texture with citrus and pepper.",
-      "finish": "Long, satisfying, and well-balanced."
-    },
-    "badge": "LIMITED EDITION",
-    "stock": 11,
-    "sku": "GREY-GREY-GOOSE-ESSENCES-5",
-    "primaryKeyword": "vodka",
-    "secondaryKeywords": [
-      "grey goose grey goose",
-      "polish vodka",
-      "gray goose",
-      "polish wodka",
-      "vodla",
-      "grey goose liquor",
-      "vodka bottle",
-      "bottle of vodka",
-      "grey goose vodka 1l",
-      "russia and vodka",
-      "greygoose",
-      "grey goose vodka price",
-      "russian standard vodka",
-      "grey goode",
-      "vodka sale"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Grey Goose Essences Watermelon Basil Premium Vodka worth buying?",
-        "answer": "Grey Goose Essences Watermelon Basil Premium Vodka is a genuine, provenance-verified premium vodka bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Grey Goose Essences Watermelon Basil Premium Vodka authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Grey Goose Essences Watermelon Basil Premium Vodka?",
-        "answer": "Grey Goose Essences Watermelon Basil Premium Vodka can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Grey Goose Essences Watermelon Basil Premium Vodka | Doctors of Whisky",
-    "metaDescription": "Buy Grey Goose Essences Watermelon Basil Premium Vodka online in Australia. Vodka experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a..."
-  },
-  {
     "id": "prod-grey-goose-la-collection-premium-vodka",
     "slug": "grey-goose-la-collection-premium-vodka",
     "name": "Grey Goose La Collection Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11652,14 +10204,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-la-collection.jpg"
     ],
-    "description": "Grey Goose La Collection Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose La Collection Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Smooth and lingering with gentle spice."
     },
     "stock": 12,
-    "sku": "GREY-GREY-GOOSE-LA",
+    "sku": "GREY-GOOSE-GREY-GOOSE-8",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11699,7 +10251,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-la-vanille-premium-vodka",
     "slug": "grey-goose-la-vanille-premium-vodka",
     "name": "Grey Goose La Vanille Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11712,14 +10264,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-la-vanille.jpg"
     ],
-    "description": "Grey Goose La Vanille Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose La Vanille Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Crisp and clean with a soft warmth."
     },
+    "badge": "COLLECTOR RELEASE",
     "stock": 4,
-    "sku": "GREY-GREY-GOOSE-LA-2",
+    "sku": "GREY-GOOSE-GREY-GOOSE-9",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11759,7 +10312,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-grey-goose-vx-gb-premium-vodka",
     "slug": "grey-goose-vx-gb-premium-vodka",
     "name": "Grey Goose Vx Gb Premium Vodka",
-    "brand": "Grey",
+    "brand": "Grey Goose",
     "category": "spirit",
     "subCategory": "Premium Vodka",
     "subCategorySlug": "vodka",
@@ -11772,15 +10325,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/grey-goose--tds-grey-goose-vx-gb.jpg"
     ],
-    "description": "Grey Goose Vx Gb Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Grey Goose Vx Gb Premium Vodka is one of Doctors of Whisky's hand-selected premium vodka allocations, sourced from France / Poland / Russia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to grey goose grey goose, or wanting to explore polish vodka. Every bottle from Grey Goose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "COLLECTOR RELEASE",
     "stock": 5,
-    "sku": "GREY-GREY-GOOSE-VX",
+    "sku": "GREY-GOOSE-GREY-GOOSE-10",
     "primaryKeyword": "vodka",
     "secondaryKeywords": [
       "grey goose grey goose",
@@ -11820,7 +10372,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-1942-50ml-tequila",
     "slug": "don-julio-1942-50ml-tequila",
     "name": "Don Julio 1942 50ml Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -11833,7 +10385,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-1942-50ml.jpg"
     ],
-    "description": "Don Julio 1942 50ml Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio 1942 50ml Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp botanicals and clean citrus.",
       "palate": "Balanced sweetness with a warming spice note.",
@@ -11841,7 +10393,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "BEST SELLER",
     "stock": 4,
-    "sku": "DON-DON-JULIO-1942",
+    "sku": "DON-JULIO-DON-JULIO",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -11881,7 +10433,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-1942-snake-tequila",
     "slug": "don-julio-1942-snake-tequila",
     "name": "Don Julio 1942 Snake Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -11894,14 +10446,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-1942-snake.jpg"
     ],
-    "description": "Don Julio 1942 Snake Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio 1942 Snake Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Crisp and clean with a soft warmth."
     },
     "stock": 5,
-    "sku": "DON-DON-JULIO-1942-2",
+    "sku": "DON-JULIO-DON-JULIO-2",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -11938,10 +10490,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Don Julio 1942 Snake Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-don-julio-70-tequila",
-    "slug": "don-julio-70-tequila",
-    "name": "Don Julio 70 Tequila",
-    "brand": "Don",
+    "id": "prod-don-julio-tequila",
+    "slug": "don-julio-tequila",
+    "name": "Don Julio Tequila",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -11954,14 +10506,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-70-new.jpg"
     ],
-    "description": "Don Julio 70 Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Smooth and lingering with gentle spice."
     },
     "stock": 6,
-    "sku": "DON-DON-JULIO-70",
+    "sku": "DON-JULIO-DON-JULIO-3",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -11982,26 +10534,26 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Don Julio 70 Tequila worth buying?",
-        "answer": "Don Julio 70 Tequila is a genuine, provenance-verified tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Don Julio Tequila worth buying?",
+        "answer": "Don Julio Tequila is a genuine, provenance-verified tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Don Julio 70 Tequila authentic, and how is it stored?",
+        "question": "Is Don Julio Tequila authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Don Julio 70 Tequila?",
-        "answer": "Don Julio 70 Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Don Julio Tequila?",
+        "answer": "Don Julio Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Don Julio 70 Tequila | Buy Online Australia | Doctors of Whisky",
-    "metaDescription": "Buy Don Julio 70 Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
+    "metaTitle": "Don Julio Tequila | Buy Online Australia | Doctors of Whisky",
+    "metaDescription": "Buy Don Julio Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
     "id": "prod-don-julio-anejo-tequila",
     "slug": "don-julio-anejo-tequila",
     "name": "Don Julio Anejo Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12014,7 +10566,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-anejo.jpg"
     ],
-    "description": "Don Julio Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Balanced sweetness with a warming spice note.",
@@ -12022,7 +10574,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "LIMITED EDITION",
     "stock": 7,
-    "sku": "DON-DON-JULIO-ANEJO",
+    "sku": "DON-JULIO-DON-JULIO-4",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12062,7 +10614,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-blanco-tequila",
     "slug": "don-julio-blanco-tequila",
     "name": "Don Julio Blanco Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12075,14 +10627,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-blanco.jpg"
     ],
-    "description": "Don Julio Blanco Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Blanco Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Crisp and clean with a soft warmth."
     },
     "stock": 8,
-    "sku": "DON-DON-JULIO-BLANCO",
+    "sku": "DON-JULIO-DON-JULIO-5",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12122,7 +10674,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-ceniza-tequila",
     "slug": "don-julio-ceniza-tequila",
     "name": "Don Julio Ceniza Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12135,14 +10687,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-ceniza-1086c960-9288-4520-aca2-f34b32f6d761.jpg"
     ],
-    "description": "Don Julio Ceniza Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Ceniza Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Long, satisfying, and well-balanced."
     },
     "stock": 9,
-    "sku": "DON-DON-JULIO-CENIZA",
+    "sku": "DON-JULIO-DON-JULIO-6",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12182,7 +10734,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-peggy-gou-tequila",
     "slug": "don-julio-peggy-gou-tequila",
     "name": "Don Julio Peggy Gou Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12195,7 +10747,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-peggy-gou.jpg"
     ],
-    "description": "Don Julio Peggy Gou Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Peggy Gou Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Balanced sweetness with a warming spice note.",
@@ -12203,7 +10755,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "COLLECTOR RELEASE",
     "stock": 10,
-    "sku": "DON-DON-JULIO-PEGGY",
+    "sku": "DON-JULIO-DON-JULIO-7",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12243,7 +10795,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-real-tequila",
     "slug": "don-julio-real-tequila",
     "name": "Don Julio Real Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12256,14 +10808,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-real.jpg"
     ],
-    "description": "Don Julio Real Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Real Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Refreshing with a subtle sweet finish."
     },
     "stock": 11,
-    "sku": "DON-DON-JULIO-REAL",
+    "sku": "DON-JULIO-DON-JULIO-8",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12303,7 +10855,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-reposado-tequila",
     "slug": "don-julio-reposado-tequila",
     "name": "Don Julio Reposado Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12316,14 +10868,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-reposado.jpg"
     ],
-    "description": "Don Julio Reposado Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Reposado Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp botanicals and clean citrus.",
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
     "stock": 12,
-    "sku": "DON-DON-JULIO-REPOSADO",
+    "sku": "DON-JULIO-DON-JULIO-9",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12363,7 +10915,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-don-julio-rosado-tequila",
     "slug": "don-julio-rosado-tequila",
     "name": "Don Julio Rosado Tequila",
-    "brand": "Don",
+    "brand": "Don Julio",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12376,14 +10928,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/don-julio--tds-don-julio-rosado.jpg"
     ],
-    "description": "Don Julio Rosado Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Don Julio Rosado Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don Julio is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Long, satisfying, and well-balanced."
     },
     "stock": 4,
-    "sku": "DON-DON-JULIO-ROSADO",
+    "sku": "DON-JULIO-DON-JULIO-10",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12423,7 +10975,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-cristalino-anejo-tequila",
     "slug": "jose-cuervo-cristalino-anejo-tequila",
     "name": "Jose Cuervo Cristalino Anejo Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12436,7 +10988,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/jose-cuervo--tds-jose-cuervo-cristalino-anejo.jpg"
     ],
-    "description": "Jose Cuervo Cristalino Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Cristalino Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Clean, rounded, and refreshingly smooth.",
@@ -12444,7 +10996,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "BEST SELLER",
     "stock": 5,
-    "sku": "JOSE-JOSE-CUERVO-CRISTALINO",
+    "sku": "JOSE-CUERVO-JOSE-CUERVO",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12484,7 +11036,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-gold-50ml-tequila",
     "slug": "jose-cuervo-gold-50ml-tequila",
     "name": "Jose Cuervo Gold 50ml Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12497,14 +11049,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/jose-cuervo--tds-jose-cuervo-gold-50ml.jpg"
     ],
-    "description": "Jose Cuervo Gold 50ml Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Gold 50ml Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Crisp and clean with a soft warmth."
     },
     "stock": 6,
-    "sku": "JOSE-JOSE-CUERVO-GOLD",
+    "sku": "JOSE-CUERVO-JOSE-CUERVO-2",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -12544,7 +11096,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-reposado-1l-tequila",
     "slug": "jose-cuervo-reposado-1l-tequila",
     "name": "Jose Cuervo Reposado 1L Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -12557,14 +11109,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/jose-cuervo--tds-jose-cuervo-reposado-1l.jpg"
     ],
-    "description": "Jose Cuervo Reposado 1L Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Reposado 1L Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Smooth and lingering with gentle spice."
     },
     "stock": 7,
-    "sku": "JOSE-JOSE-CUERVO-REPOSADO",
+    "sku": "JOSE-CUERVO-JOSE-CUERVO-3",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -13385,67 +11937,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Clase Azul Day Of Dead Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-don-julio-ceniza-tequila-2",
-    "slug": "don-julio-ceniza-tequila-2",
-    "name": "Don Julio Ceniza Tequila",
-    "brand": "Don",
-    "category": "spirit",
-    "subCategory": "Tequila",
-    "subCategorySlug": "tequila",
-    "style": "Blanco / Reposado / Añejo",
-    "country": "Mexico",
-    "region": "Mexico",
-    "price": 550,
-    "abv": "38.0% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/tequila/gold-tequila--tds-don-julio-ceniza-1086c960-9288-4520-aca2-f34b32f6d761.jpg"
-    ],
-    "description": "Don Julio Ceniza Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Don is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Agave-forward sweetness with hints of pepper.",
-      "palate": "Clean, rounded, and refreshingly smooth.",
-      "finish": "Smooth and lingering with gentle spice."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 12,
-    "sku": "DON-DON-JULIO-CENIZA-2",
-    "primaryKeyword": "tequila",
-    "secondaryKeywords": [
-      "don julio",
-      "patron",
-      "donjulio",
-      "don hulio",
-      "teqila",
-      "tiquila",
-      "trquila",
-      "tequil",
-      "tequilaa",
-      "don juilio",
-      "don jolio",
-      "don julio reposado",
-      "silver patron tequila",
-      "silver tequila",
-      "tequila patron"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Don Julio Ceniza Tequila worth buying?",
-        "answer": "Don Julio Ceniza Tequila is a genuine, provenance-verified tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Don Julio Ceniza Tequila authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Don Julio Ceniza Tequila?",
-        "answer": "Don Julio Ceniza Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Don Julio Ceniza Tequila | Doctors of Whisky",
-    "metaDescription": "Buy Don Julio Ceniza Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-herradurra-anejo-tequila",
     "slug": "herradurra-anejo-tequila",
     "name": "Herradurra Anejo Tequila",
@@ -13468,7 +11959,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 4,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 12,
     "sku": "HERRADURRA-HERRADURRA-ANEJO-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -13528,7 +12020,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 5,
+    "stock": 4,
     "sku": "HERRADURRA-HERRADURRA-PLATA-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -13569,7 +12061,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-cristalino-anejo-tequila-2",
     "slug": "jose-cuervo-cristalino-anejo-tequila-2",
     "name": "Jose Cuervo Cristalino Anejo Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -13582,14 +12074,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/gold-tequila--tds-jose-cuervo-cristalino-anejo.jpg"
     ],
-    "description": "Jose Cuervo Cristalino Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Cristalino Anejo Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 6,
-    "sku": "JOSE-JOSE-CUERVO-CRISTALINO-2",
+    "stock": 5,
+    "sku": "JOSE-CUERVO-JOSE-CUERVO-4",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -13629,7 +12121,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-day-dead-tequila",
     "slug": "jose-cuervo-day-dead-tequila",
     "name": "Jose Cuervo Day Dead Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -13642,15 +12134,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/gold-tequila--tds-jose-cuervo-day-dead.jpg"
     ],
-    "description": "Jose Cuervo Day Dead Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Day Dead Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "BEST SELLER",
-    "stock": 7,
-    "sku": "JOSE-JOSE-CUERVO-DAY",
+    "stock": 6,
+    "sku": "JOSE-CUERVO-JOSE-CUERVO-5",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -13690,7 +12181,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jose-cuervo-gold-tequila",
     "slug": "jose-cuervo-gold-tequila",
     "name": "Jose Cuervo Gold Tequila",
-    "brand": "Jose",
+    "brand": "Jose Cuervo",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -13703,14 +12194,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/gold-tequila--tds-jose-cuervo-gold.jpg"
     ],
-    "description": "Jose Cuervo Gold Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jose Cuervo Gold Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Jose Cuervo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 8,
-    "sku": "JOSE-JOSE-CUERVO-GOLD-2",
+    "badge": "BEST SELLER",
+    "stock": 7,
+    "sku": "JOSE-CUERVO-JOSE-CUERVO-6",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -13769,7 +12261,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 9,
+    "stock": 8,
     "sku": "RIO-RIO-GRANDE-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -13829,8 +12321,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 10,
+    "stock": 9,
     "sku": "CABO-CABO-WABO-BLANCO",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -13871,7 +12362,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-gran-patron-platinum-tequila",
     "slug": "gran-patron-platinum-tequila",
     "name": "Gran Patron Platinum Tequila",
-    "brand": "Gran",
+    "brand": "Gran Patron",
     "category": "spirit",
     "subCategory": "Tequila",
     "subCategorySlug": "tequila",
@@ -13884,14 +12375,15 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/tequila/white-tequila--tds-gran-patron-platinum.jpg"
     ],
-    "description": "Gran Patron Platinum Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Gran is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Gran Patron Platinum Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Gran Patron is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 11,
-    "sku": "GRAN-GRAN-PATRON-PLATINUM",
+    "badge": "LIMITED EDITION",
+    "stock": 10,
+    "sku": "GRAN-PATRON-GRAN-PATRON",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
       "don julio",
@@ -13950,7 +12442,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 12,
+    "stock": 11,
     "sku": "KAH-KAH-BLANCO-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -14010,8 +12502,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 4,
+    "stock": 12,
     "sku": "PADRE-PADRE-AZUL-50ML",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -14071,7 +12562,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 5,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 4,
     "sku": "PADRE-PADRE-AZUL-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -14109,66 +12601,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Padre Azul Tequila Blanco online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-patron-silver-tequila-2",
-    "slug": "patron-silver-tequila-2",
-    "name": "Patron Silver Tequila",
-    "brand": "Patron",
-    "category": "spirit",
-    "subCategory": "Tequila",
-    "subCategorySlug": "tequila",
-    "style": "Blanco / Reposado / Añejo",
-    "country": "Mexico",
-    "region": "Mexico",
-    "price": 240,
-    "abv": "38.0% - 40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/tequila/white-tequila--tds-patron-silver-96205781-102c-4039-953e-b0471b3e4784.jpg"
-    ],
-    "description": "Patron Silver Tequila is one of Doctors of Whisky's hand-selected tequila allocations, sourced from Mexico and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to don julio, or wanting to explore patron. Every bottle from Patron is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Smooth grain character with mineral freshness.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Long, satisfying, and well-balanced."
-    },
-    "stock": 6,
-    "sku": "PATRON-PATRON-SILVER-TEQUILA-2",
-    "primaryKeyword": "tequila",
-    "secondaryKeywords": [
-      "don julio",
-      "patron",
-      "donjulio",
-      "don hulio",
-      "teqila",
-      "tiquila",
-      "trquila",
-      "tequil",
-      "tequilaa",
-      "don juilio",
-      "don jolio",
-      "don julio reposado",
-      "silver patron tequila",
-      "silver tequila",
-      "tequila patron"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Patron Silver Tequila worth buying?",
-        "answer": "Patron Silver Tequila is a genuine, provenance-verified tequila bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Patron Silver Tequila authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Patron Silver Tequila?",
-        "answer": "Patron Silver Tequila can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Patron Silver Tequila | Buy Online Australia | Doctors of Whisky",
-    "metaDescription": "Buy Patron Silver Tequila online in Australia. Tequila experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-rio-grande-chilli-tequila",
     "slug": "rio-grande-chilli-tequila",
     "name": "Rio Grande Chilli Tequila",
@@ -14191,7 +12623,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 7,
+    "stock": 5,
     "sku": "RIO-RIO-GRANDE-CHILLI",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -14251,8 +12683,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "badge": "BEST SELLER",
-    "stock": 8,
+    "stock": 6,
     "sku": "ROCA-ROCA-PATRON-SILVER",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -14312,7 +12743,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 9,
+    "stock": 7,
     "sku": "TEREMANA-TEREMANA-BLANCO-TEQUILA",
     "primaryKeyword": "tequila",
     "secondaryKeywords": [
@@ -15135,9 +13566,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Camus Borderies Mini Collection Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 1..."
   },
   {
-    "id": "prod-camus-special-dry-flask-2-cognac-brandy",
-    "slug": "camus-special-dry-flask-2-cognac-brandy",
-    "name": "Camus Special Dry Flask 2 Cognac & Brandy",
+    "id": "prod-camus-special-dry-flask-cognac-brandy",
+    "slug": "camus-special-dry-flask-cognac-brandy",
+    "name": "Camus Special Dry Flask Cognac & Brandy",
     "brand": "Camus",
     "category": "spirit",
     "subCategory": "Cognac & Brandy",
@@ -15149,9 +13580,10 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0%",
     "size": "700ml",
     "images": [
-      "/images/products/cognac-brandy/cognac--tds-camus-special-dry-flask-2.jpg"
+      "/images/products/cognac-brandy/cognac--tds-camus-special-dry-flask-2.jpg",
+      "/images/products/cognac-brandy/cognac--tds-camus-special-dry-flask.jpg"
     ],
-    "description": "Camus Special Dry Flask 2 Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Camus is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Camus Special Dry Flask Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Camus is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Clean, rounded, and refreshingly smooth.",
@@ -15159,66 +13591,6 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 12,
     "sku": "CAMUS-CAMUS-SPECIAL-DRY",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Camus Special Dry Flask 2 Cognac & Brandy worth buying?",
-        "answer": "Camus Special Dry Flask 2 Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Camus Special Dry Flask 2 Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Camus Special Dry Flask 2 Cognac & Brandy?",
-        "answer": "Camus Special Dry Flask 2 Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Camus Special Dry Flask 2 Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Camus Special Dry Flask 2 Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cry..."
-  },
-  {
-    "id": "prod-camus-special-dry-flask-cognac-brandy",
-    "slug": "camus-special-dry-flask-cognac-brandy",
-    "name": "Camus Special Dry Flask Cognac & Brandy",
-    "brand": "Camus",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 1625,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/cognac--tds-camus-special-dry-flask.jpg"
-    ],
-    "description": "Camus Special Dry Flask Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Camus is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Aromatic herbs and delicate florals.",
-      "palate": "Silky texture with citrus and pepper.",
-      "finish": "Long, satisfying, and well-balanced."
-    },
-    "stock": 4,
-    "sku": "CAMUS-CAMUS-SPECIAL-DRY-2",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
       "cognac",
@@ -15277,8 +13649,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "badge": "BEST SELLER",
-    "stock": 5,
+    "stock": 4,
     "sku": "CAMUS-CAMUS-VSOP-PROMOPACK",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15338,7 +13709,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 6,
+    "badge": "BEST SELLER",
+    "stock": 5,
     "sku": "COURVOISIER-COURVOISIER-EXTRA-NOGB",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15398,7 +13770,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 7,
+    "stock": 6,
     "sku": "COURVOISIER-COURVOISIER-EXTRA-RED",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15458,8 +13830,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 8,
+    "stock": 7,
     "sku": "COURVOISIER-COURVOISIER-MIZUNARA-2023",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15519,7 +13890,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 9,
+    "badge": "LIMITED EDITION",
+    "stock": 8,
     "sku": "COURVOISIER-COURVOISIER-ROUGE-LUXE",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15579,7 +13951,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 10,
+    "stock": 9,
     "sku": "COURVOISIER-COURVOISIER-VSOP-1L",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15639,8 +14011,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 11,
+    "stock": 10,
     "sku": "COURVOISIER-COURVOISIER-XO-ROYAL",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15700,7 +14071,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 12,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 11,
     "sku": "COURVOISIER-COURVOISIER-XO-ROYAL-2",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15760,7 +14132,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 4,
+    "stock": 12,
     "sku": "GRAND-GRAND-MARNIER-50ML",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15820,7 +14192,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 5,
+    "stock": 4,
     "sku": "HENNESSY-HENNESSY-MASTER-BLENDER",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15880,8 +14252,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "BEST SELLER",
-    "stock": 6,
+    "stock": 5,
     "sku": "HENNESSY-HENNESSY-VSOP-COGNAC",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15941,7 +14312,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 7,
+    "badge": "BEST SELLER",
+    "stock": 6,
     "sku": "HENNESSY-HENNESSY-XO-COGNAC",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -15979,9 +14351,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Hennessy Xo Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-martell-chanteloup-xxo-2-cognac-brandy",
-    "slug": "martell-chanteloup-xxo-2-cognac-brandy",
-    "name": "Martell Chanteloup Xxo 2 Cognac & Brandy",
+    "id": "prod-martell-chanteloup-xxo-cognac-brandy-2",
+    "slug": "martell-chanteloup-xxo-cognac-brandy-2",
+    "name": "Martell Chanteloup Xxo Cognac & Brandy",
     "brand": "Martell",
     "category": "spirit",
     "subCategory": "Cognac & Brandy",
@@ -15995,75 +14367,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/cognac-brandy/cognac--tds-martell-chanteloup-xxo-2.jpg"
     ],
-    "description": "Martell Chanteloup Xxo 2 Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Martell Chanteloup Xxo Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 8,
+    "stock": 7,
     "sku": "MARTELL-MARTELL-CHANTELOUP-XXO-2",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Martell Chanteloup Xxo 2 Cognac & Brandy worth buying?",
-        "answer": "Martell Chanteloup Xxo 2 Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Martell Chanteloup Xxo 2 Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Martell Chanteloup Xxo 2 Cognac & Brandy?",
-        "answer": "Martell Chanteloup Xxo 2 Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Martell Chanteloup Xxo 2 Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Martell Chanteloup Xxo 2 Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cryp..."
-  },
-  {
-    "id": "prod-martell-chanteloup-xxo-cognac-brandy-2",
-    "slug": "martell-chanteloup-xxo-cognac-brandy-2",
-    "name": "Martell Chanteloup Xxo Cognac & Brandy",
-    "brand": "Martell",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 735,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/cognac--tds-martell-chanteloup-xxo.jpg"
-    ],
-    "description": "Martell Chanteloup Xxo Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Smooth grain character with mineral freshness.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Crisp and clean with a soft warmth."
-    },
-    "badge": "LIMITED EDITION",
-    "stock": 9,
-    "sku": "MARTELL-MARTELL-CHANTELOUP-XXO-3",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
       "cognac",
@@ -16100,187 +14411,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Martell Chanteloup Xxo Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto..."
   },
   {
-    "id": "prod-martell-cordon-bleu-cognac-brandy-2",
-    "slug": "martell-cordon-bleu-cognac-brandy-2",
-    "name": "Martell Cordon Bleu Cognac & Brandy",
-    "brand": "Martell",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 1635,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/cognac--tds-martell-cordon-bleu-new.jpg"
-    ],
-    "description": "Martell Cordon Bleu Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Aromatic herbs and delicate florals.",
-      "palate": "Silky texture with citrus and pepper.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "stock": 10,
-    "sku": "MARTELL-MARTELL-CORDON-BLEU-2",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Martell Cordon Bleu Cognac & Brandy worth buying?",
-        "answer": "Martell Cordon Bleu Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Martell Cordon Bleu Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Martell Cordon Bleu Cognac & Brandy?",
-        "answer": "Martell Cordon Bleu Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Martell Cordon Bleu Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Martell Cordon Bleu Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto di..."
-  },
-  {
-    "id": "prod-martell-noblige-cognac-brandy-2",
-    "slug": "martell-noblige-cognac-brandy-2",
-    "name": "Martell Noblige Cognac & Brandy",
-    "brand": "Martell",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 2195,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/cognac--tds-martell-noblige-new.jpg"
-    ],
-    "description": "Martell Noblige Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Toasted oak and dried spice.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "stock": 11,
-    "sku": "MARTELL-MARTELL-NOBLIGE-COGNAC-2",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Martell Noblige Cognac & Brandy worth buying?",
-        "answer": "Martell Noblige Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Martell Noblige Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Martell Noblige Cognac & Brandy?",
-        "answer": "Martell Noblige Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Martell Noblige Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Martell Noblige Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
-    "id": "prod-martell-vsop-30ml-cognac-brandy-2",
-    "slug": "martell-vsop-30ml-cognac-brandy-2",
-    "name": "Martell Vsop 30ml Cognac & Brandy",
-    "brand": "Martell",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 80,
-    "abv": "40.0%",
-    "size": "30ml",
-    "images": [
-      "/images/products/cognac-brandy/cognac--tds-martell-vsop-30ml.jpg"
-    ],
-    "description": "Martell Vsop 30ml Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Martell is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Crisp botanicals and clean citrus.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Long, satisfying, and well-balanced."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 12,
-    "sku": "MARTELL-MARTELL-VSOP-30ML-2",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Martell Vsop 30ml Cognac & Brandy worth buying?",
-        "answer": "Martell Vsop 30ml Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Martell Vsop 30ml Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Martell Vsop 30ml Cognac & Brandy?",
-        "answer": "Martell Vsop 30ml Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Martell Vsop 30ml Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Martell Vsop 30ml Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto disc..."
-  },
-  {
     "id": "prod-naud-vs-cognac-brandy",
     "slug": "naud-vs-cognac-brandy",
     "name": "Naud Vs Cognac & Brandy",
@@ -16303,7 +14433,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 4,
+    "stock": 8,
     "sku": "NAUD-NAUD-VS-COGNAC",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16363,7 +14493,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 5,
+    "badge": "LIMITED EDITION",
+    "stock": 9,
     "sku": "OMS-OMS-1961-64YO",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16423,7 +14554,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 6,
+    "stock": 10,
     "sku": "REMY-REMY-MARTIN-CLUB",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16483,8 +14614,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "BEST SELLER",
-    "stock": 7,
+    "stock": 11,
     "sku": "REMY-REMY-MARTIN-VSOP",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16544,7 +14674,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 8,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 12,
     "sku": "TIFFON-TIFFON-XO-COGNAC",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16582,66 +14713,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Tiffon Xo Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-country-flags-40-cognac-brandy",
-    "slug": "country-flags-40-cognac-brandy",
-    "name": "Country Flags 40 Cognac & Brandy",
-    "brand": "Country",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 2130,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/calvados--country-flags-40.jpg"
-    ],
-    "description": "Country Flags 40 Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Country is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Toasted oak and dried spice.",
-      "palate": "Clean, rounded, and refreshingly smooth.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "stock": 9,
-    "sku": "COUNTRY-COUNTRY-FLAGS-40-3",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Country Flags 40 Cognac & Brandy worth buying?",
-        "answer": "Country Flags 40 Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Country Flags 40 Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Country Flags 40 Cognac & Brandy?",
-        "answer": "Country Flags 40 Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Country Flags 40 Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Country Flags 40 Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto disco..."
-  },
-  {
     "id": "prod-boulard-calvados-xo-cognac-brandy",
     "slug": "boulard-calvados-xo-cognac-brandy",
     "name": "Boulard Calvados Xo Cognac & Brandy",
@@ -16664,8 +14735,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 10,
+    "stock": 4,
     "sku": "BOULARD-BOULARD-CALVADOS-XO",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16725,7 +14795,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 11,
+    "stock": 5,
     "sku": "CADENHEADS-CADENHEADS-DISTILLERIE-DUPONT",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16785,7 +14855,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 12,
+    "stock": 6,
     "sku": "CALVADOS-CALVADOS-PAPIDOUX-XO",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16845,8 +14915,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 4,
+    "badge": "BEST SELLER",
+    "stock": 7,
     "sku": "COQUEREL-COQUEREL-CALVADOS-24YO",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16906,7 +14976,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 5,
+    "stock": 8,
     "sku": "COQUEREL-COQUEREL-CALVADOS-30YO",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -16966,7 +15036,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "stock": 6,
+    "stock": 9,
     "sku": "COQUEREL-COQUEREL-CIGAR-BLEND",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -17004,9 +15074,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Coquerel Cigar Blend Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
   },
   {
-    "id": "prod-coquerel-grand-calvados-15-cognac-brandy",
-    "slug": "coquerel-grand-calvados-15-cognac-brandy",
-    "name": "Coquerel Grand Calvados 15 Cognac & Brandy",
+    "id": "prod-coquerel-grand-calvados-cognac-brandy",
+    "slug": "coquerel-grand-calvados-cognac-brandy",
+    "name": "Coquerel Grand Calvados Cognac & Brandy",
     "brand": "Coquerel",
     "category": "spirit",
     "subCategory": "Cognac & Brandy",
@@ -17018,15 +15088,17 @@ export const PRODUCTS: Product[] = [
     "abv": "40.0%",
     "size": "700ml",
     "images": [
-      "/images/products/cognac-brandy/calvados--tds-coquerel-grand-calvados-15.jpg"
+      "/images/products/cognac-brandy/calvados--tds-coquerel-grand-calvados-15.jpg",
+      "/images/products/cognac-brandy/calvados--tds-coquerel-grand-calvados-20.jpg"
     ],
-    "description": "Coquerel Grand Calvados 15 Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Coquerel is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Coquerel Grand Calvados Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Coquerel is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Long, satisfying, and well-balanced."
     },
-    "stock": 7,
+    "badge": "LIMITED EDITION",
+    "stock": 10,
     "sku": "COQUEREL-COQUEREL-GRAND-CALVADOS",
     "primaryKeyword": "brandy",
     "secondaryKeywords": [
@@ -17048,81 +15120,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Coquerel Grand Calvados 15 Cognac & Brandy worth buying?",
-        "answer": "Coquerel Grand Calvados 15 Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Coquerel Grand Calvados Cognac & Brandy worth buying?",
+        "answer": "Coquerel Grand Calvados Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Coquerel Grand Calvados 15 Cognac & Brandy authentic, and how is it stored?",
+        "question": "Is Coquerel Grand Calvados Cognac & Brandy authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Coquerel Grand Calvados 15 Cognac & Brandy?",
-        "answer": "Coquerel Grand Calvados 15 Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Coquerel Grand Calvados Cognac & Brandy?",
+        "answer": "Coquerel Grand Calvados Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Coquerel Grand Calvados 15 Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Coquerel Grand Calvados 15 Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cr..."
-  },
-  {
-    "id": "prod-coquerel-grand-calvados-20-cognac-brandy",
-    "slug": "coquerel-grand-calvados-20-cognac-brandy",
-    "name": "Coquerel Grand Calvados 20 Cognac & Brandy",
-    "brand": "Coquerel",
-    "category": "spirit",
-    "subCategory": "Cognac & Brandy",
-    "subCategorySlug": "cognac-brandy",
-    "style": "Cognac / Brandy",
-    "country": "France",
-    "region": "France",
-    "price": 1480,
-    "abv": "40.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/cognac-brandy/calvados--tds-coquerel-grand-calvados-20.jpg"
-    ],
-    "description": "Coquerel Grand Calvados 20 Cognac & Brandy is one of Doctors of Whisky's hand-selected cognac & brandy allocations, sourced from France and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to cognac, or wanting to explore martell. Every bottle from Coquerel is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Aromatic herbs and delicate florals.",
-      "palate": "Balanced sweetness with a warming spice note.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "badge": "BEST SELLER",
-    "stock": 8,
-    "sku": "COQUEREL-COQUEREL-GRAND-CALVADOS-2",
-    "primaryKeyword": "brandy",
-    "secondaryKeywords": [
-      "cognac",
-      "martell",
-      "martell blue swift",
-      "cognac is what",
-      "martell xo",
-      "vsop cognac",
-      "martell cognac",
-      "hennessy xo cognac",
-      "martell cognac xo",
-      "brandymelvilleusa",
-      "cognac brandy",
-      "brandy booze",
-      "xo in cognac",
-      "buy cognac online",
-      "french cognac"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Coquerel Grand Calvados 20 Cognac & Brandy worth buying?",
-        "answer": "Coquerel Grand Calvados 20 Cognac & Brandy is a genuine, provenance-verified cognac & brandy bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Coquerel Grand Calvados 20 Cognac & Brandy authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Coquerel Grand Calvados 20 Cognac & Brandy?",
-        "answer": "Coquerel Grand Calvados 20 Cognac & Brandy can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Coquerel Grand Calvados 20 Cognac & Brandy | Doctors of Whisky",
-    "metaDescription": "Buy Coquerel Grand Calvados 20 Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% cr..."
+    "metaTitle": "Coquerel Grand Calvados Cognac & Brandy | Doctors of Whisky",
+    "metaDescription": "Buy Coquerel Grand Calvados Cognac & Brandy online in Australia. Brandy experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypt..."
   },
   {
     "id": "prod-bombay-sapphire-gin",
@@ -21951,66 +19962,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Baileys Apple Pie Flavoured & Cream Liqueurs online in Australia. Baileys irish cream experts — Sydney vaults, 100% provenance guarantee, insured deliver..."
   },
   {
-    "id": "prod-baileys-cinnamon-scroll-flavoured-cream-liqueurs-2",
-    "slug": "baileys-cinnamon-scroll-flavoured-cream-liqueurs-2",
-    "name": "Baileys Cinnamon Scroll Flavoured & Cream Liqueurs",
-    "brand": "Baileys",
-    "category": "spirit",
-    "subCategory": "Flavoured & Cream Liqueurs",
-    "subCategorySlug": "flavoured-cream-liqueurs",
-    "style": "Liqueur",
-    "country": "International",
-    "region": "International",
-    "price": 90,
-    "abv": "15.0% - 20.0%",
-    "size": "700ml",
-    "images": [
-      "/images/products/flavoured-cream-liqueurs/baileys-irish-cream--tds-baileys-cinnamon-scroll.jpg"
-    ],
-    "description": "Baileys Cinnamon Scroll Flavoured & Cream Liqueurs is one of Doctors of Whisky's hand-selected flavoured & cream liqueurs allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to orange liqueur, or wanting to explore orange liquer. Every bottle from Baileys is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Aromatic herbs and delicate florals.",
-      "palate": "Silky texture with citrus and pepper.",
-      "finish": "Refreshing with a subtle sweet finish."
-    },
-    "stock": 5,
-    "sku": "BAILEYS-BAILEYS-CINNAMON-SCROLL-2",
-    "primaryKeyword": "baileys irish cream",
-    "secondaryKeywords": [
-      "orange liqueur",
-      "orange liquer",
-      "dissarono",
-      "cream baileys",
-      "dissaronno",
-      "cinnamon liqueur",
-      "grandmarnier",
-      "disaronno originale amaretto liqueur",
-      "coontreau",
-      "price for disaronno",
-      "cinnamon flavored whiskey",
-      "cinnamon whisky cocktail",
-      "cinnamon schnapps",
-      "disorano",
-      "cinnamon booze"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Baileys Cinnamon Scroll Flavoured & Cream Liqueurs worth buying?",
-        "answer": "Baileys Cinnamon Scroll Flavoured & Cream Liqueurs is a genuine, provenance-verified flavoured & cream liqueurs bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Baileys Cinnamon Scroll Flavoured & Cream Liqueurs authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Baileys Cinnamon Scroll Flavoured & Cream Liqueurs?",
-        "answer": "Baileys Cinnamon Scroll Flavoured & Cream Liqueurs can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Baileys Cinnamon Scroll Flavoured & Cream Liqueurs | Doctors of Whisky",
-    "metaDescription": "Buy Baileys Cinnamon Scroll Flavoured & Cream Liqueurs online in Australia. Baileys irish cream experts — Sydney vaults, 100% provenance guarantee, insured d..."
-  },
-  {
     "id": "prod-baileys-colada-flavoured-cream-liqueurs",
     "slug": "baileys-colada-flavoured-cream-liqueurs",
     "name": "Baileys Colada Flavoured & Cream Liqueurs",
@@ -22033,7 +19984,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced sweetness with a warming spice note.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "stock": 6,
+    "stock": 5,
     "sku": "BAILEYS-BAILEYS-COLADA-FLAVOURED",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -22093,8 +20044,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Refreshing with a subtle sweet finish."
     },
-    "badge": "BEST SELLER",
-    "stock": 7,
+    "stock": 6,
     "sku": "BAILEYS-BAILEYS-RIVER-MINT",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -22154,7 +20104,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Full-bodied with vanilla and caramel undertones.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 8,
+    "badge": "BEST SELLER",
+    "stock": 7,
     "sku": "BAILEYS-BAILEYS-STRAWBERRY-CREAM",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -22214,7 +20165,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean, rounded, and refreshingly smooth.",
       "finish": "Crisp and clean with a soft warmth."
     },
-    "stock": 9,
+    "stock": 8,
     "sku": "MAVERICK-MAVERICK-COWBOY-BUTTERSCOTCH",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -22274,8 +20225,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with citrus and pepper.",
       "finish": "Smooth and lingering with gentle spice."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 10,
+    "stock": 9,
     "sku": "MAVERICK-MAVERICK-COWBOY-BUTTERSCOTCH-2",
     "primaryKeyword": "baileys irish cream",
     "secondaryKeywords": [
@@ -22311,66 +20261,6 @@ export const PRODUCTS: Product[] = [
     ],
     "metaTitle": "Maverick Cowboy Butterscotch 750ml Flavoured & Cream Liqueurs | Doctors of Whisky",
     "metaDescription": "Buy Maverick Cowboy Butterscotch 750ml Flavoured & Cream Liqueurs online in Australia. Baileys irish cream experts — Sydney vaults, 100% provenance guarantee..."
-  },
-  {
-    "id": "prod-sheridans-1l-flavoured-cream-liqueurs-2",
-    "slug": "sheridans-1l-flavoured-cream-liqueurs-2",
-    "name": "Sheridans 1L Flavoured & Cream Liqueurs",
-    "brand": "Sheridans",
-    "category": "spirit",
-    "subCategory": "Flavoured & Cream Liqueurs",
-    "subCategorySlug": "flavoured-cream-liqueurs",
-    "style": "Liqueur",
-    "country": "International",
-    "region": "International",
-    "price": 105,
-    "abv": "15.0% - 20.0%",
-    "size": "1L",
-    "images": [
-      "/images/products/flavoured-cream-liqueurs/baileys-irish-cream--tds-sheridans-1l.jpg"
-    ],
-    "description": "Sheridans 1L Flavoured & Cream Liqueurs is one of Doctors of Whisky's hand-selected flavoured & cream liqueurs allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to orange liqueur, or wanting to explore orange liquer. Every bottle from Sheridans is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Toasted oak and dried spice.",
-      "palate": "Full-bodied with vanilla and caramel undertones.",
-      "finish": "Smooth and lingering with gentle spice."
-    },
-    "stock": 11,
-    "sku": "SHERIDANS-SHERIDANS-1L-FLAVOURED-2",
-    "primaryKeyword": "baileys irish cream",
-    "secondaryKeywords": [
-      "orange liqueur",
-      "orange liquer",
-      "dissarono",
-      "cream baileys",
-      "dissaronno",
-      "cinnamon liqueur",
-      "grandmarnier",
-      "disaronno originale amaretto liqueur",
-      "coontreau",
-      "price for disaronno",
-      "cinnamon flavored whiskey",
-      "cinnamon whisky cocktail",
-      "cinnamon schnapps",
-      "disorano",
-      "cinnamon booze"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Sheridans 1L Flavoured & Cream Liqueurs worth buying?",
-        "answer": "Sheridans 1L Flavoured & Cream Liqueurs is a genuine, provenance-verified flavoured & cream liqueurs bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Sheridans 1L Flavoured & Cream Liqueurs authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Sheridans 1L Flavoured & Cream Liqueurs?",
-        "answer": "Sheridans 1L Flavoured & Cream Liqueurs can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Sheridans 1L Flavoured & Cream Liqueurs | Doctors of Whisky",
-    "metaDescription": "Buy Sheridans 1L Flavoured & Cream Liqueurs online in Australia. Baileys irish cream experts — Sydney vaults, 100% provenance guarantee, insured delivery, an..."
   },
   {
     "id": "prod-charm-malgeun-kiwiberry-soju",
@@ -23278,127 +21168,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Peroni Nastro 6pack Craft & Imported Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
   },
   {
-    "id": "prod-corona-brown-box-355-bottles-craft-imported-beer-2",
-    "slug": "corona-brown-box-355-bottles-craft-imported-beer-2",
-    "name": "Corona Brown Box 355 Bottles Craft & Imported Beer",
-    "brand": "Corona",
-    "category": "beer-premix-wine",
-    "subCategory": "Craft & Imported Beer",
-    "subCategorySlug": "craft-imported-beer",
-    "style": "Lager / Imported",
-    "country": "International",
-    "region": "International",
-    "price": 20,
-    "abv": "4.2% - 5.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/craft-imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg"
-    ],
-    "description": "Corona Brown Box 355 Bottles Craft & Imported Beer is one of Doctors of Whisky's hand-selected craft & imported beer allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to imported beers, or wanting to explore pale.ale. Every bottle from Corona is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Ripe berry fruit and soft oak.",
-      "palate": "Balanced fruit and refreshing acidity.",
-      "finish": "Clean finish with lingering fruit."
-    },
-    "stock": 9,
-    "sku": "CORONA-CORONA-BROWN-BOX-2",
-    "primaryKeyword": "imported beer",
-    "secondaryKeywords": [
-      "imported beers",
-      "pale.ale",
-      "pale alw",
-      "lager beer",
-      "india pale ales",
-      "coopers premium light",
-      "ipa online",
-      "ipa ales",
-      "what is a i.p.a",
-      "lager beers",
-      "ipa style beer",
-      "what is pale beer",
-      "beer india pale ale",
-      "beer lager",
-      "what is a pale ale"
-    ],
-    "faqs": [
-      {
-        "question": "Is Corona Brown Box 355 Bottles Craft & Imported Beer aged, and does that affect the price?",
-        "answer": "Corona Brown Box 355 Bottles Craft & Imported Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
-      },
-      {
-        "question": "What makes Corona Brown Box 355 Bottles Craft & Imported Beer worth buying?",
-        "answer": "Corona Brown Box 355 Bottles Craft & Imported Beer is a genuine, provenance-verified craft & imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Corona Brown Box 355 Bottles Craft & Imported Beer authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      }
-    ],
-    "metaTitle": "Corona Brown Box 355 Bottles Craft & Imported Beer | Doctors of Whisky",
-    "metaDescription": "Buy Corona Brown Box 355 Bottles Craft & Imported Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured deliver..."
-  },
-  {
-    "id": "prod-heinenken-500ml-craft-imported-beer-2",
-    "slug": "heinenken-500ml-craft-imported-beer-2",
-    "name": "Heinenken 500ml Craft & Imported Beer",
-    "brand": "Heinenken",
-    "category": "beer-premix-wine",
-    "subCategory": "Craft & Imported Beer",
-    "subCategorySlug": "craft-imported-beer",
-    "style": "Lager / Imported",
-    "country": "International",
-    "region": "International",
-    "price": 45,
-    "abv": "4.2% - 5.5%",
-    "size": "500ml",
-    "images": [
-      "/images/products/craft-imported-beer/imported-beer--tds-heinenken-500ml-96bbe14c-7af4-42d3-8623-7e23665f889a.jpg"
-    ],
-    "description": "Heinenken 500ml Craft & Imported Beer is one of Doctors of Whisky's hand-selected craft & imported beer allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to imported beers, or wanting to explore pale.ale. Every bottle from Heinenken is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Crisp citrus and orchard blossom.",
-      "palate": "Silky texture with elegant fruit layers.",
-      "finish": "Long, elegant, and food-friendly."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
-    "sku": "HEINENKEN-HEINENKEN-500ML-CRAFT-2",
-    "primaryKeyword": "imported beer",
-    "secondaryKeywords": [
-      "imported beers",
-      "pale.ale",
-      "pale alw",
-      "lager beer",
-      "india pale ales",
-      "coopers premium light",
-      "ipa online",
-      "ipa ales",
-      "what is a i.p.a",
-      "lager beers",
-      "ipa style beer",
-      "what is pale beer",
-      "beer india pale ale",
-      "beer lager",
-      "what is a pale ale"
-    ],
-    "faqs": [
-      {
-        "question": "Is Heinenken 500ml Craft & Imported Beer aged, and does that affect the price?",
-        "answer": "Heinenken 500ml Craft & Imported Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
-      },
-      {
-        "question": "What makes Heinenken 500ml Craft & Imported Beer worth buying?",
-        "answer": "Heinenken 500ml Craft & Imported Beer is a genuine, provenance-verified craft & imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Heinenken 500ml Craft & Imported Beer authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      }
-    ],
-    "metaTitle": "Heinenken 500ml Craft & Imported Beer | Doctors of Whisky",
-    "metaDescription": "Buy Heinenken 500ml Craft & Imported Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% ..."
-  },
-  {
     "id": "prod-hoegaarden-wheat-beer",
     "slug": "hoegaarden-wheat-beer",
     "name": "Hoegaarden Wheat Beer",
@@ -23421,7 +21190,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced fruit and refreshing acidity.",
       "finish": "Smooth and moreish."
     },
-    "stock": 11,
+    "stock": 9,
     "sku": "HOEGAARDEN-HOEGAARDEN-WHEAT-BEER",
     "primaryKeyword": "imported beer",
     "secondaryKeywords": [
@@ -23459,187 +21228,6 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Hoegaarden Wheat Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-modelo-especial-craft-imported-beer-2",
-    "slug": "modelo-especial-craft-imported-beer-2",
-    "name": "Modelo Especial Craft & Imported Beer",
-    "brand": "Modelo",
-    "category": "beer-premix-wine",
-    "subCategory": "Craft & Imported Beer",
-    "subCategorySlug": "craft-imported-beer",
-    "style": "Lager / Imported",
-    "country": "International",
-    "region": "International",
-    "price": 45,
-    "abv": "4.2% - 5.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/craft-imported-beer/imported-beer--tds-modelo-especial.jpg"
-    ],
-    "description": "Modelo Especial Craft & Imported Beer is one of Doctors of Whisky's hand-selected craft & imported beer allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to imported beers, or wanting to explore pale.ale. Every bottle from Modelo is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Crisp citrus and orchard blossom.",
-      "palate": "Silky texture with elegant fruit layers.",
-      "finish": "Clean finish with lingering fruit."
-    },
-    "stock": 12,
-    "sku": "MODELO-MODELO-ESPECIAL-CRAFT-2",
-    "primaryKeyword": "imported beer",
-    "secondaryKeywords": [
-      "imported beers",
-      "pale.ale",
-      "pale alw",
-      "lager beer",
-      "india pale ales",
-      "coopers premium light",
-      "ipa online",
-      "ipa ales",
-      "what is a i.p.a",
-      "lager beers",
-      "ipa style beer",
-      "what is pale beer",
-      "beer india pale ale",
-      "beer lager",
-      "what is a pale ale"
-    ],
-    "faqs": [
-      {
-        "question": "Is Modelo Especial Craft & Imported Beer aged, and does that affect the price?",
-        "answer": "Modelo Especial Craft & Imported Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
-      },
-      {
-        "question": "What makes Modelo Especial Craft & Imported Beer worth buying?",
-        "answer": "Modelo Especial Craft & Imported Beer is a genuine, provenance-verified craft & imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Modelo Especial Craft & Imported Beer authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      }
-    ],
-    "metaTitle": "Modelo Especial Craft & Imported Beer | Doctors of Whisky",
-    "metaDescription": "Buy Modelo Especial Craft & Imported Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% ..."
-  },
-  {
-    "id": "prod-peroni-nastro-6pack-craft-imported-beer-2",
-    "slug": "peroni-nastro-6pack-craft-imported-beer-2",
-    "name": "Peroni Nastro 6pack Craft & Imported Beer",
-    "brand": "Peroni",
-    "category": "beer-premix-wine",
-    "subCategory": "Craft & Imported Beer",
-    "subCategorySlug": "craft-imported-beer",
-    "style": "Lager / Imported",
-    "country": "International",
-    "region": "International",
-    "price": 60,
-    "abv": "4.2% - 5.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/craft-imported-beer/imported-beer--tds-peroni-nastro-6pack.jpg"
-    ],
-    "description": "Peroni Nastro 6pack Craft & Imported Beer is one of Doctors of Whisky's hand-selected craft & imported beer allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to imported beers, or wanting to explore pale.ale. Every bottle from Peroni is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Fresh hops and pale malt.",
-      "palate": "Silky texture with elegant fruit layers.",
-      "finish": "Long, elegant, and food-friendly."
-    },
-    "stock": 4,
-    "sku": "PERONI-PERONI-NASTRO-6PACK-2",
-    "primaryKeyword": "imported beer",
-    "secondaryKeywords": [
-      "imported beers",
-      "pale.ale",
-      "pale alw",
-      "lager beer",
-      "india pale ales",
-      "coopers premium light",
-      "ipa online",
-      "ipa ales",
-      "what is a i.p.a",
-      "lager beers",
-      "ipa style beer",
-      "what is pale beer",
-      "beer india pale ale",
-      "beer lager",
-      "what is a pale ale"
-    ],
-    "faqs": [
-      {
-        "question": "Is Peroni Nastro 6pack Craft & Imported Beer aged, and does that affect the price?",
-        "answer": "Peroni Nastro 6pack Craft & Imported Beer does not carry a formal age statement, but every bottle is vintage-verified and inspected prior to sale. Provenance and condition are always checked before a bottle enters our vault listings."
-      },
-      {
-        "question": "What makes Peroni Nastro 6pack Craft & Imported Beer worth buying?",
-        "answer": "Peroni Nastro 6pack Craft & Imported Beer is a genuine, provenance-verified craft & imported beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Peroni Nastro 6pack Craft & Imported Beer authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      }
-    ],
-    "metaTitle": "Peroni Nastro 6pack Craft & Imported Beer | Doctors of Whisky",
-    "metaDescription": "Buy Peroni Nastro 6pack Craft & Imported Beer online in Australia. Imported beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
-  },
-  {
-    "id": "prod-imported-beer",
-    "slug": "imported-beer",
-    "name": "Imported Beer",
-    "brand": "Non Alcoholic Beer",
-    "category": "beer-premix-wine",
-    "subCategory": "Non-Alcoholic Beer",
-    "subCategorySlug": "non-alcoholic-beer",
-    "style": "Non-Alcoholic",
-    "country": "International",
-    "region": "International",
-    "price": 20,
-    "abv": "<0.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/non-alcoholic-beer/non-alcoholic-beer--imported-beer.jpg"
-    ],
-    "description": "Imported Beer is one of Doctors of Whisky's hand-selected non-alcoholic beer allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to light beers, or wanting to explore non alcoholic beverage. Every bottle from Non Alcoholic Beer is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
-    "tastingNotes": {
-      "nose": "Ripe berry fruit and soft oak.",
-      "palate": "Clean malt sweetness with a crisp bite.",
-      "finish": "Smooth and moreish."
-    },
-    "badge": "BEST SELLER",
-    "stock": 4,
-    "sku": "NON-ALCOHOLIC-BEER-IMPORTED",
-    "primaryKeyword": "light beer",
-    "secondaryKeywords": [
-      "light beers",
-      "non alcoholic beverage",
-      "no alcohol drinks",
-      "non alc drinks",
-      "non-alc",
-      "lightweight beer",
-      "non wine",
-      "non alcoholic red wine",
-      "non alcoholic wine drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
-      "zero alcohol drinks",
-      "no alcohol",
-      "no alcohol wine"
-    ],
-    "faqs": [
-      {
-        "question": "What makes Imported Beer worth buying?",
-        "answer": "Imported Beer is a genuine, provenance-verified non-alcoholic beer bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
-      },
-      {
-        "question": "Is Imported Beer authentic, and how is it stored?",
-        "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
-      },
-      {
-        "question": "What payment options are available for Imported Beer?",
-        "answer": "Imported Beer can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
-      }
-    ],
-    "metaTitle": "Imported Beer | Buy Online Australia | Doctors of Whisky",
-    "metaDescription": "Buy Imported Beer online in Australia. Light beer experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
-  },
-  {
     "id": "prod-clausthaler-original-500ml",
     "slug": "clausthaler-original-500ml",
     "name": "Clausthaler Original 500ml",
@@ -23662,7 +21250,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced fruit and refreshing acidity.",
       "finish": "Smooth and moreish."
     },
-    "stock": 5,
+    "badge": "BEST SELLER",
+    "stock": 4,
     "sku": "CLAUSTHALER-CLAUSTHALER-ORIGINAL-500ML",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -23722,8 +21311,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Silky texture with elegant fruit layers.",
       "finish": "Crisp, refreshing, and well-balanced."
     },
-    "stock": 6,
-    "sku": "CORONA-CORONA-BROWN-BOX-3",
+    "stock": 5,
+    "sku": "CORONA-CORONA-BROWN-BOX-2",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
       "light beers",
@@ -23782,8 +21371,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean malt sweetness with a crisp bite.",
       "finish": "Smooth and moreish."
     },
-    "badge": "LIMITED EDITION",
-    "stock": 7,
+    "stock": 6,
     "sku": "HEINEKEN-HEINEKEN-ZERO-CANS",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -23843,7 +21431,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Well-rounded with soft tannins and fruit.",
       "finish": "Clean finish with lingering fruit."
     },
-    "stock": 8,
+    "badge": "LIMITED EDITION",
+    "stock": 7,
     "sku": "HEINEKEN-HEINEKEN-ZERO-STUBS",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -23903,7 +21492,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Balanced fruit and refreshing acidity.",
       "finish": "Long, elegant, and food-friendly."
     },
-    "stock": 9,
+    "stock": 8,
     "sku": "HEINENKEN-HEINENKEN-500ML-NON",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -23963,8 +21552,7 @@ export const PRODUCTS: Product[] = [
       "palate": "Well-rounded with soft tannins and fruit.",
       "finish": "Crisp, refreshing, and well-balanced."
     },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
+    "stock": 9,
     "sku": "HOEGAARDEN-HOEGAARDEN-WHEAT-BEER-2",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -24024,7 +21612,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Well-rounded with soft tannins and fruit.",
       "finish": "Crisp, refreshing, and well-balanced."
     },
-    "stock": 11,
+    "badge": "COLLECTOR RELEASE",
+    "stock": 10,
     "sku": "MODELO-MODELO-ESPECIAL-NON",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
@@ -24084,8 +21673,8 @@ export const PRODUCTS: Product[] = [
       "palate": "Clean malt sweetness with a crisp bite.",
       "finish": "Crisp, refreshing, and well-balanced."
     },
-    "stock": 12,
-    "sku": "PERONI-PERONI-NASTRO-6PACK-3",
+    "stock": 11,
+    "sku": "PERONI-PERONI-NASTRO-6PACK-2",
     "primaryKeyword": "light beer",
     "secondaryKeywords": [
       "light beers",
@@ -24424,10 +22013,10 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Somersby Apple Cider Bottles online in Australia. Cider experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-stefaniestateshirazcopy-red-wine",
-    "slug": "stefaniestateshirazcopy-red-wine",
-    "name": "StefaniEstateShirazcopy Red Wine",
-    "brand": "StefaniEstateShirazcopy",
+    "id": "prod-stefani-estate-shirazcopy-red-wine",
+    "slug": "stefani-estate-shirazcopy-red-wine",
+    "name": "Stefani Estate Shirazcopy Red Wine",
+    "brand": "Stefani",
     "category": "beer-premix-wine",
     "subCategory": "Red Wine",
     "subCategorySlug": "red-wine",
@@ -24440,7 +22029,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/red-wine/red-wine--stefaniestateshirazcopy.jpg"
     ],
-    "description": "StefaniEstateShirazcopy Red Wine is one of Doctors of Whisky's hand-selected red wine allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to buy wine, or wanting to explore rose wine. Every bottle from StefaniEstateShirazcopy is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Stefani Estate Shirazcopy Red Wine is one of Doctors of Whisky's hand-selected red wine allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to buy wine, or wanting to explore rose wine. Every bottle from Stefani is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Fresh hops and pale malt.",
       "palate": "Silky texture with elegant fruit layers.",
@@ -24448,7 +22037,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "BEST SELLER",
     "stock": 4,
-    "sku": "STEFANIESTATESHIRAZCOPY-STEFANIESTATESHIRAZCOPY-RED-WINE",
+    "sku": "STEFANI-STEFANI-ESTATE-SHIRAZCOPY",
     "primaryKeyword": "red wine",
     "secondaryKeywords": [
       "buy wine",
@@ -24469,20 +22058,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes StefaniEstateShirazcopy Red Wine worth buying?",
-        "answer": "StefaniEstateShirazcopy Red Wine is a genuine, provenance-verified red wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Stefani Estate Shirazcopy Red Wine worth buying?",
+        "answer": "Stefani Estate Shirazcopy Red Wine is a genuine, provenance-verified red wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is StefaniEstateShirazcopy Red Wine authentic, and how is it stored?",
+        "question": "Is Stefani Estate Shirazcopy Red Wine authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for StefaniEstateShirazcopy Red Wine?",
-        "answer": "StefaniEstateShirazcopy Red Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Stefani Estate Shirazcopy Red Wine?",
+        "answer": "Stefani Estate Shirazcopy Red Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "StefaniEstateShirazcopy Red Wine | Doctors of Whisky",
-    "metaDescription": "Buy StefaniEstateShirazcopy Red Wine online in Australia. Red wine experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto dis..."
+    "metaTitle": "Stefani Estate Shirazcopy Red Wine | Doctors of Whisky",
+    "metaDescription": "Buy Stefani Estate Shirazcopy Red Wine online in Australia. Red wine experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto d..."
   },
   {
     "id": "prod-alexander-hill-cab-sav-red-wine",
@@ -24786,9 +22375,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Pepperjack Shiraz Red Wine online in Australia. Red wine experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
-    "id": "prod-sandeman-port-20-red-wine",
-    "slug": "sandeman-port-20-red-wine",
-    "name": "Sandeman Port 20 Red Wine",
+    "id": "prod-sandeman-port-red-wine",
+    "slug": "sandeman-port-red-wine",
+    "name": "Sandeman Port Red Wine",
     "brand": "Sandeman",
     "category": "beer-premix-wine",
     "subCategory": "Red Wine",
@@ -24802,7 +22391,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/red-wine/red-wine--tds-sandeman-port-20.jpg"
     ],
-    "description": "Sandeman Port 20 Red Wine is one of Doctors of Whisky's hand-selected red wine allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to buy wine, or wanting to explore rose wine. Every bottle from Sandeman is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Sandeman Port Red Wine is one of Doctors of Whisky's hand-selected red wine allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to buy wine, or wanting to explore rose wine. Every bottle from Sandeman is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Fine mousse with bright red fruit.",
       "palate": "Well-rounded with soft tannins and fruit.",
@@ -24810,7 +22399,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "COLLECTOR RELEASE",
     "stock": 10,
-    "sku": "SANDEMAN-SANDEMAN-PORT-20",
+    "sku": "SANDEMAN-SANDEMAN-PORT-RED",
     "primaryKeyword": "red wine",
     "secondaryKeywords": [
       "buy wine",
@@ -24831,20 +22420,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Sandeman Port 20 Red Wine worth buying?",
-        "answer": "Sandeman Port 20 Red Wine is a genuine, provenance-verified red wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Sandeman Port Red Wine worth buying?",
+        "answer": "Sandeman Port Red Wine is a genuine, provenance-verified red wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Sandeman Port 20 Red Wine authentic, and how is it stored?",
+        "question": "Is Sandeman Port Red Wine authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Sandeman Port 20 Red Wine?",
-        "answer": "Sandeman Port 20 Red Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Sandeman Port Red Wine?",
+        "answer": "Sandeman Port Red Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Sandeman Port 20 Red Wine | Doctors of Whisky",
-    "metaDescription": "Buy Sandeman Port 20 Red Wine online in Australia. Red wine experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
+    "metaTitle": "Sandeman Port Red Wine | Buy Online Australia | Doctors of Whisky",
+    "metaDescription": "Buy Sandeman Port Red Wine online in Australia. Red wine experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% crypto discount."
   },
   {
     "id": "prod-slayer-reign-in-blood-wine",
@@ -26656,9 +24245,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Sandeman Port 20yo Sparkling & Fortified Wine online in Australia. Sparkling experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
   },
   {
-    "id": "prod-sandeman-port-20-sparkling-fortified-wine",
-    "slug": "sandeman-port-20-sparkling-fortified-wine",
-    "name": "Sandeman Port 20 Sparkling & Fortified Wine",
+    "id": "prod-sandeman-port-sparkling-fortified-wine",
+    "slug": "sandeman-port-sparkling-fortified-wine",
+    "name": "Sandeman Port Sparkling & Fortified Wine",
     "brand": "Sandeman",
     "category": "beer-premix-wine",
     "subCategory": "Sparkling & Fortified Wine",
@@ -26672,14 +24261,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/sparkling-fortified-wine/port-wine--tds-sandeman-port-20.jpg"
     ],
-    "description": "Sandeman Port 20 Sparkling & Fortified Wine is one of Doctors of Whisky's hand-selected sparkling & fortified wine allocations, sourced from France / Portugal / Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to wine, or wanting to explore red wine. Every bottle from Sandeman is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Sandeman Port Sparkling & Fortified Wine is one of Doctors of Whisky's hand-selected sparkling & fortified wine allocations, sourced from France / Portugal / Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to wine, or wanting to explore red wine. Every bottle from Sandeman is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Crisp citrus and orchard blossom.",
       "palate": "Clean malt sweetness with a crisp bite.",
       "finish": "Smooth and moreish."
     },
     "stock": 12,
-    "sku": "SANDEMAN-SANDEMAN-PORT-20-2",
+    "sku": "SANDEMAN-SANDEMAN-PORT-SPARKLING",
     "primaryKeyword": "sparkling",
     "secondaryKeywords": [
       "wine",
@@ -26700,20 +24289,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Sandeman Port 20 Sparkling & Fortified Wine worth buying?",
-        "answer": "Sandeman Port 20 Sparkling & Fortified Wine is a genuine, provenance-verified sparkling & fortified wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Sandeman Port Sparkling & Fortified Wine worth buying?",
+        "answer": "Sandeman Port Sparkling & Fortified Wine is a genuine, provenance-verified sparkling & fortified wine bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Sandeman Port 20 Sparkling & Fortified Wine authentic, and how is it stored?",
+        "question": "Is Sandeman Port Sparkling & Fortified Wine authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Sandeman Port 20 Sparkling & Fortified Wine?",
-        "answer": "Sandeman Port 20 Sparkling & Fortified Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Sandeman Port Sparkling & Fortified Wine?",
+        "answer": "Sandeman Port Sparkling & Fortified Wine can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Sandeman Port 20 Sparkling & Fortified Wine | Doctors of Whisky",
-    "metaDescription": "Buy Sandeman Port 20 Sparkling & Fortified Wine online in Australia. Sparkling experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12..."
+    "metaTitle": "Sandeman Port Sparkling & Fortified Wine | Doctors of Whisky",
+    "metaDescription": "Buy Sandeman Port Sparkling & Fortified Wine online in Australia. Sparkling experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a 12% c..."
   },
   {
     "id": "prod-sandeman-port-40yo-sparkling-fortified-wine",
@@ -27621,9 +25210,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy Saint D9 Sparkling Peach Zero Sugar Seltzers online in Australia. Zero sugar experts — Sydney vaults, 100% provenance guarantee, insured delivery, and a ..."
   },
   {
-    "id": "prod-strong-double-sparkling-lemon-9-zero-sugar-seltzers",
-    "slug": "strong-double-sparkling-lemon-9-zero-sugar-seltzers",
-    "name": "Strong Double Sparkling Lemon 9 Zero Sugar Seltzers",
+    "id": "prod-strong-double-sparkling-lemon-zero-sugar-seltzers",
+    "slug": "strong-double-sparkling-lemon-zero-sugar-seltzers",
+    "name": "Strong Double Sparkling Lemon Zero Sugar Seltzers",
     "brand": "Strong",
     "category": "beer-premix-wine",
     "subCategory": "Zero Sugar Seltzers",
@@ -27637,7 +25226,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-strong-double-sparkling-lemon-9.jpg"
     ],
-    "description": "Strong Double Sparkling Lemon 9 Zero Sugar Seltzers is one of Doctors of Whisky's hand-selected zero sugar seltzers allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to light beer, or wanting to explore light beers. Every bottle from Strong is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Strong Double Sparkling Lemon Zero Sugar Seltzers is one of Doctors of Whisky's hand-selected zero sugar seltzers allocations, sourced from Australia and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to light beer, or wanting to explore light beers. Every bottle from Strong is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Ripe berry fruit and soft oak.",
       "palate": "Silky texture with elegant fruit layers.",
@@ -27665,20 +25254,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes Strong Double Sparkling Lemon 9 Zero Sugar Seltzers worth buying?",
-        "answer": "Strong Double Sparkling Lemon 9 Zero Sugar Seltzers is a genuine, provenance-verified zero sugar seltzers bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes Strong Double Sparkling Lemon Zero Sugar Seltzers worth buying?",
+        "answer": "Strong Double Sparkling Lemon Zero Sugar Seltzers is a genuine, provenance-verified zero sugar seltzers bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is Strong Double Sparkling Lemon 9 Zero Sugar Seltzers authentic, and how is it stored?",
+        "question": "Is Strong Double Sparkling Lemon Zero Sugar Seltzers authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for Strong Double Sparkling Lemon 9 Zero Sugar Seltzers?",
-        "answer": "Strong Double Sparkling Lemon 9 Zero Sugar Seltzers can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for Strong Double Sparkling Lemon Zero Sugar Seltzers?",
+        "answer": "Strong Double Sparkling Lemon Zero Sugar Seltzers can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "Strong Double Sparkling Lemon 9 Zero Sugar Seltzers | Doctors of Whisky",
-    "metaDescription": "Buy Strong Double Sparkling Lemon 9 Zero Sugar Seltzers online in Australia. Zero sugar experts — Sydney vaults, 100% provenance guarantee, insured delivery,..."
+    "metaTitle": "Strong Double Sparkling Lemon Zero Sugar Seltzers | Doctors of Whisky",
+    "metaDescription": "Buy Strong Double Sparkling Lemon Zero Sugar Seltzers online in Australia. Zero sugar experts — Sydney vaults, 100% provenance guarantee, insured delivery, a..."
   },
   {
     "id": "prod-ginger-kid-ginger-beer",
@@ -27862,9 +25451,9 @@ export const PRODUCTS: Product[] = [
     "metaDescription": "Buy San Pellegrino 500ml Plastic Mixers, Water & Condiments online in Australia. Energy drink experts — Sydney vaults, 100% provenance guarantee, insured del..."
   },
   {
-    "id": "prod-san-pelligrino-sparkling-250ml-1-mixers-water-condiments",
-    "slug": "san-pelligrino-sparkling-250ml-1-mixers-water-condiments",
-    "name": "San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments",
+    "id": "prod-san-pelligrino-sparkling-250ml-mixers-water-condiments",
+    "slug": "san-pelligrino-sparkling-250ml-mixers-water-condiments",
+    "name": "San Pelligrino Sparkling 250ml Mixers, Water & Condiments",
     "brand": "San",
     "category": "other",
     "subCategory": "Mixers, Water & Condiments",
@@ -27878,7 +25467,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/mixers-water-condiments/water--tds-san-pelligrino-sparkling-250ml-1.jpg"
     ],
-    "description": "San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from San is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "San Pelligrino Sparkling 250ml Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from San is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Light citrus and gentle spice.",
       "palate": "Smooth, light, and easy-drinking.",
@@ -27907,20 +25496,20 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "What makes San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments worth buying?",
-        "answer": "San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments is a genuine, provenance-verified mixers, water & condiments bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
+        "question": "What makes San Pelligrino Sparkling 250ml Mixers, Water & Condiments worth buying?",
+        "answer": "San Pelligrino Sparkling 250ml Mixers, Water & Condiments is a genuine, provenance-verified mixers, water & condiments bottle, hand-selected by our Sydney sommelier team and backed by a 100% authenticity guarantee."
       },
       {
-        "question": "Is San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments authentic, and how is it stored?",
+        "question": "Is San Pelligrino Sparkling 250ml Mixers, Water & Condiments authentic, and how is it stored?",
         "answer": "Yes — every bottle is inspected and provenance-verified on arrival, then held in our climate-controlled Sydney vaults at a constant 14°C and 65% humidity until dispatch."
       },
       {
-        "question": "What payment options are available for San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments?",
-        "answer": "San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
+        "question": "What payment options are available for San Pelligrino Sparkling 250ml Mixers, Water & Condiments?",
+        "answer": "San Pelligrino Sparkling 250ml Mixers, Water & Condiments can be purchased via PayID, direct bank transfer, or Bitcoin/USDT — crypto payments receive an automatic 12% discount at checkout."
       }
     ],
-    "metaTitle": "San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments | Doctors of Whisky",
-    "metaDescription": "Buy San Pelligrino Sparkling 250ml 1 Mixers, Water & Condiments online in Australia. Energy drink experts — Sydney vaults, 100% provenance guarantee, insured..."
+    "metaTitle": "San Pelligrino Sparkling 250ml Mixers, Water & Condiments | Doctors of Whisky",
+    "metaDescription": "Buy San Pelligrino Sparkling 250ml Mixers, Water & Condiments online in Australia. Energy drink experts — Sydney vaults, 100% provenance guarantee, insured d..."
   },
   {
     "id": "prod-mtv-up-energy-drink-sugar-free-mixers-water-condiments",
@@ -28167,7 +25756,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jack-daniels-honey-bbq-sauce-mixers-water-condiments",
     "slug": "jack-daniels-honey-bbq-sauce-mixers-water-condiments",
     "name": "Jack Daniels Honey Bbq Sauce Mixers, Water & Condiments",
-    "brand": "Jack",
+    "brand": "Jack Daniels",
     "category": "other",
     "subCategory": "Mixers, Water & Condiments",
     "subCategorySlug": "mixers-water-condiments",
@@ -28180,14 +25769,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/mixers-water-condiments/condiments--tds-jack-daniels-honey-bbq-sauce.jpg"
     ],
-    "description": "Jack Daniels Honey Bbq Sauce Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jack Daniels Honey Bbq Sauce Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack Daniels is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Clean grain sweetness and soft florals.",
       "palate": "Smooth, light, and easy-drinking.",
       "finish": "Smooth with a light, crisp close."
     },
     "stock": 12,
-    "sku": "JACK-JACK-DANIELS-HONEY",
+    "sku": "JACK-DANIELS-JACK-DANIELS-2",
     "primaryKeyword": "energy drink",
     "secondaryKeywords": [
       "water",
@@ -28227,7 +25816,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jack-daniels-original-bbq-sauce",
     "slug": "jack-daniels-original-bbq-sauce",
     "name": "Jack Daniels Original Bbq Sauce",
-    "brand": "Jack",
+    "brand": "Jack Daniels",
     "category": "other",
     "subCategory": "Mixers, Water & Condiments",
     "subCategorySlug": "mixers-water-condiments",
@@ -28240,14 +25829,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/mixers-water-condiments/condiments--tds-jack-daniels-original-bbq-sauce.jpg"
     ],
-    "description": "Jack Daniels Original Bbq Sauce is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jack Daniels Original Bbq Sauce is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack Daniels is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Clean grain sweetness and soft florals.",
       "palate": "Soft sweetness with a crisp edge.",
       "finish": "Well-balanced and moreish."
     },
     "stock": 4,
-    "sku": "JACK-JACK-DANIELS-ORIGINAL",
+    "sku": "JACK-DANIELS-JACK-DANIELS-3",
     "primaryKeyword": "energy drink",
     "secondaryKeywords": [
       "water",
@@ -28287,7 +25876,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-jack-daniels-sweet-spicy-bbq-sauce-mixers-water-condiments",
     "slug": "jack-daniels-sweet-spicy-bbq-sauce-mixers-water-condiments",
     "name": "Jack Daniels Sweet Spicy Bbq Sauce Mixers, Water & Condiments",
-    "brand": "Jack",
+    "brand": "Jack Daniels",
     "category": "other",
     "subCategory": "Mixers, Water & Condiments",
     "subCategorySlug": "mixers-water-condiments",
@@ -28300,7 +25889,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/mixers-water-condiments/condiments--tds-jack-daniels-sweet-spicy-bbq-sauce.jpg"
     ],
-    "description": "Jack Daniels Sweet Spicy Bbq Sauce Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
+    "description": "Jack Daniels Sweet Spicy Bbq Sauce Mixers, Water & Condiments is one of Doctors of Whisky's hand-selected mixers, water & condiments allocations, sourced from International and stored in our Sydney climate-controlled vaults. A genuine choice for anyone searching to water, or wanting to explore condiments. Every bottle from Jack Daniels is physically inspected and provenance-verified before dispatch, with insured Australian-wide delivery and a 100% authenticity guarantee.",
     "tastingNotes": {
       "nose": "Clean grain sweetness and soft florals.",
       "palate": "Smooth, light, and easy-drinking.",
@@ -28308,7 +25897,7 @@ export const PRODUCTS: Product[] = [
     },
     "badge": "BEST SELLER",
     "stock": 5,
-    "sku": "JACK-JACK-DANIELS-SWEET",
+    "sku": "JACK-DANIELS-JACK-DANIELS-4",
     "primaryKeyword": "energy drink",
     "secondaryKeywords": [
       "water",
