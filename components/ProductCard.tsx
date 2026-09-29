@@ -56,20 +56,19 @@ Please confirm vault availability and payment instructions.`;
   return (
     <div className="group relative flex flex-col h-full bg-neutral-900/60 hover:bg-neutral-900/90 border border-neutral-800 hover:border-amber-700/60 rounded-2xl overflow-hidden transition-all duration-300 shadow-md hover:shadow-2xl hover:shadow-black/70">
       {/* Top Image Container (4:3 ratio) */}
-      <div className="relative w-full aspect-[4/3] bg-neutral-950 overflow-hidden">
+      <div className="relative w-full aspect-[4/3] bg-white overflow-hidden">
         <Link href={`/shop/${product.category}/${product.slug}`} className="block w-full h-full">
           <Image
             src={product.images[0]}
             alt={`${product.name} - ${product.brand} fine spirit`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className={`object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out ${
+            className={`object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out ${
               imageLoaded ? 'opacity-100' : 'opacity-0'
             }`}
             onLoad={() => setImageLoaded(true)}
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent opacity-60" />
         </Link>
 
         {/* Top Badges */}

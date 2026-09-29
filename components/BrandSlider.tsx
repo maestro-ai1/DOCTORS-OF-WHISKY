@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Sparkles,
   ChevronLeft,
@@ -23,6 +24,7 @@ interface BrandItem {
   badge: string;
   established: string;
   initials: string;
+  image?: string;
 }
 
 const BRANDS_LIST: BrandItem[] = [
@@ -37,6 +39,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Iconic Speyside',
     established: 'Est. 1824',
     initials: 'MC',
+    image: '/images/brands/macallan.jpg',
   },
   {
     name: 'Nikka Whisky',
@@ -49,6 +52,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Japanese Rarity',
     established: 'Est. 1934',
     initials: 'NK',
+    image: '/images/brands/nikka.jpg',
   },
   {
     name: 'The GlenDronach',
@@ -61,6 +65,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Sherry Masterwork',
     established: 'Est. 1826',
     initials: 'GD',
+    image: '/images/brands/glendronach.jpg',
   },
   {
     name: 'Glenfiddich',
@@ -73,6 +78,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Speyside Pioneer',
     established: 'Est. 1887',
     initials: 'GF',
+    image: '/images/brands/glenfiddich.jpg',
   },
   {
     name: 'Lark Distillery',
@@ -85,6 +91,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Australian Legend',
     established: 'Est. 1992',
     initials: 'LK',
+    image: '/images/brands/lark.jpg',
   },
   {
     name: 'Laphroaig',
@@ -97,6 +104,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Peat Benchmark',
     established: 'Est. 1815',
     initials: 'LP',
+    image: '/images/brands/laphroaig.jpg',
   },
   {
     name: 'Royal Salute',
@@ -109,6 +117,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Crown Reserve',
     established: 'Est. 1953',
     initials: 'RS',
+    image: '/images/brands/royal-salute.jpg',
   },
   {
     name: 'Johnnie Walker',
@@ -121,6 +130,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Master Blend',
     established: 'Est. 1820',
     initials: 'JW',
+    image: '/images/brands/johnnie-walker.jpg',
   },
   {
     name: 'Don Julio',
@@ -133,6 +143,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'Solera Añejo',
     established: 'Est. 1942',
     initials: 'DJ',
+    image: '/images/brands/don-julio.jpg',
   },
   {
     name: 'Grey Goose',
@@ -145,6 +156,7 @@ const BRANDS_LIST: BrandItem[] = [
     badge: 'French Luxury',
     established: 'Est. 1997',
     initials: 'GG',
+    image: '/images/brands/grey-goose.jpg',
   },
   {
     name: 'Penfolds',
@@ -277,10 +289,16 @@ export function BrandSlider() {
                 {/* Top: Logo Emblem & Badge */}
                 <div className="flex items-center justify-between gap-2">
                   <div className="flex items-center gap-2.5">
-                    {/* Stylized Brand Monogram Emblem */}
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-neutral-950 via-neutral-900 to-amber-950 border border-amber-600/40 flex items-center justify-center font-serif text-xs font-bold text-amber-300 group-hover:scale-105 group-hover:border-amber-400 transition-all shadow-inner">
-                      {brand.initials}
-                    </div>
+                    {/* Brand Bottle Thumbnail or Monogram Emblem */}
+                    {brand.image ? (
+                      <div className="w-10 h-10 rounded-xl bg-white border border-amber-600/40 overflow-hidden relative shrink-0 group-hover:scale-105 group-hover:border-amber-400 transition-all shadow-inner">
+                        <Image src={brand.image} alt={`${brand.name} bottle`} fill className="object-contain p-0.5" sizes="40px" />
+                      </div>
+                    ) : (
+                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-neutral-950 via-neutral-900 to-amber-950 border border-amber-600/40 flex items-center justify-center font-serif text-xs font-bold text-amber-300 group-hover:scale-105 group-hover:border-amber-400 transition-all shadow-inner">
+                        {brand.initials}
+                      </div>
+                    )}
                     <div>
                       <span className="text-[10px] uppercase tracking-wider text-amber-500/90 font-bold block">
                         {brand.established}

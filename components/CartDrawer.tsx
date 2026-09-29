@@ -150,12 +150,12 @@ export function CartDrawer() {
                   className="p-3.5 rounded-xl bg-neutral-900/70 border border-neutral-800 flex gap-3.5 items-center group"
                 >
                   {/* Thumbnail */}
-                  <div className="relative w-16 h-16 rounded-lg overflow-hidden bg-neutral-950 shrink-0 border border-neutral-800">
+                  <div className="relative w-16 h-16 rounded-lg overflow-hidden bg-white shrink-0 border border-neutral-800">
                     <Image
                       src={item.product.images[0]}
                       alt={item.product.name}
                       fill
-                      className="object-cover"
+                      className="object-contain p-1"
                       referrerPolicy="no-referrer"
                     />
                   </div>

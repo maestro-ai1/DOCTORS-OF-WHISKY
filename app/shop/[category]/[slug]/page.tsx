@@ -24,8 +24,9 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   return {
-    title: `${product.name} | Buy Online Australia | Doctors of Whisky`,
-    description: `${product.description.slice(0, 150)}... Stored in Sydney climate vaults. 100% provenance guarantee, 12% Crypto discount, insured Australian delivery.`,
+    title: product.metaTitle,
+    description: product.metaDescription,
+    keywords: [product.primaryKeyword, ...product.secondaryKeywords.slice(0, 10)],
     alternates: {
       canonical: `https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}/`,
     },
@@ -81,11 +82,28 @@ export default async function ProductPage({ params }: ProductPageProps) {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: product.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <ProductDetailClient product={product} relatedProducts={relatedProducts} />
     </>

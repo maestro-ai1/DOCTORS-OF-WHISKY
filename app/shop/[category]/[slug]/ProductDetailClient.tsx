@@ -23,6 +23,7 @@ import {
   ChevronRight,
   CheckCircle,
   Share2,
+  HelpCircle,
 } from 'lucide-react';
 
 interface ProductDetailClientProps {
@@ -100,16 +101,15 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
           {/* Left Column: Gallery & Vault Badges (6 cols) */}
           <div className="lg:col-span-6 space-y-4">
             {/* Main Stage Image (4:3 canvas) */}
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-neutral-900/60 border border-neutral-800 shadow-2xl">
+            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-white border border-neutral-800 shadow-2xl">
               <Image
                 src={product.images[selectedImgIdx] || product.images[0]}
                 alt={`${product.name} - ${product.brand} fine spirit`}
                 fill
                 priority
-                className="object-cover object-center"
+                className="object-contain object-center p-8"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/60 via-transparent to-transparent pointer-events-none" />
 
               {/* Rarity Badge Overlay */}
               {product.badge && (
@@ -155,13 +155,13 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                     key={idx}
                     type="button"
                     onClick={() => setSelectedImgIdx(idx)}
-                    className={`relative w-24 aspect-[4/3] rounded-xl overflow-hidden border-2 transition-all ${
+                    className={`relative w-24 aspect-[4/3] rounded-xl overflow-hidden border-2 bg-white transition-all ${
                       selectedImgIdx === idx
                         ? 'border-amber-500 scale-98 shadow-md'
                         : 'border-neutral-800 opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <Image src={img} alt="Thumbnail" fill className="object-cover" />
+                    <Image src={img} alt="Thumbnail" fill className="object-contain p-1" />
                   </button>
                 ))}
               </div>
@@ -381,6 +381,38 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             )}
           </div>
         </div>
+
+        {/* Frequently Asked Questions */}
+        {product.faqs && product.faqs.length > 0 && (
+          <div className="pt-12 border-t border-neutral-900 space-y-6">
+            <div className="space-y-1">
+              <span className="text-[11px] uppercase tracking-[0.25em] text-amber-500 font-bold">
+                Common Questions
+              </span>
+              <h2 className="text-2xl font-serif font-bold text-neutral-100 flex items-center gap-2">
+                <HelpCircle className="w-5 h-5 text-amber-400" />
+                <span>Frequently Asked Questions</span>
+              </h2>
+            </div>
+
+            <div className="space-y-3">
+              {product.faqs.map((faq, idx) => (
+                <details
+                  key={idx}
+                  className="group rounded-2xl bg-neutral-900/60 border border-neutral-800/90 open:border-amber-700/50 p-5 transition-colors"
+                >
+                  <summary className="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-serif font-bold text-neutral-100 group-open:text-amber-300">
+                    <span>{faq.question}</span>
+                    <ChevronRight className="w-4 h-4 shrink-0 text-neutral-500 group-open:rotate-90 transition-transform" />
+                  </summary>
+                  <p className="mt-3 text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">
+                    {faq.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Related Allocations Section */}
         {relatedProducts.length > 0 && (

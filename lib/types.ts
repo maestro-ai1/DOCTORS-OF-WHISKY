@@ -5,6 +5,7 @@ export interface Product {
   brand: string;
   category: 'whisky' | 'spirit' | 'beer-premix-wine' | 'other';
   subCategory: string;
+  subCategorySlug: string;
   style?: string;
   country: string;
   region?: string;
@@ -25,6 +26,37 @@ export interface Product {
   featured?: boolean;
   sku: string;
   vintage?: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  faqs: FaqItem[];
+  metaTitle: string;
+  metaDescription: string;
+}
+
+export interface Subcategory {
+  slug: string;
+  name: string;
+  category: 'whisky' | 'spirit' | 'beer-premix-wine' | 'other';
+  description: string;
+  heroImage: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  faqs: FaqItem[];
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  body: string[];
+  image: string;
+  category: string;
+  date: string;
+  readTime: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  relatedSubcategory: string;
+  outboundLinks: { text: string; url: string }[];
 }
 
 export interface CategoryGroup {

@@ -58,12 +58,12 @@ Please confirm availability and dispatch steps.`;
 
         {/* Left: Images */}
         <div className="md:w-1/2 p-6 bg-neutral-900/40 flex flex-col justify-between border-b md:border-b-0 md:border-r border-neutral-800">
-          <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-neutral-950">
+          <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-white">
             <Image
               src={product.images[activeImgIdx] || product.images[0]}
               alt={product.name}
               fill
-              className="object-cover object-center"
+              className="object-contain object-center p-4"
               referrerPolicy="no-referrer"
             />
             {product.badge && (
@@ -84,11 +84,11 @@ Please confirm availability and dispatch steps.`;
                   key={idx}
                   type="button"
                   onClick={() => setActiveImgIdx(idx)}
-                  className={`relative w-16 h-12 rounded-lg overflow-hidden border ${
+                  className={`relative w-16 h-12 rounded-lg overflow-hidden border bg-white ${
                     activeImgIdx === idx ? 'border-amber-500' : 'border-neutral-800 opacity-60'
                   }`}
                 >
-                  <Image src={img} alt="Thumbnail" fill className="object-cover" />
+                  <Image src={img} alt="Thumbnail" fill className="object-contain p-0.5" />
                 </button>
               ))}
             </div>
