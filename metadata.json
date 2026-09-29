@@ -1,0 +1,6 @@
+{
+  "name": "Doctors of Whisky | Australia's Fine Spirits & Rare Whisky",
+  "description": "Australia's premier destination for rare, collectable & fine single malt whiskies, Japanese whisky, luxury spirits, and vault releases. Sydney, NSW.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
