@@ -14,36 +14,36 @@ Generated from the keyword bank. Existing guides: 30 (see lib/data/blog.ts). Eve
 | 4 | baileys irish | 2900 | 22 | T1 | Baileys Irish: The Australian Buyer's Guide | /blog/baileys-irish/ | /shop/spirit/collection/baileys-irish-cream/ | guide |
 | 5 | liqueur | 2900 | 17 | T1 | Liqueur: The Australian Buyer's Guide | /blog/liqueur/ | /shop/spirit/collection/baileys-irish-cream/ | guide |
 | 6 | shiraz wine | 2900 | 24 | T1 | Shiraz Wine: The Australian Buyer's Guide | /blog/shiraz-wine/ | /shop/beer-premix-wine/collection/red-wine/ | guide |
-| 7 | ipa beer | 2400 | 19 | T1 | Ipa Beer: The Australian Buyer's Guide | /blog/ipa-beer/ | /shop/beer-premix-wine/collection/imported-beer/ | guide |
+| 7 | ipa beer | 2400 | 19 | T1 | IPA Beer: The Australian Buyer's Guide | /blog/ipa-beer/ | /shop/beer-premix-wine/collection/imported-beer/ | guide |
 | 8 | cider australia | 2400 | 17 | T1 | Cider Australia: The Australian Buyer's Guide | /blog/cider-australia/ | /shop/beer-premix-wine/collection/cider/ | guide |
 | 9 | laphroaig 10 | 1900 | 17 | T1 | Laphroaig 10: The Australian Buyer's Guide | /blog/laphroaig-10/ | /shop/whisky/collection/scotch-whisky/ | guide |
 | 10 | australian beer | 1900 | 22 | T1 | Australian Beer: The Australian Buyer's Guide | /blog/australian-beer/ | /shop/beer-premix-wine/collection/lager/ | guide |
 | 11 | caffe liqueur | 1600 | 9 | T1 | Caffe Liqueur: The Australian Buyer's Guide | /blog/caffe-liqueur/ | /shop/spirit/collection/coffee-liqueur/ | guide |
 | 12 | cherry liqueur | 1600 | 10 | T1 | Cherry Liqueur: The Australian Buyer's Guide | /blog/cherry-liqueur/ | /shop/spirit/collection/cinnamon-liqueur/ | guide |
 | 13 | glendronach | 1300 | 16 | T1 | Glendronach: The Australian Buyer's Guide | /blog/glendronach/ | /shop/whisky/collection/scotch-whisky/ | guide |
-| 14 | vodka o | 1300 | 12 | T1 | Vodka O: The Australian Buyer's Guide | /blog/vodka-o/ | /shop/spirit/collection/french-vodka/ | guide |
-| 15 | rum cocktails | 1300 | 24 | T1 | Rum Cocktails: The Australian Buyer's Guide | /blog/rum-cocktails/ | /shop/spirit/collection/spiced-rum/ | guide |
-| 16 | limoncello cocktail | 1300 | 24 | T1 | Limoncello Cocktail: The Australian Buyer's Guide | /blog/limoncello-cocktail/ | /shop/spirit/collection/limoncello/ | guide |
-| 17 | australian lager | 1300 | 19 | T1 | Australian Lager: The Australian Buyer's Guide | /blog/australian-lager/ | /shop/beer-premix-wine/collection/lager/ | guide |
-| 18 | beer brands | 1300 | 23 | T1 | Beer Brands: The Australian Buyer's Guide | /blog/beer-brands/ | /shop/beer-premix-wine/collection/lager/ | guide |
-| 19 | ipa and beer | 1300 | 20 | T1 | Ipa And Beer: The Australian Buyer's Guide | /blog/ipa-and-beer/ | /shop/beer-premix-wine/collection/imported-beer/ | guide |
-| 20 | ginger in beer | 1300 | 25 | T1 | Ginger In Beer: The Australian Buyer's Guide | /blog/ginger-in-beer/ | /shop/beer-premix-wine/collection/ginger-beer/ | guide |
-| 21 | premix | 1300 | 15 | T1 | Premix: The Australian Buyer's Guide | /blog/premix/ | /shop/beer-premix-wine/collection/vodka-premix/ | guide |
-| 22 | blended scotch whisky | 1000 | 23 | T1 | Blended Scotch Whisky: The Australian Buyer's Guide | /blog/blended-scotch-whisky/ | /shop/whisky/collection/scotch-whisky/ | guide |
-| 23 | macallan 25 | 1000 | 12 | T1 | Macallan 25: The Australian Buyer's Guide | /blog/macallan-25/ | /shop/whisky/collection/scotch-whisky/ | guide |
-| 24 | australian whisky | 1000 | 22 | T1 | Australian Whisky: The Australian Buyer's Guide | /blog/australian-whisky/ | /shop/whisky/collection/japanese-whisky/ | guide |
-| 25 | don julio tequila brands | 1000 | 22 | T1 | Don Julio Tequila Brands: The Australian Buyer's Guide | /blog/don-julio-tequila-brands/ | /shop/spirit/collection/patron/ | guide |
-| 26 | tequila el patron silver | 1000 | 13 | T1 | Tequila El Patron Silver: The Australian Buyer's Guide | /blog/tequila-el-patron-silver/ | /shop/spirit/collection/patron/ | guide |
-| 27 | don julio blanco | 1000 | 13 | T1 | Don Julio Blanco: The Australian Buyer's Guide | /blog/don-julio-blanco/ | /shop/spirit/collection/don-julio/ | guide |
-| 28 | gin cocktail | 1000 | 16 | T1 | Gin Cocktail: The Australian Buyer's Guide | /blog/gin-cocktail/ | /shop/spirit/collection/gin/ | guide |
-| 29 | p ale | 1000 | 19 | T1 | P Ale: The Australian Buyer's Guide | /blog/p-ale/ | /shop/beer-premix-wine/collection/lager/ | guide |
-| 30 | kraken spiced rum | 880 | 16 | T1 | Kraken Spiced Rum: The Australian Buyer's Guide | /blog/kraken-spiced-rum/ | /shop/spirit/collection/spiced-rum/ | guide |
-| 31 | gin and cocktails | 880 | 20 | T1 | Gin And Cocktails: The Australian Buyer's Guide | /blog/gin-and-cocktails/ | /shop/spirit/collection/gin/ | guide |
-| 32 | green fairy absinthe | 880 | 10 | T1 | Green Fairy Absinthe: The Australian Buyer's Guide | /blog/green-fairy-absinthe/ | /shop/spirit/collection/absinthe/ | guide |
-| 33 | premium french vodka | 720 | 9 | T1 | Premium French Vodka: The Australian Buyer's Guide | /blog/premium-french-vodka/ | /shop/spirit/collection/french-vodka/ | guide |
-| 34 | black vodka | 720 | 14 | T1 | Black Vodka: The Australian Buyer's Guide | /blog/black-vodka/ | /shop/spirit/collection/polish-vodka/ | guide |
-| 35 | anejo tequila | 720 | 12 | T1 | Anejo Tequila: The Australian Buyer's Guide | /blog/anejo-tequila/ | /shop/spirit/collection/gold-tequila/ | guide |
-| 36 | irish cream liqueur | 720 | 18 | T1 | Irish Cream Liqueur: The Australian Buyer's Guide | /blog/irish-cream-liqueur/ | /shop/spirit/collection/baileys-irish-cream/ | guide |
+| 14 | rum cocktails | 1300 | 24 | T1 | Rum Cocktails: The Australian Buyer's Guide | /blog/rum-cocktails/ | /shop/spirit/collection/spiced-rum/ | guide |
+| 15 | limoncello cocktail | 1300 | 24 | T1 | Limoncello Cocktail: The Australian Buyer's Guide | /blog/limoncello-cocktail/ | /shop/spirit/collection/limoncello/ | guide |
+| 16 | australian lager | 1300 | 19 | T1 | Australian Lager: The Australian Buyer's Guide | /blog/australian-lager/ | /shop/beer-premix-wine/collection/lager/ | guide |
+| 17 | beer brands | 1300 | 23 | T1 | Beer Brands: The Australian Buyer's Guide | /blog/beer-brands/ | /shop/beer-premix-wine/collection/lager/ | guide |
+| 18 | ipa and beer | 1300 | 20 | T1 | IPA And Beer: The Australian Buyer's Guide | /blog/ipa-and-beer/ | /shop/beer-premix-wine/collection/imported-beer/ | guide |
+| 19 | ginger in beer | 1300 | 25 | T1 | Ginger In Beer: The Australian Buyer's Guide | /blog/ginger-in-beer/ | /shop/beer-premix-wine/collection/ginger-beer/ | guide |
+| 20 | premix | 1300 | 15 | T1 | Premix: The Australian Buyer's Guide | /blog/premix/ | /shop/beer-premix-wine/collection/vodka-premix/ | guide |
+| 21 | blended scotch whisky | 1000 | 23 | T1 | Blended Scotch Whisky: The Australian Buyer's Guide | /blog/blended-scotch-whisky/ | /shop/whisky/collection/scotch-whisky/ | guide |
+| 22 | macallan 25 | 1000 | 12 | T1 | Macallan 25: The Australian Buyer's Guide | /blog/macallan-25/ | /shop/whisky/collection/scotch-whisky/ | guide |
+| 23 | australian whisky | 1000 | 22 | T1 | Australian Whisky: The Australian Buyer's Guide | /blog/australian-whisky/ | /shop/whisky/collection/japanese-whisky/ | guide |
+| 24 | don julio tequila brands | 1000 | 22 | T1 | Don Julio Tequila Brands: The Australian Buyer's Guide | /blog/don-julio-tequila-brands/ | /shop/spirit/collection/patron/ | guide |
+| 25 | tequila el patron silver | 1000 | 13 | T1 | Tequila El Patron Silver: The Australian Buyer's Guide | /blog/tequila-el-patron-silver/ | /shop/spirit/collection/patron/ | guide |
+| 26 | don julio blanco | 1000 | 13 | T1 | Don Julio Blanco: The Australian Buyer's Guide | /blog/don-julio-blanco/ | /shop/spirit/collection/don-julio/ | guide |
+| 27 | gin cocktail | 1000 | 16 | T1 | Gin Cocktail: The Australian Buyer's Guide | /blog/gin-cocktail/ | /shop/spirit/collection/gin/ | guide |
+| 28 | kraken spiced rum | 880 | 16 | T1 | Kraken Spiced Rum: The Australian Buyer's Guide | /blog/kraken-spiced-rum/ | /shop/spirit/collection/spiced-rum/ | guide |
+| 29 | gin and cocktails | 880 | 20 | T1 | Gin And Cocktails: The Australian Buyer's Guide | /blog/gin-and-cocktails/ | /shop/spirit/collection/gin/ | guide |
+| 30 | green fairy absinthe | 880 | 10 | T1 | Green Fairy Absinthe: The Australian Buyer's Guide | /blog/green-fairy-absinthe/ | /shop/spirit/collection/absinthe/ | guide |
+| 31 | premium french vodka | 720 | 9 | T1 | Premium French Vodka: The Australian Buyer's Guide | /blog/premium-french-vodka/ | /shop/spirit/collection/french-vodka/ | guide |
+| 32 | black vodka | 720 | 14 | T1 | Black Vodka: The Australian Buyer's Guide | /blog/black-vodka/ | /shop/spirit/collection/polish-vodka/ | guide |
+| 33 | anejo tequila | 720 | 12 | T1 | Anejo Tequila: The Australian Buyer's Guide | /blog/anejo-tequila/ | /shop/spirit/collection/gold-tequila/ | guide |
+| 34 | irish cream liqueur | 720 | 18 | T1 | Irish Cream Liqueur: The Australian Buyer's Guide | /blog/irish-cream-liqueur/ | /shop/spirit/collection/baileys-irish-cream/ | guide |
+| 35 | strawberry liqueur | 720 | 11 | T1 | Strawberry Liqueur: The Australian Buyer's Guide | /blog/strawberry-liqueur/ | /shop/spirit/collection/coffee-liqueur/ | guide |
+| 36 | bourbon and whiskey | 590 | 21 | T1 | Bourbon And Whiskey: The Australian Buyer's Guide | /blog/bourbon-and-whiskey/ | /shop/whisky/collection/bourbon/ | guide |
 
 ## 12-week publishing calendar (3 posts / week, T1 first)
 
@@ -51,14 +51,14 @@ Generated from the keyword bank. Existing guides: 30 (see lib/data/blog.ts). Eve
 - **Week 2:** baileys irish (2900/22) · liqueur (2900/17) · shiraz wine (2900/24)
 - **Week 3:** ipa beer (2400/19) · cider australia (2400/17) · laphroaig 10 (1900/17)
 - **Week 4:** australian beer (1900/22) · caffe liqueur (1600/9) · cherry liqueur (1600/10)
-- **Week 5:** glendronach (1300/16) · vodka o (1300/12) · rum cocktails (1300/24)
-- **Week 6:** limoncello cocktail (1300/24) · australian lager (1300/19) · beer brands (1300/23)
-- **Week 7:** ipa and beer (1300/20) · ginger in beer (1300/25) · premix (1300/15)
-- **Week 8:** blended scotch whisky (1000/23) · macallan 25 (1000/12) · australian whisky (1000/22)
-- **Week 9:** don julio tequila brands (1000/22) · tequila el patron silver (1000/13) · don julio blanco (1000/13)
-- **Week 10:** gin cocktail (1000/16) · p ale (1000/19) · kraken spiced rum (880/16)
-- **Week 11:** gin and cocktails (880/20) · green fairy absinthe (880/10) · premium french vodka (720/9)
-- **Week 12:** black vodka (720/14) · anejo tequila (720/12) · irish cream liqueur (720/18)
+- **Week 5:** glendronach (1300/16) · rum cocktails (1300/24) · limoncello cocktail (1300/24)
+- **Week 6:** australian lager (1300/19) · beer brands (1300/23) · ipa and beer (1300/20)
+- **Week 7:** ginger in beer (1300/25) · premix (1300/15) · blended scotch whisky (1000/23)
+- **Week 8:** macallan 25 (1000/12) · australian whisky (1000/22) · don julio tequila brands (1000/22)
+- **Week 9:** tequila el patron silver (1000/13) · don julio blanco (1000/13) · gin cocktail (1000/16)
+- **Week 10:** kraken spiced rum (880/16) · gin and cocktails (880/20) · green fairy absinthe (880/10)
+- **Week 11:** premium french vodka (720/9) · black vodka (720/14) · anejo tequila (720/12)
+- **Week 12:** irish cream liqueur (720/18) · strawberry liqueur (720/11) · bourbon and whiskey (590/21)
 
 ## Existing guides (all 30 expanded)
 

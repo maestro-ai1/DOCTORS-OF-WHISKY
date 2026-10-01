@@ -1,6 +1,6 @@
 # Doctors of Whisky — Keyword Master (internal, never publish)
 
-Generated 2026-09-29 by `scripts/seo-strategy.mjs` from 78 keyword-bank CSVs (2,284,357 raw rows).
+Generated 2026-10-01 by `scripts/seo-strategy.mjs` from 78 keyword-bank CSVs (2,284,357 raw rows).
 
 Filters (keyword-engine rules): relevance >= 65, volume >= 70, KD <= 55 (KD 56+ dropped), typo/variant/duplicate collapse, off-topic strip.
 Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, never a primary).

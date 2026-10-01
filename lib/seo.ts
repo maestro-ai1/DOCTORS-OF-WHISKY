@@ -87,12 +87,23 @@ export function buildMetadata(input: PageMetaInput): Metadata {
 
 // ---------- hidden keyword tags (meta keywords + JSON-LD `keywords`, never rendered as visible text) ----------
 
+// Competitor retailers, typos and non-English variants the keyword bank returns but we must not tag.
+const TAG_BLOCKLIST = /\b(dan murphys?|bws|liquorland|first choice|woolworths|coles|aldi|barboun)\b/;
+
+function isCleanTag(key: string): boolean {
+  if (TAG_BLOCKLIST.test(key)) return false;
+  if (/(.)\1{2,}/.test(key)) return false; // "julioooo"
+  if (/[^\x00-\x7f]/.test(key.normalize('NFD').replace(/[̀-ͯ]/g, ''))) return false;
+  if (/\bbrands?$/.test(key)) return false; // "don julio brands"
+  return key.split(/\s+/).length <= 7;
+}
+
 function dedupe(list: string[]): string[] {
   const seen = new Set<string>();
   const out: string[] = [];
   for (const k of list) {
     const key = k.toLowerCase().trim();
-    if (key && !seen.has(key)) {
+    if (key && isCleanTag(key) && !seen.has(key)) {
       seen.add(key);
       out.push(key);
     }
@@ -126,7 +137,7 @@ export function productTags(product: Product, limit = 60): string[] {
 }
 
 export function siteTags(limit = 150): string[] {
-  return SITE_TAGS.slice(0, limit);
+  return dedupe(SITE_TAGS).slice(0, limit);
 }
 
 // ---------- JSON-LD builders ----------

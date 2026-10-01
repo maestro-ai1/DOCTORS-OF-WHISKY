@@ -1,0 +1,31 @@
+// Crawl every sitemap URL on a running server and flag on-page SEO problems. Usage: node scripts/live-audit.mjs http://127.0.0.1:3100
+const base = process.argv[2] || 'http://127.0.0.1:3100';
+const get = async (u) => (await fetch(u)).text();
+const locs = (x) => [...x.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+const idx = locs(await get(base + '/sitemap.xml'));
+let urls = [];
+for (const s of idx) urls.push(...locs(await get(base + new URL(s).pathname)));
+urls = [...new Set(urls)];
+const titles = new Map(), descs = new Map(), fails = [], warns = [];
+const f = (u, m) => fails.push(`${u}  ${m}`), w = (u, m) => warns.push(`${u}  ${m}`);
+let n = 0, tags = 0;
+const run = async (u) => {
+  const p = new URL(u).pathname;
+  const r = await fetch(base + p); const h = await r.text(); n++;
+  if (r.status !== 200) return f(p, 'status ' + r.status);
+  const t = (h.match(/<title[^>]*>([^<]*)<\/title>/) || [])[1]?.trim();
+  const d = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
+  const h1 = (h.match(/<h1[\s>]/g) || []).length;
+  if (!t) f(p, 'no title'); else { if (t.length > 65) w(p, `title ${t.length}`); if (titles.has(t)) f(p, 'dup title with ' + titles.get(t)); titles.set(t, p); }
+  if (!d) f(p, 'no meta description'); else { if (d.length > 165) w(p, `desc ${d.length}`); if (descs.has(d)) w(p, 'dup desc ' + descs.get(d)); descs.set(d, p); }
+  if (h1 !== 1) f(p, `h1 count ${h1}`);
+  if (!/rel="canonical"/.test(h)) f(p, 'no canonical');
+  if (/noindex/.test(h) && p !== '/thank-you-order/') f(p, 'noindex');
+  if (!/application\/ld\+json/.test(h)) w(p, 'no JSON-LD');
+  for (const m of h.matchAll(/<img\b[^>]*>/g)) { if (!/\balt="[^"]+"/.test(m[0])) f(p, 'img missing alt'); }
+  if (/tag|keywords/i.test(h) && /class="sr-only"|data-seo-tags|rel="tag"/.test(h)) tags++;
+};
+for (let i = 0; i < urls.length; i += 8) await Promise.all(urls.slice(i, i + 8).map(run));
+console.log(`crawled ${n}/${urls.length} urls | pages with tag markup: ${tags}`);
+console.log(`FAIL ${fails.length}`); fails.slice(0, 40).forEach((x) => console.log(' ', x));
+console.log(`WARN ${warns.length}`); warns.slice(0, 25).forEach((x) => console.log(' ', x));

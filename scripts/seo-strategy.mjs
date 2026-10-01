@@ -348,7 +348,7 @@ for (const sub of SUBCATEGORIES) {
       r.vol >= 390 &&
       !usedKeywords.has(r.k) &&
       !existingBlog.includes(r.k) &&
-      !BAD_BLOG.test(r.k) &&
+      !BAD_BLOG.test(r.k) && !/(^| )[a-z]( |$)/.test(r.k) &&
       stocked(r.k) !== 'no' // only topics the shop can actually link to and sell
   );
   for (const r of infoRows.slice(0, 4)) blogCandidates.push({ ...r, sub });
