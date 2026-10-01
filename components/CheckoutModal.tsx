@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useCart } from '@/lib/context/CartContext';
 import { PAYMENT_METHODS, CONTACT, SHOP_RULES } from '@/lib/config';
 import { CopyField } from '@/components/CopyField';
+import { validateCustomer } from '@/lib/orders/validate';
 import {
   X,
   ShieldCheck,
@@ -47,6 +48,9 @@ export function CheckoutModal() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+  const [fallbackWhatsapp, setFallbackWhatsapp] = useState('');
+  const [website, setWebsite] = useState(''); // honeypot: hidden from people, filled by bots
 
   if (!isCheckoutOpen) return null;
 
@@ -56,55 +60,59 @@ export function CheckoutModal() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg('');
+    setFieldErrors({});
+    setFallbackWhatsapp('');
 
-    if (!formData.fullName || !formData.email || !formData.phone || !formData.address || !formData.postcode) {
-      setErrorMsg('Please complete all required shipping fields.');
-      return;
-    }
-
-    if (!formData.ageConfirmed) {
-      setErrorMsg('You must confirm you are 18 years or older as required by Australian liquor laws.');
+    // Same rules as the server, for instant feedback (the server is still the authority)
+    const local = validateCustomer(formData);
+    if (!local.value) {
+      setFieldErrors(local.errors);
+      setErrorMsg('Please check the details below.');
       return;
     }
 
     setIsSubmitting(true);
-
     try {
-      // Generate Order ID
-      const orderRef = `DOW-${Math.floor(100000 + Math.random() * 900000)}`;
-
-      // Post order details to API
-      const orderPayload = {
-        orderRef,
-        items,
-        subtotal,
-        shippingFee,
-        cryptoDiscountAmount,
-        finalTotal,
-        paymentMethod: currentPayment.name,
-        customer: formData,
-        createdAt: new Date().toISOString(),
+      const res = await fetch('/api/order/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        // Only slugs and quantities are sent: prices and totals are recalculated on the server.
+        body: JSON.stringify({
+          items: items.map((i) => ({ slug: i.product.slug, quantity: i.quantity })),
+          paymentMethodId: currentPayment.id,
+          customer: formData,
+          website,
+        }),
+      });
+      const data = (await res.json().catch(() => ({}))) as {
+        success?: boolean;
+        orderRef?: string;
+        order?: unknown;
+        whatsappUrl?: string;
+        confirmationEmail?: string;
+        error?: string;
+        fieldErrors?: Record<string, string>;
       };
 
-      try {
-        await fetch('/api/order/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(orderPayload),
-        });
-      } catch (err) {
-        console.warn('Backend order recording non-critical fallback:', err);
+      if (!res.ok || !data.success || !data.orderRef) {
+        setFieldErrors(data.fieldErrors || {});
+        setErrorMsg(data.error || 'We could not place your order. Please try again or order on WhatsApp.');
+        if (data.whatsappUrl) setFallbackWhatsapp(data.whatsappUrl);
+        return;
       }
 
-      // Store in session storage for thank-you page
-      sessionStorage.setItem('dow_last_order', JSON.stringify(orderPayload));
-
+      // Server-confirmed order only: keep what the server priced, not what the browser computed
+      sessionStorage.setItem(
+        'dow_last_order',
+        JSON.stringify({ orderRef: data.orderRef, order: data.order, whatsappUrl: data.whatsappUrl, confirmationEmail: data.confirmationEmail, customerEmail: formData.email }),
+      );
       clearCart();
       closeCheckout();
-      router.push(`/thank-you-order?ref=${orderRef}`);
+      router.push(`/thank-you-order?ref=${encodeURIComponent(data.orderRef)}`);
     } catch (err) {
       console.error(err);
-      setErrorMsg('An error occurred. Please try again or order directly via WhatsApp.');
+      setErrorMsg('Network error. Your order has not been placed. Please try again or order on WhatsApp.');
+      setFallbackWhatsapp(`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent('Hi Doctors of Whisky, I tried to place an order on your website but it did not go through. Can you help me complete it?')}`);
     } finally {
       setIsSubmitting(false);
     }
@@ -146,8 +154,18 @@ export function CheckoutModal() {
           {/* Left Column: Form Details (7 cols) */}
           <form id="checkout-form" onSubmit={handleSubmit} className="lg:col-span-7 space-y-6">
             {errorMsg && (
-              <div className="p-3.5 rounded-xl bg-red-950/60 border border-red-800 text-red-300 text-xs">
-                {errorMsg}
+              <div role="alert" className="p-3.5 rounded-xl bg-red-950/60 border border-red-800 text-red-300 text-xs space-y-1.5">
+                <p className="font-semibold">{errorMsg}</p>
+                {Object.values(fieldErrors).length > 0 && (
+                  <ul className="list-disc pl-4 space-y-0.5">
+                    {Object.values(fieldErrors).map((m) => <li key={m}>{m}</li>)}
+                  </ul>
+                )}
+                {fallbackWhatsapp && (
+                  <a href={fallbackWhatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 mt-1 px-3 py-1.5 rounded-lg bg-emerald-900/70 border border-emerald-700 text-emerald-200 font-semibold">
+                    <Phone className="w-3.5 h-3.5" /> Order on WhatsApp instead
+                  </a>
+                )}
               </div>
             )}
 
@@ -164,10 +182,13 @@ export function CheckoutModal() {
                   <input
                     type="text"
                     required
+                    autoComplete="name"
+                    maxLength={100}
+                    aria-invalid={Boolean(fieldErrors.fullName)}
                     value={formData.fullName}
                     onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                     placeholder="e.g. Lachlan Murdoch"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
 
@@ -176,10 +197,14 @@ export function CheckoutModal() {
                   <input
                     type="email"
                     required
+                    autoComplete="email"
+                    inputMode="email"
+                    maxLength={254}
+                    aria-invalid={Boolean(fieldErrors.email)}
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="sales@doctorsofwhisky.com.au"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
               </div>
@@ -190,10 +215,14 @@ export function CheckoutModal() {
                   <input
                     type="tel"
                     required
+                    autoComplete="tel"
+                    inputMode="tel"
+                    maxLength={30}
+                    aria-invalid={Boolean(fieldErrors.phone)}
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     placeholder="0420 128 746"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
 
@@ -202,10 +231,13 @@ export function CheckoutModal() {
                   <input
                     type="text"
                     required
+                    autoComplete="address-line1"
+                    maxLength={150}
+                    aria-invalid={Boolean(fieldErrors.address)}
                     value={formData.address}
                     onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                     placeholder="e.g. Level 14, 1 Bligh Street"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
               </div>
@@ -216,10 +248,13 @@ export function CheckoutModal() {
                   <input
                     type="text"
                     required
+                    autoComplete="address-level2"
+                    maxLength={60}
+                    aria-invalid={Boolean(fieldErrors.city)}
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                     placeholder="Sydney"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
 
@@ -228,7 +263,7 @@ export function CheckoutModal() {
                   <select
                     value={formData.state}
                     onChange={(e) => setFormData({ ...formData, state: e.target.value })}
-                    className="w-full px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   >
                     <option value="NSW">NSW</option>
                     <option value="VIC">VIC</option>
@@ -246,10 +281,15 @@ export function CheckoutModal() {
                   <input
                     type="text"
                     required
+                    autoComplete="postal-code"
+                    inputMode="numeric"
+                    pattern="[0-9]{4}"
+                    maxLength={4}
+                    aria-invalid={Boolean(fieldErrors.postcode)}
                     value={formData.postcode}
                     onChange={(e) => setFormData({ ...formData, postcode: e.target.value })}
                     placeholder="2000"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                   />
                 </div>
               </div>
@@ -258,10 +298,11 @@ export function CheckoutModal() {
                 <label className="text-xs text-neutral-400">Courier Delivery Notes / Gate Code (Optional)</label>
                 <input
                   type="text"
+                  maxLength={300}
                   value={formData.notes}
                   onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                   placeholder="e.g. Leave with building concierge if unattended"
-                  className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none"
+                  className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
                 />
               </div>
             </div>
@@ -355,6 +396,12 @@ export function CheckoutModal() {
                   />
                 </div>
               )}
+            </div>
+
+            <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+              <label>Leave this field empty
+                <input type="text" name="website" tabIndex={-1} autoComplete="off" value={website} onChange={(e) => setWebsite(e.target.value)} />
+              </label>
             </div>
 
             {/* Mandatory Age Confirmation Checkbox */}

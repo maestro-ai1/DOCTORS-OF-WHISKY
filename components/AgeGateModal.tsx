@@ -1,14 +1,18 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { SITE, CONTACT } from '@/lib/config';
 import { ShieldCheck, AlertTriangle } from 'lucide-react';
 
 export function AgeGateModal() {
+  const pathname = usePathname();
+  const isStaffArea = pathname?.startsWith('/admin') ?? false; // the staff portal is not a shopping page
   const [isOpen, setIsOpen] = useState(false);
   const [rejected, setRejected] = useState(false);
 
   useEffect(() => {
+    if (isStaffArea) return;
     try {
       const verified = localStorage.getItem(SITE.ageGateKey);
       if (!verified) {
@@ -20,7 +24,7 @@ export function AgeGateModal() {
       const timer = setTimeout(() => setIsOpen(true), 0);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [isStaffArea]);
 
   const handleConfirmAge = () => {
     try {
@@ -35,7 +39,7 @@ export function AgeGateModal() {
     setRejected(true);
   };
 
-  if (!isOpen) return null;
+  if (!isOpen || isStaffArea) return null;
 
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">

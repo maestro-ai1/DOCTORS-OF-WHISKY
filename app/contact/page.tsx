@@ -16,22 +16,33 @@ export default function ContactPage() {
 
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+  const [website, setWebsite] = useState(''); // honeypot: real visitors never see or fill this
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMsg('');
+    setFieldErrors({});
 
     try {
-      await fetch('/api/contact/', {
+      const res = await fetch('/api/contact/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, website }),
       });
-    } catch (err) {
-      console.warn('Fallback handled gracefully', err);
+      const data = (await res.json().catch(() => ({}))) as { success?: boolean; error?: string; fieldErrors?: Record<string, string> };
+      if (res.ok && data.success) {
+        setSubmitted(true);
+      } else {
+        setFieldErrors(data.fieldErrors || {});
+        setErrorMsg(data.error || `We could not send your message. Please call or WhatsApp ${CONTACT.phone}.`);
+      }
+    } catch {
+      setErrorMsg(`Network error. Please try again, or call or WhatsApp ${CONTACT.phone}.`);
     } finally {
       setIsSubmitting(false);
-      setSubmitted(true);
     }
   };
 
@@ -151,6 +162,17 @@ export default function ContactPage() {
                     Send a Message to the Sommelier Desk
                   </h2>
 
+                  {errorMsg && (
+                    <div role="alert" className="p-3 rounded-xl bg-red-950/60 border border-red-800 text-red-300 text-xs">
+                      {errorMsg}
+                      {Object.values(fieldErrors).length > 0 && (
+                        <ul className="list-disc pl-4 mt-1">
+                          {Object.values(fieldErrors).map((m) => <li key={m}>{m}</li>)}
+                        </ul>
+                      )}
+                    </div>
+                  )}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-1">
                       <label className="text-xs text-neutral-400">Your Full Name *</label>
@@ -215,6 +237,12 @@ export default function ContactPage() {
                       placeholder="Please include bottle names, specific vintage years, or delivery deadlines..."
                       className="w-full px-3.5 py-2.5 rounded-xl bg-neutral-950 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none resize-none"
                     />
+                  </div>
+
+                  <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+                    <label>Leave this field empty
+                      <input type="text" name="website" tabIndex={-1} autoComplete="off" value={website} onChange={(e) => setWebsite(e.target.value)} />
+                    </label>
                   </div>
 
                   <button

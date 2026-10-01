@@ -7,7 +7,6 @@ import { Product } from '@/lib/types';
 import { CONTACT, SHOP_RULES } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
-import { CopyField } from '@/components/CopyField';
 import { ProductCard } from '@/components/ProductCard';
 import {
   ShoppingBag,
@@ -328,23 +327,6 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                 <Phone className="w-4 h-4" />
                 <span>Order or Inquire Directly on WhatsApp (+61420128746)</span>
               </button>
-            </div>
-
-            {/* Quick Click-to-Copy Settlement Info for Collectors */}
-            <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800/80 space-y-2.5">
-              <span className="text-[11px] uppercase tracking-wider font-bold text-amber-400 block">
-                Quick Collector Settlement Details:
-              </span>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                <CopyField
-                  label="PayID Account"
-                  value="payments@doctorsofwhisky.com.au"
-                />
-                <CopyField
-                  label="Bank Transfer (EFT / Osko)"
-                  value="BSB: 082-057 | Acc: 9482-11049"
-                />
-              </div>
             </div>
 
             {/* Description */}
