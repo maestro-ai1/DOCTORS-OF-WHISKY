@@ -255,9 +255,9 @@ export function Header() {
                     <div className="p-4 pt-0 border-t border-neutral-800/60 bg-neutral-950/60 space-y-4">
                       {cat.subGroups.map((group, gIdx) => (
                         <div key={gIdx} className="space-y-1.5 pt-2">
-                          <h5 className="text-[11px] uppercase tracking-wider font-bold text-amber-400/90">
+                          <p className="text-[11px] uppercase tracking-wider font-bold text-amber-400/90">
                             {group.title}
-                          </h5>
+                          </p>
                           <div className="grid grid-cols-2 gap-1.5">
                             {group.items.map((item, iIdx) => (
                               <Link

@@ -3,11 +3,6 @@ import Link from 'next/link';
 import { CONTACT } from '@/lib/config';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Terms of Service & 18+ Rules | Doctors of Whisky Australia',
-  description: 'Terms of service, Australian liquor licensing statutory notices, order cancellation policies, and collector compliance rules.',
-};
-
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-neutral-950 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">

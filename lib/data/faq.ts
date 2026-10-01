@@ -2,6 +2,26 @@ import { FaqItem } from '@/lib/types';
 
 export const HOMEPAGE_FAQS: FaqItem[] = [
   {
+    question: 'Where can I buy whisky online in Australia?',
+    answer: 'Doctors of Whisky is a Sydney-based online bottle shop selling single malt Scotch, Japanese whisky, bourbon, rye and Australian whisky, plus tequila, vodka, gin, cognac, wine and beer. Browse the shop, add bottles to your cart and we deliver Australia-wide with insured shipping. Buyers must be 18 or over.'
+  },
+  {
+    question: 'Is it legal to buy whisky online in Australia?',
+    answer: 'Yes. Adults aged 18 and over can buy alcohol online in Australia, and delivery must go to an adult who can show ID and sign for the parcel. Doctors of Whisky only sells to buyers who are 18 or over, and every delivery needs an adult signature.'
+  },
+  {
+    question: 'What is single malt whisky?',
+    answer: 'Single malt whisky is made at one distillery from malted barley, water and yeast, distilled in pot stills and matured in oak casks. The word single refers to the distillery, not to a single cask. Popular single malts include Macallan, Glenfiddich, GlenDronach and Laphroaig, all available in our Scotch whisky collection.'
+  },
+  {
+    question: 'What is the difference between whisky and whiskey?',
+    answer: 'It is mostly a spelling difference by country. Scotch, Japanese, Canadian and Australian makers write whisky, while Irish and American makers usually write whiskey. Both describe grain spirit aged in wood; the real differences come from the grains, casks and production rules of each region.'
+  },
+  {
+    question: 'What is a good whisky to give as a gift?',
+    answer: 'A smooth Speyside single malt such as a Glenfiddich or Macallan suits most whisky drinkers, a Japanese whisky from Nikka is a prestigious choice, and bourbon is a friendly gift for cocktail fans. Message us on WhatsApp for help choosing a bottle within your budget.'
+  },
+  {
     question: 'How does secure delivery work across Australia?',
     answer: 'All orders are dispatched from our Sydney climate-controlled vault in bespoke, multi-layered shock-absorbing packaging with transit temperature logs. Orders are shipped via specialized couriers with full transit insurance, real-time GPS tracking, and mandatory 18+ signature-on-delivery. Metro Sydney, Melbourne, and Brisbane deliveries generally arrive within 24–48 hours; regional & WA within 3–4 business days.'
   },
@@ -32,6 +52,18 @@ export const ALL_FAQS: FaqItem[] = [
   {
     question: 'What is your returns and breakage policy?',
     answer: 'All shipments are 100% insured against loss or transit damage. In the unlikely event of damage upon delivery, simply notify our concierge within 24 hours with photographic evidence, and we will issue an immediate replacement or full refund. Given the vintage nature of rare spirits, returns for change of mind are not permitted once seals are broken.'
+  },
+  {
+    question: 'How should I store whisky?',
+    answer: 'Store whisky upright, away from direct sunlight and heat, at a steady room temperature. Standing the bottle up keeps the high-strength spirit off the cork. Unopened bottles keep almost indefinitely; once opened, aim to finish a bottle within one to two years for the best flavour.'
+  },
+  {
+    question: 'What is the difference between Scotch and bourbon?',
+    answer: 'Scotch is made in Scotland, usually from malted barley, and matured in oak casks for at least three years. Bourbon is American, made from at least 51% corn and aged in new charred oak. That is why Scotch tends to taste malty or smoky, while bourbon is typically sweeter with vanilla and caramel notes.'
+  },
+  {
+    question: 'Do you deliver whisky to Melbourne, Brisbane, Perth and other cities?',
+    answer: 'Yes. We deliver to every Australian state and territory, including Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Hobart and Darwin. Delivery is insured, needs an adult signature, and orders of $1,500 AUD or more ship free by express courier.'
   },
   {
     question: 'What are the legal age verification requirements for Australian orders?',

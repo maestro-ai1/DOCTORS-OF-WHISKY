@@ -61,7 +61,7 @@ Please confirm availability and dispatch steps.`;
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-white">
             <Image
               src={product.images[activeImgIdx] || product.images[0]}
-              alt={product.name}
+              alt={`${product.name} ${product.size} bottle`}
               fill
               className="object-contain object-center p-4"
               referrerPolicy="no-referrer"
@@ -83,12 +83,13 @@ Please confirm availability and dispatch steps.`;
                 <button
                   key={idx}
                   type="button"
+                  aria-label={`Show photo ${idx + 1} of ${product.name}`}
                   onClick={() => setActiveImgIdx(idx)}
                   className={`relative w-16 h-12 rounded-lg overflow-hidden border bg-white ${
                     activeImgIdx === idx ? 'border-amber-500' : 'border-neutral-800 opacity-60'
                   }`}
                 >
-                  <Image src={img} alt="Thumbnail" fill className="object-contain p-0.5" />
+                  <Image src={img} alt={`${product.name} - photo ${idx + 1}`} fill className="object-contain p-0.5" />
                 </button>
               ))}
             </div>

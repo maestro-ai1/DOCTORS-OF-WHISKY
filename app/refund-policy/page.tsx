@@ -1,13 +1,9 @@
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail';
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE, CONTACT } from '@/lib/config';
 import { ShieldCheck, RotateCcw, AlertTriangle, CheckCircle, Phone, Mail } from 'lucide-react';
-
-export const metadata: Metadata = {
-  title: `Refund & Returns Policy | ${SITE.name} Australia`,
-  description: `Australian Consumer Law compliant returns and exchange policies for rare whiskies and fine spirits at ${SITE.name}.`,
-};
 
 export default function RefundPolicyPage() {
   return (
@@ -31,21 +27,21 @@ export default function RefundPolicyPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="p-5 rounded-2xl bg-neutral-900/60 border border-neutral-800 space-y-2">
             <ShieldCheck className="w-6 h-6 text-amber-400" />
-            <h3 className="text-sm font-serif font-bold text-neutral-100">100% Provenance Guarantee</h3>
+            <h2 className="text-sm font-serif font-bold text-neutral-100">100% Provenance Guarantee</h2>
             <p className="text-xs text-neutral-400">
               Every bottle undergoes capsule and fill inspection. If proven non-authentic, 100% refund is guaranteed immediately.
             </p>
           </div>
           <div className="p-5 rounded-2xl bg-neutral-900/60 border border-neutral-800 space-y-2">
             <RotateCcw className="w-6 h-6 text-amber-400" />
-            <h3 className="text-sm font-serif font-bold text-neutral-100">Transit Damage Cover</h3>
+            <h2 className="text-sm font-serif font-bold text-neutral-100">Transit Damage Cover</h2>
             <p className="text-xs text-neutral-400">
               All Australian couriers carry full transit insurance. Damaged or cracked bottles are replaced or fully reimbursed.
             </p>
           </div>
           <div className="p-5 rounded-2xl bg-neutral-900/60 border border-neutral-800 space-y-2">
             <CheckCircle className="w-6 h-6 text-emerald-400" />
-            <h3 className="text-sm font-serif font-bold text-neutral-100">7-Day Inspection Window</h3>
+            <h2 className="text-sm font-serif font-bold text-neutral-100">7-Day Inspection Window</h2>
             <p className="text-xs text-neutral-400">
               Report any shipping discrepancy or seal fault within 7 days of verified courier signature delivery.
             </p>
@@ -72,7 +68,7 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-neutral-400 text-xs">
               <li>Take clear photographs of the outer carton, tracking label, and damaged bottle seals before discarding any materials.</li>
-              <li>Notify our Sydney Concierge at <strong className="text-amber-400">{CONTACT.email}</strong> or via WhatsApp within 48 hours of physical receipt.</li>
+              <li>Notify our Sydney Concierge at <strong className="text-amber-400"><ObfuscatedEmail email={CONTACT.email} /></strong> or via WhatsApp within 48 hours of physical receipt.</li>
               <li>Once verified, we will arrange a replacement bottle from our private reserve or initiate an immediate full refund to your original settlement method (PayID, Bank EFT, or Crypto).</li>
             </ul>
           </section>

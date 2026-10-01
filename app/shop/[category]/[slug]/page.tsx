@@ -1,7 +1,9 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { PRODUCTS, getProductBySlug, getRelatedProducts } from '@/lib/data/products';
+import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { ProductDetailClient } from './ProductDetailClient';
+import { buildMetadata, productTags, productLd, faqLd, breadcrumbLd, ld } from '@/lib/seo';
 import type { Metadata } from 'next';
 
 interface ProductPageProps {
@@ -20,29 +22,16 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const product = getProductBySlug(slug);
 
   if (!product) {
-    return { title: 'Bottle Not Found | Doctors of Whisky' };
+    return { title: 'Bottle Not Found | Doctors of Whisky', robots: { index: false } };
   }
 
-  return {
+  return buildMetadata({
     title: product.metaTitle,
     description: product.metaDescription,
-    keywords: [product.primaryKeyword, ...product.secondaryKeywords.slice(0, 10)],
-    alternates: {
-      canonical: `https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}/`,
-    },
-    openGraph: {
-      title: `${product.name} | Doctors of Whisky Australia`,
-      description: product.description,
-      images: [
-        {
-          url: product.images[0],
-          width: 1200,
-          height: 900,
-          alt: product.name,
-        },
-      ],
-    },
-  };
+    path: `/shop/${product.category}/${product.slug}/`,
+    keywords: productTags(product, 60),
+    image: { url: product.images[0], width: 1200, height: 900, alt: `${product.name} ${product.size} — ${product.primaryKeyword}` },
+  });
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {
@@ -54,57 +43,21 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
 
   const relatedProducts = getRelatedProducts(product, 3);
+  const category = MAIN_CATEGORIES.find((c) => c.slug === product.category);
 
-  // Schema.org Product structured data
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: product.name,
-    image: product.images,
-    description: product.description,
-    sku: product.sku,
-    brand: {
-      '@type': 'Brand',
-      name: product.brand,
-    },
-    offers: {
-      '@type': 'Offer',
-      url: `https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}/`,
-      priceCurrency: 'AUD',
-      price: product.price,
-      priceValidUntil: '2027-12-31',
-      availability: product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      seller: {
-        '@type': 'Organization',
-        name: 'Doctors of Whisky',
-      },
-    },
-  };
-
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: product.faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer,
-      },
-    })),
-  };
+  const breadcrumb = breadcrumbLd([
+    { name: 'Home', path: '/' },
+    { name: 'Shop', path: '/shop/' },
+    { name: category ? category.name.charAt(0) + category.name.slice(1).toLowerCase() : product.category, path: `/shop/${product.category}/` },
+    { name: product.subCategory, path: `/shop/${product.category}/collection/${product.subCategorySlug}/` },
+    { name: product.name, path: `/shop/${product.category}/${product.slug}/` },
+  ]);
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(productLd(product)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(faqLd(product.faqs)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(breadcrumb) }} />
       <ProductDetailClient product={product} relatedProducts={relatedProducts} />
     </>
   );

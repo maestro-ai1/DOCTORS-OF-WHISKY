@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
+import { buildMetadata, subcategoryTags, breadcrumbLd, itemListLd, webPageLd, ld } from '@/lib/seo';
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -24,13 +25,19 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const currentCat = MAIN_CATEGORIES.find((c) => c.slug === catSlug);
   if (!currentCat) return { title: 'Category Not Found | Doctors of Whisky' };
 
-  return {
-    title: `${currentCat.name} | Rare Spirits & Whiskies Australia | Doctors of Whisky`,
-    description: currentCat.description,
-    alternates: {
-      canonical: `https://doctorsofwhisky.com.au/shop/${catSlug}/`,
-    },
+  const names: Record<string, string> = {
+    whisky: 'Buy Whisky Online Australia | Scotch, Japanese & Bourbon',
+    spirit: 'Buy Spirits Online Australia | Tequila, Vodka, Cognac, Gin',
+    'beer-premix-wine': 'Buy Wine, Beer & Premix Online Australia',
+    other: 'Soju, Mixers & Specialty Drinks Online Australia',
   };
+  const subs = getSubcategoriesByCategory(catSlug);
+  return buildMetadata({
+    title: names[catSlug] || `Buy ${currentCat.name} Online Australia`,
+    description: `${currentCat.description} Shop ${subs.slice(0, 6).map((s) => s.name).join(', ')} and more with insured delivery across Australia.`,
+    path: `/shop/${catSlug}/`,
+    keywords: Array.from(new Set(subs.flatMap((s) => subcategoryTags(s.slug, 12)))).slice(0, 100),
+  });
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
@@ -44,9 +51,13 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const products = getProductsByCategory(catSlug);
   const subcategories = getSubcategoriesByCategory(catSlug);
   const featuredProducts = products.filter((p) => p.featured).slice(0, 6);
+  const path = `/shop/${catSlug}/`;
 
   return (
     <div className="min-h-screen bg-neutral-950 py-12 px-4 sm:px-6 lg:px-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(webPageLd({ type: 'CollectionPage', name: currentCat.name, description: currentCat.description, path })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(itemListLd(currentCat.name, products, path)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Shop', path: '/shop/' }, { name: currentCat.name, path }])) }} />
       <div className="max-w-7xl mx-auto space-y-10">
         {/* Back Link & Header */}
         <div className="space-y-4 pb-6 border-b border-neutral-900">
@@ -88,7 +99,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     className="group relative rounded-2xl overflow-hidden border border-neutral-800 hover:border-amber-600/60 bg-neutral-900/60 transition-all flex items-center gap-4 p-4"
                   >
                     <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden bg-white">
-                      <Image src={sub.heroImage} alt={sub.name} fill className="object-contain p-1.5" sizes="80px" />
+                      <Image src={sub.heroImage} alt={`${sub.name} collection`} fill className="object-contain p-1.5" sizes="80px" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-serif font-bold text-neutral-100 group-hover:text-amber-300 transition-colors truncate">

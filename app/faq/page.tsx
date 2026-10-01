@@ -3,15 +3,15 @@ import Link from 'next/link';
 import { ALL_FAQS } from '@/lib/data/faq';
 import { HelpCircle, Sparkles, Phone, ArrowRight } from 'lucide-react';
 import { CONTACT } from '@/lib/config';
-import type { Metadata } from 'next';
+import { buildMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Frequently Asked Questions (FAQ) | Doctors of Whisky Australia',
-  description: 'Everything you need to know regarding Australia-wide delivery, 12% Crypto payment discounts, $300 AUD minimum order value, Sydney vault provenance, and transit insurance.',
-  alternates: {
-    canonical: 'https://doctorsofwhisky.com.au/faq/',
-  },
-};
+export const metadata = buildMetadata({
+  title: 'Whisky FAQ | Delivery, Payment & Buying Questions',
+  description:
+    'Answers on buying whisky online in Australia: delivery times, payment options, the 12% crypto discount, $300 minimum order, authenticity checks and returns.',
+  path: '/faq/',
+  keywords: ['buy whisky online australia faq', 'whisky delivery australia', 'how to buy whisky online', 'is it safe to buy whisky online'],
+});
 
 export default function FaqPage() {
   const faqSchema = {

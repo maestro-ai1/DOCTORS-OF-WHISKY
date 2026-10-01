@@ -1,12 +1,8 @@
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail';
 import React from 'react';
 import Link from 'next/link';
 import { CONTACT } from '@/lib/config';
 import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Privacy & Data Protection Policy | Doctors of Whisky',
-  description: 'Our commitment to protecting collector privacy, encrypted transactions, and Australian Privacy Principles compliance.',
-};
 
 export default function PrivacyPage() {
   return (
@@ -34,7 +30,7 @@ export default function PrivacyPage() {
 
           <div className="space-y-2">
             <h2 className="text-base font-serif font-bold text-neutral-100">3. Contacting the Privacy Officer</h2>
-            <p>For inquiries regarding personal data deletion or privacy inquiries, contact our Sydney office at {CONTACT.email}.</p>
+            <p>For inquiries regarding personal data deletion or privacy inquiries, contact our Sydney office at <ObfuscatedEmail email={CONTACT.email} />.</p>
           </div>
         </div>
 

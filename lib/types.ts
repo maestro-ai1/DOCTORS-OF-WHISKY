@@ -31,6 +31,8 @@ export interface Product {
   faqs: FaqItem[];
   metaTitle: string;
   metaDescription: string;
+  /** extra keyword-rich paragraphs rendered below the lead description */
+  longDescription?: string[];
 }
 
 export interface Subcategory {
@@ -42,6 +44,7 @@ export interface Subcategory {
   primaryKeyword: string;
   secondaryKeywords: string[];
   faqs: FaqItem[];
+  longDescription?: string[];
 }
 
 export interface BlogPost {
@@ -57,6 +60,13 @@ export interface BlogPost {
   secondaryKeywords: string[];
   relatedSubcategory: string;
   outboundLinks: { text: string; url: string }[];
+  /** Optional SEO extensions merged in from lib/data/blog-extra.ts */
+  seoTitle?: string;
+  seoDescription?: string;
+  updated?: string;
+  keyTakeaways?: string[];
+  sections?: { heading: string; paragraphs: string[]; links?: { text: string; href: string }[] }[];
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface CategoryGroup {

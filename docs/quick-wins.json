@@ -1,0 +1,888 @@
+{
+ "low": [
+  {
+   "k": "cider",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 40500,
+   "kd": 24,
+   "src": "Cider"
+  },
+  {
+   "k": "tequila",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 22200,
+   "kd": 19,
+   "src": "Tequila"
+  },
+  {
+   "k": "baileys",
+   "intent": "Informational, Commercial",
+   "rel": 69,
+   "vol": 22200,
+   "kd": 21,
+   "src": "Baileys-Irish-Cream"
+  },
+  {
+   "k": "limoncello",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 18100,
+   "kd": 23,
+   "src": "Limoncello"
+  },
+  {
+   "k": "whisky",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 14800,
+   "kd": 23,
+   "src": "Whisky"
+  },
+  {
+   "k": "gin",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 14800,
+   "kd": 22,
+   "src": "Gin"
+  },
+  {
+   "k": "glenfiddich",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 14800,
+   "kd": 27,
+   "src": "Glenfiddich"
+  },
+  {
+   "k": "limoncello spritz",
+   "intent": "Informational",
+   "rel": 58,
+   "vol": 14800,
+   "kd": 20,
+   "src": "Limoncello"
+  },
+  {
+   "k": "smirnoff vodka",
+   "intent": "Commercial",
+   "rel": 65,
+   "vol": 12100,
+   "kd": 19,
+   "src": "Vodka"
+  },
+  {
+   "k": "bourbon",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 16,
+   "src": "Bourbon"
+  },
+  {
+   "k": "cognac",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 28,
+   "src": "Cognac"
+  },
+  {
+   "k": "ginger beer",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 25,
+   "src": "Ginger-Beer"
+  },
+  {
+   "k": "red wine",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 15,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "glenfiddich 12",
+   "intent": "Informational, Commercial",
+   "rel": 73,
+   "vol": 9900,
+   "kd": 17,
+   "src": "Glenfiddich"
+  },
+  {
+   "k": "scotch",
+   "intent": "Commercial",
+   "rel": 72,
+   "vol": 9900,
+   "kd": 15,
+   "src": "Scotch-Whisky"
+  },
+  {
+   "k": "kahlua",
+   "intent": "Informational, Commercial",
+   "rel": 64,
+   "vol": 9900,
+   "kd": 24,
+   "src": "Kahlúa"
+  },
+  {
+   "k": "absinthe",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 26,
+   "src": "Absinthe"
+  },
+  {
+   "k": "rum",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 19,
+   "src": "Rum"
+  },
+  {
+   "k": "don julio",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 18,
+   "src": "Don-Julio"
+  },
+  {
+   "k": "johnnie walker",
+   "intent": "Navigational, Commercial",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 29,
+   "src": "Johnnie-Walker"
+  },
+  {
+   "k": "patron",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 17,
+   "src": "Patron"
+  },
+  {
+   "k": "absolut vodka",
+   "intent": "Commercial",
+   "rel": 62,
+   "vol": 8100,
+   "kd": 17,
+   "src": "Vodka"
+  },
+  {
+   "k": "kraken rum",
+   "intent": "Informational, Transactional",
+   "rel": 58,
+   "vol": 8100,
+   "kd": 24,
+   "src": "Rum"
+  },
+  {
+   "k": "corona beer",
+   "intent": "Informational, Transactional",
+   "rel": 50,
+   "vol": 8100,
+   "kd": 17,
+   "src": "Light-Beer"
+  },
+  {
+   "k": "baileys irish cream",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 6600,
+   "kd": 20,
+   "src": "Baileys-Irish-Cream"
+  }
+ ],
+ "high": [
+  {
+   "k": "vodka",
+   "intent": "Commercial",
+   "rel": 100,
+   "vol": 49500,
+   "kd": 32,
+   "src": "Vodka"
+  },
+  {
+   "k": "aperol spritz",
+   "intent": "Informational",
+   "rel": 57,
+   "vol": 27100,
+   "kd": 40,
+   "src": "Aperol"
+  },
+  {
+   "k": "beer",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 22200,
+   "kd": 37,
+   "src": "Beer"
+  },
+  {
+   "k": "soju",
+   "intent": "Informational, Commercial",
+   "rel": 100,
+   "vol": 22200,
+   "kd": 48,
+   "src": "Soju"
+  },
+  {
+   "k": "aperol",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 14800,
+   "kd": 44,
+   "src": "Aperol"
+  },
+  {
+   "k": "brandy",
+   "intent": "Navigational, Commercial",
+   "rel": 100,
+   "vol": 14800,
+   "kd": 47,
+   "src": "Brandy"
+  },
+  {
+   "k": "cointreau",
+   "intent": "Informational, Transactional",
+   "rel": 100,
+   "vol": 12100,
+   "kd": 32,
+   "src": "Cointreau"
+  },
+  {
+   "k": "jagermeister",
+   "intent": "Informational",
+   "rel": 68,
+   "vol": 12100,
+   "kd": 31,
+   "src": "Jägermeister"
+  },
+  {
+   "k": "campari",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 35,
+   "src": "Campari"
+  },
+  {
+   "k": "chartreuse",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 9900,
+   "kd": 36,
+   "src": "Chartreuse"
+  },
+  {
+   "k": "mezcal",
+   "intent": "Informational, Transactional",
+   "rel": 100,
+   "vol": 8100,
+   "kd": 33,
+   "src": "Mezcal"
+  },
+  {
+   "k": "v energy drink",
+   "intent": "Navigational, Commercial",
+   "rel": 63,
+   "vol": 8100,
+   "kd": 37,
+   "src": "energy-drink"
+  },
+  {
+   "k": "belvedere",
+   "intent": "Navigational",
+   "rel": 100,
+   "vol": 5400,
+   "kd": 38,
+   "src": "Belvedere"
+  },
+  {
+   "k": "drinks with energy",
+   "intent": "Informational",
+   "rel": 60,
+   "vol": 4400,
+   "kd": 39,
+   "src": "energy-drink"
+  },
+  {
+   "k": "core cider",
+   "intent": "Informational, Navigational",
+   "rel": 51,
+   "vol": 4400,
+   "kd": 31,
+   "src": "Cider"
+  },
+  {
+   "k": "guinness beer",
+   "intent": "Informational",
+   "rel": 46,
+   "vol": 4400,
+   "kd": 34,
+   "src": "Ginger-Beer"
+  },
+  {
+   "k": "condiments",
+   "intent": "Informational",
+   "rel": 100,
+   "vol": 3600,
+   "kd": 46,
+   "src": "Condiments"
+  },
+  {
+   "k": "gray goose liquor",
+   "intent": "Informational",
+   "rel": 68,
+   "vol": 3600,
+   "kd": 39,
+   "src": "Grey-Goose"
+  },
+  {
+   "k": "non alcoholic beer",
+   "intent": "Commercial",
+   "rel": 58,
+   "vol": 3600,
+   "kd": 33,
+   "src": "Non-Alcoholic"
+  },
+  {
+   "k": "vb beer",
+   "intent": "Informational, Transactional",
+   "rel": 57,
+   "vol": 3600,
+   "kd": 42,
+   "src": "Beer"
+  },
+  {
+   "k": "lark distillery",
+   "intent": "Navigational",
+   "rel": 56,
+   "vol": 3600,
+   "kd": 37,
+   "src": "Lark"
+  },
+  {
+   "k": "bws gin",
+   "intent": "Navigational, Transactional",
+   "rel": 53,
+   "vol": 3600,
+   "kd": 32,
+   "src": "Gin-Premix"
+  },
+  {
+   "k": "limoncello spritz recipe",
+   "intent": "Informational",
+   "rel": 51,
+   "vol": 3600,
+   "kd": 46,
+   "src": "Limoncello"
+  },
+  {
+   "k": "magpie lark",
+   "intent": "Informational",
+   "rel": 41,
+   "vol": 3600,
+   "kd": 34,
+   "src": "Lark"
+  },
+  {
+   "k": "patronising",
+   "intent": "Informational",
+   "rel": 41,
+   "vol": 3600,
+   "kd": 33,
+   "src": "Patron"
+  }
+ ],
+ "moneyKw": [
+  {
+   "k": "wine delivery",
+   "intent": "Commercial",
+   "rel": 65,
+   "vol": 3600,
+   "kd": 25,
+   "src": "Wine"
+  },
+  {
+   "k": "cheap vodka",
+   "intent": "Commercial",
+   "rel": 60,
+   "vol": 3600,
+   "kd": 19,
+   "src": "Vodka"
+  },
+  {
+   "k": "whisky gift pack",
+   "intent": "Commercial",
+   "rel": 60,
+   "vol": 2400,
+   "kd": 9,
+   "src": "Australian-Whisky"
+  },
+  {
+   "k": "gin gifts australia",
+   "intent": "Commercial",
+   "rel": 60,
+   "vol": 2400,
+   "kd": 11,
+   "src": "Gin"
+  },
+  {
+   "k": "whiskey gift",
+   "intent": "Informational, Commercial",
+   "rel": 55,
+   "vol": 2400,
+   "kd": 10,
+   "src": "Rye-Whiskey"
+  },
+  {
+   "k": "gin gift packs",
+   "intent": "Commercial",
+   "rel": 62,
+   "vol": 1900,
+   "kd": 13,
+   "src": "Gin"
+  },
+  {
+   "k": "low cost vodka",
+   "intent": "Commercial",
+   "rel": 58,
+   "vol": 1900,
+   "kd": 33,
+   "src": "Vodka"
+  },
+  {
+   "k": "gin delivery",
+   "intent": "Informational, Commercial",
+   "rel": 63,
+   "vol": 1600,
+   "kd": 12,
+   "src": "Gin"
+  },
+  {
+   "k": "gin gift set australia",
+   "intent": "Informational, Commercial",
+   "rel": 56,
+   "vol": 1600,
+   "kd": 13,
+   "src": "Gin"
+  },
+  {
+   "k": "red wine au",
+   "intent": "Informational, Commercial",
+   "rel": 66,
+   "vol": 1000,
+   "kd": 12,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "sydney cider",
+   "intent": "Commercial",
+   "rel": 64,
+   "vol": 1000,
+   "kd": 12,
+   "src": "Cider"
+  },
+  {
+   "k": "beer for cheap",
+   "intent": "Commercial",
+   "rel": 56,
+   "vol": 1000,
+   "kd": 19,
+   "src": "Beer"
+  },
+  {
+   "k": "india pale ale australia",
+   "intent": "Commercial",
+   "rel": 54,
+   "vol": 1000,
+   "kd": 14,
+   "src": "Pale-Ale"
+  },
+  {
+   "k": "4 pines pacific ale case price",
+   "intent": "Transactional",
+   "rel": 51,
+   "vol": 1000,
+   "kd": 8,
+   "src": "Pale-Ale"
+  },
+  {
+   "k": "jagermeister price",
+   "intent": "Transactional",
+   "rel": 59,
+   "vol": 880,
+   "kd": 13,
+   "src": "Jägermeister"
+  },
+  {
+   "k": "cheap beer",
+   "intent": "Commercial",
+   "rel": 56,
+   "vol": 880,
+   "kd": 7,
+   "src": "Beer"
+  },
+  {
+   "k": "low carb beer australia",
+   "intent": "Informational, Commercial",
+   "rel": 53,
+   "vol": 880,
+   "kd": 17,
+   "src": "Light-Beer"
+  },
+  {
+   "k": "jagermeister drink price",
+   "intent": "Transactional",
+   "rel": 59,
+   "vol": 720,
+   "kd": 12,
+   "src": "Jägermeister"
+  },
+  {
+   "k": "vodka cheap",
+   "intent": "Commercial",
+   "rel": 59,
+   "vol": 720,
+   "kd": 15,
+   "src": "Vodka"
+  },
+  {
+   "k": "jagermeister cost",
+   "intent": "Informational, Commercial",
+   "rel": 58,
+   "vol": 720,
+   "kd": 12,
+   "src": "Jägermeister"
+  },
+  {
+   "k": "balter beer australia",
+   "intent": "Navigational, Commercial",
+   "rel": 57,
+   "vol": 720,
+   "kd": 22,
+   "src": "Beer"
+  },
+  {
+   "k": "johnnie walker black label 1 litre price",
+   "intent": "Transactional",
+   "rel": 57,
+   "vol": 720,
+   "kd": 15,
+   "src": "Johnnie-Walker"
+  },
+  {
+   "k": "johnnie walker red label 1 litre price",
+   "intent": "Transactional",
+   "rel": 57,
+   "vol": 720,
+   "kd": 9,
+   "src": "Johnnie-Walker"
+  },
+  {
+   "k": "kahlua price",
+   "intent": "Transactional",
+   "rel": 56,
+   "vol": 720,
+   "kd": 14,
+   "src": "Kahlúa"
+  },
+  {
+   "k": "best whisky in australia",
+   "intent": "Commercial",
+   "rel": 71,
+   "vol": 590,
+   "kd": 17,
+   "src": "Australian-Whisky"
+  },
+  {
+   "k": "buy red wine",
+   "intent": "Transactional",
+   "rel": 71,
+   "vol": 590,
+   "kd": 27,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "best whiskey australia",
+   "intent": "Commercial",
+   "rel": 68,
+   "vol": 590,
+   "kd": 18,
+   "src": "Australian-Whisky"
+  },
+  {
+   "k": "baileys irish cream 1 litre best price",
+   "intent": "Commercial",
+   "rel": 64,
+   "vol": 590,
+   "kd": 16,
+   "src": "Baileys-Irish-Cream"
+  },
+  {
+   "k": "buy white wine online",
+   "intent": "Commercial",
+   "rel": 63,
+   "vol": 590,
+   "kd": 11,
+   "src": "White-Wine"
+  },
+  {
+   "k": "alcoholic ginger beer australia",
+   "intent": "Commercial",
+   "rel": 58,
+   "vol": 590,
+   "kd": 17,
+   "src": "Ginger-Beer"
+  },
+  {
+   "k": "beer sale",
+   "intent": "Transactional",
+   "rel": 56,
+   "vol": 590,
+   "kd": 18,
+   "src": "Beer"
+  },
+  {
+   "k": "best beer australia",
+   "intent": "Commercial",
+   "rel": 56,
+   "vol": 590,
+   "kd": 20,
+   "src": "Beer"
+  },
+  {
+   "k": "best non alcoholic beer australia",
+   "intent": "Commercial",
+   "rel": 55,
+   "vol": 590,
+   "kd": 14,
+   "src": "Non-Alcoholic"
+  },
+  {
+   "k": "best low carb beer australia",
+   "intent": "Commercial",
+   "rel": 52,
+   "vol": 590,
+   "kd": 17,
+   "src": "Light-Beer"
+  },
+  {
+   "k": "low calorie beer australia",
+   "intent": "Informational, Commercial",
+   "rel": 52,
+   "vol": 590,
+   "kd": 13,
+   "src": "Light-Beer"
+  },
+  {
+   "k": "buy rum",
+   "intent": "Transactional",
+   "rel": 73,
+   "vol": 480,
+   "kd": 13,
+   "src": "Rum"
+  },
+  {
+   "k": "cointreau price",
+   "intent": "Transactional",
+   "rel": 71,
+   "vol": 480,
+   "kd": 12,
+   "src": "Cointreau"
+  },
+  {
+   "k": "energy drinks australia",
+   "intent": "Informational, Commercial",
+   "rel": 70,
+   "vol": 480,
+   "kd": 15,
+   "src": "energy-drink"
+  },
+  {
+   "k": "tequila australia",
+   "intent": "Commercial",
+   "rel": 70,
+   "vol": 480,
+   "kd": 11,
+   "src": "Tequila"
+  },
+  {
+   "k": "whisky sale",
+   "intent": "Transactional",
+   "rel": 69,
+   "vol": 480,
+   "kd": 12,
+   "src": "Whisky"
+  },
+  {
+   "k": "buy rum online",
+   "intent": "Transactional",
+   "rel": 69,
+   "vol": 480,
+   "kd": 6,
+   "src": "Rum"
+  },
+  {
+   "k": "light beer australia",
+   "intent": "Informational, Commercial",
+   "rel": 69,
+   "vol": 480,
+   "kd": 15,
+   "src": "Light-Beer"
+  },
+  {
+   "k": "grey goose vodka price",
+   "intent": "Transactional",
+   "rel": 68,
+   "vol": 480,
+   "kd": 13,
+   "src": "Grey-Goose"
+  },
+  {
+   "k": "red wine australia",
+   "intent": "Informational, Commercial",
+   "rel": 67,
+   "vol": 480,
+   "kd": 17,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "baileys price",
+   "intent": "Transactional",
+   "rel": 65,
+   "vol": 480,
+   "kd": 15,
+   "src": "Baileys-Irish-Cream"
+  },
+  {
+   "k": "buy gin",
+   "intent": "Transactional",
+   "rel": 65,
+   "vol": 480,
+   "kd": 21,
+   "src": "Gin"
+  },
+  {
+   "k": "grey goose vodka price 1 litre",
+   "intent": "Transactional",
+   "rel": 65,
+   "vol": 480,
+   "kd": 13,
+   "src": "Grey-Goose"
+  },
+  {
+   "k": "vodka price",
+   "intent": "Commercial",
+   "rel": 65,
+   "vol": 480,
+   "kd": 12,
+   "src": "Vodka"
+  },
+  {
+   "k": "wine sale",
+   "intent": "Transactional",
+   "rel": 64,
+   "vol": 480,
+   "kd": 17,
+   "src": "Wine"
+  },
+  {
+   "k": "beers in australia",
+   "intent": "Informational, Commercial",
+   "rel": 63,
+   "vol": 480,
+   "kd": 27,
+   "src": "Beer"
+  },
+  {
+   "k": "gin gift set",
+   "intent": "Commercial",
+   "rel": 63,
+   "vol": 480,
+   "kd": 10,
+   "src": "Gin"
+  },
+  {
+   "k": "soju price",
+   "intent": "Commercial",
+   "rel": 63,
+   "vol": 480,
+   "kd": 9,
+   "src": "Soju"
+  },
+  {
+   "k": "cheap whiskey",
+   "intent": "Commercial",
+   "rel": 62,
+   "vol": 480,
+   "kd": 17,
+   "src": "American-Whiskey"
+  },
+  {
+   "k": "cheap red wine",
+   "intent": "Informational, Commercial",
+   "rel": 62,
+   "vol": 480,
+   "kd": 17,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "buy vodka",
+   "intent": "Transactional",
+   "rel": 62,
+   "vol": 480,
+   "kd": 18,
+   "src": "Vodka"
+  },
+  {
+   "k": "sweet red wine australia",
+   "intent": "Commercial",
+   "rel": 60,
+   "vol": 480,
+   "kd": 10,
+   "src": "Red-Wine"
+  },
+  {
+   "k": "buy gin online",
+   "intent": "Transactional",
+   "rel": 59,
+   "vol": 480,
+   "kd": 16,
+   "src": "Gin"
+  },
+  {
+   "k": "black label johnnie walker 1 liter price",
+   "intent": "Transactional",
+   "rel": 57,
+   "vol": 480,
+   "kd": 12,
+   "src": "Johnnie-Walker"
+  },
+  {
+   "k": "johnnie walker blue label 1 litre price",
+   "intent": "Transactional",
+   "rel": 57,
+   "vol": 480,
+   "kd": 9,
+   "src": "Johnnie-Walker"
+  },
+  {
+   "k": "whisky gift set",
+   "intent": "Commercial",
+   "rel": 56,
+   "vol": 480,
+   "kd": 9,
+   "src": "Australian-Whisky"
+  }
+ ]
+}

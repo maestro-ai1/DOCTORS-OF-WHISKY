@@ -60,7 +60,7 @@ Please confirm vault availability and payment instructions.`;
         <Link href={`/shop/${product.category}/${product.slug}`} className="block w-full h-full">
           <Image
             src={product.images[0]}
-            alt={`${product.name} - ${product.brand} fine spirit`}
+            alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className={`object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out ${

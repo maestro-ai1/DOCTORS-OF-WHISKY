@@ -60,9 +60,9 @@ export function FeaturedProducts() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-serif font-bold text-neutral-200">
+              <h3 className="text-sm font-serif font-bold text-neutral-200">
                 Looking for a specific vintage or rare allocation?
-              </h4>
+              </h3>
               <p className="text-xs text-neutral-400">
                 Our private concierge can source allocations directly from international auctions and private cellars.
               </p>

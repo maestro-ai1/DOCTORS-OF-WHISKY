@@ -4,11 +4,6 @@ import { SHOP_RULES, CONTACT } from '@/lib/config';
 import { Truck, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Shipping & Transit Insurance Information | Doctors of Whisky',
-  description: 'Detailed Australia-wide delivery timelines, minimum order requirements ($300 AUD), free express courier over $1,500 AUD, and temperature-controlled transit policies.',
-};
-
 export default function ShippingPage() {
   return (
     <div className="min-h-screen bg-neutral-950 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">

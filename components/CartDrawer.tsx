@@ -153,7 +153,7 @@ export function CartDrawer() {
                   <div className="relative w-16 h-16 rounded-lg overflow-hidden bg-white shrink-0 border border-neutral-800">
                     <Image
                       src={item.product.images[0]}
-                      alt={item.product.name}
+                      alt={`${item.product.name} ${item.product.size}`}
                       fill
                       className="object-contain p-1"
                       referrerPolicy="no-referrer"

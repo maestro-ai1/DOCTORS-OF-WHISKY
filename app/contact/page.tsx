@@ -1,5 +1,6 @@
 'use client';
 
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail';
 import React, { useState } from 'react';
 import { CONTACT, SITE } from '@/lib/config';
 import { Mail, Phone, MapPin, Clock, ShieldCheck, Send, CheckCircle, Sparkles } from 'lucide-react';
@@ -21,7 +22,7 @@ export default function ContactPage() {
     setIsSubmitting(true);
 
     try {
-      await fetch('/api/contact', {
+      await fetch('/api/contact/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -94,7 +95,7 @@ export default function ContactPage() {
                       href={`mailto:${CONTACT.email}`}
                       className="text-neutral-200 hover:text-amber-300 font-medium"
                     >
-                      {CONTACT.email}
+                      <ObfuscatedEmail email={CONTACT.email} />
                     </a>
                   </div>
                 </div>

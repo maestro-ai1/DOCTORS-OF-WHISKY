@@ -1,6 +1,7 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { SITE, CONTACT, BRAND_AUTHORITY } from '@/lib/config';
+import { CONTENT_UPDATED, ld } from '@/lib/seo';
 import { CartProvider } from '@/lib/context/CartContext';
 import { WishlistProvider } from '@/lib/context/WishlistContext';
 import { Header } from '@/components/Header';
@@ -10,50 +11,25 @@ import { CartDrawer } from '@/components/CartDrawer';
 import { CheckoutModal } from '@/components/CheckoutModal';
 import { SalesPopup } from '@/components/SalesPopup';
 
+// Site-wide defaults only. Every page sets its own title, description, canonical and social tags via buildMetadata()
+// (a canonical here would be inherited by pages that forget their own).
 export const metadata: Metadata = {
-  title: 'Doctors of Whisky | Buy Rare Whisky Online Australia | Fine Spirits & Single Malts',
-  description: "Australia's premier destination for rare single malt whiskies, Japanese whisky, luxury spirits, and vault releases. Sydney vaults, 100% provenance guarantee, 12% Crypto discount.",
-  keywords: [
-    'buy rare whisky online australia',
-    'japanese whisky importer australia',
-    'macallan single malt sydney',
-    'buy liquor with crypto australia',
-    'express spirits delivery australia',
-    'rare scotch whisky online',
-    'glenfiddich 30 sydney',
-    'lark distillery rare cask'
-  ],
+  title: { default: 'Doctors of Whisky | Buy Whisky Online Australia', template: '%s' },
+  description: 'Buy whisky online in Australia: single malt Scotch, Japanese whisky, bourbon, tequila, vodka, cognac and gin. Sydney vaults, insured delivery, 18+.',
   authors: [{ name: SITE.name }],
   metadataBase: new URL(`https://${SITE.domain}`),
-  alternates: {
-    canonical: `https://${SITE.domain}/`,
-  },
-  openGraph: {
-    title: "Doctors of Whisky | Australia's Home for Rare & Collectable Spirits",
-    description: 'Explore Australia’s most coveted collection of authenticated rare single malts, aged Japanese whiskies, and fine spirits in our Sydney vaults.',
-    url: `https://${SITE.domain}`,
-    siteName: SITE.name,
-    locale: SITE.locale,
-    type: 'website',
-    images: [
-      {
-        url: 'https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1200&h=630&q=85',
-        width: 1200,
-        height: 630,
-        alt: 'Doctors of Whisky - Australia Rare Whisky Vault',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Doctors of Whisky | Rare Spirits & Japanese Whisky Australia',
-    description: 'Sydney climate-controlled vaults. 100% provenance guarantee, PayID, Osko, and 12% Crypto savings.',
-    images: ['https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1200&h=630&q=85'],
-  },
+  applicationName: SITE.name,
+  category: 'shopping',
   other: {
-    'og:updated_time': new Date().toISOString(),
+    'og:updated_time': CONTENT_UPDATED,
     'google-site-verification': SITE.gscVerification,
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#111111',
 };
 
 export default function RootLayout({
@@ -61,13 +37,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': ['LiquorStore', 'Store', 'Organization', 'LocalBusiness'],
+  const storeLd = {
+    '@type': 'LiquorStore',
+    '@id': `https://${SITE.domain}/#organization`,
     name: SITE.name,
     description: SITE.tagline,
     url: `https://${SITE.domain}/`,
-    logo: `https://${SITE.domain}/logo.png`,
+    logo: { '@type': 'ImageObject', url: `https://${SITE.domain}/logo.png`, width: 512, height: 512 },
+    image: `https://${SITE.domain}/og-default.png`,
     telephone: CONTACT.phoneRaw,
     email: CONTACT.email,
     foundingDate: BRAND_AUTHORITY.foundingYear,
@@ -112,15 +89,36 @@ export default function RootLayout({
     ],
   };
 
+  const websiteLd = {
+    '@type': 'WebSite',
+    '@id': `https://${SITE.domain}/#website`,
+    url: `https://${SITE.domain}/`,
+    name: SITE.name,
+    description: SITE.tagline,
+    inLanguage: 'en-AU',
+    publisher: { '@id': `https://${SITE.domain}/#organization` },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `https://${SITE.domain}/search/?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+  const jsonLd = { '@context': 'https://schema.org', '@graph': [storeLd, websiteLd] };
+
   return (
-    <html lang="en" className="dark bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-800 selection:text-amber-100">
+    <html lang="en-AU" className="dark bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-800 selection:text-amber-100">
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(jsonLd) }} />
+        <script src="/js/webmcp.js" defer />
       </head>
       <body className="min-h-screen flex flex-col font-sans overflow-x-hidden">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-amber-500 focus:text-black focus:px-4 focus:py-2 focus:rounded-md focus:font-semibold"
+        >
+          Skip to main content
+        </a>
         <CartProvider>
           <WishlistProvider>
             {/* 18+ Age Gate Modal */}

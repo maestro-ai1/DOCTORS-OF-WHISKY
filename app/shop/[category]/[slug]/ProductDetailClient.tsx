@@ -104,7 +104,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-white border border-neutral-800 shadow-2xl">
               <Image
                 src={product.images[selectedImgIdx] || product.images[0]}
-                alt={`${product.name} - ${product.brand} fine spirit`}
+                alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle`}
                 fill
                 priority
                 className="object-contain object-center p-8"
@@ -154,6 +154,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                   <button
                     key={idx}
                     type="button"
+                    aria-label={`Show photo ${idx + 1} of ${product.name}`}
                     onClick={() => setSelectedImgIdx(idx)}
                     className={`relative w-24 aspect-[4/3] rounded-xl overflow-hidden border-2 bg-white transition-all ${
                       selectedImgIdx === idx
@@ -161,7 +162,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                         : 'border-neutral-800 opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <Image src={img} alt="Thumbnail" fill className="object-contain p-1" />
+                    <Image src={img} alt={`${product.name} - photo ${idx + 1}`} fill className="object-contain p-1" />
                   </button>
                 ))}
               </div>
@@ -174,9 +175,9 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-serif font-bold text-neutral-100">
+                  <p className="text-sm font-serif font-bold text-neutral-100">
                     Sydney Vault Provenance &amp; Seal Guarantee
-                  </h4>
+                  </p>
                   <p className="text-xs text-neutral-400">
                     Inspected and certified by Doctors of Whisky Sommeliers
                   </p>
@@ -348,12 +349,17 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
 
             {/* Description */}
             <div className="space-y-3 pt-2">
-              <h3 className="font-serif font-bold text-lg text-neutral-100">
+              <h2 className="font-serif font-bold text-lg text-neutral-100">
                 Bottle Narrative &amp; Distillation
-              </h3>
+              </h2>
               <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">
                 {product.description}
               </p>
+              {product.longDescription?.map((para, i) => (
+                <p key={i} className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">
+                  {para}
+                </p>
+              ))}
             </div>
 
             {/* Sommelier Tasting Notes */}

@@ -4,40 +4,9 @@ import { SITE, CONTACT, BRAND_AUTHORITY } from '@/lib/config';
 import { ShieldCheck, Warehouse, Lock, Award, Sparkles, Truck, Phone, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'About Sydney Vaults & Provenance | Doctors of Whisky Australia',
-  description: 'Learn about Doctors of Whisky: Sydney climate-regulated cellars (14°C, 65% RH), 100% capsule and hologram verification, insured transit, and Australian liquor license compliance.',
-  alternates: {
-    canonical: `https://${SITE.domain}/about/`,
-  },
-};
-
 export default function AboutPage() {
-  const aboutSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AboutPage',
-    mainEntity: {
-      '@type': ['Organization', 'LiquorStore'],
-      name: SITE.name,
-      description: 'Australia premier collector portal for rare, authenticated single malts and luxury spirits.',
-      foundingDate: BRAND_AUTHORITY.foundingYear,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: 'Level 14, 1 Bligh Street',
-        addressLocality: 'Sydney',
-        addressRegion: 'NSW',
-        postalCode: '2000',
-        addressCountry: 'AU',
-      },
-    },
-  };
-
   return (
     <div className="min-h-screen bg-neutral-950 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
-      />
 
       <div className="max-w-4xl mx-auto space-y-12">
         {/* Page Hero */}

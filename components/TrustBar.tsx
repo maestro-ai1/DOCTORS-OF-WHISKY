@@ -40,9 +40,9 @@ export function TrustBar() {
                   <Icon className="w-6 h-6" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-sm font-serif font-bold text-neutral-100 group-hover:text-amber-300 transition-colors">
+                  <p className="text-sm font-serif font-bold text-neutral-100 group-hover:text-amber-300 transition-colors">
                     {pillar.title}
-                  </h4>
+                  </p>
                   <p className="text-xs text-neutral-400 leading-relaxed">
                     {pillar.description}
                   </p>

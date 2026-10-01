@@ -48,9 +48,9 @@ export function Footer() {
 
           {/* Column 2: Organized Navigation Links (4 cols) */}
           <div className="md:col-span-4 space-y-3">
-            <h4 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">
+            <h2 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">
               Information &amp; Policies
-            </h4>
+            </h2>
             <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-xs">
               {footerLinks.map((link, idx) => (
                 <Link
@@ -78,9 +78,9 @@ export function Footer() {
 
           {/* Column 3: Settlement Gateways & Transit Insurance (3 cols) */}
           <div className="md:col-span-3 space-y-3">
-            <h4 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">
+            <h2 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">
               Verified Settlement
-            </h4>
+            </h2>
 
             <div className="grid grid-cols-2 gap-2">
               <div className="p-2 rounded-lg bg-neutral-900 border border-neutral-800 text-center">

@@ -6,6 +6,15 @@ import { BrandSlider } from '@/components/BrandSlider';
 import { AuthoritySection } from '@/components/AuthoritySection';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
 import { HomeFaq } from '@/components/HomeFaq';
+import { buildMetadata, siteTags } from '@/lib/seo';
+
+export const metadata = buildMetadata({
+  title: 'Buy Whisky Online Australia | Scotch, Japanese & Single Malt',
+  description:
+    'Buy whisky online in Australia: single malt Scotch, Japanese whisky, bourbon, plus tequila, vodka, cognac and gin. Sydney vaults, insured delivery, 18+.',
+  path: '/',
+  keywords: siteTags(120),
+});
 
 export default function HomePage() {
   return (

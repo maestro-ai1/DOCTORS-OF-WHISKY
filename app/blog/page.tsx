@@ -2,35 +2,35 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { SITE } from '@/lib/config';
 import { BLOG_POSTS } from '@/lib/data/blog';
-import { ArrowRight, BookOpen, Clock, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowRight, BookOpen, Clock, Calendar } from 'lucide-react';
+import { JsonLd } from '@/components/JsonLd';
+import { buildMetadata, breadcrumbLd, absoluteUrl } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: `Collector Journal & Whisky Guides | ${SITE.name}`,
-  description: `Expert articles on rare single malt investment, Japanese whisky valuation, Australian craft distilleries, and proper cellar management.`,
-};
+export const metadata: Metadata = buildMetadata({
+  title: 'Whisky Guides & Buying Advice | Collector Journal',
+  description:
+    'Whisky, spirits, wine and beer guides for Australian buyers: Scotch vs bourbon, Japanese whisky, tequila, cognac, gin and how to choose, store and buy them online.',
+  path: '/blog/',
+  keywords: ['whisky guide', 'scotch vs bourbon', 'how to choose whisky', 'japanese whisky guide', 'tequila guide', 'cognac vs brandy', 'whisky blog australia'],
+});
 
-const PAGE_SIZE = 9;
-
-interface BlogPageProps {
-  searchParams: Promise<{ page?: string }>;
-}
-
-export default async function BlogPage({ searchParams }: BlogPageProps) {
-  const { page: pageParam } = await searchParams;
-  const page = Math.max(1, parseInt(pageParam || '1', 10) || 1);
-  const totalPages = Math.max(1, Math.ceil(BLOG_POSTS.length / PAGE_SIZE));
-  const safePage = Math.min(page, totalPages);
-
+// Every guide is rendered in the static HTML (no ?page= variants) so all article links are crawlable.
+export default function BlogPage() {
   const featured = BLOG_POSTS[0];
-  const rest = BLOG_POSTS.slice(1);
-  const pageItems = safePage === 1
-    ? rest.slice(0, PAGE_SIZE - 1)
-    : rest.slice((safePage - 1) * PAGE_SIZE - 1, safePage * PAGE_SIZE - 1);
+  const pageItems = BLOG_POSTS.slice(1);
+  const blogLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'Doctors of Whisky Collector Journal',
+    url: absoluteUrl('/blog/'),
+    inLanguage: 'en-AU',
+    blogPost: BLOG_POSTS.map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: absoluteUrl(`/blog/${p.slug}/`) })),
+  };
 
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-200 py-16 px-4 sm:px-6 lg:px-8">
+      <JsonLd data={[blogLd, breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Collector Journal', path: '/blog/' }])]} />
       <div className="max-w-6xl mx-auto space-y-12">
         {/* Header */}
         <div className="text-center space-y-4 max-w-2xl mx-auto border-b border-neutral-900 pb-8">
@@ -46,8 +46,9 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
           </p>
         </div>
 
-        {/* Featured Article (page 1 only) */}
-        {safePage === 1 && (
+        {/* Featured Article */}
+        {(
+
           <div className="relative rounded-3xl overflow-hidden bg-neutral-900/60 border border-amber-800/40 p-6 sm:p-10 flex flex-col lg:flex-row gap-8 items-center">
             <div className="w-full lg:w-1/2 space-y-4">
               <div className="flex items-center gap-3 text-xs text-amber-400 font-semibold">
@@ -138,25 +139,6 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
           ))}
         </div>
 
-        {totalPages > 1 && (
-          <div className="flex items-center justify-center gap-2 pt-4">
-            <Link
-              href={`/blog?page=${Math.max(1, safePage - 1)}`}
-              aria-disabled={safePage === 1}
-              className={`p-2.5 rounded-xl border text-sm flex items-center gap-1 ${safePage === 1 ? 'pointer-events-none opacity-40 border-neutral-800 text-neutral-600' : 'border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400'}`}
-            >
-              <ChevronLeft className="w-4 h-4" /> Prev
-            </Link>
-            <span className="text-xs text-neutral-400 px-3">Page {safePage} of {totalPages}</span>
-            <Link
-              href={`/blog?page=${Math.min(totalPages, safePage + 1)}`}
-              aria-disabled={safePage === totalPages}
-              className={`p-2.5 rounded-xl border text-sm flex items-center gap-1 ${safePage === totalPages ? 'pointer-events-none opacity-40 border-neutral-800 text-neutral-600' : 'border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400'}`}
-            >
-              Next <ChevronRight className="w-4 h-4" />
-            </Link>
-          </div>
-        )}
       </div>
     </div>
   );

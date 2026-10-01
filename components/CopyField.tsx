@@ -30,7 +30,7 @@ export function CopyField({ label, value, className = '', mono = true }: CopyFie
       className={`group relative flex items-center justify-between gap-3 p-3 bg-neutral-900/90 border border-amber-900/40 hover:border-amber-500/60 rounded-lg cursor-pointer transition-all duration-200 ${className}`}
       role="button"
       tabIndex={0}
-      aria-label={`Copy ${label}: ${value}`}
+      aria-label={`Copy ${label}`}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -46,10 +46,8 @@ export function CopyField({ label, value, className = '', mono = true }: CopyFie
           className={`text-xs text-neutral-200 truncate ${
             mono ? 'font-mono tracking-tight' : 'font-sans'
           }`}
-          title={value}
-        >
-          {value}
-        </span>
+          dangerouslySetInnerHTML={{ __html: value.replace(/@/g, '&#64;') }}
+        />
       </div>
 
       <div className="flex items-center gap-1.5 shrink-0 px-2.5 py-1 rounded bg-amber-950/60 group-hover:bg-amber-800/60 text-amber-300 text-xs font-medium border border-amber-800/50 transition-colors">

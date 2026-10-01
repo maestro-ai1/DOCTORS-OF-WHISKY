@@ -26,7 +26,7 @@ const SLIDES = [
     badge: 'Est. 1942',
     price: '$515 AUD',
     cryptoPrice: '$453.20 AUD with Crypto',
-    link: '/shop/spirit/don-julio-blanco-tequila',
+    link: '/shop/spirit/don-julio-blanco-don-julio',
     image: '/images/hero/don-julio-blanco-hero.jpg',
   },
 ];
