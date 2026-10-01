@@ -25740,10 +25740,10 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-heinenken-500ml-lager",
-    "slug": "heinenken-500ml-lager",
-    "name": "Heinenken 500ml Lager",
-    "brand": "Heinenken",
+    "id": "prod-heineken-500ml-lager",
+    "slug": "heineken-500ml-lager",
+    "name": "Heineken 500ml Lager",
+    "brand": "Heineken",
     "category": "beer-premix-wine",
     "subCategory": "Lager",
     "subCategorySlug": "lager",
@@ -25756,14 +25756,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/lager/lager--tds-heinenken-500ml-96bbe14c-7af4-42d3-8623-7e23665f889a.jpg"
     ],
-    "description": "Heinenken 500ml Lager is a lager from Heinenken, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "Heineken 500ml Lager is a lager from Heineken, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Fresh hops and pale malt.",
       "palate": "Balanced fruit and refreshing acidity.",
       "finish": "Crisp, refreshing, and well-balanced."
     },
     "stock": 6,
-    "sku": "HEINENKEN-HEINENKEN-500ML-LAGER",
+    "sku": "HEINEKEN-HEINEKEN-500ML-LAGER",
     "primaryKeyword": "lager",
     "secondaryKeywords": [
       "lager beer",
@@ -25784,32 +25784,32 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "How much does Heinenken 500ml Lager cost in Australia?",
-        "answer": "Heinenken 500ml Lager is priced at $45 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "question": "How much does Heineken 500ml Lager cost in Australia?",
+        "answer": "Heineken 500ml Lager is priced at $45 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where can I buy Heinenken 500ml Lager online in Australia?",
-        "answer": "You can buy Heinenken 500ml Lager from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
+        "question": "Where can I buy Heineken 500ml Lager online in Australia?",
+        "answer": "You can buy Heineken 500ml Lager from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
-        "question": "What size and strength is Heinenken 500ml Lager?",
-        "answer": "Heinenken 500ml Lager is sold in a 500ml format. It is listed at 4.2% - 5.0% ABV, and is a lager from International. Check the label for the exact strength of the batch you receive."
+        "question": "What size and strength is Heineken 500ml Lager?",
+        "answer": "Heineken 500ml Lager is sold in a 500ml format. It is listed at 4.2% - 5.0% ABV, and is a lager from International. Check the label for the exact strength of the batch you receive."
       },
       {
-        "question": "How should I serve Heinenken 500ml Lager?",
+        "question": "How should I serve Heineken 500ml Lager?",
         "answer": "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass."
       },
       {
-        "question": "Is Heinenken 500ml Lager a good gift?",
+        "question": "Is Heineken 500ml Lager a good gift?",
         "answer": "A mixed case of quality lagers is an easy gift for beer drinkers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Buy Heinenken 500ml Lager Online Australia",
-    "metaDescription": "Buy Heinenken 500ml Lager online in Australia for $45 AUD. Lager from Heinenken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Heineken 500ml Lager Online Australia",
+    "metaDescription": "Buy Heineken 500ml Lager online in Australia for $45 AUD. Lager from Heineken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "Heinenken 500ml Lager sits in our lager range, alongside 2 other Heinenken bottles. Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste.",
-      "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass. Heinenken 500ml Lager is listed at 4.2% - 5.0% ABV in a 500ml format, from International.",
-      "Buy Heinenken 500ml Lager online in Australia for $45 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Heineken 500ml Lager sits in our lager range, alongside 2 other Heineken bottles. Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste.",
+      "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass. Heineken 500ml Lager is listed at 4.2% - 5.0% ABV in a 500ml format, from International.",
+      "Buy Heineken 500ml Lager online in Australia for $45 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ]
   },
   {
@@ -26026,10 +26026,10 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-heinenken-500ml-imported-beer",
-    "slug": "heinenken-500ml-imported-beer",
-    "name": "Heinenken 500ml Imported Beer",
-    "brand": "Heinenken",
+    "id": "prod-heineken-500ml-imported-beer",
+    "slug": "heineken-500ml-imported-beer",
+    "name": "Heineken 500ml Imported Beer",
+    "brand": "Heineken",
     "category": "beer-premix-wine",
     "subCategory": "Imported Beer",
     "subCategorySlug": "imported-beer",
@@ -26042,14 +26042,14 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/imported-beer/imported-beer--tds-heinenken-500ml-96bbe14c-7af4-42d3-8623-7e23665f889a.jpg"
     ],
-    "description": "Heinenken 500ml Imported Beer is an imported beer from Heinenken, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "Heineken 500ml Imported Beer is an imported beer from Heineken, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Fine mousse with bright red fruit.",
       "palate": "Balanced fruit and refreshing acidity.",
       "finish": "Smooth and moreish."
     },
     "stock": 5,
-    "sku": "HEINENKEN-HEINENKEN-500ML-IMPORTED",
+    "sku": "HEINEKEN-HEINEKEN-500ML-IMPORTED",
     "primaryKeyword": "imported beer",
     "secondaryKeywords": [
       "heineken imported",
@@ -26062,32 +26062,32 @@ export const PRODUCTS: Product[] = [
     ],
     "faqs": [
       {
-        "question": "How much does Heinenken 500ml Imported Beer cost in Australia?",
-        "answer": "Heinenken 500ml Imported Beer is priced at $70 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "question": "How much does Heineken 500ml Imported Beer cost in Australia?",
+        "answer": "Heineken 500ml Imported Beer is priced at $70 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where can I buy Heinenken 500ml Imported Beer online in Australia?",
-        "answer": "You can buy Heinenken 500ml Imported Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
+        "question": "Where can I buy Heineken 500ml Imported Beer online in Australia?",
+        "answer": "You can buy Heineken 500ml Imported Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
-        "question": "What size and strength is Heinenken 500ml Imported Beer?",
-        "answer": "Heinenken 500ml Imported Beer is sold in a 500ml format. It is listed at 4.5% - 5.5% ABV, and is an imported from International. Check the label for the exact strength of the batch you receive."
+        "question": "What size and strength is Heineken 500ml Imported Beer?",
+        "answer": "Heineken 500ml Imported Beer is sold in a 500ml format. It is listed at 4.5% - 5.5% ABV, and is an imported from International. Check the label for the exact strength of the batch you receive."
       },
       {
-        "question": "How should I serve Heinenken 500ml Imported Beer?",
+        "question": "How should I serve Heineken 500ml Imported Beer?",
         "answer": "Serve imported beer at the temperature recommended for its style: cold for lagers, slightly warmer for ales and stouts."
       },
       {
-        "question": "Is Heinenken 500ml Imported Beer a good gift?",
+        "question": "Is Heineken 500ml Imported Beer a good gift?",
         "answer": "Imported beer cases suit gifting for beer lovers who like to try styles from around the world. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Buy Heinenken 500ml Imported Beer Online Australia",
-    "metaDescription": "Buy Heinenken 500ml Imported Beer online in Australia for $70 AUD. Imported Beer from Heinenken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Heineken 500ml Imported Beer Online Australia",
+    "metaDescription": "Buy Heineken 500ml Imported Beer online in Australia for $70 AUD. Imported Beer from Heineken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "Heinenken 500ml Imported Beer sits in our imported beer range, alongside 2 other Heinenken bottles. Imported beer covers international lagers, ales and stouts brewed overseas.",
-      "Serve imported beer at the temperature recommended for its style: cold for lagers, slightly warmer for ales and stouts. Heinenken 500ml Imported Beer is listed at 4.5% - 5.5% ABV in a 500ml format, from International.",
-      "Buy Heinenken 500ml Imported Beer online in Australia for $70 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Heineken 500ml Imported Beer sits in our imported beer range, alongside 2 other Heineken bottles. Imported beer covers international lagers, ales and stouts brewed overseas.",
+      "Serve imported beer at the temperature recommended for its style: cold for lagers, slightly warmer for ales and stouts. Heineken 500ml Imported Beer is listed at 4.5% - 5.5% ABV in a 500ml format, from International.",
+      "Buy Heineken 500ml Imported Beer online in Australia for $70 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ]
   },
   {
@@ -26358,79 +26358,6 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    "id": "prod-corona-brown-box-355-bottles-non-alcoholic-beer",
-    "slug": "corona-brown-box-355-bottles-non-alcoholic-beer",
-    "name": "Corona Brown Box 355 Bottles Non-Alcoholic Beer",
-    "brand": "Corona",
-    "category": "beer-premix-wine",
-    "subCategory": "Non-Alcoholic Beer",
-    "subCategorySlug": "non-alcoholic-beer",
-    "style": "Non-Alcoholic",
-    "country": "International",
-    "region": "International",
-    "price": 35,
-    "abv": "<0.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-corona-brown-box-355-bottles.jpg"
-    ],
-    "description": "Corona Brown Box 355 Bottles Non-Alcoholic Beer (330ml (Case of 24)) is a non-alcoholic beer from Corona, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
-    "tastingNotes": {
-      "nose": "Fresh hops and pale malt.",
-      "palate": "Silky texture with elegant fruit layers.",
-      "finish": "Crisp, refreshing, and well-balanced."
-    },
-    "stock": 5,
-    "sku": "CORONA-CORONA-BROWN-BOX-3",
-    "primaryKeyword": "non alcoholic beer",
-    "secondaryKeywords": [
-      "non alcoholic beverages",
-      "best non alcoholic beer australia",
-      "non alcoholic drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
-      "non-alcoholic beer",
-      "non alcoholic sparkling",
-      "cool non alcoholic drinks",
-      "non alcoholic beer australia",
-      "drinks non alcoholic",
-      "non alcoholic drinks australia",
-      "corona beer",
-      "low carb beer",
-      "heineken beer"
-    ],
-    "faqs": [
-      {
-        "question": "How much does Corona Brown Box 355 Bottles Non-Alcoholic Beer cost in Australia?",
-        "answer": "Corona Brown Box 355 Bottles Non-Alcoholic Beer is priced at $35 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
-      },
-      {
-        "question": "Where do I buy corona beer online in Australia?",
-        "answer": "You can buy Corona Brown Box 355 Bottles Non-Alcoholic Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
-      },
-      {
-        "question": "What size and strength is Corona Brown Box 355 Bottles Non-Alcoholic Beer?",
-        "answer": "Corona Brown Box 355 Bottles Non-Alcoholic Beer is sold in a 330ml (Case of 24) format. It is listed at <0.5% ABV, and is a non-alcoholic from International. Check the label for the exact strength of the batch you receive."
-      },
-      {
-        "question": "How should I serve Corona Brown Box 355 Bottles Non-Alcoholic Beer?",
-        "answer": "Serve non-alcoholic beer well chilled in a beer glass."
-      },
-      {
-        "question": "Is Corona Brown Box 355 Bottles Non-Alcoholic Beer a good gift?",
-        "answer": "Non-alcoholic beer is a considerate gift for drivers and anyone cutting back on alcohol. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
-      }
-    ],
-    "metaTitle": "Buy Corona Brown Box 355 Bottles Non-Alcoholic Beer Online Australia",
-    "metaDescription": "Buy Corona Brown Box 355 Bottles Non-Alcoholic Beer (330ml (Case of 24)) online in Australia for $35 AUD. Non-Alcoholic Beer from Corona. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
-    "longDescription": [
-      "Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less. Corona Brown Box 355 Bottles Non-Alcoholic Beer is Corona’s expression in this style.",
-      "Serve non-alcoholic beer well chilled in a beer glass. Corona Brown Box 355 Bottles Non-Alcoholic Beer is listed at <0.5% ABV in a 330ml (Case of 24) format, from International.",
-      "Corona Brown Box 355 Bottles Non-Alcoholic Beer is $35 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
-    ]
-  },
-  {
     "id": "prod-heineken-zero-cans-330ml-non-alcoholic-beer",
     "slug": "heineken-zero-cans-330ml-non-alcoholic-beer",
     "name": "Heineken Zero Cans 330ml Non-Alcoholic Beer",
@@ -26575,226 +26502,6 @@ export const PRODUCTS: Product[] = [
       "Heineken Zero Stubs Non-Alcoholic Beer comes from Heineken. Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less.",
       "Serve non-alcoholic beer well chilled in a beer glass. Heineken Zero Stubs Non-Alcoholic Beer is listed at <0.5% ABV in a 330ml (Case of 24) format, from International.",
       "If you are looking for heineken non alcoholic beer, Heineken Zero Stubs Non-Alcoholic Beer is available from Doctors of Whisky at $25 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
-    ]
-  },
-  {
-    "id": "prod-heinenken-500ml-non-alcoholic-beer",
-    "slug": "heinenken-500ml-non-alcoholic-beer",
-    "name": "Heinenken 500ml Non-Alcoholic Beer",
-    "brand": "Heinenken",
-    "category": "beer-premix-wine",
-    "subCategory": "Non-Alcoholic Beer",
-    "subCategorySlug": "non-alcoholic-beer",
-    "style": "Non-Alcoholic",
-    "country": "International",
-    "region": "International",
-    "price": 50,
-    "abv": "<0.5%",
-    "size": "500ml",
-    "images": [
-      "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-heinenken-500ml-96bbe14c-7af4-42d3-8623-7e23665f889a.jpg"
-    ],
-    "description": "Heinenken 500ml Non-Alcoholic Beer is a non-alcoholic beer from Heinenken, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
-    "tastingNotes": {
-      "nose": "Fine mousse with bright red fruit.",
-      "palate": "Balanced fruit and refreshing acidity.",
-      "finish": "Long, elegant, and food-friendly."
-    },
-    "stock": 8,
-    "sku": "HEINENKEN-HEINENKEN-500ML-NON",
-    "primaryKeyword": "non alcoholic beer",
-    "secondaryKeywords": [
-      "non alcoholic beverages",
-      "best non alcoholic beer australia",
-      "non alcoholic drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
-      "non-alcoholic beer",
-      "non alcoholic sparkling",
-      "cool non alcoholic drinks",
-      "non alcoholic beer australia",
-      "drinks non alcoholic",
-      "non alcoholic drinks australia",
-      "corona beer",
-      "low carb beer",
-      "heineken beer"
-    ],
-    "faqs": [
-      {
-        "question": "How much does Heinenken 500ml Non-Alcoholic Beer cost in Australia?",
-        "answer": "Heinenken 500ml Non-Alcoholic Beer is priced at $50 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
-      },
-      {
-        "question": "Can I buy Heinenken 500ml Non-Alcoholic Beer online and have it delivered in Australia?",
-        "answer": "You can buy Heinenken 500ml Non-Alcoholic Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
-      },
-      {
-        "question": "What size and strength is Heinenken 500ml Non-Alcoholic Beer?",
-        "answer": "Heinenken 500ml Non-Alcoholic Beer is sold in a 500ml format. It is listed at <0.5% ABV, and is a non-alcoholic from International. Check the label for the exact strength of the batch you receive."
-      },
-      {
-        "question": "How should I serve Heinenken 500ml Non-Alcoholic Beer?",
-        "answer": "Serve non-alcoholic beer well chilled in a beer glass."
-      },
-      {
-        "question": "Is Heinenken 500ml Non-Alcoholic Beer a good gift?",
-        "answer": "Non-alcoholic beer is a considerate gift for drivers and anyone cutting back on alcohol. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
-      }
-    ],
-    "metaTitle": "Buy Heinenken 500ml Non-Alcoholic Beer Online Australia",
-    "metaDescription": "Buy Heinenken 500ml Non-Alcoholic Beer online in Australia for $50 AUD. Non-Alcoholic Beer from Heinenken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
-    "longDescription": [
-      "Heinenken 500ml Non-Alcoholic Beer comes from Heinenken. Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less.",
-      "Serve non-alcoholic beer well chilled in a beer glass. Heinenken 500ml Non-Alcoholic Beer is listed at <0.5% ABV in a 500ml format, from International.",
-      "If you are looking for Heinenken Non-Alcoholic, Heinenken 500ml Non-Alcoholic Beer is available from Doctors of Whisky at $50 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
-    ]
-  },
-  {
-    "id": "prod-modelo-especial-non-alcoholic-beer",
-    "slug": "modelo-especial-non-alcoholic-beer",
-    "name": "Modelo Especial Non-Alcoholic Beer",
-    "brand": "Modelo",
-    "category": "beer-premix-wine",
-    "subCategory": "Non-Alcoholic Beer",
-    "subCategorySlug": "non-alcoholic-beer",
-    "style": "Non-Alcoholic",
-    "country": "International",
-    "region": "International",
-    "price": 30,
-    "abv": "<0.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-modelo-especial.jpg"
-    ],
-    "description": "Modelo Especial Non-Alcoholic Beer (330ml (Case of 24)) is a non-alcoholic beer from Modelo, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
-    "tastingNotes": {
-      "nose": "Crisp citrus and orchard blossom.",
-      "palate": "Well-rounded with soft tannins and fruit.",
-      "finish": "Crisp, refreshing, and well-balanced."
-    },
-    "badge": "COLLECTOR RELEASE",
-    "stock": 10,
-    "sku": "MODELO-MODELO-ESPECIAL-NON",
-    "primaryKeyword": "non alcoholic beer",
-    "secondaryKeywords": [
-      "non alcoholic beverages",
-      "best non alcoholic beer australia",
-      "non alcoholic drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
-      "non-alcoholic beer",
-      "non alcoholic sparkling",
-      "cool non alcoholic drinks",
-      "non alcoholic beer australia",
-      "drinks non alcoholic",
-      "non alcoholic drinks australia",
-      "corona beer",
-      "low carb beer",
-      "heineken beer"
-    ],
-    "faqs": [
-      {
-        "question": "How much does Modelo Especial Non-Alcoholic Beer cost in Australia?",
-        "answer": "Modelo Especial Non-Alcoholic Beer is priced at $30 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
-      },
-      {
-        "question": "Where do I buy Modelo Non-Alcoholic online in Australia?",
-        "answer": "You can buy Modelo Especial Non-Alcoholic Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
-      },
-      {
-        "question": "What size and strength is Modelo Especial Non-Alcoholic Beer?",
-        "answer": "Modelo Especial Non-Alcoholic Beer is sold in a 330ml (Case of 24) format. It is listed at <0.5% ABV, and is a non-alcoholic from International. Check the label for the exact strength of the batch you receive."
-      },
-      {
-        "question": "How should I serve Modelo Especial Non-Alcoholic Beer?",
-        "answer": "Serve non-alcoholic beer well chilled in a beer glass."
-      },
-      {
-        "question": "Is Modelo Especial Non-Alcoholic Beer a good gift?",
-        "answer": "Non-alcoholic beer is a considerate gift for drivers and anyone cutting back on alcohol. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
-      }
-    ],
-    "metaTitle": "Buy Modelo Especial Non-Alcoholic Beer Online Australia",
-    "metaDescription": "Buy Modelo Especial Non-Alcoholic Beer (330ml (Case of 24)) online in Australia for $30 AUD. Non-Alcoholic Beer from Modelo. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
-    "longDescription": [
-      "Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less. Modelo Especial Non-Alcoholic Beer is Modelo’s expression in this style.",
-      "Serve non-alcoholic beer well chilled in a beer glass. Modelo Especial Non-Alcoholic Beer is listed at <0.5% ABV in a 330ml (Case of 24) format, from International.",
-      "Modelo Especial Non-Alcoholic Beer is $30 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
-    ]
-  },
-  {
-    "id": "prod-peroni-nastro-6pack-non-alcoholic-beer",
-    "slug": "peroni-nastro-6pack-non-alcoholic-beer",
-    "name": "Peroni Nastro 6pack Non-Alcoholic Beer",
-    "brand": "Peroni",
-    "category": "beer-premix-wine",
-    "subCategory": "Non-Alcoholic Beer",
-    "subCategorySlug": "non-alcoholic-beer",
-    "style": "Non-Alcoholic",
-    "country": "International",
-    "region": "International",
-    "price": 55,
-    "abv": "<0.5%",
-    "size": "330ml (Case of 24)",
-    "images": [
-      "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-peroni-nastro-6pack.jpg"
-    ],
-    "description": "Peroni Nastro 6pack Non-Alcoholic Beer (330ml (Case of 24)) is a non-alcoholic beer from Peroni, made in International. Buy it online from Doctors of Whisky with insured delivery across Australia.",
-    "tastingNotes": {
-      "nose": "Fine mousse with bright red fruit.",
-      "palate": "Clean malt sweetness with a crisp bite.",
-      "finish": "Crisp, refreshing, and well-balanced."
-    },
-    "stock": 11,
-    "sku": "PERONI-PERONI-NASTRO-6PACK-3",
-    "primaryKeyword": "non alcoholic beer",
-    "secondaryKeywords": [
-      "non alcoholic beverages",
-      "best non alcoholic beer australia",
-      "non alcoholic drinks",
-      "non alcoholic spirits",
-      "non-alcoholic drink",
-      "best non alcoholic drinks",
-      "non-alcoholic beer",
-      "non alcoholic sparkling",
-      "cool non alcoholic drinks",
-      "non alcoholic beer australia",
-      "drinks non alcoholic",
-      "non alcoholic drinks australia",
-      "corona beer",
-      "low carb beer",
-      "heineken beer"
-    ],
-    "faqs": [
-      {
-        "question": "How much does Peroni Nastro 6pack Non-Alcoholic Beer cost in Australia?",
-        "answer": "Peroni Nastro 6pack Non-Alcoholic Beer is priced at $55 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
-      },
-      {
-        "question": "Where can I buy Peroni Nastro 6pack Non-Alcoholic Beer online in Australia?",
-        "answer": "You can buy Peroni Nastro 6pack Non-Alcoholic Beer from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
-      },
-      {
-        "question": "What size and strength is Peroni Nastro 6pack Non-Alcoholic Beer?",
-        "answer": "Peroni Nastro 6pack Non-Alcoholic Beer is sold in a 330ml (Case of 24) format. It is listed at <0.5% ABV, and is a non-alcoholic from International. Check the label for the exact strength of the batch you receive."
-      },
-      {
-        "question": "How should I serve Peroni Nastro 6pack Non-Alcoholic Beer?",
-        "answer": "Serve non-alcoholic beer well chilled in a beer glass."
-      },
-      {
-        "question": "Is Peroni Nastro 6pack Non-Alcoholic Beer a good gift?",
-        "answer": "Non-alcoholic beer is a considerate gift for drivers and anyone cutting back on alcohol. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
-      }
-    ],
-    "metaTitle": "Buy Peroni Nastro 6pack Non-Alcoholic Beer Online Australia",
-    "metaDescription": "Buy Peroni Nastro 6pack Non-Alcoholic Beer (330ml (Case of 24)) online in Australia for $55 AUD. Non-Alcoholic Beer from Peroni. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
-    "longDescription": [
-      "Peroni Nastro 6pack Non-Alcoholic Beer sits in our non-alcoholic beer range, alongside 2 other Peroni bottles. Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less.",
-      "Serve non-alcoholic beer well chilled in a beer glass. Peroni Nastro 6pack Non-Alcoholic Beer is listed at <0.5% ABV in a 330ml (Case of 24) format, from International.",
-      "Buy Peroni Nastro 6pack Non-Alcoholic Beer online in Australia for $55 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ]
   },
   {
@@ -30323,7 +30030,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-d9-sparkling-grape-zero-sugar",
     "slug": "d9-sparkling-grape-zero-sugar",
     "name": "D9 Sparkling Grape Zero Sugar",
-    "brand": "Zero Sugar",
+    "brand": "Saint",
     "category": "beer-premix-wine",
     "subCategory": "Zero Sugar",
     "subCategorySlug": "zero-sugar-seltzers",
@@ -30331,12 +30038,12 @@ export const PRODUCTS: Product[] = [
     "country": "Australia",
     "region": "Australia",
     "price": 40,
-    "abv": "4.5% - 5.0%",
-    "size": "330ml (Case of 24)",
+    "abv": "9.9%",
+    "size": "500ml (Case of 24)",
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-d9-sparkling-grape.jpg"
     ],
-    "description": "D9 Sparkling Grape Zero Sugar (330ml (Case of 24)) is a seltzer from Zero Sugar, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "D9 Sparkling Grape Zero Sugar is a zero sugar sparkling seltzer from Saint, made in Australia. It is an alcoholic drink at 9.9% ABV, sold as a case of 24 x 500ml cans, and each can contains about 3.9 standard drinks. Buy it online from Doctors of Whisky with insured delivery across Australia. Buyers must be 18 or over.",
     "tastingNotes": {
       "nose": "Fresh hops and pale malt.",
       "palate": "Well-rounded with soft tannins and fruit.",
@@ -30374,7 +30081,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "question": "What size and strength is D9 Sparkling Grape Zero Sugar?",
-        "answer": "D9 Sparkling Grape Zero Sugar is sold in a 330ml (Case of 24) format. It is listed at 4.5% - 5.0% ABV, and is a seltzer from Australia. Check the label for the exact strength of the batch you receive."
+        "answer": "D9 Sparkling Grape Zero Sugar is sold as a case of 24 x 500ml cans. It is 9.9% ABV, about 3.9 standard drinks per can, so it is much stronger than most seltzers. Check the label for the exact strength of the batch you receive."
       },
       {
         "question": "How should I serve D9 Sparkling Grape Zero Sugar?",
@@ -30386,10 +30093,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy D9 Sparkling Grape Zero Sugar Online Australia",
-    "metaDescription": "Buy D9 Sparkling Grape Zero Sugar (330ml (Case of 24)) online in Australia for $40 AUD. Seltzer from Zero Sugar. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy D9 Sparkling Grape Zero Sugar (24 x 500ml cans, 9.9% ABV) online in Australia for $40 AUD. Insured delivery, 18+ only, PayID, bank transfer or crypto.",
     "longDescription": [
       "Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars. D9 Sparkling Grape Zero Sugar is Zero Sugar’s expression in this style.",
-      "Serve seltzers very cold in the can, or over ice with a slice of fruit. D9 Sparkling Grape Zero Sugar is listed at 4.5% - 5.0% ABV in a 330ml (Case of 24) format, from Australia.",
+      "D9 Sparkling Grape Zero Sugar is a 9.9% ABV seltzer from Australia, sold as a case of 24 x 500ml cans with about 3.9 standard drinks per can. Serve very cold in the can, or over ice with a slice of fruit, and pace yourself because it is stronger than most seltzers.",
       "D9 Sparkling Grape Zero Sugar is $40 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ]
   },
@@ -30397,7 +30104,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-d9-strong-sparkling-grape-zero-sugar",
     "slug": "d9-strong-sparkling-grape-zero-sugar",
     "name": "D9 Strong Sparkling Grape Zero Sugar",
-    "brand": "Zero Sugar",
+    "brand": "Strong",
     "category": "beer-premix-wine",
     "subCategory": "Zero Sugar",
     "subCategorySlug": "zero-sugar-seltzers",
@@ -30405,12 +30112,12 @@ export const PRODUCTS: Product[] = [
     "country": "Australia",
     "region": "Australia",
     "price": 55,
-    "abv": "4.5% - 5.0%",
-    "size": "330ml (Case of 24)",
+    "abv": "9.9%",
+    "size": "375ml (Case of 24)",
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-d9-strong-sparkling-grape.jpg"
     ],
-    "description": "D9 Strong Sparkling Grape Zero Sugar (330ml (Case of 24)) is a seltzer from Zero Sugar, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "D9 Strong Sparkling Grape Zero Sugar is a zero sugar sparkling seltzer from Strong, made in Australia. It is an alcoholic drink at 9.9% ABV, sold as a case of 24 x 375ml cans, and each can contains about 2.9 standard drinks. Buy it online from Doctors of Whisky with insured delivery across Australia. Buyers must be 18 or over.",
     "tastingNotes": {
       "nose": "Fine mousse with bright red fruit.",
       "palate": "Balanced fruit and refreshing acidity.",
@@ -30447,7 +30154,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "question": "What size and strength is D9 Strong Sparkling Grape Zero Sugar?",
-        "answer": "D9 Strong Sparkling Grape Zero Sugar is sold in a 330ml (Case of 24) format. It is listed at 4.5% - 5.0% ABV, and is a seltzer from Australia. Check the label for the exact strength of the batch you receive."
+        "answer": "D9 Strong Sparkling Grape Zero Sugar is sold as a case of 24 x 375ml cans. It is 9.9% ABV, about 2.9 standard drinks per can, so it is much stronger than most seltzers. Check the label for the exact strength of the batch you receive."
       },
       {
         "question": "How should I serve D9 Strong Sparkling Grape Zero Sugar?",
@@ -30459,10 +30166,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy D9 Strong Sparkling Grape Zero Sugar Online Australia",
-    "metaDescription": "Buy D9 Strong Sparkling Grape Zero Sugar (330ml (Case of 24)) online in Australia for $55 AUD. Seltzer from Zero Sugar. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy D9 Strong Sparkling Grape Zero Sugar (24 x 375ml cans, 9.9% ABV) online in Australia for $55 AUD. Insured delivery, 18+ only, PayID, bank transfer or crypto.",
     "longDescription": [
       "D9 Strong Sparkling Grape Zero Sugar comes from Zero Sugar. Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars.",
-      "Serve seltzers very cold in the can, or over ice with a slice of fruit. D9 Strong Sparkling Grape Zero Sugar is listed at 4.5% - 5.0% ABV in a 330ml (Case of 24) format, from Australia.",
+      "D9 Strong Sparkling Grape Zero Sugar is a 9.9% ABV seltzer from Australia, sold as a case of 24 x 375ml cans with about 2.9 standard drinks per can. Serve very cold in the can, or over ice with a slice of fruit, and pace yourself because it is stronger than most seltzers.",
       "If you are looking for zero sugar energy drink, D9 Strong Sparkling Grape Zero Sugar is available from Doctors of Whisky at $55 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ]
   },
@@ -30478,12 +30185,12 @@ export const PRODUCTS: Product[] = [
     "country": "Australia",
     "region": "Australia",
     "price": 30,
-    "abv": "4.5% - 5.0%",
-    "size": "330ml (Case of 24)",
+    "abv": "9.9%",
+    "size": "500ml (Case of 24)",
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-saint-d9-sparkling-lemon.jpg"
     ],
-    "description": "Saint D9 Sparkling Lemon Zero Sugar (330ml (Case of 24)) is a seltzer from Saint, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "Saint D9 Sparkling Lemon Zero Sugar is a zero sugar sparkling seltzer from Saint, made in Australia. It is an alcoholic drink at 9.9% ABV, sold as a case of 24 x 500ml cans, and each can contains about 3.9 standard drinks. Buy it online from Doctors of Whisky with insured delivery across Australia. Buyers must be 18 or over.",
     "tastingNotes": {
       "nose": "Crisp citrus and orchard blossom.",
       "palate": "Clean malt sweetness with a crisp bite.",
@@ -30520,7 +30227,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "question": "What size and strength is Saint D9 Sparkling Lemon Zero Sugar?",
-        "answer": "Saint D9 Sparkling Lemon Zero Sugar is sold in a 330ml (Case of 24) format. It is listed at 4.5% - 5.0% ABV, and is a seltzer from Australia. Check the label for the exact strength of the batch you receive."
+        "answer": "Saint D9 Sparkling Lemon Zero Sugar is sold as a case of 24 x 500ml cans. It is 9.9% ABV, about 3.9 standard drinks per can, so it is much stronger than most seltzers. Check the label for the exact strength of the batch you receive."
       },
       {
         "question": "How should I serve Saint D9 Sparkling Lemon Zero Sugar?",
@@ -30532,10 +30239,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Saint D9 Sparkling Lemon Zero Sugar Online Australia",
-    "metaDescription": "Buy Saint D9 Sparkling Lemon Zero Sugar (330ml (Case of 24)) online in Australia for $30 AUD. Seltzer from Saint. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Saint D9 Sparkling Lemon Zero Sugar (24 x 500ml cans, 9.9% ABV) online in Australia for $30 AUD. Insured delivery, 18+ only, PayID, bank transfer or crypto.",
     "longDescription": [
       "Saint D9 Sparkling Lemon Zero Sugar comes from Saint. Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars.",
-      "Serve seltzers very cold in the can, or over ice with a slice of fruit. Saint D9 Sparkling Lemon Zero Sugar is listed at 4.5% - 5.0% ABV in a 330ml (Case of 24) format, from Australia.",
+      "Saint D9 Sparkling Lemon Zero Sugar is a 9.9% ABV seltzer from Australia, sold as a case of 24 x 500ml cans with about 3.9 standard drinks per can. Serve very cold in the can, or over ice with a slice of fruit, and pace yourself because it is stronger than most seltzers.",
       "If you are looking for Saint Seltzer, Saint D9 Sparkling Lemon Zero Sugar is available from Doctors of Whisky at $30 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ]
   },
@@ -30551,12 +30258,12 @@ export const PRODUCTS: Product[] = [
     "country": "Australia",
     "region": "Australia",
     "price": 40,
-    "abv": "4.5% - 5.0%",
-    "size": "330ml (Case of 24)",
+    "abv": "9.9%",
+    "size": "500ml (Case of 24)",
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-saint-d9-sparkling-peach.jpg"
     ],
-    "description": "Saint D9 Sparkling Peach Zero Sugar (330ml (Case of 24)) is a seltzer from Saint, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "Saint D9 Sparkling Peach Zero Sugar is a zero sugar sparkling seltzer from Saint, made in Australia. It is an alcoholic drink at 9.9% ABV, sold as a case of 24 x 500ml cans, and each can contains about 3.9 standard drinks. Buy it online from Doctors of Whisky with insured delivery across Australia. Buyers must be 18 or over.",
     "tastingNotes": {
       "nose": "Fresh hops and pale malt.",
       "palate": "Balanced fruit and refreshing acidity.",
@@ -30594,7 +30301,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "question": "What size and strength is Saint D9 Sparkling Peach Zero Sugar?",
-        "answer": "Saint D9 Sparkling Peach Zero Sugar is sold in a 330ml (Case of 24) format. It is listed at 4.5% - 5.0% ABV, and is a seltzer from Australia. Check the label for the exact strength of the batch you receive."
+        "answer": "Saint D9 Sparkling Peach Zero Sugar is sold as a case of 24 x 500ml cans. It is 9.9% ABV, about 3.9 standard drinks per can, so it is much stronger than most seltzers. Check the label for the exact strength of the batch you receive."
       },
       {
         "question": "How should I serve Saint D9 Sparkling Peach Zero Sugar?",
@@ -30606,10 +30313,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Saint D9 Sparkling Peach Zero Sugar Online Australia",
-    "metaDescription": "Buy Saint D9 Sparkling Peach Zero Sugar (330ml (Case of 24)) online in Australia for $40 AUD. Seltzer from Saint. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Saint D9 Sparkling Peach Zero Sugar (24 x 500ml cans, 9.9% ABV) online in Australia for $40 AUD. Insured delivery, 18+ only, PayID, bank transfer or crypto.",
     "longDescription": [
       "Saint D9 Sparkling Peach Zero Sugar sits in our zero sugar range, alongside 2 other Saint bottles. Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars.",
-      "Serve seltzers very cold in the can, or over ice with a slice of fruit. Saint D9 Sparkling Peach Zero Sugar is listed at 4.5% - 5.0% ABV in a 330ml (Case of 24) format, from Australia.",
+      "Saint D9 Sparkling Peach Zero Sugar is a 9.9% ABV seltzer from Australia, sold as a case of 24 x 500ml cans with about 3.9 standard drinks per can. Serve very cold in the can, or over ice with a slice of fruit, and pace yourself because it is stronger than most seltzers.",
       "Buy Saint D9 Sparkling Peach Zero Sugar online in Australia for $40 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ]
   },
@@ -30625,12 +30332,12 @@ export const PRODUCTS: Product[] = [
     "country": "Australia",
     "region": "Australia",
     "price": 25,
-    "abv": "4.5% - 5.0%",
-    "size": "330ml (Case of 24)",
+    "abv": "9.9%",
+    "size": "375ml (Case of 24)",
     "images": [
       "/images/products/zero-sugar-seltzers/zero-sugar--tds-strong-double-sparkling-lemon-9.jpg"
     ],
-    "description": "Strong Double Sparkling Lemon Zero Sugar (330ml (Case of 24)) is a seltzer from Strong, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "description": "Strong Double Sparkling Lemon Zero Sugar is a zero sugar sparkling seltzer from Strong, made in Australia. It is an alcoholic drink at 9.9% ABV, sold as a case of 24 x 375ml cans, and each can contains about 2.9 standard drinks. Buy it online from Doctors of Whisky with insured delivery across Australia. Buyers must be 18 or over.",
     "tastingNotes": {
       "nose": "Ripe berry fruit and soft oak.",
       "palate": "Silky texture with elegant fruit layers.",
@@ -30667,7 +30374,7 @@ export const PRODUCTS: Product[] = [
       },
       {
         "question": "What size and strength is Strong Double Sparkling Lemon Zero Sugar?",
-        "answer": "Strong Double Sparkling Lemon Zero Sugar is sold in a 330ml (Case of 24) format. It is listed at 4.5% - 5.0% ABV, and is a seltzer from Australia. Check the label for the exact strength of the batch you receive."
+        "answer": "Strong Double Sparkling Lemon Zero Sugar is sold as a case of 24 x 375ml cans. It is 9.9% ABV, about 2.9 standard drinks per can, so it is much stronger than most seltzers. Check the label for the exact strength of the batch you receive."
       },
       {
         "question": "How should I serve Strong Double Sparkling Lemon Zero Sugar?",
@@ -30679,10 +30386,10 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Strong Double Sparkling Lemon Zero Sugar Online Australia",
-    "metaDescription": "Buy Strong Double Sparkling Lemon Zero Sugar (330ml (Case of 24)) online in Australia for $25 AUD. Seltzer from Strong. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Strong Double Sparkling Lemon Zero Sugar (24 x 375ml cans, 9.9% ABV) online in Australia for $25 AUD. Insured delivery, 18+ only, PayID, bank transfer or crypto.",
     "longDescription": [
       "Strong Double Sparkling Lemon Zero Sugar comes from Strong. Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars.",
-      "Serve seltzers very cold in the can, or over ice with a slice of fruit. Strong Double Sparkling Lemon Zero Sugar is listed at 4.5% - 5.0% ABV in a 330ml (Case of 24) format, from Australia.",
+      "Strong Double Sparkling Lemon Zero Sugar is a 9.9% ABV seltzer from Australia, sold as a case of 24 x 375ml cans with about 2.9 standard drinks per can. Serve very cold in the can, or over ice with a slice of fruit, and pace yourself because it is stronger than most seltzers.",
       "If you are looking for Strong Seltzer, Strong Double Sparkling Lemon Zero Sugar is available from Doctors of Whisky at $25 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ]
   },

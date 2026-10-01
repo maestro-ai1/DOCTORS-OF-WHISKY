@@ -57,6 +57,28 @@ const nextConfig: NextConfig = {
         destination: 'https://doctorsofwhisky.com.au/:path*',
         permanent: true,
       },
+      // 'Heinenken' typo fixed in product slugs.
+      {
+        source: '/shop/beer-premix-wine/heinenken-500ml-lager',
+        destination: '/shop/beer-premix-wine/heineken-500ml-lager/',
+        permanent: true,
+      },
+      {
+        source: '/shop/beer-premix-wine/heinenken-500ml-imported-beer',
+        destination: '/shop/beer-premix-wine/heineken-500ml-imported-beer/',
+        permanent: true,
+      },
+      // Regular (alcoholic) beers were wrongly duplicated into the non-alcoholic collection; removed.
+      ...[
+        'corona-brown-box-355-bottles-non-alcoholic-beer',
+        'modelo-especial-non-alcoholic-beer',
+        'peroni-nastro-6pack-non-alcoholic-beer',
+        'heinenken-500ml-non-alcoholic-beer',
+      ].map((slug) => ({
+        source: `/shop/beer-premix-wine/${slug}`,
+        destination: '/shop/beer-premix-wine/collection/non-alcoholic-beer/',
+        permanent: true,
+      })),
     ];
   },
   async headers() {

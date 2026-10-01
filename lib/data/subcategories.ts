@@ -1806,7 +1806,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "lager",
     "name": "Lager",
     "category": "beer-premix-wine",
-    "description": "Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heinenken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heineken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/lager/lager--tds-budweiser-330ml.jpg",
     "primaryKeyword": "lager",
     "secondaryKeywords": [
@@ -1842,7 +1842,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which lager brands do you sell?",
-        "answer": "Our lager range includes Budweiser (1), Corona (1), Heinenken (1), Modelo (1) and Peroni (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our lager range includes Budweiser (1), Corona (1), Heineken (1), Modelo (1) and Peroni (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is lager?",
@@ -1858,7 +1858,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste. Doctors of Whisky lists 5 lager bottles across 5 brands, including Budweiser, Corona, Heinenken and Modelo, priced from $30 to $60 AUD.",
+      "Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste. Doctors of Whisky lists 5 lager bottles across 5 brands, including Budweiser, Corona, Heineken and Modelo, priced from $30 to $60 AUD.",
       "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass.",
       "To buy lager online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
@@ -1867,7 +1867,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "imported-beer",
     "name": "Imported Beer",
     "category": "beer-premix-wine",
-    "description": "Buy Imported Beer online in Australia: 5 bottles from Corona, Heinenken and Hoegaarden, priced from $40 to $70 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Imported Beer online in Australia: 5 bottles from Corona, Heineken and Hoegaarden, priced from $40 to $70 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg",
     "primaryKeyword": "imported beer",
     "secondaryKeywords": [
@@ -1903,7 +1903,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which imported beer brands do you sell?",
-        "answer": "Our imported beer range includes Corona (1), Heinenken (1), Hoegaarden (1), Modelo (1) and Peroni (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our imported beer range includes Corona (1), Heineken (1), Hoegaarden (1), Modelo (1) and Peroni (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is imported beer?",
@@ -1919,7 +1919,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Imported beer covers international lagers, ales and stouts brewed overseas. Doctors of Whisky lists 5 imported beer bottles across 5 brands, including Corona, Heinenken, Hoegaarden and Modelo, priced from $40 to $70 AUD.",
+      "Imported beer covers international lagers, ales and stouts brewed overseas. Doctors of Whisky lists 5 imported beer bottles across 5 brands, including Corona, Heineken, Hoegaarden and Modelo, priced from $40 to $70 AUD.",
       "Serve imported beer at the temperature recommended for its style: cold for lagers, slightly warmer for ales and stouts.",
       "To buy imported beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
@@ -1928,7 +1928,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "non-alcoholic-beer",
     "name": "Non-Alcoholic Beer",
     "category": "beer-premix-wine",
-    "description": "Buy Non-Alcoholic Beer online in Australia: 7 bottles from Heineken, Clausthaler and Corona, priced from $25 to $55 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Non-Alcoholic Beer online in Australia: 3 bottles from Heineken and Clausthaler, priced from $25 to $45 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-clausthaler-original-500ml.jpg",
     "primaryKeyword": "non alcoholic beer",
     "secondaryKeywords": [
@@ -1956,7 +1956,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does non alcoholic beer cost in Australia?",
-        "answer": "Non-Alcoholic Beer at Doctors of Whisky ranges from $25 AUD (Heineken Zero Stubs Non-Alcoholic Beer) to $55 AUD (Peroni Nastro 6pack Non-Alcoholic Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Non-Alcoholic Beer at Doctors of Whisky ranges from $25 AUD (Heineken Zero Stubs Non-Alcoholic Beer) to $45 AUD (Clausthaler Original 500ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy non alcoholic beer online in Australia?",
@@ -1964,7 +1964,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which non-alcoholic beer brands do you sell?",
-        "answer": "Our non-alcoholic beer range includes Heineken (2), Clausthaler (1), Corona (1), Heinenken (1), Modelo (1) and Peroni (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our non-alcoholic beer range includes Heineken (2) and Clausthaler (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is non-alcoholic beer?",
@@ -1980,7 +1980,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less. Doctors of Whisky lists 7 non-alcoholic beer bottles across 6 brands, including Heineken, Clausthaler, Corona and Heinenken, priced from $25 to $55 AUD.",
+      "Non-alcoholic beer is brewed like regular beer but has the alcohol removed or limited, typically to 0.5% ABV or less. Doctors of Whisky lists 3 non-alcoholic beer bottles across 2 brands, including Heineken and Clausthaler, priced from $25 to $45 AUD.",
       "Serve non-alcoholic beer well chilled in a beer glass.",
       "To buy non alcoholic beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]

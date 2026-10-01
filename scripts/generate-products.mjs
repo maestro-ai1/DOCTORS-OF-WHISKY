@@ -144,7 +144,12 @@ for (const p of EXISTING_PRODUCTS) {
 // 2. Generate a product per processed image
 const subcategoriesOut = [];
 for (const sub of SUBCATEGORIES) {
-  const images = imageManifest[sub.slug] || [];
+  // These source images are byte-identical to the regular lager/imported-beer photos (alcoholic beers);
+  // they must not be listed as non-alcoholic beer.
+  const NOT_ALCOHOL_FREE = /corona-brown-box|modelo-especial|peroni-nastro|heinenken/i;
+  const images = (imageManifest[sub.slug] || []).filter(
+    (e) => !(sub.slug === 'non-alcoholic-beer' && NOT_ALCOHOL_FREE.test(e.webPath)),
+  );
   const kw = keywordsManifest[sub.slug];
   images.forEach((imgEntry, idx) => {
     allProducts.push(buildGeneratedProduct(sub, imgEntry, idx, kw));
