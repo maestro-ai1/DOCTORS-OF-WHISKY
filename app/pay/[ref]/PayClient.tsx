@@ -30,7 +30,6 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
   const input = useRef<HTMLInputElement>(null);
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
-  const [note, setNote] = useState('');
   const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
   const [message, setMessage] = useState('');
   const [fallback, setFallback] = useState(whatsappUrl);
@@ -65,7 +64,6 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
       const body = new FormData();
       body.set('t', token);
       body.set('file', file);
-      body.set('note', note);
       const res = await fetch(`/api/pay/${refCode}/proof/`, { method: 'POST', body });
       const data = (await res.json().catch(() => ({}))) as { success?: boolean; message?: string; error?: string; whatsappUrl?: string };
       if (res.ok && data.success) {
@@ -87,8 +85,7 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
       <div role="status" className="rounded-2xl border border-emerald-700 bg-emerald-950/60 p-5 text-center space-y-2">
         <CheckCircle2 className="w-10 h-10 text-emerald-400 mx-auto" aria-hidden="true" />
         <p className="font-bold text-emerald-100">Screenshot received</p>
-        <p className="text-sm text-emerald-200">{message}</p>
-        <p className="text-xs text-emerald-300/80">We will email you when your payment is confirmed. A tracking number will be provided.</p>
+        <p className="text-sm text-emerald-200">We will email you once your payment is confirmed.</p>
       </div>
     );
   }
@@ -96,7 +93,7 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
   return (
     <div className="space-y-3">
       <form onSubmit={send} className="rounded-2xl bg-neutral-900 border border-neutral-700 p-4 space-y-3">
-        <h2 className="font-bold text-amber-400 text-xs uppercase tracking-widest">Payment screenshot</h2>
+        <p className="text-sm text-neutral-300">Paid? Upload your payment screenshot.</p>
 
         <input ref={input} id="proof" type="file" accept={ACCEPT} className="sr-only" onChange={(e) => void choose(e.target.files?.[0])} />
         <label htmlFor="proof" className="flex flex-col items-center justify-center gap-1.5 w-full min-h-[8.5rem] px-4 text-center rounded-2xl border-2 border-dashed border-amber-700/70 bg-neutral-950 text-neutral-200 cursor-pointer hover:border-amber-500">
@@ -120,19 +117,15 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
           </div>
         )}
 
-        <label className="block text-xs text-amber-400 font-bold uppercase tracking-widest" htmlFor="proof-note">Note (optional)</label>
-        <textarea id="proof-note" value={note} onChange={(e) => setNote(e.target.value)} maxLength={300} rows={3} placeholder="Anything we should know…"
-          className="w-full px-3 py-2.5 rounded-xl bg-neutral-950 border border-neutral-800 text-sm text-neutral-100 focus:border-amber-500 focus:outline-none" />
-
         {state === 'error' && <p role="alert" className="text-xs rounded-lg border border-red-800 bg-red-950/50 text-red-200 px-3 py-2">{message}</p>}
 
         <button type="submit" disabled={!file || state === 'sending'} className="w-full min-h-[3rem] rounded-xl bg-amber-500 hover:bg-amber-400 disabled:opacity-40 text-neutral-950 font-bold text-sm flex items-center justify-center gap-2">
-          {state === 'sending' ? <><Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" /> Sending…</> : 'Send Payment Confirmation'}
+          {state === 'sending' ? <><Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" /> Sending…</> : 'Send screenshot'}
         </button>
       </form>
 
-      <a href={fallback} target="_blank" rel="noopener noreferrer" className="w-full min-h-[3rem] rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center justify-center gap-2">
-        <MessageCircle className="w-4 h-4" aria-hidden="true" /> Confirm via WhatsApp
+      <a href={fallback} target="_blank" rel="noopener noreferrer" className="w-full min-h-[2.75rem] rounded-xl border border-emerald-700 text-emerald-300 hover:bg-emerald-950 font-semibold text-sm flex items-center justify-center gap-2">
+        <MessageCircle className="w-4 h-4" aria-hidden="true" /> Or send it on WhatsApp
       </a>
     </div>
   );

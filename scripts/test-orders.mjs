@@ -142,12 +142,12 @@ r = await authed(`/api/admin/orders/${mainRef}/preview`, { method: 'POST', body:
 j = await r.json();
 const money = `$${mainTotal.toLocaleString('en-AU', { minimumFractionDigits: 2 })} AUD`;
 ok(j.ok && j.subject.includes(mainRef) && j.html.includes(money), 'preview shows the invoice with order number and amount', j.subject);
-ok(j.html.includes('PayID: payments@doctorsofwhisky.com.au') && j.html.includes('Payment should be made within minutes') && j.html.includes('Use your order number as the payment reference'), 'preview contains the pasted details and the payment instructions');
+ok(j.html.includes('PayID: payments@doctorsofwhisky.com.au') && j.html.includes('pay within minutes') && j.html.includes('as the payment reference'), 'preview contains the pasted details and the payment instructions');
 ok(j.html.includes('Your order is confirmed once payment is received') && j.html.includes('A tracking number will be provided') && j.html.includes('Refund or re-ship within 7 days'), 'preview contains the before-it-ships terms');
-ok(j.html.includes(`/pay/${mainRef}/?t=${tokenFor(mainRef)}`) && j.html.includes('Upload Confirmation'), 'preview has a working Upload button link with a secure token');
-ok(j.html.includes('https://wa.me/61420128746?text=') && j.html.includes('Confirm via WhatsApp'), 'preview has a Confirm via WhatsApp button to +61420128746');
-ok(j.html.includes('Reply to us') && j.html.includes('mailto:sales@doctorsofwhisky.com.au') && j.html.includes('Once paid, send your payment screenshot'), 'preview has the Reply to us button and the send-your-screenshot line');
-ok(j.html.includes('Before your order ships') && j.html.includes('&#10003;'), 'terms are shown as a tick list');
+ok(j.html.includes(`/pay/${mainRef}/?t=${tokenFor(mainRef)}`) && j.html.includes('Upload screenshot'), 'preview has a working Upload button link with a secure token');
+ok(j.html.includes('https://wa.me/61420128746?text=') && j.html.includes('>WhatsApp</a>'), 'preview has a WhatsApp button to +61420128746');
+ok(j.html.includes('mailto:sales@doctorsofwhisky.com.au') && j.html.includes('send us your payment screenshot'), 'preview has the email fallback and the send-your-screenshot line');
+ok(!j.html.includes('Reply to us') && !j.html.includes('&#10003;') && j.html.length < 6000, 'invoice stays short: no extra buttons or tick list');
 ok(typeof j.whatsappText === 'string' && j.whatsappText.includes(mainRef) && j.whatsappText.includes(money) && j.whatsappText.includes('PayID: payments@doctorsofwhisky.com.au') && j.whatsappText.includes(`/pay/${mainRef}/?t=${tokenFor(mainRef)}`), 'WhatsApp message preview has the order number, amount, details and upload link');
 ok(String(j.whatsappUrl).startsWith('https://wa.me/61412345678?text='), "WhatsApp button opens the customer's own number");
 r = await authed(`/api/admin/orders/${mainRef}/preview`, { method: 'POST', body: JSON.stringify({ kind: 'payment_details', paymentDetails: '<script>alert(1)</script> 123456' }) });
@@ -189,8 +189,8 @@ ok(/This link is not valid/.test(html), 'valid-looking token for a non-existent 
 r = await fetch(BASE + PAY + '?t=' + tokenFor(mainRef));
 html = await r.text();
 ok(r.status === 200 && html.includes(mainRef) && html.includes('Amount to pay') && html.includes('payments@doctorsofwhisky.com.au'), 'valid link shows the amount, reference and the pasted payment details');
-ok(html.includes('Payment should be made within minutes') && html.includes('Refund or re-ship within 7 days') && html.includes('Payment screenshot') && html.includes('Send Payment Confirmation') && html.includes('Having trouble?'), 'payment page shows the instructions, terms, upload box and help line');
-ok(html.includes('https://wa.me/61420128746?text=') && html.includes('Confirm via WhatsApp'), 'payment page has the WhatsApp button');
+ok(html.includes('Refund or re-ship within 7 days') && html.includes('Upload your payment screenshot') && html.includes('Send screenshot'), 'payment page shows the terms line and the upload box');
+ok(html.includes('https://wa.me/61420128746?text=') && html.includes('WhatsApp'), 'payment page has the WhatsApp link');
 ok((r.headers.get('x-robots-tag') || '').includes('noindex') && /noindex/.test(html), 'payment page is noindex');
 
 console.log('\nScreenshot upload');
@@ -242,7 +242,7 @@ j = await r.json();
 ok(r.status === 200 && j.order.status === 'paid', 'payment received moves the order to paid');
 r = await fetch(BASE + PAY + '?t=' + tokenFor(mainRef));
 html = await r.text();
-ok(html.includes('Payment received') && !html.includes('Send Payment Confirmation'), 'payment page switches to "payment received" and hides the upload box');
+ok(html.includes('Payment received') && !html.includes('Send screenshot'), 'payment page switches to "payment received" and hides the upload box');
 r = await authed(`/api/admin/orders/${mainRef}/send`, { method: 'POST', body: JSON.stringify({ kind: 'dispatched', tracking: '3ABC123456789' }) });
 j = await r.json();
 ok(r.status === 200 && j.order.status === 'dispatched' && j.order.trackingNumber === '3ABC123456789', 'dispatch stores the tracking number and moves the order to dispatched');
