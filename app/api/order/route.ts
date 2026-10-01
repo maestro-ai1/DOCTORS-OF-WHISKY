@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { CONTACT } from '@/lib/config';
 import { clientIp } from '@/lib/admin/guard';
-import { customerConfirmationEmail, orderWhatsappText, salesNotificationEmail, whatsappLink } from '@/lib/mail/templates';
+import { customerOrderEmail, orderWhatsappText, salesNotificationEmail, whatsappLink } from '@/lib/mail/templates';
 import { SALES_EMAIL, isMailConfigured, sendMail } from '@/lib/mail/transport';
 import { priceOrder } from '@/lib/orders/pricing';
 import { getOrder, isPersistent, newOrderRef, rateLimit, saveOrder } from '@/lib/orders/store';
@@ -97,7 +97,7 @@ export async function POST(req: NextRequest) {
       return sendMail({ to: SALES_EMAIL(), subject: m.subject, html: m.html, text: m.text, replyTo: order.customer.email });
     })(),
     (async () => {
-      const m = customerConfirmationEmail(order);
+      const m = customerOrderEmail(order);
       return sendMail({ to: order.customer.email, subject: m.subject, html: m.html, text: m.text, replyTo: SALES_EMAIL() });
     })(),
   ]);

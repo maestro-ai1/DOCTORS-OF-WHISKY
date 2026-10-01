@@ -95,9 +95,9 @@ function ThankYouOrderContent() {
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
             <span>Next steps:</span>
           </h4>
-          <p className="text-neutral-400">1. Pay using your chosen method and include {orderRef} as the payment description.</p>
-          <p className="text-neutral-400">2. We confirm your payment and prepare your bottles for insured courier dispatch.</p>
-          <p className="text-neutral-400">3. You will receive tracking details by email. A signature and photo ID (18+) are required on delivery.</p>
+          <p className="text-neutral-400">1. We will email your payment details shortly. Please check your inbox (and spam).</p>
+          <p className="text-neutral-400">2. Pay using those details with {orderRef} as the payment reference, then send us a screenshot (upload link in the email, or WhatsApp).</p>
+          <p className="text-neutral-400">3. Your order is confirmed once payment is received. A tracking number will be provided. Refund or re-ship within 7 days.</p>
         </div>
 
         <div className="space-y-3 pt-2">

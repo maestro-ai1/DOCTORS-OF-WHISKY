@@ -48,3 +48,10 @@ Also covered: contact form (`/api/contact/`) now emails the shop and reports rea
 
 ## Changing the passkey later
 Re-run the hash script, update `ADMIN_PASSWORD_HASH` (and optionally `ADMIN_SESSION_SECRET`) in Vercel and redeploy. All sessions are invalidated.
+
+## Customer payment flow (current)
+1. Customer orders: first email is 'Order confirmed: awaiting payment' (no payment details yet). You get a 'New order' email.
+2. In /admin/ open the order, step 1 'Payment details': paste (or use Template), check the preview, press Send to customer (or send via WhatsApp). The customer gets an invoice email with the amount, the order number as payment reference, your details, the instructions and three buttons: I've Paid, Upload Confirmation / Confirm via WhatsApp / Reply to us.
+3. The Upload button opens /pay/<order>/?t=<private token>: a private page where the customer sees the amount and details and uploads a screenshot (JPG, PNG, WebP, HEIC or PDF up to 4 MB). It arrives in sales@ as an email attachment and the order shows a screenshot badge.
+4. Step 2 'Payment received' emails the customer that the order is confirmed. Step 3 'Dispatched' emails the tracking number. Status changes automatically.
+Links use ADMIN_SESSION_SECRET (or ORDER_LINK_SECRET) to sign each customer's link: changing it invalidates links already sent.

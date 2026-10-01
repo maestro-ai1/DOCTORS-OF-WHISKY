@@ -38,6 +38,7 @@ export interface MailInput {
   text: string;
   html: string;
   replyTo?: string;
+  attachments?: { filename: string; content: Buffer; contentType?: string }[];
 }
 
 export interface MailResult {
@@ -51,9 +52,9 @@ export async function sendMail(input: MailInput): Promise<MailResult> {
   if (!isMailConfigured()) return { ok: false, error: 'Email is not configured (ZOHO_SMTP_USER / ZOHO_SMTP_PASS missing).' };
   const from = `"${MAIL_FROM_NAME()}" <${process.env.ZOHO_SMTP_USER || SALES_EMAIL()}>`;
   try {
-    const message = { from, to: input.to, subject: input.subject, text: input.text, html: input.html, replyTo: input.replyTo || SALES_EMAIL() };
+    const message = { from, to: input.to, subject: input.subject, text: input.text, html: input.html, replyTo: input.replyTo || SALES_EMAIL(), attachments: input.attachments };
     await transporter().sendMail(message);
-    if (isDryRun()) console.log('[mail:dry-run]', JSON.stringify({ from: message.from, to: message.to, replyTo: message.replyTo, subject: message.subject, textBytes: message.text.length, htmlBytes: message.html.length }));
+    if (isDryRun()) console.log('[mail:dry-run]', JSON.stringify({ from: message.from, to: message.to, replyTo: message.replyTo, subject: message.subject, textBytes: message.text.length, htmlBytes: message.html.length, attachments: (input.attachments || []).map((a) => `${a.filename} (${a.content.length}B)`) }));
     return { ok: true, dryRun: isDryRun() };
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);

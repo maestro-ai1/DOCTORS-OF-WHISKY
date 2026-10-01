@@ -7,7 +7,8 @@ import { ShieldCheck, AlertTriangle } from 'lucide-react';
 
 export function AgeGateModal() {
   const pathname = usePathname();
-  const isStaffArea = pathname?.startsWith('/admin') ?? false; // the staff portal is not a shopping page
+  // Not shopping pages: the staff portal, and the customer payment page (18+ was already confirmed when the order was placed).
+  const isStaffArea = (pathname?.startsWith('/admin') || pathname?.startsWith('/pay/')) ?? false;
   const [isOpen, setIsOpen] = useState(false);
   const [rejected, setRejected] = useState(false);
 

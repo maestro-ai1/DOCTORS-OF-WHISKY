@@ -55,6 +55,7 @@ console.log('Changing the hash or the secret signs everyone out.');
 
 // Copy both lines to the clipboard so they can be pasted straight into the Vercel "Add Environment Variable" form.
 try {
+  if (process.env.NO_CLIPBOARD === '1') throw new Error('clipboard disabled'); // used by automated tests
   const { spawnSync } = await import('node:child_process');
   const cmd = process.platform === 'win32' ? ['clip'] : process.platform === 'darwin' ? ['pbcopy'] : ['xclip', '-selection', 'clipboard'];
   const r = spawnSync(cmd[0], cmd.slice(1), { input: lines, encoding: 'utf8' });
