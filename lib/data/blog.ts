@@ -1,7 +1,8 @@
 import { BlogPost } from '@/lib/types';
 import { BLOG_EXTRA } from '@/lib/data/blog-extra';
+import { BLOG_LEADS, BLOG_TITLES } from '@/lib/data/blog-leads';
 
-export const BLOG_POSTS: BlogPost[] = [
+const BASE_POSTS: BlogPost[] = [
   {
     "slug": "single-malt-vs-blended-scotch",
     "title": "Single Malt vs Blended Scotch: What’s the Real Difference?",
@@ -1479,11 +1480,23 @@ export const BLOG_POSTS: BlogPost[] = [
   }
 ];
 
+/** Base post + SEO extensions (long-form sections, FAQs, keywords) + answer-first lead + keyword-aligned titles. */
+function withExtras(post: BlogPost): BlogPost {
+  const extra = BLOG_EXTRA[post.slug];
+  const lead = BLOG_LEADS[post.slug];
+  const titles = BLOG_TITLES[post.slug];
+  return {
+    ...post,
+    ...(extra || {}),
+    ...(titles ? { title: titles.title, ...(titles.seoTitle ? { seoTitle: titles.seoTitle } : {}) } : {}),
+    body: lead ? [lead, ...post.body] : post.body,
+  };
+}
+
+export const BLOG_POSTS: BlogPost[] = BASE_POSTS.map(withExtras);
+
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
-  const post = BLOG_POSTS.find(p => p.slug === slug);
-  if (!post) return undefined;
-  const extra = BLOG_EXTRA[slug];
-  return extra ? { ...post, ...extra } : post;
+  return BLOG_POSTS.find((p) => p.slug === slug);
 }
 
 export function getRelatedBlogPosts(post: BlogPost, limit = 3): BlogPost[] {

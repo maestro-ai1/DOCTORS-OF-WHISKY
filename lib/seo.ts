@@ -5,7 +5,7 @@ import type { Product } from '@/lib/types';
 
 export const BASE_URL = `https://${SITE.domain}`;
 /** Bump when page content genuinely changes — used for sitemap <lastmod> and og:updated_time. */
-export const CONTENT_UPDATED = '2026-09-29';
+export const CONTENT_UPDATED = '2026-10-01';
 
 export const DEFAULT_OG_IMAGE = {
   url: `${BASE_URL}/og-default.png`,
