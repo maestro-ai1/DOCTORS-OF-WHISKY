@@ -88,10 +88,12 @@ export function buildMetadata(input: PageMetaInput): Metadata {
 // ---------- hidden keyword tags (meta keywords + JSON-LD `keywords`, never rendered as visible text) ----------
 
 // Competitor retailers, typos and non-English variants the keyword bank returns but we must not tag.
-const TAG_BLOCKLIST = /\b(dan murphys?|bws|liquorland|first choice|woolworths|coles|aldi|barboun)\b/;
+const TAG_BLOCKLIST = /\b(dan murphys?|bws|liquorland|first choice|woolworths|coles|aldi|barboun|costco|amazon|walmart|target|total wine|bevmo|ebay|kmart|big w|safeway|kroger|tesco|lcbo)\b/;
+// Informational / non-purchase phrasing is not a commercial tag.
+const TAG_INFO = /\b(percentage|percent|abv|proof|calories|carbs|alcohol content|how many|how much|what is|branding|logo|meaning|history|symbol|pronounce|recipes?|cocktails?|reviews?|reddit|largest|biggest|giant|huge|mini|miniature)\b/;
 
 function isCleanTag(key: string): boolean {
-  if (TAG_BLOCKLIST.test(key)) return false;
+  if (TAG_BLOCKLIST.test(key) || TAG_INFO.test(key)) return false;
   if (/(.)\1{2,}/.test(key)) return false; // "julioooo"
   if (/[^\x00-\x7f]/.test(key.normalize('NFD').replace(/[̀-ͯ]/g, ''))) return false;
   if (/\bbrands?$/.test(key)) return false; // "don julio brands"

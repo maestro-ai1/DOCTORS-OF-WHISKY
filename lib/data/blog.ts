@@ -13,7 +13,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Neither style is objectively “better.” Single malts tend to command higher prices and stronger collector interest because they’re scarcer and more distillery-specific, which is why rare single malt releases routinely outperform blends at auction. Blended Scotch, meanwhile, remains the world’s best-selling whisky category because it delivers reliable, food-friendly flavour at a lower price point.",
       "When choosing between the two, think about the occasion: a rare single malt like a 25-year-old Macallan sherry oak release is a collector’s piece meant for slow sipping and cellaring, while a well-made blend is an everyday dram or a mixing whisky for cocktails. Both deserve a place in a well-stocked Australian whisky cabinet."
     ],
-    "image": "/images/products/scotch-whisky/macallan--tds-macallan-12-sherry-oak-new.jpg",
+    "image": "/images/blog/single-malt-vs-blended-scotch.webp",
     "category": "Whisky Guide",
     "date": "September 28, 2026",
     "readTime": "6 min read",
@@ -67,7 +67,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Age statements matter differently in bourbon than in Scotch. Because Kentucky summers are hot and barrels breathe more aggressively, bourbon matures faster — a 12-year-old bourbon can taste as developed as a 20-year-old Scotch. That’s also why very old bourbons can become over-oaked and bitter, whereas Scotch often needs decades to reach its peak.",
       "If you’re building out a bourbon collection, look for the mash bill, the barrel entry proof, and whether it’s a single barrel or small batch release — all of it tells you what to expect before you even pull the cork."
     ],
-    "image": "/images/products/bourbon/bourbon--tds-colonel-eh-3549f1ee-1227-490a-8304-e432e83add4e.jpg",
+    "image": "/images/blog/what-makes-bourbon-different.webp",
     "category": "Whisky Guide",
     "date": "September 24, 2026",
     "readTime": "5 min read",
@@ -115,7 +115,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "On the nose and palate, expect notes of black pepper, dill, cinnamon, and dark rye bread, balanced by the same vanilla and caramel that new charred oak barrels bring to any American whiskey. High-rye mash bills (containing 90%+ rye) push those spicy, herbal notes even further, while lower-rye examples sit closer to bourbon in sweetness.",
       "Rye is one of the most versatile whiskies behind a bar precisely because its dryness cuts through sweet vermouth and liqueurs in a way softer spirits can’t. It’s also an excellent entry point for Scotch or Japanese whisky drinkers moving into American whiskey, since the drier, spicier profile feels more familiar than bourbon’s sweetness."
     ],
-    "image": "/images/products/rye-whiskey/rye-whiskey--tds-jack-daniels-barrel-proof-rye.jpg",
+    "image": "/images/blog/beginners-guide-to-rye-whiskey.webp",
     "category": "Whisky Guide",
     "date": "September 20, 2026",
     "readTime": "5 min read",
@@ -164,7 +164,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Mizunara oak, a type of Japanese oak used for maturation, is another signature element. It’s notoriously difficult to work with (it’s porous and prone to leaking) but imparts a distinctive incense, sandalwood, and coconut character that doesn’t appear in Scotch matured purely in American or European oak.",
       "For collectors, Japanese whisky today sits in a similar space to rare Scotch: age-stated bottles from the 1990s and 2000s distillation era are increasingly scarce, while NAS (no age statement) releases have become the norm for everyday drinking expressions."
     ],
-    "image": "/images/products/japanese-whisky/nikka--tds-nikka-barrel-2-360x-1.jpg",
+    "image": "/images/blog/why-japanese-whisky-became-a-global-obsession.webp",
     "category": "Distillery Profile",
     "date": "September 16, 2026",
     "readTime": "7 min read",
@@ -217,7 +217,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Flavour-wise, Australian whisky varies enormously by producer, but a common thread is fruit-forward richness from ex-fortified wine casks (particularly old Tawny and Muscat casks from Australia’s own wine industry) layered over gentle, often lightly peated, malt character.",
       "Because production runs are so small, allocations sell out fast and rarely get restocked at the same price — which is why single-cask Australian releases, especially from Lark’s Legacy and rare cask series, have become genuine collector items rather than just a local curiosity."
     ],
-    "image": "/images/products/australian-whisky/lark--tds-lark-dark-lark-2023.jpg",
+    "image": "/images/blog/rise-of-australian-single-malt-whisky.webp",
     "category": "Australian Distilling",
     "date": "September 12, 2026",
     "readTime": "6 min read",
@@ -266,7 +266,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Water source and filtration are the final, often most marketed, variables. Brands frequently highlight glacial spring water or charcoal filtration through materials like birch or activated carbon, both aimed at achieving the ultra-clean mouthfeel that premium vodka drinkers expect.",
       "When comparing premium bottles, the honest tasting differences usually come down to mouthfeel and subtle sweetness rather than dramatic flavour — which is exactly why vodka tastings are typically done at room temperature, not ice-cold, to let those small differences actually show through."
     ],
-    "image": "/images/products/grey-goose/grey-goose--tds-grey-goose-essences-strawberry-lemongrass.jpg",
+    "image": "/images/blog/how-vodka-is-made.webp",
     "category": "Spirit Guide",
     "date": "September 8, 2026",
     "readTime": "5 min read",
@@ -315,7 +315,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Añejo (“aged”) rests for one to three years, developing deeper amber colour and much more pronounced oak, dried fruit, and caramel notes, closer in style to a young whisky. Extra añejo, a category only formalised in 2006, requires over three years in oak and produces the richest, most whisky-like tequilas on the market — Don Julio 1942 and Gran Patrón Burdeos are well-known examples finished in wine casks for additional complexity.",
       "As a rule of thumb: reach for blanco when agave flavour is the point (margaritas, palomas), reposado as an all-rounder, and añejo or extra añejo for slow sipping neat or with a single large ice cube, the way you’d treat a fine whisky."
     ],
-    "image": "/images/products/don-julio/don-julio--tds-don-julio-peggy-gou.jpg",
+    "image": "/images/blog/tequila-aging-guide-blanco-reposado-anejo.webp",
     "category": "Spirit Guide",
     "date": "September 4, 2026",
     "readTime": "6 min read",
@@ -363,7 +363,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Mezcal can also legally be made from over 30 different agave species (though espadín is most common commercially), each contributing different flavour, sweetness, and aroma, compared to tequila’s single-varietal restriction. That genetic diversity is a big part of why mezcal tasting menus can vary so dramatically bottle to bottle.",
       "Production scale differs too: much mezcal is still made by small, often family-run palenques using traditional methods, while tequila production ranges from small artisanal houses to enormous industrial operations. That’s part of why mezcal has built a reputation as the more “craft” or terroir-driven of the two categories in recent years, even though tequila remains the far bigger global category by volume."
     ],
-    "image": "/images/products/mezcal/mezcal--tds-mezcal-elote.jpg",
+    "image": "/images/blog/mezcal-vs-tequila-difference.webp",
     "category": "Spirit Guide",
     "date": "August 31, 2026",
     "readTime": "5 min read",
@@ -411,7 +411,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Calvados, by comparison, is apple (and sometimes pear) brandy from Normandy, with its own strict appellation rules. American and Australian brandies, meanwhile, have far fewer regulatory restrictions and can be made from a wider range of grapes and aging regimes, which is why quality varies more widely outside the protected European categories.",
       "On the palate, Cognac tends toward dried fruit, honey, and delicate floral notes layered over oak, while Calvados carries a more rustic, orchard-fruit character. Extremely old, prestige Cognacs like Louis XIII (a blend of eaux-de-vie some over a century old) sit at the very top of the spirits world in both price and complexity, often compared to the rarest whiskies for collector demand."
     ],
-    "image": "/images/products/cognac-brandy/cognac--tds-camus-special-dry-flask-2.jpg",
+    "image": "/images/blog/cognac-vs-brandy-explained.webp",
     "category": "Spirit Guide",
     "date": "August 27, 2026",
     "readTime": "5 min read",
@@ -459,7 +459,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Australian gin has become a strong example of this contemporary trend, with distillers foregrounding native botanicals like lemon myrtle, finger lime, and wattleseed to create a distinctly local flavour profile that’s impossible to replicate with classic European juniper-and-citrus recipes.",
       "When choosing a gin for a classic martini or gin and tonic, a traditional London Dry style gives the most reliably “ginny” result. For a gin highball or a cocktail where you want the botanicals to shine on their own, a contemporary style with a distinctive local character is usually the better pick."
     ],
-    "image": "/images/products/gin/gin--tds-tanqueray-50ml.jpg",
+    "image": "/images/blog/london-dry-vs-contemporary-gin.webp",
     "category": "Spirit Guide",
     "date": "August 23, 2026",
     "readTime": "5 min read",
@@ -507,7 +507,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Spiced rum starts as a white or lightly aged rum base that has cinnamon, vanilla, clove, or other spices (and often caramel colouring) added after distillation. It’s built for easy sipping and mixing rather than nuance — closer to a flavoured spirit than a traditionally aged one.",
       "Dark rum is aged in oak barrels, often for several years, picking up caramel, toffee, dried fruit, and baking spice notes much like a young whisky or brandy. Premium aged dark rums from Jamaica, Barbados, and Guyana are increasingly treated as serious sipping spirits by collectors, with some producers releasing single-cask, vintage-dated expressions comparable in prestige to rare whisky."
     ],
-    "image": "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg",
+    "image": "/images/blog/white-spiced-dark-rum-guide.webp",
     "category": "Spirit Guide",
     "date": "August 19, 2026",
     "readTime": "5 min read",
@@ -556,7 +556,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kweichow Moutai, made using the sauce-aroma method in Guizhou province, is the most famous and valuable baijiu brand globally, regularly cited as one of the most valuable spirits companies in the world by market capitalisation — a reflection of both its cultural status in China and genuine collector demand for aged and limited releases.",
       "For newcomers, baijiu is best approached with an open mind: its fermented, savoury, sometimes soy-sauce-like aromatics are genuinely unlike anything in Western spirits, and it rewards being tasted the traditional way — in small measures, at room temperature, often alongside food."
     ],
-    "image": "/images/products/baijiu/baijiu--tds-shui-jing-fang-red-fortune.jpg",
+    "image": "/images/blog/what-is-baijiu.webp",
     "category": "Spirit Guide",
     "date": "August 15, 2026",
     "readTime": "5 min read",
@@ -605,7 +605,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Amaro has seen a major resurgence in craft cocktail bars over the last decade, prized by bartenders for the complexity and bitterness it can add to a drink without needing a full bitters dash. A Negroni, for instance, is essentially built around Campari, itself a bitter Italian aperitivo liqueur in the same broad family.",
       "For a home bar, a single well-chosen amaro can do double duty — sipped neat over ice after dinner, or used to add depth to classic cocktails that would otherwise taste flat."
     ],
-    "image": "/images/products/amaro/amaro--tds-caffo-amaro-del-capo.jpg",
+    "image": "/images/blog/amaro-101-italy-bittersweet-tradition.webp",
     "category": "Liqueur Guide",
     "date": "August 11, 2026",
     "readTime": "5 min read",
@@ -653,7 +653,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Orange liqueurs (Cointreau, Grand Marnier) and other fruit or spice liqueurs (cinnamon, amaretto-style almond liqueurs like Disaronno) round out this category, each built around a dominant flavour note rather than bitterness, making them far more approachable for casual drinkers than amaro or herbal liqueurs.",
       "These liqueurs are best stored upright in a cool, dark place, and while shelf-stable cream liqueurs have a long life, they’re at their best consumed within a couple of years of purchase for the freshest flavour — always check the bottle for a best-before guide."
     ],
-    "image": "/images/products/baileys-irish-cream/baileys-irish-cream--tds-baileys-cinnamon-scroll.jpg",
+    "image": "/images/blog/best-cream-coffee-liqueurs-for-cocktails.webp",
     "category": "Liqueur Guide",
     "date": "August 7, 2026",
     "readTime": "4 min read",
@@ -701,7 +701,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Mass-market soju, by contrast, is typically produced via continuous column distillation to a very high proof, then heavily diluted and lightly sweetened with ingredients like aspartame or stevia, resulting in the smooth, faintly sweet, low-ABV profile most people associate with the category today.",
       "Because of its low alcohol content and mild flavour, soju is traditionally drunk in shot-sized pours shared over a meal in Korean dining culture, rather than sipped slowly — a social ritual that’s a large part of why it remains one of the most consumed spirits on earth despite limited recognition outside Korea and its diaspora."
     ],
-    "image": "/images/products/soju/soju--tds-charm-malgeun-soju-lychee.jpg",
+    "image": "/images/blog/soju-explained-koreas-spirit.webp",
     "category": "Spirit Guide",
     "date": "August 3, 2026",
     "readTime": "4 min read",
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "When comparing a local lager to an imported one, freshness genuinely matters more than most drinkers realise — lager is best consumed relatively young, and imported beer that’s spent months in transit and storage can taste noticeably flatter or more oxidised than the same beer fresh from a local brewery.",
       "For the best experience with either style, look for a clear bottling or best-before date, store bottles cold and out of direct light (UV exposure is what causes the “skunked” aroma in green or clear glass bottles), and drink imported beer sooner rather than later after purchase."
     ],
-    "image": "/images/products/imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg",
+    "image": "/images/blog/lager-vs-imported-beer-buyers-guide.webp",
     "category": "Beer Guide",
     "date": "July 30, 2026",
     "readTime": "4 min read",
@@ -797,7 +797,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Modern brewers have also gotten much better at compensating for the body and mouthfeel that alcohol normally provides, using specialty malts, later hop additions, and careful yeast selection to build back the fullness that early non-alcoholic beers famously lacked.",
       "When shopping non-alcoholic, look for a recent production date — the category is improving quickly, and beers made even two or three years ago often taste noticeably thinner than current releases from the same brewery."
     ],
-    "image": "/images/products/non-alcoholic-beer/non-alcoholic-beer--tds-clausthaler-original-500ml.jpg",
+    "image": "/images/blog/why-non-alcoholic-beer-is-booming.webp",
     "category": "Beer Guide",
     "date": "July 26, 2026",
     "readTime": "4 min read",
@@ -845,7 +845,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Australia’s cool-climate apple-growing regions — particularly in Tasmania, the Adelaide Hills, and parts of Victoria — have become hotspots for small-batch craft cider, often using heritage or single-orchard apple varieties that large commercial producers ignore.",
       "Cider pairs particularly well with pork, cheese, and richer dishes thanks to its natural acidity, and dry ciders in particular make an excellent substitute for white wine at the table for drinkers looking for something a little different."
     ],
-    "image": "/images/products/cider/cider--tds-little-fat-lamb-strawberry-lime.jpg",
+    "image": "/images/blog/guide-to-australian-craft-cider.webp",
     "category": "Beer Guide",
     "date": "July 22, 2026",
     "readTime": "4 min read",
@@ -893,7 +893,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Tannin is the other key variable: it’s the drying, slightly bitter sensation on the palate from grape skins and oak aging, and it softens with time in the bottle. A young, tannic Cabernet can benefit enormously from decanting or a few more years of cellaring, while a soft, fruit-forward wine is usually ready to drink immediately.",
       "For gifting or special occasions, look for wines with strong critic scores, limited production, or well-known vintage years — but for everyday drinking, matching body and tannin to the meal (or the mood) will get you a better result than chasing a famous label alone."
     ],
-    "image": "/images/products/red-wine/red-wine--stefaniestateshirazcopy.jpg",
+    "image": "/images/blog/how-to-choose-red-wine.webp",
     "category": "Wine Guide",
     "date": "July 18, 2026",
     "readTime": "5 min read",
@@ -942,7 +942,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Riesling sits at its own end of the spectrum: almost always fermented without oak, and prized for high natural acidity that can support everything from bone-dry to lusciously sweet styles depending on how much residual sugar is left after fermentation — a versatility few other white grapes can match.",
       "When pairing white wine with food, acid and weight matter more than sweetness alone: a high-acid Riesling can handle spicy food beautifully even with a touch of sweetness, while a full-bodied oaked Chardonnay suits richer dishes like roast chicken or creamy pasta."
     ],
-    "image": "/images/products/white-wine/white-wine--tds-sail-the-high-seas-riesling.jpg",
+    "image": "/images/blog/white-wine-styles-explained.webp",
     "category": "Wine Guide",
     "date": "July 14, 2026",
     "readTime": "5 min read",
@@ -990,7 +990,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Provence in southern France remains the global benchmark for pale, dry rosé, typically made from Grenache, Cinsault, and Syrah, prized for its delicate strawberry and citrus notes and famously pale pink colour. Australian rosé, often made from Shiraz or Grenache, tends to run slightly bolder and fruitier in style.",
       "Rosé is best served well-chilled and drunk young — unlike most red and many white wines, it’s generally not intended for cellaring, and its bright, fresh fruit character is at its best within a year or two of the vintage date."
     ],
-    "image": "/images/products/rose-wine/rose-wine--tds-batch-co-bondi-spritz-24pack-cans.jpg",
+    "image": "/images/blog/everything-about-rose-wine.webp",
     "category": "Wine Guide",
     "date": "July 10, 2026",
     "readTime": "4 min read",
@@ -1038,7 +1038,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Port is an entirely different category: a fortified wine from Portugal’s Douro Valley, where a neutral grape spirit is added partway through fermentation, killing the yeast before all the sugar converts to alcohol. That’s what gives Port its sweetness and higher alcohol content (typically around 19-20%) compared to standard wine.",
       "Vintage Port, made only in exceptional years and bottle-aged for decades, is considered one of the world’s great cellaring wines, alongside Champagne’s own prestige cuvées — both categories reward patience in a way most still table wine simply doesn’t."
     ],
-    "image": "/images/products/sparkling/sparkling--tds-laurent-perrier-brut-nogb.jpg",
+    "image": "/images/blog/champagne-vs-sparkling-wine-vs-port.webp",
     "category": "Wine Guide",
     "date": "July 6, 2026",
     "readTime": "5 min read",
@@ -1086,7 +1086,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Convenience is the other major driver — a canned gin and tonic or vodka soda requires no mixing, no specialty ingredients, and delivers a consistent pour every time, which matters enormously for outdoor events, festivals, and casual social occasions where a full bar setup isn’t practical.",
       "When choosing a premix, check the ABV and sugar content on the can just as carefully as you would a full-strength spirit — the category ranges widely, from light, low-sugar options to full-strength, higher-calorie choices that can catch casual drinkers off guard."
     ],
-    "image": "/images/products/vodka-premix/vodka-premix--tds-24-ice-limoncello.jpg",
+    "image": "/images/blog/ready-to-drink-premix-trend.webp",
     "category": "Trend Report",
     "date": "July 2, 2026",
     "readTime": "4 min read",
@@ -1134,7 +1134,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Because seltzers are formulated rather than brewed in the traditional sense, producers have far more control over the final nutritional profile — which is why the category has become a battleground for low-carb, gluten-free, and low-calorie marketing claims that traditional beer and cider can’t easily make.",
       "Flavour range has expanded quickly too, from simple citrus and berry options toward more adventurous profiles, as producers compete to differentiate in an increasingly crowded zero-sugar market."
     ],
-    "image": "/images/products/zero-sugar-seltzers/zero-sugar--tds-saint-d9-sparkling-peach.jpg",
+    "image": "/images/blog/rise-of-zero-sugar-seltzers.webp",
     "category": "Trend Report",
     "date": "June 28, 2026",
     "readTime": "4 min read",
@@ -1182,7 +1182,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Mineral water deserves its own place in a home bar beyond just drinking straight: a good sparkling mineral water can lengthen a wine spritz or dilute a spirit gently without introducing sweetness, and the mineral content itself can subtly affect texture and flavour compared to plain filtered water.",
       "Finally, bitters and cocktail condiments — even something as simple as quality olives, citrus, or a well-made cordial — round out a home bar and are often the difference between a flat drink and a genuinely well-balanced one, at a fraction of the cost of the spirit itself."
     ],
-    "image": "/images/products/mixers-water-condiments/energy-drinks--tds-mtv-up-energy-drink.jpg",
+    "image": "/images/blog/best-mixers-for-home-bar.webp",
     "category": "Home Bar Guide",
     "date": "June 24, 2026",
     "readTime": "4 min read",
@@ -1230,7 +1230,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "That sherry-oak-first philosophy is why Macallan whisky is typically much darker and richer than many Speyside competitors, carrying dried fruit, ginger, and rich wood spice notes that come directly from the wine-soaked oak rather than caramel colouring.",
       "It’s also why older, rare Macallan releases — particularly 25-year-old and above expressions matured entirely in first-fill sherry oak — command such significant prices at auction: the combination of genuine scarcity, an expensive and slow production method, and consistently high critical scores has made The Macallan one of the most collected whisky brands in the world."
     ],
-    "image": "/images/products/scotch-whisky/glendronach--tds-glendronach-18-nc.jpg",
+    "image": "/images/blog/macallan-sherry-cask-legacy.webp",
     "category": "Distillery Profile",
     "date": "June 20, 2026",
     "readTime": "6 min read",
@@ -1284,7 +1284,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "For genuinely rare or high-value bottles, humidity control (aim for 50-70%) helps prevent the cork from drying out and shrinking over many years, and keeping original packaging, boxes, and any certificates of authenticity intact preserves both provenance and resale value.",
       "Finally, once a bottle is opened, oxygen exposure becomes the main concern — the more empty space (headspace) in an opened bottle, the faster subtle flavour changes will occur, so decanting a half-empty bottle into a smaller, airtight container is a simple way to extend its life once opened."
     ],
-    "image": "/images/products/scotch-whisky/glendronach--tds-glendronach-21-chill.jpg",
+    "image": "/images/blog/how-to-store-and-cellar-rare-whisky.webp",
     "category": "Collector Guide",
     "date": "June 16, 2026",
     "readTime": "5 min read",
@@ -1337,7 +1337,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "On production, both houses use 100% blue Weber agave and traditional brick oven or autoclave cooking methods, but their top-tier releases diverge: Don Julio’s 1942 and Ultima Reserva expressions lean into extended solera-style aging and wine cask finishing, while Patrón’s Gran Patrón Burdeos is explicitly finished in Bordeaux wine barrels, both chasing a richer, more whisky-adjacent flavour profile at the top of their ranges.",
       "For everyday drinking, both brands’ blanco and reposado expressions are excellent, reliable choices; the real differentiation happens at the top of each range, where cask finishing, aging length, and presentation become the deciding factors for collectors rather than everyday drinkers."
     ],
-    "image": "/images/products/don-julio/don-julio--tds-don-julio-real.jpg",
+    "image": "/images/blog/don-julio-vs-patron-tequila-compared.webp",
     "category": "Brand Comparison",
     "date": "June 12, 2026",
     "readTime": "5 min read",
@@ -1385,7 +1385,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "The base grain genuinely affects the final texture: wheat-based vodkas like Grey Goose tend to read as slightly softer and rounder, while rye-based vodkas like Belvedere often show a touch more spice and a cleaner, crisper finish — subtle differences, but real ones in a careful side-by-side tasting.",
       "Both brands have expanded into flavoured and limited-edition expressions well beyond their original unflavoured releases, but their core, unflavoured bottlings remain the benchmark most drinkers use to compare ultra-premium vodka quality overall."
     ],
-    "image": "/images/products/grey-goose/grey-goose--tds-grey-goose-la-vanille.jpg",
+    "image": "/images/blog/grey-goose-vs-belvedere-vodka-compared.webp",
     "category": "Brand Comparison",
     "date": "June 8, 2026",
     "readTime": "4 min read",
@@ -1434,7 +1434,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Liquidity is the category’s biggest practical drawback compared to traditional investments — selling a rare bottle quickly, at a fair price, generally requires access to specialist auction houses or collector networks, not a quick trade on an open exchange, so rare whisky is better suited to patient, multi-year holding than short-term speculation.",
       "For beginners, the safest starting point is well-known, already-established collectable categories — discontinued age-stated releases from major distilleries, limited single-cask bottlings, or brands with a long auction track record — rather than chasing speculative new releases with no price history to evaluate."
     ],
-    "image": "/images/products/scotch-whisky/glenfiddich--tds-glenfiddich-16-aston-martin-no2.jpg",
+    "image": "/images/blog/beginners-guide-investing-in-rare-whisky.webp",
     "category": "Collector Guide",
     "date": "June 4, 2026",
     "readTime": "7 min read",

@@ -8,6 +8,9 @@ import { getSubcategoryBySlug } from '@/lib/data/subcategories';
 import { getProductsBySubCategory } from '@/lib/data/products';
 import { ProductCard } from '@/components/ProductCard';
 import { JsonLd } from '@/components/JsonLd';
+import { TagCloud } from '@/components/TagCloud';
+import { inlineImageFor, topicFor } from '@/lib/data/blog-images';
+import { buildTagLinks, collectionTagTemplates } from '@/lib/tag-links';
 import { SITE } from '@/lib/config';
 import { buildMetadata, breadcrumbLd, faqLd, absoluteUrl, subcategoryTags, CONTENT_UPDATED } from '@/lib/seo';
 import { ChevronRight, Calendar, Clock, ExternalLink, ArrowRight, HelpCircle } from 'lucide-react';
@@ -55,7 +58,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     description: post.seoDescription || post.excerpt,
     path: `/blog/${post.slug}/`,
     keywords: [post.primaryKeyword, ...post.secondaryKeywords, ...subcategoryTags(post.relatedSubcategory, 40)].slice(0, 60),
-    image: { url: post.image, width: 1200, height: 900, alt: `${post.title} — ${post.primaryKeyword}` },
+    image: { url: post.image, width: 1600, height: 900, alt: `${post.title} — ${post.primaryKeyword}` },
     type: 'article',
     publishedTime: isoDate(post.date),
   });
@@ -69,6 +72,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const related = getRelatedBlogPosts(post, 3);
   const sub = getSubcategoryBySlug(post.relatedSubcategory);
   const relatedProducts = sub ? getProductsBySubCategory(sub.slug).slice(0, 3) : [];
+  const inline = inlineImageFor(post.slug);
+  const collectionPath = sub ? `/shop/${sub.category}/collection/${sub.slug}/` : '/shop/';
+  const tagLinks = buildTagLinks(subcategoryTags(post.relatedSubcategory, 200), collectionPath, `/blog/${post.slug}/`, 20, collectionTagTemplates(sub ? sub.name : post.primaryKeyword), collectionTagTemplates(topicFor(post.slug, post.primaryKeyword)).slice(0, 8));
   const allText = [...post.body, ...(post.sections || []).flatMap((s) => [s.heading, ...s.paragraphs])].join(' ');
   const wordCount = allText.split(/\s+/).filter(Boolean).length;
 
@@ -120,13 +126,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
         </header>
 
-        <div className="relative aspect-[4/3] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-neutral-800 bg-white">
+        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900">
           <Image
             src={post.image}
-            alt={`${post.title} — ${post.primaryKeyword} guide`}
+            alt={`${post.primaryKeyword} — ${post.title}`}
             fill
             priority
-            className="object-contain p-6"
+            className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"
           />
         </div>
@@ -151,7 +157,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
 
         {(post.sections || []).map((section, i) => (
-          <section key={i} className="space-y-4">
+          <React.Fragment key={i}>
+          {i === 1 && inline && (
+            <figure className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900">
+              <Image src={inline.src} alt={inline.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 768px" />
+            </figure>
+          )}
+          <section className="space-y-4">
             <h2 className="text-xl sm:text-2xl font-serif font-bold text-neutral-100">{section.heading}</h2>
             {section.paragraphs.map((p, j) => (
               <p key={j} className="text-sm sm:text-base text-neutral-300 leading-relaxed font-light"><RichText text={p} /></p>
@@ -168,6 +180,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </p>
             )}
           </section>
+          </React.Fragment>
         ))}
 
         {relatedProducts.length > 0 && sub && (
@@ -205,6 +218,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
           </section>
         )}
+
+        <TagCloud tags={tagLinks} title="Popular searches and tags" />
 
         <section className="pt-8 border-t border-neutral-900 space-y-3">
           <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider">Sources and further reading</h2>

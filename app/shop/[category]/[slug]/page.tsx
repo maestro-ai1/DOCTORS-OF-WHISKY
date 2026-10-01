@@ -4,6 +4,8 @@ import { PRODUCTS, getProductBySlug, getRelatedProducts } from '@/lib/data/produ
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { ProductDetailClient } from './ProductDetailClient';
 import { buildMetadata, productTags, productLd, faqLd, breadcrumbLd, ld } from '@/lib/seo';
+import { TagCloud } from '@/components/TagCloud';
+import { buildTagLinks, productTagTemplates } from '@/lib/tag-links';
 import type { Metadata } from 'next';
 
 interface ProductPageProps {
@@ -44,6 +46,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   const relatedProducts = getRelatedProducts(product, 3);
   const category = MAIN_CATEGORIES.find((c) => c.slug === product.category);
+  const collectionPath = `/shop/${product.category}/collection/${product.subCategorySlug}/`;
+  const tagLinks = buildTagLinks(productTags(product, 200), collectionPath, `/shop/${product.category}/${product.slug}/`, 20, productTagTemplates(product));
 
   const breadcrumb = breadcrumbLd([
     { name: 'Home', path: '/' },
@@ -59,6 +63,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(faqLd(product.faqs)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(breadcrumb) }} />
       <ProductDetailClient product={product} relatedProducts={relatedProducts} />
+      <div className="bg-neutral-950 px-4 sm:px-6 lg:px-8 pb-12">
+        <div className="max-w-7xl mx-auto">
+          <TagCloud tags={tagLinks} title="Popular searches and tags" />
+        </div>
+      </div>
     </>
   );
 }

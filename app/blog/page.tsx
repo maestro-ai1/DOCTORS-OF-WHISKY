@@ -76,12 +76,12 @@ export default function BlogPage() {
                 </Link>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 relative h-64 sm:h-80 rounded-2xl overflow-hidden border border-neutral-800 bg-white">
+            <div className="w-full lg:w-1/2 relative h-64 sm:h-80 rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900">
               <Image
                 src={featured.image}
                 alt={featured.title}
                 fill
-                className="object-contain p-8"
+                className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
@@ -96,12 +96,12 @@ export default function BlogPage() {
               className="rounded-2xl overflow-hidden bg-neutral-900/40 border border-neutral-800/80 hover:border-amber-700/50 transition-all flex flex-col justify-between space-y-4 p-5 hover:shadow-xl hover:shadow-black/60"
             >
               <div className="space-y-4">
-                <Link href={`/blog/${article.slug}`} className="block relative h-48 rounded-xl overflow-hidden border border-neutral-800 bg-white">
+                <Link href={`/blog/${article.slug}`} className="block relative h-48 rounded-xl overflow-hidden border border-neutral-800 bg-neutral-900">
                   <Image
                     src={article.image}
                     alt={article.title}
                     fill
-                    className="object-contain p-4 hover:scale-105 transition-transform duration-500"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                   <div className="absolute top-3 left-3 z-10 px-2 py-0.5 rounded-md bg-neutral-950/80 text-[10px] font-bold text-amber-400 border border-amber-800/40">

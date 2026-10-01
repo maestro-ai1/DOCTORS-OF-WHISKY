@@ -224,8 +224,12 @@ for (const sub of SUBS) {
     .filter((r) => !usedKeywords.has(r.k) && r.kd !== null && r.kd <= 40 && onTopic(r))
     .slice(0, 20);
   secondary.forEach((r) => usedKeywords.add(r.k)); // one keyword = one URL (no cannibalisation)
-  // tags: every commercial/transactional keyword with volume >= 70 (hidden, JSON-LD + meta only)
-  const tags = ct.filter(onTopic).slice(0, 150).map((r) => r.k);
+  // tags: every commercial/transactional keyword with volume >= 70 (KD <= 40, easiest first; shown as visible tag links + JSON-LD + meta)
+  const tags = ct
+    .filter((r) => onTopic(r) && r.kd !== null && r.kd <= 40)
+    .sort((a, b) => b.vol / (b.kd + 5) - a.vol / (a.kd + 5)) // easiest-to-rank first: high volume, low KD
+    .slice(0, 150)
+    .map((r) => r.k);
   const faqSeeds = [...ct, ...info]
     .filter((r) => r.kd !== null && r.kd <= 40 && onTopic(r) && r.k !== prim.k)
     .sort((a, b) => b.vol - a.vol)

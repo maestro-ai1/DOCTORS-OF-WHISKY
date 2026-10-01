@@ -9,6 +9,7 @@ urls = [...new Set(urls)];
 const titles = new Map(), descs = new Map(), fails = [], warns = [];
 const f = (u, m) => fails.push(`${u}  ${m}`), w = (u, m) => warns.push(`${u}  ${m}`);
 let n = 0, tags = 0;
+const tagCounts = [];
 const run = async (u) => {
   const p = new URL(u).pathname;
   const r = await fetch(base + p); const h = await r.text(); n++;
@@ -23,9 +24,13 @@ const run = async (u) => {
   if (/noindex/.test(h) && p !== '/thank-you-order/') f(p, 'noindex');
   if (!/application\/ld\+json/.test(h)) w(p, 'no JSON-LD');
   for (const m of h.matchAll(/<img\b[^>]*>/g)) { if (!/\balt="[^"]+"/.test(m[0])) f(p, 'img missing alt'); }
-  if (/tag|keywords/i.test(h) && /class="sr-only"|data-seo-tags|rel="tag"/.test(h)) tags++;
+  const tm = h.match(/aria-label="Popular searches and tags"[\s\S]*?<\/ul>/);
+  const tc = tm ? (tm[0].match(/<li>/g) || []).length : 0;
+  if (/^\/(blog|shop)\/[^/]+\/[^/]+\/$/.test(p) && !p.includes('/collection/')) { tagCounts.push(tc); if (tc < 15) w(p, 'only ' + tc + ' tags'); }
+  if (p === '/' && /Popular searches and tags/.test(h)) f(p, 'tags visible on home page');
+  if (tc) tags++;
 };
 for (let i = 0; i < urls.length; i += 8) await Promise.all(urls.slice(i, i + 8).map(run));
-console.log(`crawled ${n}/${urls.length} urls | pages with tag markup: ${tags}`);
+console.log(`crawled ${n}/${urls.length} urls | pages with visible tags: ${tags} | min/max tags on product+blog pages: ${Math.min(...tagCounts)}/${Math.max(...tagCounts)}`);
 console.log(`FAIL ${fails.length}`); fails.slice(0, 40).forEach((x) => console.log(' ', x));
 console.log(`WARN ${warns.length}`); warns.slice(0, 25).forEach((x) => console.log(' ', x));

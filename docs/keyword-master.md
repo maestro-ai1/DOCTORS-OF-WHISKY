@@ -135,12 +135,12 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Grey Goose — /shop/spirit/collection/grey-goose/
 - **Primary:** grey goose (vol 6,600, KD 28)
 - **Secondary (T1/T2):** grey goose 1l (1600/17), grey goose 1 litre (880/17), grey goose 700ml (880/16), gray goose vodka 1 liter (880/21), grey goose vodka 700ml (880/13), 1l grey goose (720/14), grey goose vodka 1l (720/17), grey goose vodka 1 litre (720/17), vodka grey goose (480/36), grey goose vodka price (480/13), grey goose vodka price 1 litre (480/13), gray goose (390/18), grey goose bottle (320/22), gray goose 1l (260/15), gray goose vodka (260/14), grey goose cost (260/10), price of grey goose (260/10), gray goose 1 liter price (260/15), grey goose liquor price (260/8), gray goose cost (260/13)
-- **Hidden tags:** 107 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 103 commercial/transactional keywords, volume >= 70
 
 ### Belvedere — /shop/spirit/collection/belvedere/
 - **Primary:** belvedere (vol 5,400, KD 38)
 - **Secondary (T1/T2):** belvedere vodka (6600/15), belvedere palace (1000/36), belvedere vodka 700ml (590/10), belvedere vodka 1l (590/14), vodka belvedere (480/11), belvedere pizzeria ristorante menu (480/25), belvedere 1l (390/14), the belvedere reviews (390/20), belvedere apartments (390/11), belvedere vodka 1 litre (320/13), vodka belvedere 700ml (320/10), belvedere vodka bws (320/17), apartments belvedere (320/19), belvedere castle central park nyc (320/35), belvedere delicatessen (260/28), belvedere griffith nsw (260/34), belvedere castle central park new york (260/34), belvedere liquor (210/17), belvedere palace vienna (210/31), belvedere schloss (210/40)
-- **Hidden tags:** 65 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 57 commercial/transactional keywords, volume >= 70
 
 ### Patrón — /shop/spirit/collection/patron/
 - **Primary:** patron (vol 8,100, KD 17)
@@ -170,17 +170,17 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Rye Whiskey — /shop/whisky/collection/rye-whiskey/
 - **Primary:** rye whiskey (vol 1,300, KD 16)
 - **Secondary (T1/T2):** irish whiskey (3600/14), whiskey gift (2400/10), rye spirit (1000/17), whiskey & rye (1000/13), liquor rye (1000/15), laphroaig whiskey (880/17), highland single malt whiskey (880/9), canadian whiskey (590/17), amrut whiskey (590/20), bushmills irish whiskey (590/15), whiskey brands (590/21), woodford reserve whiskey (590/16), redbreast irish whiskey (590/11), irish whiskey brands (590/18), scotch and whiskey blend (590/21), rye alcohol (480/10), whiskey from usa (480/23), japanese whiskey yamazaki (480/13), single highland malt scotch whiskey (480/13), good whiskey (480/17)
-- **Hidden tags:** 150 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 144 commercial/transactional keywords, volume >= 70
 
 ### Japanese Whisky — /shop/whisky/collection/japanese-whisky/
 - **Primary:** japanese whiskey (vol 4,400, KD 24)
 - **Secondary (T1/T2):** suntory whisky (1900/29), nikka whisky (720/22), single scotch whisky (720/17), hibiki suntory whisky (590/15), malt scotch whisky (590/24), blended scots whisky (590/13), japanese single malt (480/22), japanese scotch (480/16), japanese single malt whiskey (480/25), best japanese whiskey (480/18), irish whisky (480/12), whisky sale (480/12), american whisky (480/11), hibiki japanese whiskey (390/15), whisky from ireland (390/14), japanese whiskey top (390/15), single malt scotch whisky whiskey (390/18), best whisky from japan (390/18), whisky scotch single malt (390/22), buy whisky online (390/28)
-- **Hidden tags:** 135 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 128 commercial/transactional keywords, volume >= 70
 
 ### Australian Whisky — /shop/whisky/collection/australian-whisky/
 - **Primary:** australian whiskey (vol 1,300, KD 33)
 - **Secondary (T1/T2):** lark whisky (3600/24), starward whisky (3600/20), whisky gift pack (2400/9), japanese whisky (2400/16), australian whiskey tasmania (1600/38), single malt whisky (1300/30), archie rose whisky (1300/23), scotch malt whisky (880/27), whisky the dalmore (720/12), best whisky in australia (590/17), morris whisky (590/17), highland single malt scotch whisky (590/12), bowmore whisky (480/17), laphroaig whisky (480/27), whisky gift set (480/9), best australian whisky (390/14), malt whisky (390/18), whisky on sale (390/11), best single malt whisky (390/27), good whisky (390/19)
-- **Hidden tags:** 148 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 140 commercial/transactional keywords, volume >= 70
 
 ### French Vodka — /shop/spirit/collection/french-vodka/
 - **Primary:** french vodka (vol 390, KD 9)
@@ -225,7 +225,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Gin — /shop/spirit/collection/gin/
 - **Primary:** gin (vol 14,800, KD 22)
 - **Secondary (T1/T2):** pink gin (4400/21), gin gifts (2400/12), gin gifts australia (2400/11), gin gift packs (1900/13), gin delivery (1600/12), gin gift set australia (1600/13), australian gin (1000/13), dry gin (880/9), gin brands (720/25), gins (590/16), buy gin (480/21), gin gift set (480/10), gin bottle (480/11), gin tasting (480/31), buy gin online (480/16), gin alcohol (480/20), gin specials (480/15), flavoured gin (480/10), gin and tonic cans (480/7), gin sale (480/20)
-- **Hidden tags:** 132 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 129 commercial/transactional keywords, volume >= 70
 
 ### Baijiu — /shop/spirit/collection/baijiu/
 - **Primary:** baijiu (vol 2,400, KD 33)
@@ -240,17 +240,17 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Baileys Irish Cream — /shop/spirit/collection/baileys-irish-cream/
 - **Primary:** baileys irish cream (vol 6,600, KD 20)
 - **Secondary (T1/T2):** baileys (22200/21), irish cream (1300/26), baileys liqueur (880/24), baileys irish cream liqueur (720/26), liqueur baileys (720/23), baileys irish cream 1l (720/12), baileys 1l (720/16), baileys irish cream 1 litre (590/14), jameson irish (590/24), baileys irish cream 1 litre best price (590/16), bws baileys irish cream (590/22), baileys 700ml (590/11), choc baileys (590/13), baileys strawberry and cream (590/13), one litre baileys (590/14), baileys flavours (590/22), cream liqueur (480/14), baileys irish cream liqueur 1 litre (480/16), baileys irish cream liquor (480/17), baileys liqueur 1l (480/16)
-- **Hidden tags:** 131 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 130 commercial/transactional keywords, volume >= 70
 
 ### Coffee Liqueur — /shop/spirit/collection/coffee-liqueur/
 - **Primary:** coffee liqueur (vol 2,900, KD 27)
 - **Secondary (T1/T2):** kahlua (9900/24), chocolate liqueur (1300/19), kahlua liquor (1000/15), kahlua liqueur (880/20), cacao liqueur (880/17), hazelnut liqueur (880/16), kahlua coffee liqueur (720/13), kahlua price (720/14), coffee and liqueur (590/17), kahlua and coffee liqueur (590/22), coconut liqueur (590/8), banana liqueur (590/15), watermelon liqueur (590/10), liqueur 43 (590/22), white chocolate liqueur (590/14), coffee liquor (480/17), cointreau liqueur (480/17), vanilla liqueur (480/18), kahlua liqueur price (390/12), kahlua drink price (390/13)
-- **Hidden tags:** 70 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 69 commercial/transactional keywords, volume >= 70
 
 ### Orange Liqueur — /shop/spirit/collection/orange-liqueur/
 - **Primary:** orange liqueur (vol 2,400, KD 28)
 - **Secondary (T1/T2):** cointreau (12100/32), germain liqueur (1900/24), st germain liqueur (1600/32), perrier jouet grand brut (1000/14), orange bitters (720/28), cointreau 700ml (590/10), grand marnier liqueur (480/22), cointreau price (480/12), orange flavoured liqueur (480/21), marnier liqueur (480/17), grand monya (480/17), dan murphy cointreau (480/29), peach liqueur (480/10), sour apple liqueur (480/11), cointreau liquorland (390/23), cointreau 1l (390/15), cream liqueur liqueurs (390/13), buy cointreau (320/10), cointreau cost (320/9), cointreau liqueur price (320/14)
-- **Hidden tags:** 96 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 95 commercial/transactional keywords, volume >= 70
 
 ### Cinnamon Liqueur — /shop/spirit/collection/cinnamon-liqueur/
 - **Primary:** cinnamon liqueur (vol 110, KD 10)
@@ -260,7 +260,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Amaro — /shop/spirit/collection/amaro/
 - **Primary:** amaro (vol 3,600, KD 27)
 - **Secondary (T1/T2):** campari negroni (1300/19), disaronno originale amaretto (1000/26), amaretto disaronno originale (1000/13), aperol dan murphy (880/30), jagermeister price (880/13), jagermeister drink price (720/12), jagermeister cost (720/12), amaro averna (590/19), chartreuse green (480/17), aperol bws (480/23), campari dan murphy (480/26), aperol price (390/14), amaro del capo (390/7), montenegro amaro (390/17), vecchio amaro del capo (390/16), aperol spritz dan murphy (320/25), aperol 1l (320/15), aperol spritz pack (320/11), bws aperol (320/23), averna amaro (320/28)
-- **Hidden tags:** 110 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 108 commercial/transactional keywords, volume >= 70
 
 ### Absinthe — /shop/spirit/collection/absinthe/
 - **Primary:** absinthe (vol 8,100, KD 26)
@@ -280,7 +280,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Soju — /shop/other/collection/soju/
 - **Primary:** soju alcohol (vol 1,600, KD 24)
 - **Secondary (T1/T2):** soju drink (1300/40), jinro soju (1300/14), soju social (1300/29), soju dan murphy (880/27), soju beverage (720/36), soju flavours (590/29), soju bottle (480/25), soju price (480/9), lychee soju (480/8), grape soju (390/10), soju lychee (390/8), chamisul soju (260/18), good day soju (260/8), soju korean bbq (260/21), buy soju (170/17), soju japanese drink (170/19), soju drink price (170/17), lemon soju (170/9), soju brands (170/29), drinks with soju (170/27)
-- **Hidden tags:** 50 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 48 commercial/transactional keywords, volume >= 70
 
 ### Lager — /shop/beer-premix-wine/collection/lager/
 - **Primary:** lager (vol 2,400, KD 16)
@@ -300,12 +300,12 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Ginger Beer — /shop/beer-premix-wine/collection/ginger-beer/
 - **Primary:** ginger beer (vol 9,900, KD 25)
 - **Secondary (T1/T2):** james squire ginger beer (4400/13), alcoholic ginger beer (3600/18), brookvale union ginger beer (3600/10), ginger beer alcoholic (2400/23), brookvale ginger beer (1900/11), great northern ginger beer (1300/10), green ginger (1300/20), little dragon ginger beer (1000/12), gingerbeer (720/24), ginger beer is alcohol (720/29), ginger bear (590/20), alcoholic ginger beer australia (590/17), cascade ginger beer (590/11), ginger beer is non alcoholic (590/9), hard ginger beer (480/10), spicy ginger beer (480/17), best alcoholic ginger beer (480/21), bws ginger beer (480/25), remedy ginger beer (480/11), german wheat beer (480/12)
-- **Hidden tags:** 115 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 114 commercial/transactional keywords, volume >= 70
 
 ### Red Wine — /shop/beer-premix-wine/collection/red-wine/
 - **Primary:** red wine (vol 9,900, KD 15)
 - **Secondary (T1/T2):** wine delivery (3600/25), wine deals (2400/23), carbonated wine (2400/14), grenache red (1900/15), chardonnay wine (1600/27), wine pinot (1600/23), red wine au (1000/12), cab sav wine (1000/22), cabernet sauvignon wine (1000/17), shiraz red wine (1000/22), rosé wine (1000/21), bubbly wine (1000/15), rose in wine (1000/21), rose a wine (880/28), malbec red wine (720/14), buy red wine (590/27), buy red wine online (590/36), chardonnay white wine (590/27), pinot noir red wine (590/23), pinot wine red (590/21)
-- **Hidden tags:** 149 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 144 commercial/transactional keywords, volume >= 70
 
 ### White Wine — /shop/beer-premix-wine/collection/white-wine/
 - **Primary:** white wine (vol 6,600, KD 18)
@@ -315,7 +315,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Rosé Wine — /shop/beer-premix-wine/collection/rose-wine/
 - **Primary:** rose wine (vol 6,600, KD 23)
 - **Secondary (T1/T2):** riesling wines (390/16), pinot noir wines (390/25), case of red wine (390/16), wine offers (320/17), red wine deals (320/16), wine case (320/16), red wine sale (320/17), red wines cabernet (320/27), redwine (320/27), pinot wine (260/25), red wine bottle (260/10), red wine offers (260/10), red wine online (260/32), bubbles wines (260/11), sparkling wineries (260/13), w wine (260/36), wine and sparkling (260/19), wine deals online (260/28), case of wines (210/15), wine cabernet sauvignon (210/17)
-- **Hidden tags:** 93 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 89 commercial/transactional keywords, volume >= 70
 
 ### Sparkling Wine — /shop/beer-premix-wine/collection/sparkling/
 - **Primary:** sparkling wine (vol 3,600, KD 14)
@@ -325,7 +325,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Port — /shop/beer-premix-wine/collection/port-wine/
 - **Primary:** port wine (vol 0, KD n/a)
 - **Secondary (T1/T2):** nice sparkling wine (210/10), wine on sale (170/13), chiraz wine (170/25), dozen deals wine (170/17), shiraz wine price (170/19), white wine chardonnay (170/23), wine prices (170/33), cabernet dry red wine (170/10), dry red wine cabernet sauvignon (170/13), pinot noir wine price (170/17), wines red (170/18), red wine online purchase (140/36), online red wine (140/40), buying red wine (140/10), wine selection (140/29), corporate wine gifts (140/11), grenache wines (140/13), red shiraz wine (140/11), red wine delivered (140/6), red wine for sale (140/27)
-- **Hidden tags:** 93 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 89 commercial/transactional keywords, volume >= 70
 
 ### Vodka Premix — /shop/beer-premix-wine/collection/vodka-premix/
 - **Primary:** vodka premix (vol 590, KD 13)
@@ -345,7 +345,7 @@ Tiers: T1 KD 0-25 (quick win) | T2 KD 26-40 | T3 KD 41-55 (supporting only, neve
 ### Mixers, Water & Condiments — /shop/other/collection/mixers-water-condiments/
 - **Primary:** energy drinks (vol 6,600, KD 30)
 - **Secondary (T1/T2):** v energy drink (8100/37), v drink (3600/27), mother energy drink (2900/28), white monster energy drink (1600/28), rockstar energy drink (1600/22), red bull energy drink (590/39), energy drinks australia (480/15), monster energy drink ultra (480/17), energy drink sugar free (480/17), zero sugar energy drink (480/26), monster energy drink peach (480/20), monster energy drink flavours (480/28), great energy drinks (390/26), best energy drink (390/36), gatorade energy drink (390/15), monster energy drink can (390/24), monster energy drink zero sugar (390/19), sport drinks (390/16), energy drink brands (320/25), red bull drink (320/25)
-- **Hidden tags:** 126 commercial/transactional keywords, volume >= 70
+- **Hidden tags:** 123 commercial/transactional keywords, volume >= 70
 
 ## Category-page head terms (unassigned, volume >= 1,000)
 
