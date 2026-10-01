@@ -18,6 +18,8 @@ async function readHidden(prompt) {
     const onData = (ch) => {
       for (const c of ch) {
         if (c === '\r' || c === '\n') {
+          // Ignore a stray Enter (for example the one that launched this command): keep waiting until something is typed.
+          if (!value) continue;
           process.stdin.setRawMode(false);
           process.stdin.pause();
           process.stdin.off('data', onData);
