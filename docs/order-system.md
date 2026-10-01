@@ -23,7 +23,9 @@ Also covered: contact form (`/api/contact/`) now emails the shop and reports rea
 2. **Rotate the password you pasted in chat.** Delete that Zoho password / app password and create a fresh one, then use the fresh one below. Anything posted in a chat or ticket should be treated as exposed.
 3. **Choose a stronger admin passkey** than a single short word. Run `node scripts/hash-admin-password.mjs` (the passkey is typed hidden) and copy the two lines it prints.
 4. **Storage.** Vercel dashboard > Storage > Marketplace > **Upstash Redis** (free tier) > connect to this project. It injects `KV_REST_API_URL` and `KV_REST_API_TOKEN` (or `UPSTASH_REDIS_REST_*`), which the code reads automatically.
-5. **Environment variables** (Production, and Preview if you test there):
+5. **Environment variables, the easy way:** run `powershell -ExecutionPolicy Bypass -File scriptssetup-vercel-env.ps1`. It asks for the Zoho app password and your admin passkey in hidden prompts and sets everything in Vercel (secrets marked sensitive). Or do it by hand:
+
+   **Environment variables (manual)** (Production, and Preview if you test there):
    ```
    vercel env add ZOHO_SMTP_HOST production            # smtp.zoho.com.au
    vercel env add ZOHO_SMTP_PORT production            # 465
