@@ -17,7 +17,7 @@ export async function hashPassword(password: string): Promise<string> {
 
 export async function verifyPassword(password: string, stored: string | undefined): Promise<boolean> {
   if (!stored) return false;
-  const parts = stored.split('$');
+  const parts = stored.trim().replace(/^["']|["']$/g, '').split('$'); // tolerate quotes pasted with the value
   if (parts.length !== 6 || parts[0] !== 'scrypt') return false;
   const [, n, r, p, saltB64, hashB64] = parts;
   try {

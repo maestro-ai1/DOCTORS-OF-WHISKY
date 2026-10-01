@@ -44,7 +44,19 @@ const salt = randomBytes(16);
 const key = await scrypt(passkey, salt, 64, { N, r, p });
 const hash = `scrypt$${N}$${r}$${p}$${salt.toString('base64')}$${key.toString('base64')}`;
 
-console.log('\nADMIN_PASSWORD_HASH=' + hash);
-console.log('ADMIN_SESSION_SECRET=' + randomBytes(48).toString('base64url'));
+const sessionSecret = randomBytes(48).toString('base64url');
+const lines = `ADMIN_PASSWORD_HASH=${hash}\nADMIN_SESSION_SECRET=${sessionSecret}`;
+
+console.log('\n' + lines);
 console.log('\nQuote the hash in .env files (it contains $ characters): ADMIN_PASSWORD_HASH="..."');
 console.log('Changing the hash or the secret signs everyone out.');
+
+// Copy both lines to the clipboard so they can be pasted straight into the Vercel "Add Environment Variable" form.
+try {
+  const { spawnSync } = await import('node:child_process');
+  const cmd = process.platform === 'win32' ? ['clip'] : process.platform === 'darwin' ? ['pbcopy'] : ['xclip', '-selection', 'clipboard'];
+  const r = spawnSync(cmd[0], cmd.slice(1), { input: lines, encoding: 'utf8' });
+  if (r.status === 0) console.log('\nCopied both lines to your clipboard. Paste them into the Key box in Vercel (Ctrl+V).');
+} catch {
+  /* clipboard is a convenience only */
+}
