@@ -242,7 +242,7 @@ export const BLOG_LONG_5: Record<string, Partial<BlogPost>> = {
       'Hard seltzers are alcoholic sparkling water with a light flavour, and many are low in sugar or sugar free.',
       'Vodka soda premixes are a close cousin, using spirit rather than a fermented base.',
       'Always read the nutrition panel and the standard-drink count on the label.',
-      '“Zero sugar” is not the same as “zero alcohol”, and the ABV is still typically 4 to 5 per cent.',
+      '“Zero sugar” is not the same as “zero alcohol”: most seltzers are 4 to 5 per cent ABV, and some stronger ranges reach 9.9 per cent.',
     ],
     sections: [
       {
@@ -278,7 +278,7 @@ export const BLOG_LONG_5: Record<string, Partial<BlogPost>> = {
         heading: 'How do you compare seltzer brands?',
         paragraphs: [
           'Look at five things: ABV, standard drinks per can, sugar per 100 mL, flavour range and pack size. Some brands are sold in cases of 24 cans, which suits parties and good value, while others come in 4 or 6 packs.',
-          'Then taste a few flavours. Citrus and berry are the most popular, but tropical and stone fruit options are growing. If you want something stronger or sweeter, read our [premix guide](/blog/ready-to-drink-premix-trend/).',
+          'Strength varies more than people expect: most seltzers are 4 to 5 per cent, but the Saint D9 and Strong D9 seltzers in our collection are 9.9 per cent ABV, about 2.9 standard drinks in a 375 mL can and 3.9 in a 500 mL can. Then taste a few flavours. Citrus and berry are the most popular, but tropical and stone fruit options are growing. If you want something stronger or sweeter, read our [premix guide](/blog/ready-to-drink-premix-trend/).',
         ],
       },
       {
@@ -298,7 +298,7 @@ export const BLOG_LONG_5: Record<string, Partial<BlogPost>> = {
     ],
     faqs: [
       { question: 'What is a hard seltzer?', answer: 'A hard seltzer is carbonated water with alcohol and light fruit flavour, usually 4 to 5% ABV and low in sugar and calories.' },
-      { question: 'Is a zero sugar seltzer alcohol free?', answer: 'No. Zero sugar describes sugar content only. Most zero sugar seltzers still contain alcohol, typically 4 to 5% ABV.' },
+      { question: 'Is a zero sugar seltzer alcohol free?', answer: 'No. Zero sugar describes sugar content only. Most seltzers contain alcohol at around 4 to 5% ABV, and some stronger ranges such as Saint D9 and Strong D9 are 9.9% ABV.' },
       { question: 'How many standard drinks are in a seltzer can?', answer: 'It varies, but a 330 mL can at 5% ABV contains about 1.3 standard drinks. Check the label.' },
       { question: 'What is vodka soda premix?', answer: 'It is a ready-to-drink mix of vodka, soda water and flavour in a can.' },
       { question: 'Are seltzers healthier than beer?', answer: 'They are often lower in sugar and calories, but they are still alcoholic drinks and should be consumed in moderation.' },
