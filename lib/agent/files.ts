@@ -77,7 +77,15 @@ ${SITE.name} (${D}) is a public online bottle shop. No authentication, API key o
 
 ## Agent registration
 
-Not required. All resources below are public and read-only.
+Agents register as **anonymous** identities. No user account, API key or password is needed. Steps:
+
+1. **Discover**: GET ${D}/.well-known/oauth-authorization-server and read the agent_auth block (skill, register_uri, identity_endpoint, claim_endpoint, events_endpoint).
+2. **Register**: POST ${D}/api/agent/identity/ (an empty JSON body is fine). The response is {"identity_type":"anonymous","access":"public","credential":null}.
+3. **Claim** (optional): POST ${D}/api/agent/identity/claim/. Anonymous identities hold no account, so nothing needs claiming and the response is {"claimed":false}.
+4. **Use**: call the public resources below with no Authorization header.
+5. **Revoke and events**: POST events such as assertion-revoked to ${D}/api/agent/event/notify/ (answers 202).
+
+Orders are never placed by an agent alone: a person must confirm and pay.
 
 ## Public resources
 
