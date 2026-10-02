@@ -271,7 +271,7 @@ export const ucp = () => ({
 
 export const aiCatalog = () => ({
   specVersion: '1.0',
-  host: { displayName: SITE.name, name: SITE.name, url: D, description: SITE.tagline, contact: `${D}/contact/` },
+  host: { displayName: SITE.name },
   entries: [
     {
       identifier: `urn:air:${SITE.domain}:mcp:store`,
