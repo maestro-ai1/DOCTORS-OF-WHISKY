@@ -65,6 +65,7 @@ export function HeroSlider() {
             priority={idx === 0}
             fetchPriority={idx === 0 ? 'high' : 'auto'}
             quality={70}
+            decoding={idx === 0 ? 'sync' : 'async'}
             className="object-cover object-center"
             sizes="100vw"
           />

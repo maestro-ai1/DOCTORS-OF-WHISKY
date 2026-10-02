@@ -43,7 +43,7 @@ export function AgeGateModal() {
   if (!isOpen || isStaffArea) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/95">
       {/* Background with warm ambient lighting */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgba(180,120,40,0.18),transparent_55%),radial-gradient(ellipse_at_80%_80%,rgba(120,70,20,0.16),transparent_50%)]" aria-hidden="true" />
       
