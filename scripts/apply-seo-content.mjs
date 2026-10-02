@@ -27,6 +27,10 @@ const kwTs = read('lib/data/seo-keywords.ts');
 const kwJson = kwTs.slice(kwTs.indexOf('= {', kwTs.indexOf('SEO_KEYWORDS')) + 2, kwTs.indexOf(';\n\nexport const SITE_TAGS'));
 const SEO = JSON.parse(kwJson);
 
+// ---- keyword strategy v2: per-product primary (Transactional), 15 secondary, 20 Commercial tags (Semrush bank, KD <= 28) ----
+const MAPP = Object.fromEntries(JSON.parse(fs.readFileSync(path.resolve(ROOT, '..', 'SEO Analysis', 'mapping-v2.json'), 'utf8')).products.map((e) => [e.slug, e]));
+const tc = (s) => s.replace(/\b[a-z]/g, (c) => c.toUpperCase()).replace(/\b(\d+)(l|ml)\b/gi, (m, n, u) => n + (u.toLowerCase() === 'l' ? 'L' : 'ml')).replace(/\bAnd\b/g, 'and').replace(/\bOf\b/g, 'of');
+
 // ---- load data files (JSON arrays inside TS) ----
 function loadArray(file, exportName) {
   const t = read(file);
@@ -107,6 +111,12 @@ const joinList = (arr) => (arr.length <= 1 ? arr.join('') : arr.length === 2 ? a
 // ---- 3. product keywords + copy ----
 const STOPWORDS = new Set(['the', 'and', 'scotch', 'whisky', 'whiskey', 'single', 'malt', 'year', 'old', 'yo', 'cognac', 'brandy', 'tequila', 'vodka', 'wine', 'beer', 'rum', 'gin', 'liqueur']);
 function productKeywords(p) {
+  const me = MAPP[p.slug];
+  if (me) {
+    const pr = me.primary || me.fallbackPrimary;
+    const primary = pr ? pr.kw : norm(p.name).split(' ').slice(0, 5).join(' ');
+    return { primary, secondary: me.secondary.map((k) => k.kw).filter((k) => k !== primary).slice(0, 15), tags: me.tags.map((k) => k.kw).filter((k) => k !== primary).slice(0, 20) };
+  }
   const set = SEO[p.subCategorySlug];
   if (!set) return { primary: p.primaryKeyword, secondary: p.secondaryKeywords };
   const brandTok = norm(p.brand).replace(/^the /, '').split(' ').filter((t) => t.length > 2);
@@ -156,6 +166,7 @@ for (const p of products) {
   const kws = productKeywords(p);
   p.primaryKeyword = kws.primary;
   p.secondaryKeywords = kws.secondary;
+  if (kws.tags) p.tags = kws.tags;
   const kw = naturalKeyword(p, kws);
   const brandFact = brandFactFor(p);
   const nOthers = sameBrandCount[p.brand] - 1;
@@ -178,7 +189,7 @@ for (const p of products) {
     `${whatBit} ${p.name} is ${p.brand}’s expression in this style${ageBit}. ${brandFact}`.replace(/\s+/g, ' ').trim(),
     `${brandFact} ${p.name} sits in our ${catLower} range${nOthers > 0 ? `, alongside ${nOthers} other ${p.brand} ${nOthers === 1 ? 'bottle' : 'bottles'}` : ''}. ${whatBit}`.replace(/\s+/g, ' ').trim(),
   ];
-  const p2 = `${facts.serve} ${p.name} is listed at ${p.abv} ABV in a ${p.size} format${where ? `, from ${where}` : ''}.`;
+  const p2 = `${facts.serve} ${p.name} is ${p.abv ? `listed at ${p.abv} ABV in` : 'sold in'} a ${p.size} format${where ? `, from ${where}` : ''}.`;
   const buyVariants = [
     `Buy ${p.name} online in Australia for ${money(p.price)} AUD. Orders of ${money(RULES.free)} AUD or more ship free by express courier; below that a flat ${money(RULES.fee)} AUD fee applies. There is a ${money(RULES.min)} AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel.`,
     `If you are looking for ${kw}, ${p.name} is available from Doctors of Whisky at ${money(p.price)} AUD. We deliver Australia-wide with insured shipping (free from ${money(RULES.free)} AUD, otherwise ${money(RULES.fee)} AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with ${RULES.crypto}% off when you pay in crypto.`,
@@ -202,7 +213,7 @@ for (const p of products) {
     },
     {
       question: `What size and strength is ${p.name}?`,
-      answer: `${p.name} is sold in a ${p.size} format${p.age ? ` and carries an age statement of ${p.age}` : ''}. It is listed at ${p.abv} ABV, and is ${article(styleLower)} ${styleLower} from ${p.country}${p.region && p.region !== p.country ? ` (${p.region})` : ''}. Check the label for the exact strength of the batch you receive.`,
+      answer: `${p.name} is sold in a ${p.size} format${p.age ? ` and carries an age statement of ${p.age}` : ''}. ${p.abv ? `It is listed at ${p.abv} ABV, and is` : 'It is'} ${article(styleLower)} ${styleLower}${p.country ? ` from ${p.country}` : ''}${p.region && p.region !== p.country ? ` (${p.region})` : ''}. Check the label for the exact strength of the batch you receive.`,
     },
     {
       question: `How should I serve ${p.name}?`,
@@ -214,9 +225,16 @@ for (const p of products) {
     },
   ];
 
+  // the primary keyword must read naturally in the lead copy (idempotent: appended once)
+  p.description = p.description.replace(/ Looking for [^?]+\? You can buy it online from Doctors of Whisky with insured delivery across Australia\./g, '').replace(/ Searching for [^?]+\? This page lists the price, size and insured delivery details\./g, '').trim();
+  if (!norm(p.description).includes(norm(kws.primary))) {
+    p.description = `${p.description.trim()} Searching for ${kws.primary}? This page lists the price, size and insured delivery details.`;
+  }
   const agePart = p.age && !p.name.toLowerCase().includes(p.age.toLowerCase().split(' ')[0]) ? ` ${p.age}` : '';
   p.metaTitle = `Buy ${p.name}${agePart} Online Australia`;
+  if (!norm(p.metaTitle).includes(norm(kws.primary))) p.metaTitle = `${tc(kws.primary)} | ${p.name}${agePart}`;
   p.metaDescription = `Buy ${p.name}${sizeBit} online in Australia for ${money(p.price)} AUD. ${styleTitle} from ${p.brand}. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.`;
+  if (!norm(p.metaDescription).includes(norm(kws.primary))) p.metaDescription = `${tc(kws.primary)}: ${p.metaDescription}`;
 }
 
 // ---- 4. subcategories ----
@@ -231,7 +249,9 @@ for (const sub of subs) {
   sub.primaryKeyword = primary;
   sub.secondaryKeywords = set ? set.secondary : sub.secondaryKeywords;
 
+  sub.tags = set ? set.tags.slice(0, 20) : sub.tags;
   sub.description = `Buy ${sub.name} online in Australia: ${st.n} bottles${topBrands.length ? ` from ${joinList(topBrands.slice(0, 3))}` : ''}, priced from ${money(st.min)} to ${money(st.max)} AUD. Insured delivery, 18+ only.`;
+  if (primary && !norm(sub.description).includes(norm(primary))) sub.description = `${tc(primary)}: ${sub.description}`;
 
   const brandFacts = topBrands.map((b) => brandFactFor({ brand: b })).filter(Boolean).slice(0, 2);
   sub.longDescription = [

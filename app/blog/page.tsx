@@ -6,13 +6,16 @@ import { BLOG_POSTS } from '@/lib/data/blog';
 import { ArrowRight, BookOpen, Clock, Calendar } from 'lucide-react';
 import { JsonLd } from '@/components/JsonLd';
 import { buildMetadata, breadcrumbLd, absoluteUrl } from '@/lib/seo';
+import { PageSearches } from '@/components/PageSearches';
+import { PAGE_SEO } from '@/lib/data/page-seo';
+
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Whisky Guides & Buying Advice | Collector Journal',
+  title: 'American Whiskey, Scotch & Spirits Guides | Journal',
   description:
-    'Whisky, spirits, wine and beer guides for Australian buyers: Scotch vs bourbon, Japanese whisky, tequila, cognac, gin and how to choose, store and buy them online.',
+    'American whiskey, Scotch, Japanese whisky, tequila, cognac, gin, wine and beer guides for Australian buyers, with how to choose and buy them online.',
   path: '/blog/',
-  keywords: ['whisky guide', 'scotch vs bourbon', 'how to choose whisky', 'japanese whisky guide', 'tequila guide', 'cognac vs brandy', 'whisky blog australia'],
+  keywords: [PAGE_SEO['/blog/'].primary, ...PAGE_SEO['/blog/'].secondary, ...PAGE_SEO['/blog/'].tags],
 });
 
 // Every guide is rendered in the static HTML (no ?page= variants) so all article links are crawlable.
@@ -140,6 +143,7 @@ export default function BlogPage() {
         </div>
 
       </div>
+      <PageSearches path="/blog/" fallback="/blog/" />
     </div>
   );
 }

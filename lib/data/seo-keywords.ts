@@ -12,2068 +12,80 @@ export interface SeoKeywordSet {
 }
 
 export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
- "grey-goose": {
-  "primary": "grey goose",
-  "primaryVolume": 6600,
-  "primaryKd": 28,
-  "secondary": [
-   "grey goose 1l",
-   "grey goose 1 litre",
-   "grey goose 700ml",
-   "gray goose vodka 1 liter",
-   "grey goose vodka 700ml",
-   "1l grey goose",
-   "grey goose vodka 1l",
-   "grey goose vodka 1 litre",
-   "vodka grey goose",
-   "grey goose vodka price",
-   "grey goose vodka price 1 litre",
-   "gray goose",
-   "grey goose bottle",
-   "gray goose 1l",
-   "gray goose vodka",
-   "grey goose cost",
-   "price of grey goose",
-   "gray goose 1 liter price",
-   "grey goose liquor price",
-   "gray goose cost"
-  ],
-  "tags": [
-   "grey goose 1l",
-   "grey goose vodka 700ml",
-   "grey goose 700ml",
-   "grey goose 1 litre",
-   "1l grey goose",
-   "gray goose vodka 1 liter",
-   "grey goose vodka 1l",
-   "grey goose vodka 1 litre",
-   "grey goose vodka price",
-   "grey goose vodka price 1 litre",
-   "grey goose liquor price",
-   "cost of gray goose vodka",
-   "grey goose cost",
-   "price of grey goose",
-   "gray goose vodka cost",
-   "gray goose",
-   "gray goose vodka 1 liter price",
-   "price of grey goose vodka 1 litre",
-   "gray goose vodka price",
-   "gray goose cost",
-   "grey goose vodka cost",
-   "gray goose vodka",
-   "gray goose 1l",
-   "gray goose 1 liter price",
-   "grey goose vodka 4.5 litre",
-   "buy grey goose",
-   "grey goose vodka price 1 liter",
-   "bottle of gray goose",
-   "grey goose bottle",
-   "vodka grey goose",
-   "gray goose price",
-   "grey goose vodka 200ml",
-   "1 liter grey goose",
-   "700ml grey goose vodka",
-   "grey goose vodka 1.75 l",
-   "grey goose price",
-   "grey goose vodka bottle",
-   "grey goose vodka 1l price",
-   "grey goose 1 litre best price",
-   "1 liter grey goose cost",
-   "grey goose 1l price",
-   "200ml grey goose",
-   "700ml grey goose",
-   "grey goose price 1 liter",
-   "grey goose 750ml",
-   "grey goose 1.75 liter",
-   "bws grey goose",
-   "grey goose bws",
-   "grey goose 1 liter",
-   "grey goose one litre",
-   "grey goose 200ml",
-   "grey goose 1.75 l",
-   "grey goose 1.75 litre",
-   "1.75 l grey goose vodka",
-   "vodka grey goose price",
-   "grey goose vodka liquorland",
-   "grey goose vodka 1.75 litre",
-   "grey goose vodka 1.75 liters",
-   "grey goose 1 ltr price",
-   "giant grey goose bottle",
-   "gray goose bottle",
-   "largest bottle of grey goose vodka",
-   "1l grey goose vodka price",
-   "gray goose alcohol content",
-   "grey goose alcohol percentage",
-   "grey goose vodka alcohol volume",
-   "vodka grey goose alcohol percentage",
-   "grey goose vodka alcohol percentage",
-   "grey goose vodka alcohol content",
-   "gray goose vodka alcohol percentage",
-   "grey goose gift pack",
-   "grey goose vodka 1 l",
-   "grey goose alcohol by volume",
-   "grey goose australia",
-   "grey goose vodka gift pack",
-   "750ml of grey goose",
-   "750 ml of grey goose",
-   "biggest bottle of grey goose vodka",
-   "biggest bottle grey goose",
-   "alcohol percentage in grey goose",
-   "grey goose 4.5l",
-   "grey goose vodka abv",
-   "grey goose vx",
-   "gray goose vx",
-   "1 litre grey goose vodka",
-   "vodka grey goose 750ml",
-   "gray goose vodka costco",
-   "grey goose 1 l",
-   "1 l grey goose vodka",
-   "grey goose abv",
-   "gray goose alcohol percentage",
-   "grey goose gift set",
-   "gray goose 750ml",
-   "750ml grey goose vodka",
-   "grey goose vx vodka",
-   "grey goose price costco",
-   "vodka grey goose costco",
-   "costco gray goose",
-   "grey goose vodka australia",
-   "grey goose alcohol content",
-   "costco grey goose",
-   "grey goose vodka bws",
-   "buy grey goose vodka"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "grey goose vodka",
-    "volume": 5400,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gray goose liquor",
-    "volume": 3600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose 1l",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose 1 litre",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose 700ml",
-    "volume": 880,
-    "kd": 16,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "gray goose vodka 1 liter",
-    "volume": 880,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose vodka 700ml",
-    "volume": 880,
-    "kd": 13,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "1l grey goose",
-    "volume": 720,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose vodka 1l",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose vodka 1 litre",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose lemon ace",
-    "volume": 590,
-    "kd": 16,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "grey goose",
-    "volume": 6600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka",
-    "volume": 5400,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gray goose liquor",
-    "volume": 3600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose lemon ace",
-    "volume": 590,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liquor grey goose",
-    "volume": 320,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose altius",
-    "volume": 210,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose big bottle",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka big bottle",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "biggest bottle of grey goose",
-    "volume": 140,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose 4.5 l",
-    "volume": 140,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "massive grey goose bottle",
-    "volume": 140,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka grey goose 4.5 l",
-    "volume": 140,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka 4.5 liter",
-    "volume": 140,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose 4.5 liter",
-    "volume": 110,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "costco vodka grey goose",
-    "volume": 110,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "costco vodka and grey goose",
-    "volume": 110,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose at costco",
-    "volume": 110,
-    "kd": 26,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "costco vodka is grey goose",
-    "volume": 110,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content in grey goose",
-    "volume": 90,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content in grey goose vodka",
-    "volume": 90,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content of grey goose",
-    "volume": 90,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content of grey goose vodka",
-    "volume": 90,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gray goose 4.5 liter",
-    "volume": 90,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gray goose martini",
-    "volume": 70,
-    "kd": 13,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "grey goose 700ml",
-   "grey goose vodka 700ml",
-   "vodka grey goose",
-   "grey goose vodka price",
-   "grey goose vodka price 1 litre",
-   "gray goose",
-   "grey goose dan murphy",
-   "grey goose bottle",
-   "dan murphy grey goose",
-   "gray goose vodka",
-   "price of grey goose",
-   "gray goose 1 liter price",
-   "grey goose liquor price",
-   "gray goose vodka 1 liter price",
-   "grey goose price"
-  ]
- },
- "belvedere": {
-  "primary": "belvedere",
-  "primaryVolume": 5400,
-  "primaryKd": 38,
-  "secondary": [
-   "belvedere vodka",
-   "belvedere palace",
-   "belvedere vodka 700ml",
-   "belvedere vodka 1l",
-   "vodka belvedere",
-   "belvedere pizzeria ristorante menu",
-   "belvedere 1l",
-   "the belvedere reviews",
-   "belvedere apartments",
-   "belvedere vodka 1 litre",
-   "vodka belvedere 700ml",
-   "belvedere vodka bws",
-   "apartments belvedere",
-   "belvedere castle central park nyc",
-   "belvedere delicatessen",
-   "belvedere griffith nsw",
-   "belvedere castle central park new york",
-   "belvedere liquor",
-   "belvedere palace vienna",
-   "belvedere schloss"
-  ],
-  "tags": [
-   "belvedere vodka",
-   "belvedere vodka 700ml",
-   "belvedere vodka 1l",
-   "vodka belvedere",
-   "belvedere palace",
-   "belvedere apartments",
-   "vodka belvedere 700ml",
-   "belvedere 1l",
-   "belvedere vodka 1 litre",
-   "belvedere pizzeria ristorante menu",
-   "the belvedere reviews",
-   "belvedere vodka bws",
-   "apartments belvedere",
-   "belvedere vodka price",
-   "belvedere 700ml",
-   "belvedere liquor",
-   "belvedere cost",
-   "belvedere 1 litre",
-   "belvedere vodka cost",
-   "belvedere price vodka",
-   "1l belvedere vodka",
-   "belvedere organic vodka",
-   "belvedere castle central park nyc",
-   "belvedere delicatessen",
-   "vodka belvedere price",
-   "belvedere rd",
-   "belvedere griffith nsw",
-   "belvedere castle central park new york",
-   "belvedere castle nyc central park",
-   "belvedere 1.75 l",
-   "belvedere hobart menu",
-   "belvedere swiss quality hotel",
-   "john belvedere reviews",
-   "belvedere swiss hotel grindelwald",
-   "belvedere palace vienna",
-   "belvedere castle nyc",
-   "belvedere hotel new york",
-   "belvedere 1.75 liter",
-   "belvedere vodka 1.75 liter",
-   "belvedere avenue",
-   "belvedere hotel new york ny united states",
-   "belvedere schloss",
-   "belvedere castle new york",
-   "belvedere new york",
-   "belvedere hotel manhattan new york",
-   "belvedere apartments golden beach",
-   "hotel belvedere new york",
-   "belvedere hotel manhattan",
-   "belvedere brisbane",
-   "belvedere post office",
-   "the belvedere at toscana menu",
-   "bws belvedere",
-   "belvedere bws",
-   "belvedere near me",
-   "belvedere hotel dublin ireland",
-   "vienna belvedere palace",
-   "belvedere art gallery"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "belvedere vodka",
-    "volume": 6600,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "belvedere hotel",
-    "volume": 3600,
-    "kd": 24,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere reservation",
-    "volume": 1300,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere griffith",
-    "volume": 1300,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere palace",
-    "volume": 1000,
-    "kd": 36,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "reserve at belvedere",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere reserve",
-    "volume": 720,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "john belvedere",
-    "volume": 720,
-    "kd": 38,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere vodka 700ml",
-    "volume": 590,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "belvedere vodka 1l",
-    "volume": 590,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "belvedere woody point",
-    "volume": 590,
-    "kd": 19,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel sydney",
-    "volume": 590,
-    "kd": 22,
-    "intent": "Navigational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "belvedere",
-    "volume": 5400,
-    "kd": 38,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel",
-    "volume": 3600,
-    "kd": 24,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere reservation",
-    "volume": 1300,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere griffith",
-    "volume": 1300,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "reserve at belvedere",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere reserve",
-    "volume": 720,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "john belvedere",
-    "volume": 720,
-    "kd": 38,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere woody point",
-    "volume": 590,
-    "kd": 19,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere gallery",
-    "volume": 590,
-    "kd": 55,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel sydney",
-    "volume": 590,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "the belvedere at toscana",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "the belvedere oxley avenue woody point qld",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere redcliffe",
-    "volume": 480,
-    "kd": 26,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel kent street",
-    "volume": 480,
-    "kd": 17,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "the belvedere photos",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere sydney",
-    "volume": 390,
-    "kd": 24,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "the belvedere menu",
-    "volume": 390,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere castle",
-    "volume": 390,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere hotel woody point",
-    "volume": 390,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere vodka dan murphy",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel woody point redcliffe",
-    "volume": 390,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere st",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "belvedere farm",
-    "volume": 320,
-    "kd": 15,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere hotel woody point qld",
-    "volume": 320,
-    "kd": 24,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "belvedere pizzeria ristorante",
-    "volume": 320,
-    "kd": 28,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "belvedere palace",
-   "vienna belvedere",
-   "vodka belvedere",
-   "belvedere pizzeria ristorante menu",
-   "belvedere castle vienna",
-   "belvedere palace museum",
-   "vodka belvedere 700ml",
-   "belvedere vodka bws",
-   "apartments belvedere",
-   "belvedere castle central park nyc",
-   "belvedere delicatessen",
-   "belvedere griffith nsw",
-   "belvedere castle central park new york",
-   "belvedere liquor",
-   "belvedere palace vienna"
-  ]
- },
- "patron": {
-  "primary": "patron",
-  "primaryVolume": 8100,
-  "primaryKd": 17,
-  "secondary": [
-   "patron tequila",
-   "patron silver",
-   "patron silver tequila",
-   "patron coffee",
-   "silver patron",
-   "coffee patron",
-   "tequila patron",
-   "patron tequila price",
-   "patron tequila silver",
-   "patron silver tequila 700ml",
-   "tequila patron añejo",
-   "silver patron tequila price",
-   "patron xo",
-   "patron mini",
-   "patron tequila alcohol",
-   "patron xo tequila",
-   "mini patron bottles",
-   "patron cost",
-   "patron alcohol price",
-   "patron tequila cost"
-  ],
-  "tags": [
-   "patron",
-   "patron tequila",
-   "patron silver",
-   "patron silver tequila",
-   "patron coffee",
-   "patron tequila price",
-   "silver patron",
-   "coffee patron",
-   "tequila patron",
-   "patron silver tequila 700ml",
-   "patron mini",
-   "silver patron tequila price",
-   "patron tequila silver",
-   "patron liquor cost",
-   "tequila patron añejo",
-   "patron xo",
-   "patron alcohol price",
-   "patron cost",
-   "patron tequila cost",
-   "patron tequila alcohol",
-   "patron xo tequila",
-   "patron price",
-   "patron xo coffee tequila",
-   "xo coffee patron",
-   "mini patron bottles",
-   "cost of patron silver tequila",
-   "coffee patron tequila",
-   "patron silver price",
-   "cost of patron silver",
-   "tequila patron coffee",
-   "mini patron",
-   "drinking patron",
-   "patron liquor",
-   "mini patron tequila bottles",
-   "gran patron",
-   "xo tequila patron",
-   "small patron tequila",
-   "mini bottles of patron tequila",
-   "mini tequila patron",
-   "xo.patron",
-   "coffee tequila patron",
-   "small patron bottle",
-   "little patron bottles",
-   "patron bottle",
-   "small patron tequila bottles"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "patron tequila",
-    "volume": 3600,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "patronising",
-    "volume": 3600,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronising meaning",
-    "volume": 2900,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronage",
-    "volume": 1600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronize meaning",
-    "volume": 1600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron silver",
-    "volume": 1000,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron silver tequila",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "patron coffee",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "silver patron",
-    "volume": 590,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "coffee patron",
-    "volume": 590,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "silver patron tequila",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Navigational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "patronising",
-    "volume": 3600,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronising meaning",
-    "volume": 2900,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron meaning",
-    "volume": 2400,
-    "kd": 52,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronizing define",
-    "volume": 1900,
-    "kd": 51,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronage",
-    "volume": 1600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronize meaning",
-    "volume": 1600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "meaning of patronise",
-    "volume": 1600,
-    "kd": 43,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "define patronizing",
-    "volume": 1600,
-    "kd": 46,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "meaning patronise",
-    "volume": 1300,
-    "kd": 46,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patroness meaning",
-    "volume": 1300,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronize definition",
-    "volume": 1000,
-    "kd": 47,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "definition patronising",
-    "volume": 880,
-    "kd": 46,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "define patron",
-    "volume": 720,
-    "kd": 51,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "define patronize",
-    "volume": 720,
-    "kd": 44,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "definition for patronage",
-    "volume": 720,
-    "kd": 49,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "silver patron tequila",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "patron reposado",
-    "volume": 590,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patrons def",
-    "volume": 590,
-    "kd": 50,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron alcohol",
-    "volume": 480,
-    "kd": 24,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "patron anejo",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronised",
-    "volume": 480,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronymic",
-    "volume": 480,
-    "kd": 47,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "definition of patronising",
-    "volume": 390,
-    "kd": 43,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patronising synonym",
-    "volume": 390,
-    "kd": 25,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "patron tequila price",
-   "silver patron tequila price",
-   "patron alcohol price",
-   "patron price",
-   "patron silver price",
-   "small patron tequila bottles"
-  ]
- },
- "don-julio": {
-  "primary": "don julio",
-  "primaryVolume": 8100,
+ "scotch-whisky": {
+  "primary": "whiskey sale",
+  "primaryVolume": 480,
   "primaryKd": 18,
   "secondary": [
-   "don julio 1942",
-   "don julioooo",
-   "don julio tequila",
-   "don julio brands",
-   "1942 don julio",
-   "don julio reposado",
-   "reposado don julio",
-   "tequila don julio reposado",
-   "don julio anejo",
-   "tequila don julio",
-   "don julio 1942 tequila",
-   "tequila don julio 1942",
-   "don julio blanco tequila",
-   "don julio reposado tequila",
-   "don julio tequila price",
-   "don julio tequila reposado",
-   "don julio 70",
-   "don julio branding",
-   "don julio 1942 price",
-   "1942 don julio tequila"
-  ],
-  "tags": [
-   "don julio",
-   "don julio 1942",
-   "don julioooo",
-   "don julio tequila",
-   "reposado don julio",
-   "don julio brands",
-   "1942 don julio",
-   "tequila don julio reposado",
-   "don julio reposado",
-   "don julio 1942 tequila",
-   "tequila don julio 1942",
-   "don julio blanco tequila",
-   "don julio reposado tequila",
-   "don julio tequila price",
-   "don julio anejo",
-   "don julio real",
-   "don julio tequila reposado",
-   "tequila don julio",
-   "1942 don julio tequila",
-   "don julio 70",
-   "don julio branding",
-   "don julio 1942 price",
-   "don julio tequila 1942",
-   "don julio tequila cost",
-   "don julio price",
-   "tequila 1942 don julio",
-   "cost of don julio",
-   "don julio 1942 tequila cost",
-   "don julio 1942 tequila price",
-   "1942 don julio cost",
-   "don julio anejo tequila",
-   "don julio cost",
-   "mini don julio",
-   "don julio bottle",
-   "don julio mini",
-   "price on don julio 1942",
-   "bottle don julio",
-   "don julio ultima reserva",
-   "don julio price 1942",
-   "price of 1942 don julio",
-   "don julio tequila bottles"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "don julio 1942",
-    "volume": 5400,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julioooo",
-    "volume": 5400,
-    "kd": 25,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "don julio tequila",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julio brands",
-    "volume": 1000,
-    "kd": 18,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "don julio blanco",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "1942 don julio",
-    "volume": 720,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julio reposado",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "reposado don julio",
-    "volume": 720,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tequila don julio reposado",
-    "volume": 590,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julio anejo",
-    "volume": 480,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tequila don julio",
-    "volume": 480,
-    "kd": 18,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "don julio blanco",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julio tequila blanco",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julioreposado",
-    "volume": 90,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mini tequila don julio",
-    "volume": 90,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julio steakhouse",
-    "volume": 70,
-    "kd": 26,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "don julioooo",
-   "don julio brands",
-   "don julio 1942 tequila",
-   "don julio tequila price",
-   "don julio 1942 price",
-   "1942 don julio tequila",
-   "don julio price",
-   "don julio tequila cost",
-   "don julio 1942 tequila price",
-   "don julio bottle",
-   "don julio tequila bottles",
-   "don julio price 1942",
-   "price of 1942 don julio",
-   "price on don julio 1942",
-   "bottle don julio"
-  ]
- },
- "jose-cuervo": {
-  "primary": "jose cuervo",
-  "primaryVolume": 2400,
-  "primaryKd": 23,
-  "secondary": [
-   "jose cuervo tequila",
-   "jose cuervo 1l",
-   "jose cuervo silver",
-   "jose cuervo blue agave",
-   "jose cuervo especial blue agave",
-   "jose cuervo tequila silver",
-   "jose cuervo marg",
-   "tequilas de jose cuervo",
-   "jose cuervo agave",
-   "tequila jose cuervo silver",
-   "jose cuervo tequila agave",
-   "tequila jose cuervo 1l",
-   "blue agave tequila jose cuervo",
-   "jose cuervo blue agave tequila",
-   "jose cuervo silver tequila",
-   "gold tequila jose cuervo",
-   "gold jose cuervo tequila"
-  ],
-  "tags": [
-   "jose cuervo",
-   "jose cuervo tequila",
-   "jose cuervo 1l",
-   "jose cuervo blue agave",
-   "jose cuervo silver",
-   "jose cuervo marg",
-   "jose cuervo especial blue agave",
-   "jose cuervo tequila silver",
-   "jose cuervo agave",
-   "tequila jose cuervo silver",
-   "tequila jose cuervo 1l",
-   "gold jose cuervo tequila",
-   "jose cuervo blue agave tequila",
-   "jose cuervo silver tequila",
-   "gold tequila jose cuervo",
-   "blue agave tequila jose cuervo",
-   "jose cuervo tequila agave",
-   "tequilas de jose cuervo"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "jose cuervo tequila",
-    "volume": 1000,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tequila jose cuervo",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo 1l",
-    "volume": 260,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo limonada",
-    "volume": 260,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo especial",
-    "volume": 260,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo silver",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo blue agave",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo especial blue agave",
-    "volume": 170,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo tequila silver",
-    "volume": 170,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo tequileria",
-    "volume": 170,
-    "kd": 35,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "jose cuervo marg",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo gold",
-    "volume": 110,
-    "kd": 13,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "tequila jose cuervo",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo limonada",
-    "volume": 260,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo especial",
-    "volume": 260,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo tequileria",
-    "volume": 170,
-    "kd": 35,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "jose cuervo gold",
-    "volume": 110,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo tequila gold",
-    "volume": 90,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila jose cuervo blue agave",
-    "volume": 90,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo 1 liter",
-    "volume": 70,
-    "kd": 9,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "tequilas de jose cuervo",
-   "jose cuervo blue agave tequila"
-  ]
- },
- "scotch-whisky": {
-  "primary": "scotch whisky",
-  "primaryVolume": 2900,
-  "primaryKd": 19,
-  "secondary": [
-   "glenfiddich",
    "whisky",
-   "glenfiddich 12",
    "scotch",
-   "johnnie walker",
-   "johnnie walker blue label",
-   "macallan 12",
-   "johnnie walker black label",
+   "japanese whiskey",
    "regal chivas whisky",
    "single malt",
-   "macallan",
-   "johnny walker",
-   "blue label johnnie walker",
-   "laphroaig",
-   "macallan 18",
-   "royal salute 21",
-   "single malt whiskey",
-   "glenfiddich 18",
-   "gold label johnnie walker",
-   "glenfiddich 15"
-  ],
-  "tags": [
-   "scotch",
-   "glenfiddich",
-   "glenfiddich 12",
-   "whisky",
-   "macallan 12",
-   "johnnie walker",
-   "johnnie walker blue label",
-   "regal chivas whisky",
-   "johnnie walker black label",
-   "macallan",
-   "single malt",
-   "macallan 18",
-   "royal salute 21",
-   "blue label johnnie walker",
    "scotch whisky",
-   "glenfiddich 18",
-   "johnny walker",
-   "gold label johnnie walker",
-   "laphroaig",
-   "glenfiddich 15",
-   "royal salute",
-   "johnnie walker red label",
+   "hibiki whiskey",
+   "bourbon whiskey",
    "single malt whiskey",
-   "whisky malt single",
-   "laphroaig 10",
-   "singleton whiskey",
-   "royal salute whisky 21",
-   "glenfiddich 21",
-   "black label johnnie walker",
-   "laphroaig 10 islay",
    "macallan whiskey",
-   "crown royal",
-   "j walker green label",
-   "johnnie walker blue",
-   "uísque macallan",
-   "glendronach 12",
-   "highland scotch whisky single malt",
-   "single malt scotch whisky",
-   "highland single malt whiskey",
-   "laphroaig ten",
-   "johnnie walker double black",
-   "macallan 25",
-   "johnnie walker red",
-   "macallan 15",
-   "johnnie walker green label",
-   "johnnie walker red label 1 litre price",
-   "scotch w",
-   "premium blended scotch",
-   "johnnie walker red whisky",
-   "green label johnnie walker",
-   "royal salute 21 year old",
-   "johnny walker blue",
-   "laphroaig whiskey",
-   "johnny walker blue label",
-   "crown royal whiskey",
-   "johnnie walker black",
-   "highland malt scotch whiskey",
-   "johnnie walker 1 litre",
-   "the macallan 12 year old",
-   "glendronach 15",
-   "macallan 12 sherry oak",
-   "maclagan whisky",
-   "johnnie walker black label 1 litre price",
+   "scotch whiskey",
+   "whisky malt single",
+   "singleton whiskey",
+   "dalmore whisky",
+   "single malt scotch whisky"
+  ],
+  "tags": [
+   "macallan whisky",
+   "best whiskey",
    "blended scotch whisky",
-   "johnnie walker black label 700ml",
-   "glendronach 18",
-   "johnnie walker blue label 1 litre price",
-   "hakushu single malt",
-   "grand talon rice whisky",
-   "blended scots whisky",
-   "macallan 12 double cask",
-   "johnnie walker 18 year old",
-   "johnnie walker blue label 700ml",
-   "johnnie walker red label 700ml",
-   "single scotch",
-   "single scotch whisky",
-   "royal salute whiskey",
-   "single malt scotch",
-   "royal salute 53",
-   "macallan rare cask",
-   "johnnie walker platinum label",
-   "johnnie walker red label 1l",
-   "glenfiddich 12 year old",
-   "jack daniels single barrel",
-   "jw black label whisky",
-   "laphroaig quarter cask",
-   "black label johnnie walker 1 liter price",
-   "highland park whisky",
-   "black ruby johnnie walker",
-   "crown royal canadian whisky",
-   "black label johnnie walker 1l",
-   "whisky oban single malt",
+   "hibiki whisky",
+   "scotch w",
+   "highland scotch whisky single malt",
+   "premium scotch whiskey",
    "scotch malt whisky",
-   "highland single malt",
-   "single highland malt scotch whiskey",
-   "johnnie walker king george v",
-   "chivas regal royal salute",
-   "1l johnnie walker",
-   "glenfiddich price",
-   "red label scotch whisky",
-   "johnnie walker blue label price",
-   "yamazaki single malt",
-   "laphroaig qa cask",
-   "scotch whiskey brands",
-   "scotch whisky blended malt",
-   "johnnie walker red 1l",
-   "johnnie walker black label scotch whisky 700ml",
-   "johnnie walker red label 700ml price",
-   "1l johnnie walker red",
-   "johnnie walker red label 1l price",
-   "macallan the",
-   "double black johnnie walker",
-   "best single malt whiskey",
-   "highland whisky",
-   "glenfiddich grand cru",
-   "glenfiddich gran reserva 21",
-   "johnnie walker scotch",
-   "johnnie walker xr 21",
-   "johnny walker black ruby",
-   "1 litre johnnie walker",
-   "glenfiddich whiskey",
-   "johnnie walker scotch whisky",
-   "premium blended scotch whisky",
-   "johnnie walker double black 700ml",
-   "royal salute 21 price",
-   "blue label johnnie walker 1l",
-   "johnnie walker xr",
-   "john walker green",
-   "scotch and whiskey blend",
-   "best scotch whisky",
-   "johnnie walker gold",
-   "macallan scotch",
-   "uisque glenfiddich",
-   "bowmore whisky",
-   "johnnie walker green",
-   "john walker blue label",
-   "johnnie walker red 700ml",
-   "glenfiddich fire and cane",
-   "laphroaig lore",
-   "laphroaig whisky price",
-   "blue label johnny walker",
-   "johnnie walker gold label 700ml",
-   "johnny walker red label",
+   "highland single malt whiskey",
+   "premium blended scotch",
+   "single malt scotch",
+   "whisky the dalmore",
    "malt scotch whisky",
-   "scotch whisky islay single malt",
-   "johnnie walker 1l",
-   "johnnie walker blue label blended scotch whisky 700ml",
-   "johnny walker black",
-   "johnny walker scotch",
-   "oban single malt"
+   "blended scots whisky",
+   "highland malt scotch whiskey",
+   "scotch and whiskey blend",
+   "scotch whiskey brands",
+   "best scotch whisky",
+   "singleton whisky",
+   "highland single malt",
+   "best single malt whiskey",
+   "whisky america"
   ],
   "faqSeeds": [
    {
-    "keyword": "glenfiddich",
-    "volume": 14800,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "whisky",
-    "volume": 14800,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "glenfiddich 12",
-    "volume": 9900,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "scotch",
-    "volume": 9900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "johnnie walker",
-    "volume": 8100,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "johnnie walker blue label",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "macallan 12",
-    "volume": 5400,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "johnnie walker black label",
-    "volume": 5400,
-    "kd": 20,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "regal chivas whisky",
-    "volume": 4400,
-    "kd": 15,
-    "intent": "Transactional"
-   },
-   {
     "keyword": "scotch beverage",
     "volume": 4400,
     "kd": 25,
     "intent": "Informational"
    },
    {
-    "keyword": "single malt",
-    "volume": 3600,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "macallan",
-    "volume": 3600,
-    "kd": 13,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "scotch beverage",
-    "volume": 4400,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie walker gold label",
-    "volume": 2400,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glendronach",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky red label johnnie walker",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie walker black ruby",
-    "volume": 1300,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie red label",
-    "volume": 1300,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "j walker red label",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red label johnnie walker",
+    "keyword": "australian whisky",
     "volume": 1000,
-    "kd": 19,
+    "kd": 22,
     "intent": "Informational"
    },
    {
-    "keyword": "johnnie",
-    "volume": 720,
-    "kd": 30,
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
     "intent": "Informational"
    },
    {
-    "keyword": "mclane whisky",
+    "keyword": "american whiskey",
     "volume": 720,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie walker whisky black label",
-    "volume": 720,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnny walker black label",
-    "volume": 720,
-    "kd": 30,
+    "kd": 14,
     "intent": "Informational"
    },
    {
     "keyword": "ardbeg whisky",
     "volume": 720,
     "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "scotch malts",
-    "volume": 720,
-    "kd": 40,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie walker gold label reserve",
-    "volume": 720,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "islay whisky laphroaig",
-    "volume": 590,
-    "kd": 18,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "laphroaig oak select",
-    "volume": 480,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glenfiddich dan murphy",
-    "volume": 480,
-    "kd": 27,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "jes macallan",
-    "volume": 390,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "scotch and whiskey",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "islay single malt scotch whisky",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whiskey johnnie walker red label",
-    "volume": 390,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "johnnie walker swing",
-    "volume": 390,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "1 million royal",
-    "volume": 390,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glenfiddich scotch",
-    "volume": 320,
-    "kd": 22,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "regal chivas whisky",
-   "laphroaig",
-   "maclagan whisky",
-   "laphroaig whiskey",
-   "single scotch",
-   "single scotch whisky",
-   "johnnie walker black label 1 litre price",
-   "johnnie walker red label 1 litre price",
-   "highland park whisky",
-   "glenfiddich 12 year old",
-   "macallan scotch",
-   "dan murphy's glenfiddich",
-   "bowmore whisky",
-   "black label johnnie walker 1 liter price",
-   "johnnie walker blue label 1 litre price"
-  ]
- },
- "bourbon": {
-  "primary": "bourbon",
-  "primaryVolume": 9900,
-  "primaryKd": 16,
-  "secondary": [
-   "bourbon brands",
-   "hibiki whiskey",
-   "bourbon whiskey",
-   "macallan whiskey",
-   "bourbon whiskey kentucky straight",
-   "buffalo trace bourbon",
-   "jim beam bourbon whiskey",
-   "whisky buffalo trace bourbon",
-   "wild turkey bourbon",
-   "jack daniels whiskey",
-   "buffalo trace kentucky bourbon",
-   "bushmills whiskey",
-   "whiskey bourbon jim beam",
-   "red breast whiskey",
-   "redbreast whiskey",
-   "yamazaki whiskey",
-   "best whiskey",
-   "bulleit bourbon",
-   "bourbon a whiskey",
-   "jack daniel s whiskey"
-  ],
-  "tags": [
-   "bourbon",
-   "hibiki whiskey",
-   "japanese whiskey",
-   "bourbon whiskey kentucky straight",
-   "buffalo trace bourbon",
-   "bourbon whiskey",
-   "whisky buffalo trace bourbon",
-   "bourbon brands",
-   "macallan whiskey",
-   "wild turkey bourbon",
-   "buffalo trace kentucky bourbon",
-   "bushmills whiskey",
-   "jim beam bourbon whiskey",
-   "yamazaki whiskey",
-   "bulleit bourbon",
-   "best whiskey",
-   "redbreast whiskey",
-   "whiskey bourbon jim beam",
-   "bourbon a whiskey",
-   "jack daniels whiskey",
-   "bourbon woodford",
-   "jack daniel s whiskey",
-   "laphroaig whiskey",
-   "wood reserve bourbon",
-   "red breast whiskey",
-   "australian bourbon",
-   "bushmills irish whiskey",
-   "canadian whiskey",
-   "japanese whiskey yamazaki",
-   "single highland malt scotch whiskey",
-   "kentucky bourbon",
-   "1792 bourbon",
-   "aberlour whiskey",
-   "hakushu whiskey",
-   "jack daniel's tennessee whiskey",
-   "amrut whiskey",
-   "woodford bourbon",
-   "premium bourbon whiskey",
-   "whiskey brands",
-   "cheap whiskey",
-   "good whiskey",
-   "premium bourbon",
-   "whiskey sale",
-   "bourbon specials",
-   "hibiki japanese whiskey",
-   "buy bourbon online",
-   "aberlour malt whiskey",
-   "bourbon on special",
-   "bourbon on sale",
-   "whiskey from usa",
-   "single malt scotch whisky whiskey",
-   "buffalo whiskey",
-   "american bourbon",
-   "whiskey and american",
-   "bourbon australia",
-   "best american whiskey",
-   "us whiskey",
-   "mclaren whiskey",
-   "whiskey on sale",
-   "whiskey ireland",
-   "buffalo trace bourbon whiskey",
-   "yamazaki malt whiskey",
-   "bourbon prices",
-   "jack daniels bourbon whiskey",
-   "cheap bourbon australia",
-   "finest single malt whiskey",
-   "macallan scotch whiskey",
-   "buy whiskey online",
-   "new zealand whiskey",
-   "american bourbon whiskey",
-   "aberlour single malt whiskey",
-   "nice bourbon whiskey",
-   "bourbon for sale",
-   "deals on whiskey",
-   "jack tennessee whiskey",
-   "bourbon reserve woodford",
-   "bulleit bourbon cans",
-   "dalmore whiskey",
-   "scotch whiskey for sale",
-   "buy whiskey",
-   "bourbon whiskey australia",
-   "kentucky bourbon whiskey",
-   "bourbon whiskey 1792",
-   "18 year old whiskey",
-   "whiskey for sale",
-   "bourbon bottles",
-   "bourbon whiskey for sale",
-   "bourbon alcohol",
-   "ballantine whiskey",
-   "nice single malt whiskey",
-   "ardbeg whiskey",
-   "wild turkey bourbon australia",
-   "tennessee whiskey jack daniels",
-   "irish malt whiskey",
-   "bulleit bourbon rye",
-   "togouchi whiskey",
-   "japanese scotch whiskey",
-   "bourbon whiskey whisky",
-   "whisky bourbon jack daniels",
-   "japanese whiskey hibiki",
-   "bourbon in australia",
-   "blended scotch whiskey",
-   "bourbon vs whiskey taste",
-   "order bourbon online",
-   "wild turkey 101 bourbon whiskey",
-   "bourbon whiskey kentucky",
-   "hibiki whiskey japan",
-   "bourbon liquor",
-   "bourbon four roses",
-   "liquorland bourbon",
-   "buy bourbon",
-   "101 bourbon",
-   "bottle of bourbon",
-   "bourbon sale",
-   "buy american whiskey online",
-   "bourbon drink price",
-   "wild turkey bourbon 81 proof",
-   "american whiskey and bourbon",
-   "bourbon american",
-   "teeling whiskey irish",
-   "american whiskey brands",
-   "lafraugh whiskey",
-   "price bourbon",
-   "macallan whiskey 12",
-   "good american whisky",
-   "black label bourbon whiskey",
-   "maker's bourbon",
-   "wild turkey straight bourbon",
-   "john walker whiskey",
-   "whisky bourbon",
-   "bourbon rare",
-   "the difference between bourbon and whiskey",
-   "rye whiskey versus bourbon",
-   "alcohol bourbon",
-   "whiskey macallan",
-   "johnnie walker single malt whiskey",
-   "bourbon wild turkey",
-   "bourbon versus rye",
-   "american whiskey vs bourbon",
-   "king of kentucky bourbon",
-   "santori whiskey",
-   "whiskey scotch single malt",
-   "whiskey au",
-   "whiskey bourbon brands",
-   "whiskey glenfiddich",
-   "best drinking bourbon",
-   "blantons bourbon",
-   "whiskey online australia",
-   "good types of bourbon",
-   "bourbon buffalo trace"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "japanese whiskey",
-    "volume": 4400,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bourbon brands",
-    "volume": 2900,
-    "kd": 26,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "hibiki whiskey",
-    "volume": 2900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bourbon whiskey",
-    "volume": 2400,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "macallan whiskey",
-    "volume": 1900,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bourbon whiskey kentucky straight",
-    "volume": 1900,
-    "kd": 9,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "buffalo trace bourbon",
-    "volume": 1900,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jim beam bourbon whiskey",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "whisky buffalo trace bourbon",
-    "volume": 1600,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wild turkey bourbon",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jack daniels whiskey",
-    "volume": 1300,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "buffalo trace kentucky bourbon",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "american whiskey",
-    "volume": 720,
-    "kd": 14,
     "intent": "Informational"
    },
    {
@@ -2089,21 +101,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "united states whiskey",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
     "keyword": "williams bourbon",
     "volume": 480,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "talisker whiskey",
-    "volume": 390,
-    "kd": 15,
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
     "intent": "Informational"
    },
    {
@@ -2113,379 +119,55 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "buffalo bourbon",
-    "volume": 320,
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "1792 bourbon whiskey",
-    "volume": 260,
-    "kd": 14,
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "is jack daniels whiskey",
-    "volume": 210,
-    "kd": 21,
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
     "intent": "Informational"
    },
    {
-    "keyword": "what is jack daniels whiskey",
-    "volume": 170,
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
     "kd": 18,
     "intent": "Informational"
-   },
+   }
+  ],
+  "informational": [
    {
-    "keyword": "alcohol in bourbon",
-    "volume": 140,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bourbon and proof",
-    "volume": 140,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whiskey is bourbon",
-    "volume": 110,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "willets bourbon",
-    "volume": 110,
+    "keyword": "scotch beverage",
+    "volume": 4400,
     "kd": 25,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "straight bourbon whiskey",
-    "volume": 110,
-    "kd": 8,
     "intent": "Informational"
    },
    {
-    "keyword": "american kentucky whiskey",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bourbon meaning",
-    "volume": 90,
+    "keyword": "australian whisky",
+    "volume": 1000,
     "kd": 22,
     "intent": "Informational"
    },
    {
-    "keyword": "how bourbon is made",
-    "volume": 90,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whiskey bourbon difference",
-    "volume": 90,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bourbon in japan",
-    "volume": 90,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dalwhinnie whiskey",
-    "volume": 90,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bourbon kentucky",
-    "volume": 90,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "american whiskey bourbon and rye",
-    "volume": 70,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "black bourbon whiskey",
-    "volume": 70,
-    "kd": 7,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "bushmills whiskey",
-   "red breast whiskey",
-   "redbreast whiskey",
-   "yamazaki whiskey",
-   "laphroaig whiskey",
-   "old bushmills whiskey",
-   "bushmills irish whiskey",
-   "whiskey sale",
-   "whiskey on sale",
-   "aberlour whiskey",
-   "buy whiskey",
-   "buy whiskey online",
-   "whiskey for sale",
-   "mclaren whiskey",
-   "whiskey and american"
-  ]
- },
- "rye-whiskey": {
-  "primary": "rye whiskey",
-  "primaryVolume": 1300,
-  "primaryKd": 16,
-  "secondary": [
-   "irish whiskey",
-   "whiskey gift",
-   "rye spirit",
-   "whiskey & rye",
-   "liquor rye",
-   "laphroaig whiskey",
-   "highland single malt whiskey",
-   "canadian whiskey",
-   "amrut whiskey",
-   "bushmills irish whiskey",
-   "whiskey brands",
-   "woodford reserve whiskey",
-   "redbreast irish whiskey",
-   "irish whiskey brands",
-   "scotch and whiskey blend",
-   "rye alcohol",
-   "whiskey from usa",
-   "japanese whiskey yamazaki",
-   "single highland malt scotch whiskey",
-   "good whiskey"
-  ],
-  "tags": [
-   "irish whiskey",
-   "whiskey gift",
-   "hibiki whiskey",
-   "japanese whiskey",
-   "single malt whiskey",
-   "macallan whiskey",
-   "highland single malt whiskey",
-   "rye whiskey",
-   "bushmills whiskey",
-   "whiskey & rye",
-   "yamazaki whiskey",
-   "best whiskey",
-   "redbreast whiskey",
-   "liquor rye",
-   "rye spirit",
-   "jack daniels whiskey",
-   "jack daniel s whiskey",
-   "laphroaig whiskey",
-   "redbreast irish whiskey",
-   "red breast whiskey",
-   "rye alcohol",
-   "bushmills irish whiskey",
-   "woodford reserve whiskey",
-   "canadian whiskey",
-   "japanese whiskey yamazaki",
-   "single highland malt scotch whiskey",
-   "irish whiskey brands",
-   "aberlour whiskey",
-   "hakushu whiskey",
-   "jack daniel's tennessee whiskey",
-   "amrut whiskey",
-   "rye whiskey australia",
-   "whiskey brands",
-   "scotch and whiskey blend",
-   "good whiskey",
-   "cheap whiskey",
-   "whiskey sale",
-   "rye for whiskey",
-   "whiskey blended",
-   "hibiki japanese whiskey",
-   "aberlour malt whiskey",
-   "manhattan rye whiskey",
-   "whiskey from usa",
-   "single malt scotch whisky whiskey",
-   "islay scotland whiskey",
-   "buffalo whiskey",
-   "sazerac rye",
-   "high west double rye",
-   "whiskey and american",
-   "best american whiskey",
-   "us whiskey",
-   "mclaren whiskey",
-   "woodford whiskey",
-   "whiskey on sale",
-   "whiskey ireland",
-   "gospel whiskey",
-   "hennessy whiskey",
-   "yamazaki malt whiskey",
-   "irish whiskey blended",
-   "whiskey brands irish",
-   "finest single malt whiskey",
-   "smoky whiskey",
-   "the gospel straight rye whiskey",
-   "macallan scotch whiskey",
-   "buy whiskey online",
-   "whiskey top rated",
-   "irish whiskey premium",
-   "new zealand whiskey",
-   "knob creek rye",
-   "aberlour single malt whiskey",
-   "aged whiskey",
-   "deals on whiskey",
-   "jack tennessee whiskey",
-   "irish whiskey blends",
-   "archie rose rye malt whisky",
-   "dalmore whiskey",
-   "scotch whiskey for sale",
-   "buy whiskey",
-   "minor case rye whiskey",
-   "whiskey in the rye",
-   "gospel rye whiskey",
-   "glenlivet whiskey single malt",
-   "18 year old whiskey",
-   "whiskey for sale",
-   "irische whiskeys",
-   "high west whiskey",
-   "best rye whiskey",
-   "kentucky whiskey",
-   "nice single malt whiskey",
-   "ballantine whiskey",
-   "ardbeg whiskey",
-   "peated whiskey",
-   "tennessee whiskey jack daniels",
-   "australian rye whiskey",
-   "irish malt whiskey",
-   "jack daniels rye",
-   "peaty whiskey",
-   "togouchi whiskey",
-   "straight rye whiskey",
-   "japanese scotch whiskey",
-   "famous goose whiskey",
-   "canadian rye whiskey",
-   "japanese whiskey hibiki",
-   "irish blend whiskey",
-   "malt whiskey",
-   "blended scotch whiskey",
-   "single malt irish whiskey",
-   "hibiki whiskey japan",
-   "buy american whiskey online",
-   "rye whiskey recommendations",
-   "rye whiskey brands",
-   "teeling whiskey irish",
-   "whisky and rye",
-   "american whiskey brands",
-   "lafraugh whiskey",
-   "macallan whiskey 12",
-   "laphroaig scotch whiskey",
-   "good american whisky",
-   "double malt whiskey",
-   "john walker whiskey",
-   "rye liquor brands",
-   "blended malt scotch whiskey",
-   "milky whiskey",
-   "corn whiskey",
-   "good rye whiskey",
-   "whiskey macallan",
-   "johnnie walker single malt whiskey",
-   "blended irish whiskey",
-   "whiskey blend",
-   "santori whiskey",
-   "whiskey scotch single malt",
-   "whiskey au",
-   "whiskey glenfiddich",
-   "whiskey online australia",
-   "top rated american whiskey",
-   "glenfiddich single malt whiskey",
-   "whiskey aus",
-   "whiskey japanese",
-   "rye whiskey types",
-   "rye alcohol brands",
-   "whiskey buy online",
-   "whiskey brands japan",
-   "kentucky whiskey brands",
-   "whiskey in australia"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "japanese whiskey",
-    "volume": 4400,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "irish whiskey",
-    "volume": 3600,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "hibiki whiskey",
-    "volume": 2900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "single malt whiskey",
-    "volume": 2400,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "whiskey gift",
-    "volume": 2400,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "macallan whiskey",
-    "volume": 1900,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jack daniels whiskey",
-    "volume": 1300,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bushmills whiskey",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "rye spirit",
+    "keyword": "rye whiskey rye",
     "volume": 1000,
-    "kd": 17,
-    "intent": "Transactional"
+    "kd": 20,
+    "intent": "Informational"
    },
-   {
-    "keyword": "whiskey & rye",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "red breast whiskey",
-    "volume": 1000,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "redbreast whiskey",
-    "volume": 1000,
-    "kd": 15,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
    {
     "keyword": "american whiskey",
     "volume": 720,
@@ -2493,15 +175,662 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "united states whiskey",
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
     "volume": 480,
-    "kd": 19,
+    "kd": 17,
     "intent": "Informational"
    },
    {
     "keyword": "rye drink",
     "volume": 480,
     "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "regal chivas whisky"
+  ]
+ },
+ "bourbon": {
+  "primary": "buy bourbon online",
+  "primaryVolume": 210,
+  "primaryKd": 6,
+  "secondary": [
+   "bourbon",
+   "bourbon brands",
+   "bourbon whiskey kentucky straight",
+   "buffalo trace bourbon",
+   "jim beam bourbon whiskey",
+   "whisky buffalo trace bourbon",
+   "whiskey bourbon jim beam",
+   "wild turkey bourbon",
+   "buffalo trace kentucky bourbon",
+   "bulleit bourbon",
+   "bourbon a whiskey",
+   "wood reserve bourbon",
+   "bourbon woodford",
+   "1792 bourbon",
+   "australian bourbon"
+  ],
+  "tags": [
+   "bourbon whiskey",
+   "kentucky bourbon",
+   "bourbon specials",
+   "woodford bourbon",
+   "premium bourbon whiskey",
+   "premium bourbon",
+   "buffalo trace bourbon whiskey",
+   "american bourbon",
+   "bourbon australia",
+   "cheap bourbon australia",
+   "bourbon on special",
+   "buffalo trace bourbon whisky",
+   "bourbon whisky",
+   "bourbon prices",
+   "bourbon reserve woodford",
+   "jack daniels bourbon whiskey",
+   "american bourbon whiskey",
+   "bourbon alcohol",
+   "wild turkey bourbon australia",
+   "whisky bourbon jack daniels",
+   "nice bourbon whiskey",
+   "bourbon whiskey australia"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "rye-whiskey": {
+  "primary": "whiskey & rye",
+  "primaryVolume": 1000,
+  "primaryKd": 13,
+  "secondary": [
+   "rye whiskey",
+   "liquor rye",
+   "rye spirit",
+   "sazerac rye",
+   "rye whiskey australia",
+   "manhattan rye whiskey",
+   "knob creek rye",
+   "rye bourbon",
+   "high west double rye",
+   "rye whiskeys",
+   "the gospel straight rye whiskey",
+   "canadian rye whiskey",
+   "minor case rye whiskey",
+   "whiskey in the rye",
+   "rye whiskey brands"
+  ],
+  "tags": [
+   "jack daniels rye",
+   "best rye whiskey",
+   "australian rye whiskey",
+   "rye liquor brands",
+   "canadian rye whisky",
+   "high rye bourbon",
+   "rye whiskey versus bourbon",
+   "rye alcohol brands",
+   "rye whiskey types",
+   "straight rye whiskey",
+   "whiskey bourbon rye",
+   "bourbon rye whiskey",
+   "bourbon versus rye",
+   "good rye whiskey",
+   "rye whiskey recommendations",
+   "best rye bourbon",
+   "whisky",
+   "scotch",
+   "bourbon",
+   "japanese whiskey",
+   "single malt",
+   "starward whisky"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "rye spirit"
+  ]
+ },
+ "japanese-whisky": {
+  "primary": "buy japanese whisky online",
+  "primaryVolume": 90,
+  "primaryKd": 5,
+  "secondary": [
+   "japanese whisky",
+   "suntory 196",
+   "japanese gin",
+   "nikka from the barrel",
+   "nikka whiskey",
+   "hibiki whisky",
+   "yamazaki whiskey",
+   "nikka whisky",
+   "hibiki suntory whisky",
+   "nikka whisky from the barrel",
+   "japanese whiskey yamazaki",
+   "japanese single malt",
+   "best japanese whiskey",
+   "black nikka",
+   "suntory double lemon"
+  ],
+  "tags": [
+   "japanese whiskey",
+   "hibiki whiskey",
+   "hibiki japanese whiskey",
+   "yamazaki whisky",
+   "best japanese whisky",
+   "japanese whiskey top",
+   "best whisky from japan",
+   "toki japanese whiskey",
+   "nikka coffey grain",
+   "barrel nikka",
+   "japanese blend whisky",
+   "japanese single malt whisky",
+   "japanese malt whiskey",
+   "hibiki harmony whisky",
+   "nikka whiskey from the barrel",
+   "japanese bourbon",
+   "japanese whiskey brands",
+   "good japanese whiskey",
+   "best japanese scotch",
+   "fuji single blended japanese whisky",
+   "fuji single malt japanese whisky",
+   "nikka from the barrel whisky"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "the chita japanese whisky",
+    "volume": 390,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "suntory 196 double lemon",
+    "volume": 390,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
     "intent": "Informational"
    },
    {
@@ -2515,381 +844,61 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "volume": 390,
     "kd": 15,
     "intent": "Informational"
-   },
-   {
-    "keyword": "scotch and whiskey",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "blended whiskey",
-    "volume": 390,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rye and whiskey",
-    "volume": 320,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "fuji whiskey",
-    "volume": 320,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rittenhouse rye",
-    "volume": 210,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "is jack daniels whiskey",
-    "volume": 210,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rye sazerac",
-    "volume": 210,
-    "kd": 40,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is jack daniels whiskey",
-    "volume": 170,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is rye whiskey",
-    "volume": 140,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "blanton whiskey",
-    "volume": 140,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is in rye whiskey",
-    "volume": 110,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whiskey in chinese",
-    "volume": 110,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "1792 whiskey",
-    "volume": 110,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rye booze",
-    "volume": 90,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rye is whiskey",
-    "volume": 90,
-    "kd": null,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rye or whiskey",
-    "volume": 90,
-    "kd": null,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whiskey or rye",
-    "volume": 90,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "american kentucky whiskey",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what are rye whiskeys",
-    "volume": 90,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is rye liquor",
-    "volume": 90,
-    "kd": 19,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "bushmills whiskey",
-   "rye spirit",
-   "whiskey & rye",
-   "red breast whiskey",
-   "redbreast whiskey",
-   "yamazaki whiskey",
-   "laphroaig whiskey",
-   "old bushmills whiskey",
-   "bushmills irish whiskey",
-   "rye alcohol",
-   "whiskey sale",
-   "rye for whiskey",
-   "whiskey on sale",
-   "aberlour whiskey",
-   "buy whiskey"
-  ]
- },
- "japanese-whisky": {
-  "primary": "japanese whiskey",
-  "primaryVolume": 4400,
-  "primaryKd": 24,
-  "secondary": [
-   "suntory whisky",
-   "nikka whisky",
-   "single scotch whisky",
-   "hibiki suntory whisky",
-   "malt scotch whisky",
-   "blended scots whisky",
-   "japanese single malt",
-   "japanese scotch",
-   "japanese single malt whiskey",
-   "best japanese whiskey",
-   "irish whisky",
-   "whisky sale",
-   "american whisky",
-   "hibiki japanese whiskey",
-   "whisky from ireland",
-   "japanese whiskey top",
-   "single malt scotch whisky whiskey",
-   "best whisky from japan",
-   "whisky scotch single malt",
-   "buy whisky online"
-  ],
-  "tags": [
-   "whisky",
-   "japanese whiskey",
-   "scotch whisky",
-   "suntory whisky",
-   "blended scots whisky",
-   "single scotch whisky",
-   "american whisky",
-   "hibiki suntory whisky",
-   "irish whisky",
-   "whisky sale",
-   "nikka whisky",
-   "japanese whiskey yamazaki",
-   "whisky on sale",
-   "japanese scotch",
-   "best japanese whiskey",
-   "whisky from ireland",
-   "malt scotch whisky",
-   "fuji single blended japanese whisky",
-   "hibiki japanese whiskey",
-   "japanese whiskey top",
-   "japanese single malt",
-   "toki japanese whiskey",
-   "irish blended whisky",
-   "the yamazaki single malt whisky",
-   "single malt scotch whisky whiskey",
-   "best whisky from japan",
-   "the hakushu single malt whisky",
-   "japanese single malt whiskey",
-   "scots whisky",
-   "the yamazaki single malt whisky price",
-   "glenfiddich whisky",
-   "whisky scottish",
-   "premium scotch whisky",
-   "top rated japanese whisky",
-   "japanese malt whiskey",
-   "whisky scotch single malt",
-   "single highland malt scotch whisky",
-   "japanese whisky hibiki",
-   "whisky on special",
-   "glenfiddich single malt whisky",
-   "japanese blend whisky",
-   "chita japanese whiskey",
-   "canadian whisky",
-   "whisky special",
-   "whisky drink brands",
-   "hibiki harmony whisky",
-   "buy whisky online",
-   "good japanese whiskey",
-   "best japanese scotch",
-   "fuji single malt japanese whisky",
-   "whisky price",
-   "japan whisky",
-   "cheap whisky australia",
-   "premium single malt scotch whisky",
-   "whisky single malt glenlivet",
-   "single malt japanese whiskies",
-   "the yamazaki whisky",
-   "glenmorangie single malt scotch whisky",
-   "whisky for sale",
-   "buy japanese whisky online",
-   "japanese whiskey brands",
-   "hibiki japanese scotch",
-   "togouchi whiskey",
-   "japanese scotch whiskey",
-   "premium whisky",
-   "japanese whisky australia",
-   "nikka whisky miyagikyo",
-   "japanese whiskey toki",
-   "buy whisky",
-   "cost of whisky",
-   "hibiki whisky price",
-   "scotch whisky on sale",
-   "dan murphys japanese whiskey",
-   "akashi japanese whisky",
-   "godawan whisky",
-   "hibiki japanese harmony whisky",
-   "whisky japanese",
-   "hakushu whisky",
-   "japanese whiskey chita",
-   "the tottori blended japanese whisky",
-   "top single malt whisky",
-   "premium japanese whisky",
-   "australian whisky brands",
-   "whisky talisker",
-   "scotch whisky australia",
-   "whisky as gift",
-   "luxury scotch whisky",
-   "nikka japanese whiskey",
-   "suntory whisky hakushu",
-   "japanese whisky delivery",
-   "whisky dan murphy's",
-   "the hakushu single malt japanese whisky",
-   "good american whisky",
-   "blended whisky",
-   "santori whisky",
-   "good whiskys",
-   "top 10 whisky in australia",
-   "whisky makers mark",
-   "whisky glenfiddich",
-   "japanese whiskey hibiki harmony",
-   "hibiki harmony japanese",
-   "japanese scotch suntory",
-   "glenmorangie malt scotch whisky",
-   "buy single malt whisky",
-   "japenese whisky",
-   "buy japanese whisky australia",
-   "glenlivet malt whisky",
-   "japanese whiskey in japan",
-   "hibiki suntory whisky japanese harmony",
-   "japanese whiskey nikka",
-   "whisky single malt scotch",
-   "single malt whisky sale",
-   "japanese whiksy",
-   "whisky scotch",
-   "japanese whiskey best",
-   "suntory japanese whisky",
-   "whisky brand",
-   "buy scotch whisky online",
-   "scotch whisky malt",
-   "whisky in australia",
-   "whisky online order",
-   "japanese wisky",
-   "whiskey brands japan",
-   "bws japanese whisky",
-   "single malt and scotch whisky",
-   "japanses whisky",
-   "japanese whisky bar",
-   "japanese whiskey dan murphy's"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "whisky",
-    "volume": 14800,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "scotch whisky",
-    "volume": 2900,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "suntory whisky",
-    "volume": 1900,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "australian whisky",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "nikka whisky",
-    "volume": 720,
-    "kd": 22,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "single scotch whisky",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "hibiki suntory whisky",
-    "volume": 590,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "malt scotch whisky",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "blended scots whisky",
-    "volume": 590,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "japanese single malt",
-    "volume": 480,
-    "kd": 22,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "japanese scotch",
-    "volume": 480,
-    "kd": 16,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "japanese single malt whiskey",
-    "volume": 480,
-    "kd": 25,
-    "intent": "Transactional"
    }
   ],
   "informational": [
    {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
     "keyword": "australian whisky",
     "volume": 1000,
     "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
     "intent": "Informational"
    },
    {
@@ -2899,362 +908,110 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "jack daniel's whisky",
+    "keyword": "suntory 196 double lemon",
+    "volume": 390,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
     "volume": 390,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "toki whisky",
-    "volume": 320,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "suntory whisky hibiki",
-    "volume": 260,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "fuji japanese whisky",
-    "volume": 170,
+    "keyword": "rye in whiskey",
+    "volume": 390,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "scotch whisky oversupply crisis",
-    "volume": 170,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky hakushu",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "japanese scotch hibiki",
-    "volume": 140,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky peak",
-    "volume": 140,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky the yamazaki",
-    "volume": 110,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "royal salute scotch whisky",
-    "volume": 90,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "the chita single grain japanese whisky",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "scotch single malt whisky",
-    "volume": 70,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "scotch and whisky",
-    "volume": 70,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "scotch whisky glenfiddich",
-    "volume": 70,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky xo",
-    "volume": 70,
-    "kd": 8,
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
     "intent": "Informational"
    }
   ],
   "transactional": [
-   "single scotch whisky",
-   "japanese scotch",
-   "japanese single malt whiskey",
-   "whisky sale",
-   "buy whisky online",
-   "whisky on sale",
-   "whisky online",
-   "buy whisky",
-   "japan whisky",
-   "whisky for sale",
-   "the yamazaki single malt whisky price",
-   "japanese whiskey in japan",
-   "japanese scotch suntory",
-   "japanese whiskey nikka",
-   "buy single malt whisky"
+   "nikka whiskey",
+   "yamazaki whiskey"
   ]
  },
  "australian-whisky": {
-  "primary": "australian whiskey",
-  "primaryVolume": 1300,
-  "primaryKd": 33,
+  "primary": "lark gift pack",
+  "primaryVolume": 70,
+  "primaryKd": 5,
   "secondary": [
-   "lark whisky",
    "starward whisky",
-   "whisky gift pack",
-   "japanese whisky",
-   "australian whiskey tasmania",
-   "single malt whisky",
-   "archie rose whisky",
-   "scotch malt whisky",
-   "whisky the dalmore",
-   "best whisky in australia",
-   "morris whisky",
-   "highland single malt scotch whisky",
-   "bowmore whisky",
-   "laphroaig whisky",
-   "whisky gift set",
+   "lark whisky",
+   "lark whiskey",
+   "lark classic cask",
    "best australian whisky",
-   "malt whisky",
-   "whisky on sale",
-   "best single malt whisky",
-   "good whisky"
+   "australian whiskey brands",
+   "australian single malt whisky",
+   "best australian scotch",
+   "australian spirits",
+   "australian single malt whiskey",
+   "australian made spirits",
+   "lark tasmanian peated",
+   "lark symphony",
+   "lark cask strength",
+   "best australian whiskey"
   ],
   "tags": [
-   "whisky",
-   "whisky gift pack",
-   "starward whisky",
-   "lark whisky",
-   "scotch whisky",
-   "japanese whisky",
-   "archie rose whisky",
-   "whisky the dalmore",
-   "australian whiskey tasmania",
-   "single malt whisky",
-   "highland single malt scotch whisky",
-   "whisky gift set",
-   "australian whiskey",
-   "blended scots whisky",
-   "whisky sale",
-   "irish whisky",
-   "scotch malt whisky",
-   "best whisky in australia",
-   "morris whisky",
-   "australian spirits",
-   "whisky on sale",
-   "highland whisky",
-   "yamazaki whisky",
-   "bowmore whisky",
-   "78 degrees australian whiskey",
-   "whisky clearance",
-   "whisky gifts",
-   "best australian whisky",
-   "whisky from ireland",
-   "malt scotch whisky",
-   "whisky deals",
-   "australian made spirits",
-   "aberlour whisky",
-   "morris single malt whisky",
-   "malt whisky",
-   "single malt scotch whisky whiskey",
-   "good whisky",
-   "dalwhinnie whisky",
-   "glenfiddich whisky",
-   "cheapest whisky in australia",
-   "whisky scottish",
-   "whisky bottle",
-   "laphroaig whisky",
-   "premium scotch whisky",
+   "australian bourbon",
    "78 australian whiskey",
-   "whisky scotch single malt",
-   "one malt whisky",
-   "australian whiskey brands",
-   "whisky on special",
-   "whisky offers",
-   "glenfiddich single malt whisky",
-   "best australian scotch",
-   "japanese blend whisky",
-   "australian single malt whisky",
-   "best scotch whisky australia",
-   "whisky special",
-   "best single malt whisky",
-   "buy whisky online",
-   "whisky price",
-   "japan whisky",
-   "archie rose rye malt whisky",
-   "japanese single malt whisky",
-   "cheap whisky australia",
-   "premium single malt scotch whisky",
-   "whisky gift pack australia",
-   "whisky gift sets",
-   "aberlour malt whisky",
-   "glenmorangie single malt scotch whisky",
-   "whisky for sale",
-   "scotch whisky single malt",
-   "buy japanese whisky online",
-   "deals on whisky",
-   "australian rye whiskey",
-   "set whisky",
    "australian single malt",
-   "deals whisky",
-   "single malt whisky australia",
-   "whisky gifts australia",
-   "premium whisky",
-   "buy single malt whisky online",
-   "japanese whisky australia",
-   "macallan scotch whisky",
-   "whisky present",
-   "macallan malt whisky",
-   "buy whisky",
-   "cost of whisky",
-   "scotch whisky on sale",
-   "gift whisky",
-   "scottish whisky",
-   "islay whisky ardbeg",
-   "morris rutherglen whisky",
-   "godawan whisky",
-   "whisky japanese",
-   "hakushu whisky",
-   "whisky subscription australia",
-   "top single malt whisky",
-   "whisky melbourne",
-   "whisky gift card",
-   "whisky talisker",
-   "scotch whisky australia",
-   "whisky as gift",
-   "luxury scotch whisky",
+   "lark whisky price",
+   "australian whisky brands",
    "best australian single malt whiskey",
-   "lark tasmanian whisky",
-   "japanese whisky delivery",
-   "glenshiel whisky",
-   "australia whisky brands",
-   "tasmania best whisky",
-   "good american whisky",
-   "top 10 whisky in australia",
-   "mccallum whisky",
-   "whisky glenfiddich",
-   "buy single malt whisky",
-   "glenmorangie malt scotch whisky",
-   "japanese scotch whisky",
+   "australian rye whiskey",
    "australian distilleries",
-   "cheapest single malt whisky",
-   "australian scotch",
-   "lark whisky tasmania",
-   "tasmanian whisky brands",
-   "buying whisky online",
-   "whisky single malt scotch",
-   "single malt whisky sale",
-   "melbourne whisky distillery",
+   "magpie lark male vs female",
+   "piping shrike vs magpie lark",
    "best australian whiskies",
    "australian made whiskey",
    "australian award winning whisky",
-   "whisky single malt",
-   "whisky online purchase",
-   "whisky scotch",
-   "suntory japanese whisky",
-   "tasmanian whisky lark",
-   "and whisky",
-   "whisky brand",
-   "whisky in australia",
-   "scotch whisky malt",
-   "whisky online order",
-   "whisky japan",
-   "single malt and scotch whisky",
-   "japanese whisky bar"
+   "tasmania best whisky",
+   "tasmanian whisky brands",
+   "lark chinotto citrus cask",
+   "lark classic cask single malt",
+   "lark whisky review",
+   "lark st",
+   "lark whiskey tasmania",
+   "lark classic",
+   "lark chinotto cask"
   ],
   "faqSeeds": [
    {
-    "keyword": "whisky",
-    "volume": 14800,
-    "kd": 28,
-    "intent": "Commercial"
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
    },
    {
-    "keyword": "lark whisky",
-    "volume": 3600,
-    "kd": 24,
-    "intent": "Transactional"
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
    },
    {
-    "keyword": "starward whisky",
-    "volume": 3600,
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
     "kd": 20,
-    "intent": "Commercial"
+    "intent": "Informational"
    },
    {
-    "keyword": "scotch whisky",
-    "volume": 2900,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "whisky gift pack",
-    "volume": 2400,
-    "kd": 9,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "japanese whisky",
-    "volume": 2400,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "australian whiskey tasmania",
-    "volume": 1600,
-    "kd": 38,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "single malt whisky",
-    "volume": 1300,
-    "kd": 30,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "archie rose whisky",
-    "volume": 1300,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "scotch malt whisky",
-    "volume": 880,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "overeem whisky",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "whisky the dalmore",
+    "keyword": "american whiskey",
     "volume": 720,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "overeem whisky",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Navigational"
+    "kd": 14,
+    "intent": "Informational"
    },
    {
     "keyword": "ardbeg whisky",
@@ -3263,6307 +1020,215 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "hobart whisky",
-    "volume": 480,
-    "kd": 23,
+    "keyword": "australian vodka",
+    "volume": 590,
+    "kd": 10,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "dark lark",
+    "volume": 590,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lark run",
+    "volume": 590,
+    "kd": 27,
     "intent": "Navigational"
    },
    {
-    "keyword": "whisky club australia",
-    "volume": 480,
-    "kd": 38,
-    "intent": "Navigational"
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
    },
    {
-    "keyword": "jack daniel's whisky",
-    "volume": 390,
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "australia whisky",
-    "volume": 260,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gospel whisky",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "scotch whisky oversupply crisis",
-    "volume": 170,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian whisky club",
-    "volume": 170,
-    "kd": 34,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "what is the scotch whisky",
-    "volume": 170,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whisky peak",
-    "volume": 140,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malt and whisky",
-    "volume": 140,
+    "keyword": "lark symphony no 1",
+    "volume": 480,
     "kd": 13,
     "intent": "Informational"
    },
    {
-    "keyword": "aussie whiskey",
-    "volume": 70,
-    "kd": 21,
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "scotch single malt whisky",
-    "volume": 70,
-    "kd": 18,
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
     "intent": "Informational"
    },
    {
-    "keyword": "hobart whisky distillery",
-    "volume": 70,
+    "keyword": "scotch and whiskey",
+    "volume": 390,
     "kd": 28,
-    "intent": "Navigational"
+    "intent": "Informational"
    },
    {
-    "keyword": "scotch and whisky",
-    "volume": 70,
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
     "kd": 14,
     "intent": "Informational"
    },
    {
-    "keyword": "whisky tasting guide",
-    "volume": 70,
-    "kd": 6,
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian vodka",
+    "volume": 590,
+    "kd": 10,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "dark lark",
+    "volume": 590,
+    "kd": 9,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lark run",
+    "volume": 590,
+    "kd": 27,
+    "intent": "Navigational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lark symphony no 1",
+    "volume": 480,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
     "intent": "Informational"
    }
   ],
   "transactional": [
    "lark whisky",
-   "australian whiskey",
-   "archie rose whisky",
-   "whisky sale",
-   "bowmore whisky",
-   "laphroaig whisky",
-   "buy whisky online",
-   "whisky on sale",
-   "buy whisky online australia",
-   "whisky online",
-   "aberlour whisky",
-   "buy whisky",
-   "78 degrees australian whiskey",
-   "archie rose rye malt whisky",
-   "whisky for sale"
+   "lark whiskey"
   ]
  },
  "french-vodka": {
-  "primary": "french vodka",
-  "primaryVolume": 390,
-  "primaryKd": 9,
+  "primary": "buy vodka",
+  "primaryVolume": 480,
+  "primaryKd": 18,
   "secondary": [
-   "vodka",
    "smirnoff vodka",
    "absolut vodka",
    "cheap vodka",
-   "low cost vodka",
+   "absolute vodka",
    "cruiser vodka",
    "vodka bottle",
-   "vodka brands",
    "tito's vodka",
-   "vodka 1l",
-   "bottle of vodka",
-   "cheapest vodka",
-   "vodka cheap",
-   "vodka smirnoff",
-   "sky vodka",
-   "700ml vodka",
-   "1l vodka",
-   "flavoured vodka",
-   "vodka &",
-   "smirnoff vodka 700ml"
-  ],
-  "tags": [
-   "vodka",
-   "smirnoff vodka",
-   "absolut vodka",
-   "cheap vodka",
-   "grey goose 1l",
-   "cruiser vodka",
-   "vodka bottle",
-   "low cost vodka",
-   "grey goose vodka 700ml",
-   "vodka 1l",
-   "tito's vodka",
-   "bottle of vodka",
-   "grey goose 700ml",
-   "grey goose 1 litre",
-   "vodka 700ml",
-   "700ml vodka",
-   "vodka &",
-   "1l grey goose",
-   "vodka smirnoff",
-   "vodka cheap",
-   "sky vodka",
-   "1l vodka",
-   "vodka 1 litre",
-   "vodka premix",
-   "cheapest vodka",
    "gray goose vodka 1 liter",
-   "smirnoff vodka 700ml",
+   "vodka 1l",
+   "vodka smirnoff",
    "grey goose vodka 1l",
    "grey goose vodka 1 litre",
-   "1 litre vodka",
-   "mini vodka",
-   "vodka cans",
-   "vodka price",
-   "vodka brands",
-   "grey goose vodka price",
-   "grey goose vodka price 1 litre",
-   "vodka and prices",
-   "buy vodka online",
-   "wolf blass grey label shiraz",
-   "flavoured vodka",
-   "o vodka",
-   "small vodka",
-   "buy vodka",
-   "the famous goose",
-   "vodka on sale",
-   "vodka on special",
-   "grey goose liquor price",
-   "vodka flavours",
-   "1 liter vodka",
-   "cost of gray goose vodka",
-   "vodka absolut",
-   "grey grouse scotch",
-   "grey goose cost",
-   "price of grey goose",
-   "gray goose vodka cost",
-   "700ml smirnoff vodka",
-   "gray goose",
-   "pre-mixed vodka",
-   "vodka sale",
-   "bulk vodka",
-   "vodka online",
-   "ultra premium vodka",
-   "gray goose vodka 1 liter price",
-   "price of grey goose vodka 1 litre",
-   "gray goose vodka price",
-   "1 l vodka",
-   "200ml vodka",
-   "greygoose",
-   "vodka special",
-   "alize vodka",
-   "gray goose cost",
-   "grey vodka price",
-   "grey goose vodka cost",
-   "grey label shiraz",
-   "vodka drink price",
-   "vodka premix drinks",
-   "gray goose vodka",
-   "vodka for sale",
-   "vodka cost",
-   "vodka red",
-   "premix vodka drinks",
-   "gray goose 1l",
-   "gray goose 1 liter price",
-   "grey goose vodka 4.5 litre",
-   "grey grouse vodka price",
-   "buy grey goose",
-   "order vodka online",
-   "grey goose vodka price 1 liter",
-   "goose vodka 1l",
-   "bottle of gray goose",
-   "grey goose bottle",
-   "vodka low cost",
-   "cheapest vodka australia",
-   "vodka grey goose",
-   "double black vodka",
-   "gray goose price",
-   "grey goose vodka 200ml",
-   "vodka smirnoff 700ml",
-   "goose vodka price",
-   "buying vodka online",
-   "1 liter grey goose",
-   "buying vodka",
-   "700ml grey goose vodka",
-   "grey goose vodka 1.75 l",
-   "smirnoff vodka 375ml",
-   "premix vodka",
-   "grey goose price",
-   "grey goose vodka bottle",
-   "grey goose vodka 1l price",
-   "grey goose 1 litre best price",
-   "1 liter grey goose cost",
-   "vodka cruiser carton",
-   "grey goose 1l price",
-   "bottled vodka",
-   "vodka absolut raspberry",
-   "vodka australia",
-   "vodka bottle price",
-   "bottle of vodka cost",
-   "vodka for sale online",
-   "200ml grey goose",
-   "700ml grey goose",
-   "vodka pre mix",
-   "vodka smirnoff price",
-   "700ml of vodka",
-   "grey goose price 1 liter",
-   "vodka purchase",
-   "absolut vodka vanilla",
-   "grey label wolf blass",
-   "vodka skyy",
-   "grey goose 750ml",
-   "vodka in a can",
-   "50ml vodka",
-   "smirnoff vodka 700ml price",
-   "grey goose 1.75 liter",
-   "red vodka",
-   "greygoose vodka",
-   "vodka types cheap",
-   "vodka can",
-   "vodka cruiser dan murphy",
-   "bottle of vodka price",
-   "200ml of vodka",
-   "1l vodka bottle",
-   "wolf blass grey label cabernet shiraz 2021",
-   "bws grey goose",
-   "grey goose bws",
-   "absolut vodka raspberry",
-   "grey goose 1 liter",
-   "grey goose one litre",
-   "cheapest bottle of vodka",
-   "grey goose 200ml"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "vodka",
-    "volume": 49500,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "smirnoff vodka",
-    "volume": 12100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "absolut vodka",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose",
-    "volume": 6600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka",
-    "volume": 5400,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cheap vodka",
-    "volume": 3600,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gray goose liquor",
-    "volume": 3600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low cost vodka",
-    "volume": 1900,
-    "kd": 33,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "grey goose 1l",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cruiser vodka",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "grey goose",
-    "volume": 6600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka",
-    "volume": 5400,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gray goose liquor",
-    "volume": 3600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wolf blass grey label",
-    "volume": 1300,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premium french vodka",
-    "volume": 720,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka sky",
-    "volume": 590,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose lemon ace",
-    "volume": 590,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka raspberry",
-    "volume": 480,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stolichnaya vodka",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "greywacke",
-    "volume": 480,
-    "kd": 49,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "greywacke sauvignon blanc",
-    "volume": 390,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liquor grey goose",
-    "volume": 320,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grape vodka",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka crusier",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "goose island",
-    "volume": 320,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose altius",
-    "volume": 210,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "great goose",
-    "volume": 210,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka red",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose big bottle",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ultra premium",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka volume of alcohol",
-    "volume": 170,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka big bottle",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "cruiser vodka",
-   "grey goose 700ml",
-   "grey goose vodka 700ml",
-   "vodka &",
-   "smirnoff vodka 700ml",
-   "vodka grey goose",
-   "greygoose",
-   "grey goose vodka price",
-   "grey goose vodka price 1 litre",
-   "buy vodka",
-   "wolf blass grey label shiraz",
-   "gray goose",
-   "buy vodka online",
-   "grey goose dan murphy",
-   "grey goose bottle"
-  ]
- },
- "russian-vodka": {
-  "primary": "russian vodka",
-  "primaryVolume": 720,
-  "primaryKd": 10,
-  "secondary": [
-   "affordable vodka",
-   "vodka to drink",
-   "crystal head vodka",
-   "smirnoff vodka 1 litre",
-   "vodka 1 litre",
-   "vodka cans",
-   "absolut vanilla vodka",
-   "russian standard vodka",
-   "vodka price",
-   "vodka 700ml",
-   "buy vodka",
-   "1 litre vodka",
-   "vodka absolut",
-   "mini vodka",
-   "smirnoff distilled vodka",
-   "skull head vodka",
-   "vodka and prices",
-   "vodka low cost",
-   "buy vodka online",
-   "vodka flavours"
-  ],
-  "tags": [
-   "vodka",
-   "smirnoff vodka",
-   "absolut vodka",
-   "cheap vodka",
-   "cruiser vodka",
-   "vodka bottle",
-   "affordable vodka",
-   "low cost vodka",
-   "russian vodka",
-   "vodka 1l",
-   "tito's vodka",
    "bottle of vodka",
-   "smirnoff vodka 1 litre",
-   "crystal head vodka",
-   "vodka 700ml",
-   "700ml vodka",
-   "vodka &",
-   "vodka smirnoff",
    "vodka cheap",
-   "sky vodka",
-   "polish vodka",
-   "1l vodka",
-   "vodka 1 litre",
-   "vodka premix",
-   "cheapest vodka",
-   "russian standard vodka",
-   "vodka to drink",
-   "smirnoff vodka 700ml",
-   "1 litre vodka",
-   "mini vodka",
-   "vodka cans",
-   "absolut vanilla vodka",
-   "vodka price",
-   "vodka brands",
-   "blck vodka",
-   "vodka and prices",
-   "skull head vodka",
-   "crystal head skull vodka",
-   "buy vodka online",
-   "smirnoff distilled vodka",
-   "flavoured vodka",
-   "smirnoff red label vodka",
-   "o vodka",
-   "small vodka",
-   "1 litre smirnoff vodka",
-   "vodka belvedere 700ml",
-   "buy vodka",
-   "vodka on sale",
-   "vodka on special",
-   "vodka cruiser raspberry",
-   "japanese vodka premix",
-   "vodka flavours",
-   "1 liter vodka",
-   "absolut raspberri vodka",
-   "vodka absolut",
-   "700ml smirnoff vodka",
-   "vodka stolichnaya",
-   "pre-mixed vodka",
-   "1l absolut vodka",
-   "vodka sale",
-   "bulk vodka",
-   "vodka online",
-   "ultra premium vodka",
-   "best russian vodka",
-   "1 l vodka",
-   "200ml vodka",
-   "trivoski vodka",
-   "vodka absolut 700ml",
-   "vodka special",
-   "alize vodka",
-   "mini bottle of vodka",
-   "vodka drink price",
-   "vodka premix drinks",
-   "smirnoff vodka double black",
-   "vodka for sale",
-   "vodka cost",
-   "gray goose vodka",
-   "vodka red",
-   "vodka small bottle",
-   "premix vodka drinks",
-   "order vodka online",
-   "goose vodka 1l",
-   "vodka low cost",
-   "cheapest vodka australia",
-   "vodka grey goose",
-   "double black vodka",
-   "vodka smirnoff 700ml",
-   "buying vodka online",
-   "buying vodka",
-   "smirnoff vodka 375ml",
-   "premix vodka",
-   "vodka alcohol content smirnoff",
-   "russian standard vodka australia",
-   "vodka cruiser carton",
-   "bottled vodka",
-   "vodka absolut raspberry",
-   "finland vodka",
-   "vodka australia",
-   "vodka bottle price",
-   "bottle of vodka cost",
-   "vodka for sale online",
-   "vodka pre mix",
-   "vodka smirnoff price",
-   "smirnoff vodka premix",
-   "700ml of vodka",
-   "vodka purchase",
-   "absolut vodka vanilla",
-   "vodka skyy",
-   "vodka in a can",
-   "smirnoff vodka 700ml price",
-   "50ml vodka",
-   "crystal head skull vodka bottle",
-   "red vodka",
-   "vodka types cheap",
-   "greygoose vodka",
-   "vodka can",
-   "smirnoff vodka alcohol volume",
-   "vodka cruiser dan murphy",
-   "bottle of vodka price",
-   "200ml of vodka",
-   "1l vodka bottle",
-   "crystal head vodka bottle",
-   "vodka smirnoff 1l",
-   "vodka double black",
-   "absolut vodka raspberry",
-   "crystal vodka skull",
-   "cheapest bottle of vodka",
-   "vodka 500ml",
-   "handle of vodka",
-   "absolut vodka miniature",
-   "vodka o 700ml",
-   "750ml vodka",
-   "vodka grey goose price",
-   "budget vodka",
-   "russian vodka brands",
-   "vodka online purchase",
-   "vodka bottle smirnoff",
-   "smirnoff red vodka",
-   "700ml absolut vodka",
-   "big bottle of vodka",
-   "pre mixed vodka drinks",
-   "vodka 37",
-   "small bottle of vodka smirnoff",
-   "beluga noble vodka",
-   "goose vodka",
-   "vodka cruisers liquorland",
-   "vodka deals",
-   "vodka 200ml",
-   "small bottles of vodka",
-   "smirnoff 1l vodka"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "vodka",
-    "volume": 49500,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "smirnoff vodka",
-    "volume": 12100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "absolut vodka",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cheap vodka",
-    "volume": 3600,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low cost vodka",
-    "volume": 1900,
-    "kd": 33,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "affordable vodka",
-    "volume": 1900,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cruiser vodka",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "vodka bottle",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka brands",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tito's vodka",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premium french vodka",
-    "volume": 720,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "reyka vodka",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "russia and vodka",
-    "volume": 590,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka sky",
-    "volume": 590,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka raspberry",
-    "volume": 480,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stolichnaya vodka",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grape vodka",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka crusier",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "standard vodka",
-    "volume": 260,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ruski vodka",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktail mix vodka",
-    "volume": 260,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka red",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol volume in smirnoff vodka",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ultra premium",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka volume of alcohol",
-    "volume": 170,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage smirnoff vodka",
-    "volume": 170,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka bottle",
-    "volume": 170,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose vodka big bottle",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ruski",
-    "volume": 170,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "good drinks to mix with vodka",
-    "volume": 170,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka drinkkejä",
-    "volume": 170,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktail vodka soda",
-    "volume": 140,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drink vodka soda",
-    "volume": 140,
-    "kd": 14,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "cruiser vodka",
-   "vodka &",
-   "smirnoff vodka 700ml",
-   "buy vodka",
-   "vodka grey goose",
-   "buy vodka online",
-   "vodka sale",
-   "vodka on sale",
-   "vodka stolichnaya",
-   "vodka belvedere 700ml",
-   "vodka for sale",
-   "gray goose vodka",
-   "goose vodka",
-   "vodka cruiser dan murphy",
-   "greygoose vodka"
-  ]
- },
- "polish-vodka": {
-  "primary": "polish vodka",
-  "primaryVolume": 720,
-  "primaryKd": 15,
-  "secondary": [
-   "ciroc vodka",
-   "ketel one vodka",
-   "stoli vodka",
-   "pink vodka",
-   "chopin vodka",
-   "zubrowka vodka",
-   "lychee vodka",
-   "500ml vodka",
-   "vodka sale",
-   "vodka on sale",
-   "vodka on special",
-   "o vodka",
-   "vodka red",
-   "vodka special",
-   "small vodka",
-   "alize vodka",
-   "1 liter vodka",
-   "wyborowa vodka",
-   "vodka stolichnaya",
-   "vodka for sale"
+   "cheapest vodka"
   ],
   "tags": [
-   "vodka",
-   "smirnoff vodka",
-   "absolut vodka",
-   "cheap vodka",
-   "ciroc vodka",
-   "cruiser vodka",
-   "vodka bottle",
-   "low cost vodka",
-   "russian vodka",
-   "vodka 1l",
-   "tito's vodka",
-   "bottle of vodka",
-   "crystal head vodka",
-   "vodka 700ml",
+   "sky vodka",
+   "vodka premix",
+   "vodka cans",
+   "1l vodka",
+   "flavoured vodka",
    "700ml vodka",
-   "vodka &",
-   "vodka smirnoff",
-   "polish vodka",
-   "vodka cheap",
-   "sky vodka",
-   "1l vodka",
    "vodka 1 litre",
-   "vodka premix",
-   "cheapest vodka",
-   "vodka to drink",
-   "smirnoff vodka 700ml",
-   "ketel one vodka",
-   "belvedere vodka 1l",
-   "1 litre vodka",
-   "mini vodka",
-   "pink vodka",
-   "500ml vodka",
-   "vodka cans",
-   "vodka price",
-   "chopin vodka",
-   "vodka brands",
-   "vodka and prices",
-   "stoli vodka",
-   "buy vodka online",
-   "flavoured vodka",
-   "o vodka",
-   "small vodka",
-   "wyborowa vodka",
-   "buy vodka",
-   "vodka on sale",
-   "vodka on special",
-   "vodka flavours",
-   "1 liter vodka",
    "vodka absolut",
-   "chopin polish vodka",
-   "700ml smirnoff vodka",
-   "zubrowka vodka",
-   "vodka stolichnaya",
-   "pre-mixed vodka",
-   "tangle vodka",
-   "vodka titos",
-   "vodka sale",
-   "lychee vodka",
-   "bulk vodka",
-   "vodka online",
-   "ultra premium vodka",
-   "1 l vodka",
-   "200ml vodka",
-   "vodka special",
-   "alize vodka",
-   "vodka drink price",
-   "vodka premix drinks",
-   "litchi vodka",
-   "passion vodka",
-   "vodka for sale",
-   "vodka cost",
-   "gray goose vodka",
-   "vodka red",
-   "premix vodka drinks",
-   "vodka bison",
-   "order vodka online",
-   "goose vodka 1l",
+   "vodka price",
+   "1 litre vodka",
+   "vodka 700ml",
+   "mini vodka",
+   "vodka and prices",
    "vodka low cost",
-   "cheapest vodka australia",
-   "grass vodka zubrowka",
-   "double black vodka",
-   "vodka smirnoff 700ml",
-   "polish vodka australia",
-   "buying vodka online",
-   "buying vodka",
-   "smirnoff vodka 375ml",
-   "tito's vodka handmade",
-   "premix vodka",
-   "vodka cruiser carton",
-   "bottled vodka",
-   "vodka absolut raspberry",
-   "vodka australia",
-   "vodka bottle price",
-   "bottle of vodka cost",
-   "vodka for sale online",
-   "vodka pre mix",
-   "vodka smirnoff price",
-   "700ml of vodka",
-   "vodka purchase",
-   "absolut vodka vanilla",
-   "vodka skyy",
-   "absolut vodka mini",
-   "vodka in a can",
-   "100 vodka proof",
-   "50ml vodka",
-   "smirnoff vodka 700ml price",
-   "red vodka",
-   "vodka types cheap",
-   "vodka can",
-   "vodka cruiser dan murphy",
-   "bottle of vodka price",
-   "200ml of vodka",
-   "1l vodka bottle",
-   "absolut vodka raspberry",
-   "chopin potato vodka",
-   "vok vodka",
-   "polish wodka",
-   "cheapest bottle of vodka",
-   "vodka 500ml",
-   "handle of vodka",
-   "absolut vodka miniature",
-   "vodka o 700ml",
-   "zubrowka vodka bison",
-   "beluga vodka gold line",
-   "750ml vodka",
-   "vodka grey goose price",
-   "mini absolut vodka",
-   "vodka online purchase",
-   "smirnoff red vodka",
-   "vodka bottle smirnoff",
-   "700ml absolut vodka",
-   "chockers vodka",
-   "big bottle of vodka",
-   "vodka absolut mini",
-   "pre mixed vodka drinks",
-   "vodka 37",
-   "mini bottles of vodka",
-   "stoli vodka price",
-   "small bottle of vodka smirnoff",
-   "beluga noble vodka",
-   "bevedere vodka",
-   "goose vodka",
-   "vodka chopin potato",
-   "vodka cruisers liquorland",
-   "vodka deals",
-   "vodka 200ml",
-   "vodka o 1 litre price",
-   "vodka mini bottle",
-   "soplica vodka",
-   "premium polish vodka"
+   "vodka flavours",
+   "alize vodka",
+   "vodka red",
+   "1 liter vodka",
+   "vodka bottles",
+   "o vodka",
+   "vodka on special",
+   "vodka special"
   ],
   "faqSeeds": [
    {
-    "keyword": "vodka",
-    "volume": 49500,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "smirnoff vodka",
-    "volume": 12100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "absolut vodka",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cheap vodka",
-    "volume": 3600,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low cost vodka",
-    "volume": 1900,
-    "kd": 33,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "ciroc vodka",
-    "volume": 1900,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cruiser vodka",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "vodka bottle",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka brands",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tito's vodka",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sirocco vodka",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premium french vodka",
-    "volume": 720,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "black vodka",
-    "volume": 720,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bison grass vodka",
-    "volume": 720,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "reyka vodka",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "zubrowka bison grass vodka",
-    "volume": 720,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ketel",
-    "volume": 720,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka sky",
-    "volume": 590,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "finlandia vodka",
-    "volume": 590,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka raspberry",
-    "volume": 480,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stolichnaya vodka",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tito vodka",
-    "volume": 480,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ketel 1 vodka",
-    "volume": 390,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grape vodka",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka crusier",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chocolate vodka",
-    "volume": 320,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka bison grass",
-    "volume": 260,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka red",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka chopin",
-    "volume": 210,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dragon vodka",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ultra premium",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka volume of alcohol",
-    "volume": 170,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka dragon",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "cruiser vodka",
-   "stoli vodka",
-   "vodka &",
-   "smirnoff vodka 700ml",
-   "buy vodka",
-   "pink vodka",
-   "chopin vodka",
-   "buy vodka online",
-   "zubrowka vodka",
-   "vodka sale",
-   "vodka on sale",
-   "vodka stolichnaya",
-   "vodka for sale",
-   "goose vodka",
-   "gray goose vodka"
-  ]
- },
- "mezcal": {
-  "primary": "mezcal",
-  "primaryVolume": 8100,
-  "primaryKd": 33,
-  "secondary": [
-   "400 conejos mezcal",
-   "kimo sabe mezcal",
-   "madre mezcal",
-   "mezcal brands",
-   "buy mezcal online australia",
-   "mezcal australia",
-   "discover mezcal",
-   "dan murphys mezcal",
-   "del maguey mezcal"
-  ],
-  "tags": [
-   "mezcal",
-   "kimo sabe mezcal",
-   "madre mezcal",
-   "400 conejos mezcal",
-   "buy mezcal online australia",
-   "mezcal australia",
-   "mezcal brands",
-   "discover mezcal",
-   "del maguey mezcal",
-   "dan murphys mezcal"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "mezcal mescal",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is mezcal",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcalería",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vittoria mezcal",
-    "volume": 260,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "400 conejos mezcal",
-    "volume": 170,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "what is a mezcaleria",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ilegal mezcal",
-    "volume": 170,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal cocktails",
-    "volume": 170,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcalrita",
-    "volume": 170,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kimo sabe mezcal",
-    "volume": 140,
-    "kd": 8,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "madre mezcal",
-    "volume": 140,
-    "kd": 8,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "whats mezcal",
-    "volume": 140,
-    "kd": 21,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "mezcal mescal",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is mezcal",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcalería",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vittoria mezcal",
-    "volume": 260,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is a mezcaleria",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ilegal mezcal",
-    "volume": 170,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal cocktails",
-    "volume": 170,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcalrita",
-    "volume": 170,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whats mezcal",
-    "volume": 140,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal dan murphy",
-    "volume": 140,
-    "kd": 25,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "mezcal fabrication",
-    "volume": 140,
-    "kd": 27,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "mezcal drink",
-    "volume": 110,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "del maguey vida mezcal",
-    "volume": 110,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal meaning",
-    "volume": 90,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vida mezcal",
-    "volume": 90,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is mezcal made from",
-    "volume": 70,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal means",
-    "volume": 70,
-    "kd": 47,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mezcal delivery",
-    "volume": 70,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dos hombres mezcal australia",
-    "volume": 70,
-    "kd": 18,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "mezcal margarita recipe",
-    "volume": 70,
-    "kd": 28,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "mezcal",
-   "buy mezcal online australia",
-   "dan murphys mezcal"
-  ]
- },
- "white-tequila": {
-  "primary": "white tequila",
-  "primaryVolume": 390,
-  "primaryKd": 17,
-  "secondary": [
-   "tequila",
-   "clase azul tequila",
-   "azul tequila",
-   "sierra tequila",
-   "blanco tequila",
-   "tequila blanco",
-   "1942 tequila anejo",
-   "tequila bottle",
-   "silver tequila",
-   "tequila reposado",
-   "herradura tequila",
-   "casamigos reposado tequila",
-   "tequila australia",
-   "casa azul tequila",
-   "white and blue bottle of tequila",
-   "mexican tequila",
-   "jose tequila",
-   "tequila sierra",
-   "buy tequila online",
-   "tequila azul"
-  ],
-  "tags": [
-   "tequila",
-   "patron tequila",
-   "clase azul tequila",
-   "azul tequila",
-   "sierra tequila",
-   "blanco tequila",
-   "1942 tequila anejo",
-   "silver tequila",
-   "tequila don julio reposado",
-   "patron silver tequila",
-   "buy tequila online",
-   "patron tequila price",
-   "tequila bottle",
-   "tequila reposado",
-   "tequila australia",
-   "tequila don julio 1942",
-   "don julio blanco tequila",
-   "herradura tequila",
-   "tequila sierra",
-   "casamigos reposado tequila",
-   "tequila blanco",
-   "don julio tequila reposado",
-   "casa azul tequila",
-   "tequila patron",
-   "espolon tequila blanco",
-   "blue tequila",
-   "tequila don julio",
-   "buy tequila",
-   "tequila 1l",
-   "mexican tequila",
-   "jose tequila",
-   "tequila azul",
-   "tequila 700ml",
-   "tequila specials",
-   "white tequila",
-   "tequila on sale",
-   "silver patron tequila price",
-   "tequila silver",
-   "tequila online",
-   "glas azul tequila",
-   "tequila price",
-   "tequila deals",
-   "patron tequila silver",
-   "tequila sale",
-   "fancy tequila",
-   "tequila for sale",
-   "1880 tequila",
-   "white and blue bottle of tequila",
-   "tequila patron añejo",
-   "cuervo tequila",
-   "tequila 1942 don julio",
-   "1800 blanco tequila",
-   "g4 tequila",
-   "tequila cost",
-   "tequila cheap",
-   "reposado tequila blue bottle",
-   "patron tequila alcohol",
-   "tequila drink price",
-   "olmeca altos reposado tequila",
-   "clase.azul tequila",
-   "1800 tequila blanco",
-   "tequila espolon",
-   "tequila clase azul",
-   "bottle of tequila",
-   "tequila blue and white bottle",
-   "tequila gold",
-   "purchase tequila online",
-   "order tequila online",
-   "azul reposado tequila",
-   "tequila jose",
-   "tequila white blue bottle",
-   "blue and white bottle of tequila",
-   "kick the rules tequila australia",
-   "tequila 1 liter",
-   "clase azul reposado tequila 750ml",
-   "818 tequila blanco",
-   "el tesoro tequila",
-   "cheapest tequila",
-   "don julio anejo tequila",
-   "tequila on special",
-   "australia tequila",
-   "tequila jose cuervo silver",
-   "tequila.fortaleza blanco",
-   "tequila au",
-   "tequila for sale online",
-   "tequila el espolón",
-   "john cuervo tequila",
-   "lalo tequila",
-   "tequila brands australia",
-   "tequila cuervo gold",
-   "tequila tasting",
-   "gold jose cuervo tequila",
-   "espolon blanco tequila",
-   "tequila alcohol",
-   "1l tequila",
-   "tequila purchase",
-   "azul tequila australia",
-   "gold tequila jose cuervo",
-   "tequila 1800 reposado",
-   "tequila affordable",
-   "mexico tequila",
-   "florcita tequila",
-   "white and blue tequila bottle",
-   "best inexpensive tequila",
-   "tequila herradura",
-   "1 liter tequila",
-   "blue white bottle tequila",
-   "any tequila",
-   "alcohol of tequila"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "tequila",
-    "volume": 22200,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "patron tequila",
-    "volume": 3600,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "clase azul tequila",
-    "volume": 2400,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "azul tequila",
-    "volume": 2400,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sierra tequila",
-    "volume": 1600,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "blanco tequila",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sierra silver tequila",
-    "volume": 1000,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila blanco",
-    "volume": 720,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "patron silver tequila",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "1942 tequila anejo",
-    "volume": 720,
-    "kd": 14,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sierra silver tequila",
-    "volume": 1000,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "silver patron tequila",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "gold tequila",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila white and blue bottle",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila ceramic bottle",
-    "volume": 320,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila jose cuervo",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila añejo",
-    "volume": 260,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila jimador",
-    "volume": 210,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila 1800 coconut",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what does tequila taste like",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila in ceramic bottle",
-    "volume": 170,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "espinola tequila",
-    "volume": 170,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coco tequila",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "don julio tequila blanco",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whats tequila",
-    "volume": 110,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila in the blue bottle",
-    "volume": 110,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila blue bottle",
-    "volume": 110,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "casamigos blanco tequila",
-    "volume": 110,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cinco tequila",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lola tequila",
-    "volume": 90,
-    "kd": 29,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "blue tequila bottle",
-    "volume": 90,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron reposado tequila",
-    "volume": 90,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila patron reposado",
-    "volume": 70,
-    "kd": 11,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "jose tequila",
-   "buy tequila online",
-   "patron tequila price",
-   "buy tequila",
-   "tequila on sale",
-   "tequila for sale",
-   "silver patron tequila price",
-   "tequila sale",
-   "tequila white blue bottle",
-   "tequila jose",
-   "el tesoro tequila",
-   "purchase tequila online",
-   "tequila purchase",
-   "tequila herradura"
-  ]
- },
- "gold-tequila": {
-  "primary": "gold tequila",
-  "primaryVolume": 320,
-  "primaryKd": 9,
-  "secondary": [
-   "tequila 1800",
-   "captain morgan spiced gold",
-   "buy tequila",
-   "tequila 1l",
-   "tequila specials",
-   "olmeca altos tequila",
-   "1800 silver tequila",
-   "tequila for sale",
-   "tequila on sale",
-   "tequila price",
-   "tequila silver",
-   "tequila 700ml",
-   "tequila deals",
-   "1880 tequila",
-   "tequila cheap",
-   "tequila 818",
-   "tequila drink price",
-   "tequila sale",
-   "tequila online",
-   "g4 tequila"
-  ],
-  "tags": [
-   "tequila",
-   "patron tequila",
-   "sierra tequila",
-   "blanco tequila",
-   "jose cuervo tequila",
-   "1942 tequila anejo",
-   "silver tequila",
-   "tequila 1800",
-   "tequila don julio reposado",
-   "patron silver tequila",
-   "buy tequila online",
-   "patron tequila price",
-   "tequila bottle",
-   "tequila australia",
-   "tequila don julio 1942",
-   "don julio blanco tequila",
-   "tequila sierra",
-   "tequila blanco",
-   "captain morgan spiced gold",
-   "don julio tequila reposado",
-   "tequila patron",
-   "patron silver tequila 700ml",
-   "tequila don julio",
-   "buy tequila",
-   "tequila 1l",
-   "olmeca altos tequila",
-   "1800 silver tequila",
-   "mexican tequila",
-   "jose tequila",
-   "tequila 700ml",
-   "tequila specials",
-   "white tequila",
-   "tequila on sale",
-   "silver patron tequila price",
-   "tequila silver",
-   "tequila online",
-   "tequila price",
-   "tequila deals",
-   "patron tequila silver",
-   "tequila sale",
-   "tequila for sale",
-   "1880 tequila",
-   "sierra tequila silver",
-   "white and blue bottle of tequila",
-   "tequila patron añejo",
-   "cuervo tequila",
-   "tequila 1942 don julio",
-   "g4 tequila",
-   "tequila cost",
-   "tequila olmeca altos",
-   "tequila cheap",
-   "patron tequila alcohol",
-   "olmeca tequila",
-   "john walker gold price",
-   "tequila drink price",
-   "omega tequila",
-   "clase.azul tequila",
-   "bottle of tequila",
-   "tequila gold",
-   "purchase tequila online",
-   "order tequila online",
-   "tequila 818",
-   "tequila jose",
-   "bacardi gold",
-   "blue and white bottle of tequila",
-   "johnnie walker label gold",
-   "kick the rules tequila australia",
-   "cost of patron silver tequila",
-   "jose cuervo tequila silver",
-   "tequila 1 liter",
-   "818 tequila blanco",
-   "el tesoro tequila",
-   "don julio anejo tequila",
-   "tequila on special",
-   "australia tequila",
-   "tequila jose cuervo silver",
-   "tequila olmeca altos plata",
-   "tequila au",
-   "tequila for sale online",
-   "john cuervo tequila",
-   "lalo tequila",
-   "tequila cuervo gold",
-   "tequila brands australia",
-   "tequila tasting",
-   "gold jose cuervo tequila",
-   "olmeca altos plata tequila",
-   "tequila alcohol",
-   "1l tequila",
-   "jose cuervo silver tequila",
-   "tequila purchase",
-   "gold tequila jose cuervo",
-   "altos plata tequila",
-   "tequila small bottle",
-   "tequila affordable",
-   "mexico tequila",
-   "florcita tequila",
-   "tequila altos plata",
-   "best inexpensive tequila",
-   "tequila herradura",
-   "1 liter tequila",
-   "altos tequila plata",
-   "johnnie walker goldlabel",
-   "jonnie walker gold label",
-   "gold label reserved",
-   "blue white bottle tequila",
-   "any tequila",
-   "alcohol of tequila"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "tequila",
-    "volume": 22200,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "patron tequila",
-    "volume": 3600,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sierra tequila",
-    "volume": 1600,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "blanco tequila",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jose cuervo tequila",
-    "volume": 1000,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sierra silver tequila",
-    "volume": 1000,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "patron silver tequila",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tequila blanco",
-    "volume": 720,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "1942 tequila anejo",
-    "volume": 720,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "anejo tequila",
-    "volume": 720,
-    "kd": 12,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "don julio tequila brands",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila el patron silver",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sierra silver tequila",
-    "volume": 1000,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "anejo tequila",
-    "volume": 720,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "silver patron tequila",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "gold tequila",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila jose cuervo",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila añejo",
-    "volume": 260,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila jimador",
-    "volume": 210,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila 1800 coconut",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what does tequila taste like",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coco tequila",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "1800 tequila anejo",
-    "volume": 140,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whats tequila",
-    "volume": 110,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo gold",
-    "volume": 110,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jose cuervo tequila gold",
-    "volume": 90,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cinco tequila",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lola tequila",
-    "volume": 90,
-    "kd": 29,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "cuervo gold",
-    "volume": 90,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequilas cuervo",
-    "volume": 70,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "discover tequila",
-    "volume": 70,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila patron reposado",
-    "volume": 70,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tequila patron gold",
-    "volume": 70,
-    "kd": 8,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "jose tequila",
-   "buy tequila online",
-   "patron tequila price",
-   "buy tequila",
-   "olmeca altos tequila",
-   "tequila for sale",
-   "tequila on sale",
-   "silver patron tequila price",
-   "tequila sale",
-   "olmeca tequila",
-   "tequila jose",
-   "el tesoro tequila",
-   "omega tequila",
-   "purchase tequila online",
-   "tequila purchase"
-  ]
- },
- "spiced-rum": {
-  "primary": "spiced rum",
-  "primaryVolume": 2400,
-  "primaryKd": 11,
-  "secondary": [
-   "rum",
-   "kraken rum",
-   "captain morgan spiced rum",
-   "rum with spices",
-   "bacardi white rum",
-   "kraken black spiced rum",
-   "coconut rum",
-   "dark rum",
-   "bacardi rum",
-   "caribbean rum",
-   "premium rum",
-   "captain morgan rum",
-   "plantation rum",
-   "red rum",
-   "zacapa rum",
-   "op rum",
-   "havana club rum",
-   "light rum",
-   "bacardi spiced rum",
-   "ratu spiced rum"
-  ],
-  "tags": [
-   "rum",
-   "kraken rum",
-   "spiced rum",
-   "captain morgan spiced rum",
-   "bacardi white rum",
-   "dark rum",
-   "coconut rum",
-   "rum with spices",
-   "bacardi rum",
-   "kraken black spiced rum",
-   "premium rum",
-   "buy rum online",
-   "plantation rum",
-   "ratu spiced rum",
-   "pineapple rum",
-   "caribbean rum",
-   "captain morgan rum",
-   "australian rum",
-   "havana club rum",
-   "black bart rum",
-   "el dorado rum",
-   "zacapa rum",
-   "bundaberg red rum",
-   "bundaberg spiced rum",
-   "op rum",
-   "black rum",
-   "overproof rum",
-   "buy rum",
-   "kraken coffee rum",
-   "best spiced rum",
-   "rum kraken spiced",
-   "bacardi spiced rum",
-   "rum in a bottle",
-   "red rum",
-   "bacardi rum superior white",
-   "bottle of rum",
-   "bundaberg rum 700ml",
-   "rum cans",
-   "light rum",
-   "rum australia",
-   "rum bottle",
-   "best spiced rum australia",
-   "husk coconut rum",
-   "chairman's reserve spiced rum",
-   "1l rum",
-   "rum premium",
-   "black spiced rum kraken",
-   "banana rum",
-   "spiced rum the kraken",
-   "captain morgan black rum",
-   "bundaberg op rum 700ml",
-   "rum el dorado",
-   "rum brands",
-   "bundaberg red rum cans",
-   "xo rum zacapa",
-   "bundaberg rum zero sugar",
-   "plantation rum pineapple",
-   "expensive rum",
-   "solera rum",
-   "cuban rum",
-   "best rum",
-   "700ml bundaberg rum",
-   "rum zacapa xo",
-   "dead man's fingers rum",
-   "rum op",
-   "rum fiji",
-   "bunderberg rum",
-   "captain morgan dark spiced rum",
-   "cracken rum",
-   "non alcoholic rum",
-   "rum for sale",
-   "bacardi superior white rum",
-   "bambu rum",
-   "rum white",
-   "rum spiced black captain morgan",
-   "best dark rum",
-   "bundaberg rum red",
-   "red bundaberg rum",
-   "bottle of bundaberg rum",
-   "bundaberg rum original",
-   "fijian rum",
-   "frigate rum",
-   "black spiced rum",
-   "rum gift pack",
-   "foursquare rum",
-   "rums",
-   "cheap white rum",
-   "dark rum bws",
-   "dark rum for cocktails",
-   "spiced rum bundaberg",
-   "cans of rum",
-   "great rum",
-   "dark rum australia",
-   "captain morgan spiced rum dark",
-   "great australian rum co",
-   "order rum",
-   "order rum online",
-   "dark rum plantation",
-   "pussers rum australia",
-   "dark rum mixed drinks",
-   "original bundaberg rum",
-   "blenders edition rum",
-   "rum in australia",
-   "rum tasting pack",
-   "spiced rum spices",
-   "lambs rum navy",
-   "plantation original dark rum",
-   "pirate rum",
-   "budget rum",
-   "spicy rum",
-   "rum venezuela",
-   "kraken rum spiced",
-   "white rum for mojitos",
-   "spiced rum captain morgan",
-   "australian dark rum",
-   "dark plantation rum",
-   "bundaberg rum cans 10 pack price",
-   "rum au",
-   "rum price",
-   "bumba rum",
-   "beenliegh rum",
-   "small bottle of rum",
-   "indies rum",
-   "bundaberg original up rum",
-   "foursquare spiced rum",
-   "australian rum brands",
-   "rum gift card",
-   "coconut white rum",
-   "rum alcohol",
-   "good white rum",
-   "rum online purchase",
-   "bottle rum",
-   "rum tasting",
-   "dark spiced rum",
-   "plantation 3 star rum",
-   "bundaberg silver rum",
-   "spiced kraken rum",
-   "rum spice",
-   "spiced rum dan murphy",
-   "rum lambs navy",
-   "rum drinking accessories",
-   "is bacardi white rum",
-   "rum bacardi coconut",
-   "white rum for daiquiri",
-   "rum on special",
-   "rum plantation dark",
-   "rum small bottle",
-   "rum kraken price",
-   "bundaberg rum gift set",
-   "rebellion bay spiced rum"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "rum",
-    "volume": 8100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "kraken rum",
-    "volume": 8100,
-    "kd": 24,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "kraken rum and",
-    "volume": 5400,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "captain morgan spiced rum",
-    "volume": 2400,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "rum with spices",
-    "volume": 1900,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bacardi white rum",
-    "volume": 1900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "kraken black spiced rum",
-    "volume": 1600,
-    "kd": 24,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "coconut rum",
-    "volume": 1600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "spices in spiced rum",
-    "volume": 1600,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dark rum",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "kraken rum and",
-    "volume": 5400,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "spices in spiced rum",
-    "volume": 1600,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum for pina colada",
-    "volume": 1300,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum cocktails",
-    "volume": 1300,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum cocktail drinks",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kraken spiced rum",
-    "volume": 880,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "captain morgan black spiced rum",
-    "volume": 590,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pussers rum",
-    "volume": 480,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "captain morgan dark rum",
-    "volume": 480,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum black kraken",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pina colada white rum",
-    "volume": 320,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "plantation dark rum",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bacardi white rum superior",
-    "volume": 320,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "spiced rum drink recipes",
-    "volume": 320,
+    "keyword": "limoncello",
+    "volume": 18100,
     "kd": 23,
     "intent": "Informational"
    },
-   {
-    "keyword": "spiced rum mixed drinks",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum drinks",
-    "volume": 320,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails using rum",
-    "volume": 320,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dark rum brands",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mccracken rum",
-    "volume": 260,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dark rum cocktails",
-    "volume": 260,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "xo rum",
-    "volume": 260,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bacardi is rum",
-    "volume": 260,
-    "kd": 34,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "cocktails using dark rum",
-    "volume": 260,
-    "kd": 18,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "kraken rum",
-   "kraken black spiced rum",
-   "red rum",
-   "zacapa rum",
-   "buy rum",
-   "buy rum online",
-   "el dorado rum",
-   "bunderberg rum",
-   "black spiced rum",
-   "cracken rum",
-   "700ml bundaberg rum",
-   "rums",
-   "dark rum bws",
-   "red bundaberg rum",
-   "rum el dorado"
-  ]
- },
- "white-rum": {
-  "primary": "white rum",
-  "primaryVolume": 4400,
-  "primaryKd": 14,
-  "secondary": [
-   "buy rum",
-   "buy rum online",
-   "black rum",
-   "australian rum",
-   "jim beam white label",
-   "bundaberg red rum",
-   "black spiced rum kraken",
-   "cuban rum",
-   "el dorado rum",
-   "rum in a bottle",
-   "bottle of rum",
-   "rum australia",
-   "rum bottle",
-   "rum brands",
-   "jim beam white",
-   "kraken coffee rum",
-   "bundaberg rum 700ml",
-   "banana rum",
-   "black bart rum",
-   "bunderberg rum"
-  ],
-  "tags": [
-   "rum",
-   "kraken rum",
-   "spiced rum",
-   "captain morgan spiced rum",
-   "bacardi white rum",
-   "dark rum",
-   "rum with spices",
-   "bacardi rum",
-   "kraken black spiced rum",
-   "premium rum",
-   "buy rum online",
-   "plantation rum",
-   "caribbean rum",
-   "captain morgan rum",
-   "australian rum",
-   "jim beam white label",
-   "havana club rum",
-   "black bart rum",
-   "el dorado rum",
-   "zacapa rum",
-   "bundaberg red rum",
-   "op rum",
-   "black rum",
-   "buy rum",
-   "kraken coffee rum",
-   "rum kraken spiced",
-   "rum in a bottle",
-   "red rum",
-   "bacardi rum superior white",
-   "bottle of rum",
-   "jim beam white",
-   "bundaberg rum 700ml",
-   "rum cans",
-   "light rum",
-   "rum australia",
-   "rum bottle",
-   "beenleigh white rum",
-   "chairman's reserve spiced rum",
-   "1l rum",
-   "black spiced rum kraken",
-   "banana rum",
-   "bundaberg op rum 700ml",
-   "plantation white rum",
-   "rum el dorado",
-   "rum brands",
-   "bundaberg red rum cans",
-   "best white rum",
-   "bundaberg rum zero sugar",
-   "xo rum zacapa",
-   "expensive rum",
-   "solera rum",
-   "cuban rum",
-   "rum zacapa xo",
-   "rum op",
-   "rum fiji",
-   "bunderberg rum",
-   "cracken rum",
-   "rum for sale",
-   "bacardi superior white rum",
-   "bambu rum",
-   "rum white",
-   "bundaberg rum red",
-   "red bundaberg rum",
-   "fijian rum",
-   "frigate rum",
-   "black spiced rum",
-   "rums",
-   "cheap white rum",
-   "dark rum bws",
-   "nice white rum",
-   "dark rum australia",
-   "captain morgan spiced rum dark",
-   "great australian rum co",
-   "order rum",
-   "order rum online",
-   "pussers rum australia",
-   "blenders edition rum",
-   "rum in australia",
-   "spiced rum spices",
-   "lambs rum navy",
-   "white jim beam",
-   "spicy rum",
-   "rum venezuela",
-   "white rum for mojitos",
-   "australian dark rum",
-   "flavoured rum",
-   "bundaberg rum cans 10 pack price",
-   "rum au",
-   "rum price",
-   "bumba rum",
-   "beenliegh rum",
-   "small bottle of rum",
-   "indies rum",
-   "australian rum brands",
-   "foursquare spiced rum",
-   "rum gift card",
-   "rum alcohol",
-   "good white rum",
-   "rum beenleigh",
-   "rum online purchase",
-   "bottle rum",
-   "dark spiced rum",
-   "rum spice",
-   "is white rum bacardi",
-   "rum lambs navy",
-   "is bacardi white rum",
-   "white rum for daiquiri",
-   "rum on special",
-   "rum small bottle",
-   "rum kraken price",
-   "bundaberg rum gift set",
-   "rum purchase",
-   "best gifts for rum drinkers",
-   "white rums for mojitos",
-   "overproof bundaberg rum",
-   "rum cost",
-   "spiced rum australia",
-   "jim beam white 700ml",
-   "bundy rum alcohol content",
-   "rum shop",
-   "price of kraken rum",
-   "white rum brands",
-   "kraken rum coffee",
-   "bacardi white rum 1l",
-   "cockspur rum",
-   "ron bacardi rum",
-   "bumbu rum price",
-   "ron diplomatico rum",
-   "duppy share rum",
-   "barcadi rum",
-   "bacardi and rum",
-   "bumbu rumgo",
-   "puerto rican rum",
-   "rum liquorland",
-   "spiced rums",
-   "mt gay rum",
-   "buy bundaberg rum",
-   "cheap bundaberg rum",
-   "dark rum types",
-   "diplomatic rum",
-   "white rum types",
-   "dan murphy white rum",
-   "brands of rum"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "rum",
-    "volume": 8100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "kraken rum",
-    "volume": 8100,
-    "kd": 24,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "kraken rum and",
-    "volume": 5400,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "spiced rum",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "captain morgan spiced rum",
-    "volume": 2400,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bacardi white rum",
-    "volume": 1900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "rum with spices",
-    "volume": 1900,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "kraken black spiced rum",
-    "volume": 1600,
-    "kd": 24,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "dark rum",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bacardi rum",
-    "volume": 1300,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "white rum for pina colada",
-    "volume": 1300,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "kraken rum and",
-    "volume": 5400,
-    "kd": 22,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum for pina colada",
-    "volume": 1300,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white alcohol",
-    "volume": 1300,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kraken spiced rum",
-    "volume": 880,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pussers rum",
-    "volume": 480,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum cocktail",
-    "volume": 480,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum black kraken",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pina colada white rum",
-    "volume": 320,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum drinks",
-    "volume": 320,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bacardi white rum superior",
-    "volume": 320,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dark rum brands",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mccracken rum",
-    "volume": 260,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "xo rum",
-    "volume": 260,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bacardi is rum",
-    "volume": 260,
-    "kd": 34,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "cocktails using white rum",
-    "volume": 260,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kraken black rum",
-    "volume": 210,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bum rum",
-    "volume": 210,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum drink",
-    "volume": 210,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is white rum",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rum kraken",
-    "volume": 170,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gold rum",
-    "volume": 170,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "spices for spiced rum",
-    "volume": 140,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bacardi superior rum",
-    "volume": 140,
-    "kd": 21,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "kraken rum",
-   "kraken black spiced rum",
-   "red rum",
-   "zacapa rum",
-   "buy rum",
-   "buy rum online",
-   "el dorado rum",
-   "bunderberg rum",
-   "black spiced rum",
-   "cracken rum",
-   "rums",
-   "red bundaberg rum",
-   "dark rum bws",
-   "rum el dorado",
-   "rum for sale"
-  ]
- },
- "gin": {
-  "primary": "gin",
-  "primaryVolume": 14800,
-  "primaryKd": 22,
-  "secondary": [
-   "pink gin",
-   "gin gifts",
-   "gin gifts australia",
-   "gin gift packs",
-   "gin delivery",
-   "gin gift set australia",
-   "australian gin",
-   "dry gin",
-   "gin brands",
-   "gins",
-   "buy gin",
-   "gin gift set",
-   "gin bottle",
-   "gin tasting",
-   "buy gin online",
-   "gin alcohol",
-   "gin specials",
-   "flavoured gin",
-   "gin and tonic cans",
-   "gin sale"
-  ],
-  "tags": [
-   "gin",
-   "pink gin",
-   "gin gifts australia",
-   "gin gifts",
-   "gin gift packs",
-   "gin delivery",
-   "gin gift set australia",
-   "dry gin",
-   "australian gin",
-   "gin and tonic cans",
-   "gin presents",
-   "gin gift set",
-   "flavoured gin",
-   "gin bottle",
-   "gin and soda cans",
-   "gins",
-   "gin cans",
-   "glas gin tonic",
-   "gin and tonic premix",
-   "bottle of gin",
-   "gin tasting pack",
-   "gin premix",
-   "pink gin premix",
-   "gin brands",
-   "gin specials",
-   "gin and tonic can",
-   "gin & tonic in a can",
-   "buy gin online",
-   "200ml gin",
-   "cal gin",
-   "premix gin",
-   "gin 1l",
-   "gin alcohol",
-   "gin sale",
-   "cans of gin",
-   "buy gin",
-   "gin pink",
-   "sydney gin",
-   "gin and tonic in a can",
-   "green gin",
-   "gin 700ml",
-   "pink gin soda",
-   "gin on sale",
-   "good gin",
-   "le tribute gin",
-   "gin tasting",
-   "buy gin online australia",
-   "gin price",
-   "small bottles of gin",
-   "gin presents australia",
-   "gin gift box",
-   "pinot noir gin",
-   "gin australia",
-   "gin on special",
-   "78 gin",
-   "gin taster",
-   "pink gin gordons",
-   "gin in a can",
-   "melbourne gin",
-   "gin alc",
-   "craft gin",
-   "deals on gin",
-   "pink gin bottle",
-   "gin online",
-   "gin pack",
-   "australian gins",
-   "gin tanqueray",
-   "boutique gin",
-   "gin and glass gift set",
-   "gin offers",
-   "gin brands australia",
-   "gin varieties",
-   "gin purchase online",
-   "order gin online",
-   "best gin gift packs",
-   "gin set gift",
-   "delivery gin",
-   "bottle of pink gin",
-   "gin garnish",
-   "gins australia",
-   "gin set",
-   "gin sets",
-   "gordon's pink gin & soda bottles 330ml",
-   "g&t gin and tonic",
-   "bar gin",
-   "gin gift sets",
-   "australian made gin",
-   "buying gin online",
-   "gin drink price",
-   "700ml gin",
-   "rare dry gin",
-   "gin for tonic",
-   "gin mixes",
-   "mixer for gin",
-   "spiced gin",
-   "beefeater dry london gin",
-   "sweet gin",
-   "award winning australian gin",
-   "brockmans gin",
-   "indian tonic water gin",
-   "gin deals",
-   "gordon's dry london gin",
-   "gin with green bottle",
-   "gin as a present",
-   "gin premix cans",
-   "canned gin and tonic",
-   "gin gift ideas",
-   "pink gin dan murphy's",
-   "gin as a gift",
-   "presents gin",
-   "gin au",
-   "gin drinkers gifts",
-   "gin from australia",
-   "gin in the green bottle",
-   "cherrapunji gin australia",
-   "australian gin brands",
-   "beefeater dry gin",
-   "beefeater gin london dry",
-   "pink gin liquorland",
-   "gin for sale",
-   "gin gordon",
-   "gin shop",
-   "aussie gin",
-   "nice gin",
-   "good gin mixers",
-   "award winning gin",
-   "gins brands",
-   "buy gin australia",
-   "distilled gin"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "pink gin",
-    "volume": 4400,
-    "kd": 21,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin gifts",
-    "volume": 2400,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin gifts australia",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "ink gin",
-    "volume": 2400,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "gin gift packs",
-    "volume": 1900,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin delivery",
-    "volume": 1600,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin gift set australia",
-    "volume": 1600,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "australian gin",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin cocktail",
-    "volume": 1000,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dry gin",
-    "volume": 880,
-    "kd": 9,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin and cocktails",
-    "volume": 880,
-    "kd": 20,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ink gin",
-    "volume": 2400,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "gin cocktail",
-    "volume": 1000,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin and cocktails",
-    "volume": 880,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin drinks",
-    "volume": 480,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gordon pink gin",
-    "volume": 480,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin drinks recipes",
-    "volume": 390,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks mixed with gin",
-    "volume": 320,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktail drinks gin",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin beverages",
-    "volume": 260,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin mix cocktail",
-    "volume": 260,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin mixed cocktails",
-    "volume": 260,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin with tonic water",
-    "volume": 260,
-    "kd": 45,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tonic water with gin",
-    "volume": 260,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "tonic with gin",
-    "volume": 260,
-    "kd": 48,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin japan",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks with gin",
-    "volume": 210,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "japan gin",
-    "volume": 210,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "can gin",
-    "volume": 170,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin cocktail crossword clue",
-    "volume": 170,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "london dry gin premium",
-    "volume": 170,
-    "kd": null,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails recipes gin",
-    "volume": 140,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin cocktail drink",
-    "volume": 140,
-    "kd": null,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin drink cocktails",
-    "volume": 140,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gin tonic water recipe",
-    "volume": 140,
-    "kd": 45,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "pink gin",
-   "buy gin",
-   "buy gin online",
-   "gin sale",
-   "gin pink",
-   "gin on sale",
-   "gin and soda cans",
-   "200ml gin",
-   "gin alc",
-   "78 gin",
-   "g&t gin and tonic",
-   "pink gin dan murphy's",
-   "gin tanqueray",
-   "gin purchase online",
-   "buying gin online"
-  ]
- },
- "baijiu": {
-  "primary": "baijiu",
-  "primaryVolume": 2400,
-  "primaryKd": 33,
-  "secondary": [
-   "chinese baijiu",
-   "chinese drink baijiu",
-   "china baijiu",
-   "baijiu alcohol",
-   "baijiu dan murphy",
-   "moutai baijiu"
-  ],
-  "tags": [
-   "baijiu",
-   "chinese baijiu",
-   "chinese drink baijiu",
-   "china baijiu",
-   "baijiu alcohol",
-   "baijiu dan murphy",
-   "moutai baijiu"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "chinese baijiu",
-    "volume": 480,
-    "kd": 26,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "chinese drink baijiu",
-    "volume": 480,
-    "kd": 34,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "baijiu chinese drink",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "china baijiu",
-    "volume": 320,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "baijiu alcohol",
-    "volume": 210,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "what is baijiu",
-    "volume": 110,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baijiu dan murphy",
-    "volume": 90,
-    "kd": 22,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "baijiu drink",
-    "volume": 90,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "moutai baijiu",
-    "volume": 70,
-    "kd": 39,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "baijiu chinese drink",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is baijiu",
-    "volume": 110,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baijiu drink",
-    "volume": 90,
-    "kd": 33,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "baijiu dan murphy",
-   "moutai baijiu"
-  ]
- },
- "cognac-brandy": {
-  "primary": "cognac",
-  "primaryVolume": 9900,
-  "primaryKd": 28,
-  "secondary": [
-   "martell",
-   "martell blue swift",
-   "hennessy cognac",
-   "martell swift blue",
-   "black bottle brandy",
-   "martell vsop",
-   "martell xo",
-   "cherry brandy",
-   "louis xiii cognac",
-   "hennessy vs cognac",
-   "martell cordon bleu",
-   "martell cognac",
-   "xo cognac",
-   "brandy melville george st",
-   "hennessy xo cognac",
-   "cognac vsop france",
-   "martell cognac xo",
-   "brandy alcohol",
-   "cognac hennessy paradis",
-   "brandy booze"
-  ],
-  "tags": [
-   "cognac",
-   "martell blue swift",
-   "martell swift blue",
-   "martell",
-   "black bottle brandy",
-   "hennessy cognac",
-   "martell xo",
-   "martell vsop",
-   "louis xiii cognac",
-   "cherry brandy",
-   "martell cordon bleu",
-   "buy brandy online",
-   "hennessy vs cognac",
-   "xo cognac",
-   "martell cognac xo",
-   "cognac hennessy paradis",
-   "hennessy vsop cognac",
-   "hennessy xo cognac",
-   "cognac vsop france",
-   "blue swift martell",
-   "martell cognac",
-   "martell konjak",
-   "hennessy cognac price",
-   "louis thirteenth cognac",
-   "brandy alcohol",
-   "hennessy vs cognac 700ml",
-   "cognac brandy",
-   "martell cognac blue swift",
-   "cognac xo hennessy",
-   "remy martin xo cognac",
-   "brandy liquor",
-   "cheap cognac",
-   "hennessy xo cognac 700ml",
-   "buy cognac online",
-   "hennessy a cognac",
-   "cognac martin",
-   "hennessy and cognac",
-   "cheap brandy",
-   "hennessy is a cognac",
-   "best brandy australia",
-   "martin cognac",
-   "martell cognac vsop",
-   "louis tres cognac",
-   "brandy melville george st",
-   "courvoisier cognac",
-   "cognac specials",
-   "cognac hennessy price",
-   "martell blue swift 700ml",
-   "brandy napoleon",
-   "brandy sale",
-   "remy martin cognac louis xiii",
-   "martell vs",
-   "martell xo cognac",
-   "brandy booze",
-   "cognac offers",
-   "cognac price",
-   "cordon bleu martell",
-   "brandy essence",
-   "french cognac",
-   "brandy for cheap",
-   "martell xo cognac 700ml",
-   "buy cognac",
-   "cognac xo remy martin",
-   "vsop cognac martell",
-   "brandy price",
-   "cooking brandy",
-   "cognac xo",
-   "vsop martell",
-   "brandy australia",
-   "cognac martell vs",
-   "brandy in australia",
-   "xo martell",
-   "cognac drinks price",
-   "brandy alcohol cost",
-   "small bottle of brandy",
-   "mansion house brandy",
-   "low cost brandy",
-   "martell cognac vs",
-   "brandy spirit",
-   "xo hennessy cognac",
-   "price of cognac hennessy",
-   "brandy drink price",
-   "cognac louis xiii remy martin",
-   "brandy bottle",
-   "cognac cost",
-   "brandy cost",
-   "brandy alcohol price",
-   "hennessy vsop cognac 700ml",
-   "hennessy cognac cost",
-   "brandy brands",
-   "brandy alcohol brands",
-   "brandy and cognac",
-   "oracle cognac",
-   "cognac hennessy",
-   "best brandy in australia",
-   "brandy black bottle",
-   "vsop martell cognac",
-   "xo cognac hennessy",
-   "best brandy",
-   "brandy vsop",
-   "hennessy extra old cognac",
-   "louis the 13th cognac",
-   "konyak brandy",
-   "australia brandy",
-   "cognac for sale",
-   "martell vs cognac",
-   "martell cognac noblige",
-   "martell noblige",
-   "cognac sale",
-   "cognac martell",
-   "hennessy v.s.o.p cognac",
-   "remy martin brandy",
-   "cognac louis 13",
-   "cognac drinker",
-   "cognac remy louis xiii",
-   "best brandy alcohol",
-   "great brandy",
-   "best brandy to drink",
-   "martell cognac blue",
-   "cognac martell xo",
-   "vsop on cognac",
-   "brandy drink",
-   "cognac good",
-   "remy martin vsop cognac",
-   "xiii louis cognac",
-   "good brandy",
-   "blue martell",
-   "recommended brandy",
-   "cognac drink",
-   "cognac vs martell",
-   "buy brandy alcohol",
-   "best australian brandy",
-   "martell blue",
-   "georgetown brandy melville",
-   "brandy costly",
-   "stickers brandy melville",
-   "spanish brandy",
-   "calvados brandy apple",
-   "brandy drink brands",
-   "alcohol in cognac",
-   "courvoisier xo cognac",
-   "budget cognac",
-   "branded brandy",
-   "brandy melville stickers",
-   "brandy alcohol type",
-   "emperador brandy",
-   "cognac s",
-   "brandy alcohol by volume",
-   "brandy to drink",
-   "brandy tops"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "calvados",
-    "volume": 2900,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "martell",
-    "volume": 1900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "martell blue swift",
-    "volume": 1900,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "hennessy cognac",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "martell swift blue",
-    "volume": 1600,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "alexander brandy cocktail",
-    "volume": 1600,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "black bottle brandy",
-    "volume": 1000,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "what are cognacs",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the cognac",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is cognac",
-    "volume": 1000,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "martell vsop",
-    "volume": 880,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "martell xo",
-    "volume": 880,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "calvados",
-    "volume": 2900,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alexander brandy cocktail",
-    "volume": 1600,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what are cognacs",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the cognac",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is cognac",
-    "volume": 1000,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cognac is what",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is brandy",
-    "volume": 880,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy alexander cocktail",
-    "volume": 880,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is in brandy",
-    "volume": 880,
-    "kd": 45,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "hennessy very special cognac",
-    "volume": 720,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is brandy alcohol",
-    "volume": 720,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vsop cognac",
-    "volume": 590,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy alexander recipe",
-    "volume": 590,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "remy martin cognac",
-    "volume": 480,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy for cocktails",
-    "volume": 390,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy cocktail mix",
-    "volume": 390,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy cocktails",
-    "volume": 390,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "xo in cognac",
-    "volume": 320,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "martell blue swift cognac",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cognac vsop",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy melville sydney cbd",
-    "volume": 260,
-    "kd": 36,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "calvados brandy",
-    "volume": 260,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cordon bleu martell cognac",
-    "volume": 260,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "brandy cocktail drinks",
-    "volume": 260,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks with brandy",
-    "volume": 260,
-    "kd": 28,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "hennessy cognac",
-   "martell cognac",
-   "brandy melville george st",
-   "hennessy vsop cognac",
-   "buy brandy online",
-   "hennessy cognac price",
-   "brandy sale",
-   "buy cognac",
-   "cognac hennessy price",
-   "brandy drink",
-   "brandy beverage",
-   "price of cognac hennessy",
-   "cognac drink",
-   "brandy au",
-   "cognac drinker"
-  ]
- },
- "baileys-irish-cream": {
-  "primary": "baileys irish cream",
-  "primaryVolume": 6600,
-  "primaryKd": 20,
-  "secondary": [
-   "baileys",
-   "irish cream",
-   "baileys liqueur",
-   "baileys irish cream liqueur",
-   "liqueur baileys",
-   "baileys irish cream 1l",
-   "baileys 1l",
-   "baileys irish cream 1 litre",
-   "jameson irish",
-   "baileys irish cream 1 litre best price",
-   "bws baileys irish cream",
-   "baileys 700ml",
-   "choc baileys",
-   "baileys strawberry and cream",
-   "one litre baileys",
-   "baileys flavours",
-   "cream liqueur",
-   "baileys irish cream liqueur 1 litre",
-   "baileys irish cream liquor",
-   "baileys liqueur 1l"
-  ],
-  "tags": [
-   "baileys",
-   "baileys irish cream",
-   "orange liqueur",
-   "baileys irish cream 1l",
-   "irish cream",
-   "baileys 700ml",
-   "baileys 1l",
-   "choc baileys",
-   "baileys strawberry and cream",
-   "baileys irish cream 1 litre",
-   "one litre baileys",
-   "baileys liqueur",
-   "baileys irish cream 1 litre best price",
-   "baileys irish cream 700ml",
-   "baileys irish cream abv",
-   "liqueur baileys",
-   "cream liqueur",
-   "baileys 1 litre",
-   "baileys liqueur 1 litre",
-   "baileys 1 lt",
-   "baileys irish cream 1l best price",
-   "baileys price",
-   "baileys irish cream liqueur",
-   "baileys alcohol price",
-   "baileys irish cream liqueur 1 litre",
-   "baileys liqueur 1l",
-   "bws baileys irish cream",
-   "baileys flavours",
-   "baileys irish cream liquor",
-   "1l baileys",
-   "cointreau liqueur",
-   "marnier liqueur",
-   "cream liqueur liqueurs",
-   "baileys 1 liter",
-   "baileys irish cream liqueur price",
-   "baileys irish cream price",
-   "baileys 1 litre price",
-   "jameson irish",
-   "baileys irish cream specials",
-   "baileys alcohol flavors",
-   "baileys irish cream liquorland",
-   "baileys irish cream alcohol volume",
-   "grand marnier liqueur",
-   "irish bailey",
-   "baileys chocolate liqueur",
-   "baileys on special",
-   "baileys liquor price",
-   "baileys liqueur price",
-   "baileys irish cream 200ml",
-   "amarula cream liqueur",
-   "chocolate mint liqueur",
-   "baileys liquor",
-   "baileys 200ml",
-   "caramel liqueur",
-   "baileys irish cream cinnamon",
-   "baileys irish cream gift set",
-   "baileys irish cream bws",
-   "best price baileys irish cream 1 litre",
-   "best price baileys irish cream",
-   "buy baileys",
-   "dan murphy baileys",
-   "baileys drink price",
-   "alcoholic cream soda",
-   "buy baileys irish cream",
-   "baileys cost",
-   "baileys bottle",
-   "liqueur coffee",
-   "strawberry cream liqueur",
-   "cream bailey",
-   "baileys irish cream 1l price",
-   "baileys irish cream bottle",
-   "baileys irish cream 1 liter price",
-   "baileys bristol cream",
-   "1 litre baileys",
-   "baileys irish cream salted caramel",
-   "baileys irish cream liqueur 700ml",
-   "bailey's baileys",
-   "baileys strawberry",
-   "strawberry and cream liqueur",
-   "choc mint liqueur",
-   "baileys 1l price",
-   "bols curacao liqueur",
-   "baileys original irish cream liqueur",
-   "buy baileys irish cream liqueur",
-   "buy baileys liquor",
-   "bottle of baileys",
-   "baileys espresso creme",
-   "contrue liqueur",
-   "baileys irish liquor",
-   "baileys irish cream chocolate luxe",
-   "baileys irish liqueur",
-   "baileys dan murphy's",
-   "scotch liqueur",
-   "coffee liqueurs",
-   "baileys original irish cream",
-   "1 litre of baileys",
-   "baileys miniature",
-   "chocolate liqueur baileys",
-   "baileys irish cream flavors",
-   "baileys irish cream chocolate",
-   "chocolate baileys liqueur",
-   "buy baileys alcohol",
-   "baileys alcohol chocolate",
-   "irish cream baileys",
-   "1l of baileys",
-   "1 l of baileys",
-   "baileys original",
-   "baileys irish cream liqueur 1l",
-   "billson creamy soda",
-   "baileys flavours australia",
-   "baileys australia",
-   "baileys cream",
-   "baileys liqueur chocolates",
-   "aperitif liqueur",
-   "baileys irish cream dan murphy",
-   "dan murphy baileys irish cream",
-   "baileys irish cream 1 litre price",
-   "baileys irish cream caramel",
-   "baileys irish cream espresso",
-   "salted caramel baileys irish cream",
-   "baileys the original irish cream",
-   "700ml baileys",
-   "flavoured baileys",
-   "baileys 1 ltr",
-   "flavors of baileys liquor",
-   "liqueur like baileys",
-   "what flavor is baileys irish cream",
-   "liqueur blue",
-   "irish liqueur",
-   "baileys beverage"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "baileys",
-    "volume": 22200,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "baileys irish",
-    "volume": 2900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange liqueur",
-    "volume": 2400,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "irish baileys drink",
-    "volume": 2400,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys chocolate",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish cream",
-    "volume": 1300,
-    "kd": 26,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "irish cream and",
-    "volume": 1000,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys liqueur",
-    "volume": 880,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "chocolate baileys",
-    "volume": 880,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys irish cream liqueur",
-    "volume": 720,
-    "kd": 26,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "liqueur baileys",
-    "volume": 720,
-    "kd": 23,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "baileys irish",
-    "volume": 2900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish baileys drink",
-    "volume": 2400,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys chocolate",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish cream and",
-    "volume": 1000,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chocolate baileys",
-    "volume": 880,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish cream liqueur",
-    "volume": 720,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish jameson",
-    "volume": 720,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys alcohol",
-    "volume": 590,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bailey irish cream drink",
-    "volume": 480,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish cream baileys alcohol content",
-    "volume": 480,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is baileys",
-    "volume": 390,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content baileys irish cream",
-    "volume": 390,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage in baileys irish cream",
-    "volume": 390,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys irish cream homemade",
-    "volume": 390,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cream sherry",
-    "volume": 390,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content in baileys",
-    "volume": 320,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cream liqueur baileys",
-    "volume": 320,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is baileys liqueur",
-    "volume": 320,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys irish cream alcohol content",
-    "volume": 320,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "baileys irish cream alcohol percentage",
-    "volume": 320,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is in baileys irish cream liqueur",
-    "volume": 320,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is baileys liquor",
-    "volume": 320,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is bailey irish cream liqueur",
-    "volume": 320,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is baileys alcohol",
-    "volume": 320,
-    "kd": 31,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "irish cream",
-   "baileys irish cream liqueur",
-   "liqueur baileys",
-   "jameson irish",
-   "bws baileys irish cream",
-   "baileys irish cream liquor",
-   "baileys price",
-   "baileys irish cream liquorland",
-   "cointreau liqueur",
-   "grand marnier liqueur",
-   "marnier liqueur",
-   "baileys irish cream price",
-   "cream bailey",
-   "irish bailey",
-   "baileys irish cream bws"
-  ]
- },
- "coffee-liqueur": {
-  "primary": "coffee liqueur",
-  "primaryVolume": 2900,
-  "primaryKd": 27,
-  "secondary": [
-   "kahlua",
-   "chocolate liqueur",
-   "kahlua liquor",
-   "kahlua liqueur",
-   "cacao liqueur",
-   "hazelnut liqueur",
-   "kahlua coffee liqueur",
-   "kahlua price",
-   "coffee and liqueur",
-   "kahlua and coffee liqueur",
-   "coconut liqueur",
-   "banana liqueur",
-   "watermelon liqueur",
-   "liqueur 43",
-   "white chocolate liqueur",
-   "coffee liquor",
-   "cointreau liqueur",
-   "vanilla liqueur",
-   "kahlua liqueur price",
-   "kahlua drink price"
-  ],
-  "tags": [
-   "kahlua",
-   "coffee liqueur",
-   "orange liqueur",
-   "chocolate liqueur",
-   "kahlua liquor",
-   "coconut liqueur",
-   "hazelnut liqueur",
-   "cacao liqueur",
-   "kahlua coffee liqueur",
-   "watermelon liqueur",
-   "kahlua price",
-   "kahlua liqueur",
-   "white chocolate liqueur",
-   "banana liqueur",
-   "butterscotch liqueur",
-   "coffee and liqueur",
-   "cream liqueur",
-   "kahlua liqueur price",
-   "kahlua and coffee liqueur",
-   "liqueur 43",
-   "coffee liquor",
-   "cointreau liqueur",
-   "kahlua drink price",
-   "cream liqueur liqueurs",
-   "vanilla liqueur",
-   "kahlua 1 litre",
-   "kahlua cost",
-   "caramel liqueur",
-   "kahlua 1l",
-   "ginger liqueur",
-   "kahlua dan murphy",
-   "liqueur coffee",
-   "liqueur vanilla",
-   "kahlua liqueur coffee",
-   "kahlua liqueur alcohol content",
-   "best coffee liqueur",
-   "kahlua bws",
-   "kahlua 700ml",
-   "mr black coffee liqueur 700ml",
-   "alcohol percentage kahlua",
-   "italian hazelnut liqueur",
-   "choc mint liqueur",
-   "kahlua espresso martini cans",
-   "kahlua drink",
-   "kahlua 1 litre best price",
-   "kahlua liquorland",
-   "coffee liqueur bws",
-   "percent alcohol kahlua",
-   "liquorland kahlua",
-   "mr black liqueur",
-   "kahlua on special",
-   "liqueurs online",
-   "baileys espresso liqueur",
-   "baileys espresso creme liqueur",
-   "buy coffee liqueur",
-   "cream chocolate liqueur",
-   "yogurt liqueur",
-   "fruit flavored liqueur",
-   "kahlua specials",
-   "1 litre kahlua",
-   "kahlua liqueur ingredients",
-   "kahlua 200ml",
-   "price frangelico liqueur",
-   "premium coffee liqueur",
-   "hazelnut italian liqueur",
-   "coffee liquier",
-   "lychee liqueur bws",
-   "mr black coffee",
-   "good coffee liqueur"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "kahlua",
-    "volume": 9900,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange liqueur",
-    "volume": 2400,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "caffe liqueur",
-    "volume": 1600,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gen coffee",
-    "volume": 1600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chocolate liqueur",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "frangelico liqueur",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kahlua liquor",
-    "volume": 1000,
-    "kd": 15,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "kahlua liqueur",
-    "volume": 880,
-    "kd": 20,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "caffe liqueur",
-    "volume": 1600,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gen coffee",
-    "volume": 1600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "frangelico liqueur",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "triple sec liqueur",
-    "volume": 880,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mr black coffee liqueur",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "maraschino liqueur",
-    "volume": 720,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "strawberry liqueur",
-    "volume": 720,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee cocktail drinks",
-    "volume": 590,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "advocaat liqueur",
-    "volume": 480,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kahlua alcohol",
-    "volume": 390,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee alcohol",
-    "volume": 390,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "almond liqueur",
-    "volume": 390,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "kahlua liqueur drinks",
-    "volume": 390,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee cocktail",
-    "volume": 320,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee with liqueur",
-    "volume": 260,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee liqueur cocktails",
-    "volume": 260,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lemon liqueur",
-    "volume": 260,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drink kahlua",
-    "volume": 260,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur coconut",
-    "volume": 210,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "litchi liqueur",
-    "volume": 210,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "triple sec liqueur orange",
-    "volume": 210,
-    "kd": 20,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "chocolate liqueur",
-   "kahlua liquor",
-   "kahlua liqueur",
-   "cacao liqueur",
-   "kahlua price",
-   "coffee liquor",
-   "cointreau liqueur",
-   "kahlua liqueur price",
-   "kahlua drink price",
-   "kahlua dan murphy",
-   "kahlua cost",
-   "kahlua bws",
-   "kahlua drink",
-   "kahlua liquorland",
-   "liquorland kahlua"
-  ]
- },
- "orange-liqueur": {
-  "primary": "orange liqueur",
-  "primaryVolume": 2400,
-  "primaryKd": 28,
-  "secondary": [
-   "cointreau",
-   "germain liqueur",
-   "st germain liqueur",
-   "perrier jouet grand brut",
-   "orange bitters",
-   "cointreau 700ml",
-   "grand marnier liqueur",
-   "cointreau price",
-   "orange flavoured liqueur",
-   "marnier liqueur",
-   "grand monya",
-   "dan murphy cointreau",
-   "peach liqueur",
-   "sour apple liqueur",
-   "cointreau liquorland",
-   "cointreau 1l",
-   "cream liqueur liqueurs",
-   "buy cointreau",
-   "cointreau cost",
-   "cointreau liqueur price"
-  ],
-  "tags": [
-   "cointreau",
-   "coffee liqueur",
-   "orange liqueur",
-   "germain liqueur",
-   "perrier jouet grand brut",
-   "st germain liqueur",
-   "hazelnut liqueur",
-   "cacao liqueur",
-   "kahlua coffee liqueur",
-   "cointreau 700ml",
-   "kahlua liqueur",
-   "peach liqueur",
-   "sour apple liqueur",
-   "banana liqueur",
-   "cointreau price",
-   "kahlua liqueur price",
-   "cointreau cost",
-   "orange bitters",
-   "cointreau liqueur",
-   "marnier liqueur",
-   "grand monya",
-   "cream liqueur liqueurs",
-   "buy cointreau",
-   "cointreau 1l",
-   "orange flavoured liqueur",
-   "grand marnier liqueur",
-   "cointreau specials",
-   "cointreau liqueur price",
-   "chandon orange spritz",
-   "cointreau 1 litre best price",
-   "dan murphy cointreau",
-   "cointreau first choice",
-   "chandon spritz orange",
-   "cointreau liquorland",
-   "ginger liqueur",
-   "blood orange liqueur",
-   "orange chandon",
-   "cointreau 1 ltr",
-   "liqueur coffee",
-   "cointreau bws",
-   "blue liqueur",
-   "kahlua liqueur coffee",
-   "cointreau liqueur orange",
-   "cointreau 1 litre",
-   "blue coloured liqueur",
-   "grand marnier dan murphy",
-   "italian hazelnut liqueur",
-   "contrue liqueur",
-   "curaçao orange",
-   "curacao liqueur orange",
-   "blood orange beverage",
-   "cointreau 1 liter",
-   "chartreuse green liqueur",
-   "buy cointreau liqueur",
-   "cointreau 700ml best price",
-   "coffee liqueur bws",
-   "cointreau on special",
-   "liqueur st germain",
-   "bws cointreau",
-   "grand marnier price",
-   "liqueur ouzo",
-   "grandmarnier",
-   "cocktails with st germain liqueur",
-   "orange solo",
-   "liqueurs online",
-   "orange curacao liqueur",
-   "alcohol orange",
-   "price of grand marnier liqueur",
-   "aperitif liqueur",
-   "yogurt liqueur",
-   "quantro orange liqueur",
-   "cointreau alcohol by volume",
-   "fruit flavored liqueur",
-   "price for grand marnier",
-   "grand marnier liqueur price",
-   "price frangelico liqueur",
-   "st germain elderflower liqueur 750ml",
-   "hazelnut italian liqueur",
-   "premium coffee liqueur",
-   "angostura orange bitters",
-   "what is grand marnier liqueur",
-   "cointreau alcohol",
-   "cost of grand marnier",
-   "liqueur strega",
-   "grand marnier cost",
-   "liqueur blue",
-   "grand marnier bws",
-   "cointreau dan murphys",
-   "liqueurs dan murphy",
-   "cointreau alcohol percentage",
-   "good coffee liqueur",
-   "bws grand marnier",
-   "st. germain elderflower liqueur",
-   "cointreau alcohol content",
-   "barenjager honey liqueur"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "cointreau",
-    "volume": 12100,
-    "kd": 32,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grand marnier",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee liqueur",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "germain liqueur",
-    "volume": 1900,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "st germain liqueur",
-    "volume": 1600,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "caffe liqueur",
-    "volume": 1600,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "frangelico liqueur",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "perrier jouet grand brut",
-    "volume": 1000,
-    "kd": 14,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grand marnier",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "caffe liqueur",
-    "volume": 1600,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "frangelico liqueur",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "triple sec liqueur",
-    "volume": 880,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "st germain elderflower liqueur",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grand mariner",
-    "volume": 480,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "grand monet",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is triple sec liqueur",
-    "volume": 480,
-    "kd": 40,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "curacao liqueur",
-    "volume": 480,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange curacao",
-    "volume": 480,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "almond liqueur",
-    "volume": 390,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "honey liqueur",
-    "volume": 390,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange cocktail",
-    "volume": 390,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is cointreau",
-    "volume": 320,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange cocktail drink",
-    "volume": 320,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "orange liquor",
-    "volume": 260,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cointreau orange liqueur",
-    "volume": 260,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cointreau what is",
-    "volume": 260,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee with liqueur",
-    "volume": 260,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is liqueur",
-    "volume": 260,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktail recipes orange juice",
-    "volume": 260,
-    "kd": 27,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "cointreau",
-   "kahlua liqueur",
-   "cacao liqueur",
-   "orange bitters",
-   "grand marnier liqueur",
-   "cointreau liqueur",
-   "cointreau price",
-   "marnier liqueur",
-   "grand monya",
-   "dan murphy cointreau",
-   "cointreau liquorland",
-   "kahlua liqueur price",
-   "buy cointreau",
-   "cointreau cost",
-   "cointreau liqueur price"
-  ]
- },
- "cinnamon-liqueur": {
-  "primary": "cinnamon liqueur",
-  "primaryVolume": 110,
-  "primaryKd": 10,
-  "secondary": [
-   "pistachio liqueur",
-   "kirsch liqueur",
-   "cassis liqueur",
-   "mandarin liqueur",
-   "liqueur liquorice",
-   "licorice liqueur",
-   "lavender liqueur",
-   "ginger liqueur",
-   "blue liqueur",
-   "contrue liqueur",
-   "french cassis liqueur",
-   "rose liqueur",
-   "apricot liqueur",
-   "luxardo maraschino liqueur",
-   "peppermint liqueur",
-   "caramel liqueur",
-   "creme cassis liqueur",
-   "liqueur vanilla",
-   "fig liqueur",
-   "purple liqueur"
-  ],
-  "tags": [
-   "coffee liqueur",
-   "germain liqueur",
-   "coconut liqueur",
-   "cacao liqueur",
-   "watermelon liqueur",
-   "sour apple liqueur",
-   "pistachio liqueur",
-   "cream liqueur",
-   "licorice liqueur",
-   "cointreau liqueur",
-   "cream liqueur liqueurs",
-   "vanilla liqueur",
-   "cassis liqueur",
-   "liqueur liquorice",
-   "fig liqueur",
-   "lavender liqueur",
-   "kirsch liqueur",
-   "rose liqueur",
-   "cointreau liqueur price",
-   "macadamia liqueur",
-   "mandarin liqueur",
-   "chocolate mint liqueur",
-   "mint liqueur",
-   "caramel liqueur",
-   "ginger liqueur",
-   "blood orange liqueur",
-   "strawberry cream liqueur",
-   "blue liqueur",
-   "peppermint liqueur",
-   "liqueur vanilla",
-   "apricot liqueur",
-   "luxardo maraschino liqueur",
-   "sheridan's liqueur",
-   "cointreau liqueur orange",
-   "blue coloured liqueur",
-   "strawberry and cream liqueur",
-   "sheridan's coffee layered liqueur",
-   "cello liqueur",
-   "french cassis liqueur",
-   "sheridan coffee liqueur",
-   "creme cassis liqueur",
-   "purple liqueur",
-   "pear liqueur",
-   "figue liqueur",
-   "choc mint liqueur",
-   "bols curacao liqueur",
-   "anisette liqueur",
-   "bottega pistachio liqueur",
-   "cinnamon liqueur",
-   "contrue liqueur",
-   "buy cointreau liqueur",
-   "paesano pistachio liqueur",
-   "liqueurs online",
-   "cream pistachio liqueur",
-   "luxardo liqueur maraschino",
-   "where to buy kirsch liqueur",
-   "yogurt liqueur",
-   "fruit flavored liqueur",
-   "kirsch cherry liqueur",
-   "cassidy cream liqueur",
-   "liqueur blue",
-   "kirsch liqueur where to buy",
-   "where can i buy kirsch liqueur",
-   "sweet liqueur"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee liqueur",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "germain liqueur",
-    "volume": 1900,
-    "kd": 24,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cherry liqueur",
-    "volume": 1600,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cacao liqueur",
-    "volume": 880,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "maraschino liqueur",
-    "volume": 720,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coconut liqueur",
-    "volume": 590,
-    "kd": 8,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "pistachio liqueur",
-    "volume": 590,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "watermelon liqueur",
-    "volume": 590,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "kirsch liqueur",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sour apple liqueur",
-    "volume": 480,
-    "kd": 11,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cherry liqueur",
-    "volume": 1600,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "maraschino liqueur",
-    "volume": 720,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mango liqueur",
-    "volume": 480,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "apple liqueur",
-    "volume": 390,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "violet liqueur",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lemon liqueur",
-    "volume": 260,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cherry in liqueur",
-    "volume": 260,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cointreau orange liqueur",
-    "volume": 260,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "suze liqueur",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "irish mist liqueur",
-    "volume": 210,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur cassis",
-    "volume": 210,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "litchi liqueur",
-    "volume": 210,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur coconut",
-    "volume": 210,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liquor vs liqueur",
-    "volume": 170,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "black currant liqueur",
-    "volume": 170,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "curaçao liqueur",
-    "volume": 170,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol with cinnamon",
-    "volume": 90,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coffee flavoured liqueur",
-    "volume": 90,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur rose",
-    "volume": 70,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur watermelon",
-    "volume": 70,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what are liqueurs",
-    "volume": 70,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cream strawberry liqueur",
-    "volume": 70,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pistachio cream liqueur",
-    "volume": 70,
-    "kd": 8,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "cacao liqueur",
-   "cassis liqueur",
-   "cointreau liqueur",
-   "licorice liqueur",
-   "cointreau liqueur price",
-   "blue liqueur",
-   "contrue liqueur",
-   "french cassis liqueur",
-   "apricot liqueur",
-   "creme cassis liqueur",
-   "purple liqueur",
-   "cello liqueur",
-   "anisette liqueur",
-   "strawberry cream liqueur",
-   "cinnamon liqueur"
-  ]
- },
- "amaro": {
-  "primary": "amaro",
-  "primaryVolume": 3600,
-  "primaryKd": 27,
-  "secondary": [
-   "campari negroni",
-   "disaronno originale amaretto",
-   "amaretto disaronno originale",
-   "aperol dan murphy",
-   "jagermeister price",
-   "jagermeister drink price",
-   "jagermeister cost",
-   "amaro averna",
-   "chartreuse green",
-   "aperol bws",
-   "campari dan murphy",
-   "aperol price",
-   "amaro del capo",
-   "montenegro amaro",
-   "vecchio amaro del capo",
-   "aperol spritz dan murphy",
-   "aperol 1l",
-   "aperol spritz pack",
-   "bws aperol",
-   "averna amaro"
-  ],
-  "tags": [
-   "amaretto disaronno originale",
-   "campari negroni",
-   "jagermeister price",
-   "jagermeister drink price",
-   "jagermeister cost",
-   "amaro del capo",
-   "disaronno originale amaretto",
-   "aperol dan murphy",
-   "amaro averna",
-   "chartreuse green",
-   "aperol price",
-   "aperol spritz pack",
-   "vecchio amaro del capo",
-   "montenegro amaro",
-   "aperol bws",
-   "aperol 1l",
-   "campari dan murphy",
-   "aperol aperitivo",
-   "aperol 700ml",
-   "aperol spritz bottle",
-   "jagermeister alcohol price",
-   "jagermeister 700ml",
-   "aperol bottle",
-   "campari australia",
-   "bws aperol",
-   "aperol gift pack",
-   "aperol spritz dan murphy",
-   "aperol spritz in a bottle",
-   "amaro capo",
-   "aperol spritz premix",
-   "aperol spritz kits",
-   "aperol spritz gift pack",
-   "averna amaro",
-   "liquorland aperol",
-   "aperol liquorland",
-   "jagermeister bws",
-   "campari au",
-   "cost of aperol",
-   "aperol glasses",
-   "chartreuse yellow",
-   "chartreuse alcohol",
-   "aperol 1 litre",
-   "braulio amaro",
-   "amaro nonino quintessentia",
-   "campari price",
-   "aperol spritz kit",
-   "rucolino amaro",
-   "premixed aperol spritz",
-   "jagermeister alcohol volume",
-   "cost of campari",
-   "aperol spritz to go",
-   "dan murphy aperol",
-   "aperol spritz pre mixed",
-   "aperol spritz can",
-   "aperol spritz near me",
-   "pack aperol spritz",
-   "bws campari",
-   "canned aperol spritz",
-   "aperol glass",
-   "jagermeister dan murphys",
-   "disaronno amaretto cost",
-   "mini aperol",
-   "jagermeister liquorland",
-   "price of disaronno amaretto",
-   "amaro cynar",
-   "price for disaronno",
-   "disaronno drinks price",
-   "aperol spritz ready to serve",
-   "buy aperol",
-   "aperol spritz in a can",
-   "aperol promo",
-   "bws jagermeister",
-   "aperol spritz standard drinks",
-   "aperol spritz 4 pack",
-   "disaronno originale price",
-   "jagermeister australia",
-   "aperol spritz price",
-   "disaronno velvet",
-   "disaronno amaretto price",
-   "campari bitter",
-   "dan murphy's campari",
-   "what is disaronno amaretto",
-   "aperol ready to drink",
-   "averna amaro siciliano",
-   "aperol alcohol",
-   "jagermeister 1 litre",
-   "disaronno price",
-   "aperol to go",
-   "aperol spritz liquorland",
-   "aperol buy",
-   "campari liquorland",
-   "aperol pack",
-   "aperol spritz piccolo",
-   "buy jagermeister",
-   "aperol premix",
-   "price jagermeister",
-   "dan murphy's jagermeister",
-   "disaronno cost",
-   "chartreuse top",
-   "disaronno bws",
-   "disaronno dan murphy",
-   "cost of disaronno",
-   "cynar amaro",
-   "amaro drink",
-   "aperol original",
-   "cocktails using campari",
-   "jagermeister drinks",
-   "best aperol drinks"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "aperol spritz",
-    "volume": 27100,
-    "kd": 40,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jagermeister",
-    "volume": 12100,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari",
-    "volume": 9900,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chartreuse",
-    "volume": 9900,
-    "kd": 36,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "disaronno",
-    "volume": 5400,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaro montenegro",
-    "volume": 2400,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari negroni",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "disaronno originale amaretto",
-    "volume": 1000,
-    "kd": 26,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "amaretto disaronno originale",
-    "volume": 1000,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "disaronno amaretto",
-    "volume": 1000,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari cocktails",
-    "volume": 1000,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aperol cocktails",
-    "volume": 1000,
-    "kd": 23,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "aperol spritz",
-    "volume": 27100,
-    "kd": 40,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aperol",
-    "volume": 14800,
-    "kd": 44,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "jagermeister",
-    "volume": 12100,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari",
-    "volume": 9900,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chartreuse",
-    "volume": 9900,
-    "kd": 36,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "disaronno",
-    "volume": 5400,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaro",
-    "volume": 3600,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaro montenegro",
-    "volume": 2400,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "disaronno amaretto",
-    "volume": 1000,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari cocktails",
-    "volume": 1000,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aperol cocktails",
-    "volume": 1000,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "green chartreuse",
-    "volume": 880,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aperol drink",
-    "volume": 880,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaro nonino",
-    "volume": 880,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "green chartreuse alcohol",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari soda",
-    "volume": 590,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks with campari",
-    "volume": 590,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amarone",
-    "volume": 590,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari drink cocktails",
-    "volume": 590,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails aperol spritz",
-    "volume": 590,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto and disaronno",
-    "volume": 480,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "campari soda drink",
-    "volume": 480,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aperol spritz cocktails",
-    "volume": 480,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is campari",
-    "volume": 480,
-    "kd": 55,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the drink aperol",
-    "volume": 480,
-    "kd": 55,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "aperol dan murphy",
-   "jagermeister price",
-   "jagermeister drink price",
-   "amaro averna",
-   "aperol bws",
-   "campari dan murphy",
-   "aperol price",
-   "montenegro amaro",
-   "aperol spritz dan murphy",
-   "bws aperol",
-   "averna amaro",
-   "chartreuse alcohol",
-   "aperol bottle",
-   "jagermeister bws",
-   "campari australia"
-  ]
- },
- "absinthe": {
-  "primary": "absinthe",
-  "primaryVolume": 8100,
-  "primaryKd": 26,
-  "secondary": [
-   "absinthe alcohol",
-   "absinthe australia",
-   "absinthe green fairy",
-   "buy absinthe",
-   "absinthe alcohol green fairy",
-   "green fairy drink absinthe",
-   "absenta absinthe",
-   "black absinthe",
-   "absinthe fountain",
-   "absinthe dan murphy",
-   "absinthe for cocktails",
-   "absinthe sydney",
-   "absinthe in australia",
-   "absinthe la",
-   "absinthe liquor",
-   "absinthe booze",
-   "absinthe order",
-   "absinthe purchase",
-   "spirit absinthe",
-   "absinthe spirit drink"
-  ],
-  "tags": [
-   "absinthe alcohol",
-   "absinthe green fairy",
-   "absinthe alcohol green fairy",
-   "absinthe australia",
-   "buy absinthe",
-   "green fairy drink absinthe",
-   "black absinthe",
-   "absinthe la",
-   "absenta absinthe",
-   "absinthe fountain",
-   "absinthe purchase",
-   "absinthe dan murphy",
-   "absinthe in australia",
-   "absinthe sydney",
-   "absinthe order",
-   "absinthe for cocktails",
-   "absinthe spirit drink",
-   "absinthe liquor",
-   "absinthe booze",
-   "spirit absinthe"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "absinthe beverage",
-    "volume": 1600,
-    "kd": 38,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol",
-    "volume": 1000,
-    "kd": 30,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "green fairy absinthe",
-    "volume": 880,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol percentage",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage of absinthe",
-    "volume": 390,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "percentage of alcohol in absinthe",
-    "volume": 390,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe australia",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "absinthe green fairy",
-    "volume": 320,
-    "kd": 9,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "what is absinthe",
-    "volume": 320,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "abv absinthe",
-    "volume": 320,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol content",
-    "volume": 320,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol volume",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe beverage",
-    "volume": 1600,
-    "kd": 38,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "green fairy absinthe",
-    "volume": 880,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol percentage",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage of absinthe",
-    "volume": 390,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "percentage of alcohol in absinthe",
-    "volume": 390,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is absinthe",
-    "volume": 320,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "abv absinthe",
-    "volume": 320,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol content",
-    "volume": 320,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol volume",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe drink alcohol percentage",
-    "volume": 320,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe what is",
-    "volume": 320,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage in absinthe",
-    "volume": 320,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe drink",
-    "volume": 260,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is an absinthe",
-    "volume": 260,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe abv",
-    "volume": 260,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe alcohol level",
-    "volume": 260,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe percent alcohol",
-    "volume": 260,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe percentage",
-    "volume": 260,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe cocktails",
-    "volume": 260,
-    "kd": 36,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is a absinthe",
-    "volume": 210,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe drink percentage",
-    "volume": 210,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "percentage of absinthe",
-    "volume": 210,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe green fairy alcohol percentage",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "green fairy absinthe alcohol content",
-    "volume": 170,
-    "kd": 14,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "absinthe alcohol",
-   "buy absinthe",
-   "absenta absinthe",
-   "absinthe dan murphy",
-   "absinthe liquor",
-   "absinthe booze",
-   "absinthe order",
-   "absinthe purchase",
-   "spirit absinthe",
-   "absinthe spirit drink"
-  ]
- },
- "limoncello": {
-  "primary": "limoncello",
-  "primaryVolume": 18100,
-  "primaryKd": 23,
-  "secondary": [
-   "st germain",
-   "limoncello lemoncello",
-   "limoncello dan murphy",
-   "st germain alcohol",
-   "limoncello bws",
-   "best limoncello",
-   "bws limoncello",
-   "limoncello liquorland",
-   "manly spirits limoncello",
-   "de bortoli limoncello spritz",
-   "limoncello alcohol volume",
-   "limoncello spritz dan murphy",
-   "luxardo limoncello",
-   "drinks st germain",
-   "pallini limoncello",
-   "limoncello buy",
-   "dan murphy's limoncello",
-   "st germain café",
-   "solbevi limoncello",
-   "top rated limoncello"
-  ],
-  "tags": [
-   "st germain",
-   "limoncello lemoncello",
-   "limoncello dan murphy",
-   "limoncello buy",
-   "luxardo limoncello",
-   "best limoncello",
-   "de bortoli limoncello spritz",
-   "limoncello bws",
-   "manly spirits limoncello",
-   "st germain alcohol",
-   "limoncello liquorland",
-   "st germain café",
-   "bws limoncello",
-   "pallini limoncello",
-   "limoncello alcohol volume",
-   "limoncello bottles small",
-   "buy limoncello",
-   "limoncello spritz dan murphy",
-   "solbevi limoncello",
-   "small limoncello bottles",
-   "saint germain cafes",
-   "best limoncello australia",
-   "mini limoncello bottles",
-   "dan murphy's limoncello",
-   "limoncello price",
-   "st germaine liquor",
-   "limoncello cans",
-   "where to buy pure alcohol for limoncello",
-   "st germain near me",
-   "aldi limoncello",
-   "limoncello where to buy",
-   "miniature limoncello bottles",
-   "top rated limoncello",
-   "limoncello glasses",
-   "drinks st germain",
-   "saint germain near me",
-   "limoncello spritz de bortoli",
-   "cello limoncello",
-   "mini limoncello",
-   "limoncello australia",
-   "limoncello liquor",
-   "good limoncello",
-   "limoncello australia pty ltd reviews",
-   "st. germain alcohol",
-   "limoncello mixers",
-   "saint germain elderflower",
-   "st. germain"
-  ],
-  "faqSeeds": [
    {
     "keyword": "limoncello spritz",
     "volume": 14800,
@@ -9571,10 +1236,34 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "st germain",
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
     "volume": 4400,
-    "kd": 30,
-    "intent": "Commercial"
+    "kd": 14,
+    "intent": "Informational"
    },
    {
     "keyword": "limoncello recipe",
@@ -9583,58 +1272,46 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "recipe to make limoncello",
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
     "volume": 2900,
-    "kd": 35,
+    "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "st germain elderflower",
-    "volume": 1300,
-    "kd": 35,
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "how to make limoncello",
-    "volume": 1300,
-    "kd": 26,
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
     "intent": "Informational"
    },
    {
-    "keyword": "limoncello cocktail",
-    "volume": 1300,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello drink ideas",
-    "volume": 1300,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails made with limoncello",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails using limoncello",
-    "volume": 1000,
+    "keyword": "liqueur",
+    "volume": 2900,
     "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "limoncello lemoncello",
-    "volume": 880,
-    "kd": 23,
-    "intent": "Transactional"
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
    },
    {
-    "keyword": "limoncello dan murphy",
-    "volume": 880,
-    "kd": 27,
-    "intent": "Transactional"
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
    }
   ],
   "informational": [
@@ -9651,181 +1328,5206 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
     "keyword": "limoncello recipe",
     "volume": 4400,
     "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "limoncello spritz recipe",
+    "keyword": "elderflower liqueur",
     "volume": 3600,
-    "kd": 46,
+    "kd": 22,
     "intent": "Informational"
    },
    {
-    "keyword": "recipe to make limoncello",
+    "keyword": "grey goose liquor",
     "volume": 2900,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "st germain elderflower",
-    "volume": 1300,
-    "kd": 35,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "how to make limoncello",
-    "volume": 1300,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello cocktail",
-    "volume": 1300,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello drink ideas",
-    "volume": 1300,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails made with limoncello",
-    "volume": 1000,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails using limoncello",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello tiramisu",
-    "volume": 720,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello in recipes",
-    "volume": 590,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "st germain spritz",
-    "volume": 590,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is limoncello",
-    "volume": 480,
-    "kd": 48,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "how to drink limoncello",
-    "volume": 480,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "st germain drink",
-    "volume": 480,
-    "kd": 44,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello and",
-    "volume": 390,
     "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "what is limoncello drink",
-    "volume": 390,
-    "kd": 34,
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "how do you drink limoncello",
-    "volume": 390,
-    "kd": 13,
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
     "intent": "Informational"
    },
    {
-    "keyword": "limoncello tiramisu recipe",
-    "volume": 390,
-    "kd": 23,
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "st germain hawthorn",
-    "volume": 390,
-    "kd": 25,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "what is a limoncello",
-    "volume": 320,
-    "kd": 39,
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
     "intent": "Informational"
    },
    {
-    "keyword": "homemade limoncello",
-    "volume": 320,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello alcohol",
-    "volume": 320,
-    "kd": 26,
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
     "intent": "Informational"
    }
   ],
   "transactional": [
-   "limoncello lemoncello",
-   "limoncello dan murphy",
-   "limoncello bws",
-   "bws limoncello",
-   "limoncello liquorland",
-   "limoncello spritz dan murphy",
-   "drinks st germain",
-   "pallini limoncello",
-   "limoncello buy",
-   "dan murphy's limoncello",
-   "limoncello bottles small",
-   "aldi limoncello",
-   "st germain near me",
-   "buy limoncello",
-   "saint germain near me"
+   "cruiser vodka"
   ]
  },
- "sambuca": {
-  "primary": "sambuca",
-  "primaryVolume": 5400,
-  "primaryKd": 19,
+ "russian-vodka": {
+  "primary": "vodka sale",
+  "primaryVolume": 320,
+  "primaryKd": 15,
   "secondary": [
+   "cruiser vodka",
+   "vodka to drink",
+   "crystal head vodka",
+   "polish vodka",
+   "russian vodka",
+   "smirnoff vodka 1 litre",
+   "1l vodka",
+   "700ml vodka",
+   "absolut vanilla vodka",
+   "vodka 1 litre",
+   "vodka price",
+   "russian standard vodka",
+   "1 litre vodka",
+   "smirnoff distilled vodka",
+   "vodka 700ml"
+  ],
+  "tags": [
+   "smirnoff vodka",
+   "vodka bottle",
+   "vodka 1l",
+   "vodka smirnoff",
+   "bottle of vodka",
+   "vodka cheap",
+   "cheapest vodka",
+   "mini vodka",
+   "skull head vodka",
+   "vodka and prices",
+   "absolut raspberri vodka",
+   "blck vodka",
+   "vodka cruiser raspberry",
+   "best russian vodka",
+   "1 liter vodka",
+   "vodka bottles",
+   "1 litre smirnoff vodka",
+   "smirnoff red label vodka",
+   "crystal head skull vodka",
+   "o vodka",
+   "vodka on special",
+   "vodka special"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "cruiser vodka"
+  ]
+ },
+ "polish-vodka": {
+  "primary": "vodka for sale",
+  "primaryVolume": 260,
+  "primaryKd": 14,
+  "secondary": [
+   "ciroc vodka",
+   "ketel one vodka",
+   "belvedere vodka 1l",
+   "flavoured vodka",
+   "polish beer",
+   "lychee vodka",
+   "titos vodka",
+   "500ml vodka",
+   "blck vodka",
+   "wyborowa vodka",
+   "alize vodka",
+   "vodka red",
+   "chopin polish vodka",
+   "litchi vodka",
+   "grass vodka zubrowka"
+  ],
+  "tags": [
+   "absolut vodka",
+   "vodka to drink",
+   "tito's vodka",
+   "vodka 1l",
+   "crystal head vodka",
+   "polish vodka",
+   "russian vodka",
+   "200ml vodka",
+   "passion vodka",
+   "tangle vodka",
+   "100 vodka proof",
+   "polish wodka",
+   "absolut vodka miniature",
+   "absolut vodka mini",
+   "bulk vodka",
+   "chopin potato vodka",
+   "tito's vodka handmade",
+   "polish vodka australia",
+   "polish cherry vodka",
+   "vodka chopin potato",
+   "50ml vodka",
+   "700ml of vodka"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "grey-goose": {
+  "primary": "grey goose bottle",
+  "primaryVolume": 320,
+  "primaryKd": 22,
+  "secondary": [
+   "grey goose 1l",
+   "grey goose 1 litre",
+   "1l grey goose",
+   "grey grouse scotch",
+   "gray goose 1l",
+   "grey goose cost",
+   "gray goose cost",
+   "price of grey goose vodka 1 litre",
+   "1 liter grey goose",
+   "grey goose 1 litre best price",
+   "cost of gray goose vodka",
+   "gray goose vodka cost",
+   "grey goose vodka cost",
+   "1 liter grey goose cost",
+   "grey goose vodka bottle"
+  ],
+  "tags": [
+   "gray goose vodka 1 liter",
+   "grey goose vodka 1l",
+   "grey goose vodka 1 litre",
+   "grey goose 1 liter",
+   "grey goose one litre",
+   "bottle of gray goose",
+   "grey goose vodka 200ml",
+   "grey grouse whiskey",
+   "giant grey goose bottle",
+   "200ml grey goose",
+   "700ml grey goose",
+   "700ml grey goose vodka",
+   "grey goose vodka 1.75 l",
+   "grey goose vodka 4.5 litre",
+   "grey goose 200ml",
+   "grey goose 1.75 liter",
+   "earl grey gin",
+   "grey goose vodka 1 l",
+   "grey goose 1 l",
+   "1 l grey goose vodka",
+   "gray goose alcohol content",
+   "grey goose 1.75 l"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose",
+    "volume": 6600,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose",
+    "volume": 6600,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "belvedere": {
+  "primary": "belvedere vodka price",
+  "primaryVolume": 170,
+  "primaryKd": 9,
+  "secondary": [
+   "belvedere vodka",
+   "belvedere vodka 700ml",
+   "belvedere 1l",
+   "the belvedere reviews",
+   "belvedere apartments",
+   "belvedere vodka 1 litre",
+   "belvedere organic vodka",
+   "belvedere rd",
+   "belvedere cost",
+   "belvedere 700ml",
+   "belvedere 1 litre",
+   "1l belvedere vodka",
+   "belvedere vodka cost",
+   "belvedere 1.75 l",
+   "belvedere 1.75 liter"
+  ],
+  "tags": [
+   "belvedere vodka 1l",
+   "belvedere vodka 1.75 liter",
+   "belvedere vidka",
+   "belvedere 1 liter",
+   "belvedere vodka 6 litre",
+   "belvedere 1.75 litre",
+   "belvedere vodka 1.75 litre",
+   "belvedere vodka 1.75 l",
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "mezcal": {
+  "primary": "buy mezcal online australia",
+  "primaryVolume": 70,
+  "primaryKd": 6,
+  "secondary": [
+   "mezcal vs tequila",
+   "400 conejos mezcal",
+   "kimo sabe mezcal",
+   "madre mezcal",
+   "tequila vs mezcal",
+   "mezcal brands",
+   "mezcal australia",
+   "discover mezcal",
+   "del maguey mezcal",
+   "best mezcal",
+   "kimo sabe mezcal review",
+   "bozal mezcal",
+   "tequila",
+   "gin",
+   "cognac"
+  ],
+  "tags": [
+   "smirnoff vodka",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "orange liqueur",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs",
+   "germain liqueur",
+   "don julio tequila",
+   "sierra tequila"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "patron": {
+  "primary": "patron price",
+  "primaryVolume": 140,
+  "primaryKd": 10,
+  "secondary": [
+   "patron",
+   "patron tequila",
+   "cafe patron",
+   "xo tequila patron cafe",
+   "patron silver",
+   "patron silver tequila",
+   "patron coffee",
+   "silver patron",
+   "coffee patron",
+   "tequila patron",
+   "tequila patron xo cafe",
+   "patron tequila silver",
+   "patron silver tequila 700ml",
+   "tequila patron añejo",
+   "patron xo"
+  ],
+  "tags": [
+   "patron cafe",
+   "patron mini",
+   "patron tequila alcohol",
+   "patron xo tequila",
+   "patron cafe xo",
+   "mini patron bottles",
+   "patron cost",
+   "patron tequila cost",
+   "patron liquor cost",
+   "patron cafe tequila",
+   "patron xo coffee tequila",
+   "drinking patron",
+   "xo coffee patron",
+   "coffee patron tequila",
+   "patron tequila xo cafe",
+   "tequila patron coffee",
+   "small patron bottle",
+   "little patron bottles",
+   "mini patron tequila bottles",
+   "cost of patron silver tequila",
+   "cost of patron silver",
+   "patron coffe"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "don-julio": {
+  "primary": "don julio 1942 price",
+  "primaryVolume": 320,
+  "primaryKd": 14,
+  "secondary": [
+   "don julio",
+   "don julio 1942",
+   "don julio tequila",
+   "1942 tequila",
+   "don julio brands",
+   "1942 don julio",
+   "don julio reposado",
+   "reposado don julio",
+   "1942 tequila anejo",
+   "tequila don julio reposado",
+   "don julio anejo",
+   "tequila don julio",
+   "tequila don julio 1942",
+   "don julio blanco tequila",
+   "don julio reposado tequila"
+  ],
+  "tags": [
+   "don julio tequila reposado",
+   "don julio 70",
+   "don julio brand",
+   "don julio branding",
+   "don julio tequila 1942",
+   "don julio real",
+   "tequila 1942 don julio",
+   "cost of don julio",
+   "don hulio 1942",
+   "donjulio 1942",
+   "don julio rosado",
+   "1942 don julio cost",
+   "don julio anejo tequila",
+   "don julio 1942 tequila cost",
+   "tequila 1942",
+   "don julio tequilla",
+   "don julio cost",
+   "don julio ultima reserva",
+   "mini don julio",
+   "don julio mini",
+   "don julio 1942 50ml",
+   "don julio tequila 1842"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "don julio brands"
+  ]
+ },
+ "jose-cuervo": {
+  "primary": "jose cuervo blue agave tequila",
+  "primaryVolume": 90,
+  "primaryKd": 13,
+  "secondary": [
+   "jose cuervo",
+   "jose cuervo tequila",
+   "jose cuervo 1l",
+   "cuervo tequila",
+   "jose cuervo silver",
+   "jose cuervo blue agave",
+   "jose cuervo tequila silver",
+   "jose cuervo especial blue agave",
+   "jose cuervo marg",
+   "john cuervo tequila",
+   "josé cuervo",
+   "tequila jose cuervo silver",
+   "jose cuervo silver tequila",
+   "jose cuervo agave",
+   "tequila jose cuervo 1l"
+  ],
+  "tags": [
+   "jose cuervo tequila agave",
+   "blue agave tequila jose cuervo",
+   "tequila cuervo gold",
+   "gold tequila jose cuervo",
+   "gold jose cuervo tequila",
+   "jose cuervo tequila 1l",
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "white-tequila": {
+  "primary": "buy tequila online",
+  "primaryVolume": 390,
+  "primaryKd": 7,
+  "secondary": [
+   "clase azul tequila",
+   "azul tequila",
+   "sierra tequila",
+   "blanco tequila",
+   "patrón tequila",
+   "tequila blanco",
+   "tequila reposado",
+   "silver tequila",
+   "casamigos reposado tequila",
+   "tequila bottle",
+   "herradura tequila",
+   "tequila australia",
+   "casa azul tequila",
+   "white and blue bottle of tequila",
+   "don julio tequila reposado"
+  ],
+  "tags": [
+   "tequila",
+   "patron tequila",
+   "patron silver tequila",
+   "1942 tequila anejo",
+   "tequila don julio reposado",
+   "tequila patron",
+   "tequila don julio",
+   "tequila don julio 1942",
+   "don julio blanco tequila",
+   "tequila azul",
+   "white tequila",
+   "tequila sierra",
+   "espolon tequila blanco",
+   "patron tequila silver",
+   "tequila 1l",
+   "blue tequila",
+   "tequila bottles",
+   "tequila specials",
+   "fancy tequila",
+   "tequila patron añejo",
+   "tequila silver",
+   "tequila 700ml"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "gold-tequila": {
+  "primary": "buy tequila",
+  "primaryVolume": 320,
+  "primaryKd": 11,
+  "secondary": [
+   "1800 anejo",
+   "tequila 1800",
+   "white tequila",
+   "tequila sierra",
+   "captain morgan spiced gold",
+   "1800 silver tequila",
+   "gold label whiskey",
+   "tequila 1l",
+   "tequila bottles",
+   "tequila specials",
+   "tequila silver",
+   "tequila 700ml",
+   "tequila 818",
+   "tequila price",
+   "tequila deals"
+  ],
+  "tags": [
+   "tequila",
+   "patron tequila",
+   "sierra tequila",
+   "jose cuervo tequila",
+   "blanco tequila",
+   "patrón tequila",
+   "patron silver tequila",
+   "1942 tequila anejo",
+   "tequila blanco",
+   "tequila don julio reposado",
+   "silver tequila",
+   "tequila bottle",
+   "tequila patron",
+   "tequila don julio",
+   "tequila don julio 1942",
+   "don julio blanco tequila",
+   "tequila australia",
+   "white and blue bottle of tequila",
+   "don julio tequila reposado",
+   "patron tequila silver",
+   "patron silver tequila 700ml",
+   "tequila patron añejo"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "spiced-rum": {
+  "primary": "buy rum",
+  "primaryVolume": 480,
+  "primaryKd": 13,
+  "secondary": [
+   "rum",
+   "kraken rum",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "bacardi white rum",
+   "rum with spices",
+   "coconut rum",
+   "kraken black spiced rum",
+   "bacardi rum",
+   "dark rum",
+   "caribbean rum",
+   "captain morgan rum",
+   "plantation rum",
+   "premium rum",
+   "bacardi spiced rum"
+  ],
+  "tags": [
+   "havana club rum",
+   "light rum",
+   "op rum",
+   "ratu spiced rum",
+   "pineapple rum",
+   "black rum",
+   "overproof rum",
+   "rum in a bottle",
+   "black spiced rum kraken",
+   "bundaberg red rum",
+   "australian rum",
+   "cuban rum",
+   "bundaberg spiced rum",
+   "best rum",
+   "bottle of rum",
+   "rum bottle",
+   "bundaberg rum 700ml",
+   "rum australia",
+   "rum brands",
+   "kraken coffee rum",
+   "banana rum",
+   "black bart rum"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "kraken rum",
+   "kraken black spiced rum"
+  ]
+ },
+ "white-rum": {
+  "primary": "rum for sale",
+  "primaryVolume": 210,
+  "primaryKd": 12,
+  "secondary": [
+   "kraken rum",
+   "kraken black spiced rum",
+   "havana club rum",
+   "light rum",
+   "op rum",
+   "black rum",
+   "overproof rum",
+   "rum in a bottle",
+   "black spiced rum kraken",
+   "bundaberg red rum",
+   "australian rum",
+   "cuban rum",
+   "bottle of rum",
+   "rum bottle",
+   "bundaberg rum 700ml"
+  ],
+  "tags": [
+   "rum",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "bacardi white rum",
+   "rum with spices",
+   "bacardi rum",
+   "dark rum",
+   "caribbean rum",
+   "captain morgan rum",
+   "plantation rum",
+   "premium rum",
+   "rum australia",
+   "rum brands",
+   "kraken coffee rum",
+   "banana rum",
+   "black bart rum",
+   "rum cans",
+   "rum kraken spiced",
+   "bacardi rum superior white",
+   "bacardi superior white rum",
+   "bacardí superior white rum",
+   "captain morgan black rum"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "kraken rum",
+   "kraken black spiced rum"
+  ]
+ },
+ "gin": {
+  "primary": "buy gin online",
+  "primaryVolume": 480,
+  "primaryKd": 16,
+  "secondary": [
+   "pink gin",
+   "gin gifts",
+   "gin gifts australia",
+   "gin gift packs",
+   "gin delivery",
+   "gin gift set australia",
+   "australian gin",
+   "dry gin",
+   "gin brands",
+   "gin gift pack",
+   "gin specials",
+   "gin and tonic cans",
+   "gin bottle",
+   "flavoured gin",
+   "gin gift set"
+  ],
+  "tags": [
+   "gin",
+   "gin alcohol",
+   "gin premix",
+   "gin and tonic premix",
+   "gin cans",
+   "bottle of gin",
+   "gin presents",
+   "glas gin tonic",
+   "good gin",
+   "sydney gin",
+   "premix gin",
+   "gin price",
+   "gin 1l",
+   "buy gin online australia",
+   "cal gin",
+   "le tribute gin",
+   "australia gin",
+   "gin australia",
+   "gin and tonic can",
+   "gin and tonic in a can",
+   "gin & tonic in a can",
+   "gin on special"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "pink gin"
+  ]
+ },
+ "baijiu": {
+  "primary": "moutai price",
+  "primaryVolume": 260,
+  "primaryKd": 17,
+  "secondary": [
+   "coffee liqueur",
+   "orange liqueur",
+   "germain liqueur",
    "black sambuca",
-   "galliano sambuca",
+   "black bottle brandy",
+   "kweichow moutai",
+   "cherry brandy",
+   "baileys liqueur",
+   "hazelnut liqueur",
+   "sky vodka",
+   "louis xiii cognac",
+   "kahlua coffee liqueur",
+   "chinese baijiu",
+   "baijiu alcohol",
+   "moutai wine"
+  ],
+  "tags": [
+   "kweichow moutai 500ml",
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs",
+   "don julio tequila"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "moutai",
+    "volume": 3600,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "moutai",
+    "volume": 3600,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "kweichow moutai"
+  ]
+ },
+ "cognac-brandy": {
+  "primary": "buy brandy online",
+  "primaryVolume": 390,
+  "primaryKd": 6,
+  "secondary": [
+   "hennessy xo",
+   "martell",
+   "martell blue swift",
+   "martell swift blue",
+   "hennessy cognac",
+   "martell vsop",
+   "martell xo",
+   "hennessy vs cognac",
+   "martell cordon bleu",
+   "brandy alcohol",
+   "xo cognac",
+   "hennessy xo cognac",
+   "cognac vsop france",
+   "martell cognac xo",
+   "cognac hennessy paradis"
+  ],
+  "tags": [
+   "cognac",
+   "black bottle brandy",
+   "cherry brandy",
+   "louis xiii cognac",
+   "remy martin xo",
+   "cognac brandy",
+   "martell konjak",
+   "blue swift martell",
+   "brandy liquor",
+   "cheap brandy",
+   "best brandy australia",
+   "buy cognac online",
+   "cognac martin",
+   "remy martin xo cognac",
+   "hennesy cognac",
+   "hennessy is a cognac",
+   "louis thirteenth cognac",
+   "hennessy and cognac",
+   "hennessy whiskey",
+   "french cognac",
+   "armagnac brandy",
+   "courvoisier cognac"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "calvados",
+    "volume": 2900,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "remy martin",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "calvados",
+    "volume": 2900,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "remy martin",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "hennessy cognac"
+  ]
+ },
+ "baileys-irish-cream": {
+  "primary": "baileys price",
+  "primaryVolume": 480,
+  "primaryKd": 15,
+  "secondary": [
+   "baileys",
+   "baileys irish cream",
+   "baileys irish cream whiskey",
+   "irish cream",
+   "jameson irish whiskey",
+   "baileys irish cream 1l",
+   "baileys 1l",
+   "baileys irish cream 1 litre",
+   "baileys irish cream 1 litre best price",
+   "baileys 700ml",
+   "choc baileys",
+   "baileys strawberry and cream",
+   "one litre baileys",
+   "baileys flavours",
+   "flavored baileys"
+  ],
+  "tags": [
+   "baileys liqueur",
+   "baileys irish cream liqueur 1 litre",
+   "baileys liqueur 1l",
+   "baileys 1 litre",
+   "baileys liqueur 1 litre",
+   "baileys 1 lt",
+   "jameson irish whiskey 700ml",
+   "baileys irish cream alcohol volume",
+   "1l baileys",
+   "baileys alcohol flavors",
+   "cream liqueur",
+   "baileys alcohol price",
+   "baileys irish cream 700ml",
+   "baileys irish cream 1l best price",
+   "baileys chocolate liqueur",
+   "baileys irish cream abv",
+   "baileys 1 liter",
+   "cream liqueur liqueurs",
+   "baileys irish cream specials",
+   "baileys bristol cream",
+   "baileys irish cream cinnamon",
+   "best price baileys irish cream 1 litre"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "baileys irish",
+    "volume": 2900,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "baileys irish",
+    "volume": 2900,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "irish cream",
+   "jameson irish whiskey"
+  ]
+ },
+ "coffee-liqueur": {
+  "primary": "kahlua price",
+  "primaryVolume": 720,
+  "primaryKd": 14,
+  "secondary": [
+   "kahlua",
+   "kahlua liquor",
+   "coffee and liqueur",
+   "kahlua and coffee liqueur",
+   "coffee whiskey",
+   "kahlua 1 litre",
+   "best coffee liqueur",
+   "kahlua liqueur coffee",
+   "kahlua 1l",
+   "liqueur coffee",
+   "coffee liquour",
+   "mr black coffee liqueur 700ml",
+   "alcohol percentage kahlua",
+   "kahlua liqueur alcohol content",
+   "kahlua 1 litre best price"
+  ],
+  "tags": [
+   "coffee liqueur",
+   "kahlua coffee liqueur",
+   "kahlua espresso martini cans",
+   "percent alcohol kahlua",
+   "coffee liqueurs",
+   "premium coffee liqueur",
+   "coffee flavored liqueur",
+   "good coffee liqueur",
+   "kahlúa coffee liqueur",
+   "kahlua on special",
+   "1 litre kahlua",
+   "coffee liquier",
+   "coffee whisky",
+   "vodka coffee",
+   "kahlua specials",
+   "kahlua 200ml",
+   "coffee liquors",
+   "grada coffee liqueur",
+   "mister black coffee liqueur",
+   "matcha kahlua",
+   "tequila",
+   "gin"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "kahlua liquor"
+  ]
+ },
+ "orange-liqueur": {
+  "primary": "cointreau price",
+  "primaryVolume": 480,
+  "primaryKd": 12,
+  "secondary": [
+   "saint germain cafe",
+   "st germain cafe",
+   "cointreau 700ml",
+   "orange flavoured liqueur",
+   "cointreau 1l",
+   "orange liqueurs",
+   "chandon orange spritz",
+   "cointreau 1 ltr",
+   "cointreau specials",
+   "cointreau 1 litre best price",
+   "blood orange liqueur",
+   "saint germain cafes",
+   "cointreau liqueur orange",
+   "cointreau 1 litre",
+   "alcohol orange"
+  ],
+  "tags": [
+   "orange liqueur",
+   "germain liqueur",
+   "blood orange beverage",
+   "st germain liquor",
+   "cointreau 1 liter",
+   "angostura orange bitters",
+   "st germain liquer",
+   "saint germain elderflower",
+   "st. germain alcohol",
+   "what is grand marnier liqueur",
+   "cointreau alcohol by volume",
+   "cointreau 700ml best price",
+   "orange vodka",
+   "cointreau on special",
+   "st germain elderflower liqueur 750ml",
+   "st. germain elderflower liqueur",
+   "cost of grand marnier",
+   "grand marnier cost",
+   "saint germain liqueur",
+   "orange liqueur france",
+   "orange liqueur french",
+   "cointreau noir"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grand marnier",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grand marnier",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "cinnamon-liqueur": {
+  "primary": "cinnamon liqueur",
+  "primaryVolume": 110,
+  "primaryKd": 10,
+  "secondary": [
+   "cinnamon flavored whiskey",
+   "cinnamon whisky cocktail",
+   "vodka premix",
+   "vodka cans",
+   "ratu spiced rum",
+   "pineapple rum",
+   "chartreuse liqueur green",
    "sambuca black",
+   "banana liqueur",
+   "vodka absolut",
+   "mini vodka",
+   "skull head vodka",
+   "bundaberg spiced rum",
+   "best rum",
+   "gin alcohol"
+  ],
+  "tags": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "orange liqueur",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "amaro": {
+  "primary": "jagermeister price",
+  "primaryVolume": 880,
+  "primaryKd": 13,
+  "secondary": [
+   "campari negroni",
+   "jagermeister cost",
+   "chartreuse green",
+   "amaro del capo",
+   "vecchio amaro del capo",
+   "aperol 1l",
+   "aperol spritz pack",
+   "aperol aperitivo",
+   "italian liqueur amaro",
+   "aperol 700ml",
+   "aperol spritz bottled",
+   "aperol spritz in a bottle",
+   "amaro capo",
+   "cost of aperol",
+   "aperol gift pack"
+  ],
+  "tags": [
+   "chartreuse liqueur green",
+   "aperol 1 litre",
+   "aperol spritz standard drinks",
+   "aperol spritz premix",
+   "campari au",
+   "chartreuse green liqueur",
+   "jagermeister 700ml",
+   "chartreuse wine",
+   "aperol spritz kits",
+   "aperol spritz can",
+   "premixed aperol spritz",
+   "chartreuse yellow",
+   "jagermeister alcohol volume",
+   "averna amaro siciliano",
+   "aperol spritz kit",
+   "cost of campari",
+   "aperol spritz to go",
+   "aperol to go",
+   "canned aperol spritz",
+   "aperol spritz in a can",
+   "campari price",
+   "aperol spritz pre mixed"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaro",
+    "volume": 3600,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaro montenegro",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaro",
+    "volume": 3600,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaro montenegro",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "absinthe": {
+  "primary": "buy absinthe",
+  "primaryVolume": 260,
+  "primaryKd": 16,
+  "secondary": [
+   "absinthe australia",
+   "absinthe green fairy",
+   "absinthe alcohol green fairy",
+   "green fairy drink absinthe",
+   "black absinthe",
+   "absinthe fountain",
+   "the green fairy absinthe",
+   "absinthe sydney",
+   "absinthe in australia",
+   "absinthe la",
+   "baileys irish cream liqueur 1 litre",
+   "baileys liqueur 1l",
+   "baileys liqueur 1 litre",
+   "cream liqueur",
+   "galliano and sambuca"
+  ],
+  "tags": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "orange liqueur",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "limoncello": {
+  "primary": "limoncello buy",
+  "primaryVolume": 260,
+  "primaryKd": 7,
+  "secondary": [
+   "best limoncello",
+   "manly spirits limoncello",
+   "de bortoli limoncello spritz",
+   "limoncello liqueur alcohol content",
+   "limoncello alcohol volume",
+   "luxardo limoncello",
+   "solbevi limoncello",
+   "top rated limoncello",
+   "best limoncello liqueur",
+   "luxardo limoncello liqueur",
+   "small limoncello bottles",
+   "best limoncello australia",
+   "mini limoncello bottles",
+   "limoncello cans",
+   "limoncello spritz de bortoli"
+  ],
+  "tags": [
+   "limoncello price",
+   "limoncello mixers",
+   "miniature limoncello bottles",
+   "limoncello australia pty ltd reviews",
+   "limoncello australia",
+   "mini limoncello",
+   "grain alcohol for limoncello",
+   "limoncello zoncello",
+   "bella limoncello",
+   "meletti limoncello",
+   "limoncello luxardo",
+   "limoncello custard",
+   "pallini limoncello australia",
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "sambuca": {
+  "primary": "galliano sambuca",
+  "primaryVolume": 720,
+  "primaryKd": 12,
+  "secondary": [
    "galliano black sambuca",
-   "galliano and sambuca",
    "white sambuca",
-   "sambuca white",
    "alcohol in sambuca",
+   "sambuca white",
    "opal nera black sambuca",
    "sambuca galliano",
-   "blue sambuca",
-   "galliano white sambuca",
    "galliano black sambuca 700ml price",
    "black sambuca 1 litre",
+   "blue sambuca",
+   "galliano white sambuca",
    "sambuca alcohol volume",
    "sambuca drink price",
    "alcohol content sambuca",
@@ -9834,100 +6536,59 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "tags": [
    "black sambuca",
-   "galliano sambuca",
    "sambuca black",
    "galliano and sambuca",
-   "galliano black sambuca",
-   "white sambuca",
-   "opal nera black sambuca",
-   "sambuca white",
-   "alcohol in sambuca",
-   "sambuca galliano",
-   "sambuca alcohol volume",
-   "sambuca alcohol percent",
-   "blue sambuca",
-   "galliano white sambuca",
-   "galliano black sambuca 700ml price",
-   "sambuca drink price",
-   "black sambuca 1 litre",
-   "black sambuca 700ml",
-   "alcohol content sambuca"
+   "cost of sambuca",
+   "galliano sambuca black",
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia"
   ],
   "faqSeeds": [
    {
-    "keyword": "black sambuca",
-    "volume": 1300,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "galliano sambuca",
-    "volume": 720,
-    "kd": 12,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "sambuca black",
-    "volume": 590,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "galliano black sambuca",
-    "volume": 480,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "galliano and sambuca",
-    "volume": 480,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sambuca alcohol",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca drink",
-    "volume": 390,
+    "keyword": "limoncello",
+    "volume": 18100,
     "kd": 23,
     "intent": "Informational"
    },
    {
-    "keyword": "white sambuca",
-    "volume": 320,
-    "kd": 8,
-    "intent": "Commercial"
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
    },
    {
-    "keyword": "sambuca white",
-    "volume": 210,
-    "kd": 9,
-    "intent": "Commercial"
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
    },
    {
-    "keyword": "alcohol in sambuca",
-    "volume": 210,
-    "kd": 14,
-    "intent": "Commercial"
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
    },
    {
-    "keyword": "opal nera black sambuca",
-    "volume": 170,
-    "kd": 6,
-    "intent": "Commercial"
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
    },
-   {
-    "keyword": "sambuca galliano",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
    {
     "keyword": "sambuca",
     "volume": 5400,
@@ -9935,671 +6596,480 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "sambuca alcohol",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca drink",
-    "volume": 390,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is sambuca",
-    "volume": 140,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "galliano sambuca white",
-    "volume": 110,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is in sambuca",
-    "volume": 110,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca flavour",
-    "volume": 110,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is a sambuca",
-    "volume": 110,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca dan murphy",
-    "volume": 110,
-    "kd": 25,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "what is sambuca drink",
-    "volume": 110,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca alcohol percentage",
-    "volume": 90,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage in sambuca",
-    "volume": 90,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whats sambuca",
-    "volume": 70,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca alcohol content",
-    "volume": 70,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol content in sambuca",
-    "volume": 70,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca abv",
-    "volume": 70,
-    "kd": 9,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "galliano sambuca"
-  ]
- },
- "soju": {
-  "primary": "soju alcohol",
-  "primaryVolume": 1600,
-  "primaryKd": 24,
-  "secondary": [
-   "soju drink",
-   "jinro soju",
-   "soju social",
-   "soju dan murphy",
-   "soju beverage",
-   "soju flavours",
-   "soju bottle",
-   "soju price",
-   "lychee soju",
-   "grape soju",
-   "soju lychee",
-   "chamisul soju",
-   "good day soju",
-   "soju korean bbq",
-   "buy soju",
-   "soju japanese drink",
-   "soju drink price",
-   "lemon soju",
-   "soju brands",
-   "drinks with soju"
-  ],
-  "tags": [
-   "jinro soju",
-   "soju alcohol",
-   "soju social",
-   "lychee soju",
-   "soju price",
-   "soju lychee",
-   "soju drink",
-   "soju dan murphy",
-   "grape soju",
-   "good day soju",
-   "soju beverage",
-   "soju flavours",
-   "soju bottle",
-   "lemon soju",
-   "soju peach",
-   "chamisul soju",
-   "sizak soju",
-   "price soju",
-   "soju korean bbq",
-   "best soju flavour",
-   "soju hwayo",
-   "buy soju",
-   "soju drink price",
-   "soju japanese drink",
-   "soju grape",
-   "soju apple",
-   "soju original",
-   "soju pack",
-   "green grape soju",
-   "japanese soju",
-   "pack of soju",
-   "drinks with soju",
-   "soju brands",
-   "japan soju",
-   "japanese drink soju",
-   "hwayo soju",
-   "flavour soju",
-   "packet soju",
-   "order soju",
-   "soju drink buy",
-   "japanese soju drink",
-   "soju australia",
-   "best brands of soju",
-   "cheap soju",
-   "soju glasses",
-   "good soju brands",
-   "korean alcoholic drink soju",
-   "soju gang"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "alcohol content soju",
-    "volume": 1600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju drink",
-    "volume": 1300,
-    "kd": 40,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "jinro soju",
-    "volume": 1300,
+    "keyword": "white rum",
+    "volume": 4400,
     "kd": 14,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "soju social",
-    "volume": 1300,
-    "kd": 29,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "soju alcohol percentage",
-    "volume": 1300,
-    "kd": 18,
     "intent": "Informational"
    },
    {
-    "keyword": "soju what is",
-    "volume": 1000,
-    "kd": 36,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alley",
-    "volume": 1000,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju dan murphy",
-    "volume": 880,
-    "kd": 27,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "soju beverage",
-    "volume": 720,
-    "kd": 36,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "soju alcohol content",
-    "volume": 720,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju flavours",
-    "volume": 590,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "alcohol percentage in soju",
-    "volume": 590,
-    "kd": 27,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "alcohol content soju",
-    "volume": 1600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alcohol percentage",
-    "volume": 1300,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju abv",
-    "volume": 1300,
-    "kd": 50,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju what is",
-    "volume": 1000,
-    "kd": 36,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is soju",
-    "volume": 1000,
-    "kd": 41,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alley",
-    "volume": 1000,
-    "kd": 31,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alcohol content",
-    "volume": 720,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol percentage in soju",
-    "volume": 590,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "korean liquor soju",
-    "volume": 480,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "peach soju",
-    "volume": 480,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "whats soju",
-    "volume": 480,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alcohol by volume",
-    "volume": 480,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "korean alcohol soju",
-    "volume": 390,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chum churum soju",
-    "volume": 390,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alcohol volume",
-    "volume": 320,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju standard drinks",
-    "volume": 320,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lychee soju drink",
-    "volume": 320,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is soju made of",
-    "volume": 320,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju yakult",
-    "volume": 320,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "yakult soju",
-    "volume": 320,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "korean bbq soju",
-    "volume": 260,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju korean",
-    "volume": 210,
+    "keyword": "limoncello recipe",
+    "volume": 4400,
     "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "soju percentage",
-    "volume": 210,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "soju alcohol percent",
-    "volume": 210,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "saero soju",
-    "volume": 210,
-    "kd": 8,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "jinro soju",
-   "soju social",
-   "soju dan murphy",
-   "soju beverage",
-   "buy soju",
-   "drinks with soju",
-   "soju drink buy",
-   "soju gang"
-  ]
- },
- "lager": {
-  "primary": "lager",
-  "primaryVolume": 2400,
-  "primaryKd": 16,
-  "secondary": [
-   "beer",
-   "craft beer",
-   "flavoured beer",
-   "beer flavours",
-   "pale ale style beer",
-   "aussie beer",
-   "mountain goat beer",
-   "stone and wood beer",
-   "beer mx",
-   "mid strength beer",
-   "india pale ale beer",
-   "lager beer",
-   "aus lager",
-   "stone wood beer",
-   "beer for cheap",
-   "slab of beer",
-   "india pale ale australia",
-   "pacific ale",
-   "4 pines pacific ale",
-   "4 pines pacific ale case price"
-  ],
-  "tags": [
-   "beer",
-   "beer flavours",
-   "flavoured beer",
-   "craft beer",
-   "4 pines pacific ale case price",
-   "mid strength beer",
-   "india pale ale beer",
-   "cheap beer",
-   "pale ale style beer",
-   "beer mx",
-   "pacific ale",
-   "hazy pale ale",
-   "india pale ale australia",
-   "stone and wood beer",
-   "aussie beer",
-   "mountain goat beer",
-   "aus lager",
-   "stone wood beer",
-   "coopers lager",
-   "best aussie beer",
-   "lager beer",
-   "low alcohol ale",
-   "coopers pale ale cans",
-   "stonewood beer",
-   "beer for cheap",
-   "budweiser beer",
-   "stone & wood beer",
-   "4 pines pacific ale",
-   "best australian beer",
-   "beer can",
-   "beer carton",
-   "beer flavored",
-   "australian pale ale",
-   "slab of beer",
-   "wheat beer",
-   "german wheat beer",
-   "little creatures beer",
-   "balter beer australia",
-   "4 pines pale ale",
-   "four pines pale ale",
-   "aussie pale ale",
-   "beechworth pale ale",
-   "beer sale",
-   "low carb pale ale",
-   "best beer australia",
-   "pale ale australia",
-   "vale ale",
-   "pale ale beer",
-   "best beer",
-   "beer prices",
-   "beer cans",
-   "status quo pale ale",
-   "beer prices australia",
-   "coopers lager beer",
-   "goat pale ale",
-   "dark ale",
-   "beer price in australia",
-   "coopers pale ale 440ml",
-   "mid strength pale ale",
-   "best beers in australia",
-   "balter lager",
-   "coopers pale ale can",
-   "beer is best",
-   "fruity beer",
-   "sour ale",
-   "colonial pale ale",
-   "price beer",
-   "ice beer",
-   "beer pilsner",
-   "dark lager",
-   "4 pines hazy pale ale",
-   "bud beer",
-   "beers in australia",
-   "lager dark",
-   "beer pack",
-   "beer gift",
-   "bws coopers pale ale",
-   "beer in cans",
-   "best beer brands",
-   "larry pale ale",
-   "summer ale",
-   "grifter pale ale",
-   "white rabbit pale ale",
-   "beer slab",
-   "beer offers",
-   "beer craft",
-   "beer dark lager",
-   "beer australia",
-   "beer deals",
-   "bridge road pale ale",
-   "beer special",
-   "mountain culture pale ale",
-   "lager dark beer",
-   "dark lager beer",
-   "balta beer",
-   "pale ales",
-   "carlsberg lager",
-   "six pack beer",
-   "victorian beer",
-   "famous beer in australia",
-   "stone beer",
-   "vale ale beer",
-   "red india pale ale",
-   "australia popular beer",
-   "bws pale ale",
-   "balter beer xpa",
-   "aus beer",
-   "lager pilsner",
-   "4 pack beer",
-   "lager vs draught beer",
-   "beers on special",
-   "carton beer",
-   "beer vs ale vs lager",
-   "craft beer brands",
-   "good beer",
-   "popular beers",
-   "lager vs beer vs ale",
-   "case of beers",
-   "beer pr",
-   "mecican beer",
-   "aus most popular beer",
-   "can beer",
-   "non alcoholic craft beer",
-   "beer cost",
-   "beer with blue can",
-   "ale vs lager",
-   "ale vs lager vs beer",
-   "new south wales beer",
-   "ale vs beer vs lager",
-   "pacific pale ale",
-   "mixed beer pack",
-   "beer brands in australia",
-   "dan murphy coopers pale ale",
-   "wood and stone beer",
-   "dark ale beer",
-   "buy non alcoholic beer online",
-   "sweetened beer",
-   "smallest beer",
-   "12 pack beer",
-   "lager beer australia",
-   "canned beer",
-   "coopers pale ale bws",
-   "lager vs pale ale",
-   "sweet beer",
-   "international beer",
-   "beer hamper perth",
-   "black beer australia",
-   "best pale ale australia",
-   "beer vs lager vs ale",
-   "best tasting beer"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "beer",
-    "volume": 22200,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "craft beer",
+    "keyword": "elderflower liqueur",
     "volume": 3600,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "balter beer",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "flavoured beer",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "beer flavours",
-    "volume": 2400,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "pale ale",
-    "volume": 2400,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pale ale style beer",
-    "volume": 1900,
-    "kd": 21,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
     "kd": 22,
     "intent": "Informational"
    },
    {
-    "keyword": "aussie beer",
-    "volume": 1600,
-    "kd": 26,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "mountain goat beer",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "india pale ale",
-    "volume": 1600,
+    "keyword": "grey goose liquor",
+    "volume": 2900,
     "kd": 28,
     "intent": "Informational"
    },
    {
-    "keyword": "stone and wood beer",
-    "volume": 1300,
-    "kd": 20,
-    "intent": "Commercial"
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
    }
   ],
   "informational": [
    {
-    "keyword": "balter beer",
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
     "volume": 2900,
     "kd": 27,
-    "intent": "Navigational"
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "soju": {
+  "primary": "soju buy",
+  "primaryVolume": 50,
+  "primaryKd": 17,
+  "secondary": [
+   "soju alcohol",
+   "jinro soju",
+   "korean wine soju",
+   "soju bottle",
+   "soju price",
+   "lychee soju",
+   "grape soju",
+   "soju lychee",
+   "chamisul soju",
+   "good day soju",
+   "soju korean bbq",
+   "soju flavour",
+   "soju flavors",
+   "soju japanese drink",
+   "soju beer"
+  ],
+  "tags": [
+   "soju drink price",
+   "lemon soju",
+   "soju peach",
+   "price soju",
+   "soju bottles",
+   "japan soju",
+   "best soju flavour",
+   "japanese drink soju",
+   "japanese soju drink",
+   "flavour soju",
+   "soju pack",
+   "soju original",
+   "japanese soju",
+   "jinro chamisul",
+   "soju korean wine",
+   "cheap soju",
+   "soju grape",
+   "soju apple",
+   "order soju",
+   "yoghurt soju",
+   "hwayo soju",
+   "sizak soju"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "alcohol content soju",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage",
+    "volume": 1600,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol percentage",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango loco",
+    "volume": 1300,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage in my area today",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "jinro",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol content",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy drink zero ultra",
+    "volume": 720,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy white",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water rates",
+    "volume": 720,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pay water bill",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rate water",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "alcohol percentage in soju",
+    "volume": 590,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "connection of water",
+    "volume": 590,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "alcohol content soju",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage",
+    "volume": 1600,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol percentage",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango loco",
+    "volume": 1300,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage in my area today",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "jinro",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol content",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy drink zero ultra",
+    "volume": 720,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy white",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water rates",
+    "volume": 720,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pay water bill",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rate water",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "alcohol percentage in soju",
+    "volume": 590,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "connection of water",
+    "volume": 590,
+    "kd": 18,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "jinro soju"
+  ]
+ },
+ "lager": {
+  "primary": "beer sale",
+  "primaryVolume": 590,
+  "primaryKd": 18,
+  "secondary": [
+   "corona beer",
+   "low carb beer",
+   "heineken beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "aussie beer",
+   "mountain goat beer",
+   "stone and wood beer",
+   "beer mx",
+   "mid strength beer",
+   "zero carb beer",
+   "low calorie beer",
+   "byron bay beer",
+   "stone wood beer"
+  ],
+  "tags": [
+   "lager beer",
+   "beer for cheap",
+   "aus lager",
+   "light beer",
+   "lightweight beer",
+   "carbless beer",
+   "beer can",
+   "cheap beer",
+   "stonewood beer",
+   "coopers lager",
+   "radler beer",
+   "no carb beer",
+   "low carb beer australia",
+   "lowest calorie beer",
+   "beer flavored",
+   "balter beer australia",
+   "best aussie beer",
+   "porter beer",
+   "belgium beer",
+   "0 carb beer",
+   "low alcohol beer",
+   "white rabbit beer"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
    },
    {
     "keyword": "lager",
@@ -10608,1611 +7078,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "pale ale",
-    "volume": 2400,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "india pale ale",
-    "volume": 1600,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian lager",
-    "volume": 1300,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer brands",
-    "volume": 1300,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "carton of beer",
-    "volume": 1300,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "p ale",
-    "volume": 1000,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "coopers australian lager",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pale beer",
-    "volume": 720,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pacific ale beer",
-    "volume": 720,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer brands",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lagering",
-    "volume": 590,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ale beer",
-    "volume": 480,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer brands australia",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red ale",
-    "volume": 480,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the lager beer",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer case",
-    "volume": 390,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what are lagers",
-    "volume": 390,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "india pale ales",
-    "volume": 390,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is a lager",
-    "volume": 390,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lager house",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is lager in beer",
-    "volume": 320,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is lager beer",
-    "volume": 320,
-    "kd": 36,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "vb beer",
-   "mountain goat beer",
-   "india pale ale beer",
-   "stone wood beer",
-   "4 pines pacific ale case price",
-   "budweiser beer",
-   "stone & wood beer",
-   "wheat beer",
-   "bud beer",
-   "beer sale",
-   "beers near me",
-   "beer cans",
-   "beer prices",
-   "little creatures beer",
-   "four pines pale ale"
-  ]
- },
- "imported-beer": {
-  "primary": "imported beer",
-  "primaryVolume": 320,
-  "primaryKd": 6,
-  "secondary": [
-   "tiger beer",
-   "modelo beer",
-   "german beer",
-   "peroni beer",
-   "mythos beer",
-   "chang beer",
-   "beer can",
-   "budweiser beer",
-   "cheap beer",
-   "stonewood beer",
-   "menabrea beer",
-   "stone & wood beer",
-   "beer flavored",
-   "balter beer australia",
-   "hoegaarden beer",
-   "best aussie beer",
-   "wheat beer",
-   "ipa on beer",
-   "balter ipa",
-   "beer carton"
-  ],
-  "tags": [
-   "beer",
-   "modelo beer",
-   "beer flavours",
-   "flavoured beer",
-   "craft beer",
-   "peroni beer",
-   "tiger beer",
-   "german beer",
-   "mid strength beer",
-   "cheap beer",
-   "mythos beer",
-   "beer mx",
-   "chang beer",
-   "stone and wood beer",
-   "aussie beer",
-   "mountain goat beer",
-   "stone wood beer",
-   "menabrea beer",
-   "best aussie beer",
-   "leffe beer",
-   "stonewood beer",
-   "beer for cheap",
-   "budweiser beer",
-   "stone & wood beer",
-   "ichnusa beer",
-   "hoegaarden beer",
-   "best australian beer",
-   "beer can",
-   "beer carton",
-   "beer flavored",
-   "balter ipa",
-   "ipa on beer",
-   "slab of beer",
-   "imported beer",
-   "wheat beer",
-   "german wheat beer",
-   "little creatures beer",
-   "balter beer australia",
-   "polish beer",
-   "beer sale",
-   "heineken beer price",
-   "best beer australia",
-   "ipa login",
-   "emu export beer",
-   "what beers are ipa",
-   "best beer",
-   "beer prices",
-   "beer cans",
-   "beer prices australia",
-   "american beer australia",
-   "kosciuszko beer",
-   "peroni beer price",
-   "beer price in australia",
-   "best beers in australia",
-   "xpa vs ipa",
-   "beer is best",
-   "fruity beer",
-   "guinness beer bottle",
-   "price beer",
-   "ice beer",
-   "beer pilsner",
-   "heineken imported",
-   "bud beer",
-   "ipa alphabet keyboard",
-   "beers in australia",
-   "beer pack",
-   "beer gift",
-   "beer in cans",
-   "best beer brands",
-   "beer slab",
-   "beer offers",
-   "modelo especial beer",
-   "beer craft",
-   "beer australia",
-   "beer deals",
-   "beer special",
-   "balta beer",
-   "beer menabrea",
-   "beer ipa",
-   "24 cans of beer",
-   "kozel beer",
-   "asahi beer bws",
-   "six pack beer",
-   "victorian beer",
-   "beer in bulk",
-   "famous beer in australia",
-   "beer with ipa",
-   "stone beer",
-   "peroni red beer",
-   "australia popular beer",
-   "balter beer xpa",
-   "aus beer",
-   "beer modelo especial",
-   "4 pack beer",
-   "ipa vs xpa",
-   "beers on special",
-   "carton beer",
-   "chang beer australia",
-   "craft beer brands",
-   "good beer",
-   "popular beers",
-   "buy australian beer online",
-   "ipa beer australia",
-   "case of beers",
-   "beer pr",
-   "heineken beer case",
-   "haywards 5000 beer",
-   "mecican beer",
-   "aus most popular beer",
-   "can beer",
-   "non alcoholic craft beer",
-   "beer cost",
-   "beer with blue can",
-   "beer ichnusa",
-   "tuborg beer australia",
-   "new south wales beer",
-   "beer heineken",
-   "mountain culture cult ipa",
-   "grolsch beer australia",
-   "beer chang",
-   "ipa recruitment agency",
-   "mixed beer pack",
-   "beer brands in australia",
-   "wood and stone beer",
-   "buy non alcoholic beer online",
-   "carlsberg pilsner beer",
-   "sweetened beer",
-   "smallest beer",
-   "12 pack beer",
-   "canned beer",
-   "brazilian beer",
-   "stella astoria beer",
-   "export beer",
-   "500ml beer can",
-   "sweet beer",
-   "international beer",
-   "cass beers",
-   "beer hamper perth",
-   "buy budweiser beer",
-   "imported heineken beer",
-   "black beer australia",
-   "heineken imported beer",
-   "modelo beer perth",
-   "cost of peroni beer",
-   "best tasting beer",
-   "cheapest beer australia",
-   "how much is case of beer",
-   "heineken beer bottle",
-   "price of beer in australia",
-   "hoegaarden beer australia"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "beer",
-    "volume": 22200,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "craft beer",
-    "volume": 3600,
-    "kd": 29,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "tiger beer",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "balter beer",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "flavoured beer",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "beer flavours",
-    "volume": 2400,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "modelo beer",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "german beer",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "ipa beer",
-    "volume": 2400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "aussie beer",
-    "volume": 1600,
-    "kd": 26,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "mountain goat beer",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "balter beer",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "ipa beer",
-    "volume": 2400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer brands",
-    "volume": 1300,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "carton of beer",
-    "volume": 1300,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa and beer",
-    "volume": 1300,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "better beers",
-    "volume": 1300,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stella beer",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa meaning",
-    "volume": 880,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipas",
-    "volume": 880,
-    "kd": 47,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "definition ipa",
-    "volume": 880,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipaf",
-    "volume": 880,
-    "kd": 32,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "meaning ipa",
-    "volume": 720,
-    "kd": 49,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pale beer",
-    "volume": 720,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa for beer",
-    "volume": 720,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa keyboard",
-    "volume": 720,
-    "kd": 46,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "meaning ipa beer",
-    "volume": 720,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grolsch beer",
-    "volume": 720,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa beer meaning",
-    "volume": 720,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer brands",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "define ipa",
-    "volume": 590,
-    "kd": 54,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ipa phonetic keyboard",
-    "volume": 590,
-    "kd": 32,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "ipa beer definition",
-    "volume": 590,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elephant beer",
-    "volume": 590,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sapporo premium beer",
-    "volume": 590,
-    "kd": 20,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "vb beer",
-   "tiger beer",
-   "mountain goat beer",
-   "chang beer",
-   "stone wood beer",
-   "budweiser beer",
-   "stone & wood beer",
-   "wheat beer",
-   "balter ipa",
-   "bud beer",
-   "beer sale",
-   "ipa login",
-   "ipa alphabet keyboard",
-   "beers near me",
-   "beer cans"
-  ]
- },
- "non-alcoholic-beer": {
-  "primary": "non alcoholic beer",
-  "primaryVolume": 3600,
-  "primaryKd": 33,
-  "secondary": [
-   "corona beer",
-   "low carb beer",
-   "heineken beer",
-   "carb friendly beer",
-   "zero carb beer",
-   "low calorie beer",
-   "byron bay beer",
-   "light beer",
-   "lightweight beer",
-   "carbless beer",
-   "hahn super dry beer",
-   "non alcoholic beverages",
-   "no carb beer",
-   "low carb beer australia",
-   "lowest calorie beer",
-   "0 carb beer",
-   "low alcohol beer",
-   "white rabbit beer",
-   "lite beer",
-   "best non alcoholic beer australia"
-  ],
-  "tags": [
-   "beer",
-   "corona beer",
-   "low carb beer",
-   "carb friendly beer",
-   "heineken beer",
-   "non alcoholic beer",
-   "zero carb beer",
-   "mid strength beer",
-   "low calorie beer",
-   "byron bay beer",
-   "cheap beer",
-   "white rabbit beer",
-   "hahn super dry beer",
-   "light beer",
-   "carbless beer",
-   "lightweight beer",
-   "no carb beer",
-   "low carb beer australia",
-   "lowest calorie beer",
-   "hahn low carb beer",
-   "0 carb beer",
-   "full strength beer",
-   "zero carb beer australia",
-   "beer carton",
-   "low calorie beer australia",
-   "lowest calorie beer australia",
-   "non alcoholic beverages",
-   "best non alcoholic beer australia",
-   "low alcohol beer",
-   "less alcohol beer",
-   "beer with no carbs",
-   "best low carb beer australia",
-   "low calorie beer au",
-   "low alcohol beer australia",
-   "lite beer",
-   "light beer australia",
-   "lime beer",
-   "best mid strength beer australia",
-   "non alcoholic sparkling",
-   "hahn beer low carb",
-   "beer prices",
-   "hahn light beer",
-   "beers that are low in carbs",
-   "best light beer australia",
-   "ultra low carb beer",
-   "mid strength low carb beer",
-   "corona case beer",
-   "beer that is low in carbs",
-   "ice beer",
-   "hahn premium beer",
-   "coopers ultra light beer",
-   "lowest carb beer",
-   "low carb zero alcohol beer",
-   "best non alcoholic drinks",
-   "non alcoholic spirits",
-   "best low carb beer",
-   "beers with 0 carbs",
-   "non-alcoholic beer",
-   "beer slab",
-   "hahn super dry low carb beer",
-   "good low carb beer",
-   "beers with zero carbs",
-   "non alcoholic rose",
-   "low calorie australian beer",
-   "beer australia",
-   "non alcoholic guinness",
-   "best light beer",
-   "bws low carb beer",
-   "heaps normal non alcoholic beer",
-   "3.5 beer",
-   "beer corona",
-   "best non alcoholic beverages",
-   "german beer weissbier",
-   "non alcoholic beer australia",
-   "non alcoholic guinness beer",
-   "non alcoholic chardonnay",
-   "non alcoholic aperitif",
-   "beer no carbs",
-   "carton beer",
-   "slab beer",
-   "beer pr",
-   "non alcoholic malt beverage",
-   "non alcoholic craft beer",
-   "non alcoholic aperitif drinks",
-   "hahn premium light beer",
-   "vb low carb beer",
-   "no alcoholic beer",
-   "heineken non alcoholic beer",
-   "beer heineken",
-   "cool non alcoholic drinks",
-   "beer white",
-   "non-alcoholic sparkling",
-   "buy non alcoholic beer online",
-   "no sugar beer",
-   "preservative free beer",
-   "smallest beer",
-   "sweetened beer",
-   "light ice beer",
-   "canned beer",
-   "hahns premium light",
-   "best non alcoholic beer in australia",
-   "heineken beer non alcoholic",
-   "best low carb beer in australia",
-   "non alcoholic spirits australia",
-   "black beer australia",
-   "non alc beer",
-   "best non alcoholic sparkling",
-   "vb beer bws",
-   "light beer in australia",
-   "low calorie drinks non alcoholic",
-   "8 pack of beer",
-   "australian drinks non alcoholic",
-   "carb free beer",
-   "beer low carb",
-   "international beers",
-   "carb less beer",
-   "special on beer",
-   "non-alcoholic spirits",
-   "edenvale non alcoholic",
-   "low sugar beer",
-   "no carb beer australia",
-   "german beer weiss",
-   "low cal beer",
-   "zero sugar beer",
-   "non alcoholic bubbly",
-   "naked life non alcoholic",
-   "can of beer",
-   "low carb beer specials",
-   "best non alcoholic drinks australia",
-   "beer in online",
-   "sparkling non alcoholic",
-   "non alcoholic scotch",
-   "heineken non alcoholic",
-   "non alcoholic cocktail mixers",
-   "good low alcohol beer",
-   "drinkable beer",
-   "low carb non alcoholic beer",
-   "beer zero",
-   "beer non alcoholic",
-   "good lite beer",
-   "alcoholic beer",
-   "low carb beer dan murphy",
-   "top rated light beers",
-   "non alcoholic australian drinks",
-   "great light beers",
-   "non alcoholic bubbles",
-   "great tasting beer",
-   "non alcoholic drinks near me",
-   "non alcoholic beer coles",
-   "non alcoholic carbonated drinks"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "beer",
-    "volume": 22200,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "corona beer",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "low carb beer",
-    "volume": 2900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "heineken beer",
-    "volume": 2900,
-    "kd": 25,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "carb friendly beer",
-    "volume": 2400,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
     "keyword": "beer with least carbs",
     "volume": 2400,
     "kd": 16,
     "intent": "Informational"
    },
    {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mid strength beer",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "zero carb beer",
-    "volume": 1300,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "low calorie beer",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "byron bay beer",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "light beer",
-    "volume": 1000,
-    "kd": 16,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "beer with least carbs",
+    "keyword": "ipa beer",
     "volume": 2400,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic",
-    "volume": 1600,
-    "kd": 53,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stella beer",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic cocktail drinks",
-    "volume": 720,
-    "kd": 38,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic cocktails",
-    "volume": 720,
-    "kd": 44,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic cocktail recipes",
-    "volume": 720,
-    "kd": 52,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pale beer",
-    "volume": 720,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lowest carb beer australia",
-    "volume": 590,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic cocktail ideas",
-    "volume": 480,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "carbs in low carb beer",
-    "volume": 480,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic margarita",
-    "volume": 390,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic drink reminiscent of beer",
-    "volume": 390,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low carb mid strength beer",
-    "volume": 320,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer and lime",
-    "volume": 320,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "guinness non alcoholic beer",
-    "volume": 260,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mocktails non alcoholic",
-    "volume": 260,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian draught beer",
-    "volume": 260,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer with a lime",
-    "volume": 260,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lime with beer",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mocktail recipe non alcoholic",
-    "volume": 210,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "the non alcoholic club",
-    "volume": 210,
-    "kd": 55,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "non alcoholic spritz",
-    "volume": 210,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic mocktails",
-    "volume": 210,
-    "kd": 49,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non-alcoholic",
-    "volume": 170,
-    "kd": 39,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "corona beer",
-   "heineken beer",
-   "hahn super dry beer",
-   "hahn low carb beer",
-   "hahn light beer",
-   "beer prices",
-   "ice beer",
-   "bws low carb beer",
-   "beer corona",
-   "drinks non alcoholic",
-   "hahn super dry low carb beer",
-   "hahn premium beer",
-   "beer heineken",
-   "vb beer bws",
-   "beer non alcoholic"
-  ]
- },
- "ginger-beer": {
-  "primary": "ginger beer",
-  "primaryVolume": 9900,
-  "primaryKd": 25,
-  "secondary": [
-   "james squire ginger beer",
-   "alcoholic ginger beer",
-   "brookvale union ginger beer",
-   "ginger beer alcoholic",
-   "brookvale ginger beer",
-   "great northern ginger beer",
-   "green ginger",
-   "little dragon ginger beer",
-   "gingerbeer",
-   "ginger beer is alcohol",
-   "ginger bear",
-   "alcoholic ginger beer australia",
-   "cascade ginger beer",
-   "ginger beer is non alcoholic",
-   "hard ginger beer",
-   "spicy ginger beer",
-   "best alcoholic ginger beer",
-   "bws ginger beer",
-   "remedy ginger beer",
-   "german wheat beer"
-  ],
-  "tags": [
-   "beer",
-   "james squire ginger beer",
-   "brookvale union ginger beer",
-   "alcoholic ginger beer",
-   "brookvale ginger beer",
-   "great northern ginger beer",
-   "ginger beer alcoholic",
-   "little dragon ginger beer",
-   "green ginger",
-   "ginger beer is non alcoholic",
-   "cascade ginger beer",
-   "hard ginger beer",
-   "remedy ginger beer",
-   "german wheat beer",
-   "alcoholic ginger beer australia",
-   "gingerbeer",
-   "ginger beer james squire",
-   "ginger bear",
-   "bertie ginger beer",
-   "spicy ginger beer",
-   "ginger beer is alcohol",
-   "ginger beer cans",
-   "ginger beer with low sugar",
-   "james squire double ginger beer",
-   "capi ginger beer",
-   "sugar free ginger beer",
-   "double ginger beer",
-   "best alcoholic ginger beer",
-   "alcoholic ginger beer brands",
-   "ginger beer alcoholic australia",
-   "ginger beer specials",
-   "ginger beer with less sugar",
-   "union ginger beer",
-   "bws ginger beer",
-   "ginger beer kit",
-   "ginger beer can",
-   "red beer",
-   "ginger beer brookvale union",
-   "gluten free ginger beer",
-   "no sugar ginger beer",
-   "tingletop ginger beer",
-   "brown snake ginger beer",
-   "beer great northern",
-   "amply ginger beer",
-   "buy ginger beer",
-   "goat ginger beer",
-   "ginger beer gluten free",
-   "brooklyn vale ginger beer",
-   "ginger beer australia",
-   "best ginger beer",
-   "can ginger beer",
-   "middy beer",
-   "coopers ginger beer kit",
-   "coopers ginger beer",
-   "ginger beer from australia",
-   "ginger beer kits",
-   "tingle top ginger beer",
-   "it's ginger beer alcoholic",
-   "home brew ginger beer",
-   "lower sugar ginger beer",
-   "ginger beer sugar free",
-   "james squire ginger beer 10 pack",
-   "ginger beer au",
-   "dan murphy ginger beer",
-   "is alcoholic ginger beer gluten free",
-   "beer guinness",
-   "ginger beer abv",
-   "ginger beer 10 pack",
-   "ginger beer dan murphy",
-   "ginger beer 6 pack",
-   "strangelove ginger beer",
-   "ginger beer bottle",
-   "james squire alcoholic ginger beer",
-   "zero sugar ginger beer",
-   "ginger beer in australia",
-   "buy ginger beer online",
-   "sugar free beer",
-   "ginger beer no sugar",
-   "ginger beer low sugar",
-   "aussie ginger beer",
-   "bitter beer",
-   "low cal ginger beer",
-   "low sugar ginger beer alcoholic",
-   "black beer australia",
-   "best alcoholic ginger beer australia",
-   "ginger beet",
-   "ginger beer matso",
-   "6 pack ginger beer",
-   "ginger beer great northern",
-   "lowest calorie ginger beer",
-   "james squire ginger beer 6 pack",
-   "squires ginger beer",
-   "good ginger beer",
-   "bottle of ginger beer",
-   "carlsberg beer cost",
-   "ginger beer in a bottle",
-   "fat pixie ginger beer",
-   "ginger beer brands",
-   "sugar free alcoholic ginger beer",
-   "strange love ginger beer",
-   "best ginger beer australia",
-   "non acloholic beer australia",
-   "bws james squire ginger beer",
-   "alcoholic beer",
-   "beer with no sugar",
-   "wheet beer",
-   "home brewing ginger beer",
-   "ginger beer brookvale",
-   "rogers beer little creatures",
-   "wheatbeer",
-   "crowns beer",
-   "gingerbread beer near me",
-   "matso's ginger beer dan murphy's",
-   "australia beers"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "beer",
-    "volume": 22200,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "james squire ginger beer",
-    "volume": 4400,
-    "kd": 13,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "guinness beer",
-    "volume": 4400,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcoholic ginger beer",
-    "volume": 3600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "brookvale union ginger beer",
-    "volume": 3600,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "matsos ginger beer",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gingerbread beer",
-    "volume": 2900,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger beer alcoholic",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "brookvale ginger beer",
-    "volume": 1900,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "alcoholic ginger beer plant",
-    "volume": 1900,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "great northern ginger beer",
-    "volume": 1300,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "green ginger",
-    "volume": 1300,
-    "kd": 20,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "ginger beer",
-    "volume": 9900,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "guinness beer",
-    "volume": 4400,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "matsos ginger beer",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gingerbread beer",
-    "volume": 2900,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcoholic ginger beer plant",
-    "volume": 1900,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger and beer",
-    "volume": 1300,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger in beer",
-    "volume": 1300,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger beer recipe",
-    "volume": 720,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "is ginger beer alcoholic",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "non alcoholic ginger beer",
-    "volume": 720,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "how to make ginger beer",
-    "volume": 590,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "recipe for ginger beer drink",
-    "volume": 590,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "northern beer",
-    "volume": 590,
     "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger beer is it alcoholic",
-    "volume": 480,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low sugar ginger beer",
-    "volume": 480,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "does ginger beer have alcohol",
-    "volume": 390,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian alcoholic ginger beer",
-    "volume": 390,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "how to brew ginger beer",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "rugged thumb ginger beer",
-    "volume": 390,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cocktails using ginger beer",
-    "volume": 390,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger bev",
-    "volume": 320,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian ginger beer",
-    "volume": 320,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ginger beer non alcoholic",
-    "volume": 320,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "how do you make ginger beer",
-    "volume": 320,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "homemade ginger beer",
-    "volume": 320,
-    "kd": 20,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "green ginger",
-   "little dragon ginger beer",
-   "bws ginger beer",
-   "beer great northern",
-   "double ginger beer",
-   "red beer",
-   "buy ginger beer",
-   "ginger beer dan murphy",
-   "beer guinness",
-   "buy ginger beer online",
-   "coopers ginger beer",
-   "bws james squire ginger beer",
-   "strangelove ginger beer",
-   "coopers ginger beer kit",
-   "gingerbread beer near me"
-  ]
- },
- "red-wine": {
-  "primary": "red wine",
-  "primaryVolume": 9900,
-  "primaryKd": 15,
-  "secondary": [
-   "wine delivery",
-   "wine deals",
-   "carbonated wine",
-   "grenache red",
-   "chardonnay wine",
-   "wine pinot",
-   "red wine au",
-   "cab sav wine",
-   "cabernet sauvignon wine",
-   "shiraz red wine",
-   "rosé wine",
-   "bubbly wine",
-   "rose in wine",
-   "rose a wine",
-   "malbec red wine",
-   "buy red wine",
-   "buy red wine online",
-   "chardonnay white wine",
-   "pinot noir red wine",
-   "pinot wine red"
-  ],
-  "tags": [
-   "red wine",
-   "white wine",
-   "rose wine",
-   "carbonated wine",
-   "wine delivery",
-   "grenache red",
-   "wine deals",
-   "red wine au",
-   "wine pinot",
-   "chardonnay wine",
-   "bubbly wine",
-   "cabernet sauvignon wine",
-   "rosé wine",
-   "rose in wine",
-   "malbec red wine",
-   "cab sav wine",
-   "shiraz red wine",
-   "sweet red wine australia",
-   "rose a wine",
-   "red wine cabernet",
-   "pinot wine red",
-   "red wine australia",
-   "sauvignon red wine",
-   "wine sale",
-   "cheap red wine",
-   "pinot noir red wine",
-   "rosette wine",
-   "red wine case",
-   "riesling wines",
-   "case of red wine",
-   "buy red wine",
-   "chardonnay white wine",
-   "red wine pinot noir",
-   "buy white wine",
-   "red wine bottle",
-   "red wine offers",
-   "bubbles wines",
-   "red wine deals",
-   "wine case",
-   "wine offers",
-   "red wine sale",
-   "sparkling wineries",
-   "buy red wine online",
-   "nice sparkling wine",
-   "pinot noir wines",
-   "cab sauv red wine",
-   "red sweet wine",
-   "cabernet dry red wine",
-   "popular red wine",
-   "rosè wine",
-   "wine and sparkling",
-   "red wine for gift",
-   "case of wines",
-   "redwine",
-   "malbec wine grape",
-   "red wine gift",
-   "nice bottle red wine",
-   "red wine box",
-   "wine cabernet sauvignon",
-   "wine on sale",
-   "dry red wine cabernet sauvignon",
-   "buying red wine",
-   "special red wine",
-   "red shiraz wine",
-   "corporate wine gifts",
-   "pinot wine",
-   "premium red wine",
-   "cab sav red wine",
-   "red wine premium",
-   "red wine price",
-   "what is a good red wine to drink",
-   "soft red wine",
-   "wine deals online",
-   "bottle red wine",
-   "sirah red wine",
-   "bottles of rose wine",
-   "great bottle of red wine",
-   "grenache wines",
-   "wine gift mail",
-   "dozen deals wine",
-   "a white wine",
-   "pinot noir wine price",
-   "xmas gift wine",
-   "bottle of red wine",
-   "red wine cost",
-   "shiraz wine price",
-   "red wine online",
-   "red wine drink price",
-   "wine food gift baskets",
-   "bordeaux wine cabernet sauvignon",
-   "wines gifts",
-   "wines red wine",
-   "bottle of white wine",
-   "price rosé wine",
-   "red wine brand",
-   "top chardonnay wines",
-   "mixed white wine cases",
-   "sparkling sweet wine",
-   "w wine",
-   "white wine chardonnay",
-   "paxis red blend",
-   "chiraz wine",
-   "red pinot",
-   "wine pinot grigio",
-   "wine shiraz price",
-   "rose red wine",
-   "rose wine bottle",
-   "red wine merlot",
-   "wine basket",
-   "red wine by the case",
-   "red wine cabernet sauvignon",
-   "resiling wine",
-   "wine sparkling",
-   "malbec wine cost",
-   "wine present",
-   "syrah wine red",
-   "sauvignon wine",
-   "wine prices",
-   "red wine for sale",
-   "wine gift certificate",
-   "wine white",
-   "australia red wines",
-   "wine selection",
-   "cost of rose wine",
-   "white wine online purchase",
-   "red wine cab sav",
-   "buy mixed case wine online",
-   "syra wine",
-   "pinor noir wine",
-   "red cabernet wine",
-   "red wine online purchase",
-   "wine brand",
-   "rose with wine",
-   "pinot nior wine",
-   "online red wine",
-   "red pinot noir wine",
-   "wine subscription box",
-   "pinot red wine",
-   "buy wine by the case",
-   "wine rosé",
-   "blanc wine",
-   "cab wine",
-   "is pinot noir red wine",
-   "wine chardonnay"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "rose wine",
-    "volume": 6600,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "white wine",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine delivery",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine and white",
-    "volume": 3600,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine deals",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "carbonated wine",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
     "intent": "Informational"
    },
    {
@@ -12222,2662 +7096,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "grenache red",
-    "volume": 1900,
-    "kd": 15,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "malbec wine",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chardonnay wine",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "wine and white",
-    "volume": 3600,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "fizzy wine",
-    "volume": 2400,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malbec wine",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine red",
-    "volume": 1300,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "winery red",
-    "volume": 1300,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wine and",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine varieties",
-    "volume": 1000,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine red",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian red wine",
-    "volume": 880,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine shiraz",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine delivery",
-    "volume": 320,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine cab sauv",
-    "volume": 320,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "just red wines",
-    "volume": 260,
-    "kd": 14,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "wine shiraz",
-    "volume": 210,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white fizzy wine",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red blend wine",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red shiraz",
-    "volume": 140,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glass of sparkling wine",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine category",
-    "volume": 140,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what's malbec wine",
-    "volume": 140,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cabernet red wine",
-    "volume": 110,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pinot noir red",
-    "volume": 110,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine not chauffeurs",
-    "volume": 90,
-    "kd": 18,
-    "intent": "Navigational"
-   }
-  ],
-  "transactional": [
-   "grenache red",
-   "wine pinot",
-   "buy red wine",
-   "buy red wine online",
-   "wine sale",
-   "red wine cabernet",
-   "riesling wines",
-   "red wine pinot noir",
-   "pinot noir wines",
-   "buy white wine",
-   "redwine",
-   "red wine sale",
-   "pinot wine",
-   "malbec wine grape",
-   "wine on sale"
-  ]
- },
- "white-wine": {
-  "primary": "white wine",
-  "primaryVolume": 6600,
-  "primaryKd": 18,
-  "secondary": [
-   "sauvignon white wine",
-   "wine white wines",
-   "best inexpensive wines",
-   "dry white wine",
-   "sauvignon blanc wine",
-   "sweet white wine",
-   "merlot wine",
-   "sav blanc wine",
-   "best white wine",
-   "buy white wine online",
-   "sparkling white wine",
-   "white dry wines",
-   "australian white wine",
-   "sauvignon blanc white wine",
-   "sauv blanc wine",
-   "sauvignon red wine",
-   "wine sale",
-   "white new zealand wine",
-   "buy white wine",
-   "white sauvignon wine"
-  ],
-  "tags": [
-   "red wine",
-   "white wine",
-   "wine white wines",
-   "rose wine",
-   "best inexpensive wines",
-   "dry white wine",
-   "sparkling wine",
-   "sauvignon white wine",
-   "carbonated wine",
-   "wine delivery",
-   "wine deals",
-   "sweet white wine",
-   "red wine au",
-   "wine pinot",
-   "merlot wine",
-   "chardonnay wine",
-   "sauvignon blanc wine",
-   "bubbly wine",
-   "cabernet sauvignon wine",
-   "rose in wine",
-   "cab sav wine",
-   "best white wine",
-   "buy white wine online",
-   "sparkling white wine",
-   "sav blanc wine",
-   "white dry wines",
-   "australian white wine",
-   "sauvignon blanc white wine",
-   "sauv blanc wine",
-   "white new zealand wine",
-   "cask white wine",
-   "pinot gris white wine",
-   "sauvignon red wine",
-   "wine sale",
-   "white sauvignon wine",
-   "pinot noir red wine",
-   "good white wine",
-   "white wine good",
-   "riesling wines",
-   "case of red wine",
-   "white cooking wine",
-   "buy red wine",
-   "chardonnay white wine",
-   "buy white wine",
-   "dry rose wine",
-   "red wine pinot noir",
-   "red wine bottle",
-   "red wine offers",
-   "recommended white wine",
-   "excellent white wine",
-   "bubbles wines",
-   "red wine deals",
-   "wine case",
-   "wine offers",
-   "red wine sale",
-   "savon blanc white wine",
-   "buy red wine online",
-   "white wine sale",
-   "white wine australia",
-   "white sweet wines",
-   "nice sparkling wine",
-   "sauvignon blanc wine price",
-   "white wine specials",
-   "white wine pinot grigio",
-   "pinot noir wines",
-   "sparkling wineries",
-   "red wine delivered",
-   "sauvignon blanc dry white wine",
-   "cabernet dry red wine",
-   "wine and sparkling",
-   "white wine dry",
-   "case of wines",
-   "redwine",
-   "red wines cabernet",
-   "white non alcoholic wine",
-   "wine cabernet sauvignon",
-   "wine on sale",
-   "dry red wine cabernet sauvignon",
-   "buying red wine",
-   "corporate wine gifts",
-   "red shiraz wine",
-   "sweet white wine australia",
-   "pinot wine",
-   "sauvignon blanc wine for cooking",
-   "red wine price",
-   "chardonnay wine price",
-   "wine savon blanc",
-   "soft red wine",
-   "wine deals online",
-   "bottle red wine",
-   "sirah red wine",
-   "great white wine",
-   "grenache wines",
-   "wine gift mail",
-   "a white wine",
-   "dozen deals wine",
-   "pinot noir wine price",
-   "xmas gift wine",
-   "red sauvignon wine",
-   "wines red",
-   "nice white wine",
-   "good wine white",
-   "bottle of red wine",
-   "rosa wine",
-   "shiraz wine price",
-   "red wine online",
-   "wine food gift baskets",
-   "bordeaux wine cabernet sauvignon",
-   "bottle of white wine",
-   "sauv blanc white wine",
-   "white wine riesling",
-   "wines gifts",
-   "wines red wine",
-   "white wine bottle",
-   "sweet australian white wine",
-   "popular white wines",
-   "top chardonnay wines",
-   "mixed white wine cases",
-   "w wine",
-   "blanc sauvignon wine",
-   "good white wines to drink",
-   "white wine chardonnay",
-   "good dry white wine",
-   "white wine online",
-   "white wine delivery",
-   "chiraz wine",
-   "wine pinot grigio",
-   "kinds of dry white wine",
-   "wine shiraz price",
-   "souvenir blanc wine",
-   "rose red wine",
-   "best sparkling white wine",
-   "wine basket",
-   "red wine merlot",
-   "resiling wine",
-   "nice dry white wine",
-   "dry white wine recommendations",
-   "white wine types dry",
-   "pinot noir red or white",
-   "wine sparkling",
-   "syrah wine red",
-   "wine present",
-   "wine sauvignon blanc",
-   "sauvignon wine",
-   "wine prices",
-   "red wine for sale",
-   "wine gift certificate",
-   "type of white wine",
-   "wine selection",
-   "buy sauvignon blanc wine"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "red wine",
-    "volume": 9900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "rose wine",
-    "volume": 6600,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sauvignon white wine",
-    "volume": 4400,
-    "kd": 21,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "wine white wines",
-    "volume": 3600,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine delivery",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "best inexpensive wines",
-    "volume": 3600,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "dry white wine",
-    "volume": 3600,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling wine",
-    "volume": 3600,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine and white",
-    "volume": 3600,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine blanc",
-    "volume": 2900,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine deals",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "wine and white",
-    "volume": 3600,
-    "kd": 21,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine blanc",
-    "volume": 2900,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
     "keyword": "sparkling winemaking",
     "volume": 2400,
     "kd": 14,
     "intent": "Informational"
-   },
-   {
-    "keyword": "malbec wine",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "types of white wines to drink",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sovereign blanc wine",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wine and",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wine varieties",
-    "volume": 1000,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wine types",
-    "volume": 1000,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine red",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine shiraz",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wine sauvignon blanc",
-    "volume": 390,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "moscato white wine",
-    "volume": 390,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sauvignon wine white",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sweetness of white wines",
-    "volume": 260,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wines that are dry",
-    "volume": 260,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white wines are dry",
-    "volume": 210,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white fizzy wine",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine shiraz",
-    "volume": 210,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "types of white wines",
-    "volume": 210,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what's a dry white wine",
-    "volume": 170,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "dry wine white",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the sweet white wine",
-    "volume": 170,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glass of sparkling wine",
-    "volume": 140,
-    "kd": 10,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "sauvignon white wine",
-   "wine pinot",
-   "sauvignon blanc wine",
-   "buy red wine",
-   "buy red wine online",
-   "sauv blanc wine",
-   "wine sale",
-   "buy white wine",
-   "white sauvignon wine",
-   "riesling wines",
-   "pinot noir wines",
-   "red wine pinot noir",
-   "redwine",
-   "red wine sale",
-   "pinot wine"
-  ]
- },
- "rose-wine": {
-  "primary": "rose wine",
-  "primaryVolume": 6600,
-  "primaryKd": 23,
-  "secondary": [
-   "riesling wines",
-   "pinot noir wines",
-   "case of red wine",
-   "wine offers",
-   "red wine deals",
-   "wine case",
-   "red wine sale",
-   "red wines cabernet",
-   "redwine",
-   "pinot wine",
-   "red wine bottle",
-   "red wine offers",
-   "red wine online",
-   "bubbles wines",
-   "sparkling wineries",
-   "w wine",
-   "wine and sparkling",
-   "wine deals online",
-   "case of wines",
-   "wine cabernet sauvignon"
-  ],
-  "tags": [
-   "red wine",
-   "white wine",
-   "carbonated wine",
-   "wine delivery",
-   "wine deals",
-   "red wine au",
-   "wine pinot",
-   "chardonnay wine",
-   "cabernet sauvignon wine",
-   "cab sav wine",
-   "wine sale",
-   "pinot noir red wine",
-   "riesling wines",
-   "case of red wine",
-   "buy red wine",
-   "chardonnay white wine",
-   "buy white wine",
-   "red wine bottle",
-   "red wine offers",
-   "bubbles wines",
-   "red wine deals",
-   "wine case",
-   "wine offers",
-   "red wine sale",
-   "sparkling wineries",
-   "buy red wine online",
-   "nice sparkling wine",
-   "pinot noir wines",
-   "red wine delivered",
-   "cabernet dry red wine",
-   "wine and sparkling",
-   "case of wines",
-   "red wines cabernet",
-   "redwine",
-   "wine cabernet sauvignon",
-   "wine on sale",
-   "dry red wine cabernet sauvignon",
-   "buying red wine",
-   "corporate wine gifts",
-   "red shiraz wine",
-   "pinot wine",
-   "wine deals online",
-   "bottle red wine",
-   "sirah red wine",
-   "grenache wines",
-   "wine gift mail",
-   "dozen deals wine",
-   "pinot noir wine price",
-   "xmas gift wine",
-   "wines red",
-   "bottle of red wine",
-   "shiraz wine price",
-   "red wine online",
-   "wine food gift baskets",
-   "bordeaux wine cabernet sauvignon",
-   "wines gifts",
-   "wines red wine",
-   "top chardonnay wines",
-   "mixed white wine cases",
-   "sparkling sweet wine",
-   "w wine",
-   "white wine chardonnay",
-   "chiraz wine",
-   "rose red wine",
-   "wine basket",
-   "resiling wine",
-   "wine sparkling",
-   "syrah wine red",
-   "wine present",
-   "sauvignon wine",
-   "wine prices",
-   "red wine for sale",
-   "wine gift certificate",
-   "wine selection",
-   "white wine online purchase",
-   "red wine cab sav",
-   "buy mixed case wine online",
-   "syra wine",
-   "pinor noir wine",
-   "red cabernet wine",
-   "red wine online purchase",
-   "wine brand",
-   "pinot nior wine",
-   "online red wine",
-   "wine subscription box",
-   "buy wine by the case",
-   "cab wine",
-   "is pinot noir red wine",
-   "wine chardonnay"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "red wine",
-    "volume": 9900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "white wine",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine delivery",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine deals",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "carbonated wine",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chardonnay wine",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine pinot",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "cab sav wine",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cabernet sauvignon wine",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "red wine au",
-    "volume": 1000,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine red",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine shiraz",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine shiraz",
-    "volume": 210,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glass of sparkling wine",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine not chauffeurs",
-    "volume": 90,
-    "kd": 18,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "velocity wine store",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine same day delivery melbourne",
-    "volume": 70,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gift box for wine",
-    "volume": 70,
-    "kd": 5,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "send wine as a present",
-    "volume": 70,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine gift ideas",
-    "volume": 70,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine cab sav",
-    "volume": 70,
-    "kd": 16,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "wine pinot",
-   "buy red wine",
-   "buy red wine online",
-   "wine sale",
-   "riesling wines",
-   "pinot noir wines",
-   "buy white wine",
-   "red wine sale",
-   "redwine",
-   "pinot wine",
-   "wine on sale",
-   "chiraz wine",
-   "shiraz wine price",
-   "red wine online purchase",
-   "buying red wine"
-  ]
- },
- "sparkling": {
-  "primary": "sparkling wine",
-  "primaryVolume": 3600,
-  "primaryKd": 14,
-  "secondary": [
-   "bird in hand sparkling",
-   "sparkling shiraz",
-   "sparkling",
-   "sparkling rose",
-   "sparkling red wine",
-   "arras sparkling",
-   "australian sparkling wine",
-   "sparkling rose wine",
-   "jansz sparkling",
-   "sparkling mineral water",
-   "arras sparkling wine",
-   "sparkling red",
-   "rose sparkling wine",
-   "tasmanian sparkling wine",
-   "bird in hand sparkling pinot noir",
-   "cheap sparkling wine",
-   "sweet sparkling wine",
-   "sparkling red wine australia",
-   "tasmanian sparkling",
-   "best sparkling wine"
-  ],
-  "tags": [
-   "red wine",
-   "white wine",
-   "sparkling wine",
-   "carbonated wine",
-   "wine delivery",
-   "bird in hand sparkling",
-   "sparkling shiraz",
-   "wine deals",
-   "sparkling red wine",
-   "red wine au",
-   "sparkling rose",
-   "wine pinot",
-   "australian sparkling wine",
-   "chardonnay wine",
-   "sparkling mineral water",
-   "cabernet sauvignon wine",
-   "sparkling",
-   "arras sparkling",
-   "cab sav wine",
-   "sparkling water cans",
-   "sparkling white wine",
-   "sparkling rose wine",
-   "sparkling red",
-   "tasmanian sparkling wine",
-   "tasmanian sparkling",
-   "fresita strawberry sparkling",
-   "arras sparkling wine",
-   "sweet sparkling wine",
-   "french sparkling wine",
-   "distant south sparkling",
-   "cheap sparkling wine",
-   "henkell sparkling wine",
-   "australian sparkling",
-   "jansz sparkling",
-   "rose sparkling wine",
-   "sparkling shiraz wine",
-   "sparkling juice",
-   "sparkling red wine australia",
-   "henkell sparkling",
-   "australian sparkling red",
-   "bird in hand sparkling pinot noir",
-   "buy sparkling wine online",
-   "42 degrees south sparkling",
-   "wine sale",
-   "coopers sparkling",
-   "s pellegrino sparkling water",
-   "sparkling water can",
-   "piccolo sparkling",
-   "shiraz sparkling wine",
-   "jose cuervo sparkling margarita",
-   "pinot noir red wine",
-   "best sparkling wine",
-   "inexpensive sparkling wine",
-   "affordable sparkling wine",
-   "strawberry sparkling wine",
-   "henkell trocken sparkling wine",
-   "riesling wines",
-   "case of red wine",
-   "sparkling wine australia",
-   "yarra burn sparkling",
-   "best australian sparkling",
-   "good australian sparkling wine",
-   "jansz sparkling best price",
-   "buy red wine",
-   "chardonnay white wine",
-   "rumball sparkling shiraz",
-   "buy white wine",
-   "buy sparkling wine",
-   "pink sparkling wine",
-   "henkell trocken sparkling",
-   "red wine bottle",
-   "red wine offers",
-   "espolon sparkling margarita",
-   "chandon rose sparkling wine",
-   "bubbles wines",
-   "yellow sparkling",
-   "softly sparkling",
-   "pinot sparkling wine",
-   "jansz sparkling wine",
-   "lightly sparkling water",
-   "cheap sparkling",
-   "red wine deals",
-   "wine case",
-   "yellow tail sparkling wine",
-   "wine offers",
-   "red wine sale",
-   "sparkling wineries",
-   "buy red wine online",
-   "sparkling pinot",
-   "nice sparkling wine",
-   "popular sparkling wines",
-   "great sparkling wine",
-   "top sparkling wines",
-   "natural mineral sparkling water",
-   "natural mineral water sparkling",
-   "pinot noir wines",
-   "light sparkling water",
-   "bird in hand sparkling rose",
-   "bird in hand sparkling wine",
-   "red wine delivered",
-   "sparkling water glass bottle",
-   "sparkling sweet",
-   "sparkling asti",
-   "brut sparkling wine",
-   "italian sparkling",
-   "good sparkling wine",
-   "yellow tail sparkling",
-   "sparkling wine specials",
-   "cabernet dry red wine",
-   "red sparkling wine",
-   "yellow tail sparkling rose",
-   "domaine chandon sparkling rose",
-   "wine and sparkling",
-   "bird in hand sparkling pinot",
-   "case of wines",
-   "red wines cabernet",
-   "redwine",
-   "jansz sparkling rose",
-   "yellowglen sparkling",
-   "best sparkling wine in australia",
-   "organic sparkling wine",
-   "bws sparkling rose",
-   "wine cabernet sauvignon",
-   "chandon sparkling rose",
-   "wine on sale",
-   "dry red wine cabernet sauvignon",
-   "sparkling spumante",
-   "sparkling wine in australia",
-   "pellegrino sparkling water",
-   "buying red wine",
-   "dry sparkling wine",
-   "yellow sparkling wine",
-   "bws sparkling",
-   "sparkling shiraz australia",
-   "corporate wine gifts",
-   "red shiraz wine",
-   "glass sparkling water bottles",
-   "pinot wine",
-   "sparkling moscato pink",
-   "adelaide hills sparkling wine",
-   "bird in hand sparkling 2022",
-   "de bortoli sparkling wine",
-   "sparkling wine sale",
-   "wine deals online",
-   "bottle red wine",
-   "sirah red wine",
-   "small sparkling wine bottles",
-   "sparkling piccolo",
-   "sparkling water bottle",
-   "grenache wines"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "red wine",
-    "volume": 9900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "white wine",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine delivery",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bird in hand sparkling",
-    "volume": 2900,
-    "kd": 22,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine deals",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "carbonated wine",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chardonnay wine",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine pinot",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "sparkling shiraz",
-    "volume": 1600,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling",
-    "volume": 1300,
-    "kd": 24,
-    "intent": "Transactional"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine red",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine shiraz",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling pinot noir",
-    "volume": 390,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bird in the hand sparkling",
-    "volume": 320,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling margarita",
-    "volume": 320,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling chardonnay pinot noir",
-    "volume": 320,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine shiraz",
-    "volume": 210,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premium sparkling wine",
-    "volume": 210,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling cuvee",
-    "volume": 210,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling pinot noir bird in hand",
-    "volume": 210,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pinot noir sparkling wine",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling reds",
-    "volume": 170,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling brut",
-    "volume": 170,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pellegrino sparkling mineral water",
-    "volume": 170,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling natural mineral water",
-    "volume": 170,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling water and lime",
-    "volume": 170,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glass of sparkling wine",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ovata sparkling",
-    "volume": 140,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "yarra burn vintage sparkling",
-    "volume": 140,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling wine spumante",
-    "volume": 140,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "are sparkling brut",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white sparkling wine",
-    "volume": 110,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling pink moscato",
-    "volume": 110,
-    "kd": 6,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "bird in hand sparkling",
-   "wine pinot",
-   "sparkling",
-   "arras sparkling",
-   "jansz sparkling",
-   "buy red wine",
-   "buy red wine online",
-   "bird in hand sparkling pinot noir",
-   "wine sale",
-   "riesling wines",
-   "pinot noir wines",
-   "buy white wine",
-   "buy sparkling wine",
-   "buy sparkling wine online",
-   "sparkling asti"
-  ]
- },
- "port-wine": {
-  "primary": "port wine",
-  "primaryVolume": 0,
-  "primaryKd": null,
-  "secondary": [
-   "nice sparkling wine",
-   "wine on sale",
-   "chiraz wine",
-   "dozen deals wine",
-   "shiraz wine price",
-   "white wine chardonnay",
-   "wine prices",
-   "cabernet dry red wine",
-   "dry red wine cabernet sauvignon",
-   "pinot noir wine price",
-   "wines red",
-   "red wine online purchase",
-   "online red wine",
-   "buying red wine",
-   "wine selection",
-   "corporate wine gifts",
-   "grenache wines",
-   "red shiraz wine",
-   "red wine delivered",
-   "red wine for sale"
-  ],
-  "tags": [
-   "red wine",
-   "white wine",
-   "carbonated wine",
-   "wine delivery",
-   "wine deals",
-   "red wine au",
-   "wine pinot",
-   "chardonnay wine",
-   "cabernet sauvignon wine",
-   "cab sav wine",
-   "wine sale",
-   "pinot noir red wine",
-   "riesling wines",
-   "case of red wine",
-   "buy red wine",
-   "chardonnay white wine",
-   "buy white wine",
-   "red wine bottle",
-   "red wine offers",
-   "bubbles wines",
-   "red wine deals",
-   "wine case",
-   "wine offers",
-   "red wine sale",
-   "sparkling wineries",
-   "buy red wine online",
-   "nice sparkling wine",
-   "pinot noir wines",
-   "red wine delivered",
-   "cabernet dry red wine",
-   "wine and sparkling",
-   "case of wines",
-   "red wines cabernet",
-   "redwine",
-   "wine cabernet sauvignon",
-   "wine on sale",
-   "dry red wine cabernet sauvignon",
-   "buying red wine",
-   "corporate wine gifts",
-   "red shiraz wine",
-   "pinot wine",
-   "wine deals online",
-   "bottle red wine",
-   "sirah red wine",
-   "grenache wines",
-   "wine gift mail",
-   "dozen deals wine",
-   "pinot noir wine price",
-   "xmas gift wine",
-   "wines red",
-   "bottle of red wine",
-   "shiraz wine price",
-   "red wine online",
-   "wine food gift baskets",
-   "bordeaux wine cabernet sauvignon",
-   "wines gifts",
-   "wines red wine",
-   "top chardonnay wines",
-   "mixed white wine cases",
-   "sparkling sweet wine",
-   "w wine",
-   "white wine chardonnay",
-   "chiraz wine",
-   "rose red wine",
-   "wine basket",
-   "resiling wine",
-   "wine sparkling",
-   "syrah wine red",
-   "wine present",
-   "sauvignon wine",
-   "wine prices",
-   "red wine for sale",
-   "wine gift certificate",
-   "wine selection",
-   "white wine online purchase",
-   "red wine cab sav",
-   "buy mixed case wine online",
-   "syra wine",
-   "pinor noir wine",
-   "red cabernet wine",
-   "red wine online purchase",
-   "wine brand",
-   "pinot nior wine",
-   "online red wine",
-   "wine subscription box",
-   "buy wine by the case",
-   "cab wine",
-   "is pinot noir red wine",
-   "wine chardonnay"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "red wine",
-    "volume": 9900,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "white wine",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine delivery",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine deals",
-    "volume": 2400,
-    "kd": 23,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "carbonated wine",
-    "volume": 2400,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "chardonnay wine",
-    "volume": 1600,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "wine pinot",
-    "volume": 1600,
-    "kd": 23,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "cab sav wine",
-    "volume": 1000,
-    "kd": 22,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cabernet sauvignon wine",
-    "volume": 1000,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "red wine au",
-    "volume": 1000,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "shiraz wine",
-    "volume": 2900,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling winemaking",
-    "volume": 2400,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "shiraz wine red",
-    "volume": 880,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "red wine shiraz",
-    "volume": 590,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine shiraz",
-    "volume": 210,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "glass of sparkling wine",
-    "volume": 140,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine not chauffeurs",
-    "volume": 90,
-    "kd": 18,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "velocity wine store",
-    "volume": 90,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine same day delivery melbourne",
-    "volume": 70,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gift box for wine",
-    "volume": 70,
-    "kd": 5,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "send wine as a present",
-    "volume": 70,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine gift ideas",
-    "volume": 70,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "wine cab sav",
-    "volume": 70,
-    "kd": 16,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "wine pinot",
-   "buy red wine",
-   "buy red wine online",
-   "wine sale",
-   "riesling wines",
-   "pinot noir wines",
-   "buy white wine",
-   "red wine sale",
-   "redwine",
-   "pinot wine",
-   "wine on sale",
-   "chiraz wine",
-   "shiraz wine price",
-   "red wine online purchase",
-   "buying red wine"
-  ]
- },
- "vodka-premix": {
-  "primary": "vodka premix",
-  "primaryVolume": 590,
-  "primaryKd": 13,
-  "secondary": [
-   "premix king",
-   "bws gin",
-   "gordons london dry gin",
-   "premixed drinks",
-   "bombay gin",
-   "premix king punchbowl",
-   "smirnoff vodka 1l",
-   "cruisers vodka",
-   "vodka cruiser 24 pack prices",
-   "vodka cruiser 4 pack",
-   "vodka cruiser double",
-   "gordons dry gin",
-   "vodka cruisers 10 pack",
-   "vodka soda cans",
-   "premix king echuca",
-   "gin premix",
-   "gin and tonic premix",
-   "vodka premix cans",
-   "pink gin premix",
-   "gin cans"
-  ],
-  "tags": [
-   "vodka",
-   "gin",
-   "smirnoff vodka",
-   "premix king",
-   "pink gin",
-   "cheap vodka",
-   "bws gin",
-   "gordons london dry gin",
-   "vodka bottle",
-   "bombay gin",
-   "premixed drinks",
-   "gordons dry gin",
-   "vodka 1l",
-   "premix king punchbowl",
-   "bottle of vodka",
-   "smirnoff vodka 1 litre",
-   "gin and tonic cans",
-   "vodka 700ml",
-   "vodka &",
-   "vodka smirnoff",
-   "vodka cruiser 24 pack prices",
-   "vodka soda cans",
-   "sky vodka",
-   "vodka cheap",
-   "vodka cruiser double",
-   "smirnoff vodka 1l",
-   "1l vodka",
-   "vodka 1 litre",
-   "cheapest vodka",
-   "vodka premix",
-   "smirnoff vodka 700ml",
-   "cruisers vodka",
-   "vodka cruiser 4 pack",
-   "vodka cruisers 10 pack",
-   "flavoured gin",
-   "1 litre vodka",
-   "gin bottle",
-   "mini vodka",
-   "196 vodka",
-   "small bottle of vodka",
-   "vodka cans",
-   "gin and soda cans",
-   "premix king warragul",
-   "premix king price list",
-   "vodka price",
-   "gins",
-   "pink gin premix",
-   "gin cans",
-   "vodka o 1 litre",
-   "vodka and prices",
-   "bottle of gin",
-   "pink gin cans",
-   "23rd street gin cans",
-   "gin premix",
-   "gin and tonic premix",
-   "vodka premix cans",
-   "smirnoff vodka price",
-   "gin specials",
-   "premix king echuca",
-   "gin and tonic can",
-   "gin & tonic in a can",
-   "vodka soda can",
-   "gordon's gin 1 litre",
-   "vodka cask",
-   "premix gin and tonic",
-   "o vodka",
-   "small vodka",
-   "premix gin",
-   "vodka soda premix",
-   "vodka on special",
-   "vodka cruiser watermelon",
-   "vodka on sale",
-   "gin 1l",
-   "japanese vodka premix",
-   "premix king wodonga",
-   "cans of gin",
-   "jack daniels premix",
-   "1 liter vodka",
-   "gin gordon's",
-   "vodka and soda cans",
-   "smirnoff premix",
-   "bombay gin 1l",
-   "smirnoff raspberry vodka",
-   "premix king balcatta",
-   "kraken premix",
-   "gin and tonic in a can",
-   "premix king warrnambool",
-   "gordon's gin and soda",
-   "vodka cruisers 24 pack",
-   "pre-mixed vodka",
-   "pink gin soda",
-   "tangle vodka",
-   "vodka sale",
-   "gin on sale",
-   "premix king ballarat",
-   "premix king yarrawonga",
-   "1 l vodka",
-   "small vodka bottle",
-   "200ml vodka",
-   "gordons pink gin and soda",
-   "pimms premix",
-   "vodka special",
-   "premixed cocktails",
-   "gordan gin",
-   "vodka drinks price",
-   "smirnoff vodka double black",
-   "vodka cruiser can",
-   "vodka cruiser price",
-   "jameson premix",
-   "vodka premix drinks",
-   "vodka small bottle",
-   "gordons gin 1l",
-   "premix king drysdale",
-   "gin price",
-   "cocktail premix",
-   "premix king cobram",
-   "divas vodka premix",
-   "cheapest vodka australia",
-   "premix king moama",
-   "gin on special",
-   "premix king wallan",
-   "vodka o 1l",
-   "double black vodka",
-   "premix king sebastopol",
-   "premix king golden bay",
-   "gin in a can",
-   "premix vodka",
-   "premix alcohol",
-   "alcoholic premixed drinks",
-   "premix king mount gambier",
-   "premix king kilmore",
-   "premix king geelong",
-   "premixed vodka soda",
-   "bottled vodka",
-   "deals on gin",
-   "vodka pre mix",
-   "smirnoff vodka premix",
-   "vodka smirnoff price",
-   "bottle of vodka cost",
-   "vodka australia",
-   "vodka bottle price",
-   "1 ltr gin",
-   "gordon's pink gin cans",
-   "margarita premix",
-   "premixed alcoholic beverages",
-   "vodka purchase",
-   "premix king mildura",
-   "vodka and soda premix",
-   "vodka cruisers 6 pack",
-   "50ml vodka"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "vodka",
-    "volume": 49500,
-    "kd": 32,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "gin",
-    "volume": 14800,
-    "kd": 22,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "smirnoff vodka",
-    "volume": 12100,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "premix king",
-    "volume": 5400,
-    "kd": 11,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "pink gin",
-    "volume": 4400,
-    "kd": 21,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "cheap vodka",
-    "volume": 3600,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bws gin",
-    "volume": 3600,
-    "kd": 32,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "gordons london dry gin",
-    "volume": 1900,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "premixed drinks",
-    "volume": 1300,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "vodka bottle",
-    "volume": 1300,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "bombay gin",
-    "volume": 1300,
-    "kd": 17,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix",
-    "volume": 1300,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka o",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pink gin and soda",
-    "volume": 720,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "bombay gin and tonic",
-    "volume": 390,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king burnie",
-    "volume": 390,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka soda &",
-    "volume": 320,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix sa",
-    "volume": 320,
-    "kd": 26,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "premix king stirling",
-    "volume": 320,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "ruski vodka",
-    "volume": 260,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cask vodka",
-    "volume": 260,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king catalogue",
-    "volume": 260,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "alcohol volume in smirnoff vodka",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king ararat",
-    "volume": 210,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king ocean grove",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king leopold",
-    "volume": 210,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king lakes entrance",
-    "volume": 210,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king kingswood park",
-    "volume": 210,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka bottle",
-    "volume": 170,
-    "kd": 9,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "smirnoff vodka volume of alcohol",
-    "volume": 170,
-    "kd": 8,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka ruski",
-    "volume": 170,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "can gin",
-    "volume": 170,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premixed drinks bendigo",
-    "volume": 170,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "london dry gin premium",
-    "volume": 170,
-    "kd": null,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king portland",
-    "volume": 170,
-    "kd": 7,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "premix king",
-   "pink gin",
-   "bws gin",
-   "premix king punchbowl",
-   "smirnoff vodka 1l",
-   "cruisers vodka",
-   "vodka cruiser 24 pack prices",
-   "vodka &",
-   "smirnoff vodka 700ml",
-   "vodka soda cans",
-   "premix king echuca",
-   "pink gin premix",
-   "small bottle of vodka",
-   "smirnoff raspberry vodka",
-   "smirnoff vodka price"
-  ]
- },
- "zero-sugar-seltzers": {
-  "primary": "zero sugar seltzer",
-  "primaryVolume": 0,
-  "primaryKd": null,
-  "secondary": [
-   "sugar free syrup",
-   "no sugar chocolate",
-   "sugar free",
-   "sugar free v",
-   "sugar free energy drinks",
-   "hard rated zero sugar",
-   "red bull no sugar",
-   "sprite zero",
-   "no sugar lollies",
-   "red bull sugar free",
-   "full strength beer",
-   "beer with no carbs",
-   "best low carb beer australia",
-   "low calorie beer australia",
-   "hahn low carb beer",
-   "less alcohol beer",
-   "solo zero sugar",
-   "sugarless confectionery",
-   "light beer australia",
-   "v no sugar"
-  ],
-  "tags": [
-   "beer",
-   "corona beer",
-   "premix king",
-   "low carb beer",
-   "carb friendly beer",
-   "heineken beer",
-   "sugar free syrup",
-   "zero carb beer",
-   "mid strength beer",
-   "low calorie beer",
-   "byron bay beer",
-   "cheap beer",
-   "white rabbit beer",
-   "no sugar chocolate",
-   "premixed drinks",
-   "sugar free",
-   "hahn super dry beer",
-   "hard rated zero sugar",
-   "light beer",
-   "carbless beer",
-   "premix king punchbowl",
-   "lightweight beer",
-   "no carb beer",
-   "low carb beer australia",
-   "lowest calorie beer",
-   "sugar free v",
-   "sugar free energy drinks",
-   "hahn low carb beer",
-   "sugarless confectionery",
-   "0 carb beer",
-   "full strength beer",
-   "zero carb beer australia",
-   "beer carton",
-   "low calorie beer australia",
-   "solo zero sugar",
-   "red bull sugar free",
-   "lowest calorie beer australia",
-   "low alcohol beer",
-   "less alcohol beer",
-   "premix king warragul",
-   "premix king price list",
-   "no sugar lollies",
-   "beer with no carbs",
-   "best low carb beer australia",
-   "v no sugar",
-   "solo no sugar",
-   "low calorie beer au",
-   "red bull no sugar",
-   "hard solo zero sugar",
-   "low alcohol beer australia",
-   "lite beer",
-   "light beer australia",
-   "premix king echuca",
-   "lime beer",
-   "sprite zero",
-   "best mid strength beer australia",
-   "hahn beer low carb",
-   "energy drink sugar free",
-   "beer prices",
-   "hahn light beer",
-   "beers that are low in carbs",
-   "best light beer australia",
-   "premix king wodonga",
-   "sugar free syrup vanilla",
-   "v sugar free",
-   "ultra low carb beer",
-   "no sugar jelly",
-   "mid strength low carb beer",
-   "sugar free carbonated drinks",
-   "sugar free drinking chocolate",
-   "premix king balcatta",
-   "premix king warrnambool",
-   "corona case beer",
-   "beer that is low in carbs",
-   "ice beer",
-   "hahn premium beer",
-   "no added sugar yoghurt",
-   "coopers ultra light beer",
-   "premix king ballarat",
-   "zero sugar energy drink",
-   "sprite no sugar",
-   "premix king yarrawonga",
-   "zero sugar drinks",
-   "lowest carb beer",
-   "low carb zero alcohol beer",
-   "best low carb beer",
-   "pimms premix",
-   "beers with 0 carbs",
-   "premixed cocktails",
-   "no sugar drinks",
-   "zero calorie syrup",
-   "beer slab",
-   "hahn super dry low carb beer",
-   "good low carb beer",
-   "beers with zero carbs",
-   "no sugar powerade",
-   "low calorie australian beer",
-   "zero sugar lollies",
-   "no sugar ginger beer",
-   "premix king drysdale",
-   "beer australia",
-   "no sugar cordial",
-   "cocktail premix",
-   "premix king cobram",
-   "best light beer",
-   "bws low carb beer",
-   "energy drink zero sugar",
-   "syrups for coffee sugar free",
-   "redbull no sugar",
-   "red bull sugarfree",
-   "premix king moama",
-   "premix king wallan",
-   "no sugar no",
-   "3.5 beer",
-   "premix king sebastopol",
-   "sugar free beverage mix",
-   "zero calorie beverages",
-   "beer corona",
-   "no sugar v",
-   "german beer weissbier",
-   "premix king golden bay",
-   "no sugar yogurt",
-   "sugar free coffee",
-   "premix alcohol",
-   "premix king mount gambier",
-   "sugarfree syrup",
-   "alcoholic premixed drinks",
-   "zero sugar beverages",
-   "premix king kilmore",
-   "premix king geelong",
-   "no sugar drinking chocolate",
-   "sugar free fruit drinks",
-   "zero sugar maple syrup",
-   "sugar free syrup coffee",
-   "chocolate no sugar",
-   "zero sugar jelly",
-   "zero sugar chocolate",
-   "sugar free soda",
-   "v zero sugar",
-   "beer no carbs",
-   "carton beer",
-   "premixed alcoholic beverages",
-   "premix king mildura",
-   "sugar free cream soda",
-   "cocacola zero sugar",
-   "slab beer",
-   "beer pr",
-   "premix cans",
-   "non alcoholic craft beer",
-   "powerade zero sugar"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "beer",
-    "volume": 22200,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "corona beer",
-    "volume": 8100,
-    "kd": 17,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "premix king",
-    "volume": 5400,
-    "kd": 11,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "low carb beer",
-    "volume": 2900,
-    "kd": 14,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "heineken beer",
-    "volume": 2900,
-    "kd": 25,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "carb friendly beer",
-    "volume": 2400,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "beer with least carbs",
-    "volume": 2400,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sugar free syrup",
-    "volume": 1600,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "mid strength beer",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "zero carb beer",
-    "volume": 1300,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "low calorie beer",
-    "volume": 1300,
-    "kd": 12,
-    "intent": "Commercial"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "beer with least carbs",
-    "volume": 2400,
-    "kd": 16,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian beer",
-    "volume": 1900,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix",
-    "volume": 1300,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "stella beer",
-    "volume": 1000,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "pale beer",
-    "volume": 720,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "no sugar",
-    "volume": 590,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lowest carb beer australia",
-    "volume": 590,
-    "kd": 12,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "carbs in low carb beer",
-    "volume": 480,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sugar free snacks",
-    "volume": 480,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king burnie",
-    "volume": 390,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sprite zero sugar",
-    "volume": 320,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low carb mid strength beer",
-    "volume": 320,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "zero calorie sweetener",
-    "volume": 320,
-    "kd": 51,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "zero calorie drinks",
-    "volume": 320,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix sa",
-    "volume": 320,
-    "kd": 26,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "no sugar snacks",
-    "volume": 320,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer and lime",
-    "volume": 320,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king stirling",
-    "volume": 320,
-    "kd": 6,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "premix king catalogue",
-    "volume": 260,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "australian draught beer",
-    "volume": 260,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "beer with a lime",
-    "volume": 260,
-    "kd": 15,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "lime with beer",
-    "volume": 260,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks with little sugar",
-    "volume": 260,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "no sugar maple syrup",
-    "volume": 260,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sugarless",
-    "volume": 260,
-    "kd": 15,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": [
-   "corona beer",
-   "premix king",
-   "heineken beer",
-   "premix king punchbowl",
-   "hahn super dry beer",
-   "sprite zero",
-   "hahn low carb beer",
-   "sugarless confectionery",
-   "premix king echuca",
-   "hahn light beer",
-   "beer prices",
-   "ice beer",
-   "premix king balcatta",
-   "premix king wodonga",
-   "premix king ballarat"
-  ]
- },
- "cider": {
-  "primary": "cider",
-  "primaryVolume": 40500,
-  "primaryKd": 24,
-  "secondary": [
-   "apple cider",
-   "somersby apple cider",
-   "bilpin cider",
-   "somersby cider",
-   "mercury cider",
-   "strongbow cider",
-   "sydney cider",
-   "cidery near me",
-   "mercury hard cider",
-   "apple cider alcohol",
-   "craft cider",
-   "hard cider",
-   "pure blonde cider",
-   "magners cider",
-   "5 seeds cider",
-   "hardcore cider",
-   "somersby apple cider 10 pack",
-   "cider dresses",
-   "strongbow apple cider",
-   "apple cider somersby"
-  ],
-  "tags": [
-   "somersby apple cider",
-   "apple cider",
-   "bilpin cider",
-   "mercury cider",
-   "somersby cider",
-   "strongbow cider",
-   "sydney cider",
-   "hardcore cider",
-   "strongbow apple cider",
-   "craft cider",
-   "mercury hard cider",
-   "non alcoholic cider",
-   "5 seeds cider",
-   "somersby apple cider 10 pack",
-   "pure blonde cider",
-   "magners cider",
-   "hard cider",
-   "apple cider somersby",
-   "cider dresses",
-   "hills apple cider",
-   "somersby pear cider 10 pack",
-   "somersby apple cider 24 pack",
-   "james squire apple cider",
-   "apple cider alcohol",
-   "scapegoat cider",
-   "monteiths apple cider",
-   "non alcoholic apple cider",
-   "scrumpy cider",
-   "james squire cider",
-   "low alcohol cider",
-   "zero alcohol cider",
-   "apple cider australia",
-   "cidery near me",
-   "pear cider somersby",
-   "somersby cider 10 pack",
-   "bilpin apple cider",
-   "alcohol free cider",
-   "dry cider",
-   "cider brands",
-   "cider somersby blackberry",
-   "mercury hard cider raspberry",
-   "strawberry lime cider",
-   "mercury dry cider",
-   "apple cider cans",
-   "hard cider mercury",
-   "mercury apple cider",
-   "sugar free cider",
-   "pure blonde apple cider",
-   "cherry cider",
-   "pure blonde organic cider",
-   "cider drink",
-   "cider house",
-   "somersby apple cider bottles",
-   "apple thieves cider",
-   "better cider",
-   "cider beverage",
-   "low sugar cider",
-   "blackberry cider",
-   "cider alcohol",
-   "cider cans",
-   "five seeds cider",
-   "blackcurrant cider",
-   "somersby cider 24 pack",
-   "cider brands australia",
-   "coldstream cider",
-   "gage roads cider",
-   "types of cider drinks",
-   "mid strength cider",
-   "cider aus",
-   "barossa cider",
-   "10 pack apple ciders",
-   "house cider",
-   "apple cider in a can",
-   "funky cider",
-   "can of cider",
-   "apple cider 10 pack",
-   "cider strongbow",
-   "somersby apple cider can",
-   "cider drinks brands",
-   "sotheby's cider",
-   "sparkling cider apple",
-   "cider craft",
-   "kraft cider",
-   "mercury hard cider blackcurrant",
-   "cider reviews",
-   "applecider",
-   "james squire orchard crush apple cider",
-   "gluten free cider",
-   "cider and basil",
-   "apple cider can",
-   "bundaberg apple cider",
-   "somersby cider cans",
-   "cider au",
-   "mr finch rose cider",
-   "sparkling apple cider",
-   "activated apple cider vinegar",
-   "crafted cider",
-   "10 pack of apple ciders",
-   "somersby cider case",
-   "cider dan murphy's",
-   "dry cider apple",
-   "blackberry somersby cider",
-   "mr finch pear cider",
-   "apple dry cider",
-   "dry apple cider",
-   "orchard crush cider",
-   "dried apple cider",
-   "strongbow sweet apple cider",
-   "cider shoes",
-   "hard cider cans",
-   "cider tops",
-   "australian cider brands",
-   "buy cider online",
-   "non alcoholic cider australia",
-   "pear cider 10 pack",
-   "tasmanian cider",
-   "bws somersby apple cider",
-   "corecider",
-   "watermelon cider",
-   "somersby cider can",
-   "somersby bottled cider",
-   "apple somersby cider",
-   "cider low alcohol",
-   "brands of cider in australia",
-   "best cider australia",
-   "cider breweries",
-   "cider jeans",
-   "ciderhouse",
-   "willie smith non alcoholic cider",
-   "cider alcohol percent",
-   "apple cider coles",
-   "somersby cider flavours",
-   "barossa valley cider",
-   "monteiths cider",
-   "cider sugar free",
-   "abv cider",
-   "somersby cider bottle",
-   "cider brands in australia",
-   "alcoholic cider",
-   "shopcider australia",
-   "somersby apple.cider",
-   "cider apple",
-   "cider delivery",
-   "apple cider near me",
-   "cider perth",
-   "cider abv",
-   "alcoholic apple cider",
-   "pear cider bws",
-   "mercury raspberry cider",
-   "somersby apple cider alcohol content"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "apple cider",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "somersby apple cider",
-    "volume": 5400,
-    "kd": 15,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "core cider",
-    "volume": 4400,
-    "kd": 31,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "bilpin cider",
-    "volume": 3600,
-    "kd": 25,
-    "intent": "Transactional"
    },
    {
     "keyword": "cider australia",
@@ -14886,46 +7108,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "somersby cider",
+    "keyword": "australian beer",
     "volume": 1900,
-    "kd": 18,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "mercury cider",
-    "volume": 1600,
-    "kd": 10,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "strongbow cider",
-    "volume": 1600,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "pear cider",
-    "volume": 1300,
-    "kd": 14,
+    "kd": 22,
     "intent": "Informational"
-   },
-   {
-    "keyword": "sydney cider",
-    "volume": 1000,
-    "kd": 12,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "cidery near me",
-    "volume": 1000,
-    "kd": 36,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "mercury hard cider",
-    "volume": 1000,
-    "kd": 15,
-    "intent": "Transactional"
    }
   ],
   "informational": [
@@ -14936,10 +7122,76 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "core cider",
-    "volume": 4400,
-    "kd": 31,
-    "intent": "Navigational"
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
    },
    {
     "keyword": "cider australia",
@@ -14948,428 +7200,2659 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "shop cider",
-    "volume": 1600,
-    "kd": 51,
-    "intent": "Navigational"
-   },
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "corona beer",
+   "heineken beer",
+   "mountain goat beer",
+   "stone wood beer"
+  ]
+ },
+ "imported-beer": {
+  "primary": "buy australian beer online",
+  "primaryVolume": 170,
+  "primaryKd": 15,
+  "secondary": [
+   "tiger beer",
+   "modelo beer",
+   "german beer",
+   "ipa ale beer",
+   "pale ale style beer",
+   "peroni beer",
+   "mythos beer",
+   "xpa beer",
+   "chang beer",
+   "india pale ale beer",
+   "lager beer",
+   "pacific ale",
+   "india pale ale australia",
+   "4 pines pacific ale",
+   "4 pines pacific ale case price"
+  ],
+  "tags": [
+   "menabrea beer",
+   "hoegaarden beer",
+   "ipa on beer",
+   "low alcohol beer",
+   "hazy pale ale",
+   "4 pines pale ale",
+   "pilsner beer",
+   "balter hazy ipa",
+   "coopers pale ale cans",
+   "best beer",
+   "beer & cider",
+   "dark beer",
+   "low alcohol ale",
+   "reduced alcohol beer",
+   "pale ale beer",
+   "goat pale ale",
+   "leffe beer",
+   "polish beer",
+   "emu export beer",
+   "ichnusa beer",
+   "black beer",
+   "australian pale ale"
+  ],
+  "faqSeeds": [
    {
-    "keyword": "pear cider",
-    "volume": 1300,
-    "kd": 14,
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
     "intent": "Informational"
    },
    {
-    "keyword": "shopcider",
-    "volume": 1000,
-    "kd": 50,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "apple and cider",
-    "volume": 1000,
-    "kd": 30,
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
     "intent": "Informational"
    },
    {
-    "keyword": "rose cider",
-    "volume": 590,
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa ipa",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
     "kd": 13,
     "intent": "Informational"
    },
    {
-    "keyword": "is cider legit",
-    "volume": 590,
-    "kd": 34,
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
     "intent": "Informational"
    },
    {
-    "keyword": "hills cider",
-    "volume": 480,
-    "kd": 10,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "magners hard cider",
-    "volume": 480,
-    "kd": 7,
+    "keyword": "pale ale",
+    "volume": 2400,
+    "kd": 20,
     "intent": "Informational"
    },
    {
-    "keyword": "thatchers cider",
-    "volume": 480,
-    "kd": 28,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "carmel cider co",
-    "volume": 480,
-    "kd": 12,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "mr finch cider",
-    "volume": 480,
-    "kd": 7,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "cider shop",
-    "volume": 390,
-    "kd": 38,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "cider core house",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "napoleone cider",
-    "volume": 390,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "low carb cider",
-    "volume": 390,
-    "kd": 10,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "strawberry cider",
-    "volume": 390,
-    "kd": 13,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sparkling cider",
-    "volume": 320,
+    "keyword": "lager",
+    "volume": 2400,
     "kd": 16,
     "intent": "Informational"
    },
    {
-    "keyword": "what is cider",
-    "volume": 320,
-    "kd": 29,
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
     "intent": "Informational"
    },
    {
-    "keyword": "strawberry and lime cider",
-    "volume": 320,
-    "kd": 12,
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "bilpin cider co",
-    "volume": 320,
-    "kd": 31,
-    "intent": "Navigational"
-   },
-   {
-    "keyword": "what is in cider",
-    "volume": 320,
-    "kd": 41,
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
     "intent": "Informational"
-   },
-   {
-    "keyword": "apple thief cider",
-    "volume": 320,
-    "kd": 21,
-    "intent": "Navigational"
-   }
-  ],
-  "transactional": [
-   "bilpin cider",
-   "cidery near me",
-   "mercury hard cider",
-   "mercury apple cider",
-   "cider and basil",
-   "barossa cider",
-   "apple cider coles",
-   "cider strongbow",
-   "corecider",
-   "blackcurrant cider",
-   "bws somersby apple cider",
-   "cider jeans",
-   "shopcider australia",
-   "apple cider near me",
-   "ciders bws"
-  ]
- },
- "mixers-water-condiments": {
-  "primary": "energy drinks",
-  "primaryVolume": 6600,
-  "primaryKd": 30,
-  "secondary": [
-   "v energy drink",
-   "v drink",
-   "mother energy drink",
-   "white monster energy drink",
-   "rockstar energy drink",
-   "red bull energy drink",
-   "energy drinks australia",
-   "monster energy drink ultra",
-   "energy drink sugar free",
-   "zero sugar energy drink",
-   "monster energy drink peach",
-   "monster energy drink flavours",
-   "great energy drinks",
-   "best energy drink",
-   "gatorade energy drink",
-   "monster energy drink can",
-   "monster energy drink zero sugar",
-   "sport drinks",
-   "energy drink brands",
-   "red bull drink"
-  ],
-  "tags": [
-   "v energy drink",
-   "energy drinks",
-   "v drink",
-   "mother energy drink",
-   "rockstar energy drink",
-   "white monster energy drink",
-   "sugar free energy drinks",
-   "energy drinks australia",
-   "v energy drink 500ml",
-   "monster energy drink ultra",
-   "energy drink sugar free",
-   "gatorade energy drink",
-   "monster energy drink peach",
-   "sport drinks",
-   "red bull energy drink bottle",
-   "monster energy drink 24 pack",
-   "monster energy drink zero sugar",
-   "cost of red bull energy drink",
-   "zero sugar energy drink",
-   "monster energy drink flavours",
-   "pink monster energy drink",
-   "monster energy drink can",
-   "red bull energy drink",
-   "great energy drinks",
-   "energy drink zero sugar",
-   "red bull drink price",
-   "branded energy drinks",
-   "energy drink brands",
-   "red bull drink",
-   "monster energy drink cans",
-   "sports energy drink",
-   "buy energy drinks online",
-   "best energy drink",
-   "monsters energy drinks",
-   "energy drink cans",
-   "good energy drinks",
-   "red bull energy drink price",
-   "caffeine free energy drink",
-   "v energy drink blue",
-   "blue energy drink",
-   "v energy drink 4 pack",
-   "energy drink sales",
-   "no caffeine energy drink",
-   "mango energy drink",
-   "juice monster energy drink",
-   "monster drink sugar free",
-   "monster energetic drink",
-   "what's a good energy drink",
-   "v energy drink special",
-   "v energy drink sale",
-   "zero calorie soft drinks",
-   "powerade drink",
-   "monster drink original",
-   "zero sugar drink",
-   "energy drink specials",
-   "redbull energy drink",
-   "energy shot drinks",
-   "green monster drink energy",
-   "monster energy drinks on sale",
-   "purple monster energy drink",
-   "monster energy drink sugar free",
-   "v guarana energy drink",
-   "sugar free v energy drink",
-   "v black energy drink",
-   "sugar free drink mixes",
-   "red bull energy drink 12 pack",
-   "v energy drink price",
-   "sugarless energy drinks",
-   "energy drinks for sale",
-   "sugar free monster energy drink",
-   "bottled drinks",
-   "monster energy drink woolworths",
-   "sport energy drinks",
-   "pink energy drink",
-   "cheap energy drinks",
-   "best energy drink australia",
-   "redbull drink",
-   "zero calorie fizzy drinks",
-   "energy drink monster",
-   "monster energy drinks 4 pack",
-   "engry drink",
-   "sports & energy drinks",
-   "monster energy drink price",
-   "green monster energy drink",
-   "monster the drink",
-   "monster energy drink cost",
-   "v energy drink caffeine",
-   "energy gym drink",
-   "power drink",
-   "healthy energy drinks australia",
-   "price of a monster energy drink",
-   "energy drinks on sale",
-   "price of monster drink",
-   "energy drink for sportsman",
-   "sports and energy drinks",
-   "energy drink sport",
-   "sugar free juice drinks",
-   "original mother energy drink",
-   "energy drink monster price",
-   "case of monster energy drinks",
-   "monster drink no sugar",
-   "energy drink without caffeine",
-   "buy monster energy drinks online",
-   "energy drink no sugar",
-   "monster energy drink zero",
-   "orange monster energy drink",
-   "enegry drinks",
-   "energy drink v",
-   "bottle of monster energy drink",
-   "monster energy drinks no sugar",
-   "new energy drink",
-   "monster energy drink case",
-   "price for monster energy drink",
-   "cost of a monster energy drink",
-   "monster drinks near me",
-   "monster energy drink bottle",
-   "cooks soft drinks",
-   "orange monster drink",
-   "drink monster",
-   "monsters drinks",
-   "energy drink red bull",
-   "v enegry drink",
-   "what is the best energy drink"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "v energy drink",
-    "volume": 8100,
-    "kd": 37,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "monster energy drink",
-    "volume": 4400,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks with energy",
-    "volume": 4400,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "v drink",
-    "volume": 3600,
-    "kd": 27,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "soda cold drink",
-    "volume": 3600,
-    "kd": 29,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "mother energy drink",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "monster drink",
-    "volume": 2900,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white monster energy drink",
-    "volume": 1600,
-    "kd": 28,
-    "intent": "Commercial"
-   },
-   {
-    "keyword": "rockstar energy drink",
-    "volume": 1600,
-    "kd": 22,
-    "intent": "Transactional"
-   },
-   {
-    "keyword": "drinking monster",
-    "volume": 1600,
-    "kd": 39,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white monster drink",
-    "volume": 1300,
-    "kd": 30,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sugar free energy drinks",
-    "volume": 720,
-    "kd": 13,
-    "intent": "Commercial"
    }
   ],
   "informational": [
    {
-    "keyword": "monster energy drink",
-    "volume": 4400,
-    "kd": 30,
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
     "intent": "Informational"
    },
    {
-    "keyword": "drinks with energy",
-    "volume": 4400,
-    "kd": 39,
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
     "intent": "Informational"
    },
    {
-    "keyword": "condiments",
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa ipa",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
     "volume": 3600,
-    "kd": 46,
+    "kd": 22,
     "intent": "Informational"
    },
    {
-    "keyword": "soda cold drink",
+    "keyword": "matsos ginger beer",
     "volume": 3600,
-    "kd": 29,
+    "kd": 25,
     "intent": "Informational"
    },
    {
-    "keyword": "monster drink",
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
     "volume": 2900,
-    "kd": 30,
+    "kd": 24,
     "intent": "Informational"
    },
    {
-    "keyword": "drinking monster",
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pale ale",
+    "volume": 2400,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "tiger beer",
+   "chang beer",
+   "india pale ale beer",
+   "4 pines pacific ale case price"
+  ]
+ },
+ "non-alcoholic-beer": {
+  "primary": "zero beer",
+  "primaryVolume": 720,
+  "primaryKd": 28,
+  "secondary": [
+   "zero alcohol beer",
+   "alcohol free wine",
+   "non alcoholic beverages",
+   "non wine",
+   "non alcoholic gin",
+   "zero alcohol wine",
+   "best non alcoholic wine",
+   "alcohol free beer",
+   "low alcohol beer",
+   "non alcoholic red wine",
+   "no alcohol beer",
+   "non alc wines",
+   "non alcoholic fizzy wine",
+   "non alcoholic sparkling wine",
+   "alcohol free champagne"
+  ],
+  "tags": [
+   "sparkling champagne non alcoholic",
+   "best non alcoholic beer australia",
+   "best zero alcohol beer",
+   "non alcoholic wine drinks",
+   "non alcoholic spirits",
+   "0 alcohol beer",
+   "alcohol free gin",
+   "alcohol free red wine",
+   "beer for gluten free",
+   "gluten and wheat free beer",
+   "best non alcoholic drinks",
+   "good non alcoholic wine",
+   "non alcoholic beers",
+   "low alcohol sparkling wine",
+   "non alcoholic wines",
+   "zero alcohol red wine",
+   "alcohol free rose",
+   "best alcohol free wine",
+   "best rated non alcoholic wine",
+   "non-alcoholic beer",
+   "zero alcohol gin",
+   "best non alcoholic wine australia"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "ginger-beer": {
+  "primary": "buy ginger beer",
+  "primaryVolume": 210,
+  "primaryKd": 12,
+  "secondary": [
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "ginger beer alcoholic",
+   "brookvale ginger beer",
+   "great northern ginger beer",
+   "matso ginger beer",
+   "green ginger",
+   "matso's ginger beer",
+   "green ginger wine",
+   "little dragon ginger beer",
+   "ginger bear",
+   "alcoholic ginger beer australia",
+   "cascade ginger beer",
+   "ginger beer is non alcoholic"
+  ],
+  "tags": [
+   "diet ginger beer",
+   "alcohol ginger beer",
+   "hard ginger beer",
+   "spicy ginger beer",
+   "best alcoholic ginger beer",
+   "james squires ginger beer",
+   "remedy ginger beer",
+   "ginger beer alcoholic australia",
+   "ginger beer james squire",
+   "capi ginger beer",
+   "ginger beer cans",
+   "alcoholic ginger beer brands",
+   "ginger beer can",
+   "ginger beer with low sugar",
+   "best ginger beer",
+   "sugar free ginger beer",
+   "bertie ginger beer",
+   "brown snake ginger beer",
+   "amply ginger beer",
+   "amplys ginger beer",
+   "ginger beer specials",
+   "ginger beer with less sugar"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger ale",
+    "volume": 3600,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger ale with ginger",
+    "volume": 2400,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger ale",
+    "volume": 3600,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger ale with ginger",
+    "volume": 2400,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "green ginger",
+   "little dragon ginger beer"
+  ]
+ },
+ "red-wine": {
+  "primary": "buy red wine",
+  "primaryVolume": 590,
+  "primaryKd": 27,
+  "secondary": [
+   "red wine",
+   "rose wine",
+   "white wine",
+   "wine delivery",
+   "wine deals",
+   "carbonated wine",
+   "grenache red",
+   "chardonnay wine",
+   "wine pinot",
+   "red wine au",
+   "shiraz red wine",
+   "rosé wine",
+   "cabernet sauvignon wine",
+   "cab sav wine",
+   "bubbly wine"
+  ],
+  "tags": [
+   "rose in wine",
+   "rose a wine",
+   "malbec red wine",
+   "chardonnay white wine",
+   "pinot noir red wine",
+   "pinot wine red",
+   "red wine australia",
+   "sauvignon red wine",
+   "cheap red wine",
+   "rosette wine",
+   "sweet red wine australia",
+   "case of red wine",
+   "red wine deals",
+   "red wines australia",
+   "wine offers",
+   "wine case",
+   "red wines cabernet",
+   "red wine bottle",
+   "red wine offers",
+   "rosè wine",
+   "cab sauv red wine",
+   "popular red wine"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malbec wine",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malbec wine",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "grenache red",
+   "wine pinot"
+  ]
+ },
+ "white-wine": {
+  "primary": "wine sale",
+  "primaryVolume": 480,
+  "primaryKd": 17,
+  "secondary": [
+   "sauvignon blanc",
+   "sauvignon white wine",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "wine pinot",
+   "white wines",
+   "sweet white wine",
+   "merlot wine",
+   "sauvignon blanc wine",
+   "rose in wine",
+   "sav blanc wine",
+   "chardonnay white wine",
+   "pinot noir red wine",
+   "sparkling white wine"
+  ],
+  "tags": [
+   "red wine",
+   "rose wine",
+   "white wine",
+   "wine delivery",
+   "wine deals",
+   "carbonated wine",
+   "chardonnay wine",
+   "red wine au",
+   "cabernet sauvignon wine",
+   "cab sav wine",
+   "bubbly wine",
+   "best white wine",
+   "buy white wine online",
+   "sweet white wines",
+   "sauvignon red wine",
+   "white dry wines",
+   "australian white wine",
+   "sauvignon blanc white wine",
+   "white new zealand wine",
+   "chardonnay wines",
+   "case of red wine",
+   "sparking wine"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malbec wine",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malbec wine",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "sauvignon white wine",
+   "wine pinot",
+   "sauvignon blanc wine"
+  ]
+ },
+ "rose-wine": {
+  "primary": "buy sparkling rose online",
+  "primaryVolume": 90,
+  "primaryKd": 8,
+  "secondary": [
+   "sparkling rose",
+   "rose fizzy wine",
+   "sparkling rose wine",
+   "rose sparkling wine",
+   "bird in hand sparkling rose",
+   "rose sparkle",
+   "chandon rose sparkling wine",
+   "rose prosecco",
+   "prosecco rose wine",
+   "sparkiling rose",
+   "rose red wine",
+   "sparking rose",
+   "rose wine online delivery",
+   "best sparkling rose",
+   "champagne"
+  ],
+  "tags": [
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals",
+   "carbonated wine",
+   "ipa ale beer"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "sparkling": {
+  "primary": "buy sparkling wine online",
+  "primaryVolume": 390,
+  "primaryKd": 12,
+  "secondary": [
+   "bird in hand sparkling",
+   "coopers sparkling ale",
+   "sparkling shiraz",
+   "sparkling",
+   "sparkling red wine",
+   "australian sparkling wine",
+   "sparkling wines",
+   "sparkling mineral water",
+   "arras sparkling wine",
+   "sparkling red",
+   "cheap champagne",
+   "tasmanian sparkling wine",
+   "sweet champagne",
+   "less expensive champagne",
+   "cheap sparkling wine"
+  ],
+  "tags": [
+   "champagne",
+   "sparkling wine",
+   "sparkling rose",
+   "sparkling rose wine",
+   "rose sparkling wine",
+   "sparkling white wine",
+   "sweet sparkling wine",
+   "sparkling red wine australia",
+   "tasmanian sparkling",
+   "best sparkling wine",
+   "coopers sparkling",
+   "henkell sparkling wine",
+   "nice champagne",
+   "fresita strawberry sparkling",
+   "s pellegrino sparkling water",
+   "sparkling water cans",
+   "coopers sparkling ale cans",
+   "australian sparkling",
+   "french sparkling wine",
+   "pink sparkling wine",
+   "sparkling shiraz wine",
+   "australian sparkling red"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "bird in hand sparkling",
+   "sparkling"
+  ]
+ },
+ "port-wine": {
+  "primary": "port wine",
+  "primaryVolume": 0,
+  "primaryKd": null,
+  "secondary": [
+   "apple cider",
+   "somersby apple cider",
+   "somersby cider",
+   "mercury cider",
+   "strongbow cider",
+   "beer for cheap",
+   "aus lager",
+   "light beer",
+   "lightweight beer",
+   "carbless beer",
+   "premix drinks",
+   "sydney cider",
+   "beer can",
+   "cheap beer",
+   "stonewood beer"
+  ],
+  "tags": [
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals",
+   "carbonated wine",
+   "ipa ale beer",
+   "pale ale style beer"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "vodka-premix": {
+  "primary": "vodka cruiser 24 pack prices",
+  "primaryVolume": 720,
+  "primaryKd": 14,
+  "secondary": [
+   "cruiser",
+   "premix king",
+   "cruiser vodka",
+   "premixed drinks",
+   "premix king punchbowl",
+   "cruiser drink",
+   "vodka cruiser 4 pack",
+   "vodka cruiser double",
+   "double vodka cruisers",
+   "tequila premix",
+   "cruiser doubles",
+   "vodka cruisers 10 pack",
+   "gin premix",
+   "gin and tonic premix",
+   "vodka premix cans"
+  ],
+  "tags": [
+   "smirnoff vodka",
+   "cheap vodka",
+   "vodka bottle",
+   "premix drinks",
+   "vodka 1l",
+   "vodka smirnoff",
+   "bottle of vodka",
+   "smirnoff vodka 1 litre",
+   "vodka cheap",
+   "cheapest vodka",
+   "sky vodka",
+   "vodka premix",
+   "vodka cans",
+   "1l vodka",
+   "vodka 1 litre",
+   "vodka price",
+   "1 litre vodka",
+   "vodka 700ml",
+   "mini vodka",
+   "vodka and prices",
+   "196 vodka",
+   "vodka o 1 litre"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruiser",
+    "volume": 9900,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruiser",
+    "volume": 9900,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "premix king",
+   "cruiser vodka",
+   "premix king punchbowl"
+  ]
+ },
+ "zero-sugar-seltzers": {
+  "primary": "sprite zero",
+  "primaryVolume": 720,
+  "primaryKd": 26,
+  "secondary": [
+   "sugar free syrup",
+   "no sugar chocolate",
+   "sugar free energy drinks",
+   "red bull no sugar",
+   "red bull sugar free",
+   "sugar free",
+   "sugar free v",
+   "hard rated zero sugar",
+   "no sugar lollies",
+   "solo zero sugar",
+   "vanilla coke no sugar",
+   "energy drink sugar free",
+   "zero sugar energy drink",
+   "coke with zero sugar",
+   "coca cola zero sugar"
+  ],
+  "tags": [
+   "v no sugar",
+   "sprite no sugar",
+   "solo no sugar",
+   "hard solo zero sugar",
+   "coca cola zero sugar caffeine",
+   "sugar free energy drink",
+   "no sugar jelly",
+   "redbull no sugar",
+   "zero sugar drinks",
+   "v sugar free",
+   "zero calorie beverages",
+   "cans of coke zero",
+   "no sugar powerade",
+   "coca cola zero sugar caffeine free",
+   "no sugar cordial",
+   "sugar free drinking chocolate",
+   "no sugar drinks",
+   "cocacola zero sugar",
+   "sugar free carbonated drinks",
+   "coca cola 0 sugar",
+   "zero sugar jelly",
+   "coke zero bottle"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cola zero zero",
+    "volume": 5400,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "coke no sugar",
+    "volume": 4400,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cola zero zero",
+    "volume": 5400,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "coke no sugar",
+    "volume": 4400,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "cider": {
+  "primary": "somersby cider bottle",
+  "primaryVolume": 70,
+  "primaryKd": 10,
+  "secondary": [
+   "bilpin cider",
+   "mercury hard cider",
+   "apple cider alcohol",
+   "craft cider",
+   "hard cider",
+   "pure blonde cider",
+   "magners cider",
+   "5 seeds cider",
+   "hardcore cider",
+   "somersby apple cider 10 pack",
+   "cider dresses",
+   "strongbow apple cider",
+   "apple cider somersby",
+   "beer & cider",
+   "scapegoat cider"
+  ],
+  "tags": [
+   "apple cider",
+   "somersby apple cider",
+   "somersby cider",
+   "mercury cider",
+   "strongbow cider",
+   "sydney cider",
+   "cider house",
+   "cider brands",
+   "non alcoholic cider",
+   "james squire cider",
+   "monteiths apple cider",
+   "somersby pear cider 10 pack",
+   "cider drink",
+   "bilpin apple cider",
+   "pear cider somersby",
+   "somersby cider 10 pack",
+   "somersby apple cider 24 pack",
+   "hills apple cider",
+   "james squire apple cider",
+   "cider aus",
+   "cider beverage",
+   "alcohol free cider"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "bilpin cider",
+   "mercury hard cider"
+  ]
+ },
+ "mixers-water-condiments": {
+  "primary": "water prices",
+  "primaryVolume": 110,
+  "primaryKd": 14,
+  "secondary": [
+   "mother energy drink",
+   "monster energy drinks",
+   "white monster energy drink",
+   "rockstar energy drink",
+   "v energy drinks",
+   "can of monster energy",
+   "energy drinks australia",
+   "monster energy drink peach",
+   "water outages",
+   "sugar free energy drink",
+   "great energy drinks",
+   "gatorade energy drink",
+   "monster energy drink can",
+   "monster energy peachy",
+   "energy drink brands"
+  ],
+  "tags": [
+   "sugar free energy drinks",
+   "energy drink sugar free",
+   "zero sugar energy drink",
+   "v energy drink 500ml",
+   "cost of red bull energy drink",
+   "monster energy drink 24 pack",
+   "fountain soy sauce",
+   "monster energy sugar free",
+   "what's a good energy drink",
+   "juice monster energy drink",
+   "pink monster energy drink",
+   "red bull energy drink bottle",
+   "inline water meter",
+   "energy drink australia",
+   "original monster energy",
+   "energy shot drinks",
+   "energy drinks sugar free",
+   "caffeine free energy drink",
+   "monster energy pink",
+   "sugarless energy drinks",
+   "sports energy drink",
+   "sports energy drinks"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "water outage",
     "volume": 1600,
-    "kd": 39,
+    "kd": 17,
     "intent": "Informational"
    },
    {
-    "keyword": "white monster drink",
+    "keyword": "alcohol content soju",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango loco",
     "volume": 1300,
-    "kd": 30,
+    "kd": 21,
     "intent": "Informational"
    },
    {
-    "keyword": "condiments meaning",
+    "keyword": "soju alcohol percentage",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage in my area today",
     "volume": 1000,
-    "kd": 50,
+    "kd": 25,
     "intent": "Informational"
    },
    {
@@ -15379,148 +9862,3878 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    },
    {
-    "keyword": "white monster energy drink flavor",
+    "keyword": "monster energy mango",
     "volume": 720,
-    "kd": 33,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "energetic drinks",
-    "volume": 590,
-    "kd": 42,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "what is the energy drink",
-    "volume": 590,
-    "kd": 41,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "condiments for food",
-    "volume": 590,
-    "kd": 44,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "fizzy drinks",
-    "volume": 590,
-    "kd": 11,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "healthy energy drinks",
-    "volume": 480,
-    "kd": 37,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks monster energy",
-    "volume": 390,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "recommended energy drinks",
-    "volume": 390,
-    "kd": 34,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "who is the owner of monster energy drink",
-    "volume": 390,
-    "kd": 46,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "monster energy drink pipeline punch",
-    "volume": 390,
     "kd": 18,
     "intent": "Informational"
    },
    {
-    "keyword": "monster caffeine drink",
-    "volume": 390,
-    "kd": 34,
+    "keyword": "monster energy white",
+    "volume": 720,
+    "kd": 18,
     "intent": "Informational"
    },
    {
-    "keyword": "softdrinks",
-    "volume": 390,
-    "kd": 19,
+    "keyword": "water rates",
+    "volume": 720,
+    "kd": 26,
     "intent": "Informational"
    },
    {
-    "keyword": "what are condiments",
-    "volume": 390,
-    "kd": 42,
+    "keyword": "pay water bill",
+    "volume": 720,
+    "kd": 18,
     "intent": "Informational"
    },
    {
-    "keyword": "monster energy drink mango loco",
-    "volume": 320,
-    "kd": 20,
+    "keyword": "rate water",
+    "volume": 720,
+    "kd": 21,
     "intent": "Informational"
    },
    {
-    "keyword": "what is in energy drinks",
-    "volume": 320,
-    "kd": 34,
+    "keyword": "soju alcohol content",
+    "volume": 720,
+    "kd": 21,
     "intent": "Informational"
    },
    {
-    "keyword": "what are food condiments",
-    "volume": 320,
-    "kd": 34,
+    "keyword": "connection of water",
+    "volume": 590,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water rate",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "current water outages",
+    "volume": 590,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "water outage",
+    "volume": 1600,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "alcohol content soju",
+    "volume": 1600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango loco",
+    "volume": 1300,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol percentage",
+    "volume": 1300,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water outage in my area today",
+    "volume": 1000,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy drink zero ultra",
+    "volume": 720,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy mango",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "monster energy white",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water rates",
+    "volume": 720,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pay water bill",
+    "volume": 720,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rate water",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "soju alcohol content",
+    "volume": 720,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "connection of water",
+    "volume": 590,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "water rate",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "current water outages",
+    "volume": 590,
+    "kd": 22,
     "intent": "Informational"
    }
   ],
   "transactional": [
    "mother energy drink",
-   "rockstar energy drink",
-   "monster energy drink ultra",
-   "monster energy drink flavours",
-   "monster energy drink zero sugar",
-   "red bull drink",
-   "monsters energy drinks",
-   "monster energy drink cans",
-   "monster energetic drink",
-   "redbull energy drink",
-   "redbull drink",
-   "red bull energy drink price",
-   "red bull drink price",
-   "monster energy drink woolworths",
-   "energy drink for sportsman"
+   "rockstar energy drink"
   ]
+ },
+ "irish-whiskey": {
+  "primary": "whiskey deals",
+  "primaryVolume": 320,
+  "primaryKd": 18,
+  "secondary": [
+   "irish whiskey",
+   "bushmills whiskey",
+   "jameson irish whiskey",
+   "redbreast whiskey",
+   "premium scotch whiskey",
+   "glenfiddich whiskey",
+   "whiskey from ireland",
+   "irish whiskey brands",
+   "redbreast irish whiskey",
+   "scotch and whiskey blend",
+   "cheap whiskey",
+   "good whiskey",
+   "single highland malt scotch whiskey",
+   "irish whisky",
+   "nice whiskey"
+  ],
+  "tags": [
+   "japanese whiskey",
+   "bourbon whiskey",
+   "scotch whiskey",
+   "rye whiskey",
+   "glenlivet whiskey",
+   "whiskey offers",
+   "irish whiskeys",
+   "whiskey brands irish",
+   "irish whiskey types",
+   "whiskey blended",
+   "whiskey presents",
+   "finest single malt whiskey",
+   "whiskey ireland",
+   "whiskey drinking gifts",
+   "morris whiskey",
+   "glen whiskey",
+   "glendalough whiskey",
+   "nice irish whiskey",
+   "best irish whisky",
+   "recommended irish whiskey",
+   "good whiskey for gift",
+   "connemara whiskey"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "irish jameson",
+    "volume": 720,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "scotch beverage",
+    "volume": 4400,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian whisky",
+    "volume": 1000,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye whiskey rye",
+    "volume": 1000,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "irish jameson",
+    "volume": 720,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "american whiskey",
+    "volume": 720,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ardbeg whisky",
+    "volume": 720,
+    "kd": 11,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon and whiskey",
+    "volume": 590,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "bourbon is whiskey",
+    "volume": 590,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "williams bourbon",
+    "volume": 480,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye drink",
+    "volume": 480,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "talisker whiskey",
+    "volume": 390,
+    "kd": 15,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "blended whiskey",
+    "volume": 390,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "scotch and whiskey",
+    "volume": 390,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "islay single malt scotch whisky",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "rye in whiskey",
+    "volume": 390,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "bushmills whiskey",
+   "jameson irish whiskey",
+   "redbreast whiskey"
+  ]
+ },
+ "vodka": {
+  "primary": "buy vodka online",
+  "primaryVolume": 390,
+  "primaryKd": 11,
+  "secondary": [
+   "smirnoff",
+   "smirnoff ice",
+   "smirnoff liquor",
+   "smirnoff double black",
+   "cruiser vodka",
+   "smirnoff 700ml",
+   "vodka and prices",
+   "vodka low cost",
+   "vodka flavours",
+   "1 liter vodka",
+   "vodka bottles",
+   "o vodka",
+   "vodka on special",
+   "vodka special",
+   "small vodka"
+  ],
+  "tags": [
+   "smirnoff vodka",
+   "absolut vodka",
+   "cheap vodka",
+   "absolute vodka",
+   "vodka bottle",
+   "tito's vodka",
+   "vodka 1l",
+   "vodka smirnoff",
+   "bottle of vodka",
+   "vodka cheap",
+   "cheapest vodka",
+   "sky vodka",
+   "vodka premix",
+   "vodka cans",
+   "1l vodka",
+   "flavoured vodka",
+   "700ml vodka",
+   "vodka 1 litre",
+   "vodka absolut",
+   "vodka price",
+   "1 litre vodka",
+   "vodka 700ml"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "smirnoff smirnoff",
+    "volume": 5400,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "smirnoff smirnoff",
+    "volume": 5400,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "smirnoff liquor",
+   "cruiser vodka"
+  ]
+ },
+ "rum": {
+  "primary": "bottle of malibu rum",
+  "primaryVolume": 70,
+  "primaryKd": 11,
+  "secondary": [
+   "kraken rum",
+   "kraken black spiced rum",
+   "rum australia",
+   "rum brands",
+   "kraken coffee rum",
+   "banana rum",
+   "black bart rum",
+   "rum cans",
+   "rum kraken spiced",
+   "bacardi rum superior white",
+   "bacardi superior white rum",
+   "bacardí superior white rum",
+   "captain morgan black rum",
+   "best spiced rum australia",
+   "1l rum"
+  ],
+  "tags": [
+   "rum",
+   "spiced rum",
+   "bacardi white rum",
+   "rum with spices",
+   "bacardi rum",
+   "dark rum",
+   "caribbean rum",
+   "captain morgan rum",
+   "plantation rum",
+   "premium rum",
+   "havana club rum",
+   "light rum",
+   "op rum",
+   "black rum",
+   "overproof rum",
+   "rum in a bottle",
+   "black spiced rum kraken",
+   "bundaberg red rum",
+   "australian rum",
+   "cuban rum",
+   "bottle of rum",
+   "rum bottle"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "kraken rum",
+   "kraken black spiced rum"
+  ]
+ },
+ "champagne": {
+  "primary": "champagne for sale",
+  "primaryVolume": 170,
+  "primaryKd": 19,
+  "secondary": [
+   "nice champagne",
+   "champagne price",
+   "janz champagne",
+   "bottle of champagne",
+   "french champagne specials",
+   "champagne cheap",
+   "sweet champagne australia",
+   "champagne on special",
+   "miniature champagne",
+   "champagne australia",
+   "small bottle of champagne",
+   "french champagne wine",
+   "champagne brut",
+   "wine champagne",
+   "champagne sparkling wine"
+  ],
+  "tags": [
+   "champagne",
+   "cheap champagne",
+   "sweet champagne",
+   "less expensive champagne",
+   "cheap sparkling champagne",
+   "champagne prices",
+   "champagne vs sparkling",
+   "cheap french champagne",
+   "cheapest champagne",
+   "champagne bubbly",
+   "sparkling wine or champagne",
+   "champagne & sparkling wine",
+   "champagne in small bottles",
+   "mini sparkling champagne bottles",
+   "champagne in australia",
+   "champagne or sparkling wine",
+   "champagne drink price",
+   "champagne fruity",
+   "lowest price champagne",
+   "sparkly champagne",
+   "champagne on offer",
+   "piccolo champagne bottles"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "liqueur": {
+  "primary": "kahlua liqueur price",
+  "primaryVolume": 390,
+  "primaryKd": 12,
+  "secondary": [
+   "sour apple liqueur",
+   "peach liqueur",
+   "whiskey liqueur",
+   "cream liqueur liqueurs",
+   "ginger liqueur",
+   "caramel liqueur",
+   "chartreuse green liqueur",
+   "bols curacao liqueur",
+   "chocolate mint liqueur",
+   "whisky liqueur",
+   "amarula cream liqueur",
+   "aperitif liqueur",
+   "blue coloured liqueur",
+   "strawberry and cream liqueur",
+   "what is grand marnier liqueur"
+  ],
+  "tags": [
+   "coffee liqueur",
+   "orange liqueur",
+   "germain liqueur",
+   "hazelnut liqueur",
+   "kahlua coffee liqueur",
+   "banana liqueur",
+   "baileys irish cream liqueur 1 litre",
+   "baileys liqueur 1l",
+   "cream liqueur",
+   "orange flavoured liqueur",
+   "kahlua liqueur coffee",
+   "blood orange liqueur",
+   "liqueur coffee",
+   "cointreau liqueur orange",
+   "fruit flavored liqueur",
+   "premium coffee liqueur",
+   "coffee flavored liqueur",
+   "good coffee liqueur",
+   "kahlúa coffee liqueur",
+   "italian hazelnut liqueur",
+   "scotch liqueur",
+   "scotch whiskey liqueur"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "australian-beer": {
+  "primary": "beer prices",
+  "primaryVolume": 480,
+  "primaryKd": 18,
+  "secondary": [
+   "balter cerveza",
+   "mountain goat beer",
+   "india pale ale beer",
+   "4 pines pacific ale case price",
+   "coopers lager",
+   "radler beer",
+   "beer flavored",
+   "balter beer australia",
+   "best aussie beer",
+   "ipa on beer",
+   "porter beer",
+   "belgium beer",
+   "hazy pale ale",
+   "4 pines pale ale",
+   "pilsner beer"
+  ],
+  "tags": [
+   "flavoured beer",
+   "beer flavours",
+   "ipa ale beer",
+   "coopers sparkling ale",
+   "pale ale style beer",
+   "aussie beer",
+   "stone and wood beer",
+   "beer mx",
+   "mid strength beer",
+   "lager beer",
+   "beer for cheap",
+   "pacific ale",
+   "aus lager",
+   "india pale ale australia",
+   "4 pines pacific ale",
+   "beer can",
+   "cheap beer",
+   "stonewood beer",
+   "low alcohol beer",
+   "balter hazy ipa",
+   "coopers pale ale cans",
+   "beer carton"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pale ale",
+    "volume": 2400,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "pale ale",
+    "volume": 2400,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "balter cerveza",
+   "mountain goat beer",
+   "india pale ale beer",
+   "4 pines pacific ale case price"
+  ]
+ },
+ "prosecco": {
+  "primary": "cora prosecco",
+  "primaryVolume": 50,
+  "primaryKd": 8,
+  "secondary": [
+   "pink prosecco",
+   "mini prosecco bottle",
+   "no carb beer",
+   "low carb beer australia",
+   "lowest calorie beer",
+   "menabrea beer",
+   "rose a wine",
+   "0 carb beer",
+   "white rabbit beer",
+   "hoegaarden beer",
+   "malbec red wine",
+   "beer carton",
+   "best beer",
+   "best australian beer",
+   "best beer australia"
+  ],
+  "tags": [
+   "rose prosecco",
+   "prosecco rose wine",
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "pinot-grigio": {
+  "primary": "wine pinot",
+  "primaryVolume": 1600,
+  "primaryKd": 23,
+  "secondary": [
+   "pinot gris white wine",
+   "white wine pinot grigio",
+   "pinot noir wine price",
+   "red pinot noir wine",
+   "is pinot noir red wine",
+   "pinot noir brands",
+   "pinot noir red or white",
+   "blood of the earth pinot noir",
+   "non alcoholic pinot noir",
+   "pinot noir a white wine",
+   "pinot noir delivery",
+   "dark beer",
+   "lite beer",
+   "full strength beer",
+   "beer with no carbs"
+  ],
+  "tags": [
+   "pinot noir red wine",
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "sauvignon-blanc": {
+  "primary": "premium sauvignon blanc",
+  "primaryVolume": 70,
+  "primaryKd": 11,
+  "secondary": [
+   "sauvignon white wine",
+   "sauvignon blanc wine",
+   "sauvignon red wine",
+   "sauvignon blanc white wine",
+   "sauvignon blanc dry white wine",
+   "sauvignon blanc for cooking",
+   "sauvignon blanc wine price",
+   "wine cabernet sauvignon",
+   "red sauvignon wine",
+   "dry red wine cabernet sauvignon",
+   "souvenir blanc wine",
+   "sauvignon blanc wine for cooking",
+   "sauv blanc white wine",
+   "blanc wine",
+   "highest rated sauvignon blanc"
+  ],
+  "tags": [
+   "sauvignon blanc",
+   "cabernet sauvignon wine",
+   "sav blanc wine",
+   "sauv blanc for cooking",
+   "sauvignon blanc from france",
+   "sauvignon blonc",
+   "souvignon blanc",
+   "bordeaux wine cabernet sauvignon",
+   "mill flat sauvignon blanc",
+   "saubignon blanc",
+   "sauv blanc abv",
+   "sauvignon blanc day",
+   "sauvignon blanc delivery",
+   "savuignon blanc",
+   "cabernet sauvignon a red wine",
+   "cabernet sauvignon napa valley",
+   "cabernet sauvignon wine red",
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "sauvignon white wine",
+   "sauvignon blanc wine"
+  ]
+ },
+ "pink-gin": {
+  "primary": "gin sale",
+  "primaryVolume": 480,
+  "primaryKd": 20,
+  "secondary": [
+   "pink gin",
+   "gin cans",
+   "bottle of gin",
+   "gin presents",
+   "glas gin tonic",
+   "good gin",
+   "sydney gin",
+   "premix gin",
+   "gin price",
+   "gin 1l",
+   "buy gin online australia",
+   "cal gin",
+   "le tribute gin",
+   "australia gin",
+   "gin australia"
+  ],
+  "tags": [
+   "gin",
+   "gin gifts",
+   "gin gifts australia",
+   "gin gift packs",
+   "gin delivery",
+   "gin gift set australia",
+   "australian gin",
+   "dry gin",
+   "gin brands",
+   "gin gift pack",
+   "gin specials",
+   "gin and tonic cans",
+   "gin bottle",
+   "flavoured gin",
+   "gin gift set",
+   "gin alcohol",
+   "gin premix",
+   "gin and tonic premix",
+   "gin and tonic can",
+   "gin and tonic in a can",
+   "gin & tonic in a can",
+   "gin on special"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "pink gin"
+  ]
+ },
+ "ouzo": {
+  "primary": "ouzo",
+  "primaryVolume": 0,
+  "primaryKd": null,
+  "secondary": [
+   "absolut raspberri vodka",
+   "tequila azul",
+   "best spiced rum",
+   "spiced rum the kraken",
+   "cognac brandy",
+   "baileys chocolate liqueur",
+   "vodka cruiser raspberry",
+   "best russian vodka",
+   "1 litre smirnoff vodka",
+   "smirnoff red label vodka",
+   "crystal head skull vodka",
+   "don julio tequila 1942",
+   "espolon tequila blanco",
+   "blue tequila",
+   "fancy tequila"
+  ],
+  "tags": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "orange liqueur",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "low-carb-beer": {
+  "primary": "hahn super dry low carb",
+  "primaryVolume": 590,
+  "primaryKd": 10,
+  "secondary": [
+   "low carb beers",
+   "best low carb beer australia",
+   "low calorie beer australia",
+   "best low carb beer",
+   "beer that is low in carbs",
+   "beers that are low in carbs",
+   "low carb diet beer",
+   "zero carb beer australia",
+   "lowest calorie beer australia",
+   "low carb beers australia",
+   "ultra low carb beer",
+   "low calorie beer au",
+   "best mid strength beer australia",
+   "mid strength wine",
+   "good low carb beer"
+  ],
+  "tags": [
+   "low carb beer",
+   "carb friendly beer",
+   "mid strength beer",
+   "zero carb beer",
+   "low calorie beer",
+   "lightweight beer",
+   "carbless beer",
+   "no carb beer",
+   "low carb beer australia",
+   "lowest calorie beer",
+   "0 carb beer",
+   "low alcohol beer",
+   "full strength beer",
+   "lowest carb beer",
+   "hahn beer low carb",
+   "low alcohol beer australia",
+   "low carb zero alcohol beer",
+   "mid strength pale ale",
+   "mid strength low carb beer",
+   "best low carb beers",
+   "low calorie australian beer",
+   "low carb lager"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "grenache": {
+  "primary": "grenache red",
+  "primaryVolume": 1900,
+  "primaryKd": 15,
+  "secondary": [
+   "less alcohol beer",
+   "reduced alcohol beer",
+   "sparkling champagne non alcoholic",
+   "best non alcoholic beer australia",
+   "best zero alcohol beer",
+   "diet ginger beer",
+   "pinot wine red",
+   "best white wine",
+   "buy white wine online",
+   "beer in australia",
+   "beer is best",
+   "german wheat beer",
+   "pale ale beer",
+   "beer with mango",
+   "black beer"
+  ],
+  "tags": [
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals",
+   "carbonated wine"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "german-beer": {
+  "primary": "beer price in australia",
+  "primaryVolume": 390,
+  "primaryKd": 17,
+  "secondary": [
+   "tiger beer",
+   "mountain goat beer",
+   "chang beer",
+   "stone wood beer",
+   "leffe beer",
+   "emu export beer",
+   "ichnusa beer",
+   "beer australia",
+   "beer slab",
+   "larger beer",
+   "flavored beer",
+   "beer gift",
+   "beer offers",
+   "beer price",
+   "fruity beer"
+  ],
+  "tags": [
+   "flavoured beer",
+   "beer flavours",
+   "modelo beer",
+   "german beer",
+   "aussie beer",
+   "peroni beer",
+   "stone and wood beer",
+   "beer mx",
+   "mid strength beer",
+   "mythos beer",
+   "lager beer",
+   "beer for cheap",
+   "beer can",
+   "cheap beer",
+   "stonewood beer",
+   "menabrea beer",
+   "beer flavored",
+   "balter beer australia",
+   "best aussie beer",
+   "hoegaarden beer",
+   "beer carton",
+   "best beer"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "tiger beer",
+   "mountain goat beer",
+   "chang beer",
+   "stone wood beer"
+  ]
+ },
+ "cabernet-sauvignon": {
+  "primary": "red wine cabernet",
+  "primaryVolume": 480,
+  "primaryKd": 15,
+  "secondary": [
+   "red wines cabernet",
+   "cab sauv red wine",
+   "cab sav red wine",
+   "cabernet dry red wine",
+   "red wine cabernet sauvignon",
+   "red cabernet wine",
+   "red wine cab sav",
+   "cab wine",
+   "bordeaux cabernet",
+   "bordeaux wine cabernet sauvignon",
+   "cabernet online",
+   "cabernet sauvignon a red wine",
+   "cabernet sauvignon napa valley",
+   "cabernet sauvignon wine red",
+   "wine red cabernet"
+  ],
+  "tags": [
+   "cabernet sauvignon wine",
+   "cab sav wine",
+   "sauvignon red wine",
+   "wine cabernet sauvignon",
+   "dry red wine cabernet sauvignon",
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
+ },
+ "pilsner": {
+  "primary": "beer pilsner",
+  "primaryVolume": 260,
+  "primaryKd": 11,
+  "secondary": [
+   "lager pilsner",
+   "light beer australia",
+   "lime beer",
+   "non alcoholic wine drinks",
+   "0 alcohol beer",
+   "alcohol free red wine",
+   "beer for gluten free",
+   "gluten and wheat free beer",
+   "alcohol ginger beer",
+   "hard ginger beer",
+   "spicy ginger beer",
+   "best alcoholic ginger beer",
+   "james squires ginger beer",
+   "remedy ginger beer",
+   "red wine australia"
+  ],
+  "tags": [
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals",
+   "carbonated wine"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "cider",
+    "volume": 40500,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ginger beer",
+    "volume": 9900,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider cider cider",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "non alcoholic wine",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "matsos ginger beer",
+    "volume": 3600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine and white",
+    "volume": 3600,
+    "kd": 21,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "shiraz wine",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "wine blanc",
+    "volume": 2900,
+    "kd": 13,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "lager",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "beer with least carbs",
+    "volume": 2400,
+    "kd": 16,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "ipa beer",
+    "volume": 2400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "fizzy wine",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sparkling winemaking",
+    "volume": 2400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "cider australia",
+    "volume": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "australian beer",
+    "volume": 1900,
+    "kd": 22,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": []
  }
 };
 
-export const SITE_TAGS: string[] = ["vodka","beer","tequila","soju","baileys","whisky","brandy","gin","glenfiddich","cointreau","smirnoff vodka","bourbon","cognac","red wine","glenfiddich 12","scotch","kahlua","rum","don julio","johnnie walker","mezcal","patron","v energy drink","absolut vodka","kraken rum","corona beer","baileys irish cream","white wine","energy drinks","johnnie walker blue label","rose wine","belvedere vodka","don julio 1942","barboun","macallan 12","johnnie walker black label","don julioooo","apple cider","somersby apple cider","premix king","japanese whiskey","st germain","sauvignon white wine","regal chivas whisky","pink gin","james squire ginger beer","irish whiskey","macallan","single malt","johnny walker","wine white wines","patron tequila","sparkling wine","lark whisky","blue label johnnie walker","wine delivery","alcoholic ginger beer","best inexpensive wines","dry white wine","cheap vodka","starward whisky","v drink","non alcoholic beer","vb beer","craft beer","bilpin cider","bws gin","brookvale union ginger beer","scotch whisky","coffee liqueur","laphroaig","non alcoholic drinks","baileys irish cream whiskey","glenlivet","macallan 18","bourbon brands","hibiki whiskey","mother energy drink","low carb beer","tiger beer","bird in hand sparkling","heineken beer","baijiu","orange liqueur","spiced rum","jose cuervo","royal salute 21","single malt whiskey","bourbon whiskey","glenfiddich 18","wine deals","flavoured beer","gin gifts","clase azul tequila","ginger beer alcoholic","gold label johnnie walker","carbonated wine","glenfiddich 15","johnnie walker red label","whisky gift pack","beer flavours","gin gifts australia","azul tequila","captain morgan spiced rum","whiskey gift","modelo beer","carb friendly beer","german beer","martell","royal salute","rum with spices","macallan whiskey","johnnie walker blue","laphroaig 10","martell blue swift","germain liqueur","bacardi white rum","gin gift packs","pale ale style beer","bourbon whiskey kentucky straight","buffalo trace bourbon","grenache red","crown royal","beer online","suntory whisky","low cost vodka","ciroc vodka","ipa ale beer","affordable vodka","somersby cider","gordons london dry gin","brookvale ginger beer","coopers sparkling ale","don julio tequila","soju alcohol","whisky malt single","grey goose 1l","uísque macallan","chardonnay wine","hennessy cognac","wine pinot","glenfiddich 21","st germain liqueur","sierra tequila","gin delivery","jim beam bourbon whiskey","aussie beer","black label johnnie walker","singleton whiskey","whisky buffalo trace bourbon","white monster energy drink","martell swift blue","johnnie walker double black","johnnie walker green label","australian whiskey tasmania","mountain goat beer","japanese gin","j walker green label","kraken black spiced rum","cruiser vodka","gin gift set australia","rockstar energy drink","coconut rum","mercury cider","sparkling shiraz","strongbow cider","peroni beer","sugar free syrup","dark rum","rye whiskey","sparkling","australian whiskey","nikka whiskey","vodka bottle","laphroaig ten","soju drink","wild turkey bourbon","johnnie walker black","laphroaig 10 islay","royal salute whisky 21","single malt scotch whisky","sauvignon blanc wine","sweet white wine","nikka from the barrel","dalmore whisky","jack daniels whiskey","black sambuca","jinro soju","bushmills whiskey","whiskey bourbon jim beam","irish cream","buffalo trace kentucky bourbon","premixed drinks","merlot wine","jameson irish whiskey","mid strength beer","campari negroni","stone and wood beer","bacardi rum","archie rose whisky"];
-
-export const CATEGORY_KEYWORDS: Record<string, string[]> = {
- "whisky": [
-  "whiskey",
-  "barboun",
-  "glenlivet",
-  "johnnie walker red label",
-  "royal salute",
-  "laphroaig 10",
-  "johnnie walker blue",
-  "crown royal",
-  "whisky malt single",
-  "uísque macallan",
-  "glenfiddich 21",
-  "black label johnnie walker"
- ],
- "spirit": [
-  "brandy"
- ],
- "other": [
-  "soju"
- ],
- "beer-premix-wine": [
-  "vb beer",
-  "non alcoholic drinks",
-  "beer online"
- ]
-};
+export const SITE_TAGS: string[] = ["tequila","baileys","champagne","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","kahlua","absolut vodka","rum","kraken rum","corona beer","patron","don julio","sauvignon blanc","belvedere vodka","rose wine","white wine","baileys irish cream","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","bilpin cider","wine white wines","dry white wine","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","suntory 196","jose cuervo","hennessy xo","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","martell","martell blue swift","grenache red","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","japanese gin","grey goose 1l","cafe patron","kraken black spiced rum","martell swift blue","hennessy cognac","mountain goat beer","wine pinot","strongbow cider","sugar free syrup","nikka whiskey","bushmills whiskey","dalmore whisky","single malt scotch whisky","whiskey bourbon jim beam","wild turkey bourbon","buffalo trace kentucky bourbon","rye whiskey","vodka bottle","xo tequila patron cafe","bacardi rum","dark rum","black sambuca","jinro soju","nikka from the barrel","irish cream","jameson irish whiskey","saint germain cafe","campari negroni"];

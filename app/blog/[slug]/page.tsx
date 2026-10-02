@@ -9,10 +9,11 @@ import { getProductsBySubCategory } from '@/lib/data/products';
 import { ProductCard } from '@/components/ProductCard';
 import { JsonLd } from '@/components/JsonLd';
 import { TagCloud } from '@/components/TagCloud';
+import { RelatedSearches } from '@/components/RelatedSearches';
 import { inlineImageFor, topicFor } from '@/lib/data/blog-images';
-import { buildTagLinks, collectionTagTemplates } from '@/lib/tag-links';
+import { buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
 import { SITE } from '@/lib/config';
-import { buildMetadata, breadcrumbLd, faqLd, absoluteUrl, subcategoryTags, CONTENT_UPDATED } from '@/lib/seo';
+import { buildMetadata, breadcrumbLd, faqLd, absoluteUrl, subcategoryTags, blogTags, CONTENT_UPDATED } from '@/lib/seo';
 import { ChevronRight, Calendar, Clock, ExternalLink, ArrowRight, HelpCircle } from 'lucide-react';
 
 interface BlogPostPageProps {
@@ -57,7 +58,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     title: post.seoTitle || post.title,
     description: post.seoDescription || post.excerpt,
     path: `/blog/${post.slug}/`,
-    keywords: [post.primaryKeyword, ...post.secondaryKeywords, ...subcategoryTags(post.relatedSubcategory, 40)].slice(0, 60),
+    keywords: blogTags(post, 60),
     image: { url: post.image, width: 1600, height: 900, alt: `${post.title} — ${post.primaryKeyword}` },
     type: 'article',
     publishedTime: isoDate(post.date),
@@ -74,7 +75,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const relatedProducts = sub ? getProductsBySubCategory(sub.slug).slice(0, 3) : [];
   const inline = inlineImageFor(post.slug);
   const collectionPath = sub ? `/shop/${sub.category}/collection/${sub.slug}/` : '/shop/';
-  const tagLinks = buildTagLinks(subcategoryTags(post.relatedSubcategory, 200), collectionPath, `/blog/${post.slug}/`, 20, collectionTagTemplates(sub ? sub.name : post.primaryKeyword), collectionTagTemplates(topicFor(post.slug, post.primaryKeyword)).slice(0, 8));
+  const tagLinks = post.tags && post.tags.length >= 20 ? linkList(post.tags, collectionPath, `/blog/${post.slug}/`, 20) : buildTagLinks(post.tags ?? subcategoryTags(post.relatedSubcategory, 200), collectionPath, `/blog/${post.slug}/`, 20, collectionTagTemplates(sub ? sub.name : post.primaryKeyword), collectionTagTemplates(topicFor(post.slug, post.primaryKeyword)).slice(0, 8));
+  const relatedLinks = linkList(post.secondaryKeywords, collectionPath, `/blog/${post.slug}/`, 15);
   const allText = [...post.body, ...(post.sections || []).flatMap((s) => [s.heading, ...s.paragraphs])].join(' ');
   const wordCount = allText.split(/\s+/).filter(Boolean).length;
 
@@ -139,7 +141,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {post.keyTakeaways && post.keyTakeaways.length > 0 && (
           <aside className="rounded-2xl bg-amber-950/30 border border-amber-800/40 p-5 space-y-2" aria-label="Key takeaways">
-            <h2 className="text-sm font-serif font-bold text-amber-300 uppercase tracking-wider">Key takeaways</h2>
+            <h2 className="text-sm font-serif font-bold text-amber-300 uppercase tracking-wider">Key takeaways: {post.primaryKeyword}</h2>
             <ul className="list-disc pl-5 space-y-1 text-sm text-neutral-300">
               {post.keyTakeaways.map((k, i) => (
                 <li key={i}>{k}</li>
@@ -160,7 +162,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <React.Fragment key={i}>
           {i === 1 && inline && (
             <figure className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900">
-              <Image src={inline.src} alt={inline.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 768px" />
+              <Image src={inline.src} alt={`${inline.alt} - ${post.primaryKeyword}`} fill className="object-cover" sizes="(max-width: 768px) 100vw, 768px" />
             </figure>
           )}
           <section className="space-y-4">
@@ -219,6 +221,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </section>
         )}
 
+        <RelatedSearches links={relatedLinks} title={`Related searches: ${post.primaryKeyword}`} />
         <TagCloud tags={tagLinks} title="Popular searches and tags" />
 
         <section className="pt-8 border-t border-neutral-900 space-y-3">

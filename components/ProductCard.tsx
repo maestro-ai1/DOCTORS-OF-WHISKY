@@ -12,9 +12,11 @@ import { ShoppingBag, Phone, Heart, Eye, Sparkles, ShieldCheck } from 'lucide-re
 interface ProductCardProps {
   product: Product;
   onQuickView?: (product: Product) => void;
+  /** keyword used in the image alt instead of the product's own primary (collection pages pass the collection keyword) */
+  altKeyword?: string;
 }
 
-export function ProductCard({ product, onQuickView }: ProductCardProps) {
+export function ProductCard({ product, onQuickView, altKeyword }: ProductCardProps) {
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -60,7 +62,7 @@ Please confirm vault availability and payment instructions.`;
         <Link href={`/shop/${product.category}/${product.slug}`} className="block w-full h-full">
           <Image
             src={product.images[0]}
-            alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle`}
+            alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle - ${altKeyword ?? product.primaryKeyword}`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className={`object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out ${

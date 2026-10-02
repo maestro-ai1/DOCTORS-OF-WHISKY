@@ -6,14 +6,16 @@ import { BrandSlider } from '@/components/BrandSlider';
 import { AuthoritySection } from '@/components/AuthoritySection';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
 import { HomeFaq } from '@/components/HomeFaq';
-import { buildMetadata, siteTags } from '@/lib/seo';
+import { HomeIntro } from '@/components/HomeIntro';
+import { buildMetadata } from '@/lib/seo';
+import { HOME_SEO } from '@/lib/data/home-seo';
 
 export const metadata = buildMetadata({
-  title: 'Buy Whisky Online Australia | Scotch, Japanese & Single Malt',
+  title: 'Buy Whisky Online Australia | Whiskey Gifts & Single Malt',
   description:
-    'Buy whisky online in Australia: single malt Scotch, Japanese whisky, bourbon, plus tequila, vodka, cognac and gin. Sydney vaults, insured delivery, 18+.',
+    'Buy whisky online in Australia: whiskey gifts, single malt whisky, bourbon and Japanese whisky, plus gin, tequila and vodka. Insured delivery, 18+.',
   path: '/',
-  keywords: siteTags(120),
+  keywords: [HOME_SEO.primary.kw, ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
 });
 
 export default function HomePage() {
@@ -21,6 +23,9 @@ export default function HomePage() {
     <div className="space-y-0">
       {/* 1. Hero Slideshow */}
       <HeroSlider />
+
+      {/* 1b. H1 + keyword tagline + popular searches (Transactional / Commercial keywords) */}
+      <HomeIntro />
 
       {/* 2. Trust Reassurance Bar */}
       <TrustBar />

@@ -17,7 +17,7 @@ export function AuthoritySection() {
             </div>
 
             <h2 className="text-xl sm:text-3xl font-serif font-bold text-neutral-100 tracking-tight leading-snug">
-              Preserving &amp; Curating Rare Liquid Heritage
+              Buy Whisky Online from a Sydney Whisky Specialist
             </h2>
 
             <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">

@@ -25,7 +25,7 @@ export function FeaturedProducts() {
               <Sparkles className="w-4 h-4 text-amber-500" />
             </div>
             <h2 className="text-2xl sm:text-4xl font-serif font-bold text-neutral-100 tracking-tight">
-              Curated Rare Vault Releases
+              Rare Whisky to Buy Online: Curated Vault Releases
             </h2>
             <p className="text-xs sm:text-sm text-neutral-400 max-w-2xl leading-relaxed">
               Six of Australia&apos;s most coveted collector bottlings. Fully authenticated with unbroken distillery seals, temperature-controlled vault provenance, and instant 12% Crypto discount eligibility.

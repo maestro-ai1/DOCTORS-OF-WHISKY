@@ -1,4 +1,5 @@
 import { FaqItem } from '@/lib/types';
+import { KEYWORD_FAQS } from '@/lib/data/faq-keywords';
 
 export const HOMEPAGE_FAQS: FaqItem[] = [
   {
@@ -68,5 +69,6 @@ export const ALL_FAQS: FaqItem[] = [
   {
     question: 'What are the legal age verification requirements for Australian orders?',
     answer: 'Under the NSW Liquor Act 2007 and Victorian Liquor Control Reform Act 1998, it is an offence to supply liquor to persons under 18 years. All purchasers must verify they are 18+ upon entering the website, and courier drivers are legally required to verify government-issued photo ID upon physical delivery.'
-  }
+  },
+  ...KEYWORD_FAQS.map(({ question, answer }) => ({ question, answer })),
 ];

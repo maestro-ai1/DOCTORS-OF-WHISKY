@@ -225,7 +225,7 @@ export function BrandSlider() {
               <span>Distillery &amp; House Spotlight</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-serif font-bold text-neutral-100 tracking-tight flex items-center gap-2">
-              <span>Curated Distilleries &amp; Master Houses</span>
+              <span>Whisky Brands in Australia: Distilleries &amp; Master Houses</span>
             </h2>
             <p className="text-xs text-neutral-400">
               Direct allocations from iconic Scottish Highlands, Japanese reserves, Tasmania, Cognac &amp; Jalisco.

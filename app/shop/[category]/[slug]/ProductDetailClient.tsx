@@ -103,7 +103,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-white border border-neutral-800 shadow-2xl">
               <Image
                 src={product.images[selectedImgIdx] || product.images[0]}
-                alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle`}
+                alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle - ${product.primaryKeyword}`}
                 fill
                 priority
                 className="object-contain object-center p-8"
@@ -161,7 +161,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                         : 'border-neutral-800 opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <Image src={img} alt={`${product.name} - photo ${idx + 1}`} fill className="object-contain p-1" />
+                    <Image src={img} alt={`${product.name} photo ${idx + 1} - ${product.secondaryKeywords[idx % Math.max(1, product.secondaryKeywords.length)] ?? product.primaryKeyword}`} fill className="object-contain p-1" />
                   </button>
                 ))}
               </div>
@@ -219,21 +219,25 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
 
             {/* Key Specifications Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-xs">
-              <div>
-                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Origin</span>
-                <span className="text-neutral-200 font-medium">{product.country}</span>
-              </div>
+              {product.country && (
+                <div>
+                  <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Origin</span>
+                  <span className="text-neutral-200 font-medium">{product.country}</span>
+                </div>
+              )}
               <div>
                 <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Region / Style</span>
-                <span className="text-neutral-200 font-medium">{product.region || product.style || 'Single Malt'}</span>
+                <span className="text-neutral-200 font-medium">{product.region || product.style || product.subCategory}</span>
               </div>
+              {(product.age || product.country) && (
+                <div>
+                  <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Age / Vintage</span>
+                  <span className="text-amber-400 font-medium">{product.age || 'Special Release'}</span>
+                </div>
+              )}
               <div>
-                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Age / Vintage</span>
-                <span className="text-amber-400 font-medium">{product.age || 'Special Release'}</span>
-              </div>
-              <div>
-                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">ABV &amp; Size</span>
-                <span className="text-neutral-200 font-medium">{product.abv} • {product.size}</span>
+                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">{product.abv ? 'ABV & Size' : 'Size'}</span>
+                <span className="text-neutral-200 font-medium">{[product.abv, product.size].filter(Boolean).join(' • ')}</span>
               </div>
             </div>
 
@@ -332,7 +336,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             {/* Description */}
             <div className="space-y-3 pt-2">
               <h2 className="font-serif font-bold text-lg text-neutral-100">
-                Bottle Narrative &amp; Distillation
+                {product.primaryKeyword.split(' ').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}: {product.name} bottle details
               </h2>
               <p className="text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">
                 {product.description}
@@ -379,7 +383,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
               </span>
               <h2 className="text-2xl font-serif font-bold text-neutral-100 flex items-center gap-2">
                 <HelpCircle className="w-5 h-5 text-amber-400" />
-                <span>Frequently Asked Questions</span>
+                <span>Frequently asked questions about {product.name}</span>
               </h2>
             </div>
 

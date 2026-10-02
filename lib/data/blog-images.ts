@@ -43,6 +43,23 @@ const BY_SLUG: Record<string, SharedImage> = {
   'don-julio-vs-patron-tequila-compared': 'gift-bottle',
   'grey-goose-vs-belvedere-vodka-compared': 'gift-bottle',
   'beginners-guide-investing-in-rare-whisky': 'whisky-pour',
+  'prosecco-guide-aperol-spritz-rose-mimosa': 'vineyard',
+  'what-is-vermouth-sweet-dry-cocktails': 'home-bar',
+  'pinot-grigio-vs-pinot-gris-italy-guide': 'vineyard',
+  'sauvignon-blanc-guide-low-alcohol-cooking-pairing': 'vineyard',
+  'pink-gin-and-soda-what-is-pink-gin': 'home-bar',
+  'what-is-ouzo-greek-drink-flavour-serving': 'tasting-flight',
+  'beer-with-least-carbs-lowest-carb-beer-australia': 'bottle-shop',
+  'cabernet-sauvignon-merlot-grenache-red-wine-grapes': 'vineyard',
+  'what-is-ipa-beer-india-pale-ale-explained': 'bottle-shop',
+  'german-beer-guide-german-wheat-weissbier-pilsner': 'bottle-shop',
+  'irish-whiskey-guide-bushmills-redbreast-how-its-made': 'whisky-pour',
+  'champagne-rose-brut-guide-veuve-clicquot-krug': 'gift-bottle',
+  'vodka-brands-absolut-skyy-titos-how-to-choose': 'home-bar',
+  'anejo-tequila-guide-reposado-blanco-brands': 'barrel-room',
+  'malibu-rum-and-coconut-rum-what-they-are': 'home-bar',
+  'popular-liqueurs-licor-43-sour-puss-elderflower-amaretto': 'home-bar',
+  'australian-beer-guide-lager-vb-craft-brands': 'bottle-shop',
 };
 
 export function inlineImageFor(slug: string): { src: string; alt: string } | undefined {

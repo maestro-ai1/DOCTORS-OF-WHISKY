@@ -62,7 +62,26 @@ export function buildTagLinks(pool: string[], fallback: string, selfPath: string
   const leadCount = new Map<string, number>();
   for (const raw of pool) add(raw, leadCount, 5); // pass 1: varied, easiest-to-rank first
   for (const raw of pool) add(raw, leadCount, 9); // pass 2: relax the lead-word cap
-  for (const raw of extras) add(raw); // pass 3: natural transactional phrases for thin collections
+  for (const raw of pool) add(raw, leadCount, 99); // pass 3: no cap, so every supplied tag is shown
+  for (const raw of extras) add(raw); // pass 4: natural transactional phrases for thin collections
+  return out;
+}
+
+/**
+ * Shows EVERY supplied keyword (only exact duplicates are dropped) and links each to the closest real page.
+ * Used for the 15 secondary keywords and the 20 tags on a page, which must all be present.
+ */
+export function linkList(labels: string[], fallback: string, selfPath: string, limit = labels.length): TagLink[] {
+  const seen = new Set<string>();
+  const out: TagLink[] = [];
+  for (const raw of labels) {
+    const label = raw.toLowerCase().trim();
+    if (!label || seen.has(label) || out.length >= limit) continue;
+    seen.add(label);
+    let href = resolve(label, fallback);
+    if (href === selfPath) href = fallback;
+    out.push({ label, href });
+  }
   return out;
 }
 

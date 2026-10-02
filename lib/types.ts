@@ -28,6 +28,8 @@ export interface Product {
   vintage?: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
+  /** 20 Commercial keywords (Semrush bank, KD <= 28), shown as tags */
+  tags?: string[];
   faqs: FaqItem[];
   metaTitle: string;
   metaDescription: string;
@@ -43,6 +45,8 @@ export interface Subcategory {
   heroImage: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
+  /** 20 Commercial keywords (Semrush bank, KD <= 28), shown as tags */
+  tags?: string[];
   faqs: FaqItem[];
   longDescription?: string[];
 }
@@ -58,6 +62,8 @@ export interface BlogPost {
   readTime: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
+  /** 20 Commercial keywords (Semrush bank, KD <= 28), shown as tags */
+  tags?: string[];
   relatedSubcategory: string;
   outboundLinks: { text: string; url: string }[];
   /** Optional SEO extensions merged in from lib/data/blog-extra.ts */

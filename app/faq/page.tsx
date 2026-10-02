@@ -4,13 +4,16 @@ import { ALL_FAQS } from '@/lib/data/faq';
 import { HelpCircle, Sparkles, Phone, ArrowRight } from 'lucide-react';
 import { CONTACT } from '@/lib/config';
 import { buildMetadata } from '@/lib/seo';
+import { PageSearches } from '@/components/PageSearches';
+import { PAGE_SEO } from '@/lib/data/page-seo';
+
 
 export const metadata = buildMetadata({
-  title: 'Whisky FAQ | Delivery, Payment & Buying Questions',
+  title: 'Is Ginger Beer Alcoholic? Spirits, Delivery & Buying FAQ',
   description:
-    'Answers on buying whisky online in Australia: delivery times, payment options, the 12% crypto discount, $300 minimum order, authenticity checks and returns.',
+    'Is ginger beer alcoholic? What is cognac? Answers on spirits plus buying whisky online in Australia: delivery, payment options, the 12% crypto discount and returns.',
   path: '/faq/',
-  keywords: ['buy whisky online australia faq', 'whisky delivery australia', 'how to buy whisky online', 'is it safe to buy whisky online'],
+  keywords: [PAGE_SEO['/faq/'].primary, ...PAGE_SEO['/faq/'].secondary, ...PAGE_SEO['/faq/'].tags],
 });
 
 export default function FaqPage() {
@@ -95,6 +98,7 @@ export default function FaqPage() {
           </div>
         </div>
       </div>
+      <PageSearches path="/faq/" />
     </div>
   );
 }

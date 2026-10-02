@@ -1,6 +1,10 @@
 import { BlogPost } from '@/lib/types';
 import { BLOG_EXTRA } from '@/lib/data/blog-extra';
 import { BLOG_LEADS, BLOG_TITLES } from '@/lib/data/blog-leads';
+import { BLOG_SEO } from '@/lib/data/blog-seo';
+import { NEW_GUIDES_1 } from '@/lib/data/blog-new-1';
+import { NEW_GUIDES_2 } from '@/lib/data/blog-new-2';
+import { NEW_GUIDES_3 } from '@/lib/data/blog-new-3';
 
 const BASE_POSTS: BlogPost[] = [
   {
@@ -1481,19 +1485,47 @@ const BASE_POSTS: BlogPost[] = [
 ];
 
 /** Base post + SEO extensions (long-form sections, FAQs, keywords) + answer-first lead + keyword-aligned titles. */
+const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const caps = (s: string) => s.split(' ').map((w) => (/^(and|of|the|in|for|to|with|is|a)$/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+
+/** Keyword-led H1s for posts whose original title did not contain their primary keyword (keyed by slug). */
+const H1_FOR_PRIMARY: Record<string, string> = {
+  'single-malt-vs-blended-scotch': 'What Is Single Malt Whisky? Single Malt vs Blended Scotch Explained',
+  'what-makes-bourbon-different': 'Bourbon and Whiskey: What Makes Bourbon Different?',
+  'tequila-aging-guide-blanco-reposado-anejo': 'Don Julio Blanco and Tequila Ageing: A Blanco, Reposado & Añejo Guide',
+  'mezcal-vs-tequila-difference': 'What Is Mezcal? Mezcal vs Tequila: What’s the Real Difference?',
+  'london-dry-vs-contemporary-gin': 'London Gin: London Dry vs Contemporary Gin Style Guide',
+  'best-cream-coffee-liqueurs-for-cocktails': 'Baileys Irish Cream, Kahlúa and the Best Cream and Coffee Liqueurs',
+  'champagne-vs-sparkling-wine-vs-port': 'Is Champagne Sparkling Wine? Champagne vs Sparkling Wine vs Port',
+  'ready-to-drink-premix-trend': 'Premix Drinks: Why Ready-to-Drink Premixes Are Booming',
+};
+
 function withExtras(post: BlogPost): BlogPost {
   const extra = BLOG_EXTRA[post.slug];
   const lead = BLOG_LEADS[post.slug];
   const titles = BLOG_TITLES[post.slug];
-  return {
+  const merged: BlogPost = {
     ...post,
     ...(extra || {}),
     ...(titles ? { title: titles.title, ...(titles.seoTitle ? { seoTitle: titles.seoTitle } : {}) } : {}),
     body: lead ? [lead, ...post.body] : post.body,
   };
+  // Keyword strategy v2 (Semrush bank, KD <= 28): Navigational/Informational primary + 15 secondary, 20 Commercial tags.
+  const seo = BLOG_SEO[post.slug];
+  if (!seo) return merged;
+  merged.primaryKeyword = seo.primaryKeyword;
+  merged.secondaryKeywords = seo.secondaryKeywords;
+  merged.tags = seo.tags;
+  const p = norm(seo.primaryKeyword);
+  if (H1_FOR_PRIMARY[post.slug] && !(' ' + norm(merged.title) + ' ').includes(' ' + p + ' ')) { merged.title = H1_FOR_PRIMARY[post.slug]; delete merged.seoTitle; }
+  if (!norm(merged.seoTitle || merged.title).includes(p)) merged.seoTitle = `${caps(seo.primaryKeyword)}: ${merged.title}`;
+  const d = merged.seoDescription || merged.excerpt;
+  if (!norm(d).includes(p)) merged.seoDescription = `${caps(seo.primaryKeyword)}: ${d}`;
+  if (!norm(`${merged.title} ${merged.body[0] ?? ''}`).includes(p)) merged.body = [`Searching for ${seo.primaryKeyword}? ${merged.body[0] ?? ''}`.trim(), ...merged.body.slice(1)];
+  return merged;
 }
 
-export const BLOG_POSTS: BlogPost[] = BASE_POSTS.map(withExtras);
+export const BLOG_POSTS: BlogPost[] = [...BASE_POSTS, ...NEW_GUIDES_1, ...NEW_GUIDES_2, ...NEW_GUIDES_3].map(withExtras);
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

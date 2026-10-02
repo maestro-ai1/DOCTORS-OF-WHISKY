@@ -8,7 +8,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
-import { buildMetadata, subcategoryTags, breadcrumbLd, itemListLd, webPageLd, ld } from '@/lib/seo';
+import { buildMetadata, breadcrumbLd, itemListLd, webPageLd, ld, titleCase } from '@/lib/seo';
+import { CATEGORY_SEO } from '@/lib/data/category-seo';
+import { RelatedSearches } from '@/components/RelatedSearches';
+import { TagCloud } from '@/components/TagCloud';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { authorityFor } from '@/lib/data/authority-links';
+import { linkList } from '@/lib/tag-links';
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -33,10 +39,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   };
   const subs = getSubcategoriesByCategory(catSlug);
   return buildMetadata({
-    title: names[catSlug] || `Buy ${currentCat.name} Online Australia`,
-    description: `${currentCat.description} Shop ${subs.slice(0, 6).map((s) => s.name).join(', ')} and more with insured delivery across Australia.`,
+    title: `${titleCase(CATEGORY_SEO[catSlug].primary)} | ${names[catSlug] || `Buy ${currentCat.name} Online Australia`}`,
+    description: `${titleCase(CATEGORY_SEO[catSlug].primary)}: ${currentCat.description} Shop ${subs.slice(0, 6).map((s) => s.name).join(', ')} and more with insured delivery across Australia.`,
     path: `/shop/${catSlug}/`,
-    keywords: Array.from(new Set(subs.flatMap((s) => subcategoryTags(s.slug, 12)))).slice(0, 100),
+    keywords: [CATEGORY_SEO[catSlug].primary, ...CATEGORY_SEO[catSlug].secondary, ...CATEGORY_SEO[catSlug].tags],
   });
 }
 
@@ -82,6 +88,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <p className="text-xs sm:text-sm text-neutral-400 max-w-2xl font-light leading-relaxed">
               {currentCat.description}
             </p>
+            <h2 className="text-lg font-serif font-bold text-amber-300">
+              {titleCase(CATEGORY_SEO[catSlug].primary)}: {products.length} bottles across {subcategories.length} collections
+            </h2>
           </div>
         </div>
 
@@ -142,6 +151,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             </div>
           </div>
         )}
+        <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 15)} title={`Related searches: ${CATEGORY_SEO[catSlug].primary}`} />
+        <TagCloud tags={linkList(CATEGORY_SEO[catSlug].tags, path, path, 20)} title="Popular searches and tags" />
+        <AuthorityLinks links={authorityFor(subcategories[0]?.slug ?? '')} title={`Learn more about ${currentCat.name.toLowerCase()}`} />
       </div>
     </div>
   );

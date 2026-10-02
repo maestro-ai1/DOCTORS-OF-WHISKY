@@ -1,15 +1,18 @@
 import React from 'react';
 import { buildMetadata } from '@/lib/seo';
+import { PageSearches } from '@/components/PageSearches';
+import { PAGE_SEO } from '@/lib/data/page-seo';
+
 import { PRODUCTS } from '@/lib/data/products';
 import { JsonLd } from '@/components/JsonLd';
 import { breadcrumbLd, webPageLd } from '@/lib/seo';
 
 // Metadata for /shop/ itself; category, collection and product pages set their own.
 export const metadata = buildMetadata({
-  title: 'Shop Whisky, Spirits, Wine & Beer Online Australia',
-  description: `Shop ${PRODUCTS.length}+ bottles online: single malt Scotch, Japanese whisky, bourbon, tequila, vodka, gin, cognac, wine and beer, with insured delivery across Australia.`,
+  title: 'Buy Whiskey Online Australia | Whisky, Spirits & Wine',
+  description: `Buy whiskey online and shop ${PRODUCTS.length}+ bottles: single malt Scotch, Japanese whisky, bourbon, tequila, vodka, gin, cognac, wine and beer, with insured delivery across Australia.`,
   path: '/shop/',
-  keywords: ['buy whisky online australia', 'buy spirits online australia', 'online bottle shop australia', 'buy scotch online', 'buy tequila online', 'buy vodka online', 'buy gin online'],
+  keywords: [PAGE_SEO['/shop/'].primary, ...PAGE_SEO['/shop/'].secondary, ...PAGE_SEO['/shop/'].tags],
 });
 
 export default function ShopLayout({ children }: { children: React.ReactNode }) {
@@ -22,6 +25,7 @@ export default function ShopLayout({ children }: { children: React.ReactNode }) 
         ]}
       />
       {children}
+      <PageSearches path="/shop/" />
     </>
   );
 }

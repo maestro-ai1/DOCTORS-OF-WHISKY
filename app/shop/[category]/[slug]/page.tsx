@@ -5,7 +5,10 @@ import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { ProductDetailClient } from './ProductDetailClient';
 import { buildMetadata, productTags, productLd, faqLd, breadcrumbLd, ld } from '@/lib/seo';
 import { TagCloud } from '@/components/TagCloud';
-import { buildTagLinks, productTagTemplates } from '@/lib/tag-links';
+import { RelatedSearches } from '@/components/RelatedSearches';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { authorityFor } from '@/lib/data/authority-links';
+import { buildTagLinks, linkList, productTagTemplates } from '@/lib/tag-links';
 import type { Metadata } from 'next';
 
 interface ProductPageProps {
@@ -47,7 +50,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const relatedProducts = getRelatedProducts(product, 3);
   const category = MAIN_CATEGORIES.find((c) => c.slug === product.category);
   const collectionPath = `/shop/${product.category}/collection/${product.subCategorySlug}/`;
-  const tagLinks = buildTagLinks(productTags(product, 200), collectionPath, `/shop/${product.category}/${product.slug}/`, 20, productTagTemplates(product));
+  const selfPath = `/shop/${product.category}/${product.slug}/`;
+  const tagLinks = product.tags && product.tags.length >= 20 ? linkList(product.tags, collectionPath, selfPath, 20) : buildTagLinks(product.tags ?? productTags(product, 200), collectionPath, selfPath, 20, productTagTemplates(product));
+  const relatedLinks = linkList(product.secondaryKeywords, collectionPath, selfPath, 15);
 
   const breadcrumb = breadcrumbLd([
     { name: 'Home', path: '/' },
@@ -65,7 +70,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <ProductDetailClient product={product} relatedProducts={relatedProducts} />
       <div className="bg-neutral-950 px-4 sm:px-6 lg:px-8 pb-12">
         <div className="max-w-7xl mx-auto">
+          <RelatedSearches links={relatedLinks} title={`Related searches: ${product.primaryKeyword}`} />
           <TagCloud tags={tagLinks} title="Popular searches and tags" />
+          <AuthorityLinks links={authorityFor(product.subCategorySlug)} title={`Learn more about ${product.subCategory.toLowerCase()}`} />
         </div>
       </div>
     </>

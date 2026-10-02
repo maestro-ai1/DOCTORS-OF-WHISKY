@@ -19,6 +19,16 @@ export function absoluteUrl(pathname: string): string {
   return `${BASE_URL}${p}`;
 }
 
+/** Title Case for keyword-led headings (keeps 1L / 700ml sizes tidy). */
+export function titleCase(s: string): string {
+  return s
+    .split(' ')
+    .map((w) => (/^(and|of|the|in|for|to|with)$/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(' ')
+    .replace(/^(.)/, (c) => c.toUpperCase())
+    .replace(/\b(\d+)l\b/gi, (_m, n) => n + 'L');
+}
+
 /** Trim to a sentence/word boundary so descriptions never end in "...". */
 export function fitDescription(text: string, max = 158, min = 110): string {
   const clean = text.replace(/\s+/g, ' ').trim();
@@ -100,6 +110,11 @@ function isCleanTag(key: string): boolean {
   return key.split(/\s+/).length <= 7;
 }
 
+/** Keywords chosen from the Semrush bank are kept as supplied; only exact duplicates are removed. */
+function exact(list: string[]): string[] {
+  return [...new Set(list.map((k) => k.toLowerCase().trim()).filter(Boolean))];
+}
+
 function dedupe(list: string[]): string[] {
   const seen = new Set<string>();
   const out: string[] = [];
@@ -116,26 +131,17 @@ function dedupe(list: string[]): string[] {
 export function subcategoryTags(slug: string, limit = 120): string[] {
   const set = SEO_KEYWORDS[slug];
   if (!set) return [];
-  return dedupe([set.primary, ...set.secondary, ...set.tags]).slice(0, limit);
+  return exact([set.primary, ...set.secondary, ...set.tags]).slice(0, limit);
 }
 
-/** Product tags: brand/name-matched commercial keywords first, then the subcategory pool (volume >= 70). */
+/** Product tags (meta keywords / JSON-LD): primary + 15 secondary + 20 Commercial tags from the keyword bank. */
 export function productTags(product: Product, limit = 60): string[] {
-  const pool = subcategoryTags(product.subCategorySlug, 200);
-  const brandTokens = product.brand.toLowerCase().replace(/^the /, '').split(/\s+/).filter((t) => t.length > 2);
-  const nameTokens = product.name.toLowerCase().split(/\s+/).filter((t) => t.length > 3);
-  const brandMatched = pool.filter((k) => brandTokens.some((t) => k.includes(t)));
-  const nameMatched = pool.filter((k) => nameTokens.some((t) => k.includes(t)) && !brandMatched.includes(k));
-  const rest = pool.filter((k) => !brandMatched.includes(k) && !nameMatched.includes(k));
-  return dedupe([
-    product.primaryKeyword,
-    `${product.name.toLowerCase()}`,
-    `buy ${product.name.toLowerCase()} online`,
-    ...brandMatched,
-    ...nameMatched,
-    ...product.secondaryKeywords,
-    ...rest,
-  ]).slice(0, limit);
+  return exact([product.primaryKeyword, ...product.secondaryKeywords, ...(product.tags ?? [])]).slice(0, limit);
+}
+
+/** Blog tags (meta keywords / JSON-LD): primary + 15 secondary + 20 Commercial tags. */
+export function blogTags(post: { primaryKeyword: string; secondaryKeywords: string[]; tags?: string[] }, limit = 60): string[] {
+  return exact([post.primaryKeyword, ...post.secondaryKeywords, ...(post.tags ?? [])]).slice(0, limit);
 }
 
 export function siteTags(limit = 150): string[] {

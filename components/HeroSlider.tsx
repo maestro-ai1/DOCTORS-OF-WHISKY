@@ -57,7 +57,7 @@ export function HeroSlider() {
           {/* Real, on-brand bottle photography as a full-bleed background */}
           <Image
             src={slide.image}
-            alt={slide.title}
+            alt={`${slide.title} - buy whisky online in Australia`}
             fill
             priority={idx === 0}
             className="object-cover object-center"
@@ -84,15 +84,9 @@ export function HeroSlider() {
               </div>
 
               {/* Heading — Exactly one H1 on the first slide for SEO */}
-              {idx === 0 ? (
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-neutral-100 tracking-tight leading-[1.1]">
-                  {slide.title}
-                </h1>
-              ) : (
-                <div className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-neutral-100 tracking-tight leading-[1.1]">
-                  {slide.title}
-                </div>
-              )}
+              <div className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-neutral-100 tracking-tight leading-[1.1]">
+                {slide.title}
+              </div>
 
               {/* Subtitle */}
               <p className="text-sm sm:text-base text-neutral-300 max-w-lg leading-relaxed font-light">

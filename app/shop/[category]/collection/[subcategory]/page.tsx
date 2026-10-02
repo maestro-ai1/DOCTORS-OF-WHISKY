@@ -8,7 +8,12 @@ import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { BLOG_POSTS } from '@/lib/data/blog';
 import { ProductCard } from '@/components/ProductCard';
 import { ArrowLeft, ChevronRight, HelpCircle, Sparkles } from 'lucide-react';
-import { buildMetadata, subcategoryTags, breadcrumbLd, itemListLd, faqLd, webPageLd, ld } from '@/lib/seo';
+import { buildMetadata, subcategoryTags, breadcrumbLd, itemListLd, faqLd, webPageLd, ld, titleCase } from '@/lib/seo';
+import { TagCloud } from '@/components/TagCloud';
+import { RelatedSearches } from '@/components/RelatedSearches';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { authorityFor } from '@/lib/data/authority-links';
+import { buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
 
 interface CollectionPageProps {
   params: Promise<{ category: string; subcategory: string }>;
@@ -28,7 +33,7 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
 
   const path = `/shop/${catSlug}/collection/${subSlug}/`;
   return buildMetadata({
-    title: `Buy ${sub.name} Online Australia`,
+    title: sub.name.toLowerCase().includes(sub.primaryKeyword.toLowerCase()) ? `Buy ${sub.name} Online Australia` : `${titleCase(sub.primaryKeyword)} | Buy ${sub.name} Online`,
     description: sub.description,
     path,
     keywords: subcategoryTags(subSlug, 120),
@@ -109,11 +114,11 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
           </div>
         ) : (
           <>
-            <h2 className="sr-only">{sub.name} bottles available to buy online</h2>
+            <h2 className="text-xl sm:text-2xl font-serif font-bold text-neutral-100">{titleCase(sub.primaryKeyword)}: {products.length} {sub.name} {products.length === 1 ? 'bottle' : 'bottles'} to buy online</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {products.map((product) => (
                 <div key={product.id} className="h-full">
-                  <ProductCard product={product} />
+                  <ProductCard product={product} altKeyword={sub.primaryKeyword} />
                 </div>
               ))}
             </div>
@@ -141,6 +146,9 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
           </section>
         )}
 
+        <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 15)} title={`Related searches: ${sub.primaryKeyword}`} />
+        <TagCloud tags={sub.tags && sub.tags.length >= 20 ? linkList(sub.tags, path, path, 20) : buildTagLinks(sub.tags ?? subcategoryTags(subSlug, 60), path, path, 20, collectionTagTemplates(sub.name))} title="Popular searches and tags" />
+
         {/* Subcategory FAQ */}
         <div className="pt-10 border-t border-neutral-900 space-y-6">
           <h2 className="text-2xl font-serif font-bold text-neutral-100 flex items-center gap-2">
@@ -159,6 +167,8 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
             ))}
           </div>
         </div>
+
+        <AuthorityLinks links={authorityFor(sub.slug)} title={`Learn more about ${sub.name.toLowerCase()}`} />
       </div>
     </div>
   );

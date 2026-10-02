@@ -1,4 +1,5 @@
 import { CategoryGroup } from '@/lib/types';
+import { NEW_COLLECTION_LINKS } from '@/lib/data/new-collections';
 
 export const MAIN_CATEGORIES: CategoryGroup[] = [
   {
@@ -185,3 +186,9 @@ export const MAIN_CATEGORIES: CategoryGroup[] = [
     ]
   }
 ];
+
+// Collections added from the keyword bank appear under "More Collections" in each department menu.
+for (const cat of MAIN_CATEGORIES) {
+  const extra = NEW_COLLECTION_LINKS[cat.slug];
+  if (extra && extra.length) cat.subGroups.push({ title: 'More Collections', items: extra });
+}
