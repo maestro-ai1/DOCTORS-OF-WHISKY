@@ -101,6 +101,8 @@ Not required. All resources below are public and read-only.
 {
   "agent_auth": {
     "skill": "${D}/auth.md",
+    "register_uri": "${D}/api/agent/identity/",
+    "credential_types_supported": ["none"],
     "identity_endpoint": "${D}/api/agent/identity/",
     "claim_endpoint": "${D}/api/agent/identity/claim/",
     "events_endpoint": "${D}/api/agent/event/notify/",
@@ -193,7 +195,7 @@ export const oauthAuthorizationServer = () => ({
   scopes_supported: [],
   note: `${SITE.name} has no protected APIs. All resources are publicly accessible.`,
   public_resources: [`${D}/shop/`, `${D}/blog/`, `${D}/faq/`, `${D}/llms.txt`, `${D}/api/products/`, `${D}/.well-known/api-catalog`, `${D}/.well-known/agent-skills/index.json`, `${D}/.well-known/mcp/server-card.json`],
-  agent_auth: { skill: `${D}/auth.md`, identity_endpoint: `${D}/api/agent/identity/`, claim_endpoint: `${D}/api/agent/identity/claim/`, events_endpoint: `${D}/api/agent/event/notify/`, identity_types_supported: ['anonymous'], identity_assertion: { assertion_types_supported: ['urn:ietf:params:oauth:token-type:id-jag'] }, events_supported: ['https://schemas.workos.com/events/agent/auth/identity/assertion/revoked'], notes: 'Anonymous access. No registration or credential is required; all catalogue resources are public.' },
+  agent_auth: { skill: `${D}/auth.md`, register_uri: `${D}/api/agent/identity/`, credential_types_supported: ['none'], revocation_endpoint: `${D}/api/agent/event/notify/`, identity_endpoint: `${D}/api/agent/identity/`, claim_endpoint: `${D}/api/agent/identity/claim/`, events_endpoint: `${D}/api/agent/event/notify/`, identity_types_supported: ['anonymous'], identity_assertion: { assertion_types_supported: ['urn:ietf:params:oauth:token-type:id-jag'] }, events_supported: ['https://schemas.workos.com/events/agent/auth/identity/assertion/revoked'], notes: 'Anonymous access. No registration or credential is required; all catalogue resources are public.' },
 });
 
 export const openidConfiguration = () => ({
