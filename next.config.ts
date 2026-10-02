@@ -47,6 +47,8 @@ const nextConfig: NextConfig = {
     ],
   },
   output: 'standalone',
+  // inline the stylesheet in the HTML so first paint does not wait for a CSS round trip
+  experimental: { inlineCss: true },
   transpilePackages: ['motion'],
   async redirects() {
     return [
