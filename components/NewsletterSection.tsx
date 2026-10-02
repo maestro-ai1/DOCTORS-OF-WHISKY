@@ -36,14 +36,14 @@ export function NewsletterSection() {
         {!subscribed ? (
           <form onSubmit={handleSubmit} className="max-w-md mx-auto flex flex-col sm:flex-row gap-2.5">
             <div className="relative flex-1">
-              <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500" />
+              <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
               <input
                 type="email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="collector@example.com.au"
-                className="w-full pl-10 pr-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs placeholder-neutral-500 focus:outline-none focus:border-amber-500"
+                className="w-full pl-10 pr-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs placeholder-neutral-400 focus:outline-none focus:border-amber-500"
               />
             </div>
             <button
@@ -60,7 +60,7 @@ export function NewsletterSection() {
           </div>
         )}
 
-        <p className="text-[10px] text-neutral-500 flex items-center justify-center gap-1.5">
+        <p className="text-[10px] text-neutral-400 flex items-center justify-center gap-1.5">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
           <span>Strict privacy guaranteed. We never share collector information.</span>
         </p>

@@ -1,0 +1,5 @@
+Contact: mailto:sales@doctorsofwhisky.com.au
+Expires: 2027-09-30T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://doctorsofwhisky.com.au/.well-known/security.txt
+Policy: https://doctorsofwhisky.com.au/privacy/

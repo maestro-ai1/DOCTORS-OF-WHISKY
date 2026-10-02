@@ -1,9 +1,8 @@
 'use client';
 
-import React, { useState, useMemo, Suspense } from 'react';
+import React, { useState, useMemo, useEffect, Suspense } from 'react';
 import { searchProducts } from '@/lib/search';
 import { useSearchParams } from 'next/navigation';
-import { PRODUCTS } from '@/lib/data/products';
 import { Product } from '@/lib/types';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductQuickViewModal } from '@/components/ProductQuickViewModal';
@@ -18,7 +17,9 @@ import {
   Wine,
 } from 'lucide-react';
 
-function ShopContent() {
+const PAGE_SIZE = 24;
+
+function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get('category') || 'all';
   const initialBrand = searchParams.get('brand') || 'all';
@@ -46,6 +47,8 @@ function ShopContent() {
 
   // Filtered Products
   const searchIds = useMemo(() => (search.trim() ? new Set(searchProducts(PRODUCTS, search).map((p) => p.id)) : null), [search]);
+
+  const [shown, setShown] = useState(PAGE_SIZE);
 
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((product) => {
@@ -83,6 +86,10 @@ function ShopContent() {
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
   }, [category, brand, country, badge, priceRange, search, searchIds, sortBy, showWishlistOnly, wishlist]);
+
+  useEffect(() => {
+    setShown(PAGE_SIZE);
+  }, [category, brand, country, badge, priceRange, search, sortBy, showWishlistOnly]);
 
   const resetFilters = () => {
     setCategory('all');
@@ -126,7 +133,7 @@ function ShopContent() {
           {/* Quick Search & Sort Control */}
           <div className="flex flex-wrap items-center gap-3">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
               <input
                 type="text"
                 value={search}
@@ -138,7 +145,7 @@ function ShopContent() {
                 <button
                   type="button"
                   onClick={() => setSearch('')}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-neutral-200"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-200"
                 >
                   <X className="w-3.5 h-3.5" />
                 </button>
@@ -148,6 +155,7 @@ function ShopContent() {
             <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-neutral-900 border border-neutral-800 text-xs text-neutral-300">
               <ArrowUpDown className="w-3.5 h-3.5 text-amber-500" />
               <select
+                aria-label="Sort bottles"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
                 className="bg-transparent text-neutral-200 text-xs focus:outline-none cursor-pointer"
@@ -259,6 +267,7 @@ function ShopContent() {
                 Distillery / Brand
               </label>
               <select
+                aria-label="Distillery or brand"
                 value={brand}
                 onChange={(e) => setBrand(e.target.value)}
                 className="w-full px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-200 text-xs focus:outline-none focus:border-amber-500"
@@ -278,6 +287,7 @@ function ShopContent() {
                 Country of Origin
               </label>
               <select
+                aria-label="Country of origin"
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
                 className="w-full px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-200 text-xs focus:outline-none focus:border-amber-500"
@@ -343,7 +353,7 @@ function ShopContent() {
           <div className="lg:col-span-9">
             {filteredProducts.length === 0 ? (
               <div className="p-12 text-center rounded-2xl bg-neutral-900/30 border border-neutral-800 space-y-4">
-                <div className="w-16 h-16 rounded-full bg-neutral-900 border border-neutral-800 mx-auto flex items-center justify-center text-neutral-500">
+                <div className="w-16 h-16 rounded-full bg-neutral-900 border border-neutral-800 mx-auto flex items-center justify-center text-neutral-400">
                   <Wine className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-serif font-bold text-neutral-200">
@@ -361,16 +371,30 @@ function ShopContent() {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredProducts.map((product) => (
-                  <div key={product.id} className="h-full">
-                    <ProductCard
-                      product={product}
-                      onQuickView={(p) => setSelectedProduct(p)}
-                    />
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                  {filteredProducts.slice(0, shown).map((product, i) => (
+                    <div key={product.id} className="h-full cv-card">
+                      <ProductCard
+                        product={product}
+                        priority={i < 2}
+                        onQuickView={(p) => setSelectedProduct(p)}
+                      />
+                    </div>
+                  ))}
+                </div>
+                {filteredProducts.length > shown && (
+                  <div className="pt-8 text-center">
+                    <button
+                      type="button"
+                      onClick={() => setShown((n) => n + PAGE_SIZE)}
+                      className="px-6 py-3 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider transition-colors"
+                    >
+                      Show more bottles ({filteredProducts.length - shown} remaining)
+                    </button>
                   </div>
-                ))}
-              </div>
+                )}
+              </>
             )}
           </div>
         </div>
@@ -387,10 +411,10 @@ function ShopContent() {
   );
 }
 
-export default function ShopClient() {
+export default function ShopClient({ products }: { products: Product[] }) {
   return (
     <Suspense fallback={<div className="min-h-screen bg-neutral-950 p-12 text-center text-neutral-400">Loading catalog...</div>}>
-      <ShopContent />
+      <ShopContent products={products} />
     </Suspense>
   );
 }

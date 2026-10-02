@@ -112,7 +112,7 @@ export default function BlogPage() {
                   </div>
                 </Link>
 
-                <div className="flex items-center gap-3 text-[11px] text-neutral-500">
+                <div className="flex items-center gap-3 text-[11px] text-neutral-400">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {article.date}

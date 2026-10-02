@@ -68,7 +68,7 @@ function ThankYouOrderContent() {
         </div>
 
         <div className="p-4 rounded-2xl bg-neutral-950 border border-neutral-800 space-y-1">
-          <span className="text-[10px] uppercase tracking-wider text-neutral-500 block">Order Reference</span>
+          <span className="text-[10px] uppercase tracking-wider text-neutral-400 block">Order Reference</span>
           <span className="font-mono text-xl font-bold text-amber-400 tracking-wider">{orderRef}</span>
         </div>
 

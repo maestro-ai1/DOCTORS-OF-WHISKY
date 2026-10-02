@@ -131,7 +131,7 @@ export function CartDrawer() {
                   <h4 className="font-serif font-bold text-neutral-200 text-base">
                     Your allocation cart is empty
                   </h4>
-                  <p className="text-xs text-neutral-500 max-w-xs">
+                  <p className="text-xs text-neutral-400 max-w-xs">
                     Explore our rare Speyside malts, Japanese pure malts, and collectible spirits in the vault.
                   </p>
                 </div>
@@ -169,7 +169,7 @@ export function CartDrawer() {
                       <button
                         type="button"
                         onClick={() => removeFromCart(item.product.id)}
-                        className="text-neutral-500 hover:text-red-400 p-1 transition-colors"
+                        className="text-neutral-400 hover:text-red-400 p-1 transition-colors"
                         aria-label="Remove item"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
@@ -299,7 +299,7 @@ export function CartDrawer() {
                   className={`w-full py-3.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg transition-all ${
                     isMinOrderMet
                       ? 'bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 hover:from-amber-600 hover:to-amber-500 text-neutral-950 shadow-amber-950/60 active:scale-98'
-                      : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
+                      : 'bg-neutral-800 text-neutral-400 cursor-not-allowed'
                   }`}
                 >
                   <span>Proceed to PayID / Bank / Crypto Checkout</span>

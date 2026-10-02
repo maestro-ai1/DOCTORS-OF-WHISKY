@@ -92,7 +92,7 @@ export function BrandGrid() {
                 </p>
               </div>
 
-              <div className="pt-2 border-t border-neutral-800/60 flex items-center justify-between text-xs text-neutral-500 group-hover:text-amber-400 font-medium">
+              <div className="pt-2 border-t border-neutral-800/60 flex items-center justify-between text-xs text-neutral-400 group-hover:text-amber-400 font-medium">
                 <span>Explore Allocations</span>
                 <span>→</span>
               </div>

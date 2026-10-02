@@ -3,13 +3,11 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
-import { getFeaturedProducts } from '@/lib/data/products';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductQuickViewModal } from '@/components/ProductQuickViewModal';
 import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
 
-export function FeaturedProducts() {
-  const featuredProducts = getFeaturedProducts().slice(0, 6);
+export function FeaturedProducts({ products: featuredProducts }: { products: Product[] }) {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   return (

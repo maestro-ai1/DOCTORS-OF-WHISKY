@@ -221,22 +221,22 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-xs">
               {product.country && (
                 <div>
-                  <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Origin</span>
+                  <span className="text-[10px] text-neutral-400 uppercase block font-semibold">Origin</span>
                   <span className="text-neutral-200 font-medium">{product.country}</span>
                 </div>
               )}
               <div>
-                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Region / Style</span>
+                <span className="text-[10px] text-neutral-400 uppercase block font-semibold">Region / Style</span>
                 <span className="text-neutral-200 font-medium">{product.region || product.style || product.subCategory}</span>
               </div>
               {(product.age || product.country) && (
                 <div>
-                  <span className="text-[10px] text-neutral-500 uppercase block font-semibold">Age / Vintage</span>
+                  <span className="text-[10px] text-neutral-400 uppercase block font-semibold">Age / Vintage</span>
                   <span className="text-amber-400 font-medium">{product.age || 'Special Release'}</span>
                 </div>
               )}
               <div>
-                <span className="text-[10px] text-neutral-500 uppercase block font-semibold">{product.abv ? 'ABV & Size' : 'Size'}</span>
+                <span className="text-[10px] text-neutral-400 uppercase block font-semibold">{product.abv ? 'ABV & Size' : 'Size'}</span>
                 <span className="text-neutral-200 font-medium">{[product.abv, product.size].filter(Boolean).join(' • ')}</span>
               </div>
             </div>
@@ -253,7 +253,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                       ${product.price.toLocaleString()} <span className="text-sm font-sans text-neutral-400 font-normal">AUD</span>
                     </span>
                     {product.originalPrice && (
-                      <span className="text-sm line-through text-neutral-500">
+                      <span className="text-sm line-through text-neutral-400">
                         ${product.originalPrice.toLocaleString()} AUD
                       </span>
                     )}
@@ -395,7 +395,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
                 >
                   <summary className="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-serif font-bold text-neutral-100 group-open:text-amber-300">
                     <span>{faq.question}</span>
-                    <ChevronRight className="w-4 h-4 shrink-0 text-neutral-500 group-open:rotate-90 transition-transform" />
+                    <ChevronRight className="w-4 h-4 shrink-0 text-neutral-400 group-open:rotate-90 transition-transform" />
                   </summary>
                   <p className="mt-3 text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">
                     {faq.answer}

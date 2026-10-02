@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -14,12 +14,13 @@ interface ProductCardProps {
   onQuickView?: (product: Product) => void;
   /** keyword used in the image alt instead of the product's own primary (collection pages pass the collection keyword) */
   altKeyword?: string;
+  /** first cards on a page: load the image eagerly (it is usually the LCP element) */
+  priority?: boolean;
 }
 
-export function ProductCard({ product, onQuickView, altKeyword }: ProductCardProps) {
+export function ProductCard({ product, onQuickView, altKeyword, priority }: ProductCardProps) {
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
-  const [imageLoaded, setImageLoaded] = useState(false);
 
   const isFavorite = isInWishlist(product.id);
   const cryptoPrice = product.price * 0.88; // 12% discount
@@ -61,14 +62,12 @@ Please confirm vault availability and payment instructions.`;
       <div className="relative w-full aspect-[4/3] bg-white overflow-hidden">
         <Link href={`/shop/${product.category}/${product.slug}`} className="block w-full h-full">
           <Image
+            priority={priority}
             src={product.images[0]}
             alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle - ${altKeyword ?? product.primaryKeyword}`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className={`object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out ${
-              imageLoaded ? 'opacity-100' : 'opacity-0'
-            }`}
-            onLoad={() => setImageLoaded(true)}
+            className="object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out"
             referrerPolicy="no-referrer"
           />
         </Link>
@@ -121,15 +120,19 @@ Please confirm vault availability and payment instructions.`;
 
         {/* Origin / Age Flag Pill */}
         <div className="absolute bottom-3 left-3 z-10 flex items-center gap-2 text-[10px] text-neutral-300 bg-neutral-950/80 backdrop-blur-sm px-2.5 py-1 rounded-md border border-neutral-800">
-          <span>{product.country}</span>
+          {product.country && <span>{product.country}</span>}
           {product.age && (
             <>
-              <span className="text-neutral-600">•</span>
+              {product.country && <span className="text-neutral-600">•</span>}
               <span className="text-amber-400 font-semibold">{product.age}</span>
             </>
           )}
-          <span className="text-neutral-600">•</span>
-          <span>{product.abv}</span>
+          {product.abv && (
+            <>
+              {(product.country || product.age) && <span className="text-neutral-600">•</span>}
+              <span>{product.abv}</span>
+            </>
+          )}
         </div>
       </div>
 
@@ -140,7 +143,7 @@ Please confirm vault availability and payment instructions.`;
           <span className="font-semibold uppercase tracking-wider text-amber-500/90">
             {product.brand}
           </span>
-          <span className="text-[11px] text-neutral-500">{product.size}</span>
+          <span className="text-[11px] text-neutral-400">{product.size}</span>
         </div>
 
         {/* Title */}
@@ -159,7 +162,7 @@ Please confirm vault availability and payment instructions.`;
         <div className="pt-2 border-t border-neutral-800/80">
           <div className="flex items-baseline justify-between">
             <div className="flex flex-col">
-              <span className="text-xs text-neutral-500 uppercase tracking-wider font-mono">
+              <span className="text-xs text-neutral-400 uppercase tracking-wider font-mono">
                 Vault Price
               </span>
               <div className="flex items-baseline gap-2">
@@ -167,7 +170,7 @@ Please confirm vault availability and payment instructions.`;
                   ${product.price.toLocaleString()} <span className="text-xs font-sans text-neutral-400">AUD</span>
                 </span>
                 {product.originalPrice && (
-                  <span className="text-xs line-through text-neutral-500">
+                  <span className="text-xs line-through text-neutral-400">
                     ${product.originalPrice.toLocaleString()}
                   </span>
                 )}

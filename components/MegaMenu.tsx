@@ -76,7 +76,7 @@ export function MegaMenu({ activeCategory, onClose }: MegaMenuProps) {
         </div>
 
         {/* Bottom Quick Perks */}
-        <div className="mt-8 pt-4 border-t border-neutral-900/80 flex flex-wrap items-center justify-between gap-4 text-[11px] text-neutral-500">
+        <div className="mt-8 pt-4 border-t border-neutral-900/80 flex flex-wrap items-center justify-between gap-4 text-[11px] text-neutral-400">
           <div className="flex items-center gap-6">
             <span>• Min Order: $300 AUD</span>
             <span>• Free Insured Courier &gt; $1,500 AUD</span>

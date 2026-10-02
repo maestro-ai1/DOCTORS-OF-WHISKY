@@ -116,15 +116,15 @@ Please confirm availability and dispatch steps.`;
           {/* Quick specs grid */}
           <div className="grid grid-cols-3 gap-2 p-3 rounded-xl bg-neutral-900/60 border border-neutral-800/80 text-xs">
             <div>
-              <span className="text-neutral-500 block text-[10px] uppercase">Country</span>
+              <span className="text-neutral-400 block text-[10px] uppercase">Country</span>
               <span className="text-neutral-200 font-medium">{product.country}</span>
             </div>
             <div>
-              <span className="text-neutral-500 block text-[10px] uppercase">ABV / Size</span>
+              <span className="text-neutral-400 block text-[10px] uppercase">ABV / Size</span>
               <span className="text-neutral-200 font-medium">{product.abv} / {product.size}</span>
             </div>
             <div>
-              <span className="text-neutral-500 block text-[10px] uppercase">Age / Release</span>
+              <span className="text-neutral-400 block text-[10px] uppercase">Age / Release</span>
               <span className="text-amber-400 font-medium">{product.age || 'Vintage'}</span>
             </div>
           </div>
@@ -149,7 +149,7 @@ Please confirm availability and dispatch steps.`;
           {/* Price Box */}
           <div className="p-3 rounded-xl bg-neutral-900/90 border border-neutral-800 flex items-center justify-between">
             <div>
-              <span className="text-[10px] text-neutral-500 uppercase block">Price</span>
+              <span className="text-[10px] text-neutral-400 uppercase block">Price</span>
               <span className="text-2xl font-serif font-bold text-neutral-100">
                 ${product.price.toLocaleString()} <span className="text-xs font-sans text-neutral-400">AUD</span>
               </span>

@@ -45,12 +45,7 @@ export function AgeGateModal() {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
       {/* Background with warm ambient lighting */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-luminosity"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1920&q=80')`
-        }}
-      />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgba(180,120,40,0.18),transparent_55%),radial-gradient(ellipse_at_80%_80%,rgba(120,70,20,0.16),transparent_50%)]" aria-hidden="true" />
       
       <div className="relative w-full max-w-lg bg-neutral-950/95 border border-amber-800/40 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-black/80 text-center overflow-hidden">
         {/* Subtle decorative gold top bar */}
@@ -104,7 +99,7 @@ export function AgeGateModal() {
 
             {/* Mandatory Australian Liquor Law Disclaimer */}
             <div className="border-t border-neutral-900 pt-4">
-              <p className="text-[10px] text-neutral-500 leading-tight">
+              <p className="text-[10px] text-neutral-400 leading-tight">
                 <strong className="text-neutral-400">WARNING:</strong> Under the Victorian Liquor Control Reform Act 1998 / NSW Liquor Act 2007, it is an offence to supply alcohol to a person under the age of 18 years (Penalty exceeds $19,000), or for a person under the age of 18 years to purchase or receive liquor. Liquor Licence No: {CONTACT.liquorLicence}.
               </p>
             </div>

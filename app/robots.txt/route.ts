@@ -26,7 +26,7 @@ const AI_AND_SEARCH_BOTS = [
   'DuckAssistBot',
 ];
 
-const DISALLOW = ['/thank-you-order/', '/api/order/', '/api/contact/', '/admin/', '/api/admin/', '/pay/', '/api/pay/'];
+const DISALLOW = ['/thank-you-order/', '/api/order/', '/api/contact/', '/admin/', '/api/admin/', '/pay/', '/api/pay/', '/search/'];
 
 export function GET() {
   const disallow = DISALLOW.map((d) => `Disallow: ${d}`).join('\n');

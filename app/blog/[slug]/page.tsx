@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 import { BLOG_POSTS, getBlogPostBySlug, getRelatedBlogPosts } from '@/lib/data/blog';
 import { getSubcategoryBySlug } from '@/lib/data/subcategories';
 import { getProductsBySubCategory } from '@/lib/data/products';
-import { ProductCard } from '@/components/ProductCard';
+import { ProductCardServer as ProductCard } from '@/components/ProductCardServer';
 import { JsonLd } from '@/components/JsonLd';
 import { TagCloud } from '@/components/TagCloud';
 import { RelatedSearches } from '@/components/RelatedSearches';
@@ -122,7 +122,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {post.category}
           </span>
           <h1 className="text-3xl sm:text-4xl font-serif font-bold text-neutral-100 leading-tight">{post.title}</h1>
-          <div className="flex items-center gap-4 text-xs text-neutral-500">
+          <div className="flex items-center gap-4 text-xs text-neutral-400">
             <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" /><time dateTime={isoDate(post.date)}>{post.date}</time></span>
             <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime}</span>
           </div>
@@ -212,7 +212,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <details key={idx} className="group rounded-2xl bg-neutral-900/60 border border-neutral-800/90 open:border-amber-700/50 p-5">
                   <summary className="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-serif font-bold text-neutral-100 group-open:text-amber-300">
                     <span>{faq.question}</span>
-                    <ChevronRight className="w-4 h-4 shrink-0 text-neutral-500 group-open:rotate-90 transition-transform" />
+                    <ChevronRight className="w-4 h-4 shrink-0 text-neutral-400 group-open:rotate-90 transition-transform" />
                   </summary>
                   <p className="mt-3 text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">{faq.answer}</p>
                 </details>
@@ -250,7 +250,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {related.map((r) => (
                 <Link key={r.slug} href={`/blog/${r.slug}/`} className="group rounded-xl overflow-hidden bg-neutral-900/60 border border-neutral-800 hover:border-amber-700/50 transition-colors p-4 space-y-2">
                   <h3 className="text-sm font-serif font-bold text-neutral-100 group-hover:text-amber-300 line-clamp-2">{r.title}</h3>
-                  <p className="text-xs text-neutral-500">{r.readTime}</p>
+                  <p className="text-xs text-neutral-400">{r.readTime}</p>
                 </Link>
               ))}
             </div>

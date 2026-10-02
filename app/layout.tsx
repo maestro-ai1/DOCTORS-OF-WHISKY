@@ -7,9 +7,7 @@ import { WishlistProvider } from '@/lib/context/WishlistContext';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { AgeGateModal } from '@/components/AgeGateModal';
-import { CartDrawer } from '@/components/CartDrawer';
-import { CheckoutModal } from '@/components/CheckoutModal';
-import { SalesPopup } from '@/components/SalesPopup';
+import { LazyOverlays } from '@/components/LazyOverlays';
 
 // Site-wide defaults only. Every page sets its own title, description, canonical and social tags via buildMetadata()
 // (a canonical here would be inherited by pages that forget their own).
@@ -132,17 +130,13 @@ export default function RootLayout({
               {children}
             </main>
 
-            {/* Cart Drawer */}
-            <CartDrawer />
+            {/* Cart drawer, checkout modal and sales pop-up (loaded after the first interaction) */}
+            <LazyOverlays />
 
-            {/* Checkout Modal */}
-            <CheckoutModal />
-
-            {/* Verified Sales Live Notifications */}
-            <SalesPopup />
-
-            {/* Global Footer */}
-            <Footer />
+            {/* Global Footer (layout and paint are skipped until it is near the viewport) */}
+            <div className="cv-auto cv-footer">
+              <Footer />
+            </div>
           </WishlistProvider>
         </CartProvider>
       </body>

@@ -4,6 +4,7 @@ import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { getSubcategoriesByCategory } from '@/lib/data/subcategories';
 import { PRODUCTS } from '@/lib/data/products';
 import ShopClient from './ShopClient';
+import { slimProducts } from '@/lib/slim-products';
 
 // Server-rendered intro + crawlable category/collection links; the interactive filter grid below is client-side.
 export default function ShopPage() {
@@ -41,7 +42,7 @@ export default function ShopPage() {
           </nav>
         </div>
       </section>
-      <ShopClient />
+      <ShopClient products={slimProducts(PRODUCTS)} />
     </>
   );
 }

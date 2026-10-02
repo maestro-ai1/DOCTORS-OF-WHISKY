@@ -22,7 +22,7 @@ const FILLER = new Set(
 const SIZE_OR_NUMBER = /^(\d+(\.\d+)?|ml|l|ltr|litre|litres|liter|liters|pack|packs|x|can|cans)$/;
 
 /** Everything a shopper could type for a product: name, brand, collection, style, origin, copy and the product's keywords and tags. */
-function haystack(p: Product): string {
+export function buildSearchText(p: Product): string {
   return (
     ' ' +
     norm(
@@ -40,8 +40,9 @@ function haystack(p: Product): string {
 
 const cache = new WeakMap<Product, string>();
 const hay = (p: Product) => {
+  if (p.searchText) return p.searchText;
   let h = cache.get(p);
-  if (!h) { h = haystack(p); cache.set(p, h); }
+  if (!h) { h = buildSearchText(p); cache.set(p, h); }
   return h;
 };
 

@@ -85,19 +85,19 @@ export function AuthoritySection() {
 
               <div className="grid grid-cols-2 gap-2 text-xs">
                 <div className="p-2 rounded-lg bg-neutral-900/60 border border-neutral-800/70">
-                  <span className="text-[10px] text-neutral-500 uppercase tracking-wider block">Location</span>
+                  <span className="text-[10px] text-neutral-400 uppercase tracking-wider block">Location</span>
                   <span className="font-medium text-neutral-200 text-[11px]">Sydney CBD, NSW</span>
                 </div>
                 <div className="p-2 rounded-lg bg-neutral-900/60 border border-neutral-800/70">
-                  <span className="text-[10px] text-neutral-500 uppercase tracking-wider block">Climate</span>
+                  <span className="text-[10px] text-neutral-400 uppercase tracking-wider block">Climate</span>
                   <span className="font-mono text-amber-400 font-semibold text-[11px]">14.0°C · 65% RH</span>
                 </div>
                 <div className="p-2 rounded-lg bg-neutral-900/60 border border-neutral-800/70">
-                  <span className="text-[10px] text-neutral-500 uppercase tracking-wider block">Security</span>
+                  <span className="text-[10px] text-neutral-400 uppercase tracking-wider block">Security</span>
                   <span className="font-medium text-emerald-400 text-[11px]">Capsule &amp; Seal Monitored</span>
                 </div>
                 <div className="p-2 rounded-lg bg-neutral-900/60 border border-neutral-800/70">
-                  <span className="text-[10px] text-neutral-500 uppercase tracking-wider block">Liquor Licence</span>
+                  <span className="text-[10px] text-neutral-400 uppercase tracking-wider block">Liquor Licence</span>
                   <span className="font-mono text-neutral-300 text-[10px]">{CONTACT.liquorLicence}</span>
                 </div>
               </div>

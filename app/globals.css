@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+/* Off-screen sections: the browser skips their layout and paint until they approach the viewport (content stays in the DOM for crawlers). */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+.cv-footer {
+  contain-intrinsic-size: auto 700px;
+}
+
+.cv-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 520px;
+}

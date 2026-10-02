@@ -73,7 +73,7 @@ export default async function PayPage({ params, searchParams }: { params: Promis
 
       {!paid && <PayClient refCode={order.ref} token={t || ''} whatsappUrl={wa} />}
 
-      <p className="text-center text-xs text-neutral-500 leading-relaxed">
+      <p className="text-center text-xs text-neutral-400 leading-relaxed">
         {TERMS_LINE}
         <br />
         Help: <a className="text-amber-400 underline" href={wa}>WhatsApp</a> · <a className="text-amber-400 underline" href={`mailto:${CONTACT.email}?subject=${encodeURIComponent(`Payment for ${order.ref}`)}`}>{CONTACT.email}</a>

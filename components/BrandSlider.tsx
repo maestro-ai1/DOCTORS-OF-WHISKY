@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import { useInteracted } from '@/hooks/use-interacted';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -201,14 +202,15 @@ export function BrandSlider() {
     setStartIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
   };
 
-  // Auto-scroll slideshow every 4.5s
+  // Auto-scroll slideshow every 4.5s (starts after the first interaction)
+  const interacted = useInteracted();
   useEffect(() => {
-    if (isPaused) return;
+    if (isPaused || !interacted) return;
     const interval = setInterval(() => {
       setStartIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
     }, 4500);
     return () => clearInterval(interval);
-  }, [isPaused, maxIndex]);
+  }, [isPaused, maxIndex, interacted]);
 
   return (
     <section
@@ -304,7 +306,7 @@ export function BrandSlider() {
                         {brand.established}
                       </span>
                       <span className="text-[11px] text-neutral-400 font-medium flex items-center gap-1">
-                        <Globe2 className="w-3 h-3 text-neutral-500" />
+                        <Globe2 className="w-3 h-3 text-neutral-400" />
                         {brand.country}
                       </span>
                     </div>
@@ -319,7 +321,7 @@ export function BrandSlider() {
                 <div className="space-y-1">
                   <h3 className="text-base font-serif font-bold text-neutral-100 group-hover:text-amber-200 transition-colors flex items-center justify-between">
                     <span>{brand.name}</span>
-                    <ArrowUpRight className="w-3.5 h-3.5 text-neutral-500 group-hover:text-amber-400 transition-colors" />
+                    <ArrowUpRight className="w-3.5 h-3.5 text-neutral-400 group-hover:text-amber-400 transition-colors" />
                   </h3>
                   <p className="text-[11px] text-neutral-400 line-clamp-2 leading-relaxed font-light">
                     {brand.specialty}
@@ -328,7 +330,7 @@ export function BrandSlider() {
 
                 {/* Bottom: Region & Allocations link */}
                 <div className="pt-2 border-t border-neutral-800/80 flex items-center justify-between text-[11px]">
-                  <span className="text-neutral-500 font-medium">{brand.region}</span>
+                  <span className="text-neutral-400 font-medium">{brand.region}</span>
                   <span className="text-amber-400 font-semibold group-hover:underline">
                     View Bottles →
                   </span>
@@ -345,13 +347,17 @@ export function BrandSlider() {
               key={idx}
               type="button"
               onClick={() => setStartIndex(idx)}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
-                startIndex === idx
-                  ? 'w-6 bg-amber-500'
-                  : 'w-1.5 bg-neutral-800 hover:bg-neutral-700'
-              }`}
+              className="group flex h-6 min-w-6 items-center justify-center px-1"
               aria-label={`Slide ${idx + 1}`}
-            />
+            >
+              <span
+                className={`block h-1.5 rounded-full transition-all duration-300 ${
+                  startIndex === idx
+                    ? 'w-6 bg-amber-500'
+                    : 'w-1.5 bg-neutral-700 group-hover:bg-neutral-500'
+                }`}
+              />
+            </button>
           ))}
         </div>
       </div>

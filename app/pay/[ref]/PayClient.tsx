@@ -112,7 +112,7 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
             )}
             <div className="min-w-0 text-xs text-neutral-300">
               <p className="truncate font-semibold">{file.name}</p>
-              <p className="text-neutral-500">{(file.size / 1024).toFixed(0)} KB</p>
+              <p className="text-neutral-400">{(file.size / 1024).toFixed(0)} KB</p>
             </div>
           </div>
         )}

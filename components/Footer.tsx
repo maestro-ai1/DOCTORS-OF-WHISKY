@@ -40,7 +40,7 @@ export function Footer() {
               Australia&apos;s premier vault for rare single malts, aged Japanese whiskies, and collectible international spirits. Every bottle is sommelier-inspected and stored in our climate-regulated Sydney cellars.
             </p>
 
-            <div className="pt-2 border-t border-neutral-900 text-[11px] text-neutral-500 space-y-0.5 font-mono">
+            <div className="pt-2 border-t border-neutral-900 text-[11px] text-neutral-400 space-y-0.5 font-mono">
               <p><strong className="text-neutral-400 font-sans">ABN:</strong> {CONTACT.abn}</p>
               <p><strong className="text-neutral-400 font-sans">Liquor Licence:</strong> {CONTACT.liquorLicence}</p>
             </div>
@@ -56,7 +56,7 @@ export function Footer() {
                 <Link
                   key={idx}
                   href={link.href}
-                  className="text-neutral-400 hover:text-amber-300 transition-colors py-0.5"
+                  className="inline-block text-neutral-400 hover:text-amber-300 transition-colors py-1.5"
                 >
                   {link.label}
                 </Link>
@@ -116,7 +116,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Copyright & Location */}
-        <div className="border-t border-neutral-900 pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-neutral-500">
+        <div className="border-t border-neutral-900 pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-neutral-400">
           <p>© {new Date().getFullYear()} {SITE.name} Pty Ltd. All rights reserved. Sydney, NSW, Australia.</p>
           <div className="flex items-center gap-3 text-[10px]">
             <span>Domain: {SITE.domain}</span>

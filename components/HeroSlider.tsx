@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useInteracted } from '@/hooks/use-interacted';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CONTACT } from '@/lib/config';
@@ -33,13 +34,15 @@ const SLIDES = [
 
 export function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const interacted = useInteracted();
 
   useEffect(() => {
+    if (!interacted) return;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % SLIDES.length);
     }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [interacted]);
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % SLIDES.length);
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
@@ -60,6 +63,8 @@ export function HeroSlider() {
             alt={`${slide.title} - buy whisky online in Australia`}
             fill
             priority={idx === 0}
+            fetchPriority={idx === 0 ? 'high' : 'auto'}
+            quality={70}
             className="object-cover object-center"
             sizes="100vw"
           />

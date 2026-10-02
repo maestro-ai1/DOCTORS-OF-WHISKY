@@ -64,7 +64,7 @@ export function llmsTxt(full = false): string {
   );
   if (full) {
     lines.push('## Product index', '');
-    for (const p of PRODUCTS) lines.push(`- [${p.name}](${D}/shop/${p.category}/${p.slug}/): ${p.brand}, ${p.subCategory}, ${p.size}, ${p.abv} ABV, $${p.price.toLocaleString('en-AU')} AUD`);
+    for (const p of PRODUCTS) lines.push(`- [${p.name}](${D}/shop/${p.category}/${p.slug}/): ${[p.brand, p.subCategory, p.size, p.abv ? `${p.abv} ABV` : ''].filter(Boolean).join(', ')}, ${p.price.toLocaleString('en-AU')} AUD`);
     lines.push('');
   }
   return lines.join('\n');
@@ -100,7 +100,7 @@ Not required. All resources below are public and read-only.
 \`\`\`json
 {
   "agent_auth": {
-    "register_uri": null,
+    "register_uri": "${D}/auth.md",
     "identity_types_supported": ["none"],
     "credential_types_supported": ["none"],
     "notes": "No authentication required. All resources are public."
@@ -171,9 +171,9 @@ export const serverCard = () => ({
 export const oauthProtectedResource = () => ({
   resource: D,
   resource_name: `${SITE.name} Public Catalogue`,
-  authorization_servers: [],
-  scopes_supported: [],
-  bearer_methods_supported: [],
+  authorization_servers: [D],
+  scopes_supported: ['catalogue:read'],
+  bearer_methods_supported: ['header'],
   resource_documentation: `${D}/auth.md`,
   resource_policy_uri: `${D}/terms/`,
   tls_client_certificate_bound_access_tokens: false,
@@ -190,7 +190,7 @@ export const oauthAuthorizationServer = () => ({
   scopes_supported: [],
   note: `${SITE.name} has no protected APIs. All resources are publicly accessible.`,
   public_resources: [`${D}/shop/`, `${D}/blog/`, `${D}/faq/`, `${D}/llms.txt`, `${D}/api/products/`, `${D}/.well-known/api-catalog`, `${D}/.well-known/agent-skills/index.json`, `${D}/.well-known/mcp/server-card.json`],
-  agent_auth: { register_uri: null, identity_types_supported: ['none'], credential_types_supported: ['none'], notes: 'No registration required. All content is publicly accessible to agents.' },
+  agent_auth: { register_uri: `${D}/auth.md`, identity_types_supported: ['none'], credential_types_supported: ['none'], notes: 'No registration required. All content is publicly accessible to agents.' },
 });
 
 export const openidConfiguration = () => ({
@@ -254,4 +254,43 @@ export const ucp = () => ({
   payment_methods: PAYMENTS,
   legal: { age_restriction: '18+', product_type: 'alcoholic beverages', compliance: 'Sold to adults only; signature on delivery.' },
   updated: CONTENT_UPDATED,
+});
+
+export const aiCatalog = () => ({
+  specVersion: '1.0',
+  host: { name: SITE.name, url: D, description: SITE.tagline, contact: `${D}/contact/` },
+  entries: [
+    {
+      identifier: `urn:air:${SITE.domain}:mcp:store`,
+      displayName: `${SITE.name} MCP server`,
+      description: 'Search whisky, tequila, gin, champagne and spirits, inspect products and prepare an order draft.',
+      type: 'application/json',
+      url: `${D}/.well-known/mcp/server-card.json`,
+      representativeQueries: ['buy Glenfiddich whisky online Australia', 'find a 12 year old single malt Scotch under $150', 'Don Julio tequila price', 'best gift whisky Australia'],
+    },
+    {
+      identifier: `urn:air:${SITE.domain}:api:catalogue`,
+      displayName: `${SITE.name} product catalogue API`,
+      description: 'Public JSON catalogue of every bottle with price, size, brand and category.',
+      type: 'application/json',
+      url: `${D}/api/products/`,
+      representativeQueries: ['list all Scotch whisky products', 'Macallan single malt prices', 'tequila bottles in stock', 'rare Japanese whisky'],
+    },
+    {
+      identifier: `urn:air:${SITE.domain}:skills:index`,
+      displayName: `${SITE.name} agent skills`,
+      description: 'Agent Skills index describing how to browse, search and order.',
+      type: 'application/json',
+      url: `${D}/.well-known/agent-skills/index.json`,
+      representativeQueries: ['how do I order whisky from Doctors of Whisky', 'what skills does this shop offer agents'],
+    },
+    {
+      identifier: `urn:air:${SITE.domain}:docs:llms`,
+      displayName: `${SITE.name} llms.txt`,
+      description: 'Plain-text site guide for language models with key pages and the full catalogue.',
+      type: 'text/plain',
+      url: `${D}/llms.txt`,
+      representativeQueries: ['what does Doctors of Whisky sell', 'Australian online bottle shop catalogue overview'],
+    },
+  ],
 });

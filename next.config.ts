@@ -81,9 +81,19 @@ const nextConfig: NextConfig = {
       })),
     ];
   },
+  // Agents that send `Accept: text/markdown` get the page as Markdown (see app/api/markdown).
+  async rewrites() {
+    const wantsMarkdown = [{ type: 'header' as const, key: 'accept', value: '(.*)text/markdown(.*)' }];
+    return {
+      beforeFiles: [
+        { source: '/', has: wantsMarkdown, destination: '/api/markdown' },
+        { source: '/:path((?!api|_next|\\.well-known|images|js|admin|pay)[^.]*)', has: wantsMarkdown, destination: '/api/markdown/:path' },
+      ],
+    };
+  },
   async headers() {
     return [
-      { source: '/:path*', headers: [...SECURITY_HEADERS, { key: 'Link', value: LINK_HEADER }] },
+      { source: '/:path*', headers: [...SECURITY_HEADERS, { key: 'Link', value: LINK_HEADER }, { key: 'Vary', value: 'Accept' }] },
       {
         source: '/images/:path*',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],

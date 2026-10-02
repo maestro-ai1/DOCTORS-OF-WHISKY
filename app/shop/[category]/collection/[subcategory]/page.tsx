@@ -6,7 +6,7 @@ import { SUBCATEGORIES, getSubcategoryBySlug } from '@/lib/data/subcategories';
 import { getProductsBySubCategory } from '@/lib/data/products';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { BLOG_POSTS } from '@/lib/data/blog';
-import { ProductCard } from '@/components/ProductCard';
+import { ProductCardServer as ProductCard } from '@/components/ProductCardServer';
 import { ArrowLeft, ChevronRight, HelpCircle, Sparkles } from 'lucide-react';
 import { buildMetadata, subcategoryTags, breadcrumbLd, itemListLd, faqLd, webPageLd, ld, titleCase } from '@/lib/seo';
 import { TagCloud } from '@/components/TagCloud';
@@ -116,9 +116,9 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
           <>
             <h2 className="text-xl sm:text-2xl font-serif font-bold text-neutral-100">{titleCase(sub.primaryKeyword)}: {products.length} {sub.name} {products.length === 1 ? 'bottle' : 'bottles'} to buy online</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {products.map((product) => (
-                <div key={product.id} className="h-full">
-                  <ProductCard product={product} altKeyword={sub.primaryKeyword} />
+              {products.map((product, i) => (
+                <div key={product.id} className="h-full cv-card">
+                  <ProductCard product={product} altKeyword={sub.primaryKeyword} priority={i < 2} />
                 </div>
               ))}
             </div>
@@ -160,7 +160,7 @@ export default async function CollectionPage({ params }: CollectionPageProps) {
               <details key={idx} className="group rounded-2xl bg-neutral-900/60 border border-neutral-800/90 open:border-amber-700/50 p-5">
                 <summary className="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-serif font-bold text-neutral-100 group-open:text-amber-300">
                   <span>{faq.question}</span>
-                  <ChevronRight className="w-4 h-4 shrink-0 text-neutral-500 group-open:rotate-90 transition-transform" />
+                  <ChevronRight className="w-4 h-4 shrink-0 text-neutral-400 group-open:rotate-90 transition-transform" />
                 </summary>
                 <p className="mt-3 text-xs sm:text-sm text-neutral-300 leading-relaxed font-light">{faq.answer}</p>
               </details>

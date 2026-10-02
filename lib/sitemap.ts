@@ -58,7 +58,7 @@ export const productEntries = (): SitemapEntry[] =>
     path: `/shop/${p.category}/${p.slug}/`,
     changefreq: 'weekly',
     priority: 0.8,
-    images: p.images.slice(0, 3).map((i) => ({ url: i.startsWith('http') ? i : BASE_URL + i, title: p.name })),
+    images: p.images.filter((i) => !i.endsWith('.svg')).slice(0, 3).map((i) => ({ url: i.startsWith('http') ? i : BASE_URL + i, title: p.name })),
   }));
 
 export const blogEntries = (): SitemapEntry[] =>

@@ -7,6 +7,8 @@ import { AuthoritySection } from '@/components/AuthoritySection';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
 import { HomeFaq } from '@/components/HomeFaq';
 import { HomeIntro } from '@/components/HomeIntro';
+import { getFeaturedProducts } from '@/lib/data/products';
+import { slimProducts } from '@/lib/slim-products';
 import { buildMetadata } from '@/lib/seo';
 import { HOME_SEO } from '@/lib/data/home-seo';
 
@@ -31,19 +33,29 @@ export default function HomePage() {
       <TrustBar />
 
       {/* 3. Curated Product Grid (Exactly 6 Featured Bottles) */}
-      <FeaturedProducts />
+      <div className="cv-auto">
+        <FeaturedProducts products={slimProducts(getFeaturedProducts().slice(0, 6))} />
+      </div>
 
       {/* 4. Brand & Distilleries Logo Slideshow */}
-      <BrandSlider />
+      <div className="cv-auto">
+        <BrandSlider />
+      </div>
 
       {/* 5. Compact Authority & Sydney Vault Story */}
-      <AuthoritySection />
+      <div className="cv-auto">
+        <AuthoritySection />
+      </div>
 
       {/* 6. Trustpilot Verified Social Proof Section (3-Box Slideshow) */}
-      <TrustpilotSection />
+      <div className="cv-auto">
+        <TrustpilotSection />
+      </div>
 
       {/* 7. Homepage 3-Item FAQ Accordion */}
-      <HomeFaq />
+      <div className="cv-auto">
+        <HomeFaq />
+      </div>
     </div>
   );
 }

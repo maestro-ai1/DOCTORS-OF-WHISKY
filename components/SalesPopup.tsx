@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useInteracted } from '@/hooks/use-interacted';
 import { Wine, CheckCircle2, X } from 'lucide-react';
 
 interface SaleNotification {
@@ -48,7 +49,9 @@ export function SalesPopup() {
   const [visible, setVisible] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const interacted = useInteracted();
   useEffect(() => {
+    if (!interacted) return;
     // Pop up every 3 minutes (3 * 60 * 1000 = 180,000 ms)
     const intervalMs = 3 * 60 * 1000;
     let autoHideTimer: NodeJS.Timeout;
@@ -76,7 +79,7 @@ export function SalesPopup() {
       clearInterval(intervalTimer);
       clearTimeout(autoHideTimer);
     };
-  }, []);
+  }, [interacted]);
 
   if (!visible) return null;
 
@@ -110,7 +113,7 @@ export function SalesPopup() {
               <CheckCircle2 className="w-2.5 h-2.5" />
               Verified Allocation
             </span>
-            <span className="text-[10px] text-neutral-500">{sale.timeAgo}</span>
+            <span className="text-[10px] text-neutral-400">{sale.timeAgo}</span>
           </div>
         </div>
 
@@ -118,7 +121,7 @@ export function SalesPopup() {
         <button
           type="button"
           onClick={() => setVisible(false)}
-          className="absolute top-2.5 right-2.5 p-1 rounded-md text-neutral-500 hover:text-neutral-300 hover:bg-neutral-900 transition-colors"
+          className="absolute top-2.5 right-2.5 p-1 rounded-md text-neutral-400 hover:text-neutral-300 hover:bg-neutral-900 transition-colors"
           aria-label="Dismiss Notification"
         >
           <X className="w-3.5 h-3.5" />

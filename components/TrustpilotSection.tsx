@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import { useInteracted } from '@/hooks/use-interacted';
 import { TRUSTPILOT_STATS, REVIEWS } from '@/lib/data/reviews';
 import { Star, CheckCircle, ShieldCheck, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -21,14 +22,15 @@ export function TrustpilotSection() {
     setCurrentPage((prev) => (prev - 1 < 0 ? totalPages - 1 : prev - 1));
   };
 
-  // Auto-advance review slideshow every 6s
+  // Auto-advance review slideshow every 6s (starts after the first interaction)
+  const interacted = useInteracted();
   useEffect(() => {
-    if (isPaused) return;
+    if (isPaused || !interacted) return;
     const timer = setInterval(() => {
       setCurrentPage((prev) => (prev + 1 >= totalPages ? 0 : prev + 1));
     }, 6000);
     return () => clearInterval(timer);
-  }, [isPaused, totalPages]);
+  }, [isPaused, totalPages, interacted]);
 
   const currentReviews = REVIEWS.slice(
     currentPage * pageSize,
@@ -101,7 +103,7 @@ export function TrustpilotSection() {
                         </div>
                       ))}
                     </div>
-                    <span className="text-[11px] text-neutral-500 font-mono">
+                    <span className="text-[11px] text-neutral-400 font-mono">
                       {review.date}
                     </span>
                   </div>
@@ -162,13 +164,17 @@ export function TrustpilotSection() {
                   key={idx}
                   type="button"
                   onClick={() => setCurrentPage(idx)}
-                  className={`h-1.5 rounded-full transition-all duration-300 ${
-                    currentPage === idx
-                      ? 'w-6 bg-emerald-500'
-                      : 'w-1.5 bg-neutral-800 hover:bg-neutral-700'
-                  }`}
+                  className="group flex h-6 min-w-6 items-center justify-center px-1"
                   aria-label={`Go to reviews page ${idx + 1}`}
-                />
+                >
+                  <span
+                    className={`block h-1.5 rounded-full transition-all duration-300 ${
+                      currentPage === idx
+                        ? 'w-6 bg-emerald-500'
+                        : 'w-1.5 bg-neutral-700 group-hover:bg-neutral-500'
+                    }`}
+                  />
+                </button>
               ))}
             </div>
 

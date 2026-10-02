@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useInteracted } from '@/hooks/use-interacted';
 import Link from 'next/link';
 import { CONTACT } from '@/lib/config';
 import { Sparkles, Truck, ShieldCheck, ChevronRight } from 'lucide-react';
@@ -28,13 +29,15 @@ const MESSAGES = [
 
 export function AnnouncementBar() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const interacted = useInteracted();
 
   useEffect(() => {
+    if (!interacted) return;
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % MESSAGES.length);
     }, 4500);
     return () => clearInterval(timer);
-  }, []);
+  }, [interacted]);
 
   const activeMsg = MESSAGES[currentIndex];
   const IconComponent = activeMsg.icon;
@@ -62,7 +65,7 @@ export function AnnouncementBar() {
 
         {/* Right: Direct WhatsApp concierge */}
         <div className="hidden lg:flex items-center gap-3 text-[11px]">
-          <span className="text-neutral-500">Concierge WhatsApp:</span>
+          <span className="text-neutral-400">Concierge WhatsApp:</span>
           <a
             href={`https://wa.me/${CONTACT.whatsappNumber}`}
             target="_blank"

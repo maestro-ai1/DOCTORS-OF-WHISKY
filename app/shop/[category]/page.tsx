@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { getProductsByCategory } from '@/lib/data/products';
 import { getSubcategoriesByCategory } from '@/lib/data/subcategories';
-import { ProductCard } from '@/components/ProductCard';
+import { ProductCardServer as ProductCard } from '@/components/ProductCardServer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, ArrowUpRight } from 'lucide-react';
@@ -114,9 +114,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                       <h3 className="font-serif font-bold text-neutral-100 group-hover:text-amber-300 transition-colors truncate">
                         {sub.name}
                       </h3>
-                      <p className="text-xs text-neutral-500">{count} bottle{count === 1 ? '' : 's'} in stock</p>
+                      <p className="text-xs text-neutral-400">{count} bottle{count === 1 ? '' : 's'} in stock</p>
                     </div>
-                    <ArrowUpRight className="w-4 h-4 text-neutral-500 group-hover:text-amber-400 transition-colors shrink-0" />
+                    <ArrowUpRight className="w-4 h-4 text-neutral-400 group-hover:text-amber-400 transition-colors shrink-0" />
                   </Link>
                 );
               })}

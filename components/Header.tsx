@@ -192,7 +192,7 @@ export function Header() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search rare whiskies, brands (Macallan, Nikka, GlenDronach), vintage, tequila, cognac..."
-                className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-neutral-950 border border-neutral-700 text-neutral-100 placeholder-neutral-500 text-sm focus:outline-none focus:border-amber-500"
+                className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-neutral-950 border border-neutral-700 text-neutral-100 placeholder-neutral-400 text-sm focus:outline-none focus:border-amber-500"
                 autoFocus
               />
             </div>

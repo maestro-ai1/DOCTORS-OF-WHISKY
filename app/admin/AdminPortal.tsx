@@ -92,8 +92,8 @@ export function AdminPortal() {
         <OrderPanel key={current.ref} order={current} onChange={replaceOrder} />
       ) : (
         <ul className="space-y-2" aria-label="Orders">
-          {loading && <li className="text-sm text-neutral-500 p-4">Loading…</li>}
-          {!loading && orders.length === 0 && <li className="text-sm text-neutral-500 p-4 border border-dashed border-neutral-800 rounded-2xl">No orders yet.</li>}
+          {loading && <li className="text-sm text-neutral-400 p-4">Loading…</li>}
+          {!loading && orders.length === 0 && <li className="text-sm text-neutral-400 p-4 border border-dashed border-neutral-800 rounded-2xl">No orders yet.</li>}
           {orders.map((o) => (
             <li key={o.ref}>
               <button onClick={() => setSelected(o.ref)} className="w-full text-left p-3 rounded-2xl border bg-neutral-900/70 border-neutral-800 hover:border-amber-600">
@@ -105,7 +105,7 @@ export function AdminPortal() {
                   <span className="text-sm text-neutral-300 truncate">{o.customer.fullName}</span>
                   <span className={`shrink-0 px-2 py-0.5 rounded-full font-semibold ${STATUS[o.status].cls}`}>{STATUS[o.status].label}</span>
                 </div>
-                <p className="text-[11px] text-neutral-500 mt-1">{when(o.createdAt)}{o.proofs?.length ? <span className="ml-2 text-emerald-300"><Paperclip className="w-3 h-3 inline" /> screenshot sent</span> : null}</p>
+                <p className="text-[11px] text-neutral-400 mt-1">{when(o.createdAt)}{o.proofs?.length ? <span className="ml-2 text-emerald-300"><Paperclip className="w-3 h-3 inline" /> screenshot sent</span> : null}</p>
               </button>
             </li>
           ))}
@@ -187,11 +187,11 @@ function OrderPanel({ order, onChange }: { order: OrderRecord; onChange: (o: Ord
           <p className="text-xs text-neutral-400 break-all">
             <a href={`tel:${phone}`} className="underline">{phone}</a> · <a href={`mailto:${order.customer.email}`} className="underline">{order.customer.email}</a>
           </p>
-          <p className="text-xs text-neutral-500 mt-1">{order.lines.map((l) => `${l.quantity} × ${l.name}`).join(', ')}</p>
+          <p className="text-xs text-neutral-400 mt-1">{order.lines.map((l) => `${l.quantity} × ${l.name}`).join(', ')}</p>
         </div>
         <div className="text-right shrink-0">
           <p className="font-serif font-bold text-2xl text-neutral-100">{aud(order.totals.total)}</p>
-          <p className="text-[11px] text-neutral-500">{order.paymentMethodName}</p>
+          <p className="text-[11px] text-neutral-400">{order.paymentMethodName}</p>
         </div>
       </div>
 
