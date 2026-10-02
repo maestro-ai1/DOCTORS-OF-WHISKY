@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, Suspense } from 'react';
+import { searchProducts } from '@/lib/search';
 import { useSearchParams } from 'next/navigation';
 import { PRODUCTS } from '@/lib/data/products';
 import { Product } from '@/lib/types';
@@ -44,6 +45,8 @@ function ShopContent() {
   const countries = useMemo(() => Array.from(new Set(PRODUCTS.map((p) => p.country))).sort(), []);
 
   // Filtered Products
+  const searchIds = useMemo(() => (search.trim() ? new Set(searchProducts(PRODUCTS, search).map((p) => p.id)) : null), [search]);
+
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((product) => {
       // Wishlist check
@@ -69,15 +72,7 @@ function ShopContent() {
 
       // Search text check
       if (search.trim()) {
-        const query = search.toLowerCase();
-        const matchesName = product.name.toLowerCase().includes(query);
-        const matchesBrand = product.brand.toLowerCase().includes(query);
-        const matchesDesc = product.description.toLowerCase().includes(query);
-        const matchesRegion = product.region?.toLowerCase().includes(query);
-        const matchesCategory = product.category.toLowerCase().includes(query);
-        if (!matchesName && !matchesBrand && !matchesDesc && !matchesRegion && !matchesCategory) {
-          return false;
-        }
+        if (!searchIds || !searchIds.has(product.id)) return false;
       }
 
       return true;
@@ -87,7 +82,7 @@ function ShopContent() {
       if (sortBy === 'name') return a.name.localeCompare(b.name);
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
-  }, [category, brand, country, badge, priceRange, search, sortBy, showWishlistOnly, wishlist]);
+  }, [category, brand, country, badge, priceRange, search, searchIds, sortBy, showWishlistOnly, wishlist]);
 
   const resetFilters = () => {
     setCategory('all');

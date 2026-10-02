@@ -11,11 +11,11 @@ import { buildMetadata } from '@/lib/seo';
 import { HOME_SEO } from '@/lib/data/home-seo';
 
 export const metadata = buildMetadata({
-  title: 'Buy Whisky Online Australia | Whiskey Gifts & Single Malt',
+  title: 'Buy Glenfiddich, Tequila & Whisky Online Australia',
   description:
-    'Buy whisky online in Australia: whiskey gifts, single malt whisky, bourbon and Japanese whisky, plus gin, tequila and vodka. Insured delivery, 18+.',
+    'Buy Glenfiddich, tequila, whisky, gin, champagne, prosecco, Baileys, Jim Beam and Jack Daniels online in Australia. Insured delivery, 18+.',
   path: '/',
-  keywords: [HOME_SEO.primary.kw, ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
+  keywords: [HOME_SEO.primary.kw, ...HOME_SEO.primaries.map((k) => k.kw), ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
 });
 
 export default function HomePage() {

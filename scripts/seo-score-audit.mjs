@@ -51,6 +51,7 @@ async function audit(url, kind, k) {
     checks['15 secondary keywords visible as links (H2 section)'] = count(related, /<li>/g) >= Math.min(15, k.secondary.length) || (kind === 'home');
   }
   if (kind === 'home') checks['15 secondary keywords visible as links (H2 section)'] = count(section(h, 'Popular whisky searches'), /<li>/g) >= 15;
+  if (kind === 'home') checks['tags line (20+ high-volume tags)'] = count(section(h, 'Tags line'), /<li>/g) >= 20;
   if (['product', 'blog'].includes(kind)) checks['20 tags visible'] = count(tagsSec, /<li>/g) >= 20;
   if (['sub', 'category', 'page', 'faq', 'blogindex'].includes(kind)) checks['tags visible'] = count(tagsSec, /<li>/g) >= 15;
   if (['product', 'sub', 'category'].includes(kind)) checks['outbound link to authority site'] = /href="https:\/\/(en\.wikipedia\.org|www\.healthdirect\.gov\.au|www\.scotch-whisky\.org\.uk|www\.cognac\.fr|www\.crt\.org\.mx|www\.wineaustralia\.com)/.test(h);

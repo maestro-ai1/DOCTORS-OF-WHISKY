@@ -21423,7 +21423,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/spiced-rum/spiced-rum--tds-kraken-50ml.jpg"
     ],
-    "description": "Kraken 50ml Spiced Rum is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for kraken black spiced rum? This page lists the price, size and insured delivery details.",
+    "description": "Kraken 50ml Spiced Rum is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for kraken booze? This page lists the price, size and insured delivery details.",
     "tastingNotes": {
       "nose": "Agave-forward sweetness with hints of pepper.",
       "palate": "Clean, rounded, and refreshingly smooth.",
@@ -21431,7 +21431,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 9,
     "sku": "KRAKEN-KRAKEN-50ML-SPICED",
-    "primaryKeyword": "kraken black spiced rum",
+    "primaryKeyword": "kraken booze",
     "secondaryKeywords": [
       "rum",
       "kraken rum",
@@ -21440,9 +21440,9 @@ export const PRODUCTS: Product[] = [
       "bacardi white rum",
       "rum with spices",
       "coconut rum",
+      "kraken black spiced rum",
       "bacardi rum",
       "dark rum",
-      "kraken booze",
       "caribbean rum",
       "black spiced rum kraken",
       "kraken coffee rum",
@@ -21471,8 +21471,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Spiced rum is a friendly gift for anyone who likes easy-drinking spirits and mixers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Kraken Black Spiced Rum | Kraken 50ml Spiced Rum",
-    "metaDescription": "Kraken Black Spiced Rum: Buy Kraken 50ml Spiced Rum online in Australia for $105 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Kraken Booze | Kraken 50ml Spiced Rum",
+    "metaDescription": "Kraken Booze: Buy Kraken 50ml Spiced Rum online in Australia for $105 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Kraken 50ml Spiced Rum sits in our spiced rum range, alongside 4 other Kraken bottles. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Kraken 50ml Spiced Rum is listed at 35.0% - 40.0% ABV in a 50ml format, from Caribbean.",
@@ -21518,7 +21518,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/spiced-rum/spiced-rum--tds-kraken-94-proof.jpg"
     ],
-    "description": "Kraken 94 Proof Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for kraken booze? This page lists the price, size and insured delivery details.",
+    "description": "Kraken 94 Proof Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for rum kraken price? This page lists the price, size and insured delivery details.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Silky texture with citrus and pepper.",
@@ -21527,7 +21527,7 @@ export const PRODUCTS: Product[] = [
     "badge": "COLLECTOR RELEASE",
     "stock": 10,
     "sku": "KRAKEN-KRAKEN-94-PROOF",
-    "primaryKeyword": "kraken booze",
+    "primaryKeyword": "rum kraken price",
     "secondaryKeywords": [
       "rum",
       "kraken rum",
@@ -21539,11 +21539,11 @@ export const PRODUCTS: Product[] = [
       "kraken black spiced rum",
       "bacardi rum",
       "dark rum",
+      "kraken booze",
       "black spiced rum kraken",
       "kraken coffee rum",
       "rum kraken spiced",
-      "kraken premix",
-      "kraken rum spiced"
+      "kraken premix"
     ],
     "faqs": [
       {
@@ -21567,14 +21567,15 @@ export const PRODUCTS: Product[] = [
         "answer": "Spiced rum is a friendly gift for anyone who likes easy-drinking spirits and mixers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Kraken Booze | Kraken 94 Proof Spiced Rum",
-    "metaDescription": "Kraken Booze: Buy Kraken 94 Proof Spiced Rum (700ml) online in Australia for $85 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Rum Kraken Price | Kraken 94 Proof Spiced Rum",
+    "metaDescription": "Rum Kraken Price: Buy Kraken 94 Proof Spiced Rum (700ml) online in Australia for $85 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Kraken 94 Proof Spiced Rum comes from Kraken. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Kraken 94 Proof Spiced Rum is listed at 35.0% - 40.0% ABV in a 700ml format, from Caribbean.",
-      "If you are looking for black spiced rum kraken, Kraken 94 Proof Spiced Rum is available from Doctors of Whisky at $85 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for kraken booze, Kraken 94 Proof Spiced Rum is available from Doctors of Whisky at $85 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
+      "kraken rum spiced",
       "kraken rum coffee",
       "kraken black spiced rum 700ml",
       "caribbean rum",
@@ -21593,8 +21594,7 @@ export const PRODUCTS: Product[] = [
       "bundaberg red rum",
       "australian rum",
       "cuban rum",
-      "bundaberg spiced rum",
-      "best rum"
+      "bundaberg spiced rum"
     ]
   },
   {
@@ -21709,7 +21709,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/spiced-rum/spiced-rum--tds-kraken-gold-spiced-rum.jpg"
     ],
-    "description": "Kraken Gold Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for rum kraken price? This page lists the price, size and insured delivery details.",
+    "description": "Kraken Gold Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for kraken spiced rum? This page lists the price, size and insured delivery details.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Silky texture with citrus and pepper.",
@@ -21717,7 +21717,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 12,
     "sku": "KRAKEN-KRAKEN-GOLD-SPICED",
-    "primaryKeyword": "rum kraken price",
+    "primaryKeyword": "kraken spiced rum",
     "secondaryKeywords": [
       "rum",
       "kraken rum",
@@ -21757,8 +21757,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Spiced rum is a friendly gift for anyone who likes easy-drinking spirits and mixers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Rum Kraken Price | Kraken Gold Spiced Rum",
-    "metaDescription": "Rum Kraken Price: Buy Kraken Gold Spiced Rum (700ml) online in Australia for $75 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Kraken Spiced Rum | Kraken Gold Spiced Rum",
+    "metaDescription": "Kraken Spiced Rum: Buy Kraken Gold Spiced Rum (700ml) online in Australia for $75 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Kraken Gold Spiced Rum is Kraken’s expression in this style.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Kraken Gold Spiced Rum is listed at 35.0% - 40.0% ABV in a 700ml format, from Caribbean.",
@@ -21804,7 +21804,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/spiced-rum/spiced-rum--tds-kraken-unknown-copper-scar.jpg"
     ],
-    "description": "Kraken Unknown Copper Scar Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for kraken spiced rum? This page lists the price, size and insured delivery details.",
+    "description": "Kraken Unknown Copper Scar Spiced Rum (700ml) is a spiced rum from Kraken, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for rum black kraken? This page lists the price, size and insured delivery details.",
     "tastingNotes": {
       "nose": "Toasted oak and dried spice.",
       "palate": "Balanced sweetness with a warming spice note.",
@@ -21812,7 +21812,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 4,
     "sku": "KRAKEN-KRAKEN-UNKNOWN-COPPER",
-    "primaryKeyword": "kraken spiced rum",
+    "primaryKeyword": "rum black kraken",
     "secondaryKeywords": [
       "rum",
       "kraken rum",
@@ -21852,8 +21852,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Spiced rum is a friendly gift for anyone who likes easy-drinking spirits and mixers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Kraken Spiced Rum | Kraken Unknown Copper Scar Spiced Rum",
-    "metaDescription": "Kraken Spiced Rum: Buy Kraken Unknown Copper Scar Spiced Rum (700ml) online in Australia for $160 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Rum Black Kraken | Kraken Unknown Copper Scar Spiced Rum",
+    "metaDescription": "Rum Black Kraken: Buy Kraken Unknown Copper Scar Spiced Rum (700ml) online in Australia for $160 AUD. Spiced Rum from Kraken. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Kraken Unknown Copper Scar Spiced Rum is Kraken’s expression in this style.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Kraken Unknown Copper Scar Spiced Rum is listed at 35.0% - 40.0% ABV in a 700ml format, from Caribbean.",

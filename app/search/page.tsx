@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, Suspense } from 'react';
+import { searchProducts } from '@/lib/search';
 import { useSearchParams } from 'next/navigation';
 import { PRODUCTS } from '@/lib/data/products';
 import { ProductCard } from '@/components/ProductCard';
@@ -16,21 +17,7 @@ function SearchPageContent() {
 
   const searchResults = useMemo(() => {
     if (!query.trim()) return [];
-    const q = query.toLowerCase().trim();
-    return PRODUCTS.filter((p) => {
-      return (
-        p.name.toLowerCase().includes(q) ||
-        p.brand.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        p.description.toLowerCase().includes(q) ||
-        p.country.toLowerCase().includes(q) ||
-        p.region?.toLowerCase().includes(q) ||
-        p.style?.toLowerCase().includes(q) ||
-        p.tastingNotes?.nose.toLowerCase().includes(q) ||
-        p.tastingNotes?.palate.toLowerCase().includes(q) ||
-        p.tastingNotes?.finish.toLowerCase().includes(q)
-      );
-    });
+    return searchProducts(PRODUCTS, query);
   }, [query]);
 
   return (

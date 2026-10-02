@@ -1,5 +1,7 @@
 import { PRODUCTS } from '@/lib/data/products';
 import { SUBCATEGORIES } from '@/lib/data/subcategories';
+import { SEO_KEYWORDS } from '@/lib/data/seo-keywords';
+import { searchProducts } from '@/lib/search';
 
 export interface TagLink {
   label: string;
@@ -17,7 +19,32 @@ const content = (s: string) => norm(s).split(' ').filter((t) => t && !MODIFIERS.
 const productTokens = PRODUCTS.map((p) => ({ p, tokens: new Set(content(`${p.brand} ${p.name}`)) }));
 const subTokens = SUBCATEGORIES.map((s) => ({ s, tokens: new Set([...content(s.name), ...content(s.primaryKeyword)]) }));
 
-/** Best real page for a tag: an exact product, then the most overlapping collection, else the page's own fallback. */
+/** Collection that owns the most products matching a tag (or the single product when only one matches). */
+function byProducts(tag: string): string | undefined {
+  const hits = searchProducts(PRODUCTS, tag);
+  if (!hits.length) return undefined;
+  if (hits.length === 1) return `/shop/${hits[0].category}/${hits[0].slug}/`;
+  const count = new Map<string, { n: number; category: string }>();
+  for (const p of hits) {
+    const c = count.get(p.subCategorySlug) ?? { n: 0, category: p.category };
+    c.n++;
+    count.set(p.subCategorySlug, c);
+  }
+  const [slug, top] = [...count.entries()].sort((a, b) => b[1].n - a[1].n)[0];
+  return `/shop/${top.category}/collection/${slug}/`;
+}
+
+/** Collection whose own keyword set (primary, secondary or tags from the keyword bank) already contains the tag. */
+function byKeywordOwner(tag: string): string | undefined {
+  const t = tag.toLowerCase().trim();
+  for (const sub of SUBCATEGORIES) {
+    const set = SEO_KEYWORDS[sub.slug];
+    if (set && (set.primary === t || set.secondary.includes(t) || set.tags.includes(t))) return `/shop/${sub.category}/collection/${sub.slug}/`;
+  }
+  return undefined;
+}
+
+/** Best real page for a tag: an exact product, then products that match the words, then the collection that owns the keyword, then the most overlapping collection name, else the page's own fallback. */
 function resolve(tag: string, fallback: string): string {
   const t = content(tag);
   if (t.length >= 2) {
@@ -30,6 +57,10 @@ function resolve(tag: string, fallback: string): string {
     }
     if (hit) return `/shop/${hit.p.category}/${hit.p.slug}/`;
   }
+  const viaProducts = byProducts(tag);
+  if (viaProducts) return viaProducts;
+  const owner = byKeywordOwner(tag);
+  if (owner) return owner;
   let best: { href: string; score: number } | undefined;
   for (const { s, tokens } of subTokens) {
     const score = t.filter((w) => tokens.has(w)).length;

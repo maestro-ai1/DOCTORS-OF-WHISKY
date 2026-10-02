@@ -27,7 +27,7 @@ const run = async (u) => {
   const tm = h.match(/aria-label="Popular searches and tags"[\s\S]*?<\/ul>/);
   const tc = tm ? (tm[0].match(/<li>/g) || []).length : 0;
   if (/^\/(blog|shop)\/[^/]+\/[^/]+\/$/.test(p) && !p.includes('/collection/')) { tagCounts.push(tc); if (tc < 15) w(p, 'only ' + tc + ' tags'); }
-  if (p === '/' && /Popular searches and tags/.test(h)) f(p, 'tags visible on home page');
+  if (p === '/' && !/aria-label="Tags line"/.test(h)) f(p, 'homepage tags line missing');
   if (tc) tags++;
 };
 for (let i = 0; i < urls.length; i += 8) await Promise.all(urls.slice(i, i + 8).map(run));

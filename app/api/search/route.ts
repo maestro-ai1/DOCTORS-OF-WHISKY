@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PRODUCTS } from '@/lib/data/products';
 import { SITE } from '@/lib/config';
+import { searchProducts } from '@/lib/search';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -10,16 +11,7 @@ export async function GET(req: NextRequest) {
   let matching = [...PRODUCTS];
 
   if (query) {
-    matching = PRODUCTS.filter((p) => {
-      return (
-        p.name.toLowerCase().includes(query) ||
-        p.brand.toLowerCase().includes(query) ||
-        p.category.toLowerCase().includes(query) ||
-        p.description.toLowerCase().includes(query) ||
-        p.country.toLowerCase().includes(query) ||
-        p.region?.toLowerCase().includes(query)
-      );
-    });
+    matching = searchProducts(PRODUCTS, query);
   }
 
   const results = matching.map((p) => ({
