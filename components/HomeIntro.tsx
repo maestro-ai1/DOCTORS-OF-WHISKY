@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { HOME_SEO } from '@/lib/data/home-seo';
 import { linkList } from '@/lib/tag-links';
 import { titleCase } from '@/lib/seo';

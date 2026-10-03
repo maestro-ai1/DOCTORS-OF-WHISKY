@@ -1,7 +1,7 @@
 import { ObfuscatedEmail } from '@/components/ObfuscatedEmail';
 import React from 'react';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { SITE, CONTACT } from '@/lib/config';
 import { ShieldCheck, RotateCcw, AlertTriangle, CheckCircle, Phone, Mail } from 'lucide-react';
 

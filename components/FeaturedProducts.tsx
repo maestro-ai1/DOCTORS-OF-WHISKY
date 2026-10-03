@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
 import { ProductCardServer } from '@/components/ProductCardServer';
 import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';

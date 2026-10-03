@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { ProductCardServer } from '@/components/ProductCardServer';
 import { SHOP_PAGE_COUNT, shopPageProducts, shopPagePath } from '@/lib/shop-pages';
 

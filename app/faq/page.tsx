@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { ALL_FAQS } from '@/lib/data/faq';
 import { HelpCircle, Sparkles, Phone, ArrowRight } from 'lucide-react';
 import { CONTACT } from '@/lib/config';

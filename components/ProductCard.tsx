@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
 import { CONTACT } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';

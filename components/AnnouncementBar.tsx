@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useInteracted } from '@/hooks/use-interacted';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { CONTACT } from '@/lib/config';
 import { Sparkles, Truck, ShieldCheck, ChevronRight } from 'lucide-react';
 

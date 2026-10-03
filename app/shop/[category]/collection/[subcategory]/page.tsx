@@ -1,6 +1,6 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import type { Metadata } from 'next';
 import { SUBCATEGORIES, getSubcategoryBySlug } from '@/lib/data/subcategories';
 import { getProductsBySubCategory } from '@/lib/data/products';

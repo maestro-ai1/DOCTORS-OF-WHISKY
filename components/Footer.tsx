@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { SITE, CONTACT } from '@/lib/config';
 import { Wine, ShieldCheck, Phone, CheckCircle2 } from 'lucide-react';
 

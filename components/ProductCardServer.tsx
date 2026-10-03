@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
 import { Sparkles } from 'lucide-react';
 import { CardActions, WishlistHeart } from '@/components/card/CardIslands';

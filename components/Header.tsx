@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { useRouter } from 'next/navigation';
 import { SITE, CONTACT } from '@/lib/config';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';

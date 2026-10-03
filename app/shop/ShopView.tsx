@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { getSubcategoriesByCategory } from '@/lib/data/subcategories';
 import { PRODUCTS } from '@/lib/data/products';

@@ -2,7 +2,7 @@
 
 import React, { useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { CONTACT } from '@/lib/config';
 import { CheckCircle, ShieldCheck, Phone, ArrowRight, Mail } from 'lucide-react';
 

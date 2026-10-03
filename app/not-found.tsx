@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { Wine, ArrowLeft, Search } from 'lucide-react';
 import type { Metadata } from 'next';
 

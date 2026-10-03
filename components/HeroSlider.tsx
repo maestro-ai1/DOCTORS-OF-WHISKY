@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useInteracted } from '@/hooks/use-interacted';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import Image from 'next/image';
 import { CONTACT } from '@/lib/config';
 import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Sparkles, Phone } from 'lucide-react';

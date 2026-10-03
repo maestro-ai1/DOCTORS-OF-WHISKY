@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
 import { CONTACT, SHOP_RULES } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';

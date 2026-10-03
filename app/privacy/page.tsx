@@ -1,6 +1,6 @@
 import { ObfuscatedEmail } from '@/components/ObfuscatedEmail';
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import { CONTACT } from '@/lib/config';
 import type { Metadata } from 'next';
 

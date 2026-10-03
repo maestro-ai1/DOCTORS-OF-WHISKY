@@ -1,6 +1,6 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
+import Link from '@/components/AppLink';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { BLOG_POSTS, getBlogPostBySlug, getRelatedBlogPosts } from '@/lib/data/blog';
