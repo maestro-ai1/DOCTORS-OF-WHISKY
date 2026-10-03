@@ -1,15 +1,10 @@
-'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
-import { ProductCard } from '@/components/ProductCard';
-import { ProductQuickViewModal } from '@/components/ProductQuickViewModal';
+import { ProductCardServer } from '@/components/ProductCardServer';
 import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
 
 export function FeaturedProducts({ products: featuredProducts }: { products: Product[] }) {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-
   return (
     <section className="py-16 sm:py-20 bg-neutral-950 px-4 sm:px-6 lg:px-8 border-b border-amber-900/30">
       <div className="max-w-7xl mx-auto space-y-10">
@@ -43,10 +38,7 @@ export function FeaturedProducts({ products: featuredProducts }: { products: Pro
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {featuredProducts.map((product) => (
             <div key={product.id} className="h-full">
-              <ProductCard
-                product={product}
-                onQuickView={(p) => setSelectedProduct(p)}
-              />
+              <ProductCardServer product={product} />
             </div>
           ))}
         </div>
@@ -76,13 +68,6 @@ export function FeaturedProducts({ products: featuredProducts }: { products: Pro
         </div>
       </div>
 
-      {/* Quick View Modal */}
-      {selectedProduct && (
-        <ProductQuickViewModal
-          product={selectedProduct}
-          onClose={() => setSelectedProduct(null)}
-        />
-      )}
     </section>
   );
 }
