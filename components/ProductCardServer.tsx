@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { Sparkles } from 'lucide-react';
 import { CardActions, WishlistHeart } from '@/components/card/CardIslands';
-import { slimProduct } from '@/lib/slim-products';
 
 interface Props {
   product: Product;
@@ -18,6 +17,10 @@ interface Props {
  * Same card as ProductCard, rendered on the server. Only the wishlist heart and the add-to-cart / WhatsApp buttons are client
  * components, so a collection page with dozens of bottles hydrates a few small islands instead of every card.
  */
+/** Only what the cart, checkout and WhatsApp message use, so each card ships a few hundred bytes of data, not the whole product. */
+const cartFields = (p: Product) =>
+  ({ id: p.id, name: p.name, slug: p.slug, category: p.category, sku: p.sku, price: p.price, size: p.size, brand: p.brand, images: p.images.slice(0, 1) }) as Product;
+
 export function ProductCardServer({ product, altKeyword, priority }: Props) {
   const cryptoPrice = product.price * 0.88; // 12% discount
   const href = `/shop/${product.category}/${product.slug}`;
@@ -103,7 +106,7 @@ export function ProductCardServer({ product, altKeyword, priority }: Props) {
           </div>
         </div>
 
-        <CardActions product={slimProduct(product)} />
+        <CardActions product={cartFields(product)} />
       </div>
     </div>
   );

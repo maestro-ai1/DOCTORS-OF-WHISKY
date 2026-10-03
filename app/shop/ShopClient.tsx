@@ -1,8 +1,7 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, Suspense } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { searchProducts } from '@/lib/search';
-import { useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductQuickViewModal } from '@/components/ProductQuickViewModal';
@@ -19,39 +18,53 @@ import {
 
 const PAGE_SIZE = 24;
 
-function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
-  const searchParams = useSearchParams();
-  const initialCategory = searchParams.get('category') || 'all';
-  const initialBrand = searchParams.get('brand') || 'all';
-  const initialCountry = searchParams.get('country') || 'all';
-  const initialSearch = searchParams.get('search') || searchParams.get('q') || '';
-  const initialBadge = searchParams.get('badge') || 'all';
-  const initialWishlist = searchParams.get('wishlist') === 'true';
+interface ShopClientProps {
+  brands: string[];
+  countries: string[];
+  /** bottles in the whole catalogue */
+  total: number;
+  /** the server-rendered page of bottles + pagination, shown while no filter is applied */
+  children: React.ReactNode;
+}
 
-  const [category, setCategory] = useState<string>(initialCategory);
-  const [brand, setBrand] = useState<string>(initialBrand);
-  const [country, setCountry] = useState<string>(initialCountry);
-  const [badge, setBadge] = useState<string>(initialBadge);
-  const [search, setSearch] = useState<string>(initialSearch);
+/**
+ * Filters and search for the shop. The unfiltered catalogue is server-rendered page by page (children);
+ * the full product index is only downloaded once a visitor filters, searches or re-sorts.
+ */
+export default function ShopClient({ brands, countries, total, children }: ShopClientProps) {
+  const [PRODUCTS, setProducts] = useState<Product[] | null>(null);
+  const [category, setCategory] = useState<string>('all');
+  const [brand, setBrand] = useState<string>('all');
+  const [country, setCountry] = useState<string>('all');
+  const [badge, setBadge] = useState<string>('all');
+  const [search, setSearch] = useState<string>('');
   const [priceRange, setPriceRange] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('featured');
-  const [showWishlistOnly, setShowWishlistOnly] = useState<boolean>(initialWishlist);
+  const [showWishlistOnly, setShowWishlistOnly] = useState<boolean>(false);
+
+  // filters that arrive in the URL (menu links such as /shop/?category=whisky, ?brand=, ?wishlist=true, ?q=)
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search);
+    if (p.get('category')) setCategory(p.get('category')!);
+    if (p.get('brand')) setBrand(p.get('brand')!);
+    if (p.get('country')) setCountry(p.get('country')!);
+    if (p.get('badge')) setBadge(p.get('badge')!);
+    if (p.get('search') || p.get('q')) setSearch(p.get('search') || p.get('q') || '');
+    if (p.get('wishlist') === 'true') setShowWishlistOnly(true);
+  }, []);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState<boolean>(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const { wishlist } = useWishlist();
 
-  // Extract filter options dynamically
-  const brands = useMemo(() => Array.from(new Set(PRODUCTS.map((p) => p.brand))).sort(), []);
-  const countries = useMemo(() => Array.from(new Set(PRODUCTS.map((p) => p.country))).sort(), []);
 
   // Filtered Products
-  const searchIds = useMemo(() => (search.trim() ? new Set(searchProducts(PRODUCTS, search).map((p) => p.id)) : null), [search]);
+  const searchIds = useMemo(() => (search.trim() && PRODUCTS ? new Set(searchProducts(PRODUCTS, search).map((p) => p.id)) : null), [search, PRODUCTS]);
 
   const [shown, setShown] = useState(PAGE_SIZE);
 
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return (PRODUCTS ?? []).filter((product) => {
       // Wishlist check
       if (showWishlistOnly && !wishlist.includes(product.id)) return false;
 
@@ -85,7 +98,7 @@ function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
       if (sortBy === 'name') return a.name.localeCompare(b.name);
       return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
     });
-  }, [category, brand, country, badge, priceRange, search, searchIds, sortBy, showWishlistOnly, wishlist]);
+  }, [PRODUCTS, category, brand, country, badge, priceRange, search, searchIds, sortBy, showWishlistOnly, wishlist]);
 
   useEffect(() => {
     setShown(PAGE_SIZE);
@@ -109,6 +122,20 @@ function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
     priceRange !== 'all' ||
     search !== '' ||
     showWishlistOnly;
+  const filterMode = isFilterActive || sortBy !== 'featured';
+
+  // download the full product index the first time it is needed
+  useEffect(() => {
+    if (!filterMode || PRODUCTS) return;
+    let live = true;
+    fetch('/api/shop-index/')
+      .then((r) => r.json())
+      .then((d: Product[]) => live && setProducts(d))
+      .catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [filterMode, PRODUCTS]);
 
   return (
     <div className="min-h-screen bg-neutral-950 py-10 px-4 sm:px-6 lg:px-8">
@@ -126,7 +153,7 @@ function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
               {showWishlistOnly ? 'Your Saved Vault Bottles' : 'Rare Spirits & Collectable Whiskies'}
             </h2>
             <p className="text-xs sm:text-sm text-neutral-400 mt-1 max-w-2xl font-light">
-              Showing {filteredProducts.length} authenticated bottles stored in our Sydney climate vaults. Eligible for 12% Crypto discount &amp; free Australian transit over $1,500 AUD.
+              Showing {filterMode ? filteredProducts.length : total} authenticated bottles stored in our Sydney climate vaults. Eligible for 12% Crypto discount &amp; free Australian transit over $1,500 AUD.
             </p>
           </div>
 
@@ -351,7 +378,11 @@ function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
 
           {/* Right Product Grid (9 cols) */}
           <div className="lg:col-span-9">
-            {filteredProducts.length === 0 ? (
+            {!filterMode ? (
+              children
+            ) : !PRODUCTS ? (
+              <p className="p-12 text-center text-sm text-neutral-400">Loading matching bottles…</p>
+            ) : filteredProducts.length === 0 ? (
               <div className="p-12 text-center rounded-2xl bg-neutral-900/30 border border-neutral-800 space-y-4">
                 <div className="w-16 h-16 rounded-full bg-neutral-900 border border-neutral-800 mx-auto flex items-center justify-center text-neutral-400">
                   <Wine className="w-8 h-8" />
@@ -411,10 +442,3 @@ function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
   );
 }
 
-export default function ShopClient({ products }: { products: Product[] }) {
-  return (
-    <Suspense fallback={<div className="min-h-screen bg-neutral-950 p-12 text-center text-neutral-400">Loading catalog...</div>}>
-      <ShopContent products={products} />
-    </Suspense>
-  );
-}
