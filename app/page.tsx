@@ -25,6 +25,7 @@ export default function HomePage() {
     <div className="space-y-0">
       {/* 1. Hero Slideshow */}
       <HeroSlider />
+      <span id="hero-parsed" />
 
       {/* 1b. H1 + keyword tagline + popular searches (Transactional / Commercial keywords) */}
       <HomeIntro />
@@ -53,9 +54,7 @@ export default function HomePage() {
       </div>
 
       {/* 7. Homepage 3-Item FAQ Accordion */}
-      <div className="cv-auto">
-        <HomeFaq />
-      </div>
+      <HomeFaq />
     </div>
   );
 }

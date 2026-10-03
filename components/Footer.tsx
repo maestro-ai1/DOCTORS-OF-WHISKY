@@ -51,12 +51,12 @@ export function Footer() {
             <h2 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">
               Information &amp; Policies
             </h2>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-xs">
+            <div className="grid grid-cols-2 gap-x-4 gap-y-0 text-xs">
               {footerLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className="inline-block text-neutral-400 hover:text-amber-300 transition-colors py-1.5"
+                  className="inline-block text-neutral-400 hover:text-amber-300 transition-colors py-2.5"
                 >
                   {link.label}
                 </Link>
@@ -68,7 +68,7 @@ export function Footer() {
                 href={`https://wa.me/${CONTACT.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 text-xs font-semibold"
+                className="inline-flex items-center gap-1.5 py-2.5 text-emerald-400 hover:text-emerald-300 text-xs font-semibold"
               >
                 <Phone className="w-3.5 h-3.5" />
                 <span>WhatsApp Concierge: {CONTACT.phone}</span>

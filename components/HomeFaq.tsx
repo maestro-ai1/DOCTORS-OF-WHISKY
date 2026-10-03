@@ -44,7 +44,7 @@ export function HomeFaq() {
           ))}
         </div>
 
-        <div className="text-center pt-2">
+        <div className="text-center pt-6 pb-2">
           <Link
             href="/faq/"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 hover:border-amber-600 text-neutral-200 hover:text-amber-300 text-xs font-bold uppercase tracking-wider transition-all"

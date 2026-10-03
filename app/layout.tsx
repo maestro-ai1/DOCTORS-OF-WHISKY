@@ -109,6 +109,8 @@ export default function RootLayout({
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(jsonLd) }} />
         <script src="/js/webmcp.js" defer />
+        {/* hold the first paint until the hero is fully parsed, so streamed HTML cannot shift it (Chrome; ignored elsewhere) */}
+        <link rel="expect" href="#hero-parsed" blocking="render" />
       </head>
       <body className="min-h-screen flex flex-col font-sans overflow-x-hidden">
         <a
