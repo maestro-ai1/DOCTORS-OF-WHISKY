@@ -9,6 +9,7 @@ import { AnnouncementBar } from '@/components/AnnouncementBar';
 import { Footer } from '@/components/Footer';
 import { AgeGateModal } from '@/components/AgeGateModal';
 import { LazyOverlays } from '@/components/LazyOverlays';
+import { WhatsAppChat } from '@/components/WhatsAppChat';
 
 // Site-wide defaults only. Every page sets its own title, description, canonical and social tags via buildMetadata()
 // (a canonical here would be inherited by pages that forget their own).
@@ -135,6 +136,9 @@ export default function RootLayout({
 
             {/* Cart drawer, checkout modal and sales pop-up (loaded after the first interaction) */}
             <LazyOverlays />
+
+            {/* WhatsApp live chat, bottom right */}
+            <WhatsAppChat />
 
             {/* Global Footer (layout and paint are skipped until it is near the viewport) */}
             <div className="cv-auto cv-footer">

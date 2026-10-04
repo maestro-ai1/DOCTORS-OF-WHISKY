@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from '@/components/PlainLink';
-import { CONTACT } from '@/lib/config';
 import { Sparkles, Truck, ShieldCheck, ChevronRight } from 'lucide-react';
 
 const MESSAGES = [
@@ -51,18 +50,6 @@ export function AnnouncementBar() {
           })}
         </div>
 
-        {/* Right: Direct WhatsApp concierge */}
-        <div className="hidden lg:flex items-center gap-3 text-[11px]">
-          <span className="text-neutral-400">Concierge WhatsApp:</span>
-          <a
-            href={`https://wa.me/${CONTACT.whatsappNumber}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-amber-400 hover:text-amber-300 font-medium transition-colors"
-          >
-            {CONTACT.phone}
-          </a>
-        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from '@/components/AppLink';
 import { useRouter } from 'next/navigation';
-import { SITE, CONTACT } from '@/lib/config';
+import { SITE } from '@/lib/config';
 
 /** Shop drop-down: the four product categories. */
 const SHOP_MENU = [
@@ -27,7 +27,6 @@ import {
   X,
   ChevronDown,
   Wine,
-  Phone,
 } from 'lucide-react';
 
 export function Header({ announcement }: { announcement?: React.ReactNode }) {
@@ -128,7 +127,7 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
             ))}
           </nav>
 
-          {/* Right Action Icons: Search, Wishlist, WhatsApp, Cart */}
+          {/* Right Action Icons: Search, Wishlist, Cart */}
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Search Trigger */}
             <button
@@ -153,20 +152,6 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
                 </span>
               )}
             </Link>
-
-            {/* Direct WhatsApp Quick Contact Button */}
-            <a
-              href={`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(
-                'Hi Doctors of Whisky, I would like to inquire about bottle availability in your Sydney vault.'
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-950/60 hover:bg-emerald-900/80 border border-emerald-700/50 text-emerald-300 text-xs font-medium transition-colors"
-              title="Order or Inquire via WhatsApp"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span className="hidden xl:inline">WhatsApp Order</span>
-            </a>
 
             {/* Cart Button */}
             <button
@@ -257,18 +242,6 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
                 {l.label}
               </Link>
             ))}
-          </div>
-
-          <div className="pt-4 border-t border-neutral-900">
-            <a
-              href={`https://wa.me/${CONTACT.whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-950/80 border border-emerald-700/60 text-emerald-300 text-xs font-bold"
-            >
-              <Phone className="w-4 h-4" />
-              <span>Direct WhatsApp Concierge (+61420128746)</span>
-            </a>
           </div>
         </div>
       )}
