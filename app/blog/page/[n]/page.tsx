@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ n: string }> }) {
   const { n } = await params;
   return buildMetadata({
-    title: `American Whiskey, Scotch & Spirits Guides | Journal – Page ${n}`,
+    title: `Whisky, Scotch & Spirits Guides: Page ${n} | Journal`,
     description: `Page ${n} of ${BLOG_PAGE_COUNT}: American whiskey, Scotch, Japanese whisky, tequila, cognac, gin, wine and beer guides for Australian buyers, with how to choose and buy them online.`,
     path: `/blog/page/${n}/`,
     keywords: [PAGE_SEO['/blog/'].primary, ...PAGE_SEO['/blog/'].secondary],

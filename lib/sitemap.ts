@@ -3,6 +3,7 @@ import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { SUBCATEGORIES } from '@/lib/data/subcategories';
 import { BLOG_POSTS } from '@/lib/data/blog';
 import { BASE_URL, CONTENT_UPDATED } from '@/lib/seo';
+import { SHOP_PAGE_COUNT, SHOP_PAGE_SIZE } from '@/lib/shop-pages';
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -46,11 +47,23 @@ export const pagesEntries = (): SitemapEntry[] => [
   { path: '/refund-policy/', changefreq: 'monthly', priority: 0.4 },
   { path: '/terms/', changefreq: 'yearly', priority: 0.3 },
   { path: '/privacy/', changefreq: 'yearly', priority: 0.3 },
+  // numbered shop and blog index pages
+  ...Array.from({ length: SHOP_PAGE_COUNT - 1 }, (_, i) => ({ path: `/shop/page/${i + 2}/`, changefreq: 'daily', priority: 0.6 })),
+  ...pageNumbers(BLOG_POSTS.length - 1, 9).map((n) => ({ path: `/blog/page/${n}/`, changefreq: 'weekly', priority: 0.5 })),
 ];
+
+/** Numbered pages 2, 3, ... of a list of `total` items shown `size` per page. */
+function pageNumbers(total: number, size: number) {
+  return Array.from({ length: Math.max(0, Math.ceil(total / size) - 1) }, (_, i) => i + 2);
+}
 
 export const collectionEntries = (): SitemapEntry[] => [
   ...MAIN_CATEGORIES.map((c) => ({ path: `/shop/${c.slug}/`, changefreq: 'weekly', priority: 0.85 })),
   ...SUBCATEGORIES.map((s) => ({ path: `/shop/${s.category}/collection/${s.slug}/`, changefreq: 'weekly', priority: 0.85 })),
+  // pages 2+ of the larger collections
+  ...SUBCATEGORIES.flatMap((s) =>
+    pageNumbers(PRODUCTS.filter((p) => p.subCategorySlug === s.slug).length, SHOP_PAGE_SIZE).map((n) => ({ path: `/shop/${s.category}/collection/${s.slug}/page/${n}/`, changefreq: 'weekly', priority: 0.5 })),
+  ),
 ];
 
 export const productEntries = (): SitemapEntry[] =>

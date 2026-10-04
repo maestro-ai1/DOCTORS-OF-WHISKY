@@ -14,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ n: string }> }) {
   const { n } = await params;
   return buildMetadata({
-    title: `Buy Whiskey Online Australia | Whisky, Spirits & Wine – Page ${n}`,
+    title: `Buy Whiskey Online Australia: Page ${n} | Whisky & Wine`,
     description: `Page ${n} of ${SHOP_PAGE_COUNT}: buy whiskey online and shop ${PRODUCTS.length}+ bottles of Scotch, Japanese whisky, bourbon, tequila, gin, cognac, wine and beer with insured delivery across Australia.`,
     path: shopPagePath(Number(n)),
     keywords: [PAGE_SEO['/shop/'].primary, ...PAGE_SEO['/shop/'].secondary],

@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   category: 'shopping',
   other: {
     'og:updated_time': CONTENT_UPDATED,
-    'google-site-verification': SITE.gscVerification,
+    'geo.region': 'AU-NSW',
+    'geo.placename': 'Sydney',
+    'geo.position': '-33.8651;151.2099',
+    ICBM: '-33.8651, 151.2099',
+    'content-language': 'en-AU',
   },
 };
 

@@ -5,7 +5,7 @@ import type { Product } from '@/lib/types';
 
 export const BASE_URL = `https://${SITE.domain}`;
 /** Bump when page content genuinely changes — used for sitemap <lastmod> and og:updated_time. */
-export const CONTENT_UPDATED = '2026-10-02';
+export const CONTENT_UPDATED = '2026-10-04';
 
 export const DEFAULT_OG_IMAGE = {
   url: `${BASE_URL}/og-default.png`,
@@ -74,7 +74,7 @@ export function buildMetadata(input: PageMetaInput): Metadata {
     title: { absolute: title },
     description,
     keywords: input.keywords && input.keywords.length ? input.keywords : undefined,
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: { 'en-AU': url, 'x-default': url } },
     robots: input.noindex ? { index: false, follow: true } : undefined,
     openGraph: {
       title,
