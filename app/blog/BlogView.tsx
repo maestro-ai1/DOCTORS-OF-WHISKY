@@ -12,15 +12,18 @@ import { notFound } from 'next/navigation';
 
 /** Guides per index page: /blog/, /blog/page/2/, ... */
 export const BLOG_PAGE_SIZE = 9;
-export const BLOG_PAGE_COUNT = Math.ceil(BLOG_POSTS.length / BLOG_PAGE_SIZE);
+/** The newest guide is the featured highlight on page 1; the 9-card pages cover all the other guides. */
+const FEATURED = BLOG_POSTS[0];
+const GRID_POSTS = BLOG_POSTS.slice(1);
+export const BLOG_PAGE_COUNT = Math.ceil(GRID_POSTS.length / BLOG_PAGE_SIZE);
 
 
-/** One page of the guides index: 9 guides per page (page 1 shows the featured guide plus 8 more). Every page is static HTML with numbered, crawlable links. */
+/** One page of the guides index: 9 cards per page, the last page holds the rest. Page 1 also shows the featured guide above the cards. Every page is static HTML with numbered, crawlable links. */
 export function BlogView({ page }: { page: number }) {
   if (page < 1 || page > BLOG_PAGE_COUNT) notFound();
-  const pagePosts = BLOG_POSTS.slice((page - 1) * BLOG_PAGE_SIZE, page * BLOG_PAGE_SIZE);
-  const featured = page === 1 ? pagePosts[0] : null;
-  const pageItems = page === 1 ? pagePosts.slice(1) : pagePosts;
+  const pageItems = GRID_POSTS.slice((page - 1) * BLOG_PAGE_SIZE, page * BLOG_PAGE_SIZE);
+  const featured = page === 1 ? FEATURED : null;
+  const pagePosts = featured ? [featured, ...pageItems] : pageItems;
   // pages without the featured block go straight from the h1 to the cards, so the cards use h2 there
   const CardHeading = featured ? 'h3' : 'h2';
   const blogLd = {

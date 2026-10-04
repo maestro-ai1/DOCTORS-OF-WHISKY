@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@/components/PlainLink';
 import { SITE, CONTACT } from '@/lib/config';
-import { Wine, ShieldCheck, Phone } from 'lucide-react';
+import { Wine, ShieldCheck } from 'lucide-react';
 
 const FOOTER_LINKS = [
   { label: 'About Us', href: '/about' },
@@ -43,15 +43,6 @@ export function Footer() {
             <p className="text-[11px] text-neutral-400 font-mono">
               ABN {CONTACT.abn} · Liquor Licence {CONTACT.liquorLicence}
             </p>
-            <a
-              href={`https://wa.me/${CONTACT.whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 py-2 text-emerald-400 hover:text-emerald-300 text-xs font-semibold"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span>WhatsApp: {CONTACT.phone}</span>
-            </a>
           </div>
 
           {/* Links */}
