@@ -31,6 +31,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ['image/avif', 'image/webp'],
+    // closer steps for common desktop widths, so a 1366px screen is sent a 1440px image instead of 1920px
+    deviceSizes: [640, 750, 828, 1080, 1200, 1440, 1920, 2048],
     remotePatterns: [
       {
         protocol: 'https',

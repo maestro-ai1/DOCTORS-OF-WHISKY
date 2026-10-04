@@ -58,17 +58,20 @@ export function HeroSlider() {
           }`}
         >
           {/* Real, on-brand bottle photography as a full-bleed background */}
+          {/* the second slide's photo loads after the first interaction, so only the LCP image is downloaded and decoded at load */}
+          {(idx === 0 || interacted) && (
           <Image
             src={slide.image}
             alt={`${slide.title} - buy whisky online in Australia`}
             fill
             priority={idx === 0}
             fetchPriority={idx === 0 ? 'high' : 'auto'}
-            quality={70}
+            quality={66}
             decoding={idx === 0 ? 'sync' : 'async'}
             className="object-cover object-center"
             sizes="100vw"
           />
+          )}
 
           {/* Moderate left-side scrim for text contrast — tuned for legibility without dulling the photo */}
           <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/80 via-neutral-950/30 to-transparent" />

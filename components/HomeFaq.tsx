@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { HOMEPAGE_FAQS, ALL_FAQS } from '@/lib/data/faq';
 import { JsonLd } from '@/components/JsonLd';
 import { faqLd } from '@/lib/seo';

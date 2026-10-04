@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 
 /** Numbered, crawlable pagination (page 1 is the base path, then /page/2/, /page/3/ ...). */
 export function Pager({ page, count, basePath, label }: { page: number; count: number; basePath: string; label: string }) {

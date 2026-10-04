@@ -7,7 +7,6 @@ import { SITE, CONTACT } from '@/lib/config';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
-import { AnnouncementBar } from '@/components/AnnouncementBar';
 import { MegaMenu } from '@/components/MegaMenu';
 import {
   Search,
@@ -21,7 +20,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 
-export function Header() {
+export function Header({ announcement }: { announcement?: React.ReactNode }) {
   const router = useRouter();
   const { totalItemCount, openCart } = useCart();
   const { wishlist } = useWishlist();
@@ -52,7 +51,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 w-full bg-neutral-950/95 backdrop-blur-md border-b border-amber-900/30 transition-shadow duration-200 shadow-lg shadow-black/40">
       {/* Announcement Bar */}
-      <AnnouncementBar />
+      {announcement}
 
       {/* Main Navigation Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

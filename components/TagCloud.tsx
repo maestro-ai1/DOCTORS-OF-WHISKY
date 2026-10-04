@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import type { TagLink } from '@/lib/tag-links';
 
 /** Visible, crawlable tag links (commercial / transactional keywords). Each tag points at a real product or collection page. */

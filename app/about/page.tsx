@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { SITE, CONTACT, BRAND_AUTHORITY } from '@/lib/config';
 import { ShieldCheck, Warehouse, Lock, Award, Sparkles, Truck, Phone, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';

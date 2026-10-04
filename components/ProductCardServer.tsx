@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { Product } from '@/lib/types';
 import { productAlt } from '@/lib/alt';
 import { Sparkles } from 'lucide-react';

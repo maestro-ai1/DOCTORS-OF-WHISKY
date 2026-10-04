@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import Image from 'next/image';
 import { BLOG_POSTS } from '@/lib/data/blog';
 import { ArrowRight, BookOpen, Clock, Calendar } from 'lucide-react';

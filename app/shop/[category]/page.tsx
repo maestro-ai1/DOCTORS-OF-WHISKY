@@ -5,7 +5,7 @@ import { getProductsByCategory } from '@/lib/data/products';
 import { getSubcategoriesByCategory } from '@/lib/data/subcategories';
 import { ProductCardServer as ProductCard } from '@/components/ProductCardServer';
 import Image from 'next/image';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { Sparkles, ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { buildMetadata, breadcrumbLd, itemListLd, webPageLd, ld, titleCase } from '@/lib/seo';

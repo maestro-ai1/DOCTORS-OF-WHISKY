@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { BRAND_AUTHORITY, CONTACT } from '@/lib/config';
 import { ShieldCheck, Warehouse, Lock, Award, Sparkles, ArrowRight, Thermometer, CheckCircle2 } from 'lucide-react';
 

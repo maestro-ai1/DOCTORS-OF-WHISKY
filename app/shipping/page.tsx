@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { SHOP_RULES, CONTACT } from '@/lib/config';
 import { Truck, ShieldCheck, Clock, MapPin } from 'lucide-react';
 import type { Metadata } from 'next';

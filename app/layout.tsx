@@ -5,6 +5,7 @@ import { CONTENT_UPDATED, ld } from '@/lib/seo';
 import { CartProvider } from '@/lib/context/CartContext';
 import { WishlistProvider } from '@/lib/context/WishlistContext';
 import { Header } from '@/components/Header';
+import { AnnouncementBar } from '@/components/AnnouncementBar';
 import { Footer } from '@/components/Footer';
 import { AgeGateModal } from '@/components/AgeGateModal';
 import { LazyOverlays } from '@/components/LazyOverlays';
@@ -125,7 +126,7 @@ export default function RootLayout({
             <AgeGateModal />
 
             {/* Global Header */}
-            <Header />
+            <Header announcement={<AnnouncementBar />} />
 
             {/* Main Content Area */}
             <main id="main" className="flex-1">

@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import type { TagLink } from '@/lib/tag-links';
 
 /** The 15 secondary keywords for a page, shown as crawlable links under an H2 (each points at the closest real page). */

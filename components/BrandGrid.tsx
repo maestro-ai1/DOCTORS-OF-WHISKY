@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@/components/AppLink';
+import Link from '@/components/PlainLink';
 import { Sparkles, ArrowUpRight } from 'lucide-react';
 
 const BRANDS = [
