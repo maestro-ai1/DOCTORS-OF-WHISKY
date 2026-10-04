@@ -373,27 +373,13 @@ export function CheckoutModal() {
                 </div>
               )}
 
-              {paymentMethod === 'crypto-btc' && (
+              {currentPayment.type === 'crypto' && (
                 <div className="space-y-2">
                   <div className="text-[11px] text-emerald-400 font-bold">
                     ✓ 12% Instant Savings Applied: -${cryptoDiscountAmount.toFixed(2)} AUD
                   </div>
-                  <CopyField
-                    label="Bitcoin (BTC) Official Treasury Address"
-                    value="bc1qdow9837xvhqlz82m4k70wje9x30198klpq79vd"
-                  />
-                </div>
-              )}
-
-              {paymentMethod === 'crypto-usdt' && (
-                <div className="space-y-2">
-                  <div className="text-[11px] text-emerald-400 font-bold">
-                    ✓ 12% Instant Savings Applied: -${cryptoDiscountAmount.toFixed(2)} AUD
-                  </div>
-                  <CopyField
-                    label="Tether (USDT - ERC20 / TRC20) Treasury Address"
-                    value="0x8b30De7397b8F27B88C419eD9C83f789C065799A"
-                  />
+                  <CopyField label={`${currentPayment.name} wallet address`} value={currentPayment.details} />
+                  <p className="text-[11px] text-neutral-400">{currentPayment.note}</p>
                 </div>
               )}
             </div>

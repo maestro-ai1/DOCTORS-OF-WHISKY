@@ -168,7 +168,7 @@ ok(r.status === 200 && j.ok && j.order.status === 'awaiting_payment' && j.order.
 ok(j.order.replies.at(-1).kind === 'payment_details' && j.order.replies.at(-1).delivered === true, 'send is recorded on the order');
 
 console.log('\nAdmin: sending over WhatsApp instead of email');
-r = await authed(`/api/admin/orders/${cryptoRef}/send`, { method: 'POST', body: JSON.stringify({ kind: 'payment_details', paymentDetails: '0x8b30De7397b8F27B88C419eD9C83f789C065799A', channel: 'whatsapp' }) });
+r = await authed(`/api/admin/orders/${cryptoRef}/send`, { method: 'POST', body: JSON.stringify({ kind: 'payment_details', paymentDetails: '0xaF80aa1ca688A1318e1F39E273cAf5895bE12749', channel: 'whatsapp' }) });
 j = await r.json();
 ok(r.status === 200 && j.order.status === 'awaiting_payment' && j.order.paymentDetails.startsWith('0x8b30'), 'WhatsApp send moves the order to awaiting payment and saves the details');
 ok(j.order.replies.at(-1).subject.startsWith('WhatsApp:') && j.order.replies.at(-1).delivered === true, 'WhatsApp send is recorded as a WhatsApp message');

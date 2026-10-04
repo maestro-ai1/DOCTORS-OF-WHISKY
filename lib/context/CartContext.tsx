@@ -117,7 +117,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   );
 
   const isCryptoPayment =
-    paymentMethod === 'crypto-btc' || paymentMethod === 'crypto-usdt';
+    paymentMethod.startsWith('crypto-');
   const cryptoDiscountAmount = isCryptoPayment
     ? (subtotal * SHOP_RULES.cryptoDiscountPercent) / 100
     : 0;

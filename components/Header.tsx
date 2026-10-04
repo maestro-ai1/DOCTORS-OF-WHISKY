@@ -4,10 +4,21 @@ import React, { useState, useEffect } from 'react';
 import Link from '@/components/AppLink';
 import { useRouter } from 'next/navigation';
 import { SITE, CONTACT } from '@/lib/config';
-import { MAIN_CATEGORIES } from '@/lib/data/menu';
+
+/** Shop drop-down: the four product categories. */
+const SHOP_MENU = [
+  { label: 'Whisky', href: '/shop/whisky' },
+  { label: 'Spirit', href: '/shop/spirit' },
+  { label: 'Beer / Wine / Premix', href: '/shop/beer-premix-wine' },
+  { label: 'Others', href: '/shop/other' },
+];
+
+const NAV_LINKS = [
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Terms of Service', href: '/terms' },
+];
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
-import { MegaMenu } from '@/components/MegaMenu';
 import {
   Search,
   ShoppingBag,
@@ -17,7 +28,6 @@ import {
   ChevronDown,
   Wine,
   Phone,
-  Sparkles,
 } from 'lucide-react';
 
 export function Header({ announcement }: { announcement?: React.ReactNode }) {
@@ -25,12 +35,10 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
   const { totalItemCount, openCart } = useCart();
   const { wishlist } = useWishlist();
 
-  const [activeMegaCategory, setActiveMegaCategory] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [scrolled, setScrolled] = useState(false);
-  const [expandedMobileCat, setExpandedMobileCat] = useState<string | null>('whisky');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,7 +57,7 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-neutral-950/95 backdrop-blur-md border-b border-amber-900/30 transition-shadow duration-200 shadow-lg shadow-black/40">
+    <header className="sticky top-0 z-40 w-full bg-neutral-950 border-b border-amber-900/30 transition-shadow duration-200 shadow-lg shadow-black/40">
       {/* Announcement Bar */}
       {announcement}
 
@@ -81,34 +89,42 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
             </div>
           </Link>
 
-          {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
-            {/* Simple Shop Link */}
-            <Link
-              href="/shop"
-              className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-neutral-300 hover:text-amber-400 hover:bg-neutral-900/60 transition-colors rounded-md"
-            >
-              Shop
-            </Link>
-
-            {MAIN_CATEGORIES.map((cat) => (
-              <div
-                key={cat.id}
-                className="relative"
-                onMouseEnter={() => setActiveMegaCategory(cat.id)}
+          {/* Desktop Navigation: Shop drop-down, FAQ, Terms of Service */}
+          <nav aria-label="Main" className="hidden lg:flex items-center gap-1 xl:gap-2">
+            <div className="relative group">
+              <Link
+                href="/shop"
+                className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-neutral-300 group-hover:text-amber-400 group-focus-within:text-amber-400 hover:bg-neutral-900/60 transition-colors rounded-md"
               >
-                <Link
-                  href={`/shop?category=${cat.slug}`}
-                  className={`flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-colors rounded-md ${
-                    activeMegaCategory === cat.id
-                      ? 'text-amber-300 bg-neutral-900'
-                      : 'text-neutral-300 hover:text-amber-400 hover:bg-neutral-900/60'
-                  }`}
-                >
-                  <span>{cat.name}</span>
-                  <ChevronDown className="w-3.5 h-3.5 opacity-60" />
-                </Link>
+                <span>Shop</span>
+                <ChevronDown className="w-3.5 h-3.5 opacity-60" aria-hidden="true" />
+              </Link>
+              <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-opacity duration-150 absolute left-0 top-full pt-2 z-50 w-60">
+                <ul className="rounded-xl bg-neutral-950 border border-amber-900/40 shadow-2xl shadow-black/80 p-2">
+                  {SHOP_MENU.map((item) => (
+                    <li key={item.href}>
+                      <Link href={item.href} className="block px-3 py-2.5 rounded-lg text-sm text-neutral-200 hover:text-amber-300 hover:bg-neutral-900 transition-colors">
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                  <li className="mt-1 pt-1 border-t border-neutral-800">
+                    <Link href="/shop" className="block px-3 py-2.5 rounded-lg text-xs font-semibold uppercase tracking-wider text-amber-400 hover:bg-neutral-900 transition-colors">
+                      View all bottles
+                    </Link>
+                  </li>
+                </ul>
               </div>
+            </div>
+
+            {NAV_LINKS.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-neutral-300 hover:text-amber-400 hover:bg-neutral-900/60 transition-colors rounded-md"
+              >
+                {l.label}
+              </Link>
             ))}
           </nav>
 
@@ -171,12 +187,6 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
         </div>
       </div>
 
-      {/* MegaMenu Dropdown for Desktop */}
-      <MegaMenu
-        activeCategory={activeMegaCategory}
-        onClose={() => setActiveMegaCategory(null)}
-      />
-
       {/* Expandable Search Input Bar */}
       {searchOpen && (
         <div className="bg-neutral-900 border-b border-amber-900/40 p-4 animate-in fade-in slide-in-from-top-2 duration-200">
@@ -214,68 +224,39 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
 
       {/* Mobile Drawer Navigation */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 top-28 z-50 bg-neutral-950/98 backdrop-blur-xl border-t border-neutral-800 overflow-y-auto p-4 pb-20 space-y-4">
-          {/* Simple Shop Direct Link */}
-          <Link
-            href="/shop"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block p-3 rounded-lg text-sm font-semibold uppercase tracking-wider text-amber-300 bg-neutral-900 border border-amber-800/50 hover:bg-neutral-800 transition-colors"
-          >
-            Shop
-          </Link>
+        <div className="lg:hidden fixed inset-0 top-28 z-50 bg-neutral-950 border-t border-neutral-800 overflow-y-auto p-4 pb-20 space-y-4">
+          <div className="space-y-2">
+            <span className="text-[10px] uppercase tracking-[0.2em] text-amber-500 font-bold px-2">Shop</span>
+            <Link
+              href="/shop"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block p-3 rounded-lg text-sm font-semibold uppercase tracking-wider text-amber-300 bg-neutral-900 border border-amber-800/50 hover:bg-neutral-800 transition-colors"
+            >
+              All bottles
+            </Link>
+            {SHOP_MENU.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="block p-3.5 rounded-xl border border-neutral-800/80 bg-neutral-900/40 text-sm font-semibold text-neutral-100 hover:text-amber-300"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
 
           <div className="space-y-2">
-            <span className="text-[10px] uppercase tracking-[0.2em] text-amber-500 font-bold px-2">
-              Browse Categories
-            </span>
-            {MAIN_CATEGORIES.map((cat) => {
-              const isExpanded = expandedMobileCat === cat.id;
-              return (
-                <div
-                  key={cat.id}
-                  className="border border-neutral-800/80 rounded-xl overflow-hidden bg-neutral-900/40"
-                >
-                  <button
-                    type="button"
-                    onClick={() =>
-                      setExpandedMobileCat(isExpanded ? null : cat.id)
-                    }
-                    className="w-full flex items-center justify-between p-3.5 text-left text-sm font-semibold text-neutral-100 hover:text-amber-300"
-                  >
-                    <span>{cat.name}</span>
-                    <ChevronDown
-                      className={`w-4 h-4 text-amber-500 transition-transform ${
-                        isExpanded ? 'rotate-180' : ''
-                      }`}
-                    />
-                  </button>
-
-                  {isExpanded && (
-                    <div className="p-4 pt-0 border-t border-neutral-800/60 bg-neutral-950/60 space-y-4">
-                      {cat.subGroups.map((group, gIdx) => (
-                        <div key={gIdx} className="space-y-1.5 pt-2">
-                          <p className="text-[11px] uppercase tracking-wider font-bold text-amber-400/90">
-                            {group.title}
-                          </p>
-                          <div className="grid grid-cols-2 gap-1.5">
-                            {group.items.map((item, iIdx) => (
-                              <Link
-                                key={iIdx}
-                                href={item.href}
-                                onClick={() => setMobileMenuOpen(false)}
-                                className="text-xs text-neutral-400 hover:text-amber-200 py-1"
-                              >
-                                {item.label}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              );
-            })}
+            {NAV_LINKS.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="block p-3.5 rounded-xl border border-neutral-800/80 bg-neutral-900/40 text-sm font-semibold text-neutral-100 hover:text-amber-300"
+              >
+                {l.label}
+              </Link>
+            ))}
           </div>
 
           <div className="pt-4 border-t border-neutral-900">

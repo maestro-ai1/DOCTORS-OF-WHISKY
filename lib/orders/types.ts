@@ -1,4 +1,5 @@
-export type PaymentMethodId = 'payid' | 'bank-transfer' | 'crypto-btc' | 'crypto-usdt';
+/** 'crypto-usdt' is kept for orders saved before USDT was split into TRC20 and ERC20. */
+export type PaymentMethodId = 'payid' | 'bank-transfer' | 'crypto-btc' | 'crypto-usdt-trc20' | 'crypto-usdt-erc20' | 'crypto-usdt';
 
 export interface OrderLine {
   slug: string;
