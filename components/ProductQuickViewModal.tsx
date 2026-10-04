@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
+import { productAlt } from '@/lib/alt';
 import { CONTACT } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
 import { X, ShoppingBag, Phone, ShieldCheck, Sparkles, Plus, Minus, ArrowRight } from 'lucide-react';
@@ -61,7 +62,7 @@ Please confirm availability and dispatch steps.`;
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-white">
             <Image
               src={product.images[activeImgIdx] || product.images[0]}
-              alt={`${product.name} ${product.size} bottle`}
+              alt={productAlt(product)}
               fill
               className="object-contain object-center p-4"
               referrerPolicy="no-referrer"

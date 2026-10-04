@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
+import { productAlt } from '@/lib/alt';
 import { CONTACT, SHOP_RULES } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
@@ -103,7 +104,7 @@ Please confirm bottle condition, vault availability, and payment dispatch instru
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-white border border-neutral-800 shadow-2xl">
               <Image
                 src={product.images[selectedImgIdx] || product.images[0]}
-                alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle - ${product.primaryKeyword}`}
+                alt={productAlt(product)}
                 fill
                 priority
                 className="object-contain object-center p-8"

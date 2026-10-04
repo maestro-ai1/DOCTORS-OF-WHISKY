@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
+import { productAlt } from '@/lib/alt';
 import { CONTACT } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
@@ -64,7 +65,7 @@ Please confirm vault availability and payment instructions.`;
           <Image
             priority={priority}
             src={product.images[0]}
-            alt={`${product.name} ${product.size} ${product.style || product.subCategory} bottle - ${altKeyword ?? product.primaryKeyword}`}
+            alt={productAlt(product, altKeyword)}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-contain object-center p-4 group-hover:scale-105 transition-transform duration-700 ease-out"
