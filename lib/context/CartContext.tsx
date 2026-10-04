@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { waText } from '@/lib/whatsapp';
 import { Product, CartItem } from '@/lib/types';
 import { SITE, CONTACT, SHOP_RULES, PAYMENT_METHODS } from '@/lib/config';
 
@@ -157,28 +158,27 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         ? 'FREE (Express Insured Courier over $1,500 AUD)'
         : `$${shippingFee} AUD (Flat-rate Courier)`;
 
-    const message = `*NEW ORDER INQUIRY - DOCTORS OF WHISKY*
-----------------------------------------
-*Items Requested:*
-${itemListText}
-----------------------------------------
-*Subtotal:* $${subtotal.toLocaleString()} AUD${discountText}
-*Shipping:* ${shippingText}
-*Total Due:* $${finalTotal.toLocaleString(undefined, {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    })} AUD
+    const rule = '----------------------------------------';
+    const total = finalTotal.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const message = waText([
+      '*NEW ORDER INQUIRY - DOCTORS OF WHISKY*',
+      rule,
+      '*Items Requested:*',
+      itemListText,
+      rule,
+      `*Subtotal:* $${subtotal.toLocaleString()} AUD${discountText}`,
+      `*Shipping:* ${shippingText}`,
+      `*Total Due:* $${total} AUD`,
+      '',
+      `*Preferred Payment Method:* ${paymentLabel}`,
+      customNotes ? `*Customer Notes:* ${customNotes}` : '',
+      '*Delivery Location:* Australia',
+      '*Age Confirmation:* I confirm I am 18+ years of age.',
+      '',
+      'Please confirm bottle availability, transit insurance, and provide payment dispatch instructions.',
+    ]);
 
-*Preferred Payment Method:* ${paymentLabel}
-${customNotes ? `*Customer Notes:* ${customNotes}\n` : ''}
-*Delivery Location:* Australia
-*Age Confirmation:* I confirm I am 18+ years of age.
-
-Please confirm bottle availability, transit insurance, and provide payment dispatch instructions.`;
-
-    return `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(
-      message
-    )}`;
+    return `https://wa.me/${CONTACT.whatsappNumber}?text=${message}`;
   };
 
   return (

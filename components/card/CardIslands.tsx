@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { waText } from '@/lib/whatsapp';
 import { Product } from '@/lib/types';
 import { CONTACT } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
@@ -35,14 +36,16 @@ export function CardActions({ product }: { product: Product }) {
   const handleWhatsAppOrder = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const msg = `Hi Doctors of Whisky, I would like to order/reserve:
-*${product.name}*
-Price: $${product.price.toLocaleString()} AUD
-SKU: ${product.sku}
-Link: https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}
-
-Please confirm vault availability and payment instructions.`;
-    window.open(`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(msg)}`, '_blank');
+    const msg = waText([
+      'Hi Doctors of Whisky, I would like to order/reserve:',
+      `*${product.name}*`,
+      `Price: $${product.price.toLocaleString()} AUD`,
+      `SKU: ${product.sku}`,
+      `Link: https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}`,
+      '',
+      'Please confirm vault availability and payment instructions.',
+    ]);
+    window.open(`https://wa.me/${CONTACT.whatsappNumber}?text=${msg}`, '_blank');
   };
   return (
     <div className="grid grid-cols-2 gap-2 pt-2">

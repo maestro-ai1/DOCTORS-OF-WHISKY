@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { waText } from '@/lib/whatsapp';
 import Image from 'next/image';
 import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
@@ -47,16 +48,18 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
   };
 
   const handleWhatsAppOrder = () => {
-    const msg = `Hi Doctors of Whisky, I would like to order/reserve:
-*${product.name}* (Qty: ${quantity})
-Price: $${(product.price * quantity).toLocaleString()} AUD
-SKU: ${product.sku}
-Link: https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}
-
-Please confirm bottle condition, vault availability, and payment dispatch instructions.`;
+    const msg = waText([
+      'Hi Doctors of Whisky, I would like to order/reserve:',
+      `*${product.name}* (Qty: ${quantity})`,
+      `Price: $${(product.price * quantity).toLocaleString()} AUD`,
+      `SKU: ${product.sku}`,
+      `Link: https://doctorsofwhisky.com.au/shop/${product.category}/${product.slug}`,
+      '',
+      'Please confirm bottle condition, vault availability, and payment dispatch instructions.',
+    ]);
 
     window.open(
-      `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/${CONTACT.whatsappNumber}?text=${msg}`,
       '_blank'
     );
   };
