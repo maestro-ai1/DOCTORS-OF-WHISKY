@@ -1,8 +1,5 @@
-'use client';
-
-import React, { useState, useEffect } from 'react';
-import { useInteracted } from '@/hooks/use-interacted';
-import Link from '@/components/AppLink';
+import React from 'react';
+import Link from '@/components/PlainLink';
 import Image from 'next/image';
 import { CONTACT } from '@/lib/config';
 import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Sparkles, Phone } from 'lucide-react';
@@ -32,34 +29,24 @@ const SLIDES = [
   },
 ];
 
+/**
+ * Hero slideshow, rendered on the server with no JavaScript: the two radio buttons switch the slides with CSS
+ * (peer-checked), and the arrows are labels for those radios. The second photo sits in a display:none block until its
+ * slide is selected, so the browser only downloads the first image at load.
+ */
 export function HeroSlider() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const interacted = useInteracted();
-
-  useEffect(() => {
-    if (!interacted) return;
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % SLIDES.length);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, [interacted]);
-
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % SLIDES.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
-
   return (
     <div className="relative w-full h-[580px] sm:h-[640px] lg:h-[700px] overflow-hidden border-b border-amber-900/30 bg-neutral-950">
+      <input type="radio" name="hero-slide" id="hero-1" defaultChecked className="peer/s1 sr-only" aria-label="Show slide 1" />
+      <input type="radio" name="hero-slide" id="hero-2" className="peer/s2 sr-only" aria-label="Show slide 2" />
+
       {/* Background Slides */}
       {SLIDES.map((slide, idx) => (
         <div
           key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            idx === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
-          }`}
+          className={idx === 0 ? 'absolute inset-0 z-10 peer-checked/s2:hidden' : 'absolute inset-0 z-10 hidden peer-checked/s2:block'}
         >
           {/* Real, on-brand bottle photography as a full-bleed background */}
-          {/* the second slide's photo loads after the first interaction, so only the LCP image is downloaded and decoded at load */}
-          {(idx === 0 || interacted) && (
           <Image
             src={slide.image}
             alt={`${slide.title} - buy whisky online in Australia`}
@@ -71,7 +58,6 @@ export function HeroSlider() {
             className="object-cover object-center"
             sizes="100vw"
           />
-          )}
 
           {/* Moderate left-side scrim for text contrast — tuned for legibility without dulling the photo */}
           <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/80 via-neutral-950/30 to-transparent" />
@@ -139,31 +125,36 @@ export function HeroSlider() {
         </div>
       ))}
 
-      {/* Slide Navigation Arrows */}
-      <div className="absolute z-30 bottom-8 right-4 sm:right-8 flex items-center gap-3">
-        <button
-          type="button"
-          onClick={prevSlide}
-          className="p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors backdrop-blur-sm"
-          aria-label="Previous Slide"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-
+      {/* Slide arrows: one set per state; both go to the other slide (two slides) */}
+      <div className="absolute z-30 bottom-8 right-4 sm:right-8 items-center gap-3 flex peer-checked/s2:hidden">
+        <label htmlFor="hero-2" className="cursor-pointer p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors">
+          <ChevronLeft className="w-5 h-5" aria-hidden="true" />
+          <span className="sr-only">Previous slide</span>
+        </label>
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-amber-400 font-mono">
-          <span>0{currentSlide + 1}</span>
+          <span>01</span>
           <span className="text-neutral-600">/</span>
           <span className="text-neutral-400">0{SLIDES.length}</span>
         </div>
-
-        <button
-          type="button"
-          onClick={nextSlide}
-          className="p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors backdrop-blur-sm"
-          aria-label="Next Slide"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
+        <label htmlFor="hero-2" className="cursor-pointer p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors">
+          <ChevronRight className="w-5 h-5" aria-hidden="true" />
+          <span className="sr-only">Next slide</span>
+        </label>
+      </div>
+      <div className="absolute z-30 bottom-8 right-4 sm:right-8 items-center gap-3 hidden peer-checked/s2:flex">
+        <label htmlFor="hero-1" className="cursor-pointer p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors">
+          <ChevronLeft className="w-5 h-5" aria-hidden="true" />
+          <span className="sr-only">Previous slide</span>
+        </label>
+        <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-amber-400 font-mono">
+          <span>02</span>
+          <span className="text-neutral-600">/</span>
+          <span className="text-neutral-400">0{SLIDES.length}</span>
+        </div>
+        <label htmlFor="hero-1" className="cursor-pointer p-3 rounded-full bg-neutral-900/80 hover:bg-amber-900/80 border border-neutral-700 text-neutral-300 hover:text-white transition-colors">
+          <ChevronRight className="w-5 h-5" aria-hidden="true" />
+          <span className="sr-only">Next slide</span>
+        </label>
       </div>
     </div>
   );

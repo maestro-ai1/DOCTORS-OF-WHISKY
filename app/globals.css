@@ -14,12 +14,15 @@
   contain-intrinsic-size: auto 520px;
 }
 
-/* Announcement bar: the three messages take turns (13.5s loop); the first is visible before the animation starts. */
+/* Announcement bar: the three messages take turns (13.5s loop, instant switch so text is never half-transparent); the first is visible before the animation starts. */
 @keyframes announce {
-  0%, 30% { opacity: 1; visibility: visible; }
-  33.4%, 100% { opacity: 0; visibility: hidden; }
+  0%, 33.32% { opacity: 1; visibility: visible; }
+  33.33%, 100% { opacity: 0; visibility: hidden; }
 }
 .ann-item { animation: announce 13.5s infinite; }
 @media (prefers-reduced-motion: reduce) {
   .ann-item { animation: none; }
 }
+
+/* 18+ gate: hidden for returning visitors and staff pages (class set by the script in <head>) */
+.age-ok #age-gate { display: none; }

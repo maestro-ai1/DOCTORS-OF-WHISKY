@@ -7,7 +7,7 @@ import { WishlistProvider } from '@/lib/context/WishlistContext';
 import { Header } from '@/components/Header';
 import { AnnouncementBar } from '@/components/AnnouncementBar';
 import { Footer } from '@/components/Footer';
-import { AgeGateModal } from '@/components/AgeGateModal';
+import { AgeGateModal, AGE_GATE_HEAD_SCRIPT } from '@/components/AgeGateModal';
 import { LazyOverlays } from '@/components/LazyOverlays';
 import { WhatsAppChat } from '@/components/WhatsAppChat';
 
@@ -110,6 +110,7 @@ export default function RootLayout({
     <html lang="en-AU" className="dark bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-800 selection:text-amber-100">
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(jsonLd) }} />
+        <script dangerouslySetInnerHTML={{ __html: AGE_GATE_HEAD_SCRIPT }} />
         <script src="/js/webmcp.js" defer />
         {/* hold the first paint until the hero is fully parsed, so streamed HTML cannot shift it (Chrome; ignored elsewhere) */}
         <link rel="expect" href="#hero-parsed" blocking="render" />
