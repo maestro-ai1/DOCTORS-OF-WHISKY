@@ -21,6 +21,8 @@ export function BlogView({ page }: { page: number }) {
   const pagePosts = BLOG_POSTS.slice((page - 1) * BLOG_PAGE_SIZE, page * BLOG_PAGE_SIZE);
   const featured = page === 1 ? pagePosts[0] : null;
   const pageItems = page === 1 ? pagePosts.slice(1) : pagePosts;
+  // pages without the featured block go straight from the h1 to the cards, so the cards use h2 there
+  const CardHeading = featured ? 'h3' : 'h2';
   const blogLd = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
@@ -121,9 +123,9 @@ export function BlogView({ page }: { page: number }) {
                 </div>
 
                 <Link href={`/blog/${article.slug}`}>
-                  <h3 className="text-base font-serif font-bold text-neutral-100 hover:text-amber-300 transition-colors leading-snug">
+                  <CardHeading className="text-base font-serif font-bold text-neutral-100 hover:text-amber-300 transition-colors leading-snug">
                     {article.title}
-                  </h3>
+                  </CardHeading>
                 </Link>
 
                 <p className="text-xs text-neutral-400 leading-relaxed line-clamp-3">
