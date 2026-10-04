@@ -1,13 +1,8 @@
-'use client';
-
-import React, { useState, useEffect, useRef } from 'react';
-import { useInteracted } from '@/hooks/use-interacted';
+import React from 'react';
 import Link from '@/components/AppLink';
 import Image from 'next/image';
 import {
   Sparkles,
-  ChevronLeft,
-  ChevronRight,
   ArrowUpRight,
   Award,
   Flame,
@@ -185,39 +180,10 @@ const BRANDS_LIST: BrandItem[] = [
   },
 ];
 
+/** Server-rendered, swipeable (scroll-snap) brand row: no JavaScript, every brand link stays in the HTML. */
 export function BrandSlider() {
-  const [startIndex, setStartIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const touchStartX = useRef<number | null>(null);
-
-  // Responsive visible cards count
-  const itemsPerView = 4; // on desktop (sm:2, md:3, lg:4)
-  const maxIndex = Math.max(0, BRANDS_LIST.length - itemsPerView);
-
-  const nextSlide = () => {
-    setStartIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
-  };
-
-  const prevSlide = () => {
-    setStartIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
-  };
-
-  // Auto-scroll slideshow every 4.5s (starts after the first interaction)
-  const interacted = useInteracted();
-  useEffect(() => {
-    if (isPaused || !interacted) return;
-    const interval = setInterval(() => {
-      setStartIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
-    }, 4500);
-    return () => clearInterval(interval);
-  }, [isPaused, maxIndex, interacted]);
-
   return (
-    <section
-      className="py-12 sm:py-16 bg-neutral-950 px-4 sm:px-6 lg:px-8 border-b border-amber-900/30 overflow-hidden"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-    >
+    <section className="py-12 sm:py-16 bg-neutral-950 px-4 sm:px-6 lg:px-8 border-b border-amber-900/30 overflow-hidden">
       <div className="max-w-7xl mx-auto space-y-6">
         {/* Compact Header with Controls */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-neutral-900 pb-5">
@@ -234,24 +200,8 @@ export function BrandSlider() {
             </p>
           </div>
 
-          {/* Navigation Controls */}
+          {/* Link to all brands */}
           <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={prevSlide}
-              className="p-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400 transition-colors"
-              aria-label="Previous Brand"
-            >
-              <ChevronLeft className="w-4 h-4" />
-            </button>
-            <button
-              type="button"
-              onClick={nextSlide}
-              className="p-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400 transition-colors"
-              aria-label="Next Brand"
-            >
-              <ChevronRight className="w-4 h-4" />
-            </button>
             <Link
               href="/shop"
               className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-amber-400 hover:text-amber-300 ml-2 px-3 py-1.5 rounded-lg bg-amber-950/40 border border-amber-800/40 transition-colors"
@@ -262,31 +212,14 @@ export function BrandSlider() {
           </div>
         </div>
 
-        {/* Carousel Viewport */}
-        <div
-          className="relative overflow-hidden"
-          onTouchStart={(e) => {
-            touchStartX.current = e.touches[0].clientX;
-          }}
-          onTouchEnd={(e) => {
-            if (touchStartX.current === null) return;
-            const diff = touchStartX.current - e.changedTouches[0].clientX;
-            if (diff > 40) nextSlide();
-            else if (diff < -40) prevSlide();
-            touchStartX.current = null;
-          }}
-        >
-          <div
-            className="flex transition-transform duration-500 ease-out gap-4"
-            style={{
-              transform: `translateX(-${startIndex * 280}px)`,
-            }}
-          >
+        {/* Swipeable row */}
+        <div className="relative">
+          <div role="region" aria-label="Whisky brands" className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:thin] [scrollbar-color:#404040_transparent]">
             {BRANDS_LIST.map((brand, idx) => (
               <Link
                 key={idx}
                 href={brand.href}
-                className="group shrink-0 w-[265px] sm:w-[280px] p-4 sm:p-5 rounded-2xl bg-neutral-900/60 hover:bg-neutral-900 border border-neutral-800/80 hover:border-amber-600/60 transition-all duration-300 flex flex-col justify-between space-y-3 hover:shadow-xl hover:shadow-black/60 relative overflow-hidden"
+                className="group snap-start shrink-0 w-[265px] sm:w-[280px] p-4 sm:p-5 rounded-2xl bg-neutral-900/60 hover:bg-neutral-900 border border-neutral-800/80 hover:border-amber-600/60 transition-all duration-300 flex flex-col justify-between space-y-3 hover:shadow-xl hover:shadow-black/60 relative overflow-hidden"
               >
                 {/* Top: Logo Emblem & Badge */}
                 <div className="flex items-center justify-between gap-2">
@@ -340,26 +273,6 @@ export function BrandSlider() {
           </div>
         </div>
 
-        {/* Slide Dots Progress */}
-        <div className="flex items-center justify-center gap-1.5 pt-2">
-          {Array.from({ length: maxIndex + 1 }).map((_, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={() => setStartIndex(idx)}
-              className="group flex h-6 min-w-6 items-center justify-center px-1"
-              aria-label={`Slide ${idx + 1}`}
-            >
-              <span
-                className={`block h-1.5 rounded-full transition-all duration-300 ${
-                  startIndex === idx
-                    ? 'w-6 bg-amber-500'
-                    : 'w-1.5 bg-neutral-700 group-hover:bg-neutral-500'
-                }`}
-              />
-            </button>
-          ))}
-        </div>
       </div>
     </section>
   );

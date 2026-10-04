@@ -1,48 +1,11 @@
-'use client';
-
-import React, { useState, useEffect, useRef } from 'react';
-import { useInteracted } from '@/hooks/use-interacted';
+import React from 'react';
 import { TRUSTPILOT_STATS, REVIEWS } from '@/lib/data/reviews';
-import { Star, CheckCircle, ShieldCheck, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Star, CheckCircle, ShieldCheck } from 'lucide-react';
 
+/** Server-rendered, swipeable (scroll-snap) review row: no JavaScript, all reviews stay in the HTML. */
 export function TrustpilotSection() {
-  const [currentPage, setCurrentPage] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const touchStartX = useRef<number | null>(null);
-
-  // 3 reviews per slide page
-  const pageSize = 3;
-  const totalPages = Math.ceil(REVIEWS.length / pageSize);
-
-  const nextPage = () => {
-    setCurrentPage((prev) => (prev + 1 >= totalPages ? 0 : prev + 1));
-  };
-
-  const prevPage = () => {
-    setCurrentPage((prev) => (prev - 1 < 0 ? totalPages - 1 : prev - 1));
-  };
-
-  // Auto-advance review slideshow every 6s (starts after the first interaction)
-  const interacted = useInteracted();
-  useEffect(() => {
-    if (isPaused || !interacted) return;
-    const timer = setInterval(() => {
-      setCurrentPage((prev) => (prev + 1 >= totalPages ? 0 : prev + 1));
-    }, 6000);
-    return () => clearInterval(timer);
-  }, [isPaused, totalPages, interacted]);
-
-  const currentReviews = REVIEWS.slice(
-    currentPage * pageSize,
-    currentPage * pageSize + pageSize
-  );
-
   return (
-    <section
-      className="py-14 sm:py-20 bg-neutral-950 px-4 sm:px-6 lg:px-8 border-b border-amber-900/30 overflow-hidden"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-    >
+    <section className="py-14 sm:py-20 bg-neutral-950 px-4 sm:px-6 lg:px-8 border-b border-amber-900/30 overflow-hidden">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Trustpilot Header Badge & Title */}
         <div className="text-center space-y-4 max-w-2xl mx-auto">
@@ -72,26 +35,13 @@ export function TrustpilotSection() {
           </p>
         </div>
 
-        {/* Carousel Container */}
-        <div
-          className="relative"
-          onTouchStart={(e) => {
-            touchStartX.current = e.touches[0].clientX;
-          }}
-          onTouchEnd={(e) => {
-            if (touchStartX.current === null) return;
-            const diff = touchStartX.current - e.changedTouches[0].clientX;
-            if (diff > 40) nextPage();
-            else if (diff < -40) prevPage();
-            touchStartX.current = null;
-          }}
-        >
-          {/* Compact 3-Box Review Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 transition-opacity duration-300">
-            {currentReviews.map((review) => (
+        {/* Swipeable review row */}
+        <div className="relative">
+          <div role="region" aria-label="Customer reviews" className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:thin] [scrollbar-color:#404040_transparent]">
+            {REVIEWS.map((review) => (
               <div
                 key={review.id}
-                className="p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800/90 hover:border-amber-700/50 transition-all flex flex-col justify-between space-y-4 hover:shadow-xl hover:shadow-black/70 animate-in fade-in duration-300"
+                className="snap-start shrink-0 w-[85%] sm:w-[48%] lg:w-[calc((100%-3rem)/3)] p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800/90 hover:border-amber-700/50 transition-colors flex flex-col justify-between space-y-4"
               >
                 <div className="space-y-3">
                   {/* 5 Green Stars & Date */}
@@ -146,47 +96,6 @@ export function TrustpilotSection() {
             ))}
           </div>
 
-          {/* Navigation Controls on side for desktop */}
-          <div className="flex items-center justify-center gap-3 pt-6">
-            <button
-              type="button"
-              onClick={prevPage}
-              className="p-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400 transition-colors"
-              aria-label="Previous Reviews Page"
-            >
-              <ChevronLeft className="w-4 h-4" />
-            </button>
-
-            {/* Dots */}
-            <div className="flex items-center gap-1.5">
-              {Array.from({ length: totalPages }).map((_, idx) => (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => setCurrentPage(idx)}
-                  className="group flex h-6 min-w-6 items-center justify-center px-1"
-                  aria-label={`Go to reviews page ${idx + 1}`}
-                >
-                  <span
-                    className={`block h-1.5 rounded-full transition-all duration-300 ${
-                      currentPage === idx
-                        ? 'w-6 bg-emerald-500'
-                        : 'w-1.5 bg-neutral-700 group-hover:bg-neutral-500'
-                    }`}
-                  />
-                </button>
-              ))}
-            </div>
-
-            <button
-              type="button"
-              onClick={nextPage}
-              className="p-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-600/50 text-neutral-300 hover:text-amber-400 transition-colors"
-              aria-label="Next Reviews Page"
-            >
-              <ChevronRight className="w-4 h-4" />
-            </button>
-          </div>
         </div>
 
         {/* Guarantee Banner */}
