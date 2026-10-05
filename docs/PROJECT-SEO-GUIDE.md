@@ -92,3 +92,7 @@ Consumers: `app/page.tsx` + `components/HomeIntro.tsx` (home), `lib/data/blog.ts
 - Geo/hreflang: `en-AU` + `x-default`, geo meta in `app/layout.tsx`. Age gate is server HTML + head script (`html.age-ok`).
 - Agent-readiness files (llms/ai-catalog/agent-auth/markdown negotiation) are in `lib/agent/files.ts` and `app/.well-known/`; `public/js/webmcp.js` is minified from `docs/src/webmcp.source.js`.
 - Open items: 9 products without photos; 241 product-name primaries not found in the bank (remap only if the owner asks); DNS-AID needs DNS records.
+
+## Keyword mapping preview (always keep it openable)
+
+Before using or changing any keywords, make sure the keyword mapping preview opens: `docs/keyword-report/on-page-keywords-report.html` (full per-page mapping with intent and volume) and `SEO Analysis/mapping-v2.html`. Regenerate with `scripts/seo-tools` (`kwreport.cjs`, `kwout.cjs`, `kwhtml.cjs`) after any keyword change, serve it (`npx http-server docs/keyword-report -p 4180`, since `file://` is sometimes refused in the browser pane) and open it in a NEW browser tab for the user.
