@@ -21,8 +21,8 @@ export const HOME_SEO = {
    "vol": 8100
   },
   {
-   "kw": "don julioooo",
-   "vol": 5400
+   "kw": "don julio",
+   "vol": 8100
   },
   {
    "kw": "premix king",
@@ -87,7 +87,7 @@ export const HOME_SEO = {
    "vol": 5400
   },
   {
-   "kw": "barboun",
+   "kw": "don julioooo",
    "vol": 5400
   }
  ],
@@ -170,10 +170,6 @@ export const HOME_SEO = {
   },
   {
    "kw": "absolut vodka",
-   "vol": 8100
-  },
-  {
-   "kw": "don julio",
    "vol": 8100
   },
   {
