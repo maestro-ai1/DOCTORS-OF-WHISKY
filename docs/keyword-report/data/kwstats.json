@@ -1,22 +1,22 @@
 {
  "placements": 23611,
- "unique": 3164,
- "inBank": 2923,
+ "unique": 3162,
+ "inBank": 2921,
  "primary": {
-  "n": 654,
+  "n": 653,
   "dist": {
-   "Transactional": 164,
-   "Commercial": 149,
+   "Transactional": 162,
+   "Commercial": 150,
    "Navigational": 4,
    "Informational": 78,
    "not in bank": 259
   },
-  "vol": 425720
+  "vol": 433270
  },
  "secondary": {
-  "n": 1866,
+  "n": 1871,
   "dist": {
-   "Transactional": 65,
+   "Transactional": 70,
    "Commercial": 1238,
    "Navigational": 37,
    "Informational": 526,
@@ -34,7 +34,7 @@
   }
  },
  "all": {
-  "Transactional": 211,
+  "Transactional": 209,
   "Commercial": 2085,
   "Navigational": 40,
   "Informational": 569,

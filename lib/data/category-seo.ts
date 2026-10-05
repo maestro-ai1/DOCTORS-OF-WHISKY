@@ -89,7 +89,7 @@ export const CATEGORY_SEO: Record<string, { primary: string; secondary: string[]
   ]
  },
  "beer-premix-wine": {
-  "primary": "champagne sale",
+  "primary": "beer sale",
   "secondary": [
    "champagne",
    "red wine",
@@ -105,7 +105,7 @@ export const CATEGORY_SEO: Record<string, { primary: string; secondary: string[]
    "brookvale union ginger beer",
    "wine delivery",
    "sparkling wine",
-   "bilpin cider"
+   "champagne sale"
   ],
   "tags": [
    "wine white wines",

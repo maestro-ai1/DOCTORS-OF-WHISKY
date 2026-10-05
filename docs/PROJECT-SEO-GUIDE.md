@@ -96,3 +96,7 @@ Consumers: `app/page.tsx` + `components/HomeIntro.tsx` (home), `lib/data/blog.ts
 ## Keyword mapping preview (always keep it openable)
 
 Before using or changing any keywords, make sure the keyword mapping preview opens: `docs/keyword-report/on-page-keywords-report.html` (full per-page mapping with intent and volume) and `SEO Analysis/mapping-v2.html`. Regenerate with `scripts/seo-tools` (`kwreport.cjs`, `kwout.cjs`, `kwhtml.cjs`) after any keyword change, serve it (`npx http-server docs/keyword-report -p 4180`, since `file://` is sometimes refused in the browser pane) and open it in a NEW browser tab for the user.
+
+## Primary-keyword fit rule
+
+A primary keyword must name the page's own topic (champagne page -> "champagne sale", beer category -> beer term, not a different drink). Anything that does not fit is moved to that page's secondary list, never dropped. `scripts/seo-tools/fit-fix.cjs` (reads/writes `../SEO Analysis/mapping-v2.json`) applies the per-page overrides; then run `node scripts/apply-keywords-v2.mjs`. Spirit category still uses "buy rum online" and Port has no keyword because the bank has no generic Transactional spirits/port term.

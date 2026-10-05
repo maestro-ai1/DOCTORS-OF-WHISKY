@@ -317,12 +317,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "australian-whisky",
     "name": "Australian Whisky",
     "category": "whisky",
-    "description": "Lark Gift Pack: Buy Australian Whisky online in Australia: 11 bottles from Lark, priced from $450 to $1,990 AUD. Insured delivery, 18+ only.",
+    "description": "Lark Whisky: Buy Australian Whisky online in Australia: 11 bottles from Lark, priced from $450 to $1,990 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/australian-whisky/lark--tds-dark-lark-2026.jpg",
-    "primaryKeyword": "lark gift pack",
+    "primaryKeyword": "lark whisky",
     "secondaryKeywords": [
       "starward whisky",
-      "lark whisky",
       "lark whiskey",
       "lark classic cask",
       "best australian whisky",
@@ -335,16 +334,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "lark tasmanian peated",
       "lark symphony",
       "lark cask strength",
-      "best australian whiskey"
+      "best australian whiskey",
+      "lark gift pack"
     ],
     "faqs": [
       {
-        "question": "How much does lark gift pack cost in Australia?",
+        "question": "How much does lark whisky cost in Australia?",
         "answer": "Australian Whisky at Doctors of Whisky ranges from $450 AUD (Lark Symphony No1 100ml Australian Whisky) to $1,990 AUD (Lark Legacy Rare Cask Series Para 100 Vintage Single Malt). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy lark gift pack online in Australia?",
-        "answer": "Order lark gift pack from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy lark whisky online in Australia?",
+        "answer": "Order lark whisky from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which australian whisky brands do you sell?",
@@ -366,7 +366,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks. Doctors of Whisky lists 11 australian whisky bottles across 1 brand, including Lark, priced from $450 to $1,990 AUD.",
       "Lark Distillery in Tasmania was founded by Bill Lark in 1992 and is widely credited with reviving Australian whisky making. Try Australian single malt neat first, then with a splash of water to reveal more fruit and spice.",
-      "To buy lark gift pack online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy lark whisky online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "australian bourbon",
@@ -2345,9 +2345,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "lager",
     "name": "Lager",
     "category": "beer-premix-wine",
-    "description": "Beer Sale: Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heineken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
+    "description": "Heineken Lager: Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heineken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/lager/lager--tds-budweiser-330ml.jpg",
-    "primaryKeyword": "beer sale",
+    "primaryKeyword": "heineken lager",
     "secondaryKeywords": [
       "corona beer",
       "low carb beer",
@@ -2363,16 +2363,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "zero carb beer",
       "low calorie beer",
       "byron bay beer",
-      "stone wood beer"
+      "beer sale"
     ],
     "faqs": [
       {
-        "question": "How much does beer sale cost in Australia?",
+        "question": "How much does heineken lager cost in Australia?",
         "answer": "Lager at Doctors of Whisky ranges from $30 AUD (Modelo Especial Lager) to $60 AUD (Corona Brown Box 355 Bottles Lager). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy beer sale online in Australia?",
-        "answer": "Order beer sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy heineken lager online in Australia?",
+        "answer": "Order heineken lager from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which lager brands do you sell?",
@@ -2394,7 +2394,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste. Doctors of Whisky lists 5 lager bottles across 5 brands, including Budweiser, Corona, Heineken and Modelo, priced from $30 to $60 AUD.",
       "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass.",
-      "To buy beer sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy heineken lager online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "lager beer",
@@ -2423,9 +2423,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "imported-beer",
     "name": "Imported Beer",
     "category": "beer-premix-wine",
-    "description": "Buy Australian Beer Online: Buy Imported Beer online in Australia: 7 bottles from Corona, Heineken and Hoegaarden, priced from $40 to $70 AUD. Insured delivery, 18+ only.",
+    "description": "Heineken Beer: Buy Imported Beer online in Australia: 7 bottles from Corona, Heineken and Hoegaarden, priced from $40 to $70 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/imported-beer/imported-beer--tds-corona-brown-box-355-bottles.jpg",
-    "primaryKeyword": "buy australian beer online",
+    "primaryKeyword": "heineken beer",
     "secondaryKeywords": [
       "tiger beer",
       "modelo beer",
@@ -2441,16 +2441,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "pacific ale",
       "india pale ale australia",
       "4 pines pacific ale",
-      "4 pines pacific ale case price"
+      "buy australian beer online"
     ],
     "faqs": [
       {
-        "question": "How much does buy australian beer online cost in Australia?",
+        "question": "How much does heineken beer cost in Australia?",
         "answer": "Imported Beer at Doctors of Whisky ranges from $40 AUD (Peroni Nastro 6pack Imported Beer) to $70 AUD (Corona Brown Box 355 Bottles Imported Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy australian beer online online in Australia?",
-        "answer": "Order buy australian beer online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy australian beer online in Australia?",
+        "answer": "Order heineken beer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which imported beer brands do you sell?",
@@ -2472,7 +2472,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Imported beer covers international lagers, ales and stouts brewed overseas. Doctors of Whisky lists 7 imported beer bottles across 7 brands, including Corona, Heineken, Hoegaarden and Modelo, priced from $40 to $70 AUD.",
       "Serve imported beer at the temperature recommended for its style: cold for lagers, slightly warmer for ales and stouts.",
-      "To buy buy australian beer online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy heineken beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "menabrea beer",
@@ -3125,9 +3125,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "zero-sugar-seltzers",
     "name": "Zero Sugar",
     "category": "beer-premix-wine",
-    "description": "Sprite Zero: Buy Zero Sugar online in Australia: 5 bottles from Saint and Strong, priced from $25 to $55 AUD. Insured delivery, 18+ only.",
+    "description": "Fellr Seltzer: Buy Zero Sugar online in Australia: 5 bottles from Saint and Strong, priced from $25 to $55 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/zero-sugar-seltzers/zero-sugar--tds-d9-sparkling-grape.jpg",
-    "primaryKeyword": "sprite zero",
+    "primaryKeyword": "fellr seltzer",
     "secondaryKeywords": [
       "sugar free syrup",
       "no sugar chocolate",
@@ -3147,12 +3147,12 @@ export const SUBCATEGORIES: Subcategory[] = [
     ],
     "faqs": [
       {
-        "question": "How much does sprite zero cost in Australia?",
+        "question": "How much does fellr seltzer cost in Australia?",
         "answer": "Zero Sugar at Doctors of Whisky ranges from $25 AUD (Strong Double Sparkling Lemon Zero Sugar) to $55 AUD (D9 Strong Sparkling Grape Zero Sugar). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy sprite zero online in Australia?",
-        "answer": "Order sprite zero from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy fellr seltzer online in Australia?",
+        "answer": "Order fellr seltzer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which zero sugar brands do you sell?",
@@ -3174,7 +3174,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Hard seltzers are sparkling water with alcohol and flavour, and zero-sugar versions are marketed for people who want fewer sugars. Doctors of Whisky lists 5 zero sugar bottles across 2 brands, including Saint and Strong, priced from $25 to $55 AUD.",
       "Serve seltzers very cold in the can, or over ice with a slice of fruit.",
-      "To buy sprite zero online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy fellr seltzer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "v no sugar",
@@ -3593,9 +3593,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "champagne",
     "name": "Champagne",
     "category": "beer-premix-wine",
-    "description": "Champagne For Sale: Buy Champagne online in Australia: 6 bottles from Laurent-Perrier and Krug, priced from $74.99 to $289.99 AUD. Insured delivery, 18+ only.",
+    "description": "Champagne Sale: Buy Champagne online in Australia: 6 bottles from Laurent-Perrier and Krug, priced from $74.99 to $289.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/champagne/laurent-perrier-la-cuvee-brut-rose-champagne-nv-magnum.jpg",
-    "primaryKeyword": "champagne for sale",
+    "primaryKeyword": "champagne sale",
     "secondaryKeywords": [
       "nice champagne",
       "champagne price",
@@ -3637,12 +3637,12 @@ export const SUBCATEGORIES: Subcategory[] = [
     ],
     "faqs": [
       {
-        "question": "How much does champagne for sale cost in Australia?",
+        "question": "How much does champagne sale cost in Australia?",
         "answer": "Champagne at Doctors of Whisky ranges from $74.99 AUD (Laurent-Perrier La Cuvee Brut Champagne NV) to $289.99 AUD (Laurent-Perrier La Cuvee Brut Rose Champagne NV Magnum). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy champagne for sale online in Australia?",
-        "answer": "Order champagne for sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy champagne sale online in Australia?",
+        "answer": "Order champagne sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which champagne brands do you sell?",
@@ -3664,7 +3664,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Doctors of Whisky lists 6 champagne bottles across 2 brands, including Laurent-Perrier and Krug, priced from $74.99 to $289.99 AUD.",
       "Serve Champagne well chilled in a tulip or flute glass.",
-      "To buy champagne for sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy champagne sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -3749,14 +3749,13 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "australian-beer",
     "name": "Australian Beer",
     "category": "beer-premix-wine",
-    "description": "Beer Prices: Buy Australian Beer online in Australia: 4 bottles from Victoria Bitter and Stone & Wood, priced from $57.99 to $79.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Australian Beer online in Australia: 4 bottles from Victoria Bitter and Stone & Wood, priced from $57.99 to $79.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/australian-beer/stone-and-wood-pacific-ale-4-x-6-pack-bottles.jpg",
-    "primaryKeyword": "beer prices",
+    "primaryKeyword": "buy australian beer online",
     "secondaryKeywords": [
       "balter cerveza",
       "mountain goat beer",
       "india pale ale beer",
-      "4 pines pacific ale case price",
       "coopers lager",
       "radler beer",
       "beer flavored",
@@ -3767,7 +3766,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "belgium beer",
       "hazy pale ale",
       "4 pines pale ale",
-      "pilsner beer"
+      "pilsner beer",
+      "beer prices"
     ],
     "tags": [
       "flavoured beer",
@@ -3793,12 +3793,12 @@ export const SUBCATEGORIES: Subcategory[] = [
     ],
     "faqs": [
       {
-        "question": "How much does beer prices cost in Australia?",
+        "question": "How much does buy australian beer online cost in Australia?",
         "answer": "Australian Beer at Doctors of Whisky ranges from $57.99 AUD (Victoria Bitter VB Beer Case Cans) to $79.99 AUD (Stone & Wood Pacific Ale 4 x 6 Pack Bottles). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy beer prices online in Australia?",
-        "answer": "Order beer prices from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy buy australian beer online online in Australia?",
+        "answer": "Order buy australian beer online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which australian beer brands do you sell?",
@@ -3820,7 +3820,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Australian beer ranges from crisp lagers and pale ales to craft IPAs brewed across the country. Doctors of Whisky lists 4 australian beer bottles across 2 brands, including Victoria Bitter and Stone & Wood, priced from $57.99 to $79.99 AUD.",
       "Serve Australian beer cold, in a clean glass or straight from the bottle.",
-      "To buy beer prices online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy buy australian beer online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -4373,19 +4373,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "german-beer",
     "name": "German Beer",
     "category": "beer-premix-wine",
-    "description": "Beer Price In Australia: Buy German Beer online in Australia: 1 bottles from Warsteiner, priced from $59.99 to $59.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy German Beer online in Australia: 1 bottles from Warsteiner, priced from $59.99 to $59.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/german-beer/warsteiner-german-pilsner-imported-beer-case-bottles.jpg",
-    "primaryKeyword": "beer price in australia",
+    "primaryKeyword": "german beer",
     "secondaryKeywords": [
       "tiger beer",
       "mountain goat beer",
       "chang beer",
-      "stone wood beer",
       "leffe beer",
       "emu export beer",
       "ichnusa beer",
       "beer australia",
       "beer slab",
+      "beer price in australia",
       "larger beer",
       "flavored beer",
       "beer gift",
@@ -4397,7 +4397,6 @@ export const SUBCATEGORIES: Subcategory[] = [
       "flavoured beer",
       "beer flavours",
       "modelo beer",
-      "german beer",
       "aussie beer",
       "peroni beer",
       "stone and wood beer",
@@ -4413,16 +4412,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "beer flavored",
       "balter beer australia",
       "best aussie beer",
-      "hoegaarden beer"
+      "hoegaarden beer",
+      "beer carton"
     ],
     "faqs": [
       {
-        "question": "How much does beer price in australia cost in Australia?",
+        "question": "How much does german beer cost in Australia?",
         "answer": "German Beer at Doctors of Whisky ranges from $59.99 AUD (Warsteiner German Pilsner Imported Beer Case Bottles) to $59.99 AUD (Warsteiner German Pilsner Imported Beer Case Bottles). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy beer price in australia online in Australia?",
-        "answer": "Order beer price in australia from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy german beer online in Australia?",
+        "answer": "Order german beer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which german beer brands do you sell?",
@@ -4444,7 +4444,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "German beer includes lagers, pilsners and wheat beers brewed in Germany, where the Reinheitsgebot purity law dates from 1516. Doctors of Whisky lists 1 german beer bottle across 1 brand, including Warsteiner, priced from $59.99 to $59.99 AUD.",
       "Serve German beer cold in the matching style of glass.",
-      "To buy beer price in australia online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy german beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {

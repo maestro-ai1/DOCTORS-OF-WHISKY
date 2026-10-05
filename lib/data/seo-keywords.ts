@@ -944,12 +944,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "australian-whisky": {
-  "primary": "lark gift pack",
-  "primaryVolume": 70,
-  "primaryKd": 5,
+  "primary": "lark whisky",
+  "primaryVolume": 3600,
+  "primaryKd": 24,
   "secondary": [
    "starward whisky",
-   "lark whisky",
    "lark whiskey",
    "lark classic cask",
    "best australian whisky",
@@ -962,7 +961,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "lark tasmanian peated",
    "lark symphony",
    "lark cask strength",
-   "best australian whiskey"
+   "best australian whiskey",
+   "lark gift pack"
   ],
   "tags": [
    "australian bourbon",
@@ -1173,8 +1173,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "lark whisky",
-   "lark whiskey"
+   "lark whiskey",
+   "lark gift pack"
   ]
  },
  "french-vodka": {
@@ -6978,9 +6978,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "lager": {
-  "primary": "beer sale",
-  "primaryVolume": 590,
-  "primaryKd": 18,
+  "primary": "heineken lager",
+  "primaryVolume": 260,
+  "primaryKd": 16,
   "secondary": [
    "corona beer",
    "low carb beer",
@@ -6996,7 +6996,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "zero carb beer",
    "low calorie beer",
    "byron bay beer",
-   "stone wood beer"
+   "beer sale"
   ],
   "tags": [
    "lager beer",
@@ -7210,13 +7210,13 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "corona beer",
    "heineken beer",
    "mountain goat beer",
-   "stone wood beer"
+   "beer sale"
   ]
  },
  "imported-beer": {
-  "primary": "buy australian beer online",
-  "primaryVolume": 170,
-  "primaryKd": 15,
+  "primary": "heineken beer",
+  "primaryVolume": 2900,
+  "primaryKd": 25,
   "secondary": [
    "tiger beer",
    "modelo beer",
@@ -7232,7 +7232,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "pacific ale",
    "india pale ale australia",
    "4 pines pacific ale",
-   "4 pines pacific ale case price"
+   "buy australian beer online"
   ],
   "tags": [
    "menabrea beer",
@@ -7446,7 +7446,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tiger beer",
    "chang beer",
    "india pale ale beer",
-   "4 pines pacific ale case price"
+   "buy australian beer online"
   ]
  },
  "non-alcoholic-beer": {
@@ -9315,9 +9315,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "zero-sugar-seltzers": {
-  "primary": "sprite zero",
-  "primaryVolume": 720,
-  "primaryKd": 26,
+  "primary": "fellr seltzer",
+  "primaryVolume": 480,
+  "primaryKd": 14,
   "secondary": [
    "sugar free syrup",
    "no sugar chocolate",
@@ -10717,9 +10717,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "champagne": {
-  "primary": "champagne for sale",
-  "primaryVolume": 170,
-  "primaryKd": 19,
+  "primary": "champagne sale",
+  "primaryVolume": 590,
+  "primaryKd": 16,
   "secondary": [
    "nice champagne",
    "champagne price",
@@ -11179,14 +11179,13 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "australian-beer": {
-  "primary": "beer prices",
-  "primaryVolume": 480,
-  "primaryKd": 18,
+  "primary": "buy australian beer online",
+  "primaryVolume": 170,
+  "primaryKd": 15,
   "secondary": [
    "balter cerveza",
    "mountain goat beer",
    "india pale ale beer",
-   "4 pines pacific ale case price",
    "coopers lager",
    "radler beer",
    "beer flavored",
@@ -11197,7 +11196,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "belgium beer",
    "hazy pale ale",
    "4 pines pale ale",
-   "pilsner beer"
+   "pilsner beer",
+   "beer prices"
   ],
   "tags": [
    "flavoured beer",
@@ -11411,7 +11411,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "balter cerveza",
    "mountain goat beer",
    "india pale ale beer",
-   "4 pines pacific ale case price"
+   "beer prices"
   ]
  },
  "prosecco": {
@@ -12345,8 +12345,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  },
  "ouzo": {
   "primary": "ouzo",
-  "primaryVolume": 0,
-  "primaryKd": null,
+  "primaryVolume": 6600,
+  "primaryKd": 27,
   "secondary": [
    "absolut raspberri vodka",
    "tequila azul",
@@ -13037,19 +13037,19 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "german-beer": {
-  "primary": "beer price in australia",
-  "primaryVolume": 390,
-  "primaryKd": 17,
+  "primary": "german beer",
+  "primaryVolume": 2400,
+  "primaryKd": 23,
   "secondary": [
    "tiger beer",
    "mountain goat beer",
    "chang beer",
-   "stone wood beer",
    "leffe beer",
    "emu export beer",
    "ichnusa beer",
    "beer australia",
    "beer slab",
+   "beer price in australia",
    "larger beer",
    "flavored beer",
    "beer gift",
@@ -13061,7 +13061,6 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "flavoured beer",
    "beer flavours",
    "modelo beer",
-   "german beer",
    "aussie beer",
    "peroni beer",
    "stone and wood beer",
@@ -13269,7 +13268,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tiger beer",
    "mountain goat beer",
    "chang beer",
-   "stone wood beer"
+   "beer price in australia"
   ]
  },
  "cabernet-sauvignon": {
@@ -13736,4 +13735,4 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  }
 };
 
-export const SITE_TAGS: string[] = ["tequila","baileys","champagne","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","kahlua","absolut vodka","rum","kraken rum","corona beer","patron","don julio","sauvignon blanc","belvedere vodka","rose wine","white wine","baileys irish cream","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","bilpin cider","wine white wines","dry white wine","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","suntory 196","jose cuervo","hennessy xo","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","martell","martell blue swift","grenache red","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","japanese gin","grey goose 1l","cafe patron","kraken black spiced rum","martell swift blue","hennessy cognac","mountain goat beer","wine pinot","strongbow cider","sugar free syrup","nikka whiskey","bushmills whiskey","dalmore whisky","single malt scotch whisky","whiskey bourbon jim beam","wild turkey bourbon","buffalo trace kentucky bourbon","rye whiskey","vodka bottle","xo tequila patron cafe","bacardi rum","dark rum","black sambuca","jinro soju","nikka from the barrel","irish cream","jameson irish whiskey","saint germain cafe","campari negroni"];
+export const SITE_TAGS: string[] = ["tequila","baileys","champagne","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","kahlua","absolut vodka","rum","kraken rum","corona beer","patron","don julio","sauvignon blanc","belvedere vodka","rose wine","white wine","baileys irish cream","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","bilpin cider","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","suntory 196","jose cuervo","hennessy xo","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","martell","martell blue swift","grenache red","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","japanese gin","grey goose 1l","cafe patron","kraken black spiced rum","martell swift blue","hennessy cognac","mountain goat beer","wine pinot","strongbow cider","sugar free syrup","nikka whiskey","bushmills whiskey","dalmore whisky","single malt scotch whisky","whiskey bourbon jim beam","wild turkey bourbon","buffalo trace kentucky bourbon","rye whiskey","vodka bottle","xo tequila patron cafe","bacardi rum","dark rum","black sambuca","jinro soju","nikka from the barrel","irish cream","jameson irish whiskey","saint germain cafe"];
