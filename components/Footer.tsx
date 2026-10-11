@@ -3,6 +3,16 @@ import Link from '@/components/PlainLink';
 import { SITE, CONTACT } from '@/lib/config';
 import { Wine, ShieldCheck } from 'lucide-react';
 
+/** Shop and topic pages (new landing pages live here, not under policies). */
+const QUICK_LINKS = [
+  { label: 'Whisky Gift Packs', href: '/gifts/whisky/' },
+  { label: 'Gin Gifts', href: '/gifts/gin/' },
+  { label: 'Buy Tequila', href: '/collections/tequila/' },
+  { label: 'Smirnoff Vodka', href: '/collections/smirnoff/' },
+  { label: 'Absolut Vodka', href: '/collections/absolut/' },
+  { label: 'Blog', href: '/blog/' },
+];
+
 const FOOTER_LINKS = [
   { label: 'About Us', href: '/about/' },
   { label: 'FAQ', href: '/faq/' },
@@ -11,12 +21,6 @@ const FOOTER_LINKS = [
   { label: 'Refund Policy', href: '/refund-policy/' },
   { label: 'Shipping Information', href: '/shipping/' },
   { label: 'Contact Us', href: '/contact/' },
-  { label: 'Whisky Gift Packs', href: '/gifts/whisky/' },
-  { label: 'Gin Gifts', href: '/gifts/gin/' },
-  { label: 'Buy Tequila', href: '/collections/tequila/' },
-  { label: 'Smirnoff Vodka', href: '/collections/smirnoff/' },
-  { label: 'Absolut Vodka', href: '/collections/absolut/' },
-  { label: 'Blog', href: '/blog/' },
 ];
 
 const PAYMENT_CHIPS = [
@@ -52,6 +56,14 @@ export function Footer() {
 
           {/* Links */}
           <div className="md:col-span-4 space-y-1">
+            <h2 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">Quick links</h2>
+            <div className="grid grid-cols-2 gap-x-4 text-xs pb-3">
+              {QUICK_LINKS.map((link) => (
+                <Link key={link.href} href={link.href} className="inline-block text-neutral-400 hover:text-amber-300 transition-colors py-2">
+                  {link.label}
+                </Link>
+              ))}
+            </div>
             <h2 className="text-xs uppercase font-bold tracking-widest text-amber-400 pb-1.5 border-b border-neutral-900">Information &amp; Policies</h2>
             <div className="grid grid-cols-2 gap-x-4 text-xs">
               {FOOTER_LINKS.map((link) => (
