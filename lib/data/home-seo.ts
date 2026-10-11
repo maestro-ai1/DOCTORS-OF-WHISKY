@@ -25,8 +25,8 @@ export const HOME_SEO = {
    "vol": 8100
   },
   {
-   "kw": "don julioooo",
-   "vol": 5400
+   "kw": "regal chivas whisky",
+   "vol": 4400
   }
  ],
  "secondary": [
@@ -195,6 +195,10 @@ export const HOME_SEO = {
   {
    "kw": "corona beer",
    "vol": 8100
+  },
+  {
+   "kw": "don julioooo",
+   "vol": 5400
   }
  ],
  "headline": [

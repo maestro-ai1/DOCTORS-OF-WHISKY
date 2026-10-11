@@ -11,6 +11,11 @@ const FOOTER_LINKS = [
   { label: 'Refund Policy', href: '/refund-policy/' },
   { label: 'Shipping Information', href: '/shipping/' },
   { label: 'Contact Us', href: '/contact/' },
+  { label: 'Whisky Gift Packs', href: '/gifts/whisky/' },
+  { label: 'Gin Gifts', href: '/gifts/gin/' },
+  { label: 'Buy Tequila', href: '/collections/tequila/' },
+  { label: 'Smirnoff Vodka', href: '/collections/smirnoff/' },
+  { label: 'Absolut Vodka', href: '/collections/absolut/' },
   { label: 'Blog', href: '/blog/' },
 ];
 

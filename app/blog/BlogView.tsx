@@ -148,7 +148,7 @@ export function BlogView({ page }: { page: number }) {
 
         <Pager page={page} count={BLOG_PAGE_COUNT} basePath="/blog/" label="Guides pages" />
       </div>
-      {page === 1 && <PageSearches path="/blog/" fallback="/blog/" />}
+      <PageSearches path="/blog/" fallback="/blog/" />
     </div>
   );
 }

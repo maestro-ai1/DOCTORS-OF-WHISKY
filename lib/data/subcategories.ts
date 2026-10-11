@@ -20,8 +20,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "laphroaig",
       "bourbon whiskey",
       "single malt whiskey",
-      "whisky gift pack",
       "dimple whiskey",
+      "macallan whiskey",
       "balvenie",
       "ardbeg"
     ],
@@ -57,9 +57,6 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy scotch whisky online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "whiskey gift",
-      "macallan whiskey",
-      "whiskey gifts australia",
       "royal salute",
       "scotch whiskey",
       "whisky malt single",
@@ -76,7 +73,10 @@ export const SUBCATEGORIES: Subcategory[] = [
       "premium scotch whiskey",
       "scotch malt whisky",
       "highland single malt whiskey",
-      "premium blended scotch"
+      "premium blended scotch",
+      "glenfiddich",
+      "glenfiddich 12",
+      "jameson whisky"
     ]
   },
   {
@@ -1097,34 +1097,34 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "white-tequila",
     "name": "White Tequila",
     "category": "spirit",
-    "description": "Buy Tequila Online: Buy White Tequila online in Australia: 9 bottles from Padre, Cabo and Gran Patron, priced from $75 to $290 AUD. Insured delivery, 18+ only.",
+    "description": "Tequila For Sale: Buy White Tequila online in Australia: 9 bottles from Padre, Cabo and Gran Patron, priced from $75 to $290 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/white-tequila/white-tequila--tds-cabo-wabo-blanco-new.jpg",
-    "primaryKeyword": "buy tequila online",
+    "primaryKeyword": "tequila for sale",
     "secondaryKeywords": [
-      "tequila",
       "patron tequila",
       "clase azul tequila",
       "azul tequila",
       "sierra tequila",
-      "blanco tequila",
       "patrón tequila",
-      "tequila blanco",
       "patron silver tequila",
       "1942 tequila anejo",
       "tequila reposado",
-      "silver tequila",
       "casamigos reposado tequila",
-      "tequila for sale",
+      "herradura tequila",
+      "tequila don julio reposado",
+      "casa azul tequila",
+      "buy tequila online",
+      "tequila specials",
       "tequila sale"
     ],
     "faqs": [
       {
-        "question": "How much does buy tequila online cost in Australia?",
+        "question": "How much does tequila for sale cost in Australia?",
         "answer": "White Tequila at Doctors of Whisky ranges from $75 AUD (Kah Blanco Tequila) to $290 AUD (Padre Azul 50ml Collection White Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy tequila online online in Australia?",
-        "answer": "Order buy tequila online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy tequila online in Australia?",
+        "answer": "Order tequila for sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which white tequila brands do you sell?",
@@ -1146,15 +1146,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Blanco (white or silver) tequila is unaged or aged for no more than two months, and tastes of fresh agave, citrus and pepper. Doctors of Whisky lists 9 white tequila bottles across 8 brands, including Padre, Cabo, Gran Patron and Kah, priced from $75 to $290 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use blanco tequila in margaritas, palomas and tequila sodas, or sip it neat.",
-      "To buy buy tequila online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy tequila for sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "tequila bottle",
-      "herradura tequila",
-      "tequila don julio reposado",
-      "affordable tequila",
-      "tequila australia",
-      "casa azul tequila",
       "tequila patron",
       "tequila don julio",
       "tequila don julio 1942",
@@ -1166,9 +1160,15 @@ export const SUBCATEGORIES: Subcategory[] = [
       "tequila sierra",
       "espolon tequila blanco",
       "patron tequila silver",
-      "tequila 1l",
       "blue tequila",
-      "tequila bottles"
+      "tequila from tequila",
+      "espolon tequila",
+      "don julio tequila",
+      "casamigos tequila",
+      "teremana tequila",
+      "xo tequila patron cafe",
+      "jose cuervo tequila",
+      "patron silver"
     ]
   },
   {
@@ -1179,19 +1179,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/gold-tequila/gold-tequila--tds-cabo-wabo-anejo-new.jpg",
     "primaryKeyword": "buy tequila",
     "secondaryKeywords": [
-      "tequila",
       "patron tequila",
       "sierra tequila",
       "jose cuervo tequila",
-      "blanco tequila",
-      "reposado tequila",
       "patrón tequila",
       "patron silver tequila",
       "1942 tequila anejo",
-      "tequila blanco",
       "1800 anejo",
       "tequila 1800",
       "tequila don julio reposado",
+      "tequila reposado",
+      "tequila patron",
+      "tequila don julio",
+      "tequila don julio 1942",
       "tequila for sale",
       "tequila sale"
     ],
@@ -1227,15 +1227,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "silver tequila",
-      "tequila bottle",
-      "tequila reposado",
-      "affordable tequila",
-      "tequila patron",
-      "tequila don julio",
-      "tequila don julio 1942",
       "don julio blanco tequila",
-      "tequila australia",
       "white tequila",
       "tequila sierra",
       "captain morgan spiced gold",
@@ -1243,10 +1235,18 @@ export const SUBCATEGORIES: Subcategory[] = [
       "don julio tequila reposado",
       "1800 silver tequila",
       "gold label whiskey",
-      "tequila 1l",
-      "tequila bottles",
       "tequila specials",
-      "patron tequila silver"
+      "patron tequila silver",
+      "tequila from tequila",
+      "espolon tequila",
+      "clase azul tequila",
+      "azul tequila",
+      "don julio tequila",
+      "casamigos tequila",
+      "teremana tequila",
+      "xo tequila patron cafe",
+      "1942 tequila",
+      "el jimador tequila"
     ]
   },
   {
@@ -1415,17 +1415,17 @@ export const SUBCATEGORIES: Subcategory[] = [
     "secondaryKeywords": [
       "gin",
       "pink gin",
-      "gin gifts",
-      "gin gifts australia",
-      "gin gift packs",
       "gin delivery",
-      "gin gift set australia",
       "australian gin",
       "dry gin",
       "gin brands",
-      "gin gift pack",
       "gin specials",
       "gin sale",
+      "gin and tonic cans",
+      "gin bottle",
+      "flavoured gin",
+      "gin alcohol",
+      "gin premix",
       "gin for sale",
       "buy gin australia"
     ],
@@ -1461,16 +1461,9 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy gin online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "gin and tonic cans",
-      "gin bottle",
-      "flavoured gin",
-      "gin gift set",
-      "gin alcohol",
-      "gin premix",
       "gin and tonic premix",
       "gin cans",
       "bottle of gin",
-      "gin presents",
       "glas gin tonic",
       "good gin",
       "sydney gin",
@@ -1480,7 +1473,14 @@ export const SUBCATEGORIES: Subcategory[] = [
       "buy gin online australia",
       "cal gin",
       "le tribute gin",
-      "australia gin"
+      "australia gin",
+      "tanqueray gin",
+      "gordons london dry gin",
+      "malfy gin",
+      "gordons gin",
+      "japanese gin",
+      "bombay gin",
+      "gordon's gin"
     ]
   },
   {
@@ -3437,56 +3437,56 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "vodka",
     "name": "Vodka",
     "category": "spirit",
-    "description": "Smirnoff Liquor: Buy Vodka online in Australia: 2 bottles from Absolut, priced from $49.99 to $79.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Vodka online in Australia: 2 bottles from Absolut, priced from $49.99 to $79.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/vodka/absolut-tabasco-chilli-pepper-flavoured-swedish-vodka.jpg",
-    "primaryKeyword": "smirnoff liquor",
+    "primaryKeyword": "buy vodka online",
     "secondaryKeywords": [
-      "smirnoff vodka",
-      "absolut vodka",
-      "absolut liquor",
-      "smirnoff",
-      "smirnoff ice",
       "cheap vodka",
-      "smirnoff double black",
-      "absolute vodka",
       "cruiser vodka",
       "vodka bottle",
       "skyy vodka",
       "tito's vodka",
-      "smirnoff vodka 1l",
-      "smirnoff vodka 700ml",
-      "vodka &"
-    ],
-    "tags": [
-      "absolut vodka 700ml",
       "vodka 1l",
-      "vodka smirnoff",
       "bottle of vodka",
       "vodka cheap",
       "cheapest vodka",
       "sky vodka",
-      "smirnoff vodka 1 litre",
-      "smirnoff 700ml",
+      "vodka &",
       "vodka premix",
       "vodka cans",
       "1l vodka",
-      "flavoured vodka",
+      "flavoured vodka"
+    ],
+    "tags": [
       "700ml vodka",
       "vodka 1 litre",
-      "smirnoff 1l",
-      "vodka absolut",
       "vodka price",
       "1 litre vodka",
-      "vodka 700ml"
+      "vodka 700ml",
+      "belvedere vodka",
+      "ciroc vodka",
+      "haku vodka",
+      "vodka for espresso martinis",
+      "vodka to drink",
+      "gray goose vodka 1 liter",
+      "dan murphys vodka",
+      "crystal head vodka",
+      "ketel one vodka",
+      "polish vodka",
+      "grey goose vodka 1l",
+      "grey goose vodka 1 litre",
+      "japanese vodka",
+      "russian vodka",
+      "stoli vodka"
     ],
     "faqs": [
       {
-        "question": "How much does smirnoff liquor cost in Australia?",
+        "question": "How much does buy vodka online cost in Australia?",
         "answer": "Vodka at Doctors of Whisky ranges from $49.99 AUD (Absolut Swedish Vodka) to $79.99 AUD (Absolut Tabasco Chilli Pepper Flavoured Swedish Vodka). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy smirnoff liquor online in Australia?",
-        "answer": "Order smirnoff liquor from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy buy vodka online online in Australia?",
+        "answer": "Order buy vodka online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which vodka brands do you sell?",
@@ -3508,7 +3508,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Vodka is a clear spirit distilled from grain, potatoes or other fermentable materials and usually filtered for a clean, neutral taste. Doctors of Whisky lists 2 vodka bottles across 1 brand, including Absolut, priced from $49.99 to $79.99 AUD.",
       "Serve vodka well chilled and neat, in a martini, or with soda, tonic or juice.",
-      "To buy smirnoff liquor online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy buy vodka online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -4066,29 +4066,22 @@ export const SUBCATEGORIES: Subcategory[] = [
     "primaryKeyword": "pink gin",
     "secondaryKeywords": [
       "gin",
-      "gin gifts",
-      "gin gifts australia",
-      "gin gift packs",
       "gin delivery",
-      "gin gift set australia",
       "australian gin",
       "dry gin",
       "gin brands",
-      "gin gift pack",
       "gin specials",
       "gin sale",
       "pink vodka",
       "gin and tonic cans",
-      "gin pink"
-    ],
-    "tags": [
       "gin bottle",
       "flavoured gin",
-      "gin gift set",
       "gin alcohol",
+      "gin pink",
       "gin cans",
-      "bottle of gin",
-      "gin presents",
+      "bottle of gin"
+    ],
+    "tags": [
       "glas gin tonic",
       "good gin",
       "sydney gin",
@@ -4101,7 +4094,14 @@ export const SUBCATEGORIES: Subcategory[] = [
       "cal gin",
       "le tribute gin",
       "australia gin",
-      "gin australia"
+      "gin australia",
+      "pink gin premix",
+      "pink gin cans",
+      "pink sparkling wine",
+      "pink prosecco",
+      "wine moscato pink",
+      "pink monster energy drink",
+      "monster energy pink"
     ],
     "faqs": [
       {

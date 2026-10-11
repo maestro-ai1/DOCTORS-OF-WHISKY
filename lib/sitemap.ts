@@ -39,6 +39,11 @@ export const xmlResponse = (body: string) =>
 export const pagesEntries = (): SitemapEntry[] => [
   { path: '/', changefreq: 'daily', priority: 1.0 },
   { path: '/shop/', changefreq: 'daily', priority: 0.9 },
+  { path: '/gifts/whisky/', changefreq: 'weekly', priority: 0.8 },
+  { path: '/gifts/gin/', changefreq: 'weekly', priority: 0.8 },
+  { path: '/collections/tequila/', changefreq: 'weekly', priority: 0.85 },
+  { path: '/collections/smirnoff/', changefreq: 'weekly', priority: 0.8 },
+  { path: '/collections/absolut/', changefreq: 'weekly', priority: 0.8 },
   { path: '/blog/', changefreq: 'weekly', priority: 0.7 },
   { path: '/faq/', changefreq: 'weekly', priority: 0.8 },
   { path: '/about/', changefreq: 'monthly', priority: 0.7 },

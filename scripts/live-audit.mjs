@@ -17,7 +17,7 @@ const run = async (u) => {
   const t = (h.match(/<title[^>]*>([^<]*)<\/title>/) || [])[1]?.trim();
   const d = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
   const h1 = (h.match(/<h1[\s>]/g) || []).length;
-  if (!t) f(p, 'no title'); else { if (t.length > 65) w(p, `title ${t.length}`); if (titles.has(t)) f(p, 'dup title with ' + titles.get(t)); titles.set(t, p); }
+  if (!t) f(p, 'no title'); else { const tl = t.replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').length; if (tl > 65) w(p, `title ${tl}`); if (titles.has(t)) f(p, 'dup title with ' + titles.get(t)); titles.set(t, p); }
   if (!d) f(p, 'no meta description'); else { const dl = d.replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').length; if (dl > 165) w(p, `desc ${dl}`); if (descs.has(d)) w(p, 'dup desc ' + descs.get(d)); descs.set(d, p); }
   if (h1 !== 1) f(p, `h1 count ${h1}`);
   if (!/rel="canonical"/.test(h)) f(p, 'no canonical');

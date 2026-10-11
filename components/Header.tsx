@@ -17,8 +17,10 @@ const TOP_COLLECTIONS = [
   { label: 'Scotch Whisky', href: '/shop/whisky/collection/scotch-whisky/' },
   { label: 'Japanese Whisky', href: '/shop/whisky/collection/japanese-whisky/' },
   { label: 'Bourbon', href: '/shop/whisky/collection/bourbon/' },
+  { label: 'Tequila', href: '/collections/tequila/' },
   { label: 'Gin', href: '/shop/spirit/collection/gin/' },
   { label: 'Vodka', href: '/shop/spirit/collection/vodka/' },
+  { label: 'Smirnoff', href: '/collections/smirnoff/' },
   { label: 'Cognac & Brandy', href: '/shop/spirit/collection/cognac-brandy/' },
   { label: 'Champagne', href: '/shop/beer-premix-wine/collection/champagne/' },
 ];
@@ -26,6 +28,7 @@ const TOP_COLLECTIONS = [
 /** Main menu: Home, Shop (drop-down), Guides, About Us, Contact Us, FAQ. */
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
+  { label: 'Gifts', href: '/gifts/whisky/' },
   { label: 'Guides', href: '/blog/' },
   { label: 'About Us', href: '/about/' },
   { label: 'Contact Us', href: '/contact/' },

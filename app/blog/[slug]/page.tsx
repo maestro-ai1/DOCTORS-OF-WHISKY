@@ -75,7 +75,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const relatedProducts = sub ? getProductsBySubCategory(sub.slug).slice(0, 3) : [];
   const inline = inlineImageFor(post.slug);
   const collectionPath = sub ? `/shop/${sub.category}/collection/${sub.slug}/` : '/shop/';
-  const tagLinks = post.tags && post.tags.length >= 20 ? linkList(post.tags, collectionPath, `/blog/${post.slug}/`, 20) : buildTagLinks(post.tags ?? subcategoryTags(post.relatedSubcategory, 200), collectionPath, `/blog/${post.slug}/`, 20, collectionTagTemplates(sub ? sub.name : post.primaryKeyword), collectionTagTemplates(topicFor(post.slug, post.primaryKeyword)).slice(0, 8));
+  const directTags = post.tags && post.tags.length >= 20 ? linkList(post.tags, collectionPath, `/blog/${post.slug}/`, 20) : [];
+  const tagLinks = directTags.length >= 20 ? directTags : buildTagLinks([...(post.tags ?? []), ...subcategoryTags(post.relatedSubcategory, 200)], collectionPath, `/blog/${post.slug}/`, 20, collectionTagTemplates(sub ? sub.name : post.primaryKeyword), collectionTagTemplates(topicFor(post.slug, post.primaryKeyword)).slice(0, 8));
   const relatedLinks = linkList(post.secondaryKeywords, collectionPath, `/blog/${post.slug}/`, 5);
   const allText = [...post.body, ...(post.sections || []).flatMap((s) => [s.heading, ...s.paragraphs])].join(' ');
   const wordCount = allText.split(/\s+/).filter(Boolean).length;

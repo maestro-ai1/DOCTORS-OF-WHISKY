@@ -51,7 +51,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const category = MAIN_CATEGORIES.find((c) => c.slug === product.category);
   const collectionPath = `/shop/${product.category}/collection/${product.subCategorySlug}/`;
   const selfPath = `/shop/${product.category}/${product.slug}/`;
-  const tagLinks = product.tags && product.tags.length >= 20 ? linkList(product.tags, collectionPath, selfPath, 20) : buildTagLinks(product.tags ?? productTags(product, 200), collectionPath, selfPath, 20, productTagTemplates(product));
+  const directTags = product.tags && product.tags.length >= 20 ? linkList(product.tags, collectionPath, selfPath, 20) : [];
+  const tagLinks = directTags.length >= 20 ? directTags : buildTagLinks([...(product.tags ?? []), ...productTags(product, 200)], collectionPath, selfPath, 20, productTagTemplates(product));
   const relatedLinks = linkList(product.secondaryKeywords, collectionPath, selfPath, 5);
 
   const breadcrumb = breadcrumbLd([

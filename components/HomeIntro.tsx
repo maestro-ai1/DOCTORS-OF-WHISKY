@@ -25,7 +25,7 @@ export function HomeIntro() {
           {titleCase(HOME_SEO.primary.kw)}: Buy {lead} Online in Australia
         </h1>
         <p className="text-base sm:text-lg text-amber-300 font-serif">
-          Shop the whisky sale, {feature.join(', ')} and more, delivered insured Australia-wide.
+          Whisky sale prices on Scotch, Japanese and Australian whisky, plus tequila, gin and champagne, delivered insured Australia-wide.
         </p>
         <p className="text-sm sm:text-base text-neutral-300 max-w-3xl mx-auto leading-relaxed font-light">
           Doctors of Whisky is a Sydney bottle shop for whisky, tequila, gin, vodka, champagne, prosecco, cognac, wine and beer. Browse the{' '}

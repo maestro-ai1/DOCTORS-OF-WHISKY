@@ -28,15 +28,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "laphroaig",
    "bourbon whiskey",
    "single malt whiskey",
-   "whisky gift pack",
    "dimple whiskey",
+   "macallan whiskey",
    "balvenie",
    "ardbeg"
   ],
   "tags": [
-   "whiskey gift",
-   "macallan whiskey",
-   "whiskey gifts australia",
    "royal salute",
    "scotch whiskey",
    "whisky malt single",
@@ -53,7 +50,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "premium scotch whiskey",
    "scotch malt whisky",
    "highland single malt whiskey",
-   "premium blended scotch"
+   "premium blended scotch",
+   "glenfiddich",
+   "glenfiddich 12",
+   "jameson whisky"
   ],
   "faqSeeds": [
    {
@@ -243,7 +243,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "regal chivas whisky",
    "laphroaig",
    "balvenie",
-   "ardbeg"
+   "ardbeg",
+   "glenfiddich"
   ]
  },
  "bourbon": {
@@ -3270,33 +3271,27 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "white-tequila": {
-  "primary": "buy tequila online",
-  "primaryVolume": 390,
-  "primaryKd": 7,
+  "primary": "tequila for sale",
+  "primaryVolume": 260,
+  "primaryKd": 14,
   "secondary": [
-   "tequila",
    "patron tequila",
    "clase azul tequila",
    "azul tequila",
    "sierra tequila",
-   "blanco tequila",
    "patrón tequila",
-   "tequila blanco",
    "patron silver tequila",
    "1942 tequila anejo",
    "tequila reposado",
-   "silver tequila",
    "casamigos reposado tequila",
-   "tequila for sale",
+   "herradura tequila",
+   "tequila don julio reposado",
+   "casa azul tequila",
+   "buy tequila online",
+   "tequila specials",
    "tequila sale"
   ],
   "tags": [
-   "tequila bottle",
-   "herradura tequila",
-   "tequila don julio reposado",
-   "affordable tequila",
-   "tequila australia",
-   "casa azul tequila",
    "tequila patron",
    "tequila don julio",
    "tequila don julio 1942",
@@ -3308,9 +3303,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tequila sierra",
    "espolon tequila blanco",
    "patron tequila silver",
-   "tequila 1l",
    "blue tequila",
-   "tequila bottles"
+   "tequila from tequila",
+   "espolon tequila",
+   "don julio tequila",
+   "casamigos tequila",
+   "teremana tequila",
+   "xo tequila patron cafe",
+   "jose cuervo tequila",
+   "patron silver"
   ],
   "faqSeeds": [
    {
@@ -3497,8 +3498,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "tequila for sale",
-   "tequila sale"
+   "buy tequila online",
+   "tequila sale",
+   "casamigos tequila"
   ]
  },
  "gold-tequila": {
@@ -3506,32 +3508,24 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 320,
   "primaryKd": 11,
   "secondary": [
-   "tequila",
    "patron tequila",
    "sierra tequila",
    "jose cuervo tequila",
-   "blanco tequila",
-   "reposado tequila",
    "patrón tequila",
    "patron silver tequila",
    "1942 tequila anejo",
-   "tequila blanco",
    "1800 anejo",
    "tequila 1800",
    "tequila don julio reposado",
+   "tequila reposado",
+   "tequila patron",
+   "tequila don julio",
+   "tequila don julio 1942",
    "tequila for sale",
    "tequila sale"
   ],
   "tags": [
-   "silver tequila",
-   "tequila bottle",
-   "tequila reposado",
-   "affordable tequila",
-   "tequila patron",
-   "tequila don julio",
-   "tequila don julio 1942",
    "don julio blanco tequila",
-   "tequila australia",
    "white tequila",
    "tequila sierra",
    "captain morgan spiced gold",
@@ -3539,10 +3533,18 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "don julio tequila reposado",
    "1800 silver tequila",
    "gold label whiskey",
-   "tequila 1l",
-   "tequila bottles",
    "tequila specials",
-   "patron tequila silver"
+   "patron tequila silver",
+   "tequila from tequila",
+   "espolon tequila",
+   "clase azul tequila",
+   "azul tequila",
+   "don julio tequila",
+   "casamigos tequila",
+   "teremana tequila",
+   "xo tequila patron cafe",
+   "1942 tequila",
+   "el jimador tequila"
   ],
   "faqSeeds": [
    {
@@ -3730,7 +3732,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "tequila for sale",
-   "tequila sale"
+   "tequila sale",
+   "casamigos tequila"
   ]
  },
  "spiced-rum": {
@@ -4208,31 +4211,24 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "secondary": [
    "gin",
    "pink gin",
-   "gin gifts",
-   "gin gifts australia",
-   "gin gift packs",
    "gin delivery",
-   "gin gift set australia",
    "australian gin",
    "dry gin",
    "gin brands",
-   "gin gift pack",
    "gin specials",
    "gin sale",
+   "gin and tonic cans",
+   "gin bottle",
+   "flavoured gin",
+   "gin alcohol",
+   "gin premix",
    "gin for sale",
    "buy gin australia"
   ],
   "tags": [
-   "gin and tonic cans",
-   "gin bottle",
-   "flavoured gin",
-   "gin gift set",
-   "gin alcohol",
-   "gin premix",
    "gin and tonic premix",
    "gin cans",
    "bottle of gin",
-   "gin presents",
    "glas gin tonic",
    "good gin",
    "sydney gin",
@@ -4242,7 +4238,14 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "buy gin online australia",
    "cal gin",
    "le tribute gin",
-   "australia gin"
+   "australia gin",
+   "tanqueray gin",
+   "gordons london dry gin",
+   "malfy gin",
+   "gordons gin",
+   "japanese gin",
+   "bombay gin",
+   "gordon's gin"
   ],
   "faqSeeds": [
    {
@@ -10253,47 +10256,47 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "vodka": {
-  "primary": "smirnoff liquor",
-  "primaryVolume": 3600,
-  "primaryKd": 24,
+  "primary": "buy vodka online",
+  "primaryVolume": 390,
+  "primaryKd": 11,
   "secondary": [
-   "smirnoff vodka",
-   "absolut vodka",
-   "absolut liquor",
-   "smirnoff",
-   "smirnoff ice",
    "cheap vodka",
-   "smirnoff double black",
-   "absolute vodka",
    "cruiser vodka",
    "vodka bottle",
    "skyy vodka",
    "tito's vodka",
-   "smirnoff vodka 1l",
-   "smirnoff vodka 700ml",
-   "vodka &"
-  ],
-  "tags": [
-   "absolut vodka 700ml",
    "vodka 1l",
-   "vodka smirnoff",
    "bottle of vodka",
    "vodka cheap",
    "cheapest vodka",
    "sky vodka",
-   "smirnoff vodka 1 litre",
-   "smirnoff 700ml",
+   "vodka &",
    "vodka premix",
    "vodka cans",
    "1l vodka",
-   "flavoured vodka",
+   "flavoured vodka"
+  ],
+  "tags": [
    "700ml vodka",
    "vodka 1 litre",
-   "smirnoff 1l",
-   "vodka absolut",
    "vodka price",
    "1 litre vodka",
-   "vodka 700ml"
+   "vodka 700ml",
+   "belvedere vodka",
+   "ciroc vodka",
+   "haku vodka",
+   "vodka for espresso martinis",
+   "vodka to drink",
+   "gray goose vodka 1 liter",
+   "dan murphys vodka",
+   "crystal head vodka",
+   "ketel one vodka",
+   "polish vodka",
+   "grey goose vodka 1l",
+   "grey goose vodka 1 litre",
+   "japanese vodka",
+   "russian vodka",
+   "stoli vodka"
   ],
   "faqSeeds": [
    {
@@ -10481,9 +10484,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "cruiser vodka",
-   "smirnoff vodka 1l",
-   "smirnoff vodka 700ml",
-   "vodka &"
+   "vodka &",
+   "stoli vodka"
   ]
  },
  "rum": {
@@ -12128,29 +12130,22 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryKd": 21,
   "secondary": [
    "gin",
-   "gin gifts",
-   "gin gifts australia",
-   "gin gift packs",
    "gin delivery",
-   "gin gift set australia",
    "australian gin",
    "dry gin",
    "gin brands",
-   "gin gift pack",
    "gin specials",
    "gin sale",
    "pink vodka",
    "gin and tonic cans",
-   "gin pink"
-  ],
-  "tags": [
    "gin bottle",
    "flavoured gin",
-   "gin gift set",
    "gin alcohol",
+   "gin pink",
    "gin cans",
-   "bottle of gin",
-   "gin presents",
+   "bottle of gin"
+  ],
+  "tags": [
    "glas gin tonic",
    "good gin",
    "sydney gin",
@@ -12163,7 +12158,14 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "cal gin",
    "le tribute gin",
    "australia gin",
-   "gin australia"
+   "gin australia",
+   "pink gin premix",
+   "pink gin cans",
+   "pink sparkling wine",
+   "pink prosecco",
+   "wine moscato pink",
+   "pink monster energy drink",
+   "monster energy pink"
   ],
   "faqSeeds": [
    {
@@ -12352,7 +12354,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": [
    "gin sale",
    "pink vodka",
-   "gin pink"
+   "gin pink",
+   "pink gin premix",
+   "pink gin cans",
+   "wine moscato pink"
   ]
  },
  "ouzo": {
@@ -13741,4 +13746,4 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  }
 };
 
-export const SITE_TAGS: string[] = ["tequila","baileys","prosecco","champagne","jack daniels","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","jim beam","kahlua","absolut vodka","rum","kraken rum","corona beer","johnnie walker","patron","don julio","sauvignon blanc","moet","belvedere vodka","rose wine","white wine","baileys irish cream","somersby","absolut liquor","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","moet champagne","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","jack daniels 700ml","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","macallan","bilpin cider","veuve champagne","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","laphroaig","jack daniels 1 litre","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","grenache wine","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","whisky gift pack","dimple whiskey","whiskey gift","suntory 196","jose cuervo","hennessy xo","peroni red","malibu rum liquor","pilsner","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","whiskey gifts australia","royal salute","jim beam bourbon","suntory whisky","martell","martell blue swift","grenache red","chandon champagne","liqueurs","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","jim beam 1 litre","jack daniels 1l","japanese gin"];
+export const SITE_TAGS: string[] = ["tequila","baileys","prosecco","champagne","jack daniels","whisky","gin","glenfiddich","smirnoff vodka","scotch","bourbon","cognac","red wine","glenfiddich 12","jim beam","kahlua","absolut vodka","rum","kraken rum","corona beer","johnnie walker","patron","don julio","sauvignon blanc","moet","belvedere vodka","rose wine","white wine","jameson whisky","tequila from tequila","baileys irish cream","somersby","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","moet champagne","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","jack daniels 700ml","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","macallan","bilpin cider","veuve champagne","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","laphroaig","jack daniels 1 litre","tanqueray gin","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","grenache wine","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","dimple whiskey","suntory 196","jose cuervo","espolon tequila","hennessy xo","peroni red","malibu rum liquor","pilsner","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","royal salute","jim beam bourbon","suntory whisky","gordons london dry gin","malfy gin","martell","martell blue swift","grenache red","chandon champagne","liqueurs","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","jim beam 1 litre"];

@@ -33,6 +33,9 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
   const basePath = `/shop/${catSlug}/collection/${subSlug}/`;
   const path = page > 1 ? `${basePath}page/${page}/` : basePath;
 
+  const directTags = sub.tags && sub.tags.length >= 20 ? linkList(sub.tags, path, path, 20) : [];
+  const collectionTags = directTags.length >= 20 ? directTags : buildTagLinks([...(sub.tags ?? []), ...subcategoryTags(subSlug, 60)], path, path, 20, collectionTagTemplates(sub.name));
+
   const pageLd = {
     ...webPageLd({ type: 'CollectionPage', name: sub.name, description: sub.description, path }),
     breadcrumb: undefined,
@@ -127,7 +130,7 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
         )}
 
         <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 5)} title={`Related searches: ${sub.primaryKeyword}`} />
-        <TagCloud tags={sub.tags && sub.tags.length >= 20 ? linkList(sub.tags, path, path, 20) : buildTagLinks(sub.tags ?? subcategoryTags(subSlug, 60), path, path, 20, collectionTagTemplates(sub.name))} title="Popular searches and tags" />
+        <TagCloud tags={collectionTags} title="Popular searches and tags" />
 
         {/* Subcategory FAQ (page 1 only, so paginated pages do not repeat it) */}
         {page === 1 && (

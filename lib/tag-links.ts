@@ -16,6 +16,18 @@ const MODIFIERS = new Set([
 const norm = (s: string) => s.toLowerCase().replace(/gray/g, 'grey').replace(/\bliter(s)?\b/g, 'litre$1').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 const content = (s: string) => norm(s).split(' ').filter((t) => t && !MODIFIERS.has(t));
 
+/** A tag is shown only if the shop can fulfil it: the site search must return at least one bottle (keeps links honest for brands we do not stock). */
+const stockMemo = new Map<string, boolean>();
+function canFulfil(tag: string): boolean {
+  const key = tag.toLowerCase().trim();
+  let v = stockMemo.get(key);
+  if (v === undefined) {
+    v = searchProducts(PRODUCTS, key).length > 0;
+    stockMemo.set(key, v);
+  }
+  return v;
+}
+
 const productTokens = PRODUCTS.map((p) => ({ p, tokens: new Set(content(`${p.brand} ${p.name}`)) }));
 const subTokens = SUBCATEGORIES.map((s) => ({ s, tokens: new Set([...content(s.name), ...content(s.primaryKeyword)]) }));
 
@@ -80,7 +92,7 @@ export function buildTagLinks(pool: string[], fallback: string, selfPath: string
   const add = (raw: string, counts?: Map<string, number>, cap = 5) => {
     const label = raw.toLowerCase().trim();
     const key = [...new Set(norm(label).split(' ').filter((t) => !['the', 'of', 'a', '1', 'l', 'litre', '1l', 'cost', 'price'].includes(t)))].sort().join(' ');
-    if (!key || seen.has(key) || out.length >= limit) return;
+    if (!key || seen.has(key) || out.length >= limit || !canFulfil(label)) return;
     const head = norm(label).split(' ')[0];
     if (counts && (counts.get(head) || 0) >= cap) return;
     let href = resolve(label, fallback);
@@ -107,7 +119,7 @@ export function linkList(labels: string[], fallback: string, selfPath: string, l
   const out: TagLink[] = [];
   for (const raw of labels) {
     const label = raw.toLowerCase().trim();
-    if (!label || seen.has(label) || out.length >= limit) continue;
+    if (!label || seen.has(label) || out.length >= limit || !canFulfil(label)) continue;
     seen.add(label);
     let href = resolve(label, fallback);
     if (href === selfPath) href = fallback;
