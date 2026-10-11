@@ -4,7 +4,7 @@ Generated 2026-10-11 from the Semrush bank (AU, KD <= 29, Transactional/Commerci
 
 **Suggested price** = the retailer price (median when both retailers list the product) x 1.08, rounded up to .99: above the marketplace price and below typical mainstream shelf prices (checked on Glenfiddich 12, Johnnie Walker Black, Hennessy VS and Grey Goose).
 
-**Summary:** 94 brands, 658 ready-to-list products. Priority A (3,000+ searches): 10 brands; B (1,000 to 2,999): 38; C: 46.
+**Summary:** 94 brands, 696 ready-to-list products. Priority A (3,000+ searches): 10 brands; B (1,000 to 2,999): 38; C: 46.
 
 ## Champagne and sparkling wine
 
@@ -59,6 +59,7 @@ Keywords: arras sparkling 880/18/T; arras sparkling wine 720/17/C
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [House Of Arras Grand 750ml](https://boozebud.com/products/house-of-arras-grand-2008-750ml) | 750ml | $124.99 | **$134.99** | BoozeBud |
 | [House Of Arras Brut Elite NV 750ml](https://boozebud.com/products/house-of-arras-brut-elite-nv-750ml) | 750ml | $64.99 | **$70.99** | BoozeBud |
 
 ### Jansz sparkling  (priority C)
@@ -68,6 +69,8 @@ Keywords: jansz sparkling 720/21/T
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Jansz Tasmanian Premium Cuvee Sparkling Wine 1.5L](https://thedrinksociety.com.au/products/jansz-tasmanian-premium-cuvee-1-5-litres) | 1.5L | $79.99 | **$86.99** | The Drink Society |
+| [Jansz Late Disgorged Cuvee 750ml](https://boozebud.com/products/jansz-late-disgorged-cuvee-2013-750ml) | 750ml | $64.99 | **$70.99** | BoozeBud |
+| [Jansz Single Vineyard Chardonnay 750ml](https://boozebud.com/products/jansz-single-vineyard-chardonnay-2013-750ml) | 750ml | $64.99 | **$70.99** | BoozeBud |
 | [Jansz Vintage Rose 750ml](https://boozebud.com/products/jansz-vintage-rose-750ml) | 750ml | $54.99 | **$59.99** | BoozeBud |
 | [Jansz Cuvee 750ml](https://boozebud.com/products/jansz-cuvee-2013-750ml) | 750ml | $52.99 | **$57.99** | BoozeBud |
 | [Jansz NV Premium Rose NV 750ml](https://boozebud.com/products/jansz-nv-premium-rose-nv-750ml) | 750ml | $31.99 | **$34.99** | BoozeBud |
@@ -79,6 +82,8 @@ Keywords: browns brothers moscato 720/12/C; brown brothers sparkling moscato 590
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Brown Brothers Moscato Rose 750ml](https://boozebud.com/products/brown-brothers-moscato-rose-2019-750ml) | 750ml | $15.99 | **$17.99** | BoozeBud |
+| [Brown Brothers Moscato 750ml](https://boozebud.com/products/brown-brothers-moscato-750ml) | 750ml | $15.99 | **$17.99** | BoozeBud |
 | [Brown Brothers Sparkling Moscato Rosé 750ml](https://boozebud.com/products/brown-brothers-sparkling-moscato-rose-750ml) | 750ml | $15.99 | **$17.99** | BoozeBud |
 | [Brown Brothers Moscato Sauvignon Blanc 750ml](https://boozebud.com/products/brown-brothers-moscato-sauvignon-blanc-750ml) | 750ml | $15.99 | **$17.99** | BoozeBud |
 | [Brown Brothers Moscato Sweet Wine 750mL](https://thedrinksociety.com.au/products/brown-brothers-moscato-sweet-wine-750ml) | 750ml | $13.49 | **$14.99** | The Drink Society |
@@ -114,6 +119,7 @@ Keywords: jameson whisky 6,600/20/C; jameson 4,400/24/C; jameson whiskey 1,900/1
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Jameson Irish Blended Whiskey Cradle 4.5L](https://thedrinksociety.com.au/products/jameson-irish-blended-whiskey-cradle-4-5l) | 4.5L | $399.99 | **$431.99** | The Drink Society |
+| [Jameson 18 Year Old Bow Street 700ml](https://boozebud.com/products/jameson-18-year-old-bow-street-700ml) | 700ml | $379.99 | **$410.99** | BoozeBud |
 | [Jameson Bow Street 18 Year Old Cask Strength Blended Irish Whiskey 700mL](https://thedrinksociety.com.au/products/jameson-bow-street-18-year-old-cask-strength-blended-irish-whiskey-700ml) | 700ml | $349.99 | **$377.99** | The Drink Society |
 | [Jameson 18 Year Old Irish Blended Whiskey 700mL](https://thedrinksociety.com.au/products/jameson-18-year-old-irish-blended-whisky-700ml) | 700ml | $349.99 / $349.99 | **$377.99** | both |
 | [Jameson 18 Year Old Irish Whiskey 700ml](https://boozebud.com/products/jameson-18-year-old-irish-whiskey-700ml) | 700ml | $349.99 / $349.99 | **$377.99** | both |
@@ -126,7 +132,6 @@ Keywords: jameson whisky 6,600/20/C; jameson 4,400/24/C; jameson whiskey 1,900/1
 | [Jameson Smooth Dry & Lime 375ml](https://boozebud.com/products/jameson-smooth-dry-lime-375ml) | 375ml | $107.99 | **$116.99** | BoozeBud |
 | [Jameson Triple Triple Marsala Cask Edition Irish Whiskey 1L](https://boozebud.com/products/jameson-triple-triple-marsala-cask-edition-irish-whiskey-1l) | 1L | $105.99 | **$114.99** | BoozeBud |
 | [Jameson Triple Triple Irish Whiskey 1L](https://boozebud.com/products/jameson-triple-triple-irish-whiskey-1l) | 1L | $104.99 / $94.99 | **$107.99** | both |
-| [Jameson The Blenders Dog With Gift Box Irish Whiskey 700mL](https://thedrinksociety.com.au/products/jameson-the-blenders-dog-with-gift-box-irish-whiskey-700ml) | 700ml | $101.99 | **$110.99** | The Drink Society |
 
 ### Starward  (priority A)
 
@@ -137,17 +142,17 @@ Keywords: starward whisky 3,600/20/C
 | [Starward 5 Year Old Apera Single Barrel Cask Strength Australian Single Malt Whisky 700mL](https://thedrinksociety.com.au/products/starward-5-year-old-apera-single-barrel-cask-strength-australian-single-malt-whisky-700ml) | 700ml | $199.99 | **$215.99** | The Drink Society |
 | [Starward Vitalis Limited Release Single Malt Whisky 700ml](https://boozebud.com/products/starward-vitalis-limited-release-single-malt-whisky-700ml) | 700ml | $199.99 | **$215.99** | BoozeBud |
 | [Starward American Oak Red Wine Single Barrel Cask Strength Australian Single Malt Whisky 700mL](https://thedrinksociety.com.au/products/starward-american-oak-red-wine-single-barrel-cask-strength-australian-single-malt-whisky-700ml) | 700ml | $184.99 | **$199.99** | The Drink Society |
+| [Starward Tawny Cask #2 700ml](https://boozebud.com/products/starward-tawny-cask-2-700ml) | 700ml | $160.99 | **$173.99** | BoozeBud |
 | [Starward Vitalis Limited Edition Single Malt Australian Whisky 700mL](https://thedrinksociety.com.au/products/starward-vitalis-limited-edition-single-malt-australian-whisky-700ml) | 700ml | $159.99 | **$172.99** | The Drink Society |
 | [Starward Ginger Beer Cask # 7 700ml](https://boozebud.com/products/starward-ginger-beer-cask-700ml) | 700ml | $154.99 | **$167.99** | BoozeBud |
 | [Starward Unexpeated Whisky 700ml](https://boozebud.com/products/starward-unexpeated-whisky-700ml) | 700ml | $151.99 | **$164.99** | BoozeBud |
 | [Starward Peated Finish Australian Whisky 700ml](https://boozebud.com/products/starward-peated-finish-australian-whisky-700ml) | 700ml | $151.99 | **$164.99** | BoozeBud |
+| [Starward Octave Barrels Whisky 700ml](https://boozebud.com/products/starward-octave-barrels-whisky-700ml) | 700ml | $151.99 | **$164.99** | BoozeBud |
 | [Starward Octave Barrels Single Malt Australian Whisky 700ml](https://boozebud.com/products/starward-octave-barrels-single-malt-australian-whisky-700ml) | 700ml | $149.99 | **$161.99** | BoozeBud |
 | [Starward Ginger Beer Cask #7 Single Malt Australian Whisky 700mL](https://thedrinksociety.com.au/products/starward-ginger-beer-cask-7-single-malt-australian-whisky-700ml) | 700ml | $134.99 | **$145.99** | The Drink Society |
 | [Starward Fortis Single Malt Whisky 700ml](https://boozebud.com/products/starward-fortis-700ml) | 700ml | $134.99 | **$145.99** | BoozeBud |
 | [Starward Tawny #2 Single Malt Whisky 700ml](https://boozebud.com/products/starward-tawny-2-single-malt-whisky-700ml) | 700ml | $133.99 | **$144.99** | BoozeBud |
 | [Starward Fortis Cask Strength Single Malt Whisky 700mL](https://thedrinksociety.com.au/products/starward-fortis-cask-strength-single-malt-whisky-700ml) | 700ml | $128.99 | **$139.99** | The Drink Society |
-| [Starward Whisky Gift Pack 3X200 ml](https://boozebud.com/products/starward-whisky-gift-pack-3x200-ml) | 200ml | $102.99 | **$111.99** | BoozeBud |
-| [Starward Australian Whisky Tasting Gift Pack 3 x 200mL](https://thedrinksociety.com.au/products/starward-australian-whisky-tasting-gift-pack-3-x-200ml) | 200ml | $99.99 | **$107.99** | The Drink Society |
 
 ### Archie Rose  (priority B)
 
@@ -166,9 +171,9 @@ Keywords: archie rose whisky 1,300/23/T
 | [Archie Rose Distilling Co. Triple Smoked Australian Single Malt Whisky 700ml](https://boozebud.com/products/archie-rose-distilling-co-triple-smoked-australian-single-malt-whisky-700ml) | 700ml | $139.99 | **$151.99** | BoozeBud |
 | [Archie Rose Distilling Co. Double Malt Whisky & Dry Ginger Beer With Finger Lime 330ml](https://boozebud.com/products/archie-rose-double-malt-whisky-dry-ginger-beer-with-finger-lime-330ml) | 330ml | $130.00 | **$140.99** | BoozeBud |
 | [Archie Rose Distilling Co. Distiller's Strength Gin 700ml](https://boozebud.com/products/archie-rose-distilling-co-distillers-strength-gin-700ml) | 700ml | $119.99 | **$129.99** | BoozeBud |
+| [Archie Rose Distilling Co. Single Malt Whisky 700ml](https://boozebud.com/products/archie-rose-distilling-co-single-malt-whisky-700ml) | 700ml | $119.99 | **$129.99** | BoozeBud |
+| [Archie Rose Distilling Co. Distillers Strength Gift Box 700ml](https://boozebud.com/products/archie-rose-distilling-co-distillers-strength-gift-box-700ml) | 700ml | $110.99 | **$119.99** | BoozeBud |
 | [Archie Rose Distilling Co. White Rye Whisky 700ml](https://boozebud.com/products/archie-rose-distilling-co-white-rye-whisky-700ml) | 700ml | $103.99 | **$112.99** | BoozeBud |
-| [Archie Rose Distilling Co. Triple Molasses Rum 700ml](https://boozebud.com/products/archie-rose-triple-molasses-rum-700ml) | 700ml | $94.99 | **$102.99** | BoozeBud |
-| [Archie Rose Distilling Co. Harvest Mountain Yuzu Gin 700ml](https://boozebud.com/products/archie-rose-distilling-co-harvest-mountain-yuzu-gin-700ml) | 700ml | $91.99 | **$99.99** | BoozeBud |
 
 ### Glenmorangie Signet  (priority B)
 
@@ -243,9 +248,11 @@ Keywords: grants whiskey 1,300/18/C; grants scotch 720/17/C
 | [Grant's 25 Year Old Blended Scotch Whisky 700ml](https://boozebud.com/products/grants-25-year-old-blended-scotch-whisky-700ml) | 700ml | $598.99 | **$646.99** | BoozeBud |
 | [Grant's The Family Reserve Blended Scotch Whisky + Cradle 4.5L](https://thedrinksociety.com.au/products/grants-triple-wood-blended-scotch-whisky-cradle-4-5l) | 4.5L | $399.99 | **$431.99** | The Drink Society |
 | [Grants Distillery Edition Blended Scotch Whisky 1L](https://thedrinksociety.com.au/products/grants-distillery-edition-blended-scotch-whisky-1l) | 1L | $71.99 | **$77.99** | The Drink Society |
+| [Grant's Triple Wood 1L](https://boozebud.com/products/grants-triple-wood-1l) | 1L | $70.99 | **$76.99** | BoozeBud |
 | [Grant's Triple Wood Blended Scotch Whisky 1L](https://thedrinksociety.com.au/products/grants-triple-wood-blended-scotch-whisky-1l) | 1L | $61.99 | **$66.99** | The Drink Society |
 | [Grant's Triple Wood 700ml](https://boozebud.com/products/grants-triple-wood-700ml) | 700ml | $50.99 | **$55.99** | BoozeBud |
-| [Grant's Triple Wood Blended Scotch Whisky 700mL](https://thedrinksociety.com.au/products/grants-triple-wood-blended-scotch-whisky-700ml) | 700ml | $46.99 | **$50.99** | The Drink Society |
+| [Grant's Triple Wood'smoky' Scotch Whisky 700ml](https://boozebud.com/products/grants-triple-wood-smoky-700ml) | 700ml | $48.00 / $46.99 | **$51.99** | both |
+| [Grant's Triple Wood Blended Scotch Whisky 700mL](https://thedrinksociety.com.au/products/grants-triple-wood-blended-scotch-whisky-700ml) | 700ml | $46.99 / $48.00 | **$51.99** | both |
 | [Grant's Triple Wood With Gift Box Blended Scotch Whisky 700mL](https://thedrinksociety.com.au/products/grants-triple-wood-with-gift-box-blended-scotch-whisky-700ml) | 700ml | $41.99 | **$45.99** | The Drink Society |
 
 ### Highland Park  (priority C)
@@ -254,7 +261,9 @@ Keywords: highland park whisky 590/16/T
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Highland Park 40 Year Old 2019 Release 700ml](https://boozebud.com/products/highland-park-40-year-old-2019-release-700ml) | 700ml | $6499.99 | **$7019.99** | BoozeBud |
 | [Highland Park 40 Year Old Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-40-year-old-single-malt-scotch-whisky-700ml) | 700ml | $5799.00 / $92.99 | **$3181.99** | both |
+| [Highland Park 30 Year Old 2019 Release 700ml](https://boozebud.com/products/highland-park-30-year-old-2019-release-700ml) | 700ml | $2357.99 | **$2546.99** | BoozeBud |
 | [Highland Park 30 Year Old Single Malt Whisky 700ml](https://boozebud.com/products/highland-park-30-year-old-single-malt-whisky-700ml) | 700ml | $2199.99 / $1799.99 | **$2159.99** | both |
 | [Highland Park 30 Year Old Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-30-year-old-single-malt-scotch-whisky-700ml) | 700ml | $1799.99 / $92.99 | **$1022.99** | both |
 | [Highland Park Søren Solkær 26 Year Old Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-soren-solkaer-26-year-old-single-malt-scotch-whisky-700ml) | 700ml | $1299.00 | **$1402.99** | The Drink Society |
@@ -266,8 +275,6 @@ Keywords: highland park whisky 590/16/T
 | [Highland Park 14 Year Old 2004 Cask Strength Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-14-year-old-2004-cask-strength-single-malt-scotch-whisky-700ml) | 700ml | $314.99 | **$340.99** | The Drink Society |
 | [Highland Park 18 Year Old Scotch Whisky 700ml](https://boozebud.com/products/highland-park-18-year-old-700ml) | 700ml | $259.99 | **$280.99** | BoozeBud |
 | [Highland Park 17 Year Old Between You and I: Journeys by Björn Frantzén Michelin Star Edition Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-17-year-old-between-you-and-i-journeys-by-bjorn-frantzen-single-malt-scotch-whisky-700ml) | 700ml | $249.99 | **$269.99** | The Drink Society |
-| [Highland Park 18 Year Old Viking Pride (Travel Edition) Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-18-year-old-viking-pride-travel-edition-single-malt-scotch-whisky-700ml) | 700ml | $249.99 | **$269.99** | The Drink Society |
-| [Highland Park 18 Year Old Viking Pride Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/highland-park-18-year-old-single-malt-scotch-whisky-700ml) | 700ml | $249.99 | **$269.99** | The Drink Society |
 
 ### Glengoyne  (priority C)
 
@@ -285,10 +292,10 @@ Keywords: glengoyne 590/18/T
 | [Glengoyne 18 Year Old Single Malt Whisky 700ml](https://boozebud.com/products/glengoyne-18-year-old-single-malt-whisky-700ml) | 700ml | $309.99 / $239.99 | **$296.99** | both |
 | [Glengoyne 21 Year Old Highland Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/glengoyne-21-year-old-single-malt-scotch-whisky-700ml) | 700ml | $248.99 / $330.99 | **$313.99** | both |
 | [Glengoyne 18 Year Old Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/glengoyne-18-year-old-single-malt-scotch-whisky-700ml) | 700ml | $239.99 / $281.99 | **$281.99** | both |
+| [Glengoyne Balbaina Single Malt Scotch Whisky 1L](https://boozebud.com/products/glengoyne-balbaina-single-malt-scotch-whisky-1l) | 1L | $152.99 | **$165.99** | BoozeBud |
 | [Glengoyne Cuartillo Single Malt Scotch Whisky 1Lt](https://boozebud.com/products/glengoyne-cuartillo-single-malt-scotch-whisky-1lt) | - | $124.99 | **$134.99** | BoozeBud |
 | [Glengoyne Cask Strength Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/glengoyne-cask-strength-single-malt-scotch-whisky-700ml) | 700ml | $119.99 / $119.99 | **$129.99** | both |
 | [Glengoyne 12 Year Old + 2 Glasses Gift Pack Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/copy-of-glengoyne-12-year-old-single-malt-scotch-whisky-700ml) | 700ml | $109.99 | **$118.99** | The Drink Society |
-| [Glengoyne 15 Year Old Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/glengoyne-15-year-old-single-malt-scotch-whisky-700ml) | 700ml | $109.99 / $139.99 | **$134.99** | both |
 
 ### Caol Ila  (priority C)
 
@@ -306,10 +313,10 @@ Keywords: caol ila 590/13/T; caol ila 12 480/11/C
 | [Caol Ila 17 Year Old Unpeated 2015 Cask Strength Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/caol-ila-17-years-old-unpeated-2015-cask-strength-single-malt-scotch-whisky-700ml) | 700ml | $224.99 | **$242.99** | The Drink Society |
 | [Caol Ila 2007 The Culprit Chess Investigation Series Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/caol-ila-2007-the-culprit-chess-investigation-series-single-malt-scotch-whisky-700ml) | 700ml | $179.99 | **$194.99** | The Drink Society |
 | [Caol Ila 15 Year Old Unpeated 2015 Cask Strength Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/caol-ila-15-year-old-unpeated-2015-cask-strength-single-malt-scotch-whisky-700ml) | 700ml | $179.99 | **$194.99** | The Drink Society |
+| [Caol Ila 12 Year Old 1L](https://boozebud.com/products/caol-ila-12-year-old-1l) | 1L | $173.99 | **$187.99** | BoozeBud |
 | [Caol Ila Distillers Edition 700ml](https://boozebud.com/products/caol-ila-distillers-edition-single-malt-scotch-whisky-700ml) | 700ml | $154.99 | **$167.99** | BoozeBud |
 | [That Boutique-y Whisky Company Caol Ila 14 Year Old Batch 23 700ml](https://boozebud.com/products/that-boutique-y-whisky-company-caol-ila-14-year-old-batch-23-700ml) | 700ml | $144.99 | **$156.99** | BoozeBud |
-| [Caol Ila 12 Year Old Single Malt Scotch Whisky 1L](https://thedrinksociety.com.au/products/caol-ila-12-years-old-single-malt-scotch-whisky-1l) | 1L | $139.99 | **$151.99** | The Drink Society |
-| [Caol Ila 2010 9 Year Old Firkin Rare Marsala Cask Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/caol-ila-2010-9-year-old-firkin-rare-marsala-cask-single-malt-scotch-whisky-700ml) | 700ml | $139.99 | **$151.99** | The Drink Society |
+| [Caol Ila 12 Year Old Single Malt Scotch Whisky 1L](https://thedrinksociety.com.au/products/caol-ila-12-years-old-single-malt-scotch-whisky-1l) | 1L | $139.99 / $128.99 | **$145.99** | both |
 
 ### BenRiach  (priority C)
 
@@ -360,6 +367,8 @@ Keywords: oban whiskey 480/17/C; oban whisky 480/16/C
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Oban 21 Year Old Cask Strength Limited Edition Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/oban-21-year-old-cask-strength-limited-edition-single-malt-scotch-whisky-700ml) | 700ml | $879.99 | **$950.99** | The Drink Society |
+| [Oban 12 Year Old Special Releases 2021 700ml](https://boozebud.com/products/oban-12-year-old-special-releases-2021-700ml) | 700ml | $190.99 | **$206.99** | BoozeBud |
+| [Oban 10 Year Old Special Release 2022 Single Malt Scotch Whisky 700ml](https://boozebud.com/products/oban-10-year-old-special-release-single-malt-scotch-whisky-700ml) | 700ml | $179.99 / $189.99 | **$199.99** | both |
 | [Oban 11 Year Old Single Malt Special Release 700ml](https://boozebud.com/products/oban-11-year-old-single-malt-special-release-700ml) | 700ml | $169.99 | **$183.99** | BoozeBud |
 | [Oban Distillers Edition Limited Edition 2022 Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/oban-distillers-edition-limited-edition-2022-single-malt-scotch-whisky-700ml) | 700ml | $164.99 | **$178.99** | The Drink Society |
 | [Oban 11 Year Old 'The Soul of Calypso' Special Release 2023 Cask Strength Single Malt Scotch Whisky 700mL](https://thedrinksociety.com.au/products/oban-11-year-old-special-release-2023-cask-strength-single-malt-scotch-whisky-700ml) | 700ml | $159.99 | **$172.99** | The Drink Society |
@@ -377,8 +386,13 @@ Keywords: bladnoch whisky 480/23/T
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Bladnoch Talia 25 Year Old 700ml](https://boozebud.com/products/bladnoch-talia-25-year-old-700ml) | 700ml | $698.99 | **$754.99** | BoozeBud |
 | [Bladnoch 19 Year Old Single Malt Whisky 700ml](https://boozebud.com/products/bladnoched-19-year-old-single-malt-whisky-700ml) | 700ml | $401.99 | **$434.99** | BoozeBud |
 | [Bladnoch 16 Year Old Oloroso Sherry Matured Lowland Single Malt Whisky 700mL](https://thedrinksociety.com.au/products/bladnoch-16-year-old-lowland-single-malt-whisky-700ml) | 700ml | $219.99 | **$237.99** | The Drink Society |
+| [Bladnoch Samsara Scotch Whisky 700ml](https://boozebud.com/products/bladnoch-samsara-scotch-whisky-700ml) | 700ml | $171.99 | **$185.99** | BoozeBud |
+| [Bladnoch 14 Year Old Single Malt Whisky 700ml](https://boozebud.com/products/bladnoch-14-year-old-single-malt-whisky-700ml) | 700ml | $169.99 | **$183.99** | BoozeBud |
+| [Bladnoch 11 Year Old 700ml](https://boozebud.com/products/bladnoch-11-year-old-700ml) | 700ml | $140.99 | **$152.99** | BoozeBud |
+| [Bladnoch Vinaya 700ml](https://boozebud.com/products/bladnoch-vinaya-700ml) | 700ml | $109.99 | **$118.99** | BoozeBud |
 | [Bladnoch 8 Year Old Single Malt Scotch Whisky 700ml](https://boozebud.com/products/bladnoch-8-year-old-single-malt-scotch-whisky-700ml) | 700ml | $109.99 / $99.99 | **$113.99** | both |
 | [Bladnoch Vinaya Lowland Single Malt Whisky 700mL](https://thedrinksociety.com.au/products/bladnoch-vinaya-lowland-single-malt-whisky-700ml) | 700ml | $79.99 | **$86.99** | The Drink Society |
 
@@ -441,14 +455,18 @@ Keywords: amrut whiskey 590/20/C
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Amrut French Connections Peated Port Pipe Single Cask Single Malt Indian Whisky 700mL](https://thedrinksociety.com.au/products/amrut-french-connections-peated-port-pipe-single-cask-single-malt-indian-whisky-700ml) | 700ml | $219.99 | **$237.99** | The Drink Society |
+| [Amrut Two Continents 3Rd Edition 700ml](https://boozebud.com/products/amrut-two-continents-3rd-edition-700ml) | 700ml | $198.99 | **$214.99** | BoozeBud |
 | [Amrut Neidhal Single Malt Indian Whisky 700ml](https://boozebud.com/products/amrut-neidhal-single-malt-indian-whisky-700ml) | 700ml | $158.99 / $149.99 | **$166.99** | both |
 | [Amrut Bagheera Indian Single Malt Whisky & Glasses Pack 700ml](https://boozebud.com/products/amrut-whiskey-bagheera-indian-single-malt-whisky-glasses-pack-700ml) | 700ml | $157.99 | **$170.99** | BoozeBud |
 | [Amrut Kadhambam Single Malt Indian Whisky 700mL](https://thedrinksociety.com.au/products/amrut-kadhambam-single-malt-indian-whisky-700ml) | 700ml | $149.99 / $158.99 | **$166.99** | both |
 | [Amrut Cask Strength Single Malt Indian Whisky 700mL](https://thedrinksociety.com.au/products/amrut-cask-strength-single-malt-indian-whisky-700ml) | 700ml | $149.99 | **$161.99** | The Drink Society |
+| [Amrut Cask Strength Whisky 700ml](https://boozebud.com/products/amrut-cask-strength-whisky-700ml) | 700ml | $149.99 | **$161.99** | BoozeBud |
 | [Amrut Peated Cask Strength Single Malt Indian Whisky 700mL](https://thedrinksociety.com.au/products/amrut-peated-cask-strength-single-malt-indian-whisky-700ml) | 700ml | $139.99 | **$151.99** | The Drink Society |
+| [Amrut Peated Indian Single Malt Whisky 700ml](https://boozebud.com/products/amrut-peated-indian-single-malt-whisky-700ml) | 700ml | $129.99 / $149.99 | **$151.99** | both |
 | [Amrut Fusion Single Malt Whisky 700ml](https://boozebud.com/products/amrut-fusion-single-malt-whisky-700ml) | 700ml | $110.99 | **$119.99** | BoozeBud |
 | [Amrut Fusion Single Malt Indian Whisky 700ml](https://boozebud.com/products/amrut-fusion-single-malt-indian-whisky-700ml) | 700ml | $110.99 / $149.99 | **$140.99** | both |
 | [Amrut Indian Single Malt Whisky 700ml](https://boozebud.com/products/amrut-indian-single-malt-whisky-700ml) | 700ml | $110.99 / $149.99 | **$140.99** | both |
+| [Amrut Raja Igala 700ml](https://boozebud.com/products/amrut-raja-igala-700ml) | 700ml | $99.99 | **$107.99** | BoozeBud |
 | [Amrut Two Indies Rum 700ml](https://boozebud.com/products/amrut-two-indies-rum-700ml) | 700ml | $79.99 | **$86.99** | BoozeBud |
 
 ### Hakushu  (priority C)
@@ -507,6 +525,7 @@ Keywords: espolon tequila 2,400/19/C
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Espolòn Anejo Tequila 750ml](https://boozebud.com/products/espolon-anejo-tequila-750ml) | 750ml | $96.99 | **$104.99** | BoozeBud |
 | [Espolòn Reposado 700ml](https://boozebud.com/products/espolon-reposado-700ml) | 700ml | $75.99 | **$82.99** | BoozeBud |
 | [Make it a Espolòn Paloma Bundle](https://boozebud.com/products/make-it-a-espolon-paloma-bundle) | - | $69.99 | **$75.99** | BoozeBud |
 | [Espolòn Blanco 700ml](https://boozebud.com/products/espolon-blanco-700ml) | 700ml | $68.99 | **$74.99** | BoozeBud |
@@ -545,6 +564,7 @@ Keywords: fortaleza tequila 1,000/16/C
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Tequila Fortaleza Anejo 750ml](https://boozebud.com/products/tequila-fortaleza-anejo-750ml) | 750ml | $219.99 | **$237.99** | BoozeBud |
 | [Tequila Fortaleza Reposado 750ml](https://boozebud.com/products/tequila-fortaleza-reposado-750ml) | 750ml | $174.99 | **$188.99** | BoozeBud |
 | [Tequila Fortaleza Blanco 750ml](https://boozebud.com/products/tequila-fortaleza-blanco-750ml) | 750ml | $149.99 | **$161.99** | BoozeBud |
 
@@ -564,6 +584,7 @@ Keywords: herradura tequila 590/16/C
 | [Herradura Anejo Tequila 700mL](https://thedrinksociety.com.au/products/herradura-anejo-tequila-750ml) | 700ml | $99.99 | **$107.99** | The Drink Society |
 | [Herradura Reposado Tequila 700mL](https://thedrinksociety.com.au/products/herradura-reposado-tequila-700ml) | 700ml | $89.99 | **$97.99** | The Drink Society |
 | [Herradura Plata Silver Tequila 700mL](https://thedrinksociety.com.au/products/herradura-plata-silver-tequila-700ml) | 700ml | $84.99 / $104.99 | **$102.99** | both |
+| [Herradura Agave Nectar 478ml](https://boozebud.com/products/herradura-agave-nectar-478ml) | 478ml | $19.99 | **$21.99** | BoozeBud |
 
 ## Vodka, gin, rum and brandy
 
@@ -575,6 +596,8 @@ Keywords: haku vodka 1,600/27/C
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Suntory Haku Vodka 700ml](https://boozebud.com/products/suntory-haku-vodka-700ml) | 700ml | $69.99 | **$75.99** | BoozeBud |
+| [Suntory Haku Vodka 200ml](https://boozebud.com/products/suntory-haku-vodka-200ml) | 200ml | $29.99 | **$32.99** | BoozeBud |
 | [Haku Japanese Craft Vodka Miniature Gift Pack 200mL](https://thedrinksociety.com.au/products/haku-japanese-craft-vodka-miniature-200ml) | 200ml | $19.99 | **$21.99** | The Drink Society |
 
 ### Skyy vodka  (priority B)
@@ -608,10 +631,10 @@ Keywords: stoli vodka 720/23/T; stoli stolichnaya 720/24/T
 | [Stolichnaya Gluten Free Edition Premium Latvia Vodka 1L + Bonus Stolichnaya 50mL](https://thedrinksociety.com.au/products/stolichnaya-gluten-free-edition-premium-latvia-vodka-1l-bonus-stolichnaya-50ml) | 1L | $59.99 | **$64.99** | The Drink Society |
 | [Stolichnaya Gluten Free Edition Premium Latvia Vodka 1L](https://thedrinksociety.com.au/products/stolichnaya-gluten-free-premium-latvia-vodka-700ml) | 1L | $59.99 | **$64.99** | The Drink Society |
 | [Stolichnaya Gold Edition Premium Latvian Vodka 700mL](https://thedrinksociety.com.au/products/stolichnaya-gold-edition-premium-latvian-vodka-700ml) | 700ml | $59.99 | **$64.99** | The Drink Society |
+| [Stolichnaya Premium Vodka 700ml](https://boozebud.com/products/stolichnaya-premium-vodka-700ml) | 700ml | $59.99 | **$64.99** | BoozeBud |
 | [Stolichnaya Salted Karamel Vodka 700ml](https://boozebud.com/products/stolichnaya-salted-karamel-vodka-700ml) | 700ml | $54.99 | **$59.99** | BoozeBud |
 | [STOLI Halapeno Jalapeno Pepper Flavoured Vodka 700mL](https://thedrinksociety.com.au/products/stoli-halapeno-jalapeno-pepper-flavoured-vodka-700ml) | 700ml | $52.99 | **$57.99** | The Drink Society |
 | [STOLI Cucumber Flavoured Vodka 700mL](https://thedrinksociety.com.au/products/stoli-cucumber-flavoured-vodka-700ml) | 700ml | $52.99 | **$57.99** | The Drink Society |
-| [STOLI Vanilla Flavoured Vodka 700mL](https://thedrinksociety.com.au/products/stoli-vanilla-flavoured-vodka-700ml) | 700ml | $52.99 | **$57.99** | The Drink Society |
 
 ### Crystal Head  (priority C)
 
@@ -629,10 +652,10 @@ Keywords: crystal head vodka 880/17/C
 | [Crystal Head Aurora Vodka 700ml](https://boozebud.com/products/crystal-head-aurora-vodka-700ml) | 700ml | $121.99 | **$131.99** | BoozeBud |
 | [Crystal Head Skull Decanter + 2 Shot Glasses Gift Pack Vodka 700mL](https://thedrinksociety.com.au/products/crystal-head-skull-decanter-2-glasses-gift-pack-vodka-700ml) | 700ml | $109.99 | **$118.99** | The Drink Society |
 | [Crystal Head Vodka 700ml](https://boozebud.com/products/crystal-head-vodka-700ml) | 700ml | $104.99 | **$113.99** | BoozeBud |
+| [Crystal Head Vodka Onyx Edition 700ml](https://boozebud.com/products/crystal-head-vodka-onyx-edition-700ml) | 700ml | $104.99 | **$113.99** | BoozeBud |
 | [Crystal Head Skull Decanter Aurora Limited Edition Vodka 700mL](https://thedrinksociety.com.au/products/crystal-head-skull-decanter-aurora-limited-edition-vodka-700ml) | 700ml | $99.99 | **$107.99** | The Drink Society |
 | [Crystal Head Skull Decanter Vodka 1L](https://thedrinksociety.com.au/products/crystal-head-skull-decanter-vodka-1l) | 1L | $94.99 | **$102.99** | The Drink Society |
 | [Crystal Head Skull Decanter Onyx Limited Edition Blue Agave Vodka 700mL](https://thedrinksociety.com.au/products/crystal-head-skull-decanter-onyx-limited-edition-vodka-700ml) | 700ml | $74.99 | **$80.99** | The Drink Society |
-| [Crystal Head Skull Decanter Pride Limited Edition Vodka 700mL](https://thedrinksociety.com.au/products/crystal-head-skull-decanter-pride-limited-edition-vodka-700ml) | 700ml | $74.99 | **$80.99** | The Drink Society |
 
 ### Ketel One  (priority C)
 
@@ -642,6 +665,7 @@ Keywords: ketel one vodka 880/23/C
 |---|---|---|---|---|
 | [Ketel One Vodka 700ml](https://boozebud.com/products/ketel-one-vodka-700ml) | 700ml | $64.99 | **$70.99** | BoozeBud |
 | [Ketel One Jong Jenever 500ml](https://boozebud.com/products/ketel-one-jong-jenever-500ml) | 500ml | $62.99 | **$68.99** | BoozeBud |
+| [Ketel One Botanical Peach & Orange Blossom Vodka 700ml](https://boozebud.com/products/ketel-one-botanical-peach-orange-blossom-vodka-700ml) | 700ml | $61.99 | **$66.99** | BoozeBud |
 | [Ketel One Orange Vodka 700ml](https://boozebud.com/products/ketel-one-orange-vodka-700ml) | 700ml | $59.99 | **$64.99** | BoozeBud |
 
 ### Gordons Gin  (priority B)
@@ -653,17 +677,17 @@ Keywords: gordons london dry gin 1,900/16/C; gordon gin 720/18/C
 | [Gordon's Premium Pink Double Gin & Soda 6% 375ml](https://boozebud.com/products/gordons-premium-pink-double-gin-soda-6-375ml) | 375ml | $235.99 | **$254.99** | BoozeBud |
 | [Gordon's London Dry Gin 1L](https://boozebud.com/products/gordons-london-dry-gin-1l) | 1L | $69.99 / $50.99 | **$65.99** | both |
 | [Gordon's London Dry Gin 37% 1L](https://thedrinksociety.com.au/products/gordons-london-dry-gin-37-1l) | 1L | $58.99 / $69.99 | **$69.99** | both |
+| [Gordon's Mediterranean Orange Gin 700ml](https://boozebud.com/products/gordons-mediterranean-orange-gin-700ml) | 700ml | $57.99 | **$62.99** | BoozeBud |
 | [Gordon's Premium Pink Distilled Gin 700ml](https://boozebud.com/products/gordons-premium-pink-distilled-gin-700ml) | 700ml | $56.99 | **$61.99** | BoozeBud |
 | [Gordon's London Dry Gin 700ml](https://boozebud.com/products/gordons-london-dry-gin-700ml) | 700ml | $54.99 | **$59.99** | BoozeBud |
 | [Gordon's London Dry Gin 43% 1L](https://thedrinksociety.com.au/products/gordons-london-dry-gin-43-1l) | 1L | $50.99 / $69.99 | **$65.99** | both |
 | [Gordon's Premium Pink Distilled Gin 37.5% 700mL](https://thedrinksociety.com.au/products/gordons-premium-pink-distilled-gin-37-5-700ml) | 700ml | $46.99 | **$50.99** | The Drink Society |
 | [Gordon's London Dry Gin 37.5% 700mL](https://thedrinksociety.com.au/products/gordon-s-london-dry-gin-37-5-700ml) | 700ml | $44.99 | **$48.99** | The Drink Society |
+| [Gordon's Alcohol Free Gin 0.0% 700ml](https://boozebud.com/products/gordons-alcohol-free-gin-0-0-700ml) | 700ml | $34.99 | **$37.99** | BoozeBud |
 | [Gordon's Pink Gin & Soda Double 6% 375ml](https://boozebud.com/products/gordons-pink-gin-soda-double-6-375ml) | 375ml | $30.99 | **$33.99** | BoozeBud |
 | [Gordon's Sicilian Lemon Distilled Gin 37.5% 700mL](https://thedrinksociety.com.au/products/gordons-sicilian-lemon-distilled-gin-37-5-700ml) | 700ml | $29.99 | **$32.99** | The Drink Society |
 | [Gordon's Gin & Tonic 4.5% 375ml](https://boozebud.com/products/gordons-gin-tonic-4-5-375ml) | 375ml | $29.99 | **$32.99** | BoozeBud |
 | [Gordon's Tropical Passionfruit Distilled Gin 37.5% 700mL](https://thedrinksociety.com.au/products/gordons-tropical-passionfruit-distilled-gin-37-5-700ml) | 700ml | $26.99 | **$29.99** | The Drink Society |
-| [Gordon's Pink Gin & Soda 330ml](https://boozebud.com/products/gordons-pink-gin-soda-330ml) | 330ml | $24.99 | **$26.99** | BoozeBud |
-| [Gordon's Pink Gin Berry Cosmo Pre-mixed Cocktail 2L](https://thedrinksociety.com.au/products/gordons-pink-berry-cosmo-pre-mixed-cocktail-2l) | 2L | $9.99 | **$10.99** | The Drink Society |
 
 ### Plantation rum  (priority C)
 
@@ -677,6 +701,7 @@ Keywords: plantation rum 720/12/C
 | [Plantation Panama 2008 White Pineau Des Charentes 700ml](https://boozebud.com/products/plantation-panama-2008-white-pineau-des-charentes-700ml) | 700ml | $184.99 | **$199.99** | BoozeBud |
 | [Plantation 20Th Anniversary Rum Gift Box 700ml](https://boozebud.com/products/plantation-20th-anniversary-rum-gift-box-700ml) | 700ml | $129.99 | **$140.99** | BoozeBud |
 | [Plantation Rum Experience Gift Pack 6 X 100ml](https://boozebud.com/products/plantation-rum-experience-gift-pack-6-x-100ml) | 100ml | $122.99 | **$132.99** | BoozeBud |
+| [Plantation Single Cask Barbados 6 Year Old 700ml](https://boozebud.com/products/plantation-single-cask-barbados-6-year-old-700ml) | 700ml | $119.99 | **$129.99** | BoozeBud |
 | [Plantation Experience Rum Gift Pack 6 x 100ml](https://boozebud.com/products/plantation-experience-rum-gift-pack-6-x-100ml) | 100ml | $111.99 | **$120.99** | BoozeBud |
 | [Plantation Original Dark Rum 1L](https://boozebud.com/products/plantation-original-dark-rum-1000ml) | 1L | $108.99 | **$117.99** | BoozeBud |
 | [Plantation 3 Stars White Rum 1L](https://boozebud.com/products/plantation-3-stars-white-rum-1l) | 1L | $108.99 | **$117.99** | BoozeBud |
@@ -684,7 +709,6 @@ Keywords: plantation rum 720/12/C
 | [Plantation Peated Pineapple Limited Edition Rum 700ml](https://boozebud.com/products/plantation-peated-pineapple-limited-edition-rum-700ml) | 700ml | $99.99 | **$107.99** | BoozeBud |
 | [Plantation XO 20th Anniversary Barbados Rum 700mL](https://thedrinksociety.com.au/products/plantation-xo-20th-anniversary-barbados-rum-700ml) | 700ml | $94.99 | **$102.99** | The Drink Society |
 | [Plantation Stiggins Fancy Pineapple Rum 700ml](https://boozebud.com/products/plantation-stiggins-fancy-pineapple-rum-700ml) | 700ml | $89.99 | **$97.99** | BoozeBud |
-| [Plantation Cut & Dry Coconut Rum 700ml](https://boozebud.com/products/plantation-cut-dry-coconut-rum-700ml) | 700ml | $82.99 | **$89.99** | BoozeBud |
 
 ### Havana Club  (priority C)
 
@@ -696,6 +720,7 @@ Keywords: havana club rum 590/13/C
 | [Havana Club Anejo 7 Anos 700ml](https://boozebud.com/products/havana-club-anejo-7-anos-700ml) | 700ml | $86.99 | **$93.99** | BoozeBud |
 | [Havana Club Anejo 3 Anos Rum 1L](https://boozebud.com/products/havana-club-anejo-3-anos-rum-1l) | 1L | $82.99 | **$89.99** | BoozeBud |
 | [Havana Club Anejo Especial Rum 700ml](https://boozebud.com/products/havana-club-anejo-especial-rum-700ml) | 700ml | $62.99 | **$68.99** | BoozeBud |
+| [Havana Club Cuban Spiced Rum 700ml](https://boozebud.com/products/havana-club-cuban-spiced-rum-700ml) | 700ml | $60.99 | **$65.99** | BoozeBud |
 | [Havana Club Anejo 3 Anos Rum 700ml](https://boozebud.com/products/havana-club-anejo-3-anos-rum-700ml) | 700ml | $59.99 | **$64.99** | BoozeBud |
 | [Havana Club Anejo Reserva Cuban Rum 750mL](https://thedrinksociety.com.au/products/havana-club-anejo-reserva-cuban-rum-750ml) | 750ml | $50.99 | **$55.99** | The Drink Society |
 
@@ -729,8 +754,10 @@ Keywords: el dorado rum 480/10/T
 | [El Dorado 21 Year Old Special Reserve Guyanese Rum 700mL](https://thedrinksociety.com.au/products/el-dorado-21-year-old-special-reserve-guyanan-rum-700ml) | 700ml | $174.99 | **$188.99** | The Drink Society |
 | [El Dorado Diamond Reserve 151 Overproof White Rum 750ml](https://boozebud.com/products/el-dorado-diamond-reserve-151-overproof-white-rum-750ml) | 750ml | $144.99 | **$156.99** | BoozeBud |
 | [Gweilo El Dorado and Azaca Juice IPA 375ml](https://boozebud.com/products/gweilo-el-dorado-and-azaca-juice-ipa-375ml) | 375ml | $121.99 | **$131.99** | BoozeBud |
+| [El Dorado 12 Year Old Rum 700ml](https://boozebud.com/products/el-dorado-12-year-old-rum-700ml) | 700ml | $106.99 | **$115.99** | BoozeBud |
 | [El Dorado 15 Year Old Special Reserve Guyanese Rum 700mL](https://thedrinksociety.com.au/products/el-dorado-15-year-old-special-reserve-guyanan-rum-700ml) | 700ml | $99.99 | **$107.99** | The Drink Society |
 | [El Dorado 8 Year Old 700ml](https://boozebud.com/products/el-dorado-8-year-old-700ml) | 700ml | $96.99 | **$104.99** | BoozeBud |
+| [El Dorado 3 Year Old Rum 700ml](https://boozebud.com/products/el-dorado-3-year-old-rum-700ml) | 700ml | $87.99 | **$95.99** | BoozeBud |
 | [El Dorado 5 Year Old Rum 700ml](https://boozebud.com/products/el-dorado-5-year-old-rum-700ml) | 700ml | $66.99 | **$72.99** | BoozeBud |
 | [El Dorado 3 Year Old White Rum 700ml](https://boozebud.com/products/el-dorado-3-year-old-white-rum-700ml) | 700ml | $62.99 | **$68.99** | BoozeBud |
 
@@ -753,9 +780,11 @@ Keywords: bundaberg red rum 480/11/C; bundaberg spiced rum 480/11/C
 |---|---|---|---|---|
 | [Bundaberg Master Distillers Blenders Edition 2014 Australian Rum 700mL](https://thedrinksociety.com.au/products/bundaberg-master-distillers-blenders-edition-2014-australian-rum-700ml) | 700ml | $249.99 | **$269.99** | The Drink Society |
 | [Bundaberg Up & Cola No Sugar 4.6% 30 Pack Cans 375ml](https://boozebud.com/products/bundaberg-up-cola-no-sugar-4-6-30-pack-cans-375ml) | 375ml | $212.99 | **$230.99** | BoozeBud |
+| [Bundaberg Rum Master Distillers' Collection Solera Rum 700ml](https://boozebud.com/products/bundaberg-rum-master-distillers-collection-solera-rum-700ml) | 700ml | $201.99 | **$218.99** | BoozeBud |
 | [Bundaberg Rum Dark & Stormy 375ml](https://boozebud.com/products/bundaberg-rum-dark-stormy-375ml) | 375ml | $133.99 | **$144.99** | BoozeBud |
 | [Bundaberg Red & Cola 4.6% 24 Pack Cans 375ml](https://boozebud.com/products/bundaberg-red-cola-4-6-24-pack-cans-375ml) | 375ml | $109.99 | **$118.99** | BoozeBud |
 | [Bundaberg Rum Blenders Edition 700ml](https://boozebud.com/products/bundaberg-rum-blenders-edition-700ml) | 700ml | $106.99 | **$115.99** | BoozeBud |
+| [Bundaberg Rum Original 1.125L](https://boozebud.com/products/bundaberg-rum-original-1-125l) | 1.125L | $80.99 | **$87.99** | BoozeBud |
 | [Bundaberg Rum Small Batch Spiced Rum 700ml](https://boozebud.com/products/bundaberg-rum-small-batch-spiced-rum-700ml) | 700ml | $79.99 | **$86.99** | BoozeBud |
 | [Bundaberg Rum Overproof 700ml](https://boozebud.com/products/bundaberg-rum-overproof-700ml) | 700ml | $69.99 | **$75.99** | BoozeBud |
 | [Bundaberg Rum Extra Smooth Red Rum 1L](https://boozebud.com/products/bundaberg-rum-extra-smooth-red-rum-1l) | 1L | $69.99 | **$75.99** | BoozeBud |
@@ -763,8 +792,6 @@ Keywords: bundaberg red rum 480/11/C; bundaberg spiced rum 480/11/C
 | [Bundaberg Rum Original 1L](https://boozebud.com/products/bundaberg-rum-original-1l) | 1L | $66.99 | **$72.99** | BoozeBud |
 | [Bundaberg Rum Vat Selection 700ml](https://boozebud.com/products/bundaberg-rum-vat-selection-700ml) | 700ml | $60.99 | **$65.99** | BoozeBud |
 | [Bundaberg Campfire Bourbon Barrel Rum 700ml](https://boozebud.com/products/bundaberg-campfire-bourbon-barrel-rum-700ml) | 700ml | $59.99 | **$64.99** | BoozeBud |
-| [Bundaberg Rum Op Rum And Cola 375ml](https://boozebud.com/products/bundaberg-rum-op-rum-and-cola-375ml) | 375ml | $59.99 | **$64.99** | BoozeBud |
-| [Bundaberg Rum Spiced Rum 700ml](https://boozebud.com/products/bundaberg-rum-spiced-rum-700ml) | 700ml | $58.99 | **$63.99** | BoozeBud |
 
 ### Gin Mare  (priority C)
 
@@ -773,6 +800,7 @@ Keywords: gin mare 590/19/C
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Gin Mare Mediterranean Gin 1L](https://boozebud.com/products/gin-mare-mediterranean-gin-1000ml) | 1L | $135.99 | **$146.99** | BoozeBud |
+| [Gin Mare Capri 700ml](https://boozebud.com/products/gin-mare-capri-700ml) | 700ml | $117.99 | **$127.99** | BoozeBud |
 | [Gin Mare Mediterranean Gin 700ml](https://boozebud.com/products/gin-mare-mediterranean-gin-700ml) | 700ml | $84.99 | **$91.99** | BoozeBud |
 
 ### Saint-Remy brandy  (priority C)
@@ -795,7 +823,9 @@ Add under: /shop/spirit/
 
 Keywords: benedictine 1,600/15/T; dom benedictine 1,000/15/T; dom benedictine liqueur 720/24/T
 
-_No matching product found in the reference catalogues; source it from the supplier and price it against Dan Murphy's / BWS before listing._
+| Product | Size | Ref. price | Suggested price | Source |
+|---|---|---|---|---|
+| [Dom Benedictine Liqueur 700ml](https://boozebud.com/products/dom-benedictine-liqueur-700ml) | 700ml | $74.99 | **$80.99** | BoozeBud |
 
 ### Disaronno  (priority B)
 
@@ -804,6 +834,7 @@ Keywords: amaretto disaronno originale 1,000/13/C; disaronno originale amaretto 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Disaronno Amaretto Originale 700ml](https://boozebud.com/products/disaronno-amaretto-originale-700ml) | 700ml | $62.99 | **$68.99** | BoozeBud |
+| [Disaronno Velvet 500ml](https://boozebud.com/products/disaronno-velvet-500ml) | 500ml | $39.99 | **$43.99** | BoozeBud |
 | [Disaronno Velvet Italian Cream Liqueur 500mL](https://thedrinksociety.com.au/products/disaronno-velvet-italian-cream-liqueur-500ml) | 500ml | $34.99 | **$37.99** | The Drink Society |
 | [Disaronno Amaretto I Love You Miniature Gift Pack 50ml](https://boozebud.com/products/disaronno-amaretto-i-love-you-miniature-gift-pack-50ml) | 50ml | $29.99 | **$32.99** | BoozeBud |
 
@@ -860,8 +891,11 @@ Keywords: lyres 880/23/C
 
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
+| [Lyre's Non-Alcoholic Dark 'N' Spicy Spritz 250ml](https://boozebud.com/products/lyres-non-alcoholic-dark-n-spicy-spritz-250ml) | 250ml | $101.99 | **$110.99** | BoozeBud |
+| [Lyre's Non-Alcoholic Amalfi Spritz 250ml](https://boozebud.com/products/lyres-non-alcoholic-amalfi-spritz-250ml) | 250ml | $98.99 | **$106.99** | BoozeBud |
 | [Lyre's Pink London Spritz 250ml](https://boozebud.com/products/lyres-pink-london-spritz-250ml) | 250ml | $92.99 | **$100.99** | BoozeBud |
 | [Lyre's Non-Alcoholic Mojito 250ml](https://boozebud.com/products/lyres-non-alcoholic-mojito-250ml) | 250ml | $90.99 | **$98.99** | BoozeBud |
+| [Lyre's Non-Alcoholic G&T 250ml](https://boozebud.com/products/lyres-non-alcoholic-g-t-250ml) | 250ml | $86.99 | **$93.99** | BoozeBud |
 | [Lyre's Pink Gin Alternative 700ml](https://boozebud.com/products/lyres-pink-gin-alternative-700ml) | 700ml | $46.99 | **$50.99** | BoozeBud |
 | [Lyre's Bourbon Alternative 700ml](https://boozebud.com/products/lyres-bourbon-alternative-700ml) | 700ml | $46.99 | **$50.99** | BoozeBud |
 | [Lyre's Dark Rum Alternative 700ml](https://boozebud.com/products/lyres-dark-rum-alternative-700ml) | 700ml | $46.99 | **$50.99** | BoozeBud |
@@ -871,9 +905,6 @@ Keywords: lyres 880/23/C
 | [Lyre's Non-Alcoholic Italian Spritz 700ml](https://boozebud.com/products/lyres-non-alcoholic-italian-spritz-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
 | [Lyre's White Rum Alternative 700ml](https://boozebud.com/products/lyres-white-rum-alternative-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
 | [Lyre's Tequila Alternative 700ml](https://boozebud.com/products/lyres-tequila-alternative-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
-| [Lyre's Gin Alternative 700ml](https://boozebud.com/products/lyres-gin-alternative-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
-| [Lyre's Italian Spritz Alternative 700ml](https://boozebud.com/products/lyres-italian-spritz-alternative-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
-| [Lyre's Amaretti Alternative 700ml](https://boozebud.com/products/lyres-amaretti-alternative-700ml) | 700ml | $44.99 | **$48.99** | BoozeBud |
 
 ### Orange bitters  (priority C)
 
@@ -896,6 +927,7 @@ Keywords: james squire ginger beer 4,400/13/C
 |---|---|---|---|---|
 | [James Squire Double Ginger Beer 6% 330ml](https://boozebud.com/products/james-squire-double-ginger-beer-6-330ml) | 330ml | $125.00 | **$134.99** | BoozeBud |
 | [James Squire Ginger Beer 30 Pack Cans 330ml](https://boozebud.com/products/james-squire-ginger-beer-30-pack-cans-330ml) | 330ml | $49.99 | **$53.99** | BoozeBud |
+| [James Squire Alcoholic Ginger Beer 330ml](https://boozebud.com/products/james-squire-alcoholic-ginger-beer-330ml) | 330ml | $27.99 | **$30.99** | BoozeBud |
 
 ### Brookvale Union ginger beer  (priority A)
 
@@ -925,6 +957,7 @@ Keywords: matsos 3,600/26/T; matso ginger beer 1,300/11/C; matsos passionfruit 5
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Matso's Broome Brewery Nightlife Strong Ginger Beer Cans 330ml](https://boozebud.com/products/matsos-nightlife-strong-ginger-beer-330ml) | 330ml | $129.99 | **$140.99** | BoozeBud |
+| [Matso's Broome Brewery Lower Sugar Alcoholic Ginger Beer Cans 330ml](https://boozebud.com/products/matsos-broome-brewery-lower-sugar-alcoholic-ginger-beer-330ml) | 330ml | $95.99 | **$103.99** | BoozeBud |
 | [Matsos Low Sugar Ginger Beer 3.5% 24 Pack Bottles 330ml](https://boozebud.com/products/matsos-low-sugar-ginger-beer-3-5-24-pack-bottles-330ml) | 330ml | $94.99 | **$102.99** | BoozeBud |
 | [Matso's Broome Brewery Hard Melon & Mint Bottles 330ml](https://boozebud.com/products/matsos-hard-melon-mint-330ml) | 330ml | $54.99 | **$59.99** | BoozeBud |
 | [Matso's Broome Brewery Hard Lemon Bottles 330ml](https://boozebud.com/products/matsos-hard-lemon-330ml) | 330ml | $52.99 | **$57.99** | BoozeBud |
@@ -960,6 +993,8 @@ Keywords: bilpin cider 3,600/25/T
 | [Bilpin Cider Co. Archibald Cloudy Apple Cider 330ml](https://boozebud.com/products/bilpin-cider-co-archibald-cloudy-apple-cider-330ml) | 330ml | $85.00 | **$91.99** | BoozeBud |
 | [Bilpin Cider Co. Pear Cider 330ml](https://boozebud.com/products/bilpin-cider-co-pear-cider-330ml) | 330ml | $80.00 | **$86.99** | BoozeBud |
 | [Bilpin Cider Co. Non Alcoholic Cider 330ml](https://boozebud.com/products/bilpin-cider-co-non-alcoholic-cider-330ml) | 330ml | $63.99 | **$69.99** | BoozeBud |
+| [Bilpin Cider Co. Non-Alcoholic Apple & Ginger Cider 330ml](https://boozebud.com/products/bilpin-cider-co-non-alcoholic-apple-ginger-cider-330ml) | 330ml | $63.99 | **$69.99** | BoozeBud |
+| [Bilpin Cider Co. Non-Alcoholic Apple & Raspberry Cider 330ml](https://boozebud.com/products/bilpin-cider-co-non-alcoholic-apple-raspberry-cider-330ml) | 330ml | $61.99 | **$66.99** | BoozeBud |
 | [Bilpin Cider Co. Blush Cider 330ml](https://boozebud.com/products/bilpin-cider-co-blush-cider-330ml) | 330ml | $26.99 | **$29.99** | BoozeBud |
 | [Bilpin Cider Co. Original Cider 330ml](https://boozebud.com/products/bilpin-cider-co-original-cider-330ml) | 330ml | $17.99 | **$19.99** | BoozeBud |
 
@@ -980,6 +1015,7 @@ Keywords: mountain goat beer 1,600/27/T; mounted goat 1,300/22/T
 | Product | Size | Ref. price | Suggested price | Source |
 |---|---|---|---|---|
 | [Mountain Goat Pink Gin & Soda 250ml](https://boozebud.com/products/mountain-goat-pink-gin-soda-250ml) | 250ml | $127.99 | **$138.99** | BoozeBud |
+| [Mountain Goat Navy Strength Gin 700ml](https://boozebud.com/products/mountain-goat-navy-strength-gin-700ml) | 700ml | $114.99 | **$124.99** | BoozeBud |
 | [Mountain Goat Ginger Beer 330ml](https://boozebud.com/products/mountain-goat-ginger-beer-330ml) | 330ml | $96.99 | **$104.99** | BoozeBud |
 | [Mountain Goat Hopped Gin 700ml](https://boozebud.com/products/mountain-goat-hopped-gin-700ml) | 700ml | $81.99 | **$88.99** | BoozeBud |
 | [Mountain Goat Fancy Pants 375ml](https://boozebud.com/products/mountain-goat-fancy-pants-375ml) | 375ml | $79.99 | **$86.99** | BoozeBud |
@@ -1052,6 +1088,7 @@ Keywords: 4 pines pacific ale 1,000/22/C; 4 pines pacific ale case price 1,000/8
 | [4 Pines Manly Warringah Eagles Lager 24 Pack Cans 375ml](https://boozebud.com/products/4-pines-manly-warringah-eagles-lager-24-pack-cans-375ml) | 375ml | $89.99 | **$97.99** | BoozeBud |
 | [4 Pines Ultra Low 375ml](https://boozebud.com/products/4-pines-ultra-low-375ml) | 375ml | $80.99 | **$87.99** | BoozeBud |
 | [4 Pines New World Pale Ale 4.2% 18 Pack Cans 375ml](https://boozebud.com/products/4-pines-new-world-pale-ale-4-2-18-pack-cans-375ml) | 375ml | $79.99 | **$86.99** | BoozeBud |
+| [4 Pines Manly Sea Eagles Draught 2023 375ml](https://boozebud.com/products/4-pines-manly-sea-eagles-draught-2023-375ml) | 375ml | $69.99 | **$75.99** | BoozeBud |
 | [4 Pines Pacific Ale 330ml](https://boozebud.com/products/4-pines-pacific-ale-330ml) | 330ml | $64.99 | **$70.99** | BoozeBud |
 | [4 Pines Ultra Low 330ml](https://boozebud.com/products/4-pines-ultra-low-330ml) | 330ml | $61.99 | **$66.99** | BoozeBud |
 | [4 Pines Hazy Pale Ale 375ml](https://boozebud.com/products/4-pines-hazy-pale-ale-375ml) | 375ml | $26.99 | **$29.99** | BoozeBud |
@@ -1203,6 +1240,8 @@ Keywords: st hugo 2,400/28/T; st hugo shiraz 1,300/11/C; st hugo cabernet sauvig
 | [St Hugo Barossa Shiraz 750ml](https://boozebud.com/products/st-hugo-barossa-shiraz-750ml) | 750ml | $45.99 | **$49.99** | BoozeBud |
 | [St Hugo Coonawarra Cabernet Sauvignon 750ml](https://boozebud.com/products/st-hugo-coonawarra-cabernet-sauvignon-750ml) | 750ml | $45.99 | **$49.99** | BoozeBud |
 | [St Hugo Shiraz Cabernet Gift Box 750ml](https://boozebud.com/products/st-hugo-shiraz-cabernet-gift-box-750ml) | 750ml | $45.99 | **$49.99** | BoozeBud |
+| [St Hugo Eden Valley Riesling 750ml](https://boozebud.com/products/st-hugo-eden-valley-riesling-2021-750ml) | 750ml | $32.99 | **$35.99** | BoozeBud |
+| [St Hugo Eden Valley Chardonnay 750ml](https://boozebud.com/products/st-hugo-eden-valley-chardonnay-2021-750ml) | 750ml | $32.99 | **$35.99** | BoozeBud |
 
 ### St Hallett  (priority B)
 
