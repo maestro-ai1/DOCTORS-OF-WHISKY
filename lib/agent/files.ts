@@ -38,6 +38,16 @@ export function llmsTxt(full = false): string {
     const list = PRODUCTS.filter((p) => p.subCategorySlug === sub.slug);
     lines.push(`- [${sub.name}](${D}/shop/${sub.category}/collection/${sub.slug}/): ${list.length} products, ${priceRange(list)}`);
   }
+  lines.push(
+    '',
+    '## Gift, brand and topic pages',
+    '',
+    `- [Whisky gift packs](${D}/gifts/whisky/): ready-to-give whisky sets and gifts by budget`,
+    `- [Gin gifts](${D}/gifts/gin/): gin gift packs and gift-ready bottles by budget`,
+    `- [Buy tequila online](${D}/collections/tequila/): Patrón, Don Julio, Jose Cuervo, white, gold and reposado tequila`,
+    `- [Smirnoff vodka](${D}/collections/smirnoff/): Smirnoff vodka and premix range`,
+    `- [Absolut vodka](${D}/collections/absolut/): Absolut vodka and premium vodka comparison`
+  );
   lines.push('', '## Collector journal (guides)', '');
   for (const post of BLOG_POSTS) lines.push(`- [${post.title}](${D}/blog/${post.slug}/): ${post.excerpt}`);
   lines.push(
@@ -52,6 +62,7 @@ export function llmsTxt(full = false): string {
     '',
     '## Optional',
     '',
+    `- Clean Markdown: request any page URL above with the header Accept: text/markdown to receive it as Markdown`,
     `- [Product catalogue API](${D}/api/products/): JSON, supports ?category=, ?q=, ?limit=`,
     `- [Search API](${D}/api/search/?q=whisky): JSON products and articles`,
     `- [MCP server](${D}/api/mcp/): Streamable HTTP, tools: ${AGENT_TOOLS.map((t) => t.name).join(', ')}`,

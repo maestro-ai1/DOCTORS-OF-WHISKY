@@ -5,6 +5,11 @@ import { BLOG_POSTS } from '@/lib/data/blog';
 import { BASE_URL, CONTENT_UPDATED } from '@/lib/seo';
 import { SHOP_PAGE_COUNT, SHOP_PAGE_SIZE } from '@/lib/shop-pages';
 
+/** Pages whose keyword mapping, copy or menu changed on this date (products keep CONTENT_UPDATED: their data did not change). */
+const SITE_UPDATED = '2026-10-11';
+/** Blog posts whose primary keyword and H1 were re-targeted on SITE_UPDATED. */
+const BLOG_RETARGETED = new Set(['guide-to-australian-craft-cider', 'best-mixers-for-home-bar', 'how-to-choose-red-wine', 'white-wine-styles-explained', 'tequila-aging-guide-blanco-reposado-anejo', 'don-julio-vs-patron-tequila-compared', 'why-japanese-whisky-became-a-global-obsession', 'grey-goose-vs-belvedere-vodka-compared', 'cabernet-sauvignon-merlot-grenache-red-wine-grapes']);
+
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
 export interface SitemapEntry {
@@ -22,10 +27,13 @@ export function urlset(entries: SitemapEntry[]): string {
       const imgs = (e.images || [])
         .map((i) => `<image:image><image:loc>${esc(i.url)}</image:loc>${i.title ? `<image:title>${esc(i.title)}</image:title>` : ''}</image:image>`)
         .join('');
-      return `<url><loc>${esc(BASE_URL + e.path)}</loc><lastmod>${e.lastmod || CONTENT_UPDATED}</lastmod>${e.changefreq ? `<changefreq>${e.changefreq}</changefreq>` : ''}${e.priority !== undefined ? `<priority>${e.priority.toFixed(1)}</priority>` : ''}${imgs}</url>`;
+      const loc = esc(BASE_URL + e.path);
+      // hreflang alternates mirror the <link rel="alternate"> tags in each page's head (en-AU + x-default).
+      const alt = `<xhtml:link rel="alternate" hreflang="en-AU" href="${loc}"/><xhtml:link rel="alternate" hreflang="x-default" href="${loc}"/>`;
+      return `<url><loc>${loc}</loc><lastmod>${e.lastmod || CONTENT_UPDATED}</lastmod>${e.changefreq ? `<changefreq>${e.changefreq}</changefreq>` : ''}${e.priority !== undefined ? `<priority>${e.priority.toFixed(1)}</priority>` : ''}${alt}${imgs}</url>`;
     })
     .join('\n');
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${hasImages ? ' xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"' : ''}>\n${items}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"${hasImages ? ' xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"' : ''}>\n${items}\n</urlset>\n`;
 }
 
 export function sitemapIndex(children: { path: string; lastmod?: string }[]): string {
@@ -37,13 +45,13 @@ export const xmlResponse = (body: string) =>
   new Response(body, { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=3600, s-maxage=3600' } });
 
 export const pagesEntries = (): SitemapEntry[] => [
-  { path: '/', changefreq: 'daily', priority: 1.0 },
-  { path: '/shop/', changefreq: 'daily', priority: 0.9 },
-  { path: '/gifts/whisky/', changefreq: 'weekly', priority: 0.8 },
-  { path: '/gifts/gin/', changefreq: 'weekly', priority: 0.8 },
-  { path: '/collections/tequila/', changefreq: 'weekly', priority: 0.85 },
-  { path: '/collections/smirnoff/', changefreq: 'weekly', priority: 0.8 },
-  { path: '/collections/absolut/', changefreq: 'weekly', priority: 0.8 },
+  { path: '/', changefreq: 'daily', priority: 1.0, lastmod: SITE_UPDATED },
+  { path: '/shop/', changefreq: 'daily', priority: 0.9, lastmod: SITE_UPDATED },
+  { path: '/gifts/whisky/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
+  { path: '/gifts/gin/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
+  { path: '/collections/tequila/', changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED },
+  { path: '/collections/smirnoff/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
+  { path: '/collections/absolut/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
   { path: '/blog/', changefreq: 'weekly', priority: 0.7 },
   { path: '/faq/', changefreq: 'weekly', priority: 0.8 },
   { path: '/about/', changefreq: 'monthly', priority: 0.7 },
@@ -63,8 +71,8 @@ function pageNumbers(total: number, size: number) {
 }
 
 export const collectionEntries = (): SitemapEntry[] => [
-  ...MAIN_CATEGORIES.map((c) => ({ path: `/shop/${c.slug}/`, changefreq: 'weekly', priority: 0.85 })),
-  ...SUBCATEGORIES.map((s) => ({ path: `/shop/${s.category}/collection/${s.slug}/`, changefreq: 'weekly', priority: 0.85 })),
+  ...MAIN_CATEGORIES.map((c) => ({ path: `/shop/${c.slug}/`, changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED })),
+  ...SUBCATEGORIES.map((s) => ({ path: `/shop/${s.category}/collection/${s.slug}/`, changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED })),
   // pages 2+ of the larger collections
   ...SUBCATEGORIES.flatMap((s) =>
     pageNumbers(PRODUCTS.filter((p) => p.subCategorySlug === s.slug).length, SHOP_PAGE_SIZE).map((n) => ({ path: `/shop/${s.category}/collection/${s.slug}/page/${n}/`, changefreq: 'weekly', priority: 0.5 })),
@@ -80,4 +88,9 @@ export const productEntries = (): SitemapEntry[] =>
   }));
 
 export const blogEntries = (): SitemapEntry[] =>
-  BLOG_POSTS.map((b) => ({ path: `/blog/${b.slug}/`, lastmod: /^\d{4}-\d{2}-\d{2}/.test(b.date) ? b.date.slice(0, 10) : CONTENT_UPDATED, changefreq: 'monthly', priority: 0.65 }));
+  BLOG_POSTS.map((b) => ({
+    path: `/blog/${b.slug}/`,
+    lastmod: BLOG_RETARGETED.has(b.slug) ? SITE_UPDATED : /^\d{4}-\d{2}-\d{2}/.test(b.date) ? b.date.slice(0, 10) : CONTENT_UPDATED,
+    changefreq: 'monthly',
+    priority: 0.65,
+  }));
