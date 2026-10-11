@@ -51,11 +51,11 @@ async function audit(url, kind, k) {
     checks['5 secondary keywords visible as links (H2 section)'] = count(related, /<li>/g) >= Math.min(5, k.secondary.length) || (kind === 'home');
   }
   if (kind === 'home') checks['5 secondary keywords visible as links (H2 section)'] = count(section(h, 'Popular whisky searches'), /<li>/g) >= 5;
-  if (kind === 'home') checks['tags line (20+ high-volume tags)'] = count(section(h, 'Tags line'), /<li>/g) >= 20;
-  if (['product', 'blog'].includes(kind)) checks['20 tags visible'] = count(tagsSec, /<li>/g) >= 20;
+  if (kind === 'home') checks['tags line (10+ high-volume tags)'] = count(section(h, 'Tags line'), /<li>/g) >= 10;
+  if (['product', 'blog'].includes(kind)) checks['10 tags visible'] = count(tagsSec, /<li>/g) >= 10;
   // About and Contact are brand pages: no keyword tag lists on purpose (Google: no keyword stuffing).
   const brandPage = /\/(about|contact)\/$/.test(url);
-  if (['sub', 'category', 'page', 'faq', 'blogindex'].includes(kind) && !brandPage) checks['tags visible'] = count(tagsSec, /<li>/g) >= 15;
+  if (['sub', 'category', 'page', 'faq', 'blogindex'].includes(kind) && !brandPage) checks['tags visible'] = count(tagsSec, /<li>/g) >= 10;
   if (['product', 'sub', 'category'].includes(kind)) checks['outbound link to authority site'] = /href="https:\/\/(en\.wikipedia\.org|www\.healthdirect\.gov\.au|www\.scotch-whisky\.org\.uk|www\.cognac\.fr|www\.crt\.org\.mx|www\.wineaustralia\.com)/.test(h);
   if (kind === 'blog') {
     checks['2+ outbound links'] = count(h, /href="https:\/\/(?!doctorsofwhisky)[^"]+"[^>]*rel="[^"]*noopener/g) >= 2 || count(h, /target="_blank"/g) >= 2;

@@ -3,6 +3,9 @@ import { SUBCATEGORIES } from '@/lib/data/subcategories';
 import { SEO_KEYWORDS } from '@/lib/data/seo-keywords';
 import { searchProducts } from '@/lib/search';
 
+/** Tag links shown per page (the full 20 stay in meta keywords / JSON-LD): enough to help visitors, few enough to read as navigation, not stuffing. */
+export const VISIBLE_TAGS = 10;
+
 export interface TagLink {
   label: string;
   href: string;

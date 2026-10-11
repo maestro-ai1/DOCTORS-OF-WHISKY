@@ -14,7 +14,7 @@ import { TagCloud } from '@/components/TagCloud';
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { authorityFor } from '@/lib/data/authority-links';
-import { buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
+import { VISIBLE_TAGS, buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
 
 /** A collection page; collections larger than SHOP_PAGE_SIZE are split into /page/2/, /page/3/ ... */
 export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; subSlug: string; page: number }) {
@@ -33,8 +33,8 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
   const basePath = `/shop/${catSlug}/collection/${subSlug}/`;
   const path = page > 1 ? `${basePath}page/${page}/` : basePath;
 
-  const directTags = sub.tags && sub.tags.length >= 20 ? linkList(sub.tags, path, path, 20) : [];
-  const collectionTags = directTags.length >= 20 ? directTags : buildTagLinks([...(sub.tags ?? []), ...subcategoryTags(subSlug, 60)], path, path, 20, collectionTagTemplates(sub.name));
+  const directTags = sub.tags && sub.tags.length >= VISIBLE_TAGS ? linkList(sub.tags, path, path, VISIBLE_TAGS) : [];
+  const collectionTags = directTags.length >= VISIBLE_TAGS ? directTags : buildTagLinks([...(sub.tags ?? []), ...subcategoryTags(subSlug, 60)], path, path, VISIBLE_TAGS, collectionTagTemplates(sub.name));
 
   const pageLd = {
     ...webPageLd({ type: 'CollectionPage', name: sub.name, description: sub.description, path }),

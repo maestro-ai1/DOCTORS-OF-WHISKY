@@ -1,7 +1,8 @@
 // On-page SEO check for every blog post on a running server. Usage: node scripts/blog-audit.mjs http://127.0.0.1:3100
 const base = process.argv[2] || 'http://127.0.0.1:3100';
 const get = async (u) => (await fetch(u)).text();
-const slugs = [...(await get(base + '/sitemap-blog.xml')).matchAll(/\/blog\/([^/<]+)\//g)].map((m) => m[1]);
+// read <loc> only: the sitemap also carries hreflang alternates that repeat each URL
+const slugs = [...new Set([...(await get(base + '/sitemap-blog.xml')).matchAll(/<loc>[^<]*\/blog\/([^/<]+)\/<\/loc>/g)].map((m) => m[1]))];
 const norm = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&amp;|&#x27;|&#39;|’|'/g, '').replace(/[^a-z0-9 ]/g, ' ');
 const tok = (s) => norm(s).split(/\s+/).filter(Boolean);
 const has = (text, kw) => { const t = new Set(tok(text)); return tok(kw).every((w) => t.has(w) || t.has(w + 's') || t.has(w.replace(/s$/, ''))); };

@@ -1,0 +1,16 @@
+module.exports={
+'scotch-whisky':'scotch malt highland speyside islay glenfiddich macallan glenlivet johnnie walker chivas laphroaig glenmorangie ardbeg balvenie dalmore royal salute lagavulin talisker singleton dimple whisky whiskey'.split(' '),
+'bourbon':'bourbon jim beam jack daniels wild turkey woodford maker buffalo trace'.split(' '),
+'rye-whiskey':['rye'],'japanese-whisky':'japanese nikka suntory hibiki yamazaki toki'.split(' '),'australian-whisky':'australian lark starward tasmanian archie overeem'.split(' '),
+'irish-whiskey':'irish bushmills redbreast tullamore'.split(' '),
+'french-vodka':'french ciroc vodka'.split(' '),'russian-vodka':'russian vodka'.split(' '),'polish-vodka':'polish chopin vodka'.split(' '),'grey-goose':['goose'],'belvedere':['belvedere'],'vodka':'vodka smirnoff absolut skyy'.split(' '),
+'mezcal':['mezcal'],'patron':['patron'],'don-julio':['julio'],'jose-cuervo':['cuervo'],'white-tequila':'tequila blanco silver'.split(' '),'gold-tequila':'tequila reposado anejo'.split(' '),
+'spiced-rum':'spiced kraken captain morgan'.split(' '),'white-rum':'bacardi white rum havana'.split(' '),'rum':'rum malibu bundaberg'.split(' '),'gin':['gin'],'pink-gin':['pink'],'baijiu':'baijiu moutai'.split(' '),
+'cognac-brandy':'cognac brandy hennessy martell remy courvoisier calvados armagnac'.split(' '),'baileys-irish-cream':'baileys irish cream'.split(' '),'coffee-liqueur':'kahlua coffee'.split(' '),
+'orange-liqueur':'cointreau orange marnier germain'.split(' '),'cinnamon-liqueur':'cinnamon fireball'.split(' '),'amaro':'amaro aperol campari jagermeister chartreuse averna fernet'.split(' '),
+'absinthe':['absinthe'],'limoncello':['limoncello'],'sambuca':'sambuca galliano'.split(' '),'liqueur':'liqueur liqueurs amaretto disaronno licor'.split(' '),'ouzo':['ouzo'],
+'soju':'soju jinro'.split(' '),'lager':['lager'],'imported-beer':'imported corona heineken tiger peroni'.split(' '),'non-alcoholic-beer':'non alcoholic zero free'.split(' '),'ginger-beer':['ginger'],
+'red-wine':'red shiraz merlot cabernet'.split(' '),'white-wine':'white chardonnay riesling moscato'.split(' '),'rose-wine':['rose'],'sparkling':['sparkling'],'prosecco':['prosecco'],'champagne':'champagne moet veuve krug chandon piper'.split(' '),
+'pinot-grigio':'pinot grigio gris'.split(' '),'sauvignon-blanc':['sauvignon','sav'],'cabernet-sauvignon':['cabernet','cab'],'grenache':['grenache'],'port-wine':'port sherry'.split(' '),
+'vodka-premix':'premix cruiser'.split(' '),'zero-sugar-seltzers':['seltzer'],'cider':'cider somersby strongbow mercury'.split(' '),'australian-beer':['australian'],'german-beer':['german'],'low-carb-beer':'low carb'.split(' '),'pilsner':['pilsner'],
+'mixers-water-condiments':'water energy mixer tonic soda monster'.split(' ')};

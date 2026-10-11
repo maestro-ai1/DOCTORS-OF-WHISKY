@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@/components/PlainLink';
 import { HOME_SEO } from '@/lib/data/home-seo';
-import { linkList } from '@/lib/tag-links';
+import { VISIBLE_TAGS, linkList } from '@/lib/tag-links';
 import { titleCase } from '@/lib/seo';
 
 /**
@@ -12,7 +12,7 @@ import { titleCase } from '@/lib/seo';
  */
 export function HomeIntro() {
   const secondary = linkList(HOME_SEO.secondary.map((k) => k.kw), '/shop/', '/', 5);
-  const tags = linkList(HOME_SEO.tags.map((k) => k.kw), '/shop/', '/');
+  const tags = linkList(HOME_SEO.tags.map((k) => k.kw), '/shop/', '/', VISIBLE_TAGS + 2);
   // H1 leads with the main primary (whisky sale), then the broad commercial words people buy by.
   const rest = HOME_SEO.headline.filter((w) => !HOME_SEO.primary.kw.includes(w)).map(titleCase);
   const buyList = ['Whisky', ...rest];

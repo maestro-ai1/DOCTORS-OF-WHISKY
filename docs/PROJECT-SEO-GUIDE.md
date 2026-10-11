@@ -3,6 +3,28 @@
 Next.js 15.5 (App Router, TS, Tailwind v4), `output:'standalone'`, `trailingSlash:true`. Vercel auto-deploys `main` (~4-5 min after push).
 Site: https://doctorsofwhisky.com.au (target market: Australia, `en-AU`).
 
+## Golden rule (current, set 2026-10-11; supersedes older wording below)
+
+Goal: **high turnover**. Pages exist to sell.
+
+| Item | Rule |
+|---|---|
+| Source | Semrush bank exactly as exported, KD **29 or lower**, volume first. Never relabel or drop rows. |
+| Primary | ONE per URL, **Transactional**, unique across the whole site. Must name the page's own topic and a product the shop stocks. |
+| Secondary | **Commercial**, high volume, 15 stored per page; **5 visible** as related searches. |
+| Tags | 20 Commercial stored (meta keywords and JSON-LD); **10 visible** as tag links (`VISIBLE_TAGS` in `lib/tag-links.ts`). Tags the shop cannot fulfil are hidden automatically. |
+| Visible copy | 1 primary + 5 secondary + 4 supporting. Primary in title, H1, meta description, first paragraph and one image alt. No keyword lists in copy. |
+| Blogs | Informational/Navigational primary and secondary; Commercial tags; H1 contains the primary. |
+| Brand pages | About and Contact target the brand name only (no product keywords, no tag lists). |
+| Homepage | Main primary **whisky sale**; brand terms are taglines. |
+| Sales pages | One keyword cluster = one URL. Landing pages: `/gifts/whisky/`, `/gifts/gin/`, `/collections/tequila/`, `/collections/smirnoff/`, `/collections/absolut/` (config in `lib/data/curated.ts`). |
+
+**Mapping source of truth:** `../SEO Analysis/mapping-v2.json` (plus `blog-seo.json`, `home-seo.json`, `page-seo.json`). `engine2.js`, `blogs.js`, `blogs2.js` and `blogmerge.js` are RETIRED (they now refuse to run): they rebuild everything from scratch and would erase this mapping. To change a keyword, edit the JSON, then run `node scripts/apply-keywords-v2.mjs && node scripts/apply-seo-content.mjs`. New products: `scripts/add-products.mjs`, then `scripts/seo-tools/new-product-keywords.cjs` (list and procedure in `docs/products-to-add.md`). The scripts that built this mapping are kept in `scripts/seo-tools/remap-2026-10/` for the audit trail.
+
+**Prices:** market median of verified Australian retailers (The Drink Society, BoozeBud) plus web spot-checks. Reasonable band 0.90x to 1.20x of the median; outside it, set to median x 1.08 rounded up to .99. Details in `docs/price-review.md`; corrections in `scripts/price-corrections*.json`, applied with `scripts/apply-price-corrections.mjs`. Never invent prices; unverified bottles are flagged, not guessed.
+
+**Audits before every push:** `npx tsc --noEmit`, `npm run build`, then against `npx next start -p 3100`: `scripts/live-audit.mjs`, `integrity-audit.mjs`, `seo-score-audit.mjs`, `blog-audit.mjs`, `seo-tools/check-tags.mjs` and `seo-tools/smcheck.mjs`. Targets: 0 failures, 0 broken links, every page 100%.
+
 ## Folder layout (important: some inputs live OUTSIDE the repo)
 
 ```
@@ -19,7 +41,7 @@ Keep those two outside folders backed up; the generators below read them.
 ## SEO rules (non-negotiable, set by the owner)
 
 - Use Semrush data exactly as exported. Never relabel, flag, drop or guess a keyword/volume/intent.
-- Intent priority: **Transactional > Commercial > Navigational > Informational**. KD <= 28. Never exclude low-KD/high-volume keywords.
+- Intent priority: **Transactional > Commercial > Navigational > Informational**. KD <= 29 (see Golden rule). Never exclude low-KD/high-volume keywords.
 - **Product / category / sub-category / page**: primary = Transactional; **15 secondary** (Commercial first); tags = **20 Commercial**.
 - **Homepage**: primary + taglines = highest-volume Transactional/Commercial keywords.
 - **Blog posts + FAQ**: primary and 15 secondary = Navigational/Informational; blog tags = **20 Commercial**.
@@ -39,7 +61,7 @@ Keep those two outside folders backed up; the generators below read them.
 ## How keyword data flows
 
 ```
-Whisky Keywords Bank (CSV) -> SEO Analysis/*.json (engine2.js, blogs.js, home.js, pages.js)
+Whisky Keywords Bank (CSV) -> SEO Analysis/*.json (mapping edited as per the Golden rule; engine2.js/blogs.js/blogs2.js are RETIRED; home.js and pages.js still run)
   -> scripts/apply-keywords-v2.mjs  (run from repo root: node scripts/apply-keywords-v2.mjs)
        writes GENERATED files, never edit by hand:
          lib/data/seo-keywords.ts   products / sub-categories / categories

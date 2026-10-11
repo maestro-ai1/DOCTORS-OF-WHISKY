@@ -14,7 +14,7 @@ import { RelatedSearches } from '@/components/RelatedSearches';
 import { TagCloud } from '@/components/TagCloud';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { authorityFor } from '@/lib/data/authority-links';
-import { linkList } from '@/lib/tag-links';
+import { VISIBLE_TAGS, linkList } from '@/lib/tag-links';
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -152,7 +152,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </div>
         )}
         <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 5)} title={`Related searches: ${CATEGORY_SEO[catSlug].primary}`} />
-        <TagCloud tags={linkList(CATEGORY_SEO[catSlug].tags, path, path, 20)} title="Popular searches and tags" />
+        <TagCloud tags={linkList(CATEGORY_SEO[catSlug].tags, path, path, VISIBLE_TAGS)} title="Popular searches and tags" />
         <AuthorityLinks links={authorityFor(subcategories[0]?.slug ?? '')} title={`Learn more about ${currentCat.name.toLowerCase()}`} />
       </div>
     </div>
