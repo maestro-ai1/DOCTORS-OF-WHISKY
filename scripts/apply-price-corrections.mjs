@@ -9,14 +9,16 @@ const text = fs.readFileSync(FILE, 'utf8');
 const start = text.indexOf('= [', text.indexOf('export const PRODUCTS')) + 2;
 const end = text.indexOf('\n];', start) + 3;
 const products = JSON.parse(text.slice(start, end - 1));
-const fixes = JSON.parse(fs.readFileSync(new URL('./price-corrections.json', import.meta.url), 'utf8'));
+// price-corrections.json (>3x errors, 2026-10-11) then price-corrections-2.json (market-median model: too high / too low), in name order
+const files = fs.readdirSync(new URL('./', import.meta.url)).filter((f) => /^price-corrections(-\d+)?\.json$/.test(f)).sort((a, b) => a.replace('.json', '').localeCompare(b.replace('.json', '')));
+const fixes = files.flatMap((f) => JSON.parse(fs.readFileSync(new URL('./' + f, import.meta.url), 'utf8')));
 const bySlug = new Map(products.map((p) => [p.slug, p]));
 let changed = 0;
 for (const f of fixes) {
   const p = bySlug.get(f.slug);
   if (!p) throw new Error('unknown slug ' + f.slug);
   if (p.price === f.now) continue;
-  if (p.price !== f.was) throw new Error(`${f.slug}: price is ${p.price}, expected ${f.was}`);
+  if (p.price !== f.was) { console.log(`skip ${f.slug}: price is ${p.price}, expected ${f.was}`); continue; }
   p.price = f.now;
   delete p.originalPrice; // a strike-through "was" price no longer applies
   changed++;

@@ -1,0 +1,1240 @@
+[
+ {
+  "slug": "johnnie-walker-king-george-v-rare-edition",
+  "name": "Johnnie Walker King George V Edition Blended Scotch",
+  "was": 890,
+  "now": 755.99,
+  "direction": "lower",
+  "marketMedian": 699.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 699.99,
+    "title": "Johnnie Walker King George V CNY Limited Edition Blended Scotch Whisky 750mL",
+    "url": "https://thedrinksociety.com.au/products/johnnie-walker-king-george-v-limited-edition-blended-scotch-whisky-750ml"
+   }
+  ]
+ },
+ {
+  "slug": "kweichow-moutai-flying-fairy-baijiu-53-percent",
+  "name": "Kweichow Moutai Flying Fairy Baijiu 53% 500ml",
+  "was": 850,
+  "now": 624.99,
+  "direction": "lower",
+  "marketMedian": 577.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 577.99,
+    "title": "Kweichow Moutai Flying Fairy 500ml",
+    "url": "https://boozebud.com/products/kweichow-moutai-flying-fairy-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "laphroaig-10-glass-pack-scotch-whisky",
+  "name": "Laphroaig 10 Glass Pack Scotch Whisky",
+  "was": 1695,
+  "now": 97.99,
+  "direction": "lower",
+  "marketMedian": 89.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 89.99,
+    "title": "Laphroaig 10 Year Old Single Malt Scotch Whisky 700mL + Glass Gift Set",
+    "url": "https://thedrinksociety.com.au/products/laphroaig-10-year-old-single-malt-scotch-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "buffalo-trace-1l-bourbon-whiskey",
+  "name": "Buffalo Trace 1L Bourbon Whiskey",
+  "was": 575,
+  "now": 91.99,
+  "direction": "lower",
+  "marketMedian": 84.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 84.99,
+    "title": "Buffalo Trace 40% Kentucky Straight Bourbon Whiskey 1L",
+    "url": "https://thedrinksociety.com.au/products/buffalo-trace-kentucky-straight-bourbon-whiskey-1l-1"
+   }
+  ]
+ },
+ {
+  "slug": "jack-daniels-barrel-proof-rye-rye-whiskey",
+  "name": "Jack Daniels Barrel Proof Rye Whiskey",
+  "was": 345,
+  "now": 151.99,
+  "direction": "lower",
+  "marketMedian": 139.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 139.99,
+    "title": "Jack Daniel's Single Barrel Rye 700ml",
+    "url": "https://boozebud.com/products/jack-daniels-single-barrel-rye-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "nikka-coffey-japanese-whisky",
+  "name": "Nikka Coffey Japanese Whisky",
+  "was": 1320,
+  "now": 132.99,
+  "direction": "lower",
+  "marketMedian": 122.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 99.99,
+    "title": "Nikka Coffey Malt With Gift Box Japanese Whisky 700ml",
+    "url": "https://thedrinksociety.com.au/products/nikka-coffey-malt-with-gift-box-japanese-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 144.99,
+    "title": "Nikka Coffey Malt 700ml",
+    "url": "https://boozebud.com/products/nikka-coffey-malt-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "russian-standard-gold-russian-vodka",
+  "name": "Russian Standard Gold Russian Vodka",
+  "was": 110,
+  "now": 48.99,
+  "direction": "lower",
+  "marketMedian": 44.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 44.99,
+    "title": "Russian Standard Gold Vodka 700mL",
+    "url": "https://thedrinksociety.com.au/products/russian-standard-gold-vodka-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "russian-standard-vodka",
+  "name": "Russian Standard Vodka",
+  "was": 140,
+  "now": 57.99,
+  "direction": "lower",
+  "marketMedian": 53.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 46.99,
+    "title": "Russian Standard Vodka 700mL",
+    "url": "https://thedrinksociety.com.au/products/russian-standard-vodka-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 59.99,
+    "title": "Russian Standard Vodka 700ml",
+    "url": "https://boozebud.com/products/russian-standard-vodka-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "belvedere-citrus-polish-vodka",
+  "name": "Belvedere Citrus Polish Vodka",
+  "was": 125,
+  "now": 64.99,
+  "direction": "lower",
+  "marketMedian": 59.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 59.99,
+    "title": "Belvedere Citrus Flavoured Polish Vodka 700mL",
+    "url": "https://thedrinksociety.com.au/products/belvedere-citrus-flavoured-polish-vodka-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "grey-goose-700ml-grey-goose",
+  "name": "Grey Goose 700ml",
+  "was": 105,
+  "now": 80.99,
+  "direction": "lower",
+  "marketMedian": 74.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 66.99,
+    "title": "Grey Goose French Vodka 700mL",
+    "url": "https://thedrinksociety.com.au/products/grey-goose-vodka-750ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 81.99,
+    "title": "Grey Goose Vodka 700ml",
+    "url": "https://boozebud.com/products/grey-goose-vodka-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "guerrero-mezcal",
+  "name": "Guerrero Mezcal",
+  "was": 125,
+  "now": 77.99,
+  "direction": "lower",
+  "marketMedian": 71.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 71.99,
+    "title": "Guerrero Mezcal 700ml",
+    "url": "https://boozebud.com/products/guerrero-mezcal-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "don-julio-blanco-don-julio",
+  "name": "Don Julio Blanco",
+  "was": 125,
+  "now": 97.99,
+  "direction": "lower",
+  "marketMedian": 89.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 79.99,
+    "title": "Don Julio Blanco Tequila 700mL",
+    "url": "https://thedrinksociety.com.au/products/don-julio-blanco-tequila-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 99.99,
+    "title": "Don Julio Blanco Tequila 700ml",
+    "url": "https://boozebud.com/products/don-julio-blanco-tequila-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "padre-azul-tequila-blanco",
+  "name": "Padre Azul Tequila Blanco",
+  "was": 200,
+  "now": 178.99,
+  "direction": "lower",
+  "marketMedian": 164.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 164.99,
+    "title": "Padre Azul Blanco Tequila 700ml",
+    "url": "https://boozebud.com/products/padre-azul-blanco-tequila-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "rio-grande-chilli-tequila",
+  "name": "Rio Grande Chilli Tequila",
+  "was": 145,
+  "now": 64.99,
+  "direction": "lower",
+  "marketMedian": 59.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 59.99,
+    "title": "Rio Grande Chilli Tequila 700mL",
+    "url": "https://thedrinksociety.com.au/products/rio-grande-chilli-tequila-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "teremana-blanco-tequila",
+  "name": "Teremana Blanco Tequila",
+  "was": 160,
+  "now": 92.99,
+  "direction": "lower",
+  "marketMedian": 85.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 85.99,
+    "title": "Teremana Tequila Blanco 700ml",
+    "url": "https://boozebud.com/products/teremana-tequila-blanco-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "jose-cuervo-gold-gold-tequila",
+  "name": "Jose Cuervo Gold Tequila",
+  "was": 100,
+  "now": 60.99,
+  "direction": "lower",
+  "marketMedian": 55.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 55.99,
+    "title": "Jose Cuervo Especial Gold 700ml",
+    "url": "https://boozebud.com/products/jose-cuervo-especial-gold-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "captain-morgan-1l-spiced-rum",
+  "name": "Captain Morgan 1L Spiced Rum",
+  "was": 105,
+  "now": 64.99,
+  "direction": "lower",
+  "marketMedian": 59.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 59.99,
+    "title": "Captain Morgan Spiced Gold Rum 1L",
+    "url": "https://thedrinksociety.com.au/products/captain-morgan-spiced-gold-rum-1l"
+   }
+  ]
+ },
+ {
+  "slug": "captain-morgan-spiced-rum",
+  "name": "Captain Morgan Spiced Rum",
+  "was": 90,
+  "now": 59.99,
+  "direction": "lower",
+  "marketMedian": 54.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 45.99,
+    "title": "Captain Morgan Spiced Gold Rum 700mL",
+    "url": "https://thedrinksociety.com.au/products/captain-morgan-spiced-gold-rum-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 63.99,
+    "title": "Captain Morgan Black Spiced 700ml",
+    "url": "https://boozebud.com/products/captain-morgan-black-spiced-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "kraken-black-cherry-vanilla-spiced-rum",
+  "name": "Kraken Black Cherry Vanilla Spiced Rum",
+  "was": 100,
+  "now": 75.99,
+  "direction": "lower",
+  "marketMedian": 69.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 69.99,
+    "title": "Kraken Black Cherry and Madagascan Vanilla Black Spiced Rum 700mL",
+    "url": "https://thedrinksociety.com.au/products/kraken-black-cherry-and-madagascan-vanilla-black-spiced-rum-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "bacardi-carta-blanca-white-rum",
+  "name": "Bacardi Carta Blanca White Rum",
+  "was": 110,
+  "now": 60.99,
+  "direction": "lower",
+  "marketMedian": 55.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 53.99,
+    "title": "Bacardi Carta Blanca Superior White Rum 700mL",
+    "url": "https://thedrinksociety.com.au/products/bacardi-carta-blanca-superior-white-rum-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 57.99,
+    "title": "Bacardi Carta Blanca Superior White Rum 700ml",
+    "url": "https://boozebud.com/products/bacardi-carta-blanca-superior-white-rum-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "def-leppard-animal-gin",
+  "name": "Def Leppard Animal Gin",
+  "was": 175,
+  "now": 140.99,
+  "direction": "lower",
+  "marketMedian": 129.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 129.99,
+    "title": "Def Leppard Animal London Dry Gin 700mL",
+    "url": "https://thedrinksociety.com.au/products/def-leppard-animal-london-dry-gin-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "ghost-juniper-gin",
+  "name": "Ghost Juniper Gin",
+  "was": 170,
+  "now": 110.99,
+  "direction": "lower",
+  "marketMedian": 102.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 99.99,
+    "title": "Ghost Juniper Premium Gin 700mL",
+    "url": "https://thedrinksociety.com.au/products/ghost-juniper-premium-gin-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 104.99,
+    "title": "Ghost Juniper Gin 700ml",
+    "url": "https://boozebud.com/products/ghost-juniper-gin-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "shui-jing-fang-red-fortune-baijiu",
+  "name": "Shui Jing Fang Red Fortune Baijiu",
+  "was": 145,
+  "now": 118.99,
+  "direction": "lower",
+  "marketMedian": 109.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 109.99,
+    "title": "Shui Jing Fang Red Fortune Baijiu 500mL",
+    "url": "https://thedrinksociety.com.au/products/shui-jing-fang-red-fortune-baijiu-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "shui-jing-fang-wellbay-phoenix-baijiu",
+  "name": "Shui Jing Fang Wellbay Phoenix Baijiu",
+  "was": 460,
+  "now": 178.99,
+  "direction": "lower",
+  "marketMedian": 164.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 164.99,
+    "title": "Shui Jing Fang Wellbay Baijiu 500mL",
+    "url": "https://thedrinksociety.com.au/products/shui-jing-fang-wellbay-baijiu-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "shui-jing-fang-wellbay-baijiu",
+  "name": "Shui Jing Fang Wellbay Baijiu",
+  "was": 260,
+  "now": 178.99,
+  "direction": "lower",
+  "marketMedian": 164.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 164.99,
+    "title": "Shui Jing Fang Wellbay Baijiu 500mL",
+    "url": "https://thedrinksociety.com.au/products/shui-jing-fang-wellbay-baijiu-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "martell-noblige-cognac-brandy",
+  "name": "Martell Noblige Cognac & Brandy",
+  "was": 245,
+  "now": 205.99,
+  "direction": "lower",
+  "marketMedian": 189.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 189.99,
+    "title": "Martell Noblige Cognac 700ml",
+    "url": "https://boozebud.com/products/martell-noblige-cognac-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "alize-bleu-cognac-brandy",
+  "name": "Alize Bleu Cognac & Brandy",
+  "was": 500,
+  "now": 53.99,
+  "direction": "lower",
+  "marketMedian": 49.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 49.99,
+    "title": "Alize Bleu 700ml",
+    "url": "https://boozebud.com/products/alize-bleu-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "courvoisier-xo-royal-cognac-brandy",
+  "name": "Courvoisier XO Royal Cognac & Brandy",
+  "was": 525,
+  "now": 285.99,
+  "direction": "lower",
+  "marketMedian": 263.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 299.99,
+    "title": "Courvoisier XO Royal Cognac 700mL",
+    "url": "https://thedrinksociety.com.au/products/courvoisier-xo-royal-cognac-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 227.99,
+    "title": "Courvoisier XO Royal Cognac 700ml",
+    "url": "https://boozebud.com/products/courvoisier-xo-royal-cognac-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "coquerel-cigar-blend-cognac-brandy",
+  "name": "Coquerel Cigar Blend Cognac & Brandy",
+  "was": 995,
+  "now": 183.99,
+  "direction": "lower",
+  "marketMedian": 169.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 169.99,
+    "title": "Coquerel Cigar Blend Grand Calvados 700mL",
+    "url": "https://thedrinksociety.com.au/products/coquerel-cigar-blend-grand-calvados-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "baileys-colada-baileys-irish-cream",
+  "name": "Baileys Colada Baileys Irish Cream",
+  "was": 75,
+  "now": 53.99,
+  "direction": "lower",
+  "marketMedian": 49.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 49.99,
+    "title": "Baileys Colada Limited Edition Irish Cream Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/baileys-colada-limited-edition-irish-cream-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "baileys-river-mint-baileys-irish-cream",
+  "name": "Baileys River Mint Baileys Irish Cream",
+  "was": 80,
+  "now": 45.99,
+  "direction": "lower",
+  "marketMedian": 41.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 41.99,
+    "title": "Baileys Australian River Mint & Chocolate Limited Edition Irish Cream Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/baileys-australian-river-mint-chocolate-limited-edition-irish-cream-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "avion-espresso-tequila",
+  "name": "Avion Espresso Tequila",
+  "was": 65,
+  "now": 43.99,
+  "direction": "lower",
+  "marketMedian": 39.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 39.99,
+    "title": "Avion Espresso Flavoured Tequila Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/avion-espresso-flavoured-tequila-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "sheridans-500ml-coffee-liqueur",
+  "name": "Sheridans 500ml Coffee Liqueur",
+  "was": 75,
+  "now": 34.99,
+  "direction": "lower",
+  "marketMedian": 31.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 29.99,
+    "title": "Sheridan's Coffee Layered Liqueur 500mL",
+    "url": "https://thedrinksociety.com.au/products/sheridans-coffee-layered-liqueur-500ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 33.99,
+    "title": "Sheridan's Coffee Layered Liqueur 500ml",
+    "url": "https://boozebud.com/products/sheridans-coffee-layered-liqueur-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "cointreau-orange-liqueur",
+  "name": "Cointreau Orange Liqueur",
+  "was": 95,
+  "now": 71.99,
+  "direction": "lower",
+  "marketMedian": 66.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 54.99,
+    "title": "Cointreau Orange Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/cointreau-orange-liqueur-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 77.99,
+    "title": "Cointreau Orange Liqueur 700ml",
+    "url": "https://boozebud.com/products/cointreau-orange-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "baileys-cinnamon-scroll-cinnamon-liqueur",
+  "name": "Baileys Cinnamon Scroll Cinnamon Liqueur",
+  "was": 60,
+  "now": 37.99,
+  "direction": "lower",
+  "marketMedian": 34.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 34.99,
+    "title": "Baileys Cinnamon Scroll Limited Edition Irish Cream Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/baileys-cinnamon-scroll-limited-edition-irish-cream-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "amaro-averna",
+  "name": "Amaro Averna",
+  "was": 80,
+  "now": 51.99,
+  "direction": "lower",
+  "marketMedian": 47.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 47.99,
+    "title": "Averna Amaro Siciliano Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/averna-amaro-siciliano-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "amaro-lucano",
+  "name": "Amaro Lucano",
+  "was": 105,
+  "now": 50.99,
+  "direction": "lower",
+  "marketMedian": 46.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 44.99,
+    "title": "Amaro Lucano Herb Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/amaro-lucano-herb-liqueur-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 47.99,
+    "title": "Amaro Lucano Digestif Liqueur 700ml",
+    "url": "https://boozebud.com/products/amaro-lucano-digestif-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "caffo-amaro-del-capo",
+  "name": "Caffo Amaro Del Capo",
+  "was": 120,
+  "now": 58.99,
+  "direction": "lower",
+  "marketMedian": 53.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 49.99,
+    "title": "Caffo Vecchio Amaro del Capo Herb Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/caffo-vecchio-amaro-del-capo-herb-liqueur-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 57.99,
+    "title": "Caffo Vecchio Amaro Del Capo 700ml",
+    "url": "https://boozebud.com/products/caffo-vecchio-amaro-del-capo-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "fernet-branca-amaro",
+  "name": "Fernet Branca Amaro",
+  "was": 80,
+  "now": 66.99,
+  "direction": "lower",
+  "marketMedian": 61.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 61.99,
+    "title": "Fernet-Branca Amaro Herb Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/fernet-branca-amaro-herb-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "opal-nera-500ml-sambuca",
+  "name": "Opal Nera 500ml Sambuca",
+  "was": 55,
+  "now": 41.99,
+  "direction": "lower",
+  "marketMedian": 37.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 37.99,
+    "title": "Opal Nera Black Sambuca Liqueur 500mL",
+    "url": "https://thedrinksociety.com.au/products/opal-nera-black-sambuca-liqueur-500ml"
+   }
+  ]
+ },
+ {
+  "slug": "charm-malgeun-vivid-tropical-soju",
+  "name": "Charm Malgeun Vivid Tropical Soju",
+  "was": 20,
+  "now": 8.99,
+  "direction": "lower",
+  "marketMedian": 7.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 7.49,
+    "title": "Charm Malgeun Vivid Tropical Flavoured Soju 360mL",
+    "url": "https://thedrinksociety.com.au/products/charm-malgeun-vivid-tropical-flavoured-soju-360ml"
+   }
+  ]
+ },
+ {
+  "slug": "somersby-apple-cider-bottles",
+  "name": "Somersby Apple Cider Bottles",
+  "was": 25,
+  "now": 20.99,
+  "direction": "lower",
+  "marketMedian": 18.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 18.99,
+    "title": "Somersby Apple Cider 330ml",
+    "url": "https://boozebud.com/products/somersby-apple-cider-330ml"
+   }
+  ]
+ },
+ {
+  "slug": "jack-daniels-original-bbq-sauce",
+  "name": "Jack Daniels Original Bbq Sauce",
+  "was": 10,
+  "now": 5.99,
+  "direction": "lower",
+  "marketMedian": 4.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 4.99,
+    "title": "Jack Daniel's Original BBQ Sauce 284g",
+    "url": "https://thedrinksociety.com.au/products/jack-daniels-original-bbq-sauce-284g"
+   }
+  ]
+ },
+ {
+  "slug": "glenfiddich-30-year-old-suspended-time",
+  "name": "Glenfiddich 30 Year Old Suspended Time Single Malt",
+  "was": 1590,
+  "now": 1960.99,
+  "direction": "raise",
+  "marketMedian": 1815.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 1599.99,
+    "title": "Glenfiddich 30 Year Old Suspended Time Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/glenfiddich-30-year-old-suspended-time-single-malt-scotch-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 2030.99,
+    "title": "Glenfiddich 30 Year Old Suspended Time Single Malt Scotch Whisky 700ml",
+    "url": "https://boozebud.com/products/glenfiddich-30-year-old-suspended-time-single-malt-scotch-whisky-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "macallan-estate-scotch-whisky",
+  "name": "Macallan Estate Scotch Whisky",
+  "was": 420,
+  "now": 647.99,
+  "direction": "raise",
+  "marketMedian": 599.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 599.99,
+    "title": "The Macallan Estate Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/the-macallan-estate-single-malt-scotch-whisky-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "macallan-m-black-2022-scotch-whisky",
+  "name": "Macallan M Black 2022 Scotch Whisky",
+  "was": 3305,
+  "now": 12419.99,
+  "direction": "raise",
+  "marketMedian": 11499.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 10999.99,
+    "title": "The Macallan M Black Decanter 2022 Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/the-macallan-m-black-decanter-single-malt-scotch-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 11999.99,
+    "title": "The Macallan M Black Decanter 2022 700ml",
+    "url": "https://boozebud.com/products/the-macallan-m-black-decanter-2022-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "glenfiddich-malt-masters-scotch-whisky",
+  "name": "Glenfiddich Malt Masters Scotch Whisky",
+  "was": 94.99,
+  "now": 129.99,
+  "direction": "raise",
+  "marketMedian": 119.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 119.99,
+    "title": "Glenfiddich Malt Masters Single Malt Scotch Whisky 700ml",
+    "url": "https://boozebud.com/products/glenfiddich-malt-masters-single-malt-scotch-whisky-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "laphroaig-lore-scotch-whisky",
+  "name": "Laphroaig Lore Scotch Whisky",
+  "was": 159.99,
+  "now": 196.99,
+  "direction": "raise",
+  "marketMedian": 181.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 159.99,
+    "title": "Laphroaig Lore Islay Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/laphroaig-lore-islay-single-malt-scotch-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 203.99,
+    "title": "Laphroaig Lore Single Malt Scotch Whisky 700ml",
+    "url": "https://boozebud.com/products/laphroaig-lore-single-malt-scotch-whisky-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "laphroaig-oak-select-scotch-whisky",
+  "name": "Laphroaig Oak Select Scotch Whisky",
+  "was": 74.99,
+  "now": 93.99,
+  "direction": "raise",
+  "marketMedian": 86.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 74.99,
+    "title": "Laphroaig Oak Select Islay Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/laphroaig-select-islay-single-malt-scotch-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 97.99,
+    "title": "Laphroaig Oak Select Islay Single Malt Whisky 700ml",
+    "url": "https://boozebud.com/products/laphroaig-oak-select-islay-single-malt-scotch-whisky-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "laphroaig-px-cask-1l-scotch-whisky",
+  "name": "Laphroaig Px Cask 1L Scotch Whisky",
+  "was": 149.99,
+  "now": 205.99,
+  "direction": "raise",
+  "marketMedian": 189.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 189.99,
+    "title": "Laphroaig PX Cask Single Malt Scotch Whisky 1L",
+    "url": "https://boozebud.com/products/laphroaig-px-cask-single-malt-scotch-whisky-1l"
+   }
+  ]
+ },
+ {
+  "slug": "nikka-coffey-malt-japanese-whisky",
+  "name": "Nikka Coffey Malt Japanese Whisky",
+  "was": 90,
+  "now": 132.99,
+  "direction": "raise",
+  "marketMedian": 122.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 99.99,
+    "title": "Nikka Coffey Malt With Gift Box Japanese Whisky 700ml",
+    "url": "https://thedrinksociety.com.au/products/nikka-coffey-malt-with-gift-box-japanese-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 144.99,
+    "title": "Nikka Coffey Malt 700ml",
+    "url": "https://boozebud.com/products/nikka-coffey-malt-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "beluga-gold-leather-russian-vodka",
+  "name": "Beluga Gold Leather Russian Vodka",
+  "was": 60,
+  "now": 172.99,
+  "direction": "raise",
+  "marketMedian": 159.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 159.99,
+    "title": "Beluga Gold Line Limited Edition Russian Vodka Leather Gift Box 700mL",
+    "url": "https://thedrinksociety.com.au/products/beluga-gold-line-limited-edition-russian-vodka-leather-gift-box-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "belvedere-1l-polish-vodka",
+  "name": "Belvedere 1L Polish Vodka",
+  "was": 55,
+  "now": 95.99,
+  "direction": "raise",
+  "marketMedian": 87.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 87.99,
+    "title": "Belvedere Polish Vodka 1L",
+    "url": "https://thedrinksociety.com.au/products/belvedere-polish-vodka-1l"
+   }
+  ]
+ },
+ {
+  "slug": "courvoisier-mizunara-2023-cognac-brandy",
+  "name": "Courvoisier Mizunara 2023 Cognac & Brandy",
+  "was": 1105,
+  "now": 2159.99,
+  "direction": "raise",
+  "marketMedian": 1999.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 1999.99,
+    "title": "Courvoisier Mizunara 2023 Edition Rare Cognac 700mL",
+    "url": "https://thedrinksociety.com.au/products/courvoisier-mizunara-2023-edition-rare-cognac-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "hennessy-vsop-cognac-brandy",
+  "name": "Hennessy VSOP Cognac & Brandy",
+  "was": 99.99,
+  "now": 124.99,
+  "direction": "raise",
+  "marketMedian": 114.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 114.99,
+    "title": "Hennessy VSOP Cognac 700ml",
+    "url": "https://boozebud.com/products/hennessy-vsop-cognac-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "hennessy-xo-cognac-brandy",
+  "name": "Hennessy XO Cognac & Brandy",
+  "was": 279.99,
+  "now": 336.99,
+  "direction": "raise",
+  "marketMedian": 311.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 279.99,
+    "title": "Hennessy XO Cognac 700mL",
+    "url": "https://thedrinksociety.com.au/products/hennessy-xo-cognac-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 342.99,
+    "title": "Hennessy XO Cognac 700ml",
+    "url": "https://boozebud.com/products/hennessy-xo-cognac-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "baileys-1l-baileys-irish-cream",
+  "name": "Baileys 1L Baileys Irish Cream",
+  "was": 40,
+  "now": 56.99,
+  "direction": "raise",
+  "marketMedian": 51.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 46.99,
+    "title": "Baileys Original Irish Cream Liqueur 1L",
+    "url": "https://thedrinksociety.com.au/products/baileys-original-irish-cream-liqueur-1l"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 56.99,
+    "title": "Baileys Irish Cream 1L",
+    "url": "https://boozebud.com/products/baileys-irish-cream-1l"
+   }
+  ]
+ },
+ {
+  "slug": "sheridans-1l-coffee-liqueur",
+  "name": "Sheridans 1L Coffee Liqueur",
+  "was": 55,
+  "now": 66.99,
+  "direction": "raise",
+  "marketMedian": 61.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 59.99,
+    "title": "Sheridan's Coffee Layered Liqueur 1L",
+    "url": "https://thedrinksociety.com.au/products/sheridans-coffee-layered-liqueur-1l"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 62.99,
+    "title": "Sheridan's Coffee Layered Liqueur 1L",
+    "url": "https://boozebud.com/products/sheridans-coffee-layered-liqueur-1l"
+   }
+  ]
+ },
+ {
+  "slug": "cointreau-50ml-orange-liqueur",
+  "name": "Cointreau 50ml Orange Liqueur",
+  "was": 5.99,
+  "now": 7.99,
+  "direction": "raise",
+  "marketMedian": 6.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 5.99,
+    "title": "Cointreau Orange Liqueur Miniature 50mL",
+    "url": "https://thedrinksociety.com.au/products/cointreau-orange-liqueur-miniature-50ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 7.99,
+    "title": "Cointreau Orange Liqueur Mini 50ml",
+    "url": "https://boozebud.com/products/cointreau-orange-liqueur-mini-50ml"
+   }
+  ]
+ },
+ {
+  "slug": "cointreau-pourer-orange-liqueur",
+  "name": "Cointreau Pourer Orange Liqueur",
+  "was": 40,
+  "now": 57.99,
+  "direction": "raise",
+  "marketMedian": 52.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 52.99,
+    "title": "Cointreau Limited Edition + Toucan Pourer Orange Liqueur 700mL",
+    "url": "https://thedrinksociety.com.au/products/cointreau-limited-edition-toucan-pourer-orange-liqueur-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "fireball-1l-cinnamon-liqueur",
+  "name": "Fireball 1L Cinnamon Liqueur",
+  "was": 25,
+  "now": 86.99,
+  "direction": "raise",
+  "marketMedian": 79.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 79.99,
+    "title": "Fireball Cinnamon Whisky 1L",
+    "url": "https://boozebud.com/products/fireball-cinnamon-whisky-1l"
+   }
+  ]
+ },
+ {
+  "slug": "fireball-collectors-edition-2022-1l-cinnamon-liqueur",
+  "name": "Fireball Collectors Edition 2022 1L Cinnamon Liqueur",
+  "was": 50,
+  "now": 75.99,
+  "direction": "raise",
+  "marketMedian": 69.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 69.99,
+    "title": "Fireball Collector's Edition 2022 Cinnamon Flavoured Canadian Whisky 1L",
+    "url": "https://thedrinksociety.com.au/products/fireball-orange-fire-collectors-edition-cinnamon-flavoured-canadian-whisky-1l"
+   }
+  ]
+ },
+ {
+  "slug": "smirnoff-gold-1l-cinnamon-liqueur",
+  "name": "Smirnoff Gold 1L Cinnamon Liqueur",
+  "was": 60,
+  "now": 97.99,
+  "direction": "raise",
+  "marketMedian": 89.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 89.99,
+    "title": "Smirnoff Gold Cinnamon Flavoured Liqueur Vodka With Gold Leaf 1L",
+    "url": "https://thedrinksociety.com.au/products/smirnoff-gold-cinnamon-flavoured-liqueur-vodka-with-gold-leaf-1l"
+   }
+  ]
+ },
+ {
+  "slug": "ginger-kid-ginger-beer",
+  "name": "Ginger Kid Ginger Beer",
+  "was": 15,
+  "now": 96.99,
+  "direction": "raise",
+  "marketMedian": 88.99,
+  "sources": [
+   {
+    "retailer": "BoozeBud",
+    "price": 88.99,
+    "title": "Ginger Kid Ginger Beer 330ml",
+    "url": "https://boozebud.com/products/ginger-kid-ginger-beer-330ml"
+   }
+  ]
+ },
+ {
+  "slug": "the-dalmore-port-wood-reserve-single-malt-scotch-whisky",
+  "name": "The Dalmore Port Wood Reserve Single Malt Scotch Whisky",
+  "was": 139.99,
+  "now": 172.99,
+  "direction": "raise",
+  "marketMedian": 159.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 139.99,
+    "title": "The Dalmore Port Wood Reserve Single Malt Scotch Whisky 700mL",
+    "url": "https://thedrinksociety.com.au/products/the-dalmore-port-wood-reserve-single-malt-scotch-whisky-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 178.99,
+    "title": "The Dalmore Port Wood Reserve 700ml",
+    "url": "https://boozebud.com/products/the-dalmore-port-wood-reserve-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "redbreast-12-year-old-single-pot-still-irish-whiskey",
+  "name": "Redbreast 12 Year Old Single Pot Still Irish Whiskey",
+  "was": 99.99,
+  "now": 131.99,
+  "direction": "raise",
+  "marketMedian": 121.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 99.99,
+    "title": "Redbreast 12 Year Old Single Pot Still Irish Whiskey 700mL",
+    "url": "https://thedrinksociety.com.au/products/redbreast-12-year-old-single-pot-still-irish-whiskey-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 143.99,
+    "title": "Redbreast 12 Year Old Single Pot Still Irish Whiskey 700ml",
+    "url": "https://boozebud.com/products/redbreast-12-year-old-single-pot-still-irish-whiskey-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "redbreast-18-year-old-single-pot-still-irish-whiskey",
+  "name": "Redbreast 18 Year Old Single Pot Still Irish Whiskey",
+  "was": 299.99,
+  "now": 362.99,
+  "direction": "raise",
+  "marketMedian": 335.99,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 299.99,
+    "title": "Redbreast 18 Year Old Single Pot Still Irish Whiskey 700mL",
+    "url": "https://thedrinksociety.com.au/products/redbreast-18-year-old-single-pot-still-irish-whiskey-700ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 371.99,
+    "title": "Redbreast 18 Years Old Single Pot Still Irish Whiskey 700ml",
+    "url": "https://boozebud.com/products/redbreast-18-years-old-single-pot-still-irish-whiskey-700ml"
+   }
+  ]
+ },
+ {
+  "slug": "de-bortoli-king-valley-prosecco",
+  "name": "De Bortoli King Valley Prosecco",
+  "was": 12.99,
+  "now": 16.99,
+  "direction": "raise",
+  "marketMedian": 15.49,
+  "sources": [
+   {
+    "retailer": "The Drink Society",
+    "price": 12.99,
+    "title": "De Bortoli King Valley Prosecco 750mL",
+    "url": "https://thedrinksociety.com.au/products/de-bortoli-king-valley-prosecco-750ml"
+   },
+   {
+    "retailer": "BoozeBud",
+    "price": 17.99,
+    "title": "De Bortoli King Valley Prosecco NV 750ml",
+    "url": "https://boozebud.com/products/de-bortoli-king-valley-prosecco-nv-750ml"
+   }
+  ]
+ }
+]

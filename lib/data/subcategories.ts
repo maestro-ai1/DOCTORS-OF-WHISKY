@@ -239,7 +239,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "japanese-whisky",
     "name": "Japanese Whisky",
     "category": "whisky",
-    "description": "Nikka Whiskey: Buy Japanese Whisky online in Australia: 23 bottles from Nikka, Hibiki and Yamazaki, priced from $90 to $7,599.99 AUD. Insured delivery, 18+ only.",
+    "description": "Nikka Whiskey: Buy Japanese Whisky online in Australia: 23 bottles from Nikka, Hibiki and Yamazaki, priced from $124.99 to $7,599.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/japanese-whisky/nikka--tds-nikka-12-2.jpg",
     "primaryKeyword": "nikka whiskey",
     "secondaryKeywords": [
@@ -262,7 +262,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does nikka whiskey cost in Australia?",
-        "answer": "Japanese Whisky at Doctors of Whisky ranges from $90 AUD (Nikka Coffey Malt Japanese Whisky) to $7,599.99 AUD (Hibiki 30 Year Old Blended Japanese Suntory Whisky). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Japanese Whisky at Doctors of Whisky ranges from $124.99 AUD (Nikka Miyagikyo Japanese Whisky) to $7,599.99 AUD (Hibiki 30 Year Old Blended Japanese Suntory Whisky). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy nikka whiskey online in Australia?",
@@ -286,7 +286,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts. Doctors of Whisky lists 23 japanese whisky bottles across 3 brands, including Nikka, Hibiki and Yamazaki, priced from $90 to $7,599.99 AUD.",
+      "Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts. Doctors of Whisky lists 23 japanese whisky bottles across 3 brands, including Nikka, Hibiki and Yamazaki, priced from $124.99 to $7,599.99 AUD.",
       "Nikka Whisky was founded by Masataka Taketsuru in 1934 and produces Japanese whisky at the Yoichi and Miyagikyo distilleries. Japanese whisky is often enjoyed neat, over a large ice sphere, or as a highball with chilled soda water.",
       "To buy nikka whiskey online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -473,7 +473,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "russian-vodka",
     "name": "Russian Vodka",
     "category": "spirit",
-    "description": "Vodka Sale: Buy Russian Vodka online in Australia: 16 bottles from Russian Vodka, Smirnoff and Kalashnikov, priced from $8.99 to $165 AUD. Insured delivery, 18+ only.",
+    "description": "Vodka Sale: Buy Russian Vodka online in Australia: 16 bottles from Russian Vodka, Smirnoff and Kalashnikov, priced from $8.99 to $172.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/russian-vodka/russian-vodka--tds-belenkaya-vodka.jpg",
     "primaryKeyword": "vodka sale",
     "secondaryKeywords": [
@@ -496,7 +496,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does vodka sale cost in Australia?",
-        "answer": "Russian Vodka at Doctors of Whisky ranges from $8.99 AUD (Kalashnikov 100ml Russian Vodka) to $165 AUD (Smirnoff Blue 1L Russian Vodka). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Russian Vodka at Doctors of Whisky ranges from $8.99 AUD (Kalashnikov 100ml Russian Vodka) to $172.99 AUD (Beluga Gold Leather Russian Vodka). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy vodka sale online in Australia?",
@@ -520,7 +520,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Russian vodka is traditionally distilled from grain such as wheat or rye and served ice-cold as a neutral, clean spirit. Doctors of Whisky lists 16 russian vodka bottles across 5 brands, including Russian Vodka, Smirnoff, Kalashnikov and Belenkaya, priced from $8.99 to $165 AUD.",
+      "Russian vodka is traditionally distilled from grain such as wheat or rye and served ice-cold as a neutral, clean spirit. Doctors of Whisky lists 16 russian vodka bottles across 5 brands, including Russian Vodka, Smirnoff, Kalashnikov and Belenkaya, priced from $8.99 to $172.99 AUD.",
       "Serve Russian vodka well chilled and neat alongside food, or use it as a base for Moscow Mules and Bloody Marys.",
       "To buy vodka sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -785,7 +785,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "mezcal",
     "name": "Mezcal",
     "category": "spirit",
-    "description": "Buy Mezcal Online Australia: Buy Mezcal online in Australia: 5 bottles from Guerrero, Mezcal and Scorpion, priced from $125 to $235 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Mezcal Online Australia: Buy Mezcal online in Australia: 5 bottles from Guerrero, Mezcal and Scorpion, priced from $77.99 to $235 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/mezcal/mezcal--tds-guerrero-mezcal-50ml-nohat.jpg",
     "primaryKeyword": "buy mezcal online australia",
     "secondaryKeywords": [
@@ -808,7 +808,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does buy mezcal online australia cost in Australia?",
-        "answer": "Mezcal at Doctors of Whisky ranges from $125 AUD (Guerrero Mezcal) to $235 AUD (Guerrero Mezcal 50ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Mezcal at Doctors of Whisky ranges from $77.99 AUD (Guerrero Mezcal) to $235 AUD (Guerrero Mezcal 50ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy buy mezcal online australia online in Australia?",
@@ -832,7 +832,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Mezcal is a Mexican agave spirit, most often made from espadín agave, with a smoky character from roasting the agave hearts in earthen pits. Doctors of Whisky lists 5 mezcal bottles across 3 brands, including Guerrero, Mezcal and Scorpion, priced from $125 to $235 AUD.",
+      "Mezcal is a Mexican agave spirit, most often made from espadín agave, with a smoky character from roasting the agave hearts in earthen pits. Doctors of Whisky lists 5 mezcal bottles across 3 brands, including Guerrero, Mezcal and Scorpion, priced from $77.99 to $235 AUD.",
       "Sip mezcal neat with orange slices, or use it in a smoky margarita or Paloma.",
       "To buy buy mezcal online australia online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -941,7 +941,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "don-julio",
     "name": "Don Julio",
     "category": "spirit",
-    "description": "Don Julio Brands: Buy Don Julio online in Australia: 11 bottles from Don Julio, priced from $98.99 to $990 AUD. Insured delivery, 18+ only.",
+    "description": "Don Julio Brands: Buy Don Julio online in Australia: 11 bottles from Don Julio, priced from $97.99 to $990 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/don-julio/don-julio--tds-don-julio-1942-50ml.jpg",
     "primaryKeyword": "don julio brands",
     "secondaryKeywords": [
@@ -964,7 +964,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does don julio brands cost in Australia?",
-        "answer": "Don Julio at Doctors of Whisky ranges from $98.99 AUD (Don Julio Tequila) to $990 AUD (Don Julio 1942 Ultima Reserva Extra Añejo Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Don Julio at Doctors of Whisky ranges from $97.99 AUD (Don Julio Blanco) to $990 AUD (Don Julio 1942 Ultima Reserva Extra Añejo Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy don julio brands online in Australia?",
@@ -988,7 +988,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Don Julio is a premium tequila from Jalisco, Mexico, founded by Don Julio González in 1942 and made from blue agave. Doctors of Whisky lists 11 don julio bottles across 1 brand, including Don Julio, priced from $98.99 to $990 AUD.",
+      "Don Julio is a premium tequila from Jalisco, Mexico, founded by Don Julio González in 1942 and made from blue agave. Doctors of Whisky lists 11 don julio bottles across 1 brand, including Don Julio, priced from $97.99 to $990 AUD.",
       "Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila. Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma.",
       "To buy don julio brands online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1097,7 +1097,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "white-tequila",
     "name": "White Tequila",
     "category": "spirit",
-    "description": "Tequila For Sale: Buy White Tequila online in Australia: 9 bottles from Padre, Cabo and Gran Patron, priced from $75 to $290 AUD. Insured delivery, 18+ only.",
+    "description": "Tequila For Sale: Buy White Tequila online in Australia: 9 bottles from Padre, Cabo and Gran Patron, priced from $64.99 to $290 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/white-tequila/white-tequila--tds-cabo-wabo-blanco-new.jpg",
     "primaryKeyword": "tequila for sale",
     "secondaryKeywords": [
@@ -1120,7 +1120,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does tequila for sale cost in Australia?",
-        "answer": "White Tequila at Doctors of Whisky ranges from $75 AUD (Kah Blanco Tequila) to $290 AUD (Padre Azul 50ml Collection White Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "White Tequila at Doctors of Whisky ranges from $64.99 AUD (Rio Grande Chilli Tequila) to $290 AUD (Padre Azul 50ml Collection White Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy tequila online in Australia?",
@@ -1144,7 +1144,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Blanco (white or silver) tequila is unaged or aged for no more than two months, and tastes of fresh agave, citrus and pepper. Doctors of Whisky lists 9 white tequila bottles across 8 brands, including Padre, Cabo, Gran Patron and Kah, priced from $75 to $290 AUD.",
+      "Blanco (white or silver) tequila is unaged or aged for no more than two months, and tastes of fresh agave, citrus and pepper. Doctors of Whisky lists 9 white tequila bottles across 8 brands, including Padre, Cabo, Gran Patron and Kah, priced from $64.99 to $290 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use blanco tequila in margaritas, palomas and tequila sodas, or sip it neat.",
       "To buy tequila for sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1175,7 +1175,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "gold-tequila",
     "name": "Gold Tequila",
     "category": "spirit",
-    "description": "Buy Tequila: Buy Gold Tequila online in Australia: 9 bottles from Jose Cuervo, Herradurra and Cabo, priced from $100 to $295 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Tequila: Buy Gold Tequila online in Australia: 9 bottles from Jose Cuervo, Herradurra and Cabo, priced from $60.99 to $295 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/gold-tequila/gold-tequila--tds-cabo-wabo-anejo-new.jpg",
     "primaryKeyword": "buy tequila",
     "secondaryKeywords": [
@@ -1198,7 +1198,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does buy tequila cost in Australia?",
-        "answer": "Gold Tequila at Doctors of Whisky ranges from $100 AUD (Jose Cuervo Gold Tequila) to $295 AUD (Herradurra Plata Gold Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Gold Tequila at Doctors of Whisky ranges from $60.99 AUD (Jose Cuervo Gold Tequila) to $295 AUD (Herradurra Plata Gold Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy buy tequila online in Australia?",
@@ -1222,7 +1222,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Gold tequila (joven) is often a blend of unaged tequila with aged tequila or added colouring and flavouring, and is popular for mixing. Doctors of Whisky lists 9 gold tequila bottles across 6 brands, including Jose Cuervo, Herradurra, Cabo and Clase, priced from $100 to $295 AUD.",
+      "Gold tequila (joven) is often a blend of unaged tequila with aged tequila or added colouring and flavouring, and is popular for mixing. Doctors of Whisky lists 9 gold tequila bottles across 6 brands, including Jose Cuervo, Herradurra, Cabo and Clase, priced from $60.99 to $295 AUD.",
       "Jose Cuervo is one of the oldest tequila houses in the world, producing tequila in Jalisco, Mexico. Gold tequila works well in margaritas, tequila sunrises and shots with lime.",
       "To buy buy tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1409,7 +1409,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "gin",
     "name": "Gin",
     "category": "spirit",
-    "description": "Buy Gin online in Australia: 10 bottles from Gordons, Hendricks and Bombay, priced from $55 to $175 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Gin online in Australia: 10 bottles from Gordons, Hendricks and Bombay, priced from $55 to $155 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/gin/gin--tds-bombay-sapphire-be97ac0d-3a44-4d13-b66c-ecd440264060.jpg",
     "primaryKeyword": "buy gin online",
     "secondaryKeywords": [
@@ -1432,7 +1432,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does buy gin online cost in Australia?",
-        "answer": "Gin at Doctors of Whisky ranges from $55 AUD (Gordons Gin) to $175 AUD (Def Leppard Animal Gin). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Gin at Doctors of Whisky ranges from $55 AUD (Gordons Gin) to $155 AUD (Tanqueray 50ml Gin). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy gin australia in Australia?",
@@ -1456,7 +1456,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Gin is a spirit flavoured mainly with juniper berries alongside other botanicals such as coriander, citrus peel and angelica. Doctors of Whisky lists 10 gin bottles across 8 brands, including Gordons, Hendricks, Bombay and Def, priced from $55 to $175 AUD.",
+      "Gin is a spirit flavoured mainly with juniper berries alongside other botanicals such as coriander, citrus peel and angelica. Doctors of Whisky lists 10 gin bottles across 8 brands, including Gordons, Hendricks, Bombay and Def, priced from $55 to $155 AUD.",
       "Serve gin with tonic and a citrus twist, or in a martini, Negroni or Gimlet.",
       "To buy buy gin online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1487,7 +1487,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "baijiu",
     "name": "Baijiu",
     "category": "spirit",
-    "description": "Kweichow Moutai: Buy Baijiu online in Australia: 6 bottles from Shui, Moutai and Xijiu, priced from $145 to $850 AUD. Insured delivery, 18+ only.",
+    "description": "Kweichow Moutai: Buy Baijiu online in Australia: 6 bottles from Shui, Moutai and Xijiu, priced from $118.99 to $624.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/baijiu/baijiu--tds-moutai-by-camus-new.jpg",
     "primaryKeyword": "kweichow moutai",
     "secondaryKeywords": [
@@ -1510,7 +1510,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does kweichow moutai cost in Australia?",
-        "answer": "Baijiu at Doctors of Whisky ranges from $145 AUD (Shui Jing Fang Red Fortune Baijiu) to $850 AUD (Kweichow Moutai Flying Fairy Baijiu 53% 500ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Baijiu at Doctors of Whisky ranges from $118.99 AUD (Shui Jing Fang Red Fortune Baijiu) to $624.99 AUD (Kweichow Moutai Flying Fairy Baijiu 53% 500ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy kweichow moutai online in Australia?",
@@ -1534,7 +1534,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Baijiu is a Chinese grain spirit, traditionally made from sorghum and fermented with qu, usually bottled at high strength. Doctors of Whisky lists 6 baijiu bottles across 3 brands, including Shui, Moutai and Xijiu, priced from $145 to $850 AUD.",
+      "Baijiu is a Chinese grain spirit, traditionally made from sorghum and fermented with qu, usually bottled at high strength. Doctors of Whisky lists 6 baijiu bottles across 3 brands, including Shui, Moutai and Xijiu, priced from $118.99 to $624.99 AUD.",
       "Baijiu is traditionally sipped neat from small cups with food and toasts.",
       "To buy kweichow moutai online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1721,7 +1721,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "coffee-liqueur",
     "name": "Coffee Liqueur",
     "category": "spirit",
-    "description": "Kahlua Liquor: Buy Coffee Liqueur online in Australia: 10 bottles from Patron, Sheridans and Kahlua, priced from $55 to $85 AUD. Insured delivery, 18+ only.",
+    "description": "Kahlua Liquor: Buy Coffee Liqueur online in Australia: 10 bottles from Patron, Sheridans and Kahlua, priced from $34.99 to $85 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/coffee-liqueur/coffee-liqueur--tds-avion-espresso-tequila.jpg",
     "primaryKeyword": "kahlua liquor",
     "secondaryKeywords": [
@@ -1744,7 +1744,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does kahlua liquor cost in Australia?",
-        "answer": "Coffee Liqueur at Doctors of Whisky ranges from $55 AUD (Sheridans 1L Coffee Liqueur) to $85 AUD (Kahlua 16abv Coffee Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Coffee Liqueur at Doctors of Whisky ranges from $34.99 AUD (Sheridans 500ml Coffee Liqueur) to $85 AUD (Kahlua 16abv Coffee Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy kahlua liquor online in Australia?",
@@ -1768,7 +1768,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Coffee liqueur combines coffee flavour with sugar and spirit; Kahlúa is the best-known example. Doctors of Whisky lists 10 coffee liqueur bottles across 4 brands, including Patron, Sheridans, Kahlua and Avion, priced from $55 to $85 AUD.",
+      "Coffee liqueur combines coffee flavour with sugar and spirit; Kahlúa is the best-known example. Doctors of Whisky lists 10 coffee liqueur bottles across 4 brands, including Patron, Sheridans, Kahlua and Avion, priced from $34.99 to $85 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use coffee liqueur in an espresso martini or White Russian, or pour it over ice cream.",
       "To buy kahlua liquor online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1799,7 +1799,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "orange-liqueur",
     "name": "Orange Liqueur",
     "category": "spirit",
-    "description": "Cointreau Price: Buy Orange Liqueur online in Australia: 5 bottles from Cointreau, 1800 and Jagermeister, priced from $5.99 to $95 AUD. Insured delivery, 18+ only.",
+    "description": "Cointreau Price: Buy Orange Liqueur online in Australia: 5 bottles from Cointreau, 1800 and Jagermeister, priced from $7.99 to $71.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/orange-liqueur/orange-liqueur--tds-1800-guachimonton.jpg",
     "primaryKeyword": "cointreau price",
     "secondaryKeywords": [
@@ -1822,7 +1822,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does cointreau price cost in Australia?",
-        "answer": "Orange Liqueur at Doctors of Whisky ranges from $5.99 AUD (Cointreau 50ml Orange Liqueur) to $95 AUD (Cointreau Orange Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Orange Liqueur at Doctors of Whisky ranges from $7.99 AUD (Cointreau 50ml Orange Liqueur) to $71.99 AUD (Cointreau Orange Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy cointreau in Australia?",
@@ -1846,7 +1846,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Orange liqueurs such as Cointreau and Grand Marnier are flavoured with orange peel and are essential in margaritas, cosmopolitans and Sidecars. Doctors of Whisky lists 5 orange liqueur bottles across 3 brands, including Cointreau, 1800 and Jagermeister, priced from $5.99 to $95 AUD.",
+      "Orange liqueurs such as Cointreau and Grand Marnier are flavoured with orange peel and are essential in margaritas, cosmopolitans and Sidecars. Doctors of Whisky lists 5 orange liqueur bottles across 3 brands, including Cointreau, 1800 and Jagermeister, priced from $7.99 to $71.99 AUD.",
       "Use orange liqueur in margaritas and cosmopolitans, or sip Grand Marnier neat after dinner.",
       "To buy cointreau price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1877,7 +1877,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "cinnamon-liqueur",
     "name": "Cinnamon Liqueur",
     "category": "spirit",
-    "description": "Buy Cinnamon Liqueur online in Australia: 10 bottles from Fireball, Goldschlager and Baileys, priced from $5.99 to $70 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Cinnamon Liqueur online in Australia: 10 bottles from Fireball, Goldschlager and Baileys, priced from $5.99 to $97.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/cinnamon-liqueur/cinnamon-liqueur--tds-baileys-cinnamon-scroll.jpg",
     "primaryKeyword": "cinnamon liqueur",
     "secondaryKeywords": [
@@ -1900,7 +1900,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does cinnamon liqueur cost in Australia?",
-        "answer": "Cinnamon Liqueur at Doctors of Whisky ranges from $5.99 AUD (Goldschlager 50ml Cinnamon Liqueur) to $70 AUD (Fireball Collectors Limited Edition Cinnamon Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Cinnamon Liqueur at Doctors of Whisky ranges from $5.99 AUD (Goldschlager 50ml Cinnamon Liqueur) to $97.99 AUD (Smirnoff Gold 1L Cinnamon Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy cinnamon liqueur online in Australia?",
@@ -1924,7 +1924,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Cinnamon liqueur (often sold as cinnamon whisky) is a sweet, spicy liqueur usually served as a chilled shot. Doctors of Whisky lists 10 cinnamon liqueur bottles across 4 brands, including Fireball, Goldschlager, Baileys and Smirnoff, priced from $5.99 to $70 AUD.",
+      "Cinnamon liqueur (often sold as cinnamon whisky) is a sweet, spicy liqueur usually served as a chilled shot. Doctors of Whisky lists 10 cinnamon liqueur bottles across 4 brands, including Fireball, Goldschlager, Baileys and Smirnoff, priced from $5.99 to $97.99 AUD.",
       "Baileys is an Irish cream liqueur made from Irish whiskey and cream, launched in Dublin in 1974. Serve cinnamon liqueur well chilled as a shot or mixed with cider or cola.",
       "To buy cinnamon liqueur online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -2579,7 +2579,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "ginger-beer",
     "name": "Ginger Beer",
     "category": "beer-premix-wine",
-    "description": "Buy Ginger Beer online in Australia: 1 bottles from Ginger Beer, priced from $15 to $15 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Ginger Beer online in Australia: 1 bottles from Ginger Beer, priced from $96.99 to $96.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/ginger-beer/ginger-beer--tds-ginger-kid-ginger-beer.jpg",
     "primaryKeyword": "buy ginger beer",
     "secondaryKeywords": [
@@ -2602,7 +2602,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does buy ginger beer cost in Australia?",
-        "answer": "Ginger Beer at Doctors of Whisky ranges from $15 AUD (Ginger Kid Ginger Beer) to $15 AUD (Ginger Kid Ginger Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Ginger Beer at Doctors of Whisky ranges from $96.99 AUD (Ginger Kid Ginger Beer) to $96.99 AUD (Ginger Kid Ginger Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy ginger beer online in Australia?",
@@ -2626,7 +2626,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Ginger beer is a ginger-flavoured drink, either non-alcoholic or brewed alcoholic, and a classic mixer for the Dark and Stormy and Moscow Mule. Doctors of Whisky lists 1 ginger beer bottle across 1 brand, including Ginger Beer, priced from $15 to $15 AUD.",
+      "Ginger beer is a ginger-flavoured drink, either non-alcoholic or brewed alcoholic, and a classic mixer for the Dark and Stormy and Moscow Mule. Doctors of Whisky lists 1 ginger beer bottle across 1 brand, including Ginger Beer, priced from $96.99 to $96.99 AUD.",
       "Serve ginger beer over ice with lime, or mix it with rum or vodka.",
       "To buy buy ginger beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -3203,7 +3203,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "cider",
     "name": "Cider",
     "category": "beer-premix-wine",
-    "description": "Mercury Hard Cider: Buy Cider online in Australia: 6 bottles from Little, Mercury and Somersby, priced from $25 to $50 AUD. Insured delivery, 18+ only.",
+    "description": "Mercury Hard Cider: Buy Cider online in Australia: 6 bottles from Little, Mercury and Somersby, priced from $20.99 to $50 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/cider/cider--tds-little-fat-lamb-creaming-soda.jpg",
     "primaryKeyword": "mercury hard cider",
     "secondaryKeywords": [
@@ -3226,7 +3226,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does mercury hard cider cost in Australia?",
-        "answer": "Cider at Doctors of Whisky ranges from $25 AUD (Somersby Apple Cider Bottles) to $50 AUD (Little Fat Lamb Strawberry Lime Cider). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Cider at Doctors of Whisky ranges from $20.99 AUD (Somersby Apple Cider Bottles) to $50 AUD (Little Fat Lamb Strawberry Lime Cider). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy mercury hard cider online in Australia?",
@@ -3250,7 +3250,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Cider is a fermented apple (or pear) drink that ranges from dry to sweet, and is popular across Australia. Doctors of Whisky lists 6 cider bottles across 4 brands, including Little, Mercury, Somersby and Strongbow, priced from $25 to $50 AUD.",
+      "Cider is a fermented apple (or pear) drink that ranges from dry to sweet, and is popular across Australia. Doctors of Whisky lists 6 cider bottles across 4 brands, including Little, Mercury, Somersby and Strongbow, priced from $20.99 to $50 AUD.",
       "Serve cider cold over ice, or straight from the fridge in a tall glass.",
       "To buy mercury hard cider online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -3281,7 +3281,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "mixers-water-condiments",
     "name": "Mixers, Water & Condiments",
     "category": "other",
-    "description": "Water Prices: Buy Mixers, Water & Condiments online in Australia: 11 bottles from San, Jack Daniels and Mtv, priced from $10 to $35 AUD. Insured delivery, 18+ only.",
+    "description": "Water Prices: Buy Mixers, Water & Condiments online in Australia: 11 bottles from San, Jack Daniels and Mtv, priced from $5.99 to $35 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/mixers-water-condiments/water--tds-san-pel-plastic-1l.jpg",
     "primaryKeyword": "water prices",
     "secondaryKeywords": [
@@ -3304,7 +3304,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does water prices cost in Australia?",
-        "answer": "Mixers, Water & Condiments at Doctors of Whisky ranges from $10 AUD (Jack Daniels Original Bbq Sauce) to $35 AUD (Mtv Up Energy Drink Mixers, Water & Condiments). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Mixers, Water & Condiments at Doctors of Whisky ranges from $5.99 AUD (Jack Daniels Original Bbq Sauce) to $35 AUD (Mtv Up Energy Drink Mixers, Water & Condiments). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy tonic water online in Australia?",
@@ -3328,7 +3328,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Mixers, water and condiments round out a home bar and dining table. Doctors of Whisky lists 11 mixers, water & condiments bottles across 6 brands, including San, Jack Daniels, Mtv and Energy Drinks, priced from $10 to $35 AUD.",
+      "Mixers, water and condiments round out a home bar and dining table. Doctors of Whisky lists 11 mixers, water & condiments bottles across 6 brands, including San, Jack Daniels, Mtv and Energy Drinks, priced from $5.99 to $35 AUD.",
       "Serve mixers and water chilled, and use condiments to season food and cocktails as directed.",
       "To buy water prices online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -3827,7 +3827,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "prosecco",
     "name": "Prosecco",
     "category": "beer-premix-wine",
-    "description": "Buy Prosecco online in Australia: 3 bottles from Nua, De Bortoli and Brown Brothers, priced from $10.99 to $13.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Prosecco online in Australia: 3 bottles from Nua, De Bortoli and Brown Brothers, priced from $10.99 to $16.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/prosecco/brown-brothers-king-valley-prosecco-nv.jpg",
     "primaryKeyword": "buy prosecco",
     "secondaryKeywords": [
@@ -3872,7 +3872,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does buy prosecco cost in Australia?",
-        "answer": "Prosecco at Doctors of Whisky ranges from $10.99 AUD (Nua NV Prosecco) to $13.99 AUD (Brown Brothers King Valley Prosecco NV). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Prosecco at Doctors of Whisky ranges from $10.99 AUD (Nua NV Prosecco) to $16.99 AUD (De Bortoli King Valley Prosecco). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy buy prosecco online in Australia?",
@@ -3896,7 +3896,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Prosecco is an Italian sparkling wine from north-eastern Italy, made mainly from Glera grapes. Doctors of Whisky lists 3 prosecco bottles across 3 brands, including Nua, De Bortoli and Brown Brothers, priced from $10.99 to $13.99 AUD.",
+      "Prosecco is an Italian sparkling wine from north-eastern Italy, made mainly from Glera grapes. Doctors of Whisky lists 3 prosecco bottles across 3 brands, including Nua, De Bortoli and Brown Brothers, priced from $10.99 to $16.99 AUD.",
       "Serve prosecco well chilled, on its own or in a spritz or Bellini.",
       "To buy buy prosecco online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
