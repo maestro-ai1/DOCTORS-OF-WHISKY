@@ -5,9 +5,9 @@ import { PageSearches } from '@/components/PageSearches';
 import { PAGE_SEO } from '@/lib/data/page-seo';
 
 
-const TITLE = 'Buy Single Malt Whisky Online | About Doctors of Whisky';
+const TITLE = 'About Doctors of Whisky | Sydney Whisky & Spirits Shop';
 const DESC =
-  'Buy single malt whisky online from Doctors of Whisky, a Sydney bottle shop for Scotch, Japanese whisky and fine spirits, with insured delivery across Australia.';
+  'About Doctors of Whisky: a Sydney bottle shop selling Scotch, Japanese whisky, tequila, gin and fine spirits online, with insured delivery across Australia. 18+ only.';
 
 export const metadata = buildMetadata({
   title: TITLE,

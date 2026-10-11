@@ -1869,7 +1869,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 4645,
+    "price": 144.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -1905,7 +1905,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan 12 Sherry Oak Scotch Whisky cost in Australia?",
-        "answer": "Macallan 12 Sherry Oak Scotch Whisky is priced at $4,645 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan 12 Sherry Oak Scotch Whisky is priced at $144.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Macallan 12 Sherry Oak Scotch Whisky online and have it delivered in Australia?",
@@ -1925,11 +1925,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Macallan 12 Price | Macallan 12 Sherry Oak Scotch Whisky",
-    "metaDescription": "Macallan 12 Price: Buy Macallan 12 Sherry Oak Scotch Whisky (700ml) online in Australia for $4,645 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Macallan 12 Price: Buy Macallan 12 Sherry Oak Scotch Whisky (700ml) online in Australia for $144.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Macallan 12 Sherry Oak Scotch Whisky comes from Macallan. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan 12 Sherry Oak Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for 12 year macallan, Macallan 12 Sherry Oak Scotch Whisky is available from Doctors of Whisky at $4,645 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for 12 year macallan, Macallan 12 Sherry Oak Scotch Whisky is available from Doctors of Whisky at $144.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "hibiki whiskey",
@@ -2634,7 +2634,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 1965,
+    "price": 199.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -2669,7 +2669,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Double Cask Gold Scotch Whisky cost in Australia?",
-        "answer": "Macallan Double Cask Gold Scotch Whisky is priced at $1,965 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Double Cask Gold Scotch Whisky is priced at $199.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy macallan sherry oak online in Australia?",
@@ -2689,11 +2689,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Double Cask Gold Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Double Cask Gold Scotch Whisky (700ml) online in Australia for $1,965 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Double Cask Gold Scotch Whisky (700ml) online in Australia for $199.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Macallan Double Cask Gold Scotch Whisky is Macallan’s expression in this style. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Double Cask Gold Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Macallan Double Cask Gold Scotch Whisky is $1,965 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Macallan Double Cask Gold Scotch Whisky is $199.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "dalmore whisky",
@@ -2920,7 +2920,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3460,
+    "price": 399.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -2955,7 +2955,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Enigma Scotch Whisky cost in Australia?",
-        "answer": "Macallan Enigma Scotch Whisky is priced at $3,460 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Enigma Scotch Whisky is priced at $399.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy macallan enigma scotch whisky online in Australia?",
@@ -2975,11 +2975,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Enigma Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Enigma Scotch Whisky (700ml) online in Australia for $3,460 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Enigma Scotch Whisky (700ml) online in Australia for $399.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Macallan Enigma Scotch Whisky is Macallan’s expression in this style. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Enigma Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Macallan Enigma Scotch Whisky is $3,460 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Macallan Enigma Scotch Whisky is $399.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "dalmore whisky",
@@ -3207,7 +3207,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3635,
+    "price": 299.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -3242,7 +3242,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Harmony Rich Cacao Scotch Whisky cost in Australia?",
-        "answer": "Macallan Harmony Rich Cacao Scotch Whisky is priced at $3,635 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Harmony Rich Cacao Scotch Whisky is priced at $299.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Macallan Harmony Rich Cacao Scotch Whisky online and have it delivered in Australia?",
@@ -3262,11 +3262,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Harmony Rich Cacao Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Harmony Rich Cacao Scotch Whisky (700ml) online in Australia for $3,635 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Harmony Rich Cacao Scotch Whisky (700ml) online in Australia for $299.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Macallan Harmony Rich Cacao Scotch Whisky comes from Macallan. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Harmony Rich Cacao Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for macallan single malt, Macallan Harmony Rich Cacao Scotch Whisky is available from Doctors of Whisky at $3,635 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for macallan single malt, Macallan Harmony Rich Cacao Scotch Whisky is available from Doctors of Whisky at $299.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "dalmore whisky",
@@ -3302,7 +3302,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3300,
+    "price": 299.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -3338,7 +3338,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Litha Scotch Whisky cost in Australia?",
-        "answer": "Macallan Litha Scotch Whisky is priced at $3,300 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Litha Scotch Whisky is priced at $299.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Macallan Litha Scotch Whisky online in Australia?",
@@ -3358,11 +3358,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Litha Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Litha Scotch Whisky (700ml) online in Australia for $3,300 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Litha Scotch Whisky (700ml) online in Australia for $299.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Macallan Litha Scotch Whisky sits in our scotch whisky range, alongside 24 other Macallan bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Litha Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Buy Macallan Litha Scotch Whisky online in Australia for $3,300 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Macallan Litha Scotch Whisky online in Australia for $299.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "dalmore whisky",
@@ -3398,7 +3398,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 2195,
+    "price": 209.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -3434,7 +3434,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Lumina Scotch Whisky cost in Australia?",
-        "answer": "Macallan Lumina Scotch Whisky is priced at $2,195 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Lumina Scotch Whisky is priced at $209.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Macallan Lumina Scotch Whisky online and have it delivered in Australia?",
@@ -3454,11 +3454,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Lumina Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Lumina Scotch Whisky (700ml) online in Australia for $2,195 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Lumina Scotch Whisky (700ml) online in Australia for $209.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Macallan Lumina Scotch Whisky comes from Macallan. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Lumina Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for macallan single malt, Macallan Lumina Scotch Whisky is available from Doctors of Whisky at $2,195 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for macallan single malt, Macallan Lumina Scotch Whisky is available from Doctors of Whisky at $209.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "dalmore whisky",
@@ -3780,7 +3780,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 2270,
+    "price": 164.99,
     "abv": "40.0% - 46.0%",
     "size": "1L",
     "images": [
@@ -3816,7 +3816,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Quest 1L Scotch Whisky cost in Australia?",
-        "answer": "Macallan Quest 1L Scotch Whisky is priced at $2,270 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Quest 1L Scotch Whisky is priced at $164.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Macallan Quest 1L Scotch Whisky online in Australia?",
@@ -3836,11 +3836,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Quest 1L Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Quest 1L Scotch Whisky online in Australia for $2,270 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Quest 1L Scotch Whisky online in Australia for $164.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Macallan Quest 1L Scotch Whisky sits in our scotch whisky range, alongside 24 other Macallan bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Quest 1L Scotch Whisky is listed at 40.0% - 46.0% ABV in a 1L format, from Scotland.",
-      "Buy Macallan Quest 1L Scotch Whisky online in Australia for $2,270 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Macallan Quest 1L Scotch Whisky online in Australia for $164.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "dalmore whisky",
@@ -3876,7 +3876,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3220,
+    "price": 114.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -3911,7 +3911,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Quest Scotch Whisky cost in Australia?",
-        "answer": "Macallan Quest Scotch Whisky is priced at $3,220 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Quest Scotch Whisky is priced at $114.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy macallan whiskey online in Australia?",
@@ -3931,11 +3931,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Quest Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Quest Scotch Whisky (700ml) online in Australia for $3,220 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Quest Scotch Whisky (700ml) online in Australia for $114.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Macallan Quest Scotch Whisky is Macallan’s expression in this style. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Quest Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Macallan Quest Scotch Whisky is $3,220 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Macallan Quest Scotch Whisky is $114.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "dalmore whisky",
@@ -3971,7 +3971,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3475,
+    "price": 799.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -4006,7 +4006,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Rare Cask Black Scotch Whisky cost in Australia?",
-        "answer": "Macallan Rare Cask Black Scotch Whisky is priced at $3,475 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Rare Cask Black Scotch Whisky is priced at $799.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Macallan Rare Cask Black Scotch Whisky online in Australia?",
@@ -4026,11 +4026,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Rare Cask Black Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Rare Cask Black Scotch Whisky (700ml) online in Australia for $3,475 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Rare Cask Black Scotch Whisky (700ml) online in Australia for $799.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Macallan Rare Cask Black Scotch Whisky sits in our scotch whisky range, alongside 24 other Macallan bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Rare Cask Black Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Buy Macallan Rare Cask Black Scotch Whisky online in Australia for $3,475 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Macallan Rare Cask Black Scotch Whisky online in Australia for $799.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "dalmore whisky",
@@ -4066,7 +4066,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3205,
+    "price": 299.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -4102,7 +4102,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Macallan Terra Scotch Whisky cost in Australia?",
-        "answer": "Macallan Terra Scotch Whisky is priced at $3,205 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Macallan Terra Scotch Whisky is priced at $299.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Macallan Terra Scotch Whisky online and have it delivered in Australia?",
@@ -4122,11 +4122,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Macallan Terra Scotch Whisky Online Australia",
-    "metaDescription": "Buy Macallan Terra Scotch Whisky (700ml) online in Australia for $3,205 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Macallan Terra Scotch Whisky (700ml) online in Australia for $299.99 AUD. Scotch Whisky from Macallan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Macallan Terra Scotch Whisky comes from Macallan. The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Macallan Terra Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for macallan single malt, Macallan Terra Scotch Whisky is available from Doctors of Whisky at $3,205 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for macallan single malt, Macallan Terra Scotch Whisky is available from Doctors of Whisky at $299.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "dalmore whisky",
@@ -4924,7 +4924,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 645,
+    "price": 94.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -4959,7 +4959,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Glenfiddich Malt Masters Scotch Whisky cost in Australia?",
-        "answer": "Glenfiddich Malt Masters Scotch Whisky is priced at $645 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Glenfiddich Malt Masters Scotch Whisky is priced at $94.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy glenfiddich single malt scotch online in Australia?",
@@ -4979,11 +4979,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Single Malt Scotch Glenfiddich Price | Glenfiddich Malt Masters Scotch Whisky",
-    "metaDescription": "Single Malt Scotch Glenfiddich Price: Buy Glenfiddich Malt Masters Scotch Whisky (700ml) online in Australia for $645 AUD. Scotch Whisky from Glenfiddich. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Single Malt Scotch Glenfiddich Price: Buy Glenfiddich Malt Masters Scotch Whisky (700ml) online in Australia for $94.99 AUD. Scotch Whisky from Glenfiddich. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Glenfiddich Malt Masters Scotch Whisky is Glenfiddich’s expression in this style. Glenfiddich is a family-owned Speyside distillery in Dufftown, founded by William Grant in 1887, and its 12 Year Old is one of the world’s best-selling single malts.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Glenfiddich Malt Masters Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Glenfiddich Malt Masters Scotch Whisky is $645 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Glenfiddich Malt Masters Scotch Whisky is $94.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "glenfiddich ipa",
@@ -5210,7 +5210,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 2035,
+    "price": 94.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -5245,7 +5245,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Laphroaig 10 Sherry Oak Scotch Whisky cost in Australia?",
-        "answer": "Laphroaig 10 Sherry Oak Scotch Whisky is priced at $2,035 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Laphroaig 10 Sherry Oak Scotch Whisky is priced at $94.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Laphroaig 10 Sherry Oak Scotch Whisky online and have it delivered in Australia?",
@@ -5265,11 +5265,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Laphroaig 10 Islay | Laphroaig 10 Sherry Oak Scotch Whisky",
-    "metaDescription": "Laphroaig 10 Islay: Buy Laphroaig 10 Sherry Oak Scotch Whisky (700ml) online in Australia for $2,035 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Laphroaig 10 Islay: Buy Laphroaig 10 Sherry Oak Scotch Whisky (700ml) online in Australia for $94.99 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Laphroaig 10 Sherry Oak Scotch Whisky comes from Laphroaig. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig 10 Sherry Oak Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for laphroaig 10 year, Laphroaig 10 Sherry Oak Scotch Whisky is available from Doctors of Whisky at $2,035 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for laphroaig 10 year, Laphroaig 10 Sherry Oak Scotch Whisky is available from Doctors of Whisky at $94.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "islay single malt laphroaig",
@@ -5686,7 +5686,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 4175,
+    "price": 159.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -5722,7 +5722,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Laphroaig Lore Scotch Whisky cost in Australia?",
-        "answer": "Laphroaig Lore Scotch Whisky is priced at $4,175 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Laphroaig Lore Scotch Whisky is priced at $159.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy islay scotch laphroaig online in Australia?",
@@ -5742,11 +5742,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Islay Scotch Laphroaig | Laphroaig Lore Scotch Whisky",
-    "metaDescription": "Islay Scotch Laphroaig: Buy Laphroaig Lore Scotch Whisky (700ml) online in Australia for $4,175 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Islay Scotch Laphroaig: Buy Laphroaig Lore Scotch Whisky (700ml) online in Australia for $159.99 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Laphroaig Lore Scotch Whisky is Laphroaig’s expression in this style. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig Lore Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "Laphroaig Lore Scotch Whisky is $4,175 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Laphroaig Lore Scotch Whisky is $159.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "islay single malt laphroaig",
@@ -5782,7 +5782,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3840,
+    "price": 74.99,
     "abv": "40.0% - 46.0%",
     "size": "700ml",
     "images": [
@@ -5817,7 +5817,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Laphroaig Oak Select Scotch Whisky cost in Australia?",
-        "answer": "Laphroaig Oak Select Scotch Whisky is priced at $3,840 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Laphroaig Oak Select Scotch Whisky is priced at $74.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Laphroaig Oak Select Scotch Whisky online and have it delivered in Australia?",
@@ -5837,11 +5837,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Laphroaig Islay Scotch | Laphroaig Oak Select Scotch Whisky",
-    "metaDescription": "Laphroaig Islay Scotch: Buy Laphroaig Oak Select Scotch Whisky (700ml) online in Australia for $3,840 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Laphroaig Islay Scotch: Buy Laphroaig Oak Select Scotch Whisky (700ml) online in Australia for $74.99 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Laphroaig Oak Select Scotch Whisky comes from Laphroaig. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig Oak Select Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for laphroaig scotch, Laphroaig Oak Select Scotch Whisky is available from Doctors of Whisky at $3,840 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for laphroaig scotch, Laphroaig Oak Select Scotch Whisky is available from Doctors of Whisky at $74.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "islay single malt laphroaig",
@@ -5877,7 +5877,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3505,
+    "price": 149.99,
     "abv": "40.0% - 46.0%",
     "size": "1L",
     "images": [
@@ -5912,7 +5912,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Laphroaig Px Cask 1L Scotch Whisky cost in Australia?",
-        "answer": "Laphroaig Px Cask 1L Scotch Whisky is priced at $3,505 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Laphroaig Px Cask 1L Scotch Whisky is priced at $149.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Laphroaig Px Cask 1L Scotch Whisky online in Australia?",
@@ -5932,11 +5932,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Laphroaig Islay Single Malt | Laphroaig Px Cask 1L Scotch Whisky",
-    "metaDescription": "Laphroaig Islay Single Malt: Buy Laphroaig Px Cask 1L Scotch Whisky online in Australia for $3,505 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Laphroaig Islay Single Malt: Buy Laphroaig Px Cask 1L Scotch Whisky online in Australia for $149.99 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character. Laphroaig Px Cask 1L Scotch Whisky sits in our scotch whisky range, alongside 10 other Laphroaig bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig Px Cask 1L Scotch Whisky is listed at 40.0% - 46.0% ABV in a 1L format, from Scotland.",
-      "Buy Laphroaig Px Cask 1L Scotch Whisky online in Australia for $3,505 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Laphroaig Px Cask 1L Scotch Whisky online in Australia for $149.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "islay single malt laphroaig",
@@ -7021,7 +7021,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3275,
+    "price": 64.99,
     "abv": "40.0% - 46.0%",
     "size": "200ml",
     "images": [
@@ -7056,7 +7056,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Johnnie Blue 200ml Scotch Whisky cost in Australia?",
-        "answer": "Johnnie Blue 200ml Scotch Whisky is priced at $3,275 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Johnnie Blue 200ml Scotch Whisky is priced at $64.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Johnnie Blue 200ml Scotch Whisky online in Australia?",
@@ -7076,11 +7076,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Johnnie Blue 200ml Scotch Whisky Online Australia",
-    "metaDescription": "Buy Johnnie Blue 200ml Scotch Whisky online in Australia for $3,275 AUD. Scotch Whisky from Johnnie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Johnnie Blue 200ml Scotch Whisky online in Australia for $64.99 AUD. Scotch Whisky from Johnnie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Johnnie Blue 200ml Scotch Whisky sits in our scotch whisky range, alongside 1 other Johnnie bottle. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Johnnie Blue 200ml Scotch Whisky is listed at 40.0% - 46.0% ABV in a 200ml format, from Scotland.",
-      "Buy Johnnie Blue 200ml Scotch Whisky online in Australia for $3,275 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Johnnie Blue 200ml Scotch Whisky online in Australia for $64.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "single malt scotch whisky",
@@ -7307,7 +7307,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt / Blended Scotch",
     "country": "Scotland",
     "region": "Scotland",
-    "price": 3275,
+    "price": 6.99,
     "abv": "40.0% - 46.0%",
     "size": "50ml",
     "images": [
@@ -7342,7 +7342,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Johnnie Walker Black 50ml Scotch Whisky cost in Australia?",
-        "answer": "Johnnie Walker Black 50ml Scotch Whisky is priced at $3,275 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Johnnie Walker Black 50ml Scotch Whisky is priced at $6.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Johnnie Walker Black 50ml Scotch Whisky online in Australia?",
@@ -7362,11 +7362,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Johnnie Walker Black Label Price | Johnnie Walker Black 50ml Scotch Whisky",
-    "metaDescription": "Johnnie Walker Black Label Price: Buy Johnnie Walker Black 50ml Scotch Whisky online in Australia for $3,275 AUD. Scotch Whisky from Johnnie Walker. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Johnnie Walker Black Label Price: Buy Johnnie Walker Black 50ml Scotch Whisky online in Australia for $6.99 AUD. Scotch Whisky from Johnnie Walker. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Johnnie Walker is a blended Scotch whisky with roots in Kilmarnock, Ayrshire, dating back to 1820, and is recognised by its colour-coded labels from Red to Blue. Johnnie Walker Black 50ml Scotch Whisky sits in our scotch whisky range, alongside 3 other Johnnie Walker bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Johnnie Walker Black 50ml Scotch Whisky is listed at 40.0% - 46.0% ABV in a 50ml format, from Scotland.",
-      "Buy Johnnie Walker Black 50ml Scotch Whisky online in Australia for $3,275 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Johnnie Walker Black 50ml Scotch Whisky online in Australia for $6.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "johnnie walker red",
@@ -7783,7 +7783,7 @@ export const PRODUCTS: Product[] = [
     "style": "Bourbon",
     "country": "United States",
     "region": "United States",
-    "price": 475,
+    "price": 99.99,
     "abv": "40.0% - 50.0%",
     "size": "700ml",
     "images": [
@@ -7819,7 +7819,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Four Roses Single Barrel Bourbon Whiskey cost in Australia?",
-        "answer": "Four Roses Single Barrel Bourbon Whiskey is priced at $475 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Four Roses Single Barrel Bourbon Whiskey is priced at $99.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Four Roses Single Barrel Bourbon Whiskey online and have it delivered in Australia?",
@@ -7839,11 +7839,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Bourbon Four Roses | Four Roses Single Barrel Bourbon Whiskey",
-    "metaDescription": "Bourbon Four Roses: Buy Four Roses Single Barrel Bourbon Whiskey (700ml) online in Australia for $475 AUD. Bourbon Whiskey from Four Roses. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Bourbon Four Roses: Buy Four Roses Single Barrel Bourbon Whiskey (700ml) online in Australia for $99.99 AUD. Bourbon Whiskey from Four Roses. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Four Roses Single Barrel Bourbon Whiskey comes from Four Roses. Bourbon is American whiskey made from a mash of at least 51% corn and aged in new charred oak containers, which gives its vanilla and caramel character.",
       "Enjoy bourbon neat, over ice, or in classics such as the Old Fashioned, Manhattan and Whiskey Sour. Four Roses Single Barrel Bourbon Whiskey is listed at 40.0% - 50.0% ABV in a 700ml format, from United States.",
-      "If you are looking for bourbon four roses, Four Roses Single Barrel Bourbon Whiskey is available from Doctors of Whisky at $475 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for bourbon four roses, Four Roses Single Barrel Bourbon Whiskey is available from Doctors of Whisky at $99.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "kentucky bourbon",
@@ -7974,7 +7974,7 @@ export const PRODUCTS: Product[] = [
     "style": "Bourbon",
     "country": "United States",
     "region": "United States",
-    "price": 400,
+    "price": 54.99,
     "abv": "40.0% - 50.0%",
     "size": "700ml",
     "images": [
@@ -8009,7 +8009,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Mellow Corn Bourbon Whiskey cost in Australia?",
-        "answer": "Mellow Corn Bourbon Whiskey is priced at $400 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Mellow Corn Bourbon Whiskey is priced at $54.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy mellow corn bourbon whiskey online in Australia?",
@@ -8029,11 +8029,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Mellow Corn Bourbon Whiskey Online Australia",
-    "metaDescription": "Buy Mellow Corn Bourbon Whiskey (700ml) online in Australia for $400 AUD. Bourbon Whiskey from Mellow. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Mellow Corn Bourbon Whiskey (700ml) online in Australia for $54.99 AUD. Bourbon Whiskey from Mellow. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Bourbon is American whiskey made from a mash of at least 51% corn and aged in new charred oak containers, which gives its vanilla and caramel character. Mellow Corn Bourbon Whiskey is Mellow’s expression in this style.",
       "Enjoy bourbon neat, over ice, or in classics such as the Old Fashioned, Manhattan and Whiskey Sour. Mellow Corn Bourbon Whiskey is listed at 40.0% - 50.0% ABV in a 700ml format, from United States.",
-      "Mellow Corn Bourbon Whiskey is $400 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Mellow Corn Bourbon Whiskey is $54.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "kentucky bourbon",
@@ -8260,7 +8260,7 @@ export const PRODUCTS: Product[] = [
     "style": "Bourbon",
     "country": "United States",
     "region": "United States",
-    "price": 565,
+    "price": 139.99,
     "abv": "40.0% - 50.0%",
     "size": "1L",
     "images": [
@@ -8295,7 +8295,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Wild Turkey Kentucky Spirit 1L Bourbon Whiskey cost in Australia?",
-        "answer": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is priced at $565 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is priced at $139.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia?",
@@ -8315,11 +8315,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Wild Turkey Bourbon | Wild Turkey Kentucky Spirit 1L Bourbon Whiskey",
-    "metaDescription": "Wild Turkey Bourbon: Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $565 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Wild Turkey Bourbon: Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $139.99 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey sits in our bourbon whiskey range, alongside 2 other Wild Turkey bottles. Bourbon is American whiskey made from a mash of at least 51% corn and aged in new charred oak containers, which gives its vanilla and caramel character.",
       "Enjoy bourbon neat, over ice, or in classics such as the Old Fashioned, Manhattan and Whiskey Sour. Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is listed at 40.0% - 50.0% ABV in a 1L format, from United States.",
-      "Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $565 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $139.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "australian bourbon",
@@ -8450,7 +8450,7 @@ export const PRODUCTS: Product[] = [
     "style": "Rye",
     "country": "United States",
     "region": "United States",
-    "price": 300,
+    "price": 69.99,
     "abv": "40.0% - 50.0%",
     "size": "700ml",
     "images": [
@@ -8486,7 +8486,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Elijah Craig Rye Whiskey cost in Australia?",
-        "answer": "Elijah Craig Rye Whiskey is priced at $300 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Elijah Craig Rye Whiskey is priced at $69.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy elijah craig rye whiskey online in Australia?",
@@ -8506,11 +8506,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Elijah Craig Rye Whiskey Online Australia",
-    "metaDescription": "Buy Elijah Craig Rye Whiskey (700ml) online in Australia for $300 AUD. Rye Whiskey from Elijah Craig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Elijah Craig Rye Whiskey (700ml) online in Australia for $69.99 AUD. Rye Whiskey from Elijah Craig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Rye whiskey is American whiskey made from a mash of at least 51% rye grain, giving a spicier, drier profile than bourbon. Elijah Craig Rye Whiskey is Elijah Craig’s expression in this style.",
       "Rye is the traditional base for the Manhattan and Sazerac, and also sips well neat or over a large cube. Elijah Craig Rye Whiskey is listed at 40.0% - 50.0% ABV in a 700ml format, from United States.",
-      "Elijah Craig Rye Whiskey is $300 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Elijah Craig Rye Whiskey is $69.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "best rye whiskey",
@@ -9118,7 +9118,7 @@ export const PRODUCTS: Product[] = [
     "style": "Rye",
     "country": "United States",
     "region": "United States",
-    "price": 360,
+    "price": 79.99,
     "abv": "40.0% - 50.0%",
     "size": "700ml",
     "images": [
@@ -9153,7 +9153,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Sagamore Small Batch Rye Whiskey cost in Australia?",
-        "answer": "Sagamore Small Batch Rye Whiskey is priced at $360 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Sagamore Small Batch Rye Whiskey is priced at $79.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Sagamore Small Batch Rye Whiskey online in Australia?",
@@ -9173,11 +9173,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Sagamore Small Batch Rye Whiskey Online Australia",
-    "metaDescription": "Buy Sagamore Small Batch Rye Whiskey (700ml) online in Australia for $360 AUD. Rye Whiskey from Sagamore. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Sagamore Small Batch Rye Whiskey (700ml) online in Australia for $79.99 AUD. Rye Whiskey from Sagamore. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Sagamore Small Batch Rye Whiskey sits in our rye whiskey range. Rye whiskey is American whiskey made from a mash of at least 51% rye grain, giving a spicier, drier profile than bourbon.",
       "Rye is the traditional base for the Manhattan and Sazerac, and also sips well neat or over a large cube. Sagamore Small Batch Rye Whiskey is listed at 40.0% - 50.0% ABV in a 700ml format, from United States.",
-      "Buy Sagamore Small Batch Rye Whiskey online in Australia for $360 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Sagamore Small Batch Rye Whiskey online in Australia for $79.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "best rye whiskey",
@@ -9403,7 +9403,7 @@ export const PRODUCTS: Product[] = [
     "style": "Pure Malt / Blended",
     "country": "Japan",
     "region": "Japan",
-    "price": 700,
+    "price": 208.99,
     "abv": "43.0%",
     "size": "700ml",
     "images": [
@@ -9439,7 +9439,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Nikka 12 Japanese Whisky cost in Australia?",
-        "answer": "Nikka 12 Japanese Whisky is priced at $700 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Nikka 12 Japanese Whisky is priced at $208.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Nikka 12 Japanese Whisky online and have it delivered in Australia?",
@@ -9459,11 +9459,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Nikka Nikka | Nikka 12 Japanese Whisky",
-    "metaDescription": "Nikka Nikka: Buy Nikka 12 Japanese Whisky (700ml) online in Australia for $700 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Nikka Nikka: Buy Nikka 12 Japanese Whisky (700ml) online in Australia for $208.99 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Nikka 12 Japanese Whisky comes from Nikka. Nikka Whisky was founded by Masataka Taketsuru in 1934 and produces Japanese whisky at the Yoichi and Miyagikyo distilleries. Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts.",
       "Japanese whisky is often enjoyed neat, over a large ice sphere, or as a highball with chilled soda water. Nikka 12 Japanese Whisky is listed at 43.0% ABV in a 700ml format, from Japan.",
-      "If you are looking for nikka from the barrel, Nikka 12 Japanese Whisky is available from Doctors of Whisky at $700 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for nikka from the barrel, Nikka 12 Japanese Whisky is available from Doctors of Whisky at $208.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "suntory double lemon",
@@ -10642,7 +10642,7 @@ export const PRODUCTS: Product[] = [
     "style": "Pure Malt / Blended",
     "country": "Japan",
     "region": "Japan",
-    "price": 730,
+    "price": 124.99,
     "abv": "43.0%",
     "size": "700ml",
     "images": [
@@ -10678,7 +10678,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Nikka Miyagikyo Japanese Whisky cost in Australia?",
-        "answer": "Nikka Miyagikyo Japanese Whisky is priced at $730 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Nikka Miyagikyo Japanese Whisky is priced at $124.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy nikka miyagikyo japanese whisky online in Australia?",
@@ -10698,11 +10698,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Nikka Miyagikyo Japanese Whisky Online Australia",
-    "metaDescription": "Buy Nikka Miyagikyo Japanese Whisky (700ml) online in Australia for $730 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Nikka Miyagikyo Japanese Whisky (700ml) online in Australia for $124.99 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts. Nikka Miyagikyo Japanese Whisky is Nikka’s expression in this style. Nikka Whisky was founded by Masataka Taketsuru in 1934 and produces Japanese whisky at the Yoichi and Miyagikyo distilleries.",
       "Japanese whisky is often enjoyed neat, over a large ice sphere, or as a highball with chilled soda water. Nikka Miyagikyo Japanese Whisky is listed at 43.0% ABV in a 700ml format, from Japan.",
-      "Nikka Miyagikyo Japanese Whisky is $730 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Nikka Miyagikyo Japanese Whisky is $124.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "suntory double lemon",
@@ -11024,7 +11024,7 @@ export const PRODUCTS: Product[] = [
     "style": "Pure Malt / Blended",
     "country": "Japan",
     "region": "Japan",
-    "price": 1685,
+    "price": 134.99,
     "abv": "43.0%",
     "size": "700ml",
     "images": [
@@ -11059,7 +11059,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Nikka Yoichi Japanese Whisky cost in Australia?",
-        "answer": "Nikka Yoichi Japanese Whisky is priced at $1,685 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Nikka Yoichi Japanese Whisky is priced at $134.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy nikka from the barrel online in Australia?",
@@ -11079,11 +11079,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Nikka Yoichi Japanese Whisky Online Australia",
-    "metaDescription": "Buy Nikka Yoichi Japanese Whisky (700ml) online in Australia for $1,685 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Nikka Yoichi Japanese Whisky (700ml) online in Australia for $134.99 AUD. Japanese Whisky from Nikka. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts. Nikka Yoichi Japanese Whisky is Nikka’s expression in this style. Nikka Whisky was founded by Masataka Taketsuru in 1934 and produces Japanese whisky at the Yoichi and Miyagikyo distilleries.",
       "Japanese whisky is often enjoyed neat, over a large ice sphere, or as a highball with chilled soda water. Nikka Yoichi Japanese Whisky is listed at 43.0% ABV in a 700ml format, from Japan.",
-      "Nikka Yoichi Japanese Whisky is $1,685 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Nikka Yoichi Japanese Whisky is $134.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "suntory double lemon",
@@ -11119,7 +11119,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt",
     "country": "Australia",
     "region": "Australia",
-    "price": 795,
+    "price": 149.99,
     "abv": "43.0% - 58.0%",
     "size": "700ml",
     "images": [
@@ -11155,7 +11155,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Dark Lark 2026 Australian Whisky cost in Australia?",
-        "answer": "Dark Lark 2026 Australian Whisky is priced at $795 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Dark Lark 2026 Australian Whisky is priced at $149.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Dark Lark 2026 Australian Whisky online in Australia?",
@@ -11175,11 +11175,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Dark Lark 2026 Australian Whisky Online Australia",
-    "metaDescription": "Buy Dark Lark 2026 Australian Whisky (700ml) online in Australia for $795 AUD. Single Malt from Lark. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Dark Lark 2026 Australian Whisky (700ml) online in Australia for $149.99 AUD. Single Malt from Lark. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Lark Distillery in Tasmania was founded by Bill Lark in 1992 and is widely credited with reviving Australian whisky making. Dark Lark 2026 Australian Whisky sits in our australian whisky range, alongside 11 other Lark bottles. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
       "Try Australian single malt neat first, then with a splash of water to reveal more fruit and spice. Dark Lark 2026 Australian Whisky is listed at 43.0% - 58.0% ABV in a 700ml format, from Australia.",
-      "Buy Dark Lark 2026 Australian Whisky online in Australia for $795 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Dark Lark 2026 Australian Whisky online in Australia for $149.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lark whisky price",
@@ -11310,7 +11310,7 @@ export const PRODUCTS: Product[] = [
     "style": "Single Malt",
     "country": "Australia",
     "region": "Australia",
-    "price": 715,
+    "price": 54.99,
     "abv": "43.0% - 58.0%",
     "size": "100ml",
     "images": [
@@ -11345,7 +11345,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Lark Classic 100ml Australian Whisky cost in Australia?",
-        "answer": "Lark Classic 100ml Australian Whisky is priced at $715 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Lark Classic 100ml Australian Whisky is priced at $54.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Lark Classic 100ml Australian Whisky online in Australia?",
@@ -11365,11 +11365,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Lark Classic 100ml Australian Whisky Online Australia",
-    "metaDescription": "Buy Lark Classic 100ml Australian Whisky online in Australia for $715 AUD. Single Malt from Lark. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Lark Classic 100ml Australian Whisky online in Australia for $54.99 AUD. Single Malt from Lark. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Lark Distillery in Tasmania was founded by Bill Lark in 1992 and is widely credited with reviving Australian whisky making. Lark Classic 100ml Australian Whisky sits in our australian whisky range, alongside 11 other Lark bottles. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
       "Try Australian single malt neat first, then with a splash of water to reveal more fruit and spice. Lark Classic 100ml Australian Whisky is listed at 43.0% - 58.0% ABV in a 100ml format, from Australia.",
-      "Buy Lark Classic 100ml Australian Whisky online in Australia for $715 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Lark Classic 100ml Australian Whisky online in Australia for $54.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lark whisky price",
@@ -12263,7 +12263,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "France",
     "region": "France",
-    "price": 155,
+    "price": 32.99,
     "abv": "37.5% - 40.0%",
     "size": "700ml",
     "images": [
@@ -12298,7 +12298,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose Essences Peach Rosemary French Vodka cost in Australia?",
-        "answer": "Grey Goose Essences Peach Rosemary French Vodka is priced at $155 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose Essences Peach Rosemary French Vodka is priced at $32.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose Essences Peach Rosemary French Vodka online in Australia?",
@@ -12318,11 +12318,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Grey Goose Vodka Price | Grey Goose Essences Peach Rosemary French Vodka",
-    "metaDescription": "Grey Goose Vodka Price: Buy Grey Goose Essences Peach Rosemary French Vodka (700ml) online in Australia for $155 AUD. French Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Grey Goose Vodka Price: Buy Grey Goose Essences Peach Rosemary French Vodka (700ml) online in Australia for $32.99 AUD. French Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose Essences Peach Rosemary French Vodka sits in our french vodka range, alongside 13 other Grey Goose bottles. French vodka is typically distilled from wheat, rye or grapes and filtered for a smooth, clean finish.",
       "Serve French vodka very cold and neat, or in a martini or with soda and fresh citrus. Grey Goose Essences Peach Rosemary French Vodka is listed at 37.5% - 40.0% ABV in a 700ml format, from France.",
-      "Buy Grey Goose Essences Peach Rosemary French Vodka online in Australia for $155 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose Essences Peach Rosemary French Vodka online in Australia for $32.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "vodka bottle",
@@ -12358,7 +12358,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "France",
     "region": "France",
-    "price": 145,
+    "price": 32.99,
     "abv": "37.5% - 40.0%",
     "size": "700ml",
     "images": [
@@ -12394,7 +12394,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose Essences Watermelon Basil French Vodka cost in Australia?",
-        "answer": "Grey Goose Essences Watermelon Basil French Vodka is priced at $145 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose Essences Watermelon Basil French Vodka is priced at $32.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose Essences Watermelon Basil French Vodka online in Australia?",
@@ -12414,11 +12414,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Gray Goose | Grey Goose Essences Watermelon Basil French Vodka",
-    "metaDescription": "Gray Goose: Buy Grey Goose Essences Watermelon Basil French Vodka (700ml) online in Australia for $145 AUD. French Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Gray Goose: Buy Grey Goose Essences Watermelon Basil French Vodka (700ml) online in Australia for $32.99 AUD. French Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose Essences Watermelon Basil French Vodka sits in our french vodka range, alongside 13 other Grey Goose bottles. French vodka is typically distilled from wheat, rye or grapes and filtered for a smooth, clean finish.",
       "Serve French vodka very cold and neat, or in a martini or with soda and fresh citrus. Grey Goose Essences Watermelon Basil French Vodka is listed at 37.5% - 40.0% ABV in a 700ml format, from France.",
-      "Buy Grey Goose Essences Watermelon Basil French Vodka online in Australia for $145 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose Essences Watermelon Basil French Vodka online in Australia for $32.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "vodka bottle",
@@ -12645,7 +12645,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "Russia",
     "region": "Russia",
-    "price": 65,
+    "price": 8.99,
     "abv": "37.5% - 40.0%",
     "size": "100ml",
     "images": [
@@ -12680,7 +12680,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Kalashnikov 100ml Russian Vodka cost in Australia?",
-        "answer": "Kalashnikov 100ml Russian Vodka is priced at $65 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Kalashnikov 100ml Russian Vodka is priced at $8.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Kalashnikov 100ml Russian Vodka online in Australia?",
@@ -12700,11 +12700,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Kalashnikov 100ml Russian Vodka Online Australia",
-    "metaDescription": "Buy Kalashnikov 100ml Russian Vodka online in Australia for $65 AUD. Russian Vodka from Kalashnikov. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Kalashnikov 100ml Russian Vodka online in Australia for $8.99 AUD. Russian Vodka from Kalashnikov. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Kalashnikov 100ml Russian Vodka sits in our russian vodka range, alongside 1 other Kalashnikov bottle. Russian vodka is traditionally distilled from grain such as wheat or rye and served ice-cold as a neutral, clean spirit.",
       "Serve Russian vodka well chilled and neat alongside food, or use it as a base for Moscow Mules and Bloody Marys. Kalashnikov 100ml Russian Vodka is listed at 37.5% - 40.0% ABV in a 100ml format, from Russia.",
-      "Buy Kalashnikov 100ml Russian Vodka online in Australia for $65 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Kalashnikov 100ml Russian Vodka online in Australia for $8.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "skull head vodka",
@@ -12740,7 +12740,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "Russia",
     "region": "Russia",
-    "price": 145,
+    "price": 38.99,
     "abv": "37.5% - 40.0%",
     "size": "700ml",
     "images": [
@@ -12776,7 +12776,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Kalashnikov Premium Russian Vodka cost in Australia?",
-        "answer": "Kalashnikov Premium Russian Vodka is priced at $145 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Kalashnikov Premium Russian Vodka is priced at $38.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Kalashnikov Premium Russian Vodka online and have it delivered in Australia?",
@@ -12796,11 +12796,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Kalashnikov Premium Russian Vodka Online Australia",
-    "metaDescription": "Buy Kalashnikov Premium Russian Vodka (700ml) online in Australia for $145 AUD. Russian Vodka from Kalashnikov. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Kalashnikov Premium Russian Vodka (700ml) online in Australia for $38.99 AUD. Russian Vodka from Kalashnikov. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Kalashnikov Premium Russian Vodka comes from Kalashnikov. Russian vodka is traditionally distilled from grain such as wheat or rye and served ice-cold as a neutral, clean spirit.",
       "Serve Russian vodka well chilled and neat alongside food, or use it as a base for Moscow Mules and Bloody Marys. Kalashnikov Premium Russian Vodka is listed at 37.5% - 40.0% ABV in a 700ml format, from Russia.",
-      "If you are looking for kalashnikov premium russian vodka, Kalashnikov Premium Russian Vodka is available from Doctors of Whisky at $145 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for kalashnikov premium russian vodka, Kalashnikov Premium Russian Vodka is available from Doctors of Whisky at $38.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "vodka 700ml",
@@ -14075,7 +14075,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "Poland",
     "region": "Poland",
-    "price": 125,
+    "price": 26.99,
     "abv": "37.5% - 40.0%",
     "size": "200ml",
     "images": [
@@ -14110,7 +14110,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Belvedere 200ml Polish Vodka cost in Australia?",
-        "answer": "Belvedere 200ml Polish Vodka is priced at $125 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Belvedere 200ml Polish Vodka is priced at $26.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Belvedere 200ml Polish Vodka online and have it delivered in Australia?",
@@ -14130,11 +14130,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Belvedere Liquor | Belvedere 200ml Polish Vodka",
-    "metaDescription": "Belvedere Liquor: Buy Belvedere 200ml Polish Vodka online in Australia for $125 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Belvedere Liquor: Buy Belvedere 200ml Polish Vodka online in Australia for $26.99 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Belvedere 200ml Polish Vodka comes from Belvedere. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery. Polish vodka is made from rye, wheat, potato or other grains and has a long tradition of clean, characterful spirit.",
       "Serve Polish vodka ice-cold and neat, or mix it in a martini or Bloody Mary. Belvedere 200ml Polish Vodka is listed at 37.5% - 40.0% ABV in a 200ml format, from Poland.",
-      "If you are looking for belvedere cost, Belvedere 200ml Polish Vodka is available from Doctors of Whisky at $125 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere cost, Belvedere 200ml Polish Vodka is available from Doctors of Whisky at $26.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "blck vodka",
@@ -14361,7 +14361,7 @@ export const PRODUCTS: Product[] = [
     "style": "Vodka",
     "country": "Poland",
     "region": "Poland",
-    "price": 160,
+    "price": 49.99,
     "abv": "37.5% - 40.0%",
     "size": "700ml",
     "images": [
@@ -14397,7 +14397,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Belvedere Ginger Zest cost in Australia?",
-        "answer": "Belvedere Ginger Zest is priced at $160 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Belvedere Ginger Zest is priced at $49.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Belvedere Ginger Zest online in Australia?",
@@ -14417,11 +14417,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Vodka Belvedere Price | Belvedere Ginger Zest",
-    "metaDescription": "Vodka Belvedere Price: Buy Belvedere Ginger Zest (700ml) online in Australia for $160 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Vodka Belvedere Price: Buy Belvedere Ginger Zest (700ml) online in Australia for $49.99 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Belvedere is a Polish rye vodka made at the Dobrogniewice distillery. Belvedere Ginger Zest sits in our polish vodka range, alongside 14 other Belvedere bottles. Polish vodka is made from rye, wheat, potato or other grains and has a long tradition of clean, characterful spirit.",
       "Serve Polish vodka ice-cold and neat, or mix it in a martini or Bloody Mary. Belvedere Ginger Zest is listed at 37.5% - 40.0% ABV in a 700ml format, from Poland.",
-      "Buy Belvedere Ginger Zest online in Australia for $160 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Belvedere Ginger Zest online in Australia for $49.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lychee vodka",
@@ -14838,7 +14838,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "France",
     "region": "France",
-    "price": 305,
+    "price": 91.99,
     "abv": "40.0%",
     "size": "1L",
     "images": [
@@ -14874,7 +14874,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose 1L cost in Australia?",
-        "answer": "Grey Goose 1L is priced at $305 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose 1L is priced at $91.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose 1L online in Australia?",
@@ -14894,11 +14894,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Grey Goose Vodka Price 1 Litre | Grey Goose 1L",
-    "metaDescription": "Grey Goose Vodka Price 1 Litre: Buy Grey Goose 1L online in Australia for $305 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Grey Goose Vodka Price 1 Litre: Buy Grey Goose 1L online in Australia for $91.99 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose 1L sits in our grey goose range, alongside 13 other Grey Goose bottles.",
       "Serve Grey Goose very cold, in a martini, or with soda and lemon or lime. Grey Goose 1L is listed at 40.0% ABV in a 1L format, from France.",
-      "Buy Grey Goose 1L online in Australia for $305 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose 1L online in Australia for $91.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "1l grey goose vodka",
@@ -14934,7 +14934,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "France",
     "region": "France",
-    "price": 160,
+    "price": 7.99,
     "abv": "40.0%",
     "size": "50ml",
     "images": [
@@ -14969,7 +14969,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose 50ml cost in Australia?",
-        "answer": "Grey Goose 50ml is priced at $160 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose 50ml is priced at $7.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy grey grouse scotch online in Australia?",
@@ -14989,11 +14989,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Grey Goose Liquor Price | Grey Goose 50ml",
-    "metaDescription": "Grey Goose Liquor Price: Buy Grey Goose 50ml online in Australia for $160 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Grey Goose Liquor Price: Buy Grey Goose 50ml online in Australia for $7.99 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose 50ml is Grey Goose’s expression in this style. Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water.",
       "Serve Grey Goose very cold, in a martini, or with soda and lemon or lime. Grey Goose 50ml is listed at 40.0% ABV in a 50ml format, from France.",
-      "Grey Goose 50ml is $160 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Grey Goose 50ml is $7.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "earl grey gin",
@@ -15220,7 +15220,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "France",
     "region": "France",
-    "price": 300,
+    "price": 32.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -15255,7 +15255,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose Essences Peach Rosemary cost in Australia?",
-        "answer": "Grey Goose Essences Peach Rosemary is priced at $300 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose Essences Peach Rosemary is priced at $32.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose Essences Peach Rosemary online in Australia?",
@@ -15275,11 +15275,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Gray Goose Vodka Price | Grey Goose Essences Peach Rosemary",
-    "metaDescription": "Gray Goose Vodka Price: Buy Grey Goose Essences Peach Rosemary (700ml) online in Australia for $300 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Gray Goose Vodka Price: Buy Grey Goose Essences Peach Rosemary (700ml) online in Australia for $32.99 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose Essences Peach Rosemary sits in our grey goose range, alongside 13 other Grey Goose bottles.",
       "Serve Grey Goose very cold, in a martini, or with soda and lemon or lime. Grey Goose Essences Peach Rosemary is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Grey Goose Essences Peach Rosemary online in Australia for $300 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose Essences Peach Rosemary online in Australia for $32.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "grey grouse whiskey",
@@ -15315,7 +15315,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "France",
     "region": "France",
-    "price": 270,
+    "price": 32.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -15350,7 +15350,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose Essences Strawberry Lemongrass cost in Australia?",
-        "answer": "Grey Goose Essences Strawberry Lemongrass is priced at $270 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose Essences Strawberry Lemongrass is priced at $32.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose Essences Strawberry Lemongrass online in Australia?",
@@ -15370,11 +15370,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Grey Goose Essences Strawberry Lemongrass Online Australia",
-    "metaDescription": "Buy Grey Goose Essences Strawberry Lemongrass (700ml) online in Australia for $270 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Grey Goose Essences Strawberry Lemongrass (700ml) online in Australia for $32.99 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose Essences Strawberry Lemongrass sits in our grey goose range, alongside 13 other Grey Goose bottles.",
       "Serve Grey Goose very cold, in a martini, or with soda and lemon or lime. Grey Goose Essences Strawberry Lemongrass is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Grey Goose Essences Strawberry Lemongrass online in Australia for $270 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose Essences Strawberry Lemongrass online in Australia for $32.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "grey grouse whiskey",
@@ -15410,7 +15410,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "France",
     "region": "France",
-    "price": 150,
+    "price": 32.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -15446,7 +15446,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Grey Goose Essences Watermelon Basil cost in Australia?",
-        "answer": "Grey Goose Essences Watermelon Basil is priced at $150 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Grey Goose Essences Watermelon Basil is priced at $32.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Grey Goose Essences Watermelon Basil online in Australia?",
@@ -15466,11 +15466,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Grey Goose Price | Grey Goose Essences Watermelon Basil",
-    "metaDescription": "Grey Goose Price: Buy Grey Goose Essences Watermelon Basil (700ml) online in Australia for $150 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Grey Goose Price: Buy Grey Goose Essences Watermelon Basil (700ml) online in Australia for $32.99 AUD. Ultra-Premium Vodka from Grey Goose. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Grey Goose Essences Watermelon Basil sits in our grey goose range, alongside 13 other Grey Goose bottles.",
       "Serve Grey Goose very cold, in a martini, or with soda and lemon or lime. Grey Goose Essences Watermelon Basil is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Grey Goose Essences Watermelon Basil online in Australia for $150 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Grey Goose Essences Watermelon Basil online in Australia for $32.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "grey grouse whiskey",
@@ -15791,7 +15791,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "Poland",
     "region": "Poland",
-    "price": 265,
+    "price": 87.99,
     "abv": "40.0%",
     "size": "1L",
     "images": [
@@ -15827,7 +15827,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Belvedere 1L cost in Australia?",
-        "answer": "Belvedere 1L is priced at $265 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Belvedere 1L is priced at $87.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Belvedere 1L online and have it delivered in Australia?",
@@ -15847,11 +15847,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Belvedere 1L Online Australia",
-    "metaDescription": "Buy Belvedere 1L online in Australia for $265 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Belvedere 1L online in Australia for $87.99 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Belvedere 1L comes from Belvedere. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 1L is listed at 40.0% ABV in a 1L format, from Poland.",
-      "If you are looking for belvedere 1 litre, Belvedere 1L is available from Doctors of Whisky at $265 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere 1 litre, Belvedere 1L is available from Doctors of Whisky at $87.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "smirnoff vodka",
@@ -15887,7 +15887,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "Poland",
     "region": "Poland",
-    "price": 140,
+    "price": 26.99,
     "abv": "40.0%",
     "size": "200ml",
     "images": [
@@ -15922,7 +15922,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Belvedere 200ml cost in Australia?",
-        "answer": "Belvedere 200ml is priced at $140 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Belvedere 200ml is priced at $26.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Belvedere 200ml online and have it delivered in Australia?",
@@ -15942,11 +15942,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Belvedere Vodka Vodka | Belvedere 200ml",
-    "metaDescription": "Belvedere Vodka Vodka: Buy Belvedere 200ml online in Australia for $140 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Belvedere Vodka Vodka: Buy Belvedere 200ml online in Australia for $26.99 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Belvedere 200ml comes from Belvedere. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 200ml is listed at 40.0% ABV in a 200ml format, from Poland.",
-      "If you are looking for belvedere rd, Belvedere 200ml is available from Doctors of Whisky at $140 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere rd, Belvedere 200ml is available from Doctors of Whisky at $26.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "patron tequila",
@@ -16173,7 +16173,7 @@ export const PRODUCTS: Product[] = [
     "style": "Ultra-Premium Vodka",
     "country": "Poland",
     "region": "Poland",
-    "price": 200,
+    "price": 59.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -16208,7 +16208,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Belvedere Citrus cost in Australia?",
-        "answer": "Belvedere Citrus is priced at $200 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Belvedere Citrus is priced at $59.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Belvedere Citrus online in Australia?",
@@ -16228,11 +16228,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Belvedere Vodka Cost | Belvedere Citrus",
-    "metaDescription": "Belvedere Vodka Cost: Buy Belvedere Citrus (700ml) online in Australia for $200 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Belvedere Vodka Cost: Buy Belvedere Citrus (700ml) online in Australia for $59.99 AUD. Ultra-Premium Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Belvedere is a Polish rye vodka made at the Dobrogniewice distillery. Belvedere Citrus sits in our belvedere range, alongside 14 other Belvedere bottles.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere Citrus is listed at 40.0% ABV in a 700ml format, from Poland.",
-      "Buy Belvedere Citrus online in Australia for $200 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Belvedere Citrus online in Australia for $59.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "cheap vodka",
@@ -18080,7 +18080,7 @@ export const PRODUCTS: Product[] = [
     "style": "Tequila",
     "country": "Mexico",
     "region": "Mexico",
-    "price": 335,
+    "price": 98.99,
     "abv": "38.0% - 40.0%",
     "size": "700ml",
     "images": [
@@ -18115,7 +18115,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Don Julio Tequila cost in Australia?",
-        "answer": "Don Julio Tequila is priced at $335 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Don Julio Tequila is priced at $98.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Don Julio Tequila online in Australia?",
@@ -18135,11 +18135,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Don Julio Tequila Price | Don Julio Tequila",
-    "metaDescription": "Don Julio Tequila Price: Buy Don Julio Tequila (700ml) online in Australia for $335 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Don Julio Tequila Price: Buy Don Julio Tequila (700ml) online in Australia for $98.99 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila. Don Julio Tequila sits in our don julio range, alongside 11 other Don Julio bottles.",
       "Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma. Don Julio Tequila is listed at 38.0% - 40.0% ABV in a 700ml format, from Mexico.",
-      "Buy Don Julio Tequila online in Australia for $335 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Don Julio Tequila online in Australia for $98.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "price don julio tequila",
@@ -18175,7 +18175,7 @@ export const PRODUCTS: Product[] = [
     "style": "Tequila",
     "country": "Mexico",
     "region": "Mexico",
-    "price": 705,
+    "price": 99.99,
     "abv": "38.0% - 40.0%",
     "size": "700ml",
     "images": [
@@ -18211,7 +18211,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Don Julio Anejo cost in Australia?",
-        "answer": "Don Julio Anejo is priced at $705 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Don Julio Anejo is priced at $99.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy don julio real online in Australia?",
@@ -18231,11 +18231,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Don Julio Anejo Online Australia",
-    "metaDescription": "Buy Don Julio Anejo (700ml) online in Australia for $705 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Don Julio Anejo (700ml) online in Australia for $99.99 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Don Julio Anejo is Don Julio’s expression in this style. Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila.",
       "Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma. Don Julio Anejo is listed at 38.0% - 40.0% ABV in a 700ml format, from Mexico.",
-      "Don Julio Anejo is $705 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Don Julio Anejo is $99.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "price don julio tequila",
@@ -18366,7 +18366,7 @@ export const PRODUCTS: Product[] = [
     "style": "Tequila",
     "country": "Mexico",
     "region": "Mexico",
-    "price": 535,
+    "price": 159.99,
     "abv": "38.0% - 40.0%",
     "size": "700ml",
     "images": [
@@ -18401,7 +18401,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Don Julio Ceniza cost in Australia?",
-        "answer": "Don Julio Ceniza is priced at $535 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Don Julio Ceniza is priced at $159.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Don Julio Ceniza online in Australia?",
@@ -18421,11 +18421,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Don Julio Price | Don Julio Ceniza",
-    "metaDescription": "Don Julio Price: Buy Don Julio Ceniza (700ml) online in Australia for $535 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Don Julio Price: Buy Don Julio Ceniza (700ml) online in Australia for $159.99 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila. Don Julio Ceniza sits in our don julio range, alongside 11 other Don Julio bottles.",
       "Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma. Don Julio Ceniza is listed at 38.0% - 40.0% ABV in a 700ml format, from Mexico.",
-      "Buy Don Julio Ceniza online in Australia for $535 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Don Julio Ceniza online in Australia for $159.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "price don julio tequila",
@@ -18652,7 +18652,7 @@ export const PRODUCTS: Product[] = [
     "style": "Tequila",
     "country": "Mexico",
     "region": "Mexico",
-    "price": 425,
+    "price": 98.99,
     "abv": "38.0% - 40.0%",
     "size": "700ml",
     "images": [
@@ -18687,7 +18687,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Don Julio Reposado cost in Australia?",
-        "answer": "Don Julio Reposado is priced at $425 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Don Julio Reposado is priced at $98.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy don julio brand online in Australia?",
@@ -18707,11 +18707,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Don Julio Reposado Online Australia",
-    "metaDescription": "Buy Don Julio Reposado (700ml) online in Australia for $425 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Don Julio Reposado (700ml) online in Australia for $98.99 AUD. Tequila from Don Julio. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Don Julio Reposado is Don Julio’s expression in this style. Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila.",
       "Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma. Don Julio Reposado is listed at 38.0% - 40.0% ABV in a 700ml format, from Mexico.",
-      "Don Julio Reposado is $425 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Don Julio Reposado is $98.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "price don julio tequila",
@@ -18938,7 +18938,7 @@ export const PRODUCTS: Product[] = [
     "style": "Tequila",
     "country": "Mexico",
     "region": "Mexico",
-    "price": 235,
+    "price": 5,
     "abv": "38.0% - 40.0%",
     "size": "50ml",
     "images": [
@@ -18973,7 +18973,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Jose Cuervo Gold 50ml cost in Australia?",
-        "answer": "Jose Cuervo Gold 50ml is priced at $235 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Jose Cuervo Gold 50ml is priced at $5 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy jose cuervo online in Australia?",
@@ -18993,11 +18993,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Jose Cuervo Tequila | Jose Cuervo Gold 50ml",
-    "metaDescription": "Jose Cuervo Tequila: Buy Jose Cuervo Gold 50ml online in Australia for $235 AUD. Tequila from Jose Cuervo. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Jose Cuervo Tequila: Buy Jose Cuervo Gold 50ml online in Australia for $5 AUD. Tequila from Jose Cuervo. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Jose Cuervo Gold 50ml is Jose Cuervo’s expression in this style. Jose Cuervo is one of the oldest tequila houses in the world, producing tequila in Jalisco, Mexico.",
       "Use Jose Cuervo Especial in margaritas and mixed drinks, and sip the aged styles neat. Jose Cuervo Gold 50ml is listed at 38.0% - 40.0% ABV in a 50ml format, from Mexico.",
-      "Jose Cuervo Gold 50ml is $235 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Jose Cuervo Gold 50ml is $5 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "josé cuervo",
@@ -21322,7 +21322,7 @@ export const PRODUCTS: Product[] = [
     "style": "Spiced Rum",
     "country": "Caribbean",
     "region": "Caribbean",
-    "price": 55,
+    "price": 15.99,
     "abv": "35.0% - 40.0%",
     "size": "200ml",
     "images": [
@@ -21357,7 +21357,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Captain Morgan Spiced Rum 200ml cost in Australia?",
-        "answer": "Captain Morgan Spiced Rum 200ml is priced at $55 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Captain Morgan Spiced Rum 200ml is priced at $15.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Captain Morgan Spiced Rum 200ml online and have it delivered in Australia?",
@@ -21377,11 +21377,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Captain Morgan Rum Spiced | Captain Morgan Spiced Rum 200ml",
-    "metaDescription": "Captain Morgan Rum Spiced: Buy Captain Morgan Spiced Rum 200ml online in Australia for $55 AUD. Spiced Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Captain Morgan Rum Spiced: Buy Captain Morgan Spiced Rum 200ml online in Australia for $15.99 AUD. Spiced Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Captain Morgan Spiced Rum 200ml comes from Captain. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Captain Morgan Spiced Rum 200ml is listed at 35.0% - 40.0% ABV in a 200ml format, from Caribbean.",
-      "If you are looking for captain morgan white rum, Captain Morgan Spiced Rum 200ml is available from Doctors of Whisky at $55 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for captain morgan white rum, Captain Morgan Spiced Rum 200ml is available from Doctors of Whisky at $15.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "bacardi rum",
@@ -23800,7 +23800,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 975,
+    "price": 99.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -23836,7 +23836,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Martell Blue Swift Cognac & Brandy cost in Australia?",
-        "answer": "Martell Blue Swift Cognac & Brandy is priced at $975 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Martell Blue Swift Cognac & Brandy is priced at $99.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Martell Blue Swift Cognac & Brandy online in Australia?",
@@ -23856,11 +23856,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Martell Blue Swift Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Martell Blue Swift Cognac & Brandy (700ml) online in Australia for $975 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Martell Blue Swift Cognac & Brandy (700ml) online in Australia for $99.99 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Martell is the oldest of the great Cognac houses, founded in 1715 by Jean Martell. Martell Blue Swift Cognac & Brandy sits in our cognac & brandy range, alongside 4 other Martell bottles. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Martell Blue Swift Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Martell Blue Swift Cognac & Brandy online in Australia for $975 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Martell Blue Swift Cognac & Brandy online in Australia for $99.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "martell xo cognac 700ml",
@@ -23992,7 +23992,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 920,
+    "price": 259.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -24027,7 +24027,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Martell Cordon Bleu Cognac & Brandy cost in Australia?",
-        "answer": "Martell Cordon Bleu Cognac & Brandy is priced at $920 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Martell Cordon Bleu Cognac & Brandy is priced at $259.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy vsop martell cognac online in Australia?",
@@ -24047,11 +24047,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Martell Cordon Bleu Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Martell Cordon Bleu Cognac & Brandy (700ml) online in Australia for $920 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Martell Cordon Bleu Cognac & Brandy (700ml) online in Australia for $259.99 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Martell Cordon Bleu Cognac & Brandy is Martell’s expression in this style. Martell is the oldest of the great Cognac houses, founded in 1715 by Jean Martell.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Martell Cordon Bleu Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Martell Cordon Bleu Cognac & Brandy is $920 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Martell Cordon Bleu Cognac & Brandy is $259.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "cognac vs martell",
@@ -24183,7 +24183,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1720,
+    "price": 7.99,
     "abv": "40.0%",
     "size": "30ml",
     "images": [
@@ -24218,7 +24218,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Martell VSOP 30ml Cognac & Brandy cost in Australia?",
-        "answer": "Martell VSOP 30ml Cognac & Brandy is priced at $1,720 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Martell VSOP 30ml Cognac & Brandy is priced at $7.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Martell VSOP 30ml Cognac & Brandy online and have it delivered in Australia?",
@@ -24238,11 +24238,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Martell Cognac Vsop | Martell VSOP 30ml Cognac & Brandy",
-    "metaDescription": "Martell Cognac Vsop: Buy Martell VSOP 30ml Cognac & Brandy online in Australia for $1,720 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Martell Cognac Vsop: Buy Martell VSOP 30ml Cognac & Brandy online in Australia for $7.99 AUD. Cognac & Brandy from Martell. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Martell VSOP 30ml Cognac & Brandy comes from Martell. Martell is the oldest of the great Cognac houses, founded in 1715 by Jean Martell. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Martell VSOP 30ml Cognac & Brandy is listed at 40.0% ABV in a 30ml format, from France.",
-      "If you are looking for vsop martell, Martell VSOP 30ml Cognac & Brandy is available from Doctors of Whisky at $1,720 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for vsop martell, Martell VSOP 30ml Cognac & Brandy is available from Doctors of Whisky at $7.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "martell cognac blue",
@@ -25041,7 +25041,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 655,
+    "price": 109.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -25077,7 +25077,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Courvoisier Rouge Luxe Cognac & Brandy cost in Australia?",
-        "answer": "Courvoisier Rouge Luxe Cognac & Brandy is priced at $655 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Courvoisier Rouge Luxe Cognac & Brandy is priced at $109.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Courvoisier Rouge Luxe Cognac & Brandy online in Australia?",
@@ -25097,11 +25097,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Vsop Courvoisier Cognac | Courvoisier Rouge Luxe Cognac & Brandy",
-    "metaDescription": "Vsop Courvoisier Cognac: Buy Courvoisier Rouge Luxe Cognac & Brandy (700ml) online in Australia for $655 AUD. Cognac & Brandy from Courvoisier. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Vsop Courvoisier Cognac: Buy Courvoisier Rouge Luxe Cognac & Brandy (700ml) online in Australia for $109.99 AUD. Cognac & Brandy from Courvoisier. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Courvoisier Rouge Luxe Cognac & Brandy sits in our cognac & brandy range, alongside 6 other Courvoisier bottles. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Courvoisier Rouge Luxe Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Courvoisier Rouge Luxe Cognac & Brandy online in Australia for $655 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Courvoisier Rouge Luxe Cognac & Brandy online in Australia for $109.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "xo cognac",
@@ -25137,7 +25137,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1130,
+    "price": 119.99,
     "abv": "40.0%",
     "size": "1L",
     "images": [
@@ -25172,7 +25172,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Courvoisier VSOP 1L Cognac & Brandy cost in Australia?",
-        "answer": "Courvoisier VSOP 1L Cognac & Brandy is priced at $1,130 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Courvoisier VSOP 1L Cognac & Brandy is priced at $119.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy courvoisier cognac online in Australia?",
@@ -25192,11 +25192,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Courvoisier VSOP 1L Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Courvoisier VSOP 1L Cognac & Brandy online in Australia for $1,130 AUD. Cognac & Brandy from Courvoisier. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Courvoisier VSOP 1L Cognac & Brandy online in Australia for $119.99 AUD. Cognac & Brandy from Courvoisier. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Courvoisier VSOP 1L Cognac & Brandy is Courvoisier’s expression in this style.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Courvoisier VSOP 1L Cognac & Brandy is listed at 40.0% ABV in a 1L format, from France.",
-      "Courvoisier VSOP 1L Cognac & Brandy is $1,130 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Courvoisier VSOP 1L Cognac & Brandy is $119.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "xo cognac",
@@ -25613,7 +25613,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 405,
+    "price": 99.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -25648,7 +25648,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Hennessy VSOP Cognac & Brandy cost in Australia?",
-        "answer": "Hennessy VSOP Cognac & Brandy is priced at $405 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Hennessy VSOP Cognac & Brandy is priced at $99.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Hennessy VSOP Cognac & Brandy online in Australia?",
@@ -25668,11 +25668,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Vsop Hennessy | Hennessy VSOP Cognac & Brandy",
-    "metaDescription": "Vsop Hennessy: Buy Hennessy VSOP Cognac & Brandy (700ml) online in Australia for $405 AUD. Cognac & Brandy from Hennessy. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Vsop Hennessy: Buy Hennessy VSOP Cognac & Brandy (700ml) online in Australia for $99.99 AUD. Cognac & Brandy from Hennessy. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Hennessy VSOP Cognac & Brandy sits in our cognac & brandy range, alongside 2 other Hennessy bottles. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Hennessy VSOP Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Hennessy VSOP Cognac & Brandy online in Australia for $405 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Hennessy VSOP Cognac & Brandy online in Australia for $99.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "hennessy cognac vsop",
@@ -25708,7 +25708,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1255,
+    "price": 279.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -25744,7 +25744,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Hennessy XO Cognac & Brandy cost in Australia?",
-        "answer": "Hennessy XO Cognac & Brandy is priced at $1,255 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Hennessy XO Cognac & Brandy is priced at $279.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Hennessy XO Cognac & Brandy online in Australia?",
@@ -25764,11 +25764,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Hennessy XO Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Hennessy XO Cognac & Brandy (700ml) online in Australia for $1,255 AUD. Cognac & Brandy from Hennessy. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Hennessy XO Cognac & Brandy (700ml) online in Australia for $279.99 AUD. Cognac & Brandy from Hennessy. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Hennessy XO Cognac & Brandy sits in our cognac & brandy range, alongside 2 other Hennessy bottles. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Hennessy XO Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Hennessy XO Cognac & Brandy online in Australia for $1,255 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Hennessy XO Cognac & Brandy online in Australia for $279.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "hennessy cognac xo",
@@ -25804,7 +25804,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1570,
+    "price": 69.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -25839,7 +25839,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Naud VS Cognac & Brandy cost in Australia?",
-        "answer": "Naud VS Cognac & Brandy is priced at $1,570 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Naud VS Cognac & Brandy is priced at $69.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy naud vs cognac brandy online in Australia?",
@@ -25859,11 +25859,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Naud VS Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Naud VS Cognac & Brandy (700ml) online in Australia for $1,570 AUD. Cognac & Brandy from Naud. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Naud VS Cognac & Brandy (700ml) online in Australia for $69.99 AUD. Cognac & Brandy from Naud. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Naud VS Cognac & Brandy is Naud’s expression in this style.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Naud VS Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Naud VS Cognac & Brandy is $1,570 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Naud VS Cognac & Brandy is $69.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "cognac vsop france",
@@ -26185,7 +26185,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1435,
+    "price": 199.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -26221,7 +26221,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Tiffon XO Cognac & Brandy cost in Australia?",
-        "answer": "Tiffon XO Cognac & Brandy is priced at $1,435 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Tiffon XO Cognac & Brandy is priced at $199.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Tiffon XO Cognac & Brandy online and have it delivered in Australia?",
@@ -26241,11 +26241,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Tiffon XO Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Tiffon XO Cognac & Brandy (700ml) online in Australia for $1,435 AUD. Cognac & Brandy from Tiffon. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Tiffon XO Cognac & Brandy (700ml) online in Australia for $199.99 AUD. Cognac & Brandy from Tiffon. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Tiffon XO Cognac & Brandy comes from Tiffon. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Tiffon XO Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "If you are looking for tiffon xo cognac brandy, Tiffon XO Cognac & Brandy is available from Doctors of Whisky at $1,435 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for tiffon xo cognac brandy, Tiffon XO Cognac & Brandy is available from Doctors of Whisky at $199.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "cognac vsop france",
@@ -26471,7 +26471,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 2100,
+    "price": 59.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -26506,7 +26506,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Calvados Papidoux XO Cognac & Brandy cost in Australia?",
-        "answer": "Calvados Papidoux XO Cognac & Brandy is priced at $2,100 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Calvados Papidoux XO Cognac & Brandy is priced at $59.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Calvados Papidoux XO Cognac & Brandy online and have it delivered in Australia?",
@@ -26526,11 +26526,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Calvados Papidoux XO Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Calvados Papidoux XO Cognac & Brandy (700ml) online in Australia for $2,100 AUD. Cognac & Brandy from Calvados. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Calvados Papidoux XO Cognac & Brandy (700ml) online in Australia for $59.99 AUD. Cognac & Brandy from Calvados. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Calvados Papidoux XO Cognac & Brandy comes from Calvados. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Calvados Papidoux XO Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "If you are looking for Calvados Cognac / Brandy, Calvados Papidoux XO Cognac & Brandy is available from Doctors of Whisky at $2,100 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for Calvados Cognac / Brandy, Calvados Papidoux XO Cognac & Brandy is available from Doctors of Whisky at $59.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "cognac vsop france",
@@ -26852,7 +26852,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cognac / Brandy",
     "country": "France",
     "region": "France",
-    "price": 1180,
+    "price": 169.99,
     "abv": "40.0%",
     "size": "700ml",
     "images": [
@@ -26889,7 +26889,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Coquerel Grand Calvados Cognac & Brandy cost in Australia?",
-        "answer": "Coquerel Grand Calvados Cognac & Brandy is priced at $1,180 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Coquerel Grand Calvados Cognac & Brandy is priced at $169.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Coquerel Grand Calvados Cognac & Brandy online in Australia?",
@@ -26909,11 +26909,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Coquerel Grand Calvados Cognac & Brandy Online Australia",
-    "metaDescription": "Buy Coquerel Grand Calvados Cognac & Brandy (700ml) online in Australia for $1,180 AUD. Cognac & Brandy from Coquerel. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Coquerel Grand Calvados Cognac & Brandy (700ml) online in Australia for $169.99 AUD. Cognac & Brandy from Coquerel. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Coquerel Grand Calvados Cognac & Brandy sits in our cognac & brandy range, alongside 3 other Coquerel bottles. Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO.",
       "Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar. Coquerel Grand Calvados Cognac & Brandy is listed at 40.0% ABV in a 700ml format, from France.",
-      "Buy Coquerel Grand Calvados Cognac & Brandy online in Australia for $1,180 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Coquerel Grand Calvados Cognac & Brandy online in Australia for $169.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "cognac vsop france",
@@ -27140,7 +27140,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cream Liqueur",
     "country": "Ireland",
     "region": "Ireland",
-    "price": 55,
+    "price": 14.99,
     "abv": "17.0%",
     "size": "700ml",
     "images": [
@@ -27175,7 +27175,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Baileys Apple Pie Baileys Irish Cream cost in Australia?",
-        "answer": "Baileys Apple Pie Baileys Irish Cream is priced at $55 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Baileys Apple Pie Baileys Irish Cream is priced at $14.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Baileys Apple Pie Baileys Irish Cream online in Australia?",
@@ -27195,11 +27195,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Baileys Irish Cream Price | Baileys Apple Pie Baileys Irish Cream",
-    "metaDescription": "Baileys Irish Cream Price: Buy Baileys Apple Pie Baileys Irish Cream (700ml) online in Australia for $55 AUD. Cream Liqueur from Baileys. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Baileys Irish Cream Price: Buy Baileys Apple Pie Baileys Irish Cream (700ml) online in Australia for $14.99 AUD. Cream Liqueur from Baileys. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Baileys is an Irish cream liqueur made from Irish whiskey and cream, launched in Dublin in 1974. Baileys Apple Pie Baileys Irish Cream sits in our baileys irish cream range, alongside 8 other Baileys bottles. Baileys Irish Cream is a liqueur made from Irish whiskey and cream, first launched in 1974.",
       "Serve Baileys over ice, stirred into coffee, or poured over dessert. Baileys Apple Pie Baileys Irish Cream is listed at 17.0% ABV in a 700ml format, from Ireland.",
-      "Buy Baileys Apple Pie Baileys Irish Cream online in Australia for $55 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Baileys Apple Pie Baileys Irish Cream online in Australia for $14.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "baileys bottle",
@@ -28951,7 +28951,7 @@ export const PRODUCTS: Product[] = [
     "style": "Orange Liqueur",
     "country": "International",
     "region": "International",
-    "price": 45,
+    "price": 5.99,
     "abv": "20.0% - 40.0%",
     "size": "50ml",
     "images": [
@@ -28986,7 +28986,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Cointreau 50ml Orange Liqueur cost in Australia?",
-        "answer": "Cointreau 50ml Orange Liqueur is priced at $45 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Cointreau 50ml Orange Liqueur is priced at $5.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy cointreau orange online in Australia?",
@@ -29006,11 +29006,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Cointreau Orange | Cointreau 50ml Orange Liqueur",
-    "metaDescription": "Cointreau Orange: Buy Cointreau 50ml Orange Liqueur online in Australia for $45 AUD. Orange Liqueur from Cointreau. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Cointreau Orange: Buy Cointreau 50ml Orange Liqueur online in Australia for $5.99 AUD. Orange Liqueur from Cointreau. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Orange liqueurs such as Cointreau and Grand Marnier are flavoured with orange peel and are essential in margaritas, cosmopolitans and Sidecars. Cointreau 50ml Orange Liqueur is Cointreau’s expression in this style.",
       "Use orange liqueur in margaritas and cosmopolitans, or sip Grand Marnier neat after dinner. Cointreau 50ml Orange Liqueur is listed at 20.0% - 40.0% ABV in a 50ml format, from International.",
-      "Cointreau 50ml Orange Liqueur is $45 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Cointreau 50ml Orange Liqueur is $5.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "st germain liquer",
@@ -29523,7 +29523,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cinnamon Liqueur",
     "country": "International",
     "region": "International",
-    "price": 65,
+    "price": 14.99,
     "abv": "15.0% - 33.0%",
     "size": "200ml",
     "images": [
@@ -29558,7 +29558,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Fireball 200ml Cinnamon Liqueur cost in Australia?",
-        "answer": "Fireball 200ml Cinnamon Liqueur is priced at $65 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Fireball 200ml Cinnamon Liqueur is priced at $14.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy fireball 200ml cinnamon liqueur online in Australia?",
@@ -29578,11 +29578,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Fireball 200ml Cinnamon Liqueur Online Australia",
-    "metaDescription": "Buy Fireball 200ml Cinnamon Liqueur online in Australia for $65 AUD. Cinnamon Liqueur from Fireball. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Fireball 200ml Cinnamon Liqueur online in Australia for $14.99 AUD. Cinnamon Liqueur from Fireball. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Cinnamon liqueur (often sold as cinnamon whisky) is a sweet, spicy liqueur usually served as a chilled shot. Fireball 200ml Cinnamon Liqueur is Fireball’s expression in this style.",
       "Serve cinnamon liqueur well chilled as a shot or mixed with cider or cola. Fireball 200ml Cinnamon Liqueur is listed at 15.0% - 33.0% ABV in a 200ml format, from International.",
-      "Fireball 200ml Cinnamon Liqueur is $65 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Fireball 200ml Cinnamon Liqueur is $14.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "spiced rum",
@@ -30000,7 +30000,7 @@ export const PRODUCTS: Product[] = [
     "style": "Cinnamon Liqueur",
     "country": "International",
     "region": "International",
-    "price": 40,
+    "price": 5.99,
     "abv": "15.0% - 33.0%",
     "size": "50ml",
     "images": [
@@ -30035,7 +30035,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Goldschlager 50ml Cinnamon Liqueur cost in Australia?",
-        "answer": "Goldschlager 50ml Cinnamon Liqueur is priced at $40 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Goldschlager 50ml Cinnamon Liqueur is priced at $5.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Goldschlager 50ml Cinnamon Liqueur online and have it delivered in Australia?",
@@ -30055,11 +30055,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Goldschlager 50ml Cinnamon Liqueur Online Australia",
-    "metaDescription": "Buy Goldschlager 50ml Cinnamon Liqueur online in Australia for $40 AUD. Cinnamon Liqueur from Goldschlager. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Goldschlager 50ml Cinnamon Liqueur online in Australia for $5.99 AUD. Cinnamon Liqueur from Goldschlager. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Goldschlager 50ml Cinnamon Liqueur comes from Goldschlager. Cinnamon liqueur (often sold as cinnamon whisky) is a sweet, spicy liqueur usually served as a chilled shot.",
       "Serve cinnamon liqueur well chilled as a shot or mixed with cider or cola. Goldschlager 50ml Cinnamon Liqueur is listed at 15.0% - 33.0% ABV in a 50ml format, from International.",
-      "If you are looking for goldschlager 50ml cinnamon liqueur, Goldschlager 50ml Cinnamon Liqueur is available from Doctors of Whisky at $40 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for goldschlager 50ml cinnamon liqueur, Goldschlager 50ml Cinnamon Liqueur is available from Doctors of Whisky at $5.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "spiced rum",
@@ -33145,7 +33145,7 @@ export const PRODUCTS: Product[] = [
     "style": "Anise Liqueur",
     "country": "Italy",
     "region": "Italy",
-    "price": 30,
+    "price": 5.99,
     "abv": "38.0% - 42.0%",
     "size": "50ml",
     "images": [
@@ -33181,7 +33181,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Opal Nera 50ml Sambuca cost in Australia?",
-        "answer": "Opal Nera 50ml Sambuca is priced at $30 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Opal Nera 50ml Sambuca is priced at $5.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Opal Nera 50ml Sambuca online and have it delivered in Australia?",
@@ -33201,11 +33201,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Opal Nera 50ml Sambuca Online Australia",
-    "metaDescription": "Buy Opal Nera 50ml Sambuca online in Australia for $30 AUD. Anise Liqueur from Opal. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Opal Nera 50ml Sambuca online in Australia for $5.99 AUD. Anise Liqueur from Opal. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Opal Nera 50ml Sambuca comes from Opal. Sambuca is an Italian anise-flavoured liqueur, traditionally served with three coffee beans.",
       "Serve sambuca neat with coffee beans, in a shot, or splashed into espresso. Opal Nera 50ml Sambuca is listed at 38.0% - 42.0% ABV in a 50ml format, from Italy.",
-      "If you are looking for opal nera black sambuca, Opal Nera 50ml Sambuca is available from Doctors of Whisky at $30 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for opal nera black sambuca, Opal Nera 50ml Sambuca is available from Doctors of Whisky at $5.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "cost of sambuca",
@@ -33336,7 +33336,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 50,
+    "price": 6.99,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33372,7 +33372,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Kiwiberry Soju cost in Australia?",
-        "answer": "Charm Malgeun Kiwiberry Soju is priced at $50 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Kiwiberry Soju is priced at $6.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Charm Malgeun Kiwiberry Soju online and have it delivered in Australia?",
@@ -33392,11 +33392,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Kiwiberry Soju Online Australia",
-    "metaDescription": "Buy Charm Malgeun Kiwiberry Soju (360ml) online in Australia for $50 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Kiwiberry Soju (360ml) online in Australia for $6.99 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Kiwiberry Soju comes from Charm. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Kiwiberry Soju is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "If you are looking for charm malgeun kiwiberry soju, Charm Malgeun Kiwiberry Soju is available from Doctors of Whisky at $50 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for charm malgeun kiwiberry soju, Charm Malgeun Kiwiberry Soju is available from Doctors of Whisky at $6.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "lemon soju",
@@ -33432,7 +33432,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 40,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33467,7 +33467,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Lemon Lime Soju cost in Australia?",
-        "answer": "Charm Malgeun Lemon Lime Soju is priced at $40 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Lemon Lime Soju is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Charm Malgeun Lemon Lime Soju online and have it delivered in Australia?",
@@ -33487,11 +33487,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Lemon Lime Soju Online Australia",
-    "metaDescription": "Buy Charm Malgeun Lemon Lime Soju (360ml) online in Australia for $40 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Lemon Lime Soju (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Lemon Lime Soju comes from Charm. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Lemon Lime Soju is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "If you are looking for Charm Soju, Charm Malgeun Lemon Lime Soju is available from Doctors of Whisky at $40 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for Charm Soju, Charm Malgeun Lemon Lime Soju is available from Doctors of Whisky at $7.49 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "lemon soju",
@@ -33527,7 +33527,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 65,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33562,7 +33562,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Mango Soju cost in Australia?",
-        "answer": "Charm Malgeun Mango Soju is priced at $65 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Mango Soju is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy charm malgeun mango soju online in Australia?",
@@ -33582,11 +33582,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Mango Soju Online Australia",
-    "metaDescription": "Buy Charm Malgeun Mango Soju (360ml) online in Australia for $65 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Mango Soju (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits. Charm Malgeun Mango Soju is Charm’s expression in this style.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Mango Soju is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Charm Malgeun Mango Soju is $65 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Charm Malgeun Mango Soju is $7.49 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "lemon soju",
@@ -33622,7 +33622,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 50,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33658,7 +33658,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Soju Blueberry cost in Australia?",
-        "answer": "Charm Malgeun Soju Blueberry is priced at $50 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Soju Blueberry is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Can I buy Charm Malgeun Soju Blueberry online and have it delivered in Australia?",
@@ -33678,11 +33678,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Soju Blueberry Online Australia",
-    "metaDescription": "Buy Charm Malgeun Soju Blueberry (360ml) online in Australia for $50 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Soju Blueberry (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Soju Blueberry comes from Charm. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Soju Blueberry is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "If you are looking for charm malgeun soju blueberry, Charm Malgeun Soju Blueberry is available from Doctors of Whisky at $50 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for charm malgeun soju blueberry, Charm Malgeun Soju Blueberry is available from Doctors of Whisky at $7.49 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "lemon soju",
@@ -33718,7 +33718,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 50,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33753,7 +33753,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Soju Lychee cost in Australia?",
-        "answer": "Charm Malgeun Soju Lychee is priced at $50 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Soju Lychee is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Charm Malgeun Soju Lychee online in Australia?",
@@ -33773,11 +33773,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Soju Lychee Online Australia",
-    "metaDescription": "Buy Charm Malgeun Soju Lychee (360ml) online in Australia for $50 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Soju Lychee (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Soju Lychee sits in our soju range, alongside 8 other Charm bottles. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Soju Lychee is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Buy Charm Malgeun Soju Lychee online in Australia for $50 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Charm Malgeun Soju Lychee online in Australia for $7.49 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lemon soju",
@@ -33813,7 +33813,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 30,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33848,7 +33848,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Soju Watermelon cost in Australia?",
-        "answer": "Charm Malgeun Soju Watermelon is priced at $30 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Soju Watermelon is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Charm Malgeun Soju Watermelon online in Australia?",
@@ -33868,11 +33868,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Soju Watermelon Online Australia",
-    "metaDescription": "Buy Charm Malgeun Soju Watermelon (360ml) online in Australia for $30 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Soju Watermelon (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Soju Watermelon sits in our soju range, alongside 8 other Charm bottles. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Soju Watermelon is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Buy Charm Malgeun Soju Watermelon online in Australia for $30 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Charm Malgeun Soju Watermelon online in Australia for $7.49 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lemon soju",
@@ -33908,7 +33908,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 25,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -33944,7 +33944,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Strawberry Soju cost in Australia?",
-        "answer": "Charm Malgeun Strawberry Soju is priced at $25 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Strawberry Soju is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Charm Malgeun Strawberry Soju online in Australia?",
@@ -33964,11 +33964,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Strawberry Soju Online Australia",
-    "metaDescription": "Buy Charm Malgeun Strawberry Soju (360ml) online in Australia for $25 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Strawberry Soju (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Strawberry Soju sits in our soju range, alongside 8 other Charm bottles. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Strawberry Soju is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Buy Charm Malgeun Strawberry Soju online in Australia for $25 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Charm Malgeun Strawberry Soju online in Australia for $7.49 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lemon soju",
@@ -34004,7 +34004,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 25,
+    "price": 7.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -34039,7 +34039,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Charm Malgeun Vivid Passionfruit Soju cost in Australia?",
-        "answer": "Charm Malgeun Vivid Passionfruit Soju is priced at $25 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Charm Malgeun Vivid Passionfruit Soju is priced at $7.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where can I buy Charm Malgeun Vivid Passionfruit Soju online in Australia?",
@@ -34059,11 +34059,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Charm Malgeun Vivid Passionfruit Soju Online Australia",
-    "metaDescription": "Buy Charm Malgeun Vivid Passionfruit Soju (360ml) online in Australia for $25 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Charm Malgeun Vivid Passionfruit Soju (360ml) online in Australia for $7.49 AUD. Soju from Charm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Charm Malgeun Vivid Passionfruit Soju sits in our soju range, alongside 8 other Charm bottles. Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Charm Malgeun Vivid Passionfruit Soju is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Buy Charm Malgeun Vivid Passionfruit Soju online in Australia for $25 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
+      "Buy Charm Malgeun Vivid Passionfruit Soju online in Australia for $7.49 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
     "tags": [
       "lemon soju",
@@ -34194,7 +34194,7 @@ export const PRODUCTS: Product[] = [
     "style": "Soju",
     "country": "South Korea",
     "region": "South Korea",
-    "price": 30,
+    "price": 9.49,
     "abv": "13.0% - 20.0%",
     "size": "360ml",
     "images": [
@@ -34229,7 +34229,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Chum Churum Soju Apple Mango cost in Australia?",
-        "answer": "Chum Churum Soju Apple Mango is priced at $30 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Chum Churum Soju Apple Mango is priced at $9.49 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy chum churum soju online in Australia?",
@@ -34249,11 +34249,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Chum Churum Soju Apple Mango Online Australia",
-    "metaDescription": "Buy Chum Churum Soju Apple Mango (360ml) online in Australia for $30 AUD. Soju from Chum. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Chum Churum Soju Apple Mango (360ml) online in Australia for $9.49 AUD. Soju from Chum. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits. Chum Churum Soju Apple Mango is Chum’s expression in this style.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice. Chum Churum Soju Apple Mango is listed at 13.0% - 20.0% ABV in a 360ml format, from South Korea.",
-      "Chum Churum Soju Apple Mango is $30 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Chum Churum Soju Apple Mango is $9.49 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "lemon soju",
@@ -36104,7 +36104,7 @@ export const PRODUCTS: Product[] = [
     "style": "Red Wine",
     "country": "Australia",
     "region": "Australia",
-    "price": 745,
+    "price": 17.99,
     "abv": "13.0% - 14.5%",
     "size": "750ml",
     "images": [
@@ -36139,7 +36139,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Pepperjack Shiraz Red Wine cost in Australia?",
-        "answer": "Pepperjack Shiraz Red Wine is priced at $745 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Pepperjack Shiraz Red Wine is priced at $17.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy pepperjack shiraz red wine online in Australia?",
@@ -36159,11 +36159,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Pepperjack Shiraz Red Wine Online Australia",
-    "metaDescription": "Buy Pepperjack Shiraz Red Wine (750ml) online in Australia for $745 AUD. Red Wine from Pepperjack. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Pepperjack Shiraz Red Wine (750ml) online in Australia for $17.99 AUD. Red Wine from Pepperjack. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Red wine is made from dark-skinned grapes fermented with their skins; Australian favourites include Shiraz, Cabernet Sauvignon and Pinot Noir. Pepperjack Shiraz Red Wine is Pepperjack’s expression in this style.",
       "Serve red wine at cool room temperature, around 16 to 18 degrees Celsius, and open fuller reds an hour before drinking. Pepperjack Shiraz Red Wine is listed at 13.0% - 14.5% ABV in a 750ml format, from Australia.",
-      "Pepperjack Shiraz Red Wine is $745 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Pepperjack Shiraz Red Wine is $17.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "malbec red wine",
@@ -36295,7 +36295,7 @@ export const PRODUCTS: Product[] = [
     "style": "Red Wine",
     "country": "Australia",
     "region": "Australia",
-    "price": 595,
+    "price": 49.99,
     "abv": "13.0% - 14.5%",
     "size": "750ml",
     "images": [
@@ -36330,7 +36330,7 @@ export const PRODUCTS: Product[] = [
     "faqs": [
       {
         "question": "How much does Slayer Reign In Blood Wine cost in Australia?",
-        "answer": "Slayer Reign In Blood Wine is priced at $595 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+        "answer": "Slayer Reign In Blood Wine is priced at $49.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
         "question": "Where do I buy Slayer Red Wine online in Australia?",
@@ -36350,11 +36350,11 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Buy Slayer Reign In Blood Wine Online Australia",
-    "metaDescription": "Buy Slayer Reign In Blood Wine (750ml) online in Australia for $595 AUD. Red Wine from Slayer. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Buy Slayer Reign In Blood Wine (750ml) online in Australia for $49.99 AUD. Red Wine from Slayer. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Red wine is made from dark-skinned grapes fermented with their skins; Australian favourites include Shiraz, Cabernet Sauvignon and Pinot Noir. Slayer Reign In Blood Wine is Slayer’s expression in this style.",
       "Serve red wine at cool room temperature, around 16 to 18 degrees Celsius, and open fuller reds an hour before drinking. Slayer Reign In Blood Wine is listed at 13.0% - 14.5% ABV in a 750ml format, from Australia.",
-      "Slayer Reign In Blood Wine is $595 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+      "Slayer Reign In Blood Wine is $49.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "tags": [
       "malbec red wine",

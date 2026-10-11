@@ -45,46 +45,9 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   ]
  },
  "/about/": {
-  "primary": "buy single malt whisky online",
-  "secondary": [
-   "single malt",
-   "single malt whiskey",
-   "single malt scotch whisky",
-   "sydney cider",
-   "highland scotch whisky single malt",
-   "premium scotch whiskey",
-   "highland single malt whiskey",
-   "single malt scotch",
-   "highland malt scotch whiskey",
-   "highland single malt scotch whisky",
-   "highland park whisky",
-   "highland single malt",
-   "best single malt whiskey",
-   "single highland malt scotch whiskey",
-   "japanese single malt"
-  ],
-  "tags": [
-   "premium scotch",
-   "hakushu single malt",
-   "glenfiddich single malt",
-   "single malt scotch whisky whiskey",
-   "best australian whisky",
-   "best single malt whisky",
-   "whisky scotch single malt",
-   "highland whisky",
-   "the hakushu single malt",
-   "sydney gin",
-   "oban single malt",
-   "nice single malt",
-   "whisky oban single malt",
-   "japanese single malt whisky",
-   "finest single malt whiskey",
-   "macallan single malt",
-   "australian whiskey brands",
-   "australian single malt whisky",
-   "scotch whisky islay single malt",
-   "cheap single malt whiskey"
-  ]
+  "primary": "doctors of whisky",
+  "secondary": [],
+  "tags": []
  },
  "/shipping/": {
   "primary": "wine delivery",
@@ -129,46 +92,9 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   ]
  },
  "/contact/": {
-  "primary": "whiskey for sale",
-  "secondary": [
-   "whisky gift pack",
-   "gin gifts",
-   "gin gifts australia",
-   "whiskey gift",
-   "whiskey gifts australia",
-   "gin gift packs",
-   "gin gift set australia",
-   "gin gift pack",
-   "whisky gift set",
-   "gin gift set",
-   "whiskey drinking gifts",
-   "whisky gifts",
-   "beer gift",
-   "good whiskey for gift",
-   "tequila gift set"
-  ],
-  "tags": [
-   "johnnie walker gift set",
-   "johnnie walker gift pack",
-   "aperol gift pack",
-   "baileys irish cream gift set",
-   "gin gift",
-   "great whiskey gifts",
-   "johnnie walker blue label gift set",
-   "red wine gift",
-   "red wine for gift",
-   "corporate wine gifts",
-   "whisky gift pack australia",
-   "whisky gifts australia",
-   "whisky gift sets",
-   "gin gift sets",
-   "gin gift box",
-   "glenfiddich gift set",
-   "wines gifts",
-   "rum gift pack",
-   "gift whisky",
-   "whisky gift"
-  ]
+  "primary": "doctors of whisky",
+  "secondary": [],
+  "tags": []
  },
  "/faq/": {
   "primary": "is ginger beer alcoholic",

@@ -16,10 +16,10 @@ export default function AboutPage() {
             <span>Sydney Vaults · Founded {BRAND_AUTHORITY.foundingYear}</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">
-            About Doctors of Whisky: Buy Single Malt Whisky Online from Sydney
+            About Doctors of Whisky: A Sydney Whisky and Spirits Shop
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto font-light leading-relaxed">
-            Buy single malt whisky online from a Sydney bottle shop that checks every bottle: cellar-condition storage, authentication and insured delivery across Australia.
+            A Sydney bottle shop selling Scotch, Japanese whisky and fine spirits online. Every bottle is checked, stored in cellar conditions and delivered insured across Australia.
           </p>
         </div>
 

@@ -5,9 +5,9 @@ import { PageSearches } from '@/components/PageSearches';
 import { PAGE_SEO } from '@/lib/data/page-seo';
 
 
-const TITLE = 'Whiskey for Sale | Contact Doctors of Whisky Sydney';
+const TITLE = 'Contact Doctors of Whisky | WhatsApp, Email & Phone';
 const DESC =
-  'Whiskey for sale: contact Doctors of Whisky by email, phone or WhatsApp for whisky recommendations, stock and price enquiries, order help and delivery questions anywhere in Australia.';
+  'Contact Doctors of Whisky in Sydney by WhatsApp, email or phone for stock and price questions, order help and delivery anywhere in Australia.';
 
 export const metadata = buildMetadata({
   title: TITLE,
