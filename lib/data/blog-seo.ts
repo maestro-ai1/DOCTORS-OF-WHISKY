@@ -128,12 +128,12 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "why-japanese-whisky-became-a-global-obsession": {
-  "primaryKeyword": "nikka whiskey",
+  "primaryKeyword": "toki suntory whiskey",
   "secondaryKeywords": [
+   "nikka whiskey",
    "the chita japanese whisky",
    "suntory 196 double lemon",
    "japanese lemon alcohol",
-   "toki suntory whiskey",
    "nikka from barrel",
    "suntory whisky hibiki",
    "suntory double peach",
@@ -254,9 +254,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "tequila-aging-guide-blanco-reposado-anejo": {
-  "primaryKeyword": "don julio blanco",
+  "primaryKeyword": "tequila el patron silver",
   "secondaryKeywords": [
-   "tequila el patron silver",
+   "don julio blanco",
    "don julio tequila brands",
    "sierra silver tequila",
    "anejo tequila",
@@ -716,9 +716,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "guide-to-australian-craft-cider": {
-  "primaryKeyword": "cider",
+  "primaryKeyword": "cider australia",
   "secondaryKeywords": [
-   "cider australia",
+   "cider",
    "pear cider",
    "rose cider",
    "hills cider",
@@ -758,10 +758,10 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "how-to-choose-red-wine": {
-  "primaryKeyword": "shiraz wine",
+  "primaryKeyword": "red wine varieties",
   "secondaryKeywords": [
+   "shiraz wine",
    "st henri shiraz",
-   "red wine varieties",
    "shiraz wine red",
    "australian red wine",
    "merlot wines",
@@ -800,12 +800,12 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "white-wine-styles-explained": {
-  "primaryKeyword": "wine chardonnay",
+  "primaryKeyword": "white wine types",
   "secondaryKeywords": [
+   "wine chardonnay",
    "pink moscato",
    "moscato rose",
    "white wine varieties",
-   "white wine types",
    "sparkling moscato",
    "greywacke sauvignon blanc",
    "white wine sauvignon blanc",
@@ -1010,8 +1010,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "best-mixers-for-home-bar": {
-  "primaryKeyword": "ginger beer",
+  "primaryKeyword": "cocktails using ginger beer",
   "secondaryKeywords": [
+   "ginger beer",
    "matsos ginger beer",
    "alcoholic ginger beer plant",
    "ginger beer recipe",
@@ -1025,7 +1026,6 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "australian alcoholic ginger beer",
    "how to brew ginger beer",
    "rugged thumb ginger beer",
-   "cocktails using ginger beer",
    "australian ginger beer"
   ],
   "tags": [
@@ -1136,13 +1136,12 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "don-julio-vs-patron-tequila-compared": {
-  "primaryKeyword": "don julio blanco",
+  "primaryKeyword": "don julio tequila brands",
   "secondaryKeywords": [
    "patron xo cafe",
    "patron cafe drinks",
    "tequila el patron silver",
    "don julio blanco",
-   "don julio tequila brands",
    "cafe patron tequila",
    "patron reposado",
    "silver patron tequila",
@@ -1178,9 +1177,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "grey-goose-vs-belvedere-vodka-compared": {
-  "primaryKeyword": "grey goose",
+  "primaryKeyword": "grey goose liquor",
   "secondaryKeywords": [
-   "grey goose liquor",
+   "grey goose",
    "belvedere reservation",
    "belvedere griffith",
    "belvedere reserve",
@@ -1556,9 +1555,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "cabernet-sauvignon-merlot-grenache-red-wine-grapes": {
-  "primaryKeyword": "cabernet red wine",
+  "primaryKeyword": "merlot wines",
   "secondaryKeywords": [
-   "merlot wines",
+   "cabernet red wine",
    "yellow tail merlot",
    "cabernet and canvas",
    "oyster bay merlot",

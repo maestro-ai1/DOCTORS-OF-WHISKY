@@ -68,7 +68,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         {/* Back Link & Header */}
         <div className="space-y-4 pb-6 border-b border-neutral-900">
           <Link
-            href="/shop"
+            href="/shop/"
             className="inline-flex items-center gap-1.5 text-xs text-neutral-400 hover:text-amber-300 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -132,7 +132,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 New vault allocations for {currentCat.name} are currently undergoing Sommelier inspection. Please check back shortly or inquire directly.
               </p>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-block px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs"
               >
                 Inquire With Concierge
@@ -151,7 +151,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             </div>
           </div>
         )}
-        <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 15)} title={`Related searches: ${CATEGORY_SEO[catSlug].primary}`} />
+        <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 5)} title={`Related searches: ${CATEGORY_SEO[catSlug].primary}`} />
         <TagCloud tags={linkList(CATEGORY_SEO[catSlug].tags, path, path, 20)} title="Popular searches and tags" />
         <AuthorityLinks links={authorityFor(subcategories[0]?.slug ?? '')} title={`Learn more about ${currentCat.name.toLowerCase()}`} />
       </div>

@@ -16,10 +16,10 @@ export default function AboutPage() {
             <span>Sydney Vaults · Founded {BRAND_AUTHORITY.foundingYear}</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">
-            The Doctors of Whisky Provenance Standard
+            About Doctors of Whisky: Buy Single Malt Whisky Online from Sydney
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto font-light leading-relaxed">
-            Preserving world-class liquid history in Australia through scientific cellar conditions, sommelier authentication, and white-glove transit.
+            Buy single malt whisky online from a Sydney bottle shop that checks every bottle: cellar-condition storage, authentication and insured delivery across Australia.
           </p>
         </div>
 
@@ -113,16 +113,16 @@ export default function AboutPage() {
           </p>
           <div className="pt-2 flex flex-wrap justify-center gap-3">
             <Link
-              href="/shop"
+              href="/shop/"
               className="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 hover:from-amber-600 hover:to-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider shadow-lg"
             >
-              Browse Rare Vault Catalog
+              Shop the Whisky Sale
             </Link>
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-6 py-3 rounded-xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-700 text-neutral-200 font-bold text-xs uppercase tracking-wider"
             >
-              Contact Concierge Desk
+              Ask Us About a Bottle
             </Link>
           </div>
         </div>

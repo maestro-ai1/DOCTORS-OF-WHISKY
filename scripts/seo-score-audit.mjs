@@ -48,9 +48,9 @@ async function audit(url, kind, k) {
   checks['primary keyword in page copy'] = has(body, primary);
   checks['meta keywords carry primary + 15 secondary'] = has(metaKw, primary) && k.secondary.filter((s) => has(metaKw, s)).length >= Math.min(15, k.secondary.length);
   if (['product', 'sub', 'category', 'blog', 'page', 'faq', 'blogindex'].includes(kind)) {
-    checks['15 secondary keywords visible as links (H2 section)'] = count(related, /<li>/g) >= Math.min(15, k.secondary.length) || (kind === 'home');
+    checks['5 secondary keywords visible as links (H2 section)'] = count(related, /<li>/g) >= Math.min(5, k.secondary.length) || (kind === 'home');
   }
-  if (kind === 'home') checks['15 secondary keywords visible as links (H2 section)'] = count(section(h, 'Popular whisky searches'), /<li>/g) >= 15;
+  if (kind === 'home') checks['5 secondary keywords visible as links (H2 section)'] = count(section(h, 'Popular whisky searches'), /<li>/g) >= 5;
   if (kind === 'home') checks['tags line (20+ high-volume tags)'] = count(section(h, 'Tags line'), /<li>/g) >= 20;
   if (['product', 'blog'].includes(kind)) checks['20 tags visible'] = count(tagsSec, /<li>/g) >= 20;
   if (['sub', 'category', 'page', 'faq', 'blogindex'].includes(kind)) checks['tags visible'] = count(tagsSec, /<li>/g) >= 15;

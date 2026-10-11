@@ -56,10 +56,10 @@ export default function ShippingPage() {
         </div>
 
         <div className="pt-6 border-t border-neutral-900 flex justify-between items-center text-xs">
-          <Link href="/shop" className="text-amber-400 hover:text-amber-300 font-bold">
+          <Link href="/shop/" className="text-amber-400 hover:text-amber-300 font-bold">
             ← Return to Vault Shop
           </Link>
-          <Link href="/contact" className="text-neutral-400 hover:text-neutral-200">
+          <Link href="/contact/" className="text-neutral-400 hover:text-neutral-200">
             Have questions? Contact Concierge
           </Link>
         </div>

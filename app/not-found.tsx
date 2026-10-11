@@ -33,14 +33,14 @@ export default function NotFound() {
 
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Link
-            href="/shop"
+            href="/shop/"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 hover:from-amber-600 hover:to-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider shadow-lg transition-all"
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Return to Vault Catalog</span>
           </Link>
           <Link
-            href="/search"
+            href="/search/"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 text-neutral-200 font-bold text-xs uppercase tracking-wider transition-colors"
           >
             <Search className="w-4 h-4" />

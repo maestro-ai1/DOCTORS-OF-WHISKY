@@ -5,34 +5,34 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "scotch-whisky",
     "name": "Scotch Whisky",
     "category": "whisky",
-    "description": "Whiskey Sale: Buy Scotch Whisky online in Australia: 91 bottles from Macallan, Laphroaig and Royal Salute, priced from $48.99 to $14,999.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Scotch Whisky online in Australia: 91 bottles from Macallan, Laphroaig and Royal Salute, priced from $48.99 to $14,999.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/scotch-whisky/macallan--tds-macallan-12-sherry-oak-new.jpg",
-    "primaryKeyword": "whiskey sale",
+    "primaryKeyword": "scotch whisky",
     "secondaryKeywords": [
       "whisky",
       "scotch",
+      "johnnie walker",
       "japanese whiskey",
       "regal chivas whisky",
       "single malt",
-      "scotch whisky",
+      "macallan",
       "hibiki whiskey",
+      "laphroaig",
       "bourbon whiskey",
       "single malt whiskey",
-      "macallan whiskey",
-      "scotch whiskey",
-      "whisky malt single",
-      "singleton whiskey",
-      "dalmore whisky",
-      "single malt scotch whisky"
+      "whisky gift pack",
+      "dimple whiskey",
+      "balvenie",
+      "ardbeg"
     ],
     "faqs": [
       {
-        "question": "How much does whiskey sale cost in Australia?",
+        "question": "How much does scotch whisky cost in Australia?",
         "answer": "Scotch Whisky at Doctors of Whisky ranges from $48.99 AUD (Ballantine's Finest Blended Scotch Whisky) to $14,999.99 AUD (Ballantine's 40 Year Old Rare Limited Release Blended Scotch Whisky). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy whiskey sale online in Australia?",
-        "answer": "Order whiskey sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy scotch whisky online in Australia?",
+        "answer": "Order scotch whisky from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which scotch whisky brands do you sell?",
@@ -54,9 +54,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Doctors of Whisky lists 91 scotch whisky bottles across 19 brands, including Macallan, Laphroaig, Royal Salute and GlenDronach, priced from $48.99 to $14,999.99 AUD.",
       "The Macallan is a Speyside single malt distillery in Craigellachie, Scotland, licensed in 1824 and known for maturing its whisky in sherry-seasoned oak casks. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character. Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball.",
-      "To buy whiskey sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy scotch whisky online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "whiskey gift",
+      "macallan whiskey",
+      "whiskey gifts australia",
+      "royal salute",
+      "scotch whiskey",
+      "whisky malt single",
+      "singleton whiskey",
+      "dalmore whisky",
+      "single malt scotch whisky",
+      "rye whiskey",
       "macallan whisky",
       "best whiskey",
       "blended scotch whisky",
@@ -66,17 +76,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "premium scotch whiskey",
       "scotch malt whisky",
       "highland single malt whiskey",
-      "premium blended scotch",
-      "single malt scotch",
-      "whisky the dalmore",
-      "malt scotch whisky",
-      "blended scots whisky",
-      "highland malt scotch whiskey",
-      "scotch and whiskey blend",
-      "scotch whiskey brands",
-      "best scotch whisky",
-      "singleton whisky",
-      "highland single malt"
+      "premium blended scotch"
     ]
   },
   {
@@ -87,21 +87,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/bourbon/bourbon--tds-buffalo-trace-1l-45.jpg",
     "primaryKeyword": "buy bourbon online",
     "secondaryKeywords": [
+      "jack daniels",
       "bourbon",
+      "jim beam",
+      "jack daniels 700ml",
       "bourbon brands",
+      "jack daniels 1 litre",
+      "bourbon whiskey",
       "bourbon whiskey kentucky straight",
       "buffalo trace bourbon",
+      "jim beam bourbon",
       "jim beam bourbon whiskey",
-      "whisky buffalo trace bourbon",
-      "whiskey bourbon jim beam",
-      "wild turkey bourbon",
-      "buffalo trace kentucky bourbon",
-      "bulleit bourbon",
-      "bourbon a whiskey",
-      "wood reserve bourbon",
-      "bourbon woodford",
-      "1792 bourbon",
-      "australian bourbon"
+      "jack daniels 700ml price",
+      "jim beam 1 litre best price",
+      "jim beam bourbon 1 litre price",
+      "buy jack daniels"
     ],
     "faqs": [
       {
@@ -109,7 +109,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Bourbon Whiskey at Doctors of Whisky ranges from $43.99 AUD (Jim Beam White Label Kentucky Bourbon Whiskey) to $3,400 AUD (Pappy Van Winkle 15 Year Old Family Reserve Kentucky Bourbon). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy bourbon online online in Australia?",
+        "question": "Where can I buy jack daniels in Australia?",
         "answer": "Order buy bourbon online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -135,26 +135,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy bourbon online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "bourbon whiskey",
+      "whisky buffalo trace bourbon",
+      "jim beam 1 litre",
+      "jack daniels 1l",
+      "whiskey bourbon jim beam",
+      "wild turkey bourbon",
+      "buffalo trace kentucky bourbon",
+      "jack daniels whiskey",
+      "bulleit bourbon",
+      "jim beam 700ml",
+      "bourbon a whiskey",
+      "wood reserve bourbon",
+      "bourbon woodford",
+      "1792 bourbon",
+      "australian bourbon",
       "kentucky bourbon",
+      "700ml jack daniels",
+      "jack daniels bourbon",
+      "jim beam whiskey",
       "bourbon specials",
-      "woodford bourbon",
-      "premium bourbon whiskey",
-      "premium bourbon",
-      "buffalo trace bourbon whiskey",
-      "american bourbon",
-      "bourbon australia",
-      "cheap bourbon australia",
-      "bourbon on special",
-      "buffalo trace bourbon whisky",
-      "bourbon whisky",
-      "bourbon prices",
-      "bourbon reserve woodford",
-      "jack daniels bourbon whiskey",
-      "american bourbon whiskey",
-      "bourbon alcohol",
-      "wild turkey bourbon australia",
-      "whisky bourbon jack daniels"
+      "woodford bourbon"
     ]
   },
   {
@@ -165,21 +165,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/rye-whiskey/rye-whiskey--tds-elijah-craig-rye.jpg",
     "primaryKeyword": "whiskey & rye",
     "secondaryKeywords": [
+      "whisky",
+      "scotch",
+      "bourbon",
+      "japanese whiskey",
+      "single malt",
+      "starward whisky",
       "rye whiskey",
       "liquor rye",
       "rye spirit",
       "sazerac rye",
+      "rye for whiskey",
       "rye whiskey australia",
       "manhattan rye whiskey",
       "knob creek rye",
-      "rye bourbon",
-      "high west double rye",
-      "rye whiskeys",
-      "the gospel straight rye whiskey",
-      "canadian rye whiskey",
-      "minor case rye whiskey",
-      "whiskey in the rye",
-      "rye whiskey brands"
+      "whisky and rye"
     ],
     "faqs": [
       {
@@ -213,6 +213,14 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy whiskey & rye online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "rye bourbon",
+      "high west double rye",
+      "rye whiskeys",
+      "the gospel straight rye whiskey",
+      "canadian rye whiskey",
+      "minor case rye whiskey",
+      "whiskey in the rye",
+      "rye whiskey brands",
       "jack daniels rye",
       "best rye whiskey",
       "australian rye whiskey",
@@ -224,49 +232,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "rye whiskey types",
       "straight rye whiskey",
       "whiskey bourbon rye",
-      "bourbon rye whiskey",
-      "bourbon versus rye",
-      "good rye whiskey",
-      "rye whiskey recommendations",
-      "best rye bourbon",
-      "whisky",
-      "scotch",
-      "bourbon",
-      "japanese whiskey"
+      "bourbon rye whiskey"
     ]
   },
   {
     "slug": "japanese-whisky",
     "name": "Japanese Whisky",
     "category": "whisky",
-    "description": "Buy Japanese Whisky online in Australia: 23 bottles from Nikka, Hibiki and Yamazaki, priced from $90 to $7,599.99 AUD. Insured delivery, 18+ only.",
+    "description": "Nikka Whiskey: Buy Japanese Whisky online in Australia: 23 bottles from Nikka, Hibiki and Yamazaki, priced from $90 to $7,599.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/japanese-whisky/nikka--tds-nikka-12-2.jpg",
-    "primaryKeyword": "buy japanese whisky online",
+    "primaryKeyword": "nikka whiskey",
     "secondaryKeywords": [
+      "japanese whiskey",
+      "hibiki whiskey",
       "japanese whisky",
       "suntory 196",
+      "suntory whisky",
       "japanese gin",
       "nikka from the barrel",
-      "nikka whiskey",
+      "toki whiskey",
       "hibiki whisky",
       "yamazaki whiskey",
       "nikka whisky",
       "hibiki suntory whisky",
-      "nikka whisky from the barrel",
-      "japanese whiskey yamazaki",
-      "japanese single malt",
-      "best japanese whiskey",
-      "black nikka",
-      "suntory double lemon"
+      "nikka",
+      "japanese single malt whiskey",
+      "japanese scotch"
     ],
     "faqs": [
       {
-        "question": "How much does buy japanese whisky online cost in Australia?",
+        "question": "How much does nikka whiskey cost in Australia?",
         "answer": "Japanese Whisky at Doctors of Whisky ranges from $90 AUD (Nikka Coffey Malt Japanese Whisky) to $7,599.99 AUD (Hibiki 30 Year Old Blended Japanese Suntory Whisky). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy japanese whisky online online in Australia?",
-        "answer": "Order buy japanese whisky online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy nikka whiskey online in Australia?",
+        "answer": "Order nikka whiskey from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which japanese whisky brands do you sell?",
@@ -288,11 +288,15 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Japanese whisky follows Scottish production methods but is made in Japan, with distilleries such as Yoichi and Miyagikyo (Nikka) known for careful blending and a wide range of malts. Doctors of Whisky lists 23 japanese whisky bottles across 3 brands, including Nikka, Hibiki and Yamazaki, priced from $90 to $7,599.99 AUD.",
       "Nikka Whisky was founded by Masataka Taketsuru in 1934 and produces Japanese whisky at the Yoichi and Miyagikyo distilleries. Japanese whisky is often enjoyed neat, over a large ice sphere, or as a highball with chilled soda water.",
-      "To buy buy japanese whisky online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy nikka whiskey online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "japanese whiskey",
-      "hibiki whiskey",
+      "nikka whisky from the barrel",
+      "japanese whiskey yamazaki",
+      "japanese single malt",
+      "best japanese whiskey",
+      "black nikka",
+      "suntory double lemon",
       "hibiki japanese whiskey",
       "yamazaki whisky",
       "best japanese whisky",
@@ -301,16 +305,12 @@ export const SUBCATEGORIES: Subcategory[] = [
       "toki japanese whiskey",
       "nikka coffey grain",
       "barrel nikka",
+      "japanese blended whisky",
       "japanese blend whisky",
       "japanese single malt whisky",
       "japanese malt whiskey",
       "hibiki harmony whisky",
-      "nikka whiskey from the barrel",
-      "japanese bourbon",
-      "japanese whiskey brands",
-      "good japanese whiskey",
-      "best japanese scotch",
-      "fuji single blended japanese whisky"
+      "nikka whiskey from the barrel"
     ]
   },
   {
@@ -324,18 +324,18 @@ export const SUBCATEGORIES: Subcategory[] = [
       "starward whisky",
       "lark whiskey",
       "lark classic cask",
+      "australian bourbon",
       "best australian whisky",
       "australian whiskey brands",
       "australian single malt whisky",
       "best australian scotch",
       "australian spirits",
+      "lark single malt",
       "australian single malt whiskey",
       "australian made spirits",
       "lark tasmanian peated",
-      "lark symphony",
-      "lark cask strength",
-      "best australian whiskey",
-      "lark gift pack"
+      "starward single malt",
+      "lark single malt whisky"
     ],
     "faqs": [
       {
@@ -369,7 +369,9 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy lark whisky online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "australian bourbon",
+      "lark symphony",
+      "lark cask strength",
+      "best australian whiskey",
       "78 australian whiskey",
       "australian single malt",
       "lark whisky price",
@@ -386,9 +388,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
-      "lark st",
-      "lark whiskey tasmania"
+      "lark whisky review"
     ]
   },
   {
@@ -403,17 +403,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "absolut vodka",
       "cheap vodka",
       "absolute vodka",
+      "ciroc vodka",
       "cruiser vodka",
       "vodka bottle",
+      "ciroc",
       "tito's vodka",
       "gray goose vodka 1 liter",
       "vodka 1l",
       "vodka smirnoff",
-      "grey goose vodka 1l",
-      "grey goose vodka 1 litre",
-      "bottle of vodka",
-      "vodka cheap",
-      "cheapest vodka"
+      "vodka &",
+      "buy vodka online",
+      "vodka for sale online"
     ],
     "faqs": [
       {
@@ -447,6 +447,11 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy vodka online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "grey goose vodka 1l",
+      "grey goose vodka 1 litre",
+      "bottle of vodka",
+      "vodka cheap",
+      "cheapest vodka",
       "sky vodka",
       "vodka premix",
       "vodka cans",
@@ -461,12 +466,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "mini vodka",
       "vodka and prices",
       "vodka low cost",
-      "vodka flavours",
-      "alize vodka",
-      "vodka red",
-      "1 liter vodka",
-      "vodka bottles",
-      "o vodka"
+      "vodka flavours"
     ]
   },
   {
@@ -477,21 +477,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/russian-vodka/russian-vodka--tds-belenkaya-vodka.jpg",
     "primaryKeyword": "vodka sale",
     "secondaryKeywords": [
+      "smirnoff vodka",
+      "cheap vodka",
       "cruiser vodka",
+      "vodka bottle",
       "vodka to drink",
       "crystal head vodka",
+      "vodka 1l",
       "polish vodka",
       "russian vodka",
       "smirnoff vodka 1 litre",
-      "1l vodka",
-      "700ml vodka",
-      "absolut vanilla vodka",
-      "vodka 1 litre",
-      "vodka price",
-      "russian standard vodka",
-      "1 litre vodka",
-      "smirnoff distilled vodka",
-      "vodka 700ml"
+      "vodka smirnoff",
+      "bottle of vodka",
+      "vodka &",
+      "buy vodka online",
+      "vodka for sale online"
     ],
     "faqs": [
       {
@@ -525,13 +525,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy vodka sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "smirnoff vodka",
-      "vodka bottle",
-      "vodka 1l",
-      "vodka smirnoff",
-      "bottle of vodka",
       "vodka cheap",
       "cheapest vodka",
+      "1l vodka",
+      "700ml vodka",
+      "absolut vanilla vodka",
+      "vodka 1 litre",
+      "vodka price",
+      "russian standard vodka",
+      "1 litre vodka",
+      "smirnoff distilled vodka",
+      "vodka 700ml",
       "mini vodka",
       "skull head vodka",
       "vodka and prices",
@@ -540,11 +544,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "vodka cruiser raspberry",
       "best russian vodka",
       "1 liter vodka",
-      "vodka bottles",
-      "1 litre smirnoff vodka",
-      "smirnoff red label vodka",
-      "crystal head skull vodka",
-      "o vodka"
+      "vodka bottles"
     ]
   },
   {
@@ -555,21 +555,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/polish-vodka/polish-vodka--tds-belvedere-1l.jpg",
     "primaryKeyword": "vodka for sale",
     "secondaryKeywords": [
+      "absolut vodka",
+      "cheap vodka",
       "ciroc vodka",
+      "vodka bottle",
+      "vodka to drink",
+      "tito's vodka",
       "ketel one vodka",
-      "belvedere vodka 1l",
-      "flavoured vodka",
-      "polish beer",
-      "lychee vodka",
-      "titos vodka",
-      "500ml vodka",
-      "blck vodka",
-      "wyborowa vodka",
-      "alize vodka",
-      "vodka red",
-      "chopin polish vodka",
-      "litchi vodka",
-      "grass vodka zubrowka"
+      "vodka 1l",
+      "crystal head vodka",
+      "polish vodka",
+      "russian vodka",
+      "vodka &",
+      "chopin vodka",
+      "buy vodka online",
+      "vodka for sale online"
     ],
     "faqs": [
       {
@@ -603,60 +603,60 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy vodka for sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "absolut vodka",
-      "vodka to drink",
-      "tito's vodka",
-      "vodka 1l",
-      "crystal head vodka",
-      "polish vodka",
-      "russian vodka",
-      "200ml vodka",
-      "passion vodka",
-      "tangle vodka",
-      "100 vodka proof",
-      "polish wodka",
-      "absolut vodka miniature",
-      "absolut vodka mini",
-      "bulk vodka",
-      "chopin potato vodka",
-      "tito's vodka handmade",
-      "polish vodka australia",
-      "polish cherry vodka",
-      "vodka chopin potato"
+      "bottle of vodka",
+      "vodka cheap",
+      "cheapest vodka",
+      "belvedere vodka 1l",
+      "flavoured vodka",
+      "1l vodka",
+      "700ml vodka",
+      "vodka 1 litre",
+      "polish beer",
+      "vodka price",
+      "1 litre vodka",
+      "vodka 700ml",
+      "lychee vodka",
+      "titos vodka",
+      "500ml vodka",
+      "vodka and prices",
+      "blck vodka",
+      "wyborowa vodka",
+      "alize vodka",
+      "vodka red"
     ]
   },
   {
     "slug": "grey-goose",
     "name": "Grey Goose",
     "category": "spirit",
-    "description": "Grey Goose Bottle: Buy Grey Goose online in Australia: 11 bottles from Grey Goose, priced from $95 to $305 AUD. Insured delivery, 18+ only.",
+    "description": "Grey Goose Vodka 700ml: Buy Grey Goose online in Australia: 11 bottles from Grey Goose, priced from $95 to $305 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/grey-goose/grey-goose--tds-grey-goose-1l.jpg",
-    "primaryKeyword": "grey goose bottle",
+    "primaryKeyword": "grey goose vodka 700ml",
     "secondaryKeywords": [
       "grey goose 1l",
       "grey goose 1 litre",
+      "gray goose vodka 1 liter",
       "1l grey goose",
+      "grey goose vodka 1l",
+      "grey goose vodka 1 litre",
       "grey grouse scotch",
+      "grey goose bottle",
       "gray goose 1l",
       "grey goose cost",
       "gray goose cost",
       "price of grey goose vodka 1 litre",
       "1 liter grey goose",
       "grey goose 1 litre best price",
-      "cost of gray goose vodka",
-      "gray goose vodka cost",
-      "grey goose vodka cost",
-      "1 liter grey goose cost",
-      "grey goose vodka bottle"
+      "goose vodka price"
     ],
     "faqs": [
       {
-        "question": "How much does grey goose bottle cost in Australia?",
+        "question": "How much does grey goose vodka 700ml cost in Australia?",
         "answer": "Grey Goose at Doctors of Whisky ranges from $95 AUD (Grey Goose Vx Gb) to $305 AUD (Grey Goose 1L). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy grey goose bottle online in Australia?",
-        "answer": "Order grey goose bottle from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy grey goose vodka 700ml online in Australia?",
+        "answer": "Order grey goose vodka 700ml from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which grey goose brands do you sell?",
@@ -678,18 +678,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Doctors of Whisky lists 11 grey goose bottles across 1 brand, including Grey Goose, priced from $95 to $305 AUD.",
       "Grey Goose is a French vodka made in the Cognac region from winter wheat and spring water. Serve Grey Goose very cold, in a martini, or with soda and lemon or lime.",
-      "To buy grey goose bottle online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy grey goose vodka 700ml online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "gray goose vodka 1 liter",
-      "grey goose vodka 1l",
-      "grey goose vodka 1 litre",
+      "cost of gray goose vodka",
+      "gray goose vodka cost",
+      "grey goose vodka cost",
+      "1 liter grey goose cost",
+      "grey goose vodka bottle",
       "grey goose 1 liter",
       "grey goose one litre",
       "bottle of gray goose",
       "grey goose vodka 200ml",
       "grey grouse whiskey",
       "giant grey goose bottle",
+      "goose vodka 1l",
       "200ml grey goose",
       "700ml grey goose",
       "700ml grey goose vodka",
@@ -697,44 +700,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "grey goose vodka 4.5 litre",
       "grey goose 200ml",
       "grey goose 1.75 liter",
-      "earl grey gin",
-      "grey goose vodka 1 l",
-      "grey goose 1 l",
-      "1 l grey goose vodka"
+      "earl grey gin"
     ]
   },
   {
     "slug": "belvedere",
     "name": "Belvedere",
     "category": "spirit",
-    "description": "Belvedere Vodka Price: Buy Belvedere online in Australia: 7 bottles from Belvedere, priced from $60 to $265 AUD. Insured delivery, 18+ only.",
+    "description": "Vodka Belvedere: Buy Belvedere online in Australia: 7 bottles from Belvedere, priced from $60 to $265 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/belvedere/belvedere--tds-belvedere-1l.jpg",
-    "primaryKeyword": "belvedere vodka price",
+    "primaryKeyword": "vodka belvedere",
     "secondaryKeywords": [
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
       "belvedere vodka",
-      "belvedere vodka 700ml",
-      "belvedere 1l",
-      "the belvedere reviews",
-      "belvedere apartments",
-      "belvedere vodka 1 litre",
-      "belvedere organic vodka",
-      "belvedere rd",
-      "belvedere cost",
-      "belvedere 700ml",
-      "belvedere 1 litre",
-      "1l belvedere vodka",
-      "belvedere vodka cost",
-      "belvedere 1.75 l",
-      "belvedere 1.75 liter"
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
+      "absolute vodka",
+      "vodka belvedere 700ml",
+      "belvedere liquor",
+      "belvedere vodka price",
+      "belvedere price vodka"
     ],
     "faqs": [
       {
-        "question": "How much does belvedere vodka price cost in Australia?",
+        "question": "How much does vodka belvedere cost in Australia?",
         "answer": "Belvedere at Doctors of Whisky ranges from $60 AUD (Belvedere 375ml) to $265 AUD (Belvedere 1L). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy belvedere vodka price online in Australia?",
-        "answer": "Order belvedere vodka price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy vodka belvedere online in Australia?",
+        "answer": "Order vodka belvedere from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which belvedere brands do you sell?",
@@ -756,29 +756,29 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Belvedere is a Polish rye vodka, known for a creamy texture and a subtle vanilla and pepper finish. Doctors of Whisky lists 7 belvedere bottles across 1 brand, including Belvedere, priced from $60 to $265 AUD.",
       "Belvedere is a Polish rye vodka made at the Dobrogniewice distillery. Serve Belvedere ice-cold and neat, or in a dry martini.",
-      "To buy belvedere vodka price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy vodka belvedere online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "belvedere vodka 1l",
-      "belvedere vodka 1.75 liter",
-      "belvedere vidka",
-      "belvedere 1 liter",
-      "belvedere vodka 6 litre",
-      "belvedere 1.75 litre",
-      "belvedere vodka 1.75 litre",
-      "belvedere vodka 1.75 l",
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
       "clase azul tequila",
-      "azul tequila"
+      "azul tequila",
+      "spiced rum",
+      "captain morgan spiced rum",
+      "belvedere vodka 700ml",
+      "belvedere vodka 1l",
+      "belvedere 1l",
+      "the belvedere reviews",
+      "belvedere apartments",
+      "belvedere vodka 1 litre",
+      "belvedere organic vodka",
+      "belvedere rd",
+      "belvedere cost",
+      "belvedere 700ml",
+      "belvedere 1 litre",
+      "1l belvedere vodka",
+      "belvedere vodka cost",
+      "belvedere 1.75 l",
+      "belvedere 1.75 liter",
+      "belvedere vodka 1.75 liter"
     ]
   },
   {
@@ -789,21 +789,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/mezcal/mezcal--tds-guerrero-mezcal-50ml-nohat.jpg",
     "primaryKeyword": "buy mezcal online australia",
     "secondaryKeywords": [
-      "mezcal vs tequila",
-      "400 conejos mezcal",
-      "kimo sabe mezcal",
-      "madre mezcal",
-      "tequila vs mezcal",
-      "mezcal brands",
-      "mezcal australia",
-      "discover mezcal",
-      "del maguey mezcal",
-      "best mezcal",
-      "kimo sabe mezcal review",
-      "bozal mezcal",
       "tequila",
       "gin",
-      "cognac"
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
+      "absolute vodka",
+      "clase azul tequila",
+      "azul tequila",
+      "spiced rum",
+      "captain morgan spiced rum"
     ],
     "faqs": [
       {
@@ -837,18 +837,6 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy mezcal online australia online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "smirnoff vodka",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
-      "clase azul tequila",
-      "azul tequila",
-      "spiced rum",
-      "captain morgan spiced rum",
       "gin gifts",
       "gin gifts australia",
       "orange liqueur",
@@ -856,16 +844,28 @@ export const SUBCATEGORIES: Subcategory[] = [
       "bacardi white rum",
       "rum with spices",
       "gin gift packs",
-      "germain liqueur"
+      "germain liqueur",
+      "don julio tequila",
+      "sierra tequila",
+      "mezcal vs tequila",
+      "400 conejos mezcal",
+      "kimo sabe mezcal",
+      "madre mezcal",
+      "tequila vs mezcal",
+      "mezcal brands",
+      "mezcal australia",
+      "discover mezcal",
+      "del maguey mezcal",
+      "best mezcal"
     ]
   },
   {
     "slug": "patron",
     "name": "Patrón",
     "category": "spirit",
-    "description": "Buy Patrón online in Australia: 11 bottles from Patron, priced from $160 to $890 AUD. Insured delivery, 18+ only.",
+    "description": "Patron Tequila Price: Buy Patrón online in Australia: 11 bottles from Patron, priced from $160 to $890 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/patron/patron--tds-patron-50ml-collection.jpg",
-    "primaryKeyword": "patron price",
+    "primaryKeyword": "patron tequila price",
     "secondaryKeywords": [
       "patron",
       "patron tequila",
@@ -881,16 +881,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "patron tequila silver",
       "patron silver tequila 700ml",
       "tequila patron añejo",
-      "patron xo"
+      "patron price"
     ],
     "faqs": [
       {
-        "question": "How much does patron price cost in Australia?",
+        "question": "How much does patron tequila price cost in Australia?",
         "answer": "Patrón at Doctors of Whisky ranges from $160 AUD (Patron Collection Patrón) to $890 AUD (Gran Patrón Burdeos Extra Añejo Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy patron price online in Australia?",
-        "answer": "Order patron price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy patron tequila price online in Australia?",
+        "answer": "Order patron tequila price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which patrón brands do you sell?",
@@ -912,9 +912,10 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Doctors of Whisky lists 11 patrón bottles across 1 brand, including Patron, priced from $160 to $890 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Sip Patrón neat or chilled, or use the Silver in a margarita or Paloma.",
-      "To buy patron price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy patron tequila price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "patron xo",
       "patron cafe",
       "patron mini",
       "patron tequila alcohol",
@@ -933,23 +934,21 @@ export const SUBCATEGORIES: Subcategory[] = [
       "tequila patron coffee",
       "small patron bottle",
       "little patron bottles",
-      "mini patron tequila bottles",
-      "cost of patron silver tequila"
+      "mini patron tequila bottles"
     ]
   },
   {
     "slug": "don-julio",
     "name": "Don Julio",
     "category": "spirit",
-    "description": "Don Julio 1942 Price: Buy Don Julio online in Australia: 11 bottles from Don Julio, priced from $100 to $990 AUD. Insured delivery, 18+ only.",
+    "description": "Don Julio Brands: Buy Don Julio online in Australia: 11 bottles from Don Julio, priced from $100 to $990 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/don-julio/don-julio--tds-don-julio-1942-50ml.jpg",
-    "primaryKeyword": "don julio 1942 price",
+    "primaryKeyword": "don julio brands",
     "secondaryKeywords": [
       "don julio",
       "don julio 1942",
       "don julio tequila",
       "1942 tequila",
-      "don julio brands",
       "1942 don julio",
       "don julio reposado",
       "reposado don julio",
@@ -959,16 +958,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "tequila don julio",
       "tequila don julio 1942",
       "don julio blanco tequila",
-      "don julio reposado tequila"
+      "don julio reposado tequila",
+      "don julio 1942 price"
     ],
     "faqs": [
       {
-        "question": "How much does don julio 1942 price cost in Australia?",
+        "question": "How much does don julio brands cost in Australia?",
         "answer": "Don Julio at Doctors of Whisky ranges from $100 AUD (Don Julio Peggy Gou) to $990 AUD (Don Julio 1942 Ultima Reserva Extra Añejo Tequila). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy don julio 1942 price online in Australia?",
-        "answer": "Order don julio 1942 price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy don julio brands online in Australia?",
+        "answer": "Order don julio brands from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which don julio brands do you sell?",
@@ -990,7 +990,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Don Julio is a premium tequila from Jalisco, Mexico, founded by Don Julio González in 1942 and made from blue agave. Doctors of Whisky lists 11 don julio bottles across 1 brand, including Don Julio, priced from $100 to $990 AUD.",
       "Don Julio was founded in 1942 by Don Julio González in Atotonilco el Alto, Jalisco, and is a premium blue agave tequila. Sip Don Julio Reposado and Añejo neat, and use Blanco in a margarita or Paloma.",
-      "To buy don julio 1942 price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy don julio brands online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "don julio tequila reposado",
@@ -1023,21 +1023,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/jose-cuervo/jose-cuervo--tds-jose-cuervo-cristalino-anejo.jpg",
     "primaryKeyword": "jose cuervo blue agave tequila",
     "secondaryKeywords": [
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
       "jose cuervo",
-      "jose cuervo tequila",
-      "jose cuervo 1l",
-      "cuervo tequila",
-      "jose cuervo silver",
-      "jose cuervo blue agave",
-      "jose cuervo tequila silver",
-      "jose cuervo especial blue agave",
-      "jose cuervo marg",
-      "john cuervo tequila",
-      "josé cuervo",
-      "tequila jose cuervo silver",
-      "jose cuervo silver tequila",
-      "jose cuervo agave",
-      "tequila jose cuervo 1l"
+      "absolute vodka",
+      "clase azul tequila",
+      "azul tequila",
+      "spiced rum"
     ],
     "faqs": [
       {
@@ -1071,26 +1071,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy jose cuervo blue agave tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "captain morgan spiced rum",
+      "gin gifts",
+      "jose cuervo tequila",
+      "jose cuervo 1l",
+      "cuervo tequila",
+      "jose cuervo silver",
+      "jose cuervo blue agave",
+      "jose cuervo tequila silver",
+      "jose cuervo especial blue agave",
+      "jose cuervo marg",
+      "john cuervo tequila",
+      "josé cuervo",
+      "tequila jose cuervo silver",
+      "jose cuervo silver tequila",
+      "jose cuervo agave",
+      "tequila jose cuervo 1l",
       "jose cuervo tequila agave",
       "blue agave tequila jose cuervo",
       "tequila cuervo gold",
-      "gold tequila jose cuervo",
-      "gold jose cuervo tequila",
-      "jose cuervo tequila 1l",
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
-      "clase azul tequila",
-      "azul tequila",
-      "spiced rum"
+      "gold tequila jose cuervo"
     ]
   },
   {
@@ -1101,21 +1101,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/white-tequila/white-tequila--tds-cabo-wabo-blanco-new.jpg",
     "primaryKeyword": "buy tequila online",
     "secondaryKeywords": [
+      "tequila",
+      "patron tequila",
       "clase azul tequila",
       "azul tequila",
       "sierra tequila",
       "blanco tequila",
       "patrón tequila",
       "tequila blanco",
+      "patron silver tequila",
+      "1942 tequila anejo",
       "tequila reposado",
       "silver tequila",
       "casamigos reposado tequila",
-      "tequila bottle",
-      "herradura tequila",
-      "tequila australia",
-      "casa azul tequila",
-      "white and blue bottle of tequila",
-      "don julio tequila reposado"
+      "tequila for sale",
+      "tequila sale"
     ],
     "faqs": [
       {
@@ -1149,15 +1149,18 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy tequila online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "tequila",
-      "patron tequila",
-      "patron silver tequila",
-      "1942 tequila anejo",
+      "tequila bottle",
+      "herradura tequila",
       "tequila don julio reposado",
+      "affordable tequila",
+      "tequila australia",
+      "casa azul tequila",
       "tequila patron",
       "tequila don julio",
       "tequila don julio 1942",
       "don julio blanco tequila",
+      "white and blue bottle of tequila",
+      "don julio tequila reposado",
       "tequila azul",
       "white tequila",
       "tequila sierra",
@@ -1165,10 +1168,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "patron tequila silver",
       "tequila 1l",
       "blue tequila",
-      "tequila bottles",
-      "tequila specials",
-      "fancy tequila",
-      "tequila patron añejo"
+      "tequila bottles"
     ]
   },
   {
@@ -1179,21 +1179,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/gold-tequila/gold-tequila--tds-cabo-wabo-anejo-new.jpg",
     "primaryKeyword": "buy tequila",
     "secondaryKeywords": [
+      "tequila",
+      "patron tequila",
+      "sierra tequila",
+      "jose cuervo tequila",
+      "blanco tequila",
+      "reposado tequila",
+      "patrón tequila",
+      "patron silver tequila",
+      "1942 tequila anejo",
+      "tequila blanco",
       "1800 anejo",
       "tequila 1800",
-      "white tequila",
-      "tequila sierra",
-      "captain morgan spiced gold",
-      "1800 silver tequila",
-      "gold label whiskey",
-      "tequila 1l",
-      "tequila bottles",
-      "tequila specials",
-      "tequila silver",
-      "tequila 700ml",
-      "tequila 818",
-      "tequila price",
-      "tequila deals"
+      "tequila don julio reposado",
+      "tequila for sale",
+      "tequila sale"
     ],
     "faqs": [
       {
@@ -1227,25 +1227,25 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "tequila",
-      "patron tequila",
-      "sierra tequila",
-      "jose cuervo tequila",
-      "blanco tequila",
-      "patrón tequila",
-      "patron silver tequila",
-      "1942 tequila anejo",
-      "tequila blanco",
-      "tequila don julio reposado",
       "silver tequila",
       "tequila bottle",
+      "tequila reposado",
+      "affordable tequila",
       "tequila patron",
       "tequila don julio",
       "tequila don julio 1942",
       "don julio blanco tequila",
       "tequila australia",
+      "white tequila",
+      "tequila sierra",
+      "captain morgan spiced gold",
       "white and blue bottle of tequila",
       "don julio tequila reposado",
+      "1800 silver tequila",
+      "gold label whiskey",
+      "tequila 1l",
+      "tequila bottles",
+      "tequila specials",
       "patron tequila silver"
     ]
   },
@@ -1253,9 +1253,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "spiced-rum",
     "name": "Spiced Rum",
     "category": "spirit",
-    "description": "Buy Rum: Buy Spiced Rum online in Australia: 10 bottles from Kraken, Captain and Bacardi, priced from $55 to $160 AUD. Insured delivery, 18+ only.",
+    "description": "Kraken Black Spiced Rum: Buy Spiced Rum online in Australia: 10 bottles from Kraken, Captain and Bacardi, priced from $55 to $160 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg",
-    "primaryKeyword": "buy rum",
+    "primaryKeyword": "kraken black spiced rum",
     "secondaryKeywords": [
       "rum",
       "kraken rum",
@@ -1264,23 +1264,23 @@ export const SUBCATEGORIES: Subcategory[] = [
       "bacardi white rum",
       "rum with spices",
       "coconut rum",
-      "kraken black spiced rum",
       "bacardi rum",
       "dark rum",
       "caribbean rum",
       "captain morgan rum",
       "plantation rum",
-      "premium rum",
-      "bacardi spiced rum"
+      "buy rum",
+      "the kraken spiced rum",
+      "captain rum spiced"
     ],
     "faqs": [
       {
-        "question": "How much does buy rum cost in Australia?",
+        "question": "How much does kraken black spiced rum cost in Australia?",
         "answer": "Spiced Rum at Doctors of Whisky ranges from $55 AUD (Bacardi Oakheart Spiced Rum) to $160 AUD (Kraken Unknown Copper Scar Spiced Rum). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy rum online in Australia?",
-        "answer": "Order buy rum from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy rum in Australia?",
+        "answer": "Order kraken black spiced rum from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which spiced rum brands do you sell?",
@@ -1302,9 +1302,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Doctors of Whisky lists 10 spiced rum bottles across 3 brands, including Kraken, Captain and Bacardi, priced from $55 to $160 AUD.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice.",
-      "To buy buy rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy kraken black spiced rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "premium rum",
+      "bacardi spiced rum",
       "havana club rum",
       "light rum",
       "op rum",
@@ -1322,43 +1324,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "bottle of rum",
       "rum bottle",
       "bundaberg rum 700ml",
-      "rum australia",
-      "rum brands",
-      "kraken coffee rum"
+      "rum australia"
     ]
   },
   {
     "slug": "white-rum",
     "name": "White Rum",
     "category": "spirit",
-    "description": "Rum For Sale: Buy White Rum online in Australia: 5 bottles from Bacardi, Captain and Probitas, priced from $45 to $180 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Rum: Buy White Rum online in Australia: 5 bottles from Bacardi, Captain and Probitas, priced from $45 to $180 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/white-rum/white-rum--tds-bacardi-blanca-200.jpg",
-    "primaryKeyword": "rum for sale",
+    "primaryKeyword": "buy rum",
     "secondaryKeywords": [
+      "rum",
       "kraken rum",
+      "spiced rum",
+      "captain morgan spiced rum",
+      "bacardi white rum",
+      "rum with spices",
       "kraken black spiced rum",
-      "havana club rum",
-      "light rum",
-      "op rum",
-      "black rum",
-      "overproof rum",
-      "rum in a bottle",
-      "black spiced rum kraken",
-      "bundaberg red rum",
-      "australian rum",
-      "cuban rum",
-      "bottle of rum",
-      "rum bottle",
-      "bundaberg rum 700ml"
+      "bacardi rum",
+      "dark rum",
+      "caribbean rum",
+      "captain morgan rum",
+      "plantation rum",
+      "premium rum",
+      "bacardi sale",
+      "rum for sale"
     ],
     "faqs": [
       {
-        "question": "How much does rum for sale cost in Australia?",
+        "question": "How much does buy rum cost in Australia?",
         "answer": "White Rum at Doctors of Whisky ranges from $45 AUD (Bacardi Blanca 200 White Rum) to $180 AUD (Probitas White Rum). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy rum for sale online in Australia?",
-        "answer": "Order rum for sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy buy rum online in Australia?",
+        "answer": "Order buy rum from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which white rum brands do you sell?",
@@ -1380,29 +1380,29 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "White rum is a light, usually unaged or lightly aged rum used in mojitos, daiquiris and piña coladas. Doctors of Whisky lists 5 white rum bottles across 4 brands, including Bacardi, Captain, Probitas and Saint, priced from $45 to $180 AUD.",
       "Use white rum in mojitos and daiquiris, or with cola and lime.",
-      "To buy rum for sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy buy rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "rum",
-      "spiced rum",
-      "captain morgan spiced rum",
-      "bacardi white rum",
-      "rum with spices",
-      "bacardi rum",
-      "dark rum",
-      "caribbean rum",
-      "captain morgan rum",
-      "plantation rum",
-      "premium rum",
+      "havana club rum",
+      "light rum",
+      "op rum",
+      "black rum",
+      "overproof rum",
+      "rum in a bottle",
+      "black spiced rum kraken",
+      "bundaberg red rum",
+      "australian rum",
+      "cuban rum",
+      "best rum",
+      "bottle of rum",
+      "rum bottle",
+      "bundaberg rum 700ml",
       "rum australia",
       "rum brands",
       "kraken coffee rum",
       "banana rum",
       "black bart rum",
-      "rum cans",
-      "rum kraken spiced",
-      "bacardi rum superior white",
-      "bacardi superior white rum"
+      "rum cans"
     ]
   },
   {
@@ -1413,6 +1413,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/gin/gin--tds-bombay-sapphire-be97ac0d-3a44-4d13-b66c-ecd440264060.jpg",
     "primaryKeyword": "buy gin online",
     "secondaryKeywords": [
+      "gin",
       "pink gin",
       "gin gifts",
       "gin gifts australia",
@@ -1424,10 +1425,9 @@ export const SUBCATEGORIES: Subcategory[] = [
       "gin brands",
       "gin gift pack",
       "gin specials",
-      "gin and tonic cans",
-      "gin bottle",
-      "flavoured gin",
-      "gin gift set"
+      "gin sale",
+      "gin for sale",
+      "buy gin australia"
     ],
     "faqs": [
       {
@@ -1435,7 +1435,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Gin at Doctors of Whisky ranges from $55 AUD (Gordons Gin) to $175 AUD (Def Leppard Animal Gin). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy gin online online in Australia?",
+        "question": "Where can I buy gin australia in Australia?",
         "answer": "Order buy gin online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -1461,7 +1461,10 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy gin online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "gin",
+      "gin and tonic cans",
+      "gin bottle",
+      "flavoured gin",
+      "gin gift set",
       "gin alcohol",
       "gin premix",
       "gin and tonic premix",
@@ -1477,44 +1480,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "buy gin online australia",
       "cal gin",
       "le tribute gin",
-      "australia gin",
-      "gin australia",
-      "gin and tonic can",
-      "gin and tonic in a can"
+      "australia gin"
     ]
   },
   {
     "slug": "baijiu",
     "name": "Baijiu",
     "category": "spirit",
-    "description": "Moutai Price: Buy Baijiu online in Australia: 6 bottles from Shui, Moutai and Xijiu, priced from $145 to $850 AUD. Insured delivery, 18+ only.",
+    "description": "Kweichow Moutai: Buy Baijiu online in Australia: 6 bottles from Shui, Moutai and Xijiu, priced from $145 to $850 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/baijiu/baijiu--tds-moutai-by-camus-new.jpg",
-    "primaryKeyword": "moutai price",
+    "primaryKeyword": "kweichow moutai",
     "secondaryKeywords": [
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
       "coffee liqueur",
       "orange liqueur",
-      "germain liqueur",
-      "black sambuca",
-      "black bottle brandy",
-      "kweichow moutai",
-      "cherry brandy",
-      "baileys liqueur",
-      "hazelnut liqueur",
-      "sky vodka",
-      "louis xiii cognac",
-      "kahlua coffee liqueur",
-      "chinese baijiu",
-      "baijiu alcohol",
-      "moutai wine"
+      "absolute vodka",
+      "clase azul tequila",
+      "moutai price",
+      "price moutai"
     ],
     "faqs": [
       {
-        "question": "How much does moutai price cost in Australia?",
+        "question": "How much does kweichow moutai cost in Australia?",
         "answer": "Baijiu at Doctors of Whisky ranges from $145 AUD (Shui Jing Fang Red Fortune Baijiu) to $850 AUD (Kweichow Moutai Flying Fairy Baijiu 53% 500ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy moutai price online in Australia?",
-        "answer": "Order moutai price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy kweichow moutai online in Australia?",
+        "answer": "Order kweichow moutai from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which baijiu brands do you sell?",
@@ -1536,63 +1536,63 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Baijiu is a Chinese grain spirit, traditionally made from sorghum and fermented with qu, usually bottled at high strength. Doctors of Whisky lists 6 baijiu bottles across 3 brands, including Shui, Moutai and Xijiu, priced from $145 to $850 AUD.",
       "Baijiu is traditionally sipped neat from small cups with food and toasts.",
-      "To buy moutai price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy kweichow moutai online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "kweichow moutai 500ml",
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "absolute vodka",
-      "clase azul tequila",
       "azul tequila",
       "spiced rum",
       "captain morgan spiced rum",
       "gin gifts",
       "gin gifts australia",
+      "germain liqueur",
       "ciroc vodka",
       "bacardi white rum",
-      "rum with spices"
+      "rum with spices",
+      "gin gift packs",
+      "don julio tequila",
+      "black sambuca",
+      "black bottle brandy",
+      "cherry brandy",
+      "baileys liqueur",
+      "hazelnut liqueur",
+      "sky vodka",
+      "louis xiii cognac",
+      "kahlua coffee liqueur",
+      "chinese baijiu"
     ]
   },
   {
     "slug": "cognac-brandy",
     "name": "Cognac & Brandy",
     "category": "spirit",
-    "description": "Buy Brandy Online: Buy Cognac & Brandy online in Australia: 37 bottles from Courvoisier, Martell and Coquerel, priced from $74.99 to $5,400 AUD. Insured delivery, 18+ only.",
+    "description": "Hennessy Cognac: Buy Cognac & Brandy online in Australia: 37 bottles from Courvoisier, Martell and Coquerel, priced from $74.99 to $5,400 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/cognac-brandy/martell--tds-martell-blue-swift-90a7dfbe-881b-48a1-9ac0-b4e9564f57bf.jpg",
-    "primaryKeyword": "buy brandy online",
+    "primaryKeyword": "hennessy cognac",
     "secondaryKeywords": [
+      "cognac",
       "hennessy xo",
       "martell",
       "martell blue swift",
       "martell swift blue",
-      "hennessy cognac",
+      "armagnac",
+      "black bottle brandy",
       "martell vsop",
       "martell xo",
+      "cherry brandy",
+      "louis xiii cognac",
       "hennessy vs cognac",
-      "martell cordon bleu",
-      "brandy alcohol",
-      "xo cognac",
-      "hennessy xo cognac",
-      "cognac vsop france",
-      "martell cognac xo",
-      "cognac hennessy paradis"
+      "martell cognac",
+      "buy brandy online",
+      "hennessy cognac price"
     ],
     "faqs": [
       {
-        "question": "How much does buy brandy online cost in Australia?",
+        "question": "How much does hennessy cognac cost in Australia?",
         "answer": "Cognac & Brandy at Doctors of Whisky ranges from $74.99 AUD (Janneau 12 Year Old Grand Armagnac) to $5,400 AUD (Louis XIII de Rémy Martin Grande Champagne Cognac). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy brandy online online in Australia?",
-        "answer": "Order buy brandy online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy brandy online in Australia?",
+        "answer": "Order hennessy cognac from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which cognac & brandy brands do you sell?",
@@ -1614,13 +1614,16 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Doctors of Whisky lists 37 cognac & brandy bottles across 18 brands, including Courvoisier, Martell, Coquerel and Camus, priced from $74.99 to $5,400 AUD.",
       "Martell is the oldest of the great Cognac houses, founded in 1715 by Jean Martell. Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar.",
-      "To buy buy brandy online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy hennessy cognac online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "cognac",
-      "black bottle brandy",
-      "cherry brandy",
-      "louis xiii cognac",
+      "martell cordon bleu",
+      "brandy alcohol",
+      "xo cognac",
+      "hennessy xo cognac",
+      "cognac vsop france",
+      "martell cognac xo",
+      "cognac hennessy paradis",
       "remy martin xo",
       "cognac brandy",
       "martell konjak",
@@ -1633,44 +1636,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "remy martin xo cognac",
       "hennesy cognac",
       "hennessy is a cognac",
-      "louis thirteenth cognac",
-      "hennessy and cognac",
-      "hennessy whiskey",
-      "french cognac"
+      "louis thirteenth cognac"
     ]
   },
   {
     "slug": "baileys-irish-cream",
     "name": "Baileys Irish Cream",
     "category": "spirit",
-    "description": "Baileys Price: Buy Baileys Irish Cream online in Australia: 11 bottles from Baileys, Maverick and Sheridans, priced from $35 to $85 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Baileys Irish Cream online in Australia: 11 bottles from Baileys, Maverick and Sheridans, priced from $35 to $85 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/baileys-irish-cream/baileys-irish-cream--tds-baileys-1l.jpg",
-    "primaryKeyword": "baileys price",
+    "primaryKeyword": "irish cream",
     "secondaryKeywords": [
       "baileys",
       "baileys irish cream",
       "baileys irish cream whiskey",
-      "irish cream",
       "jameson irish whiskey",
+      "baileys liqueur",
       "baileys irish cream 1l",
       "baileys 1l",
+      "baileys irish cream liqueur",
+      "liqueur baileys",
       "baileys irish cream 1 litre",
       "baileys irish cream 1 litre best price",
       "baileys 700ml",
       "choc baileys",
       "baileys strawberry and cream",
-      "one litre baileys",
-      "baileys flavours",
-      "flavored baileys"
+      "baileys price"
     ],
     "faqs": [
       {
-        "question": "How much does baileys price cost in Australia?",
+        "question": "How much does irish cream cost in Australia?",
         "answer": "Baileys Irish Cream at Doctors of Whisky ranges from $35 AUD (Baileys Cinnamon Scroll Baileys Irish Cream) to $85 AUD (Maverick Cowboy Butterscotch 1750ml Baileys Irish Cream). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy baileys price online in Australia?",
-        "answer": "Order baileys price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy irish cream online in Australia?",
+        "answer": "Order irish cream from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which baileys irish cream brands do you sell?",
@@ -1692,10 +1692,12 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Baileys Irish Cream is a liqueur made from Irish whiskey and cream, first launched in 1974. Doctors of Whisky lists 11 baileys irish cream bottles across 3 brands, including Baileys, Maverick and Sheridans, priced from $35 to $85 AUD.",
       "Baileys is an Irish cream liqueur made from Irish whiskey and cream, launched in Dublin in 1974. Serve Baileys over ice, stirred into coffee, or poured over dessert.",
-      "To buy baileys price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy irish cream online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "baileys liqueur",
+      "one litre baileys",
+      "baileys flavours",
+      "flavored baileys",
       "baileys irish cream liqueur 1 litre",
       "baileys liqueur 1l",
       "baileys 1 litre",
@@ -1712,43 +1714,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "baileys chocolate liqueur",
       "baileys irish cream abv",
       "baileys 1 liter",
-      "cream liqueur liqueurs",
-      "baileys irish cream specials",
-      "baileys bristol cream"
+      "cream liqueur liqueurs"
     ]
   },
   {
     "slug": "coffee-liqueur",
     "name": "Coffee Liqueur",
     "category": "spirit",
-    "description": "Buy Coffee Liqueur online in Australia: 10 bottles from Patron, Sheridans and Kahlua, priced from $55 to $85 AUD. Insured delivery, 18+ only.",
+    "description": "Kahlua Liquor: Buy Coffee Liqueur online in Australia: 10 bottles from Patron, Sheridans and Kahlua, priced from $55 to $85 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/coffee-liqueur/coffee-liqueur--tds-avion-espresso-tequila.jpg",
-    "primaryKeyword": "kahlua price",
+    "primaryKeyword": "kahlua liquor",
     "secondaryKeywords": [
+      "tequila",
+      "gin",
       "kahlua",
-      "kahlua liquor",
+      "coffee liqueur",
+      "kahlua liqueur",
+      "kahlua coffee liqueur",
+      "kahlua price",
       "coffee and liqueur",
       "kahlua and coffee liqueur",
+      "coffee tequila",
+      "coffee liquor",
       "coffee whiskey",
       "kahlua 1 litre",
       "best coffee liqueur",
-      "kahlua liqueur coffee",
-      "kahlua 1l",
-      "liqueur coffee",
-      "coffee liquour",
-      "mr black coffee liqueur 700ml",
-      "alcohol percentage kahlua",
-      "kahlua liqueur alcohol content",
-      "kahlua 1 litre best price"
+      "kahlua cost"
     ],
     "faqs": [
       {
-        "question": "How much does kahlua price cost in Australia?",
+        "question": "How much does kahlua liquor cost in Australia?",
         "answer": "Coffee Liqueur at Doctors of Whisky ranges from $55 AUD (Sheridans 1L Coffee Liqueur) to $85 AUD (Kahlua 16abv Coffee Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy kahlua price online in Australia?",
-        "answer": "Order kahlua price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy kahlua liquor online in Australia?",
+        "answer": "Order kahlua liquor from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which coffee liqueur brands do you sell?",
@@ -1770,11 +1770,17 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Coffee liqueur combines coffee flavour with sugar and spirit; Kahlúa is the best-known example. Doctors of Whisky lists 10 coffee liqueur bottles across 4 brands, including Patron, Sheridans, Kahlua and Avion, priced from $55 to $85 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use coffee liqueur in an espresso martini or White Russian, or pour it over ice cream.",
-      "To buy kahlua price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy kahlua liquor online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "coffee liqueur",
-      "kahlua coffee liqueur",
+      "kahlua liqueur coffee",
+      "kahlua 1l",
+      "liqueur coffee",
+      "coffee liquour",
+      "mr black coffee liqueur 700ml",
+      "alcohol percentage kahlua",
+      "kahlua liqueur alcohol content",
+      "kahlua 1 litre best price",
       "kahlua espresso martini cans",
       "percent alcohol kahlua",
       "coffee liqueurs",
@@ -1786,13 +1792,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "1 litre kahlua",
       "coffee liquier",
       "coffee whisky",
-      "vodka coffee",
-      "kahlua specials",
-      "kahlua 200ml",
-      "coffee liquors",
-      "grada coffee liqueur",
-      "mister black coffee liqueur",
-      "matcha kahlua"
+      "vodka coffee"
     ]
   },
   {
@@ -1803,21 +1803,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/orange-liqueur/orange-liqueur--tds-1800-guachimonton.jpg",
     "primaryKeyword": "cointreau price",
     "secondaryKeywords": [
+      "orange liqueur",
+      "germain liqueur",
       "saint germain cafe",
       "st germain cafe",
       "cointreau 700ml",
       "orange flavoured liqueur",
+      "cointreau liqueur",
+      "marnier liqueur",
       "cointreau 1l",
       "orange liqueurs",
       "chandon orange spritz",
+      "buy cointreau",
+      "cointreau cost",
       "cointreau 1 ltr",
-      "cointreau specials",
-      "cointreau 1 litre best price",
-      "blood orange liqueur",
-      "saint germain cafes",
-      "cointreau liqueur orange",
-      "cointreau 1 litre",
-      "alcohol orange"
+      "cointreau specials"
     ],
     "faqs": [
       {
@@ -1825,7 +1825,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Orange Liqueur at Doctors of Whisky ranges from $40 AUD (Cointreau Pourer Orange Liqueur) to $95 AUD (Cointreau Orange Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy cointreau price online in Australia?",
+        "question": "Where can I buy cointreau in Australia?",
         "answer": "Order cointreau price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -1851,8 +1851,12 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy cointreau price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "orange liqueur",
-      "germain liqueur",
+      "cointreau 1 litre best price",
+      "blood orange liqueur",
+      "saint germain cafes",
+      "cointreau liqueur orange",
+      "cointreau 1 litre",
+      "alcohol orange",
       "blood orange beverage",
       "st germain liquor",
       "cointreau 1 liter",
@@ -1866,11 +1870,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "orange vodka",
       "cointreau on special",
       "st germain elderflower liqueur 750ml",
-      "st. germain elderflower liqueur",
-      "cost of grand marnier",
-      "grand marnier cost",
-      "saint germain liqueur",
-      "orange liqueur france"
+      "st. germain elderflower liqueur"
     ]
   },
   {
@@ -1881,21 +1881,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/cinnamon-liqueur/cinnamon-liqueur--tds-baileys-cinnamon-scroll.jpg",
     "primaryKeyword": "cinnamon liqueur",
     "secondaryKeywords": [
-      "cinnamon flavored whiskey",
-      "cinnamon whisky cocktail",
-      "vodka premix",
-      "vodka cans",
-      "ratu spiced rum",
-      "pineapple rum",
-      "chartreuse liqueur green",
-      "sambuca black",
-      "banana liqueur",
-      "vodka absolut",
-      "mini vodka",
-      "skull head vodka",
-      "bundaberg spiced rum",
-      "best rum",
-      "gin alcohol"
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
+      "absolute vodka",
+      "clase azul tequila",
+      "azul tequila",
+      "spiced rum",
+      "captain morgan spiced rum"
     ],
     "faqs": [
       {
@@ -1929,26 +1929,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy cinnamon liqueur online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
-      "clase azul tequila",
-      "azul tequila",
-      "spiced rum",
-      "captain morgan spiced rum",
       "gin gifts",
       "gin gifts australia",
       "orange liqueur",
       "ciroc vodka",
-      "bacardi white rum"
+      "bacardi white rum",
+      "rum with spices",
+      "gin gift packs",
+      "vodka premix",
+      "vodka cans",
+      "ratu spiced rum",
+      "pineapple rum",
+      "chartreuse liqueur green",
+      "sambuca black",
+      "banana liqueur",
+      "vodka absolut",
+      "mini vodka",
+      "skull head vodka",
+      "bundaberg spiced rum",
+      "best rum",
+      "gin alcohol"
     ]
   },
   {
@@ -1961,19 +1961,19 @@ export const SUBCATEGORIES: Subcategory[] = [
     "secondaryKeywords": [
       "campari negroni",
       "jagermeister cost",
+      "chartreuse liqueur green",
+      "amaro averna",
       "chartreuse green",
       "amaro del capo",
       "vecchio amaro del capo",
+      "aperol price",
       "aperol 1l",
       "aperol spritz pack",
+      "averna amaro",
       "aperol aperitivo",
+      "aperol bottle",
       "italian liqueur amaro",
-      "aperol 700ml",
-      "aperol spritz bottled",
-      "aperol spritz in a bottle",
-      "amaro capo",
-      "cost of aperol",
-      "aperol gift pack"
+      "aperol 700ml"
     ],
     "faqs": [
       {
@@ -2007,7 +2007,11 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy jagermeister price online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "chartreuse liqueur green",
+      "aperol spritz bottled",
+      "aperol spritz in a bottle",
+      "amaro capo",
+      "cost of aperol",
+      "aperol gift pack",
       "aperol 1 litre",
       "aperol spritz standard drinks",
       "aperol spritz premix",
@@ -2022,11 +2026,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "jagermeister alcohol volume",
       "averna amaro siciliano",
       "aperol spritz kit",
-      "cost of campari",
-      "aperol spritz to go",
-      "aperol to go",
-      "canned aperol spritz",
-      "aperol spritz in a can"
+      "cost of campari"
     ]
   },
   {
@@ -2037,21 +2037,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/absinthe/absinthe--tds-absinthe-black-100.jpg",
     "primaryKeyword": "buy absinthe",
     "secondaryKeywords": [
-      "absinthe australia",
-      "absinthe green fairy",
-      "absinthe alcohol green fairy",
-      "green fairy drink absinthe",
-      "black absinthe",
-      "absinthe fountain",
-      "the green fairy absinthe",
-      "absinthe sydney",
-      "absinthe in australia",
-      "absinthe la",
-      "baileys irish cream liqueur 1 litre",
-      "baileys liqueur 1l",
-      "baileys liqueur 1 litre",
-      "cream liqueur",
-      "galliano and sambuca"
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
+      "absolute vodka",
+      "clase azul tequila",
+      "azul tequila",
+      "absinthe liquor",
+      "absinthe order"
     ],
     "faqs": [
       {
@@ -2085,26 +2085,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy absinthe online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
-      "clase azul tequila",
-      "azul tequila",
       "spiced rum",
       "captain morgan spiced rum",
       "gin gifts",
       "gin gifts australia",
       "orange liqueur",
       "ciroc vodka",
-      "bacardi white rum"
+      "bacardi white rum",
+      "rum with spices",
+      "gin gift packs",
+      "baileys irish cream liqueur 1 litre",
+      "baileys liqueur 1l",
+      "baileys liqueur 1 litre",
+      "cream liqueur",
+      "galliano and sambuca",
+      "absinthe australia",
+      "absinthe green fairy",
+      "absinthe alcohol green fairy",
+      "green fairy drink absinthe",
+      "black absinthe",
+      "absinthe fountain"
     ]
   },
   {
@@ -2115,21 +2115,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/limoncello/limoncello--tds-24-ice-frozen-cocktails-5pack.jpg",
     "primaryKeyword": "limoncello buy",
     "secondaryKeywords": [
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
       "best limoncello",
       "manly spirits limoncello",
-      "de bortoli limoncello spritz",
-      "limoncello liqueur alcohol content",
-      "limoncello alcohol volume",
-      "luxardo limoncello",
-      "solbevi limoncello",
-      "top rated limoncello",
-      "best limoncello liqueur",
-      "luxardo limoncello liqueur",
-      "small limoncello bottles",
-      "best limoncello australia",
-      "mini limoncello bottles",
-      "limoncello cans",
-      "limoncello spritz de bortoli"
+      "limoncello liqueur",
+      "buy limoncello liqueur",
+      "buy limoncello",
+      "limoncello liqueur price"
     ],
     "faqs": [
       {
@@ -2163,26 +2163,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy limoncello buy online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "de bortoli limoncello spritz",
+      "limoncello liqueur alcohol content",
+      "limoncello alcohol volume",
+      "luxardo limoncello",
+      "solbevi limoncello",
+      "top rated limoncello",
+      "best limoncello liqueur",
+      "luxardo limoncello liqueur",
+      "small limoncello bottles",
+      "best limoncello australia",
+      "mini limoncello bottles",
+      "limoncello cans",
+      "limoncello spritz de bortoli",
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
       "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
-      "grain alcohol for limoncello",
-      "limoncello zoncello",
-      "bella limoncello",
-      "meletti limoncello",
-      "limoncello luxardo",
-      "limoncello custard",
-      "pallini limoncello australia",
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka"
+      "grain alcohol for limoncello"
     ]
   },
   {
@@ -2193,21 +2193,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/sambuca/sambuca--tds-galliano-authentico.jpg",
     "primaryKeyword": "galliano sambuca",
     "secondaryKeywords": [
-      "galliano black sambuca",
-      "white sambuca",
-      "alcohol in sambuca",
-      "sambuca white",
-      "opal nera black sambuca",
-      "sambuca galliano",
-      "galliano black sambuca 700ml price",
-      "black sambuca 1 litre",
-      "blue sambuca",
-      "galliano white sambuca",
-      "sambuca alcohol volume",
-      "sambuca drink price",
-      "alcohol content sambuca",
-      "black sambuca 700ml",
-      "sambuca alcohol percent"
+      "tequila",
+      "gin",
+      "smirnoff vodka",
+      "cognac",
+      "absolut vodka",
+      "rum",
+      "belvedere vodka",
+      "cheap vodka",
+      "patron tequila",
+      "coffee liqueur",
+      "absolute vodka",
+      "clase azul tequila",
+      "azul tequila",
+      "spiced rum",
+      "captain morgan spiced rum"
     ],
     "faqs": [
       {
@@ -2241,38 +2241,37 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy galliano sambuca online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "gin gifts",
+      "gin gifts australia",
       "black sambuca",
       "sambuca black",
+      "galliano black sambuca",
       "galliano and sambuca",
-      "cost of sambuca",
-      "galliano sambuca black",
-      "tequila",
-      "gin",
-      "smirnoff vodka",
-      "cognac",
-      "absolut vodka",
-      "rum",
-      "belvedere vodka",
-      "cheap vodka",
-      "patron tequila",
-      "coffee liqueur",
-      "absolute vodka",
-      "clase azul tequila",
-      "azul tequila",
-      "spiced rum",
-      "captain morgan spiced rum"
+      "white sambuca",
+      "alcohol in sambuca",
+      "sambuca white",
+      "opal nera black sambuca",
+      "sambuca galliano",
+      "galliano black sambuca 700ml price",
+      "black sambuca 1 litre",
+      "blue sambuca",
+      "galliano white sambuca",
+      "sambuca alcohol volume",
+      "sambuca drink price",
+      "alcohol content sambuca",
+      "black sambuca 700ml",
+      "sambuca alcohol percent"
     ]
   },
   {
     "slug": "soju",
     "name": "Soju",
     "category": "other",
-    "description": "Soju Buy: Buy Soju online in Australia: 11 bottles from Charm, Jinro and Chum, priced from $20 to $195 AUD. Insured delivery, 18+ only.",
+    "description": "Jinro Soju: Buy Soju online in Australia: 11 bottles from Charm, Jinro and Chum, priced from $20 to $195 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/soju/soju--tds-charm-malgeun-kiwiberry.jpg",
-    "primaryKeyword": "soju buy",
+    "primaryKeyword": "jinro soju",
     "secondaryKeywords": [
       "soju alcohol",
-      "jinro soju",
       "korean wine soju",
       "soju bottle",
       "soju price",
@@ -2285,16 +2284,17 @@ export const SUBCATEGORIES: Subcategory[] = [
       "soju flavour",
       "soju flavors",
       "soju japanese drink",
-      "soju beer"
+      "soju beer",
+      "soju buy"
     ],
     "faqs": [
       {
-        "question": "How much does soju buy cost in Australia?",
+        "question": "How much does jinro soju cost in Australia?",
         "answer": "Soju at Doctors of Whisky ranges from $20 AUD (Charm Malgeun Vivid Tropical Soju) to $195 AUD (Ilpoom Jinro 1924 Heritage Super Premium Soju 500ml). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy soju buy online in Australia?",
-        "answer": "Order soju buy from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy jinro soju online in Australia?",
+        "answer": "Order jinro soju from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which soju brands do you sell?",
@@ -2316,7 +2316,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Soju is a clear Korean spirit, traditionally made from rice and now often from other starches, usually bottled at a lower strength than most spirits. Doctors of Whisky lists 11 soju bottles across 3 brands, including Charm, Jinro and Chum, priced from $20 to $195 AUD.",
       "Serve soju chilled and neat with Korean food, or mix it into cocktails and with fruit juice.",
-      "To buy soju buy online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy jinro soju online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
       "soju drink price",
@@ -2345,9 +2345,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "lager",
     "name": "Lager",
     "category": "beer-premix-wine",
-    "description": "Heineken Lager: Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heineken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
+    "description": "Lager Beer: Buy Lager online in Australia: 5 bottles from Budweiser, Corona and Heineken, priced from $30 to $60 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/lager/lager--tds-budweiser-330ml.jpg",
-    "primaryKeyword": "heineken lager",
+    "primaryKeyword": "lager beer",
     "secondaryKeywords": [
       "corona beer",
       "low carb beer",
@@ -2363,16 +2363,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "zero carb beer",
       "low calorie beer",
       "byron bay beer",
-      "beer sale"
+      "heineken lager"
     ],
     "faqs": [
       {
-        "question": "How much does heineken lager cost in Australia?",
+        "question": "How much does lager beer cost in Australia?",
         "answer": "Lager at Doctors of Whisky ranges from $30 AUD (Modelo Especial Lager) to $60 AUD (Corona Brown Box 355 Bottles Lager). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy heineken lager online in Australia?",
-        "answer": "Order heineken lager from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy lager beer online in Australia?",
+        "answer": "Order lager beer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which lager brands do you sell?",
@@ -2394,10 +2394,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Lager is a bottom-fermented beer conditioned cold, giving a crisp, clean taste. Doctors of Whisky lists 5 lager bottles across 5 brands, including Budweiser, Corona, Heineken and Modelo, priced from $30 to $60 AUD.",
       "Serve lager cold, around 3 to 5 degrees Celsius, in a clean glass.",
-      "To buy heineken lager online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy lager beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "lager beer",
       "beer for cheap",
       "aus lager",
       "light beer",
@@ -2416,7 +2415,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "best aussie beer",
       "porter beer",
       "belgium beer",
-      "0 carb beer"
+      "0 carb beer",
+      "low alcohol beer"
     ]
   },
   {
@@ -2430,6 +2430,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "tiger beer",
       "modelo beer",
       "german beer",
+      "peroni red",
       "ipa ale beer",
       "pale ale style beer",
       "peroni beer",
@@ -2440,8 +2441,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "lager beer",
       "pacific ale",
       "india pale ale australia",
-      "4 pines pacific ale",
-      "buy australian beer online"
+      "heineken beer price"
     ],
     "faqs": [
       {
@@ -2449,7 +2449,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Imported Beer at Doctors of Whisky ranges from $40 AUD (Peroni Nastro 6pack Imported Beer) to $70 AUD (Corona Brown Box 355 Bottles Imported Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy australian beer online in Australia?",
+        "question": "Where can I buy heineken beer online in Australia?",
         "answer": "Order heineken beer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -2475,6 +2475,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy heineken beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "4 pines pacific ale",
       "menabrea beer",
       "hoegaarden beer",
       "ipa on beer",
@@ -2493,8 +2494,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "goat pale ale",
       "leffe beer",
       "polish beer",
-      "emu export beer",
-      "ichnusa beer"
+      "emu export beer"
     ]
   },
   {
@@ -2518,8 +2518,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "no alcohol beer",
       "non alc wines",
       "non alcoholic fizzy wine",
-      "non alcoholic sparkling wine",
-      "alcohol free champagne"
+      "beer non alcoholic",
+      "buy non alcoholic wine"
     ],
     "faqs": [
       {
@@ -2553,6 +2553,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy zero beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "non alcoholic sparkling wine",
+      "alcohol free champagne",
       "sparkling champagne non alcoholic",
       "best non alcoholic beer australia",
       "best zero alcohol beer",
@@ -2563,16 +2565,14 @@ export const SUBCATEGORIES: Subcategory[] = [
       "alcohol free red wine",
       "beer for gluten free",
       "gluten and wheat free beer",
+      "non alcoholic cider",
       "best non alcoholic drinks",
       "good non alcoholic wine",
       "non alcoholic beers",
       "low alcohol sparkling wine",
       "non alcoholic wines",
       "zero alcohol red wine",
-      "alcohol free rose",
-      "best alcohol free wine",
-      "best rated non alcoholic wine",
-      "non-alcoholic beer"
+      "alcohol free rose"
     ]
   },
   {
@@ -2594,10 +2594,10 @@ export const SUBCATEGORIES: Subcategory[] = [
       "matso's ginger beer",
       "green ginger wine",
       "little dragon ginger beer",
+      "ginger wine",
       "ginger bear",
       "alcoholic ginger beer australia",
-      "cascade ginger beer",
-      "ginger beer is non alcoholic"
+      "buy ginger beer online"
     ],
     "faqs": [
       {
@@ -2605,7 +2605,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Ginger Beer at Doctors of Whisky ranges from $15 AUD (Ginger Kid Ginger Beer) to $15 AUD (Ginger Kid Ginger Beer). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy ginger beer online in Australia?",
+        "question": "Where can I buy ginger beer online in Australia?",
         "answer": "Order buy ginger beer from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -2631,6 +2631,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy ginger beer online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "cascade ginger beer",
+      "ginger beer is non alcoholic",
       "diet ginger beer",
       "alcohol ginger beer",
       "hard ginger beer",
@@ -2648,9 +2650,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "best ginger beer",
       "sugar free ginger beer",
       "bertie ginger beer",
-      "brown snake ginger beer",
-      "amply ginger beer",
-      "amplys ginger beer"
+      "brown snake ginger beer"
     ]
   },
   {
@@ -2669,13 +2669,13 @@ export const SUBCATEGORIES: Subcategory[] = [
       "carbonated wine",
       "grenache red",
       "chardonnay wine",
+      "sparkling shiraz",
       "wine pinot",
+      "merlot wine",
       "red wine au",
       "shiraz red wine",
-      "rosé wine",
-      "cabernet sauvignon wine",
-      "cab sav wine",
-      "bubbly wine"
+      "red wine sale",
+      "red beer"
     ],
     "faqs": [
       {
@@ -2709,26 +2709,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy red wine online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "rosé wine",
+      "cabernet sauvignon wine",
+      "cab sav wine",
+      "bubbly wine",
       "rose in wine",
+      "sparkling red wine",
       "rose a wine",
       "malbec red wine",
       "chardonnay white wine",
       "pinot noir red wine",
       "pinot wine red",
+      "sparkling red",
       "red wine australia",
       "sauvignon red wine",
       "cheap red wine",
       "rosette wine",
       "sweet red wine australia",
+      "sparkling red wine australia",
       "case of red wine",
-      "red wine deals",
-      "red wines australia",
-      "wine offers",
-      "wine case",
-      "red wines cabernet",
-      "red wine bottle",
-      "red wine offers",
-      "rosè wine"
+      "sparkling shiraz wine"
     ]
   },
   {
@@ -2739,21 +2739,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/white-wine/white-wine--tds-alexanderhill-chardonnay.jpg",
     "primaryKeyword": "wine sale",
     "secondaryKeywords": [
+      "red wine",
       "sauvignon blanc",
+      "rose wine",
+      "white wine",
       "sauvignon white wine",
       "sparkling wine",
       "wine white wines",
       "dry white wine",
+      "wine delivery",
+      "wine deals",
+      "carbonated wine",
+      "chardonnay wine",
       "wine pinot",
-      "white wines",
-      "sweet white wine",
-      "merlot wine",
       "sauvignon blanc wine",
-      "rose in wine",
-      "sav blanc wine",
-      "chardonnay white wine",
-      "pinot noir red wine",
-      "sparkling white wine"
+      "buy white wine"
     ],
     "faqs": [
       {
@@ -2761,7 +2761,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "White Wine at Doctors of Whisky ranges from $50 AUD (Holy Chard Chardonnay White Wine) to $300 AUD (Alexanderhill Rose White Wine). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy wine sale online in Australia?",
+        "question": "Where can I buy white wine in Australia?",
         "answer": "Order wine sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -2787,26 +2787,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy wine sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "red wine",
-      "rose wine",
-      "white wine",
-      "wine delivery",
-      "wine deals",
-      "carbonated wine",
-      "chardonnay wine",
+      "white wines",
+      "sweet white wine",
+      "merlot wine",
+      "rose in wine",
       "red wine au",
       "cabernet sauvignon wine",
       "cab sav wine",
       "bubbly wine",
+      "sav blanc wine",
+      "chardonnay white wine",
+      "pinot noir red wine",
+      "sparkling white wine",
       "best white wine",
       "buy white wine online",
       "sweet white wines",
+      "moscato rose wine",
       "sauvignon red wine",
       "white dry wines",
       "australian white wine",
-      "sauvignon blanc white wine",
-      "white new zealand wine",
-      "chardonnay wines"
+      "sauvignon blanc white wine"
     ]
   },
   {
@@ -2817,21 +2817,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/rose-wine/rose-wine--tds-batch-co-bondi-spritz-24pack-cans.jpg",
     "primaryKeyword": "buy sparkling rose online",
     "secondaryKeywords": [
-      "sparkling rose",
-      "rose fizzy wine",
-      "sparkling rose wine",
-      "rose sparkling wine",
-      "bird in hand sparkling rose",
-      "rose sparkle",
-      "chandon rose sparkling wine",
-      "rose prosecco",
-      "prosecco rose wine",
-      "sparkiling rose",
-      "rose red wine",
-      "sparking rose",
-      "rose wine online delivery",
-      "best sparkling rose",
-      "champagne"
+      "champagne",
+      "red wine",
+      "rose wine",
+      "white wine",
+      "apple cider",
+      "somersby apple cider",
+      "james squire ginger beer",
+      "alcoholic ginger beer",
+      "brookvale union ginger beer",
+      "wine delivery",
+      "sparkling wine",
+      "wine white wines",
+      "dry white wine",
+      "low carb beer",
+      "rose sparkling"
     ],
     "faqs": [
       {
@@ -2865,26 +2865,26 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy sparkling rose online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "red wine",
-      "rose wine",
-      "white wine",
-      "apple cider",
-      "somersby apple cider",
-      "james squire ginger beer",
-      "alcoholic ginger beer",
-      "brookvale union ginger beer",
-      "wine delivery",
-      "sparkling wine",
-      "wine white wines",
-      "dry white wine",
-      "low carb beer",
       "flavoured beer",
       "beer flavours",
       "carb friendly beer",
       "modelo beer",
       "german beer",
       "ginger beer alcoholic",
-      "wine deals"
+      "wine deals",
+      "carbonated wine",
+      "ipa ale beer",
+      "sparkling rose",
+      "rose fizzy wine",
+      "rose in wine",
+      "rose a wine",
+      "sparkling rose wine",
+      "rose sparkling wine",
+      "bird in hand sparkling rose",
+      "rose sparkle",
+      "chandon rose sparkling wine",
+      "rose prosecco",
+      "prosecco rose wine"
     ]
   },
   {
@@ -2895,21 +2895,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/sparkling/sparkling--tds-gh-mumm-corodn-rouge-brut-4ed4acd1-ceed-4bd6-a095-bebd780071c7.jpg",
     "primaryKeyword": "buy sparkling wine online",
     "secondaryKeywords": [
+      "champagne",
+      "sparkling wine",
       "bird in hand sparkling",
       "coopers sparkling ale",
       "sparkling shiraz",
       "sparkling",
       "sparkling red wine",
+      "sparkling rose",
       "australian sparkling wine",
       "sparkling wines",
       "sparkling mineral water",
       "arras sparkling wine",
-      "sparkling red",
-      "cheap champagne",
-      "tasmanian sparkling wine",
-      "sweet champagne",
-      "less expensive champagne",
-      "cheap sparkling wine"
+      "sparkling rose wine",
+      "sparkling wine sale",
+      "sparkling champagne"
     ],
     "faqs": [
       {
@@ -2943,12 +2943,14 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy buy sparkling wine online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "champagne",
-      "sparkling wine",
-      "sparkling rose",
-      "sparkling rose wine",
+      "sparkling red",
+      "cheap champagne",
+      "tasmanian sparkling wine",
+      "sweet champagne",
       "rose sparkling wine",
       "sparkling white wine",
+      "less expensive champagne",
+      "cheap sparkling wine",
       "sweet sparkling wine",
       "sparkling red wine australia",
       "tasmanian sparkling",
@@ -2960,9 +2962,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "s pellegrino sparkling water",
       "sparkling water cans",
       "coopers sparkling ale cans",
-      "australian sparkling",
-      "french sparkling wine",
-      "pink sparkling wine"
+      "australian sparkling"
     ]
   },
   {
@@ -2973,21 +2973,21 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/port-wine/port-wine--tds-penfolds-30yo-great-grandfather.jpg",
     "primaryKeyword": "port wine",
     "secondaryKeywords": [
+      "champagne",
+      "red wine",
+      "rose wine",
+      "white wine",
       "apple cider",
       "somersby apple cider",
-      "somersby cider",
-      "mercury cider",
-      "strongbow cider",
-      "beer for cheap",
-      "aus lager",
-      "light beer",
-      "lightweight beer",
-      "carbless beer",
-      "premix drinks",
-      "sydney cider",
-      "beer can",
-      "cheap beer",
-      "stonewood beer"
+      "james squire ginger beer",
+      "alcoholic ginger beer",
+      "brookvale union ginger beer",
+      "wine delivery",
+      "sparkling wine",
+      "wine white wines",
+      "dry white wine",
+      "low carb beer",
+      "flavoured beer"
     ],
     "faqs": [
       {
@@ -3021,60 +3021,60 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy port wine online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "champagne",
-      "red wine",
-      "rose wine",
-      "white wine",
-      "james squire ginger beer",
-      "alcoholic ginger beer",
-      "brookvale union ginger beer",
-      "wine delivery",
-      "sparkling wine",
-      "wine white wines",
-      "dry white wine",
-      "low carb beer",
-      "flavoured beer",
       "beer flavours",
       "carb friendly beer",
       "modelo beer",
       "german beer",
       "ginger beer alcoholic",
       "wine deals",
-      "carbonated wine"
+      "carbonated wine",
+      "somersby cider",
+      "ipa ale beer",
+      "pale ale style beer",
+      "mercury cider",
+      "strongbow cider",
+      "beer for cheap",
+      "aus lager",
+      "light beer",
+      "lightweight beer",
+      "carbless beer",
+      "premix drinks",
+      "sydney cider",
+      "beer can"
     ]
   },
   {
     "slug": "vodka-premix",
     "name": "Vodka Premix",
     "category": "beer-premix-wine",
-    "description": "Vodka Cruiser 24 Pack Prices: Buy Vodka Premix online in Australia: 12 bottles from Vodka Premix, Grog and Hard, priced from $25 to $79.99 AUD. Insured delivery, 18+ only.",
+    "description": "Cruiser Vodka: Buy Vodka Premix online in Australia: 12 bottles from Vodka Premix, Grog and Hard, priced from $25 to $79.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/vodka-premix/vodka-premix--tds-24-ice-frozen-cocktails-5pack.jpg",
-    "primaryKeyword": "vodka cruiser 24 pack prices",
+    "primaryKeyword": "cruiser vodka",
     "secondaryKeywords": [
+      "smirnoff vodka",
       "cruiser",
       "premix king",
-      "cruiser vodka",
+      "cheap vodka",
       "premixed drinks",
+      "vodka bottle",
+      "premix drinks",
       "premix king punchbowl",
+      "vodka 1l",
       "cruiser drink",
       "vodka cruiser 4 pack",
       "vodka cruiser double",
-      "double vodka cruisers",
-      "tequila premix",
-      "cruiser doubles",
-      "vodka cruisers 10 pack",
-      "gin premix",
-      "gin and tonic premix",
-      "vodka premix cans"
+      "vodka smirnoff",
+      "vodka cruiser 24 pack prices",
+      "bottle of vodka"
     ],
     "faqs": [
       {
-        "question": "How much does vodka cruiser 24 pack prices cost in Australia?",
+        "question": "How much does cruiser vodka cost in Australia?",
         "answer": "Vodka Premix at Doctors of Whisky ranges from $25 AUD (24 Ice Pornstar Martini Vodka Premix) to $79.99 AUD (Smirnoff ICE Original Pre-Mix Vodka Case Bottles). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy vodka cruiser 24 pack prices online in Australia?",
-        "answer": "Order vodka cruiser 24 pack prices from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy cruiser vodka online in Australia?",
+        "answer": "Order cruiser vodka from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which vodka premix brands do you sell?",
@@ -3096,28 +3096,28 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Ready-to-drink premixes combine spirit with a mixer in a can or bottle, ready to pour over ice. Doctors of Whisky lists 12 vodka premix bottles across 5 brands, including Vodka Premix, Grog, Hard and Vodka Cruiser, priced from $25 to $79.99 AUD.",
       "Serve premixes cold, straight from the fridge or over ice.",
-      "To buy vodka cruiser 24 pack prices online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy cruiser vodka online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "smirnoff vodka",
-      "cheap vodka",
-      "vodka bottle",
-      "premix drinks",
-      "vodka 1l",
-      "vodka smirnoff",
-      "bottle of vodka",
       "smirnoff vodka 1 litre",
       "vodka cheap",
       "cheapest vodka",
       "sky vodka",
+      "double vodka cruisers",
       "vodka premix",
       "vodka cans",
       "1l vodka",
       "vodka 1 litre",
+      "tequila premix",
+      "cruiser doubles",
+      "vodka cruisers 10 pack",
       "vodka price",
       "1 litre vodka",
       "vodka 700ml",
       "mini vodka",
+      "gin premix",
+      "gin and tonic premix",
+      "vodka premix cans",
       "vodka and prices"
     ]
   },
@@ -3203,34 +3203,34 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "cider",
     "name": "Cider",
     "category": "beer-premix-wine",
-    "description": "Somersby Cider Bottle: Buy Cider online in Australia: 6 bottles from Little, Mercury and Somersby, priced from $25 to $50 AUD. Insured delivery, 18+ only.",
+    "description": "Mercury Hard Cider: Buy Cider online in Australia: 6 bottles from Little, Mercury and Somersby, priced from $25 to $50 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/cider/cider--tds-little-fat-lamb-creaming-soda.jpg",
-    "primaryKeyword": "somersby cider bottle",
+    "primaryKeyword": "mercury hard cider",
     "secondaryKeywords": [
+      "somersby",
+      "apple cider",
+      "somersby apple cider",
       "bilpin cider",
-      "mercury hard cider",
+      "somersby cider",
+      "mercury cider",
+      "strongbow cider",
+      "sydney cider",
       "apple cider alcohol",
       "craft cider",
       "hard cider",
       "pure blonde cider",
-      "magners cider",
-      "5 seeds cider",
-      "hardcore cider",
-      "somersby apple cider 10 pack",
-      "cider dresses",
-      "strongbow apple cider",
-      "apple cider somersby",
-      "beer & cider",
-      "scapegoat cider"
+      "cider strongbow",
+      "somersby cider bottle",
+      "cider somersby"
     ],
     "faqs": [
       {
-        "question": "How much does somersby cider bottle cost in Australia?",
+        "question": "How much does mercury hard cider cost in Australia?",
         "answer": "Cider at Doctors of Whisky ranges from $25 AUD (Somersby Apple Cider Bottles) to $50 AUD (Little Fat Lamb Strawberry Lime Cider). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy somersby cider bottle online in Australia?",
-        "answer": "Order somersby cider bottle from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy mercury hard cider online in Australia?",
+        "answer": "Order mercury hard cider from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which cider brands do you sell?",
@@ -3252,15 +3252,18 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Cider is a fermented apple (or pear) drink that ranges from dry to sweet, and is popular across Australia. Doctors of Whisky lists 6 cider bottles across 4 brands, including Little, Mercury, Somersby and Strongbow, priced from $25 to $50 AUD.",
       "Serve cider cold over ice, or straight from the fridge in a tall glass.",
-      "To buy somersby cider bottle online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy mercury hard cider online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "apple cider",
-      "somersby apple cider",
-      "somersby cider",
-      "mercury cider",
-      "strongbow cider",
-      "sydney cider",
+      "magners cider",
+      "5 seeds cider",
+      "hardcore cider",
+      "somersby apple cider 10 pack",
+      "cider dresses",
+      "strongbow apple cider",
+      "apple cider somersby",
+      "beer & cider",
+      "scapegoat cider",
       "cider house",
       "cider brands",
       "non alcoholic cider",
@@ -3271,10 +3274,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "bilpin apple cider",
       "pear cider somersby",
       "somersby cider 10 pack",
-      "somersby apple cider 24 pack",
-      "hills apple cider",
-      "james squire apple cider",
-      "cider aus"
+      "somersby apple cider 24 pack"
     ]
   },
   {
@@ -3291,15 +3291,15 @@ export const SUBCATEGORIES: Subcategory[] = [
       "rockstar energy drink",
       "v energy drinks",
       "can of monster energy",
+      "sugar free energy drinks",
       "energy drinks australia",
       "monster energy drink peach",
       "water outages",
+      "energy drink sugar free",
+      "zero sugar energy drink",
       "sugar free energy drink",
-      "great energy drinks",
-      "gatorade energy drink",
-      "monster energy drink can",
-      "monster energy peachy",
-      "energy drink brands"
+      "monster energy price",
+      "buy tonic water online"
     ],
     "faqs": [
       {
@@ -3307,7 +3307,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Mixers, Water & Condiments at Doctors of Whisky ranges from $10 AUD (Jack Daniels Original Bbq Sauce) to $35 AUD (Mtv Up Energy Drink Mixers, Water & Condiments). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy water prices online in Australia?",
+        "question": "Where can I buy tonic water online in Australia?",
         "answer": "Order water prices from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -3333,9 +3333,11 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy water prices online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
-      "sugar free energy drinks",
-      "energy drink sugar free",
-      "zero sugar energy drink",
+      "great energy drinks",
+      "gatorade energy drink",
+      "monster energy drink can",
+      "monster energy peachy",
+      "energy drink brands",
       "v energy drink 500ml",
       "cost of red bull energy drink",
       "monster energy drink 24 pack",
@@ -3350,40 +3352,40 @@ export const SUBCATEGORIES: Subcategory[] = [
       "original monster energy",
       "energy shot drinks",
       "energy drinks sugar free",
-      "caffeine free energy drink",
-      "monster energy pink",
-      "sugarless energy drinks"
+      "caffeine free energy drink"
     ]
   },
   {
     "slug": "irish-whiskey",
     "name": "Irish Whiskey",
     "category": "whisky",
-    "description": "Whiskey Deals: Buy Irish Whiskey online in Australia: 6 bottles from Bushmills and Redbreast, priced from $49.99 to $799.99 AUD. Insured delivery, 18+ only.",
+    "description": "Bushmills Whiskey: Buy Irish Whiskey online in Australia: 6 bottles from Bushmills and Redbreast, priced from $49.99 to $799.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/irish-whiskey/redbreast-21-year-old-antipodes-2000-first-fill-oloroso-sherry-cask-strength-irish-whiskey.jpg",
-    "primaryKeyword": "whiskey deals",
+    "primaryKeyword": "bushmills whiskey",
     "secondaryKeywords": [
+      "japanese whiskey",
       "irish whiskey",
-      "bushmills whiskey",
+      "bourbon whiskey",
+      "scotch whiskey",
+      "rye whiskey",
       "jameson irish whiskey",
       "redbreast whiskey",
       "premium scotch whiskey",
+      "bushmills",
       "glenfiddich whiskey",
       "whiskey from ireland",
       "irish whiskey brands",
       "redbreast irish whiskey",
+      "bushmills irish whiskey",
+      "whiskey deals"
+    ],
+    "tags": [
       "scotch and whiskey blend",
       "cheap whiskey",
       "good whiskey",
       "single highland malt scotch whiskey",
       "irish whisky",
-      "nice whiskey"
-    ],
-    "tags": [
-      "japanese whiskey",
-      "bourbon whiskey",
-      "scotch whiskey",
-      "rye whiskey",
+      "nice whiskey",
       "glenlivet whiskey",
       "whiskey offers",
       "irish whiskeys",
@@ -3397,18 +3399,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "morris whiskey",
       "glen whiskey",
       "glendalough whiskey",
-      "nice irish whiskey",
-      "best irish whisky",
-      "recommended irish whiskey"
+      "nice irish whiskey"
     ],
     "faqs": [
       {
-        "question": "How much does whiskey deals cost in Australia?",
+        "question": "How much does bushmills whiskey cost in Australia?",
         "answer": "Irish Whiskey at Doctors of Whisky ranges from $49.99 AUD (Bushmills Original Blended Irish Whiskey) to $799.99 AUD (Redbreast 21 Year Old Antipodes 2000 First Fill Oloroso Sherry Cask Strength Irish Whiskey). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy whiskey deals online in Australia?",
-        "answer": "Order whiskey deals from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy bushmills whiskey online in Australia?",
+        "answer": "Order bushmills whiskey from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which irish whiskey brands do you sell?",
@@ -3430,63 +3430,63 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Irish whiskey is whiskey made in Ireland and matured in wooden casks for at least three years. Doctors of Whisky lists 6 irish whiskey bottles across 2 brands, including Bushmills and Redbreast, priced from $49.99 to $799.99 AUD.",
       "Enjoy Irish whiskey neat, over ice, in a highball, or in an Irish coffee.",
-      "To buy whiskey deals online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy bushmills whiskey online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
     "slug": "vodka",
     "name": "Vodka",
     "category": "spirit",
-    "description": "Buy Vodka online in Australia: 2 bottles from Absolut, priced from $49.99 to $79.99 AUD. Insured delivery, 18+ only.",
+    "description": "Smirnoff Liquor: Buy Vodka online in Australia: 2 bottles from Absolut, priced from $49.99 to $79.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/vodka/absolut-tabasco-chilli-pepper-flavoured-swedish-vodka.jpg",
-    "primaryKeyword": "buy vodka online",
+    "primaryKeyword": "smirnoff liquor",
     "secondaryKeywords": [
-      "smirnoff",
-      "smirnoff ice",
-      "smirnoff liquor",
-      "smirnoff double black",
-      "cruiser vodka",
-      "smirnoff 700ml",
-      "vodka and prices",
-      "vodka low cost",
-      "vodka flavours",
-      "1 liter vodka",
-      "vodka bottles",
-      "o vodka",
-      "vodka on special",
-      "vodka special",
-      "small vodka"
-    ],
-    "tags": [
       "smirnoff vodka",
       "absolut vodka",
+      "absolut liquor",
+      "smirnoff",
+      "smirnoff ice",
       "cheap vodka",
+      "smirnoff double black",
       "absolute vodka",
+      "cruiser vodka",
       "vodka bottle",
+      "skyy vodka",
       "tito's vodka",
+      "smirnoff vodka 1l",
+      "smirnoff vodka 700ml",
+      "vodka &"
+    ],
+    "tags": [
+      "absolut vodka 700ml",
       "vodka 1l",
       "vodka smirnoff",
       "bottle of vodka",
       "vodka cheap",
       "cheapest vodka",
       "sky vodka",
+      "smirnoff vodka 1 litre",
+      "smirnoff 700ml",
       "vodka premix",
       "vodka cans",
       "1l vodka",
       "flavoured vodka",
       "700ml vodka",
       "vodka 1 litre",
+      "smirnoff 1l",
       "vodka absolut",
-      "vodka price"
+      "vodka price",
+      "1 litre vodka",
+      "vodka 700ml"
     ],
     "faqs": [
       {
-        "question": "How much does buy vodka online cost in Australia?",
+        "question": "How much does smirnoff liquor cost in Australia?",
         "answer": "Vodka at Doctors of Whisky ranges from $49.99 AUD (Absolut Swedish Vodka) to $79.99 AUD (Absolut Tabasco Chilli Pepper Flavoured Swedish Vodka). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy buy vodka online online in Australia?",
-        "answer": "Order buy vodka online from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy smirnoff liquor online in Australia?",
+        "answer": "Order smirnoff liquor from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which vodka brands do you sell?",
@@ -3508,45 +3508,34 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Vodka is a clear spirit distilled from grain, potatoes or other fermentable materials and usually filtered for a clean, neutral taste. Doctors of Whisky lists 2 vodka bottles across 1 brand, including Absolut, priced from $49.99 to $79.99 AUD.",
       "Serve vodka well chilled and neat, in a martini, or with soda, tonic or juice.",
-      "To buy buy vodka online online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy smirnoff liquor online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
     "slug": "rum",
     "name": "Rum",
     "category": "spirit",
-    "description": "Bottle of Malibu Rum: Buy Rum online in Australia: 2 bottles from Malibu, priced from $35.99 to $49.99 AUD. Insured delivery, 18+ only.",
+    "description": "Malibu Rum Liquor: Buy Rum online in Australia: 2 bottles from Malibu, priced from $35.99 to $49.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/rum/malibu-caribbean-rum-with-pineapple-liqueur.jpg",
-    "primaryKeyword": "bottle of malibu rum",
+    "primaryKeyword": "malibu rum liquor",
     "secondaryKeywords": [
-      "kraken rum",
-      "kraken black spiced rum",
-      "rum australia",
-      "rum brands",
-      "kraken coffee rum",
-      "banana rum",
-      "black bart rum",
-      "rum cans",
-      "rum kraken spiced",
-      "bacardi rum superior white",
-      "bacardi superior white rum",
-      "bacardí superior white rum",
-      "captain morgan black rum",
-      "best spiced rum australia",
-      "1l rum"
-    ],
-    "tags": [
       "rum",
+      "kraken rum",
       "spiced rum",
       "bacardi white rum",
       "rum with spices",
+      "kraken black spiced rum",
       "bacardi rum",
       "dark rum",
       "caribbean rum",
       "captain morgan rum",
       "plantation rum",
       "premium rum",
+      "malibu liquor",
       "havana club rum",
+      "malibu 700ml"
+    ],
+    "tags": [
       "light rum",
       "op rum",
       "black rum",
@@ -3555,16 +3544,27 @@ export const SUBCATEGORIES: Subcategory[] = [
       "black spiced rum kraken",
       "bundaberg red rum",
       "australian rum",
-      "cuban rum"
+      "cuban rum",
+      "best rum",
+      "rum australia",
+      "rum brands",
+      "kraken coffee rum",
+      "banana rum",
+      "black bart rum",
+      "rum cans",
+      "rum kraken spiced",
+      "bottle of rum",
+      "rum bottle",
+      "bundaberg rum 700ml"
     ],
     "faqs": [
       {
-        "question": "How much does bottle of malibu rum cost in Australia?",
+        "question": "How much does malibu rum liquor cost in Australia?",
         "answer": "Rum at Doctors of Whisky ranges from $35.99 AUD (Malibu Caribbean Rum With Coconut Liqueur) to $49.99 AUD (Malibu Caribbean Rum With Pineapple Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy bottle of malibu rum online in Australia?",
-        "answer": "Order bottle of malibu rum from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy malibu rum liquor online in Australia?",
+        "answer": "Order malibu rum liquor from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which rum brands do you sell?",
@@ -3586,7 +3586,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Rum is a spirit distilled from sugarcane juice or molasses. Doctors of Whisky lists 2 rum bottles across 1 brand, including Malibu, priced from $35.99 to $49.99 AUD.",
       "Serve rum neat or over ice, or use it in a mojito, daiquiri or rum and cola.",
-      "To buy bottle of malibu rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy malibu rum liquor online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -3597,43 +3597,43 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/champagne/laurent-perrier-la-cuvee-brut-rose-champagne-nv-magnum.jpg",
     "primaryKeyword": "champagne sale",
     "secondaryKeywords": [
+      "champagne",
+      "moet",
+      "moet champagne",
+      "veuve champagne",
+      "chandon champagne",
+      "krug",
+      "piper champagne",
+      "krug champagne",
+      "chandon rose",
+      "moet and chandon champagne",
+      "cheap champagne",
+      "sweet champagne",
       "nice champagne",
+      "less expensive champagne",
+      "chandon sparkling wine"
+    ],
+    "tags": [
       "champagne price",
       "janz champagne",
       "bottle of champagne",
       "french champagne specials",
+      "champagne wine bottle",
+      "moet & chandon champagne",
+      "cost moet champagne",
       "champagne cheap",
+      "prosecco champagne",
       "sweet champagne australia",
       "champagne on special",
+      "chandon rose sparkling wine",
       "miniature champagne",
       "champagne australia",
       "small bottle of champagne",
+      "champagne moet",
+      "wine and champagne",
       "french champagne wine",
       "champagne brut",
-      "wine champagne",
-      "champagne sparkling wine"
-    ],
-    "tags": [
-      "champagne",
-      "cheap champagne",
-      "sweet champagne",
-      "less expensive champagne",
-      "cheap sparkling champagne",
-      "champagne prices",
-      "champagne vs sparkling",
-      "cheap french champagne",
-      "cheapest champagne",
-      "champagne bubbly",
-      "sparkling wine or champagne",
-      "champagne & sparkling wine",
-      "champagne in small bottles",
-      "mini sparkling champagne bottles",
-      "champagne in australia",
-      "champagne or sparkling wine",
-      "champagne drink price",
-      "champagne fruity",
-      "lowest price champagne",
-      "sparkly champagne"
+      "wine champagne"
     ],
     "faqs": [
       {
@@ -3675,43 +3675,43 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/liqueur/licor-43-spanish-liqueur.jpg",
     "primaryKeyword": "kahlua liqueur price",
     "secondaryKeywords": [
+      "coffee liqueur",
+      "orange liqueur",
+      "germain liqueur",
+      "liqueurs",
+      "hazelnut liqueur",
+      "kahlua coffee liqueur",
+      "banana liqueur",
       "sour apple liqueur",
       "peach liqueur",
+      "baileys irish cream liqueur 1 litre",
+      "baileys liqueur 1l",
+      "limoncello liqueur",
+      "buy limoncello liqueur",
+      "disaronno price",
+      "price for disaronno"
+    ],
+    "tags": [
+      "cream liqueur",
+      "orange flavoured liqueur",
       "whiskey liqueur",
       "cream liqueur liqueurs",
+      "disaronno amaretto liqueur",
       "ginger liqueur",
+      "kahlua liqueur coffee",
       "caramel liqueur",
+      "blood orange liqueur",
+      "liqueur coffee",
+      "best limoncello liqueur",
       "chartreuse green liqueur",
       "bols curacao liqueur",
       "chocolate mint liqueur",
       "whisky liqueur",
       "amarula cream liqueur",
+      "amaretto disaronno liqueur",
       "aperitif liqueur",
       "blue coloured liqueur",
-      "strawberry and cream liqueur",
-      "what is grand marnier liqueur"
-    ],
-    "tags": [
-      "coffee liqueur",
-      "orange liqueur",
-      "germain liqueur",
-      "hazelnut liqueur",
-      "kahlua coffee liqueur",
-      "banana liqueur",
-      "baileys irish cream liqueur 1 litre",
-      "baileys liqueur 1l",
-      "cream liqueur",
-      "orange flavoured liqueur",
-      "kahlua liqueur coffee",
-      "blood orange liqueur",
-      "liqueur coffee",
-      "cointreau liqueur orange",
-      "fruit flavored liqueur",
-      "premium coffee liqueur",
-      "coffee flavored liqueur",
-      "good coffee liqueur",
-      "kahlúa coffee liqueur",
-      "italian hazelnut liqueur"
+      "strawberry and cream liqueur"
     ],
     "faqs": [
       {
@@ -3719,7 +3719,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Liqueurs at Doctors of Whisky ranges from $20.99 AUD (Sour Puss Apple Blended Liqueur) to $54.99 AUD (Licor 43 Spanish Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy kahlua liqueur price online in Australia?",
+        "question": "Where can I buy limoncello liqueur in Australia?",
         "answer": "Order kahlua liqueur price from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -3754,10 +3754,32 @@ export const SUBCATEGORIES: Subcategory[] = [
     "primaryKeyword": "buy australian beer online",
     "secondaryKeywords": [
       "balter cerveza",
+      "flavoured beer",
+      "beer flavours",
+      "ipa ale beer",
+      "coopers sparkling ale",
+      "pale ale style beer",
+      "aussie beer",
       "mountain goat beer",
+      "stone and wood beer",
+      "beer mx",
+      "mid strength beer",
       "india pale ale beer",
+      "lager beer",
+      "beer for cheap",
+      "beer prices"
+    ],
+    "tags": [
+      "pacific ale",
+      "aus lager",
+      "india pale ale australia",
+      "4 pines pacific ale",
       "coopers lager",
       "radler beer",
+      "beer can",
+      "cheap beer",
+      "stonewood beer",
+      "australian sparkling wine",
       "beer flavored",
       "balter beer australia",
       "best aussie beer",
@@ -3767,29 +3789,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "hazy pale ale",
       "4 pines pale ale",
       "pilsner beer",
-      "beer prices"
-    ],
-    "tags": [
-      "flavoured beer",
-      "beer flavours",
-      "ipa ale beer",
-      "coopers sparkling ale",
-      "pale ale style beer",
-      "aussie beer",
-      "stone and wood beer",
-      "beer mx",
-      "mid strength beer",
-      "lager beer",
-      "beer for cheap",
-      "pacific ale",
-      "aus lager",
-      "india pale ale australia",
-      "4 pines pacific ale",
-      "beer can",
-      "cheap beer",
-      "stonewood beer",
-      "low alcohol beer",
-      "balter hazy ipa"
+      "low alcohol beer"
     ],
     "faqs": [
       {
@@ -3827,29 +3827,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "prosecco",
     "name": "Prosecco",
     "category": "beer-premix-wine",
-    "description": "Cora Prosecco: Buy Prosecco online in Australia: 3 bottles from Nua, De Bortoli and Brown Brothers, priced from $10.99 to $13.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Prosecco online in Australia: 3 bottles from Nua, De Bortoli and Brown Brothers, priced from $10.99 to $13.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/prosecco/brown-brothers-king-valley-prosecco-nv.jpg",
-    "primaryKeyword": "cora prosecco",
+    "primaryKeyword": "buy prosecco",
     "secondaryKeywords": [
-      "pink prosecco",
-      "mini prosecco bottle",
-      "no carb beer",
-      "low carb beer australia",
-      "lowest calorie beer",
-      "menabrea beer",
-      "rose a wine",
-      "0 carb beer",
-      "white rabbit beer",
-      "hoegaarden beer",
-      "malbec red wine",
-      "beer carton",
-      "best beer",
-      "best australian beer",
-      "best beer australia"
-    ],
-    "tags": [
-      "rose prosecco",
-      "prosecco rose wine",
+      "prosecco",
       "champagne",
       "red wine",
       "rose wine",
@@ -3862,21 +3844,39 @@ export const SUBCATEGORIES: Subcategory[] = [
       "wine delivery",
       "sparkling wine",
       "wine white wines",
+      "prosecco sale",
+      "cora prosecco"
+    ],
+    "tags": [
       "dry white wine",
       "low carb beer",
       "flavoured beer",
       "beer flavours",
       "carb friendly beer",
-      "modelo beer"
+      "modelo beer",
+      "german beer",
+      "ginger beer alcoholic",
+      "no carb beer",
+      "low carb beer australia",
+      "lowest calorie beer",
+      "menabrea beer",
+      "rose a wine",
+      "0 carb beer",
+      "white rabbit beer",
+      "hoegaarden beer",
+      "malbec red wine",
+      "beer carton",
+      "best beer",
+      "best australian beer"
     ],
     "faqs": [
       {
-        "question": "How much does cora prosecco cost in Australia?",
+        "question": "How much does buy prosecco cost in Australia?",
         "answer": "Prosecco at Doctors of Whisky ranges from $10.99 AUD (Nua NV Prosecco) to $13.99 AUD (Brown Brothers King Valley Prosecco NV). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy cora prosecco online in Australia?",
-        "answer": "Order cora prosecco from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy buy prosecco online in Australia?",
+        "answer": "Order buy prosecco from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which prosecco brands do you sell?",
@@ -3898,7 +3898,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Prosecco is an Italian sparkling wine from north-eastern Italy, made mainly from Glera grapes. Doctors of Whisky lists 3 prosecco bottles across 3 brands, including Nua, De Bortoli and Brown Brothers, priced from $10.99 to $13.99 AUD.",
       "Serve prosecco well chilled, on its own or in a spritz or Bellini.",
-      "To buy cora prosecco online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy buy prosecco online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -3909,24 +3909,6 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/coming-soon.svg",
     "primaryKeyword": "wine pinot",
     "secondaryKeywords": [
-      "pinot gris white wine",
-      "white wine pinot grigio",
-      "pinot noir wine price",
-      "red pinot noir wine",
-      "is pinot noir red wine",
-      "pinot noir brands",
-      "pinot noir red or white",
-      "blood of the earth pinot noir",
-      "non alcoholic pinot noir",
-      "pinot noir a white wine",
-      "pinot noir delivery",
-      "dark beer",
-      "lite beer",
-      "full strength beer",
-      "beer with no carbs"
-    ],
-    "tags": [
-      "pinot noir red wine",
       "champagne",
       "red wine",
       "rose wine",
@@ -3938,6 +3920,12 @@ export const SUBCATEGORIES: Subcategory[] = [
       "brookvale union ginger beer",
       "wine delivery",
       "sparkling wine",
+      "pinot wine",
+      "buy pinot gris online",
+      "wine pinot grigio",
+      "buy pinot gris"
+    ],
+    "tags": [
       "wine white wines",
       "dry white wine",
       "low carb beer",
@@ -3945,7 +3933,19 @@ export const SUBCATEGORIES: Subcategory[] = [
       "beer flavours",
       "carb friendly beer",
       "modelo beer",
-      "german beer"
+      "german beer",
+      "ginger beer alcoholic",
+      "wine deals",
+      "dark beer",
+      "lite beer",
+      "full strength beer",
+      "beer with no carbs",
+      "pinot noir red wine",
+      "pinot wine red",
+      "pinot grigio white wine",
+      "pinot gris white wine",
+      "pinot sparkling wine",
+      "white wine pinot grigio"
     ],
     "faqs": [
       {
@@ -3953,7 +3953,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Pinot Grigio at Doctors of Whisky ranges from $11.99 AUD (Three Trails South Eastern Australian Pinot Grigio) to $22.99 AUD (Farmer & The Scientist Heathcote Pinot Grigio 2021). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy wine pinot online in Australia?",
+        "question": "Where can I buy pinot gris online in Australia?",
         "answer": "Order wine pinot from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -3983,15 +3983,27 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "sauvignon-blanc",
     "name": "Sauvignon Blanc",
     "category": "beer-premix-wine",
-    "description": "Premium Sauvignon Blanc: Buy Sauvignon Blanc online in Australia: 5 bottles from Gentleman's Duel, Taylor Ferguson & Co and Charlotte’s Inlet, priced from $9.99 to $14.99 AUD. Insured delivery, 18+ only.",
+    "description": "Sauvignon White Wine: Buy Sauvignon Blanc online in Australia: 5 bottles from Gentleman's Duel, Taylor Ferguson & Co and Charlotte’s Inlet, priced from $9.99 to $14.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/sauvignon-blanc/vine-hill-mclaren-vale-sauvignon-blanc-2021.jpg",
-    "primaryKeyword": "premium sauvignon blanc",
+    "primaryKeyword": "sauvignon white wine",
     "secondaryKeywords": [
-      "sauvignon white wine",
+      "champagne",
+      "red wine",
+      "sauvignon blanc",
+      "rose wine",
+      "white wine",
+      "apple cider",
       "sauvignon blanc wine",
+      "cabernet sauvignon wine",
+      "sav blanc wine",
       "sauvignon red wine",
       "sauvignon blanc white wine",
+      "white sauvignon wine",
       "sauvignon blanc dry white wine",
+      "blanc sauvignon wine",
+      "sauvignon wine"
+    ],
+    "tags": [
       "sauvignon blanc for cooking",
       "sauvignon blanc wine price",
       "wine cabernet sauvignon",
@@ -4001,12 +4013,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "sauvignon blanc wine for cooking",
       "sauv blanc white wine",
       "blanc wine",
-      "highest rated sauvignon blanc"
-    ],
-    "tags": [
-      "sauvignon blanc",
-      "cabernet sauvignon wine",
-      "sav blanc wine",
+      "highest rated sauvignon blanc",
       "sauv blanc for cooking",
       "sauvignon blanc from france",
       "sauvignon blonc",
@@ -4016,23 +4023,16 @@ export const SUBCATEGORIES: Subcategory[] = [
       "saubignon blanc",
       "sauv blanc abv",
       "sauvignon blanc day",
-      "sauvignon blanc delivery",
-      "savuignon blanc",
-      "cabernet sauvignon a red wine",
-      "cabernet sauvignon napa valley",
-      "cabernet sauvignon wine red",
-      "champagne",
-      "red wine",
-      "rose wine"
+      "sauvignon blanc delivery"
     ],
     "faqs": [
       {
-        "question": "How much does premium sauvignon blanc cost in Australia?",
+        "question": "How much does sauvignon white wine cost in Australia?",
         "answer": "Sauvignon Blanc at Doctors of Whisky ranges from $9.99 AUD (Gentleman's Duel South Australian Sauvignon Blanc) to $14.99 AUD (Vine Hill McLaren Vale Sauvignon Blanc 2021). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy premium sauvignon blanc online in Australia?",
-        "answer": "Order premium sauvignon blanc from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy sauvignon white wine online in Australia?",
+        "answer": "Order sauvignon white wine from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which sauvignon blanc brands do you sell?",
@@ -4054,34 +4054,17 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Sauvignon blanc is a white wine grape known for fresh, zesty, herbaceous wines. Doctors of Whisky lists 5 sauvignon blanc bottles across 5 brands, including Gentleman's Duel, Taylor Ferguson & Co, Charlotte’s Inlet and Rosetta Estate, priced from $9.99 to $14.99 AUD.",
       "Serve sauvignon blanc well chilled with seafood, salads and goat cheese.",
-      "To buy premium sauvignon blanc online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy sauvignon white wine online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
     "slug": "pink-gin",
     "name": "Pink Gin",
     "category": "spirit",
-    "description": "Gin Sale: Buy Pink Gin online in Australia: 1 bottles from Elsker, priced from $84.99 to $84.99 AUD. Insured delivery, 18+ only.",
+    "description": "Buy Pink Gin online in Australia: 1 bottles from Elsker, priced from $84.99 to $84.99 AUD. Insured delivery, 18+ only.",
     "heroImage": "/images/products/pink-gin/elsker-dry-pink-gin.jpg",
-    "primaryKeyword": "gin sale",
+    "primaryKeyword": "pink gin",
     "secondaryKeywords": [
-      "pink gin",
-      "gin cans",
-      "bottle of gin",
-      "gin presents",
-      "glas gin tonic",
-      "good gin",
-      "sydney gin",
-      "premix gin",
-      "gin price",
-      "gin 1l",
-      "buy gin online australia",
-      "cal gin",
-      "le tribute gin",
-      "australia gin",
-      "gin australia"
-    ],
-    "tags": [
       "gin",
       "gin gifts",
       "gin gifts australia",
@@ -4093,24 +4076,41 @@ export const SUBCATEGORIES: Subcategory[] = [
       "gin brands",
       "gin gift pack",
       "gin specials",
+      "gin sale",
+      "pink vodka",
       "gin and tonic cans",
+      "gin pink"
+    ],
+    "tags": [
       "gin bottle",
       "flavoured gin",
       "gin gift set",
       "gin alcohol",
+      "gin cans",
+      "bottle of gin",
+      "gin presents",
+      "glas gin tonic",
+      "good gin",
+      "sydney gin",
       "gin premix",
       "gin and tonic premix",
-      "gin and tonic can",
-      "gin and tonic in a can"
+      "premix gin",
+      "gin price",
+      "gin 1l",
+      "buy gin online australia",
+      "cal gin",
+      "le tribute gin",
+      "australia gin",
+      "gin australia"
     ],
     "faqs": [
       {
-        "question": "How much does gin sale cost in Australia?",
+        "question": "How much does pink gin cost in Australia?",
         "answer": "Pink Gin at Doctors of Whisky ranges from $84.99 AUD (Elsker Dry Pink Gin) to $84.99 AUD (Elsker Dry Pink Gin). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy gin online australia in Australia?",
-        "answer": "Order gin sale from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
+        "question": "Where can I buy pink gin online in Australia?",
+        "answer": "Order pink gin from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
         "question": "Which pink gin brands do you sell?",
@@ -4132,7 +4132,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "longDescription": [
       "Pink gin is gin flavoured or coloured with red fruit or botanicals. Doctors of Whisky lists 1 pink gin bottle across 1 brand, including Elsker, priced from $84.99 to $84.99 AUD.",
       "Serve pink gin chilled, with tonic or lemonade and plenty of ice.",
-      "To buy gin sale online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
+      "To buy pink gin online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
   },
   {
@@ -4143,23 +4143,6 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/ouzo/ouzo-mini.jpg",
     "primaryKeyword": "ouzo",
     "secondaryKeywords": [
-      "absolut raspberri vodka",
-      "tequila azul",
-      "best spiced rum",
-      "spiced rum the kraken",
-      "cognac brandy",
-      "baileys chocolate liqueur",
-      "vodka cruiser raspberry",
-      "best russian vodka",
-      "1 litre smirnoff vodka",
-      "smirnoff red label vodka",
-      "crystal head skull vodka",
-      "don julio tequila 1942",
-      "espolon tequila blanco",
-      "blue tequila",
-      "fancy tequila"
-    ],
-    "tags": [
       "tequila",
       "gin",
       "smirnoff vodka",
@@ -4174,12 +4157,29 @@ export const SUBCATEGORIES: Subcategory[] = [
       "clase azul tequila",
       "azul tequila",
       "spiced rum",
-      "captain morgan spiced rum",
+      "captain morgan spiced rum"
+    ],
+    "tags": [
       "gin gifts",
       "gin gifts australia",
       "orange liqueur",
       "ciroc vodka",
-      "bacardi white rum"
+      "bacardi white rum",
+      "rum with spices",
+      "gin gift packs",
+      "absolut raspberri vodka",
+      "tequila azul",
+      "best spiced rum",
+      "spiced rum the kraken",
+      "cognac brandy",
+      "baileys chocolate liqueur",
+      "vodka cruiser raspberry",
+      "best russian vodka",
+      "1 litre smirnoff vodka",
+      "smirnoff red label vodka",
+      "crystal head skull vodka",
+      "don julio tequila 1942",
+      "espolon tequila blanco"
     ],
     "faqs": [
       {
@@ -4221,9 +4221,24 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/low-carb-beer/pure-blonde-ultra-low-carb-lager-case-4-x-6-pack-bottles.jpg",
     "primaryKeyword": "hahn super dry low carb",
     "secondaryKeywords": [
+      "low carb beer",
+      "carb friendly beer",
+      "mid strength beer",
+      "zero carb beer",
+      "low calorie beer",
+      "lightweight beer",
+      "carbless beer",
+      "no carb beer",
+      "low carb beer australia",
+      "lowest calorie beer",
       "low carb beers",
+      "0 carb beer",
+      "low alcohol beer",
       "best low carb beer australia",
-      "low calorie beer australia",
+      "low calorie beer australia"
+    ],
+    "tags": [
+      "full strength beer",
       "best low carb beer",
       "beer that is low in carbs",
       "beers that are low in carbs",
@@ -4235,22 +4250,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "low calorie beer au",
       "best mid strength beer australia",
       "mid strength wine",
-      "good low carb beer"
-    ],
-    "tags": [
-      "low carb beer",
-      "carb friendly beer",
-      "mid strength beer",
-      "zero carb beer",
-      "low calorie beer",
-      "lightweight beer",
-      "carbless beer",
-      "no carb beer",
-      "low carb beer australia",
-      "lowest calorie beer",
-      "0 carb beer",
-      "low alcohol beer",
-      "full strength beer",
+      "good low carb beer",
       "lowest carb beer",
       "hahn beer low carb",
       "low alcohol beer australia",
@@ -4299,23 +4299,6 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/grenache/penfolds-bin-138-shiraz-grenache-mataro-2018.jpg",
     "primaryKeyword": "grenache red",
     "secondaryKeywords": [
-      "less alcohol beer",
-      "reduced alcohol beer",
-      "sparkling champagne non alcoholic",
-      "best non alcoholic beer australia",
-      "best zero alcohol beer",
-      "diet ginger beer",
-      "pinot wine red",
-      "best white wine",
-      "buy white wine online",
-      "beer in australia",
-      "beer is best",
-      "german wheat beer",
-      "pale ale beer",
-      "beer with mango",
-      "black beer"
-    ],
-    "tags": [
       "champagne",
       "red wine",
       "rose wine",
@@ -4329,13 +4312,30 @@ export const SUBCATEGORIES: Subcategory[] = [
       "sparkling wine",
       "wine white wines",
       "dry white wine",
+      "red grenache",
+      "buy grenache"
+    ],
+    "tags": [
       "low carb beer",
+      "grenache wine",
       "flavoured beer",
       "beer flavours",
       "carb friendly beer",
       "modelo beer",
       "german beer",
-      "ginger beer alcoholic"
+      "ginger beer alcoholic",
+      "wine deals",
+      "carbonated wine",
+      "grenache red wine",
+      "less alcohol beer",
+      "reduced alcohol beer",
+      "sparkling champagne non alcoholic",
+      "best non alcoholic beer australia",
+      "best zero alcohol beer",
+      "diet ginger beer",
+      "pinot wine red",
+      "best white wine",
+      "buy white wine online"
     ],
     "faqs": [
       {
@@ -4343,7 +4343,7 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Grenache at Doctors of Whisky ranges from $21.99 AUD (Serafino McLaren Vale GSM Grenache Blend) to $41.99 AUD (Penfolds Bin 138 Shiraz Grenache Mataro 2018). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
-        "question": "Where can I buy grenache red online in Australia?",
+        "question": "Where can I buy grenache in Australia?",
         "answer": "Order grenache red from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
@@ -4378,33 +4378,22 @@ export const SUBCATEGORIES: Subcategory[] = [
     "primaryKeyword": "german beer",
     "secondaryKeywords": [
       "tiger beer",
-      "mountain goat beer",
-      "chang beer",
-      "leffe beer",
-      "emu export beer",
-      "ichnusa beer",
-      "beer australia",
-      "beer slab",
-      "beer price in australia",
-      "larger beer",
-      "flavored beer",
-      "beer gift",
-      "beer offers",
-      "beer price",
-      "fruity beer"
-    ],
-    "tags": [
       "flavoured beer",
       "beer flavours",
       "modelo beer",
       "aussie beer",
       "peroni beer",
+      "mountain goat beer",
       "stone and wood beer",
       "beer mx",
       "mid strength beer",
       "mythos beer",
+      "chang beer",
       "lager beer",
       "beer for cheap",
+      "beer price in australia"
+    ],
+    "tags": [
       "beer can",
       "cheap beer",
       "stonewood beer",
@@ -4413,7 +4402,18 @@ export const SUBCATEGORIES: Subcategory[] = [
       "balter beer australia",
       "best aussie beer",
       "hoegaarden beer",
-      "beer carton"
+      "beer carton",
+      "best beer",
+      "leffe beer",
+      "emu export beer",
+      "ichnusa beer",
+      "beer australia",
+      "beer slab",
+      "larger beer",
+      "flavored beer",
+      "beer gift",
+      "beer offers",
+      "beer price"
     ],
     "faqs": [
       {
@@ -4455,28 +4455,6 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/cabernet-sauvignon/passing-clouds-the-angel-bendigo-cabernet-sauvignon-2019.jpg",
     "primaryKeyword": "red wine cabernet",
     "secondaryKeywords": [
-      "red wines cabernet",
-      "cab sauv red wine",
-      "cab sav red wine",
-      "cabernet dry red wine",
-      "red wine cabernet sauvignon",
-      "red cabernet wine",
-      "red wine cab sav",
-      "cab wine",
-      "bordeaux cabernet",
-      "bordeaux wine cabernet sauvignon",
-      "cabernet online",
-      "cabernet sauvignon a red wine",
-      "cabernet sauvignon napa valley",
-      "cabernet sauvignon wine red",
-      "wine red cabernet"
-    ],
-    "tags": [
-      "cabernet sauvignon wine",
-      "cab sav wine",
-      "sauvignon red wine",
-      "wine cabernet sauvignon",
-      "dry red wine cabernet sauvignon",
       "champagne",
       "red wine",
       "rose wine",
@@ -4491,7 +4469,29 @@ export const SUBCATEGORIES: Subcategory[] = [
       "wine white wines",
       "dry white wine",
       "low carb beer",
-      "flavoured beer"
+      "cabernet red"
+    ],
+    "tags": [
+      "flavoured beer",
+      "beer flavours",
+      "carb friendly beer",
+      "cabernet sauvignon wine",
+      "cab sav wine",
+      "sauvignon red wine",
+      "red wines cabernet",
+      "cab sauv red wine",
+      "wine cabernet sauvignon",
+      "cab sav red wine",
+      "cabernet dry red wine",
+      "dry red wine cabernet sauvignon",
+      "red wine cabernet sauvignon",
+      "red cabernet wine",
+      "red wine cab sav",
+      "cab wine",
+      "bordeaux cabernet",
+      "bordeaux wine cabernet sauvignon",
+      "cabernet online",
+      "cabernet sauvignon a red wine"
     ],
     "faqs": [
       {
@@ -4533,23 +4533,6 @@ export const SUBCATEGORIES: Subcategory[] = [
     "heroImage": "/images/products/pilsner/grolsch-premium-pilsner-imported-beer-case-cans.jpg",
     "primaryKeyword": "beer pilsner",
     "secondaryKeywords": [
-      "lager pilsner",
-      "light beer australia",
-      "lime beer",
-      "non alcoholic wine drinks",
-      "0 alcohol beer",
-      "alcohol free red wine",
-      "beer for gluten free",
-      "gluten and wheat free beer",
-      "alcohol ginger beer",
-      "hard ginger beer",
-      "spicy ginger beer",
-      "best alcoholic ginger beer",
-      "james squires ginger beer",
-      "remedy ginger beer",
-      "red wine australia"
-    ],
-    "tags": [
       "champagne",
       "red wine",
       "rose wine",
@@ -4564,12 +4547,29 @@ export const SUBCATEGORIES: Subcategory[] = [
       "wine white wines",
       "dry white wine",
       "low carb beer",
-      "flavoured beer",
+      "flavoured beer"
+    ],
+    "tags": [
       "beer flavours",
       "carb friendly beer",
       "modelo beer",
       "german beer",
-      "ginger beer alcoholic"
+      "ginger beer alcoholic",
+      "wine deals",
+      "carbonated wine",
+      "pilsner",
+      "pilsner beer",
+      "light beer australia",
+      "lime beer",
+      "non alcoholic wine drinks",
+      "0 alcohol beer",
+      "alcohol free red wine",
+      "beer for gluten free",
+      "gluten and wheat free beer",
+      "alcohol ginger beer",
+      "hard ginger beer",
+      "spicy ginger beer",
+      "best alcoholic ginger beer"
     ],
     "faqs": [
       {

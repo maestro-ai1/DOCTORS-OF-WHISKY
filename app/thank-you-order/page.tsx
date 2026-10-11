@@ -110,7 +110,7 @@ function ThankYouOrderContent() {
             <Phone className="w-4 h-4" />
             <span>Confirm on WhatsApp ({CONTACT.phone})</span>
           </a>
-          <Link href="/shop" className="inline-flex items-center gap-2 text-xs font-bold text-neutral-400 hover:text-amber-300 transition-colors">
+          <Link href="/shop/" className="inline-flex items-center gap-2 text-xs font-bold text-neutral-400 hover:text-amber-300 transition-colors">
             <span>Continue Browsing the Catalogue</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>

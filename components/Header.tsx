@@ -4,17 +4,32 @@ import { Search, Menu, X, ChevronDown, Wine } from 'lucide-react';
 import { SITE } from '@/lib/config';
 import { HeaderCartButton, HeaderWishlistLink } from '@/components/header/HeaderIslands';
 
-/** Shop drop-down: the four product categories. */
+/** Shop drop-down: the four product categories (trailing slashes match the site's canonical URLs). */
 const SHOP_MENU = [
-  { label: 'Whisky', href: '/shop/whisky' },
-  { label: 'Spirit', href: '/shop/spirit' },
-  { label: 'Beer / Wine / Premix', href: '/shop/beer-premix-wine' },
-  { label: 'Others', href: '/shop/other' },
+  { label: 'Whisky', href: '/shop/whisky/' },
+  { label: 'Spirit', href: '/shop/spirit/' },
+  { label: 'Beer / Wine / Premix', href: '/shop/beer-premix-wine/' },
+  { label: 'Others', href: '/shop/other/' },
 ];
 
+/** Top collections (real pages) so the menu passes link equity to the money pages. */
+const TOP_COLLECTIONS = [
+  { label: 'Scotch Whisky', href: '/shop/whisky/collection/scotch-whisky/' },
+  { label: 'Japanese Whisky', href: '/shop/whisky/collection/japanese-whisky/' },
+  { label: 'Bourbon', href: '/shop/whisky/collection/bourbon/' },
+  { label: 'Gin', href: '/shop/spirit/collection/gin/' },
+  { label: 'Vodka', href: '/shop/spirit/collection/vodka/' },
+  { label: 'Cognac & Brandy', href: '/shop/spirit/collection/cognac-brandy/' },
+  { label: 'Champagne', href: '/shop/beer-premix-wine/collection/champagne/' },
+];
+
+/** Main menu: Home, Shop (drop-down), Guides, About Us, Contact Us, FAQ. */
 const NAV_LINKS = [
-  { label: 'FAQ', href: '/faq' },
-  { label: 'Terms of Service', href: '/terms' },
+  { label: 'Home', href: '/' },
+  { label: 'Guides', href: '/blog/' },
+  { label: 'About Us', href: '/about/' },
+  { label: 'Contact Us', href: '/contact/' },
+  { label: 'FAQ', href: '/faq/' },
 ];
 
 /**
@@ -41,7 +56,7 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
               <div className="space-y-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-amber-500 font-bold px-2">Shop</span>
                 <Link
-                  href="/shop"
+                  href="/shop/"
                   className="block p-3 rounded-lg text-sm font-semibold uppercase tracking-wider text-amber-300 bg-neutral-900 border border-amber-800/50 hover:bg-neutral-800 transition-colors"
                 >
                   All bottles
@@ -51,6 +66,14 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
                     {item.label}
                   </Link>
                 ))}
+                <span className="block text-[10px] uppercase tracking-[0.2em] text-amber-500 font-bold px-2 pt-2">Popular collections</span>
+                <div className="grid grid-cols-2 gap-2">
+                  {TOP_COLLECTIONS.map((item) => (
+                    <Link key={item.href} href={item.href} className="block p-3 rounded-lg border border-neutral-800/80 bg-neutral-900/40 text-xs font-semibold text-neutral-200 hover:text-amber-300 transition-colors">
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
               </div>
               <div className="space-y-2">
                 {NAV_LINKS.map((l) => (
@@ -77,7 +100,7 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
           <nav aria-label="Main" className="hidden lg:flex items-center gap-1 xl:gap-2">
             <div className="relative group">
               <Link
-                href="/shop"
+                href="/shop/"
                 className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-neutral-300 group-hover:text-amber-400 group-focus-within:text-amber-400 hover:bg-neutral-900/60 transition-colors rounded-md"
               >
                 <span>Shop</span>
@@ -92,8 +115,16 @@ export function Header({ announcement }: { announcement?: React.ReactNode }) {
                       </Link>
                     </li>
                   ))}
+                  <li className="mt-1 pt-1 border-t border-neutral-800 px-3 pt-2 text-[10px] uppercase tracking-[0.2em] text-amber-500 font-bold">Popular collections</li>
+                  {TOP_COLLECTIONS.map((item) => (
+                    <li key={item.href}>
+                      <Link href={item.href} className="block px-3 py-2 rounded-lg text-sm text-neutral-300 hover:text-amber-300 hover:bg-neutral-900 transition-colors">
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
                   <li className="mt-1 pt-1 border-t border-neutral-800">
-                    <Link href="/shop" className="block px-3 py-2.5 rounded-lg text-xs font-semibold uppercase tracking-wider text-amber-400 hover:bg-neutral-900 transition-colors">
+                    <Link href="/shop/" className="block px-3 py-2.5 rounded-lg text-xs font-semibold uppercase tracking-wider text-amber-400 hover:bg-neutral-900 transition-colors">
                       View all bottles
                     </Link>
                   </li>

@@ -13,27 +13,37 @@ export interface SeoKeywordSet {
 
 export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  "scotch-whisky": {
-  "primary": "whiskey sale",
-  "primaryVolume": 480,
-  "primaryKd": 18,
+  "primary": "scotch whisky",
+  "primaryVolume": 2900,
+  "primaryKd": 19,
   "secondary": [
    "whisky",
    "scotch",
+   "johnnie walker",
    "japanese whiskey",
    "regal chivas whisky",
    "single malt",
-   "scotch whisky",
+   "macallan",
    "hibiki whiskey",
+   "laphroaig",
    "bourbon whiskey",
    "single malt whiskey",
+   "whisky gift pack",
+   "dimple whiskey",
+   "balvenie",
+   "ardbeg"
+  ],
+  "tags": [
+   "whiskey gift",
    "macallan whiskey",
+   "whiskey gifts australia",
+   "royal salute",
    "scotch whiskey",
    "whisky malt single",
    "singleton whiskey",
    "dalmore whisky",
-   "single malt scotch whisky"
-  ],
-  "tags": [
+   "single malt scotch whisky",
+   "rye whiskey",
    "macallan whisky",
    "best whiskey",
    "blended scotch whisky",
@@ -43,19 +53,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "premium scotch whiskey",
    "scotch malt whisky",
    "highland single malt whiskey",
-   "premium blended scotch",
-   "single malt scotch",
-   "whisky the dalmore",
-   "malt scotch whisky",
-   "blended scots whisky",
-   "highland malt scotch whiskey",
-   "scotch and whiskey blend",
-   "scotch whiskey brands",
-   "best scotch whisky",
-   "singleton whisky",
-   "highland single malt",
-   "best single malt whiskey",
-   "whisky america"
+   "premium blended scotch"
   ],
   "faqSeeds": [
    {
@@ -242,7 +240,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "regal chivas whisky"
+   "regal chivas whisky",
+   "laphroaig",
+   "balvenie",
+   "ardbeg"
   ]
  },
  "bourbon": {
@@ -250,45 +251,43 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 210,
   "primaryKd": 6,
   "secondary": [
+   "jack daniels",
    "bourbon",
+   "jim beam",
+   "jack daniels 700ml",
    "bourbon brands",
+   "jack daniels 1 litre",
+   "bourbon whiskey",
    "bourbon whiskey kentucky straight",
    "buffalo trace bourbon",
+   "jim beam bourbon",
    "jim beam bourbon whiskey",
+   "jack daniels 700ml price",
+   "jim beam 1 litre best price",
+   "jim beam bourbon 1 litre price",
+   "buy jack daniels"
+  ],
+  "tags": [
    "whisky buffalo trace bourbon",
+   "jim beam 1 litre",
+   "jack daniels 1l",
    "whiskey bourbon jim beam",
    "wild turkey bourbon",
    "buffalo trace kentucky bourbon",
+   "jack daniels whiskey",
    "bulleit bourbon",
+   "jim beam 700ml",
    "bourbon a whiskey",
    "wood reserve bourbon",
    "bourbon woodford",
    "1792 bourbon",
-   "australian bourbon"
-  ],
-  "tags": [
-   "bourbon whiskey",
+   "australian bourbon",
    "kentucky bourbon",
+   "700ml jack daniels",
+   "jack daniels bourbon",
+   "jim beam whiskey",
    "bourbon specials",
-   "woodford bourbon",
-   "premium bourbon whiskey",
-   "premium bourbon",
-   "buffalo trace bourbon whiskey",
-   "american bourbon",
-   "bourbon australia",
-   "cheap bourbon australia",
-   "bourbon on special",
-   "buffalo trace bourbon whisky",
-   "bourbon whisky",
-   "bourbon prices",
-   "bourbon reserve woodford",
-   "jack daniels bourbon whiskey",
-   "american bourbon whiskey",
-   "bourbon alcohol",
-   "wild turkey bourbon australia",
-   "whisky bourbon jack daniels",
-   "nice bourbon whiskey",
-   "bourbon whiskey australia"
+   "woodford bourbon"
   ],
   "faqSeeds": [
    {
@@ -474,20 +473,35 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "jack daniels 700ml price",
+   "jim beam 1 litre best price",
+   "jim beam bourbon 1 litre price",
+   "buy jack daniels"
+  ]
  },
  "rye-whiskey": {
   "primary": "whiskey & rye",
   "primaryVolume": 1000,
   "primaryKd": 13,
   "secondary": [
+   "whisky",
+   "scotch",
+   "bourbon",
+   "japanese whiskey",
+   "single malt",
+   "starward whisky",
    "rye whiskey",
    "liquor rye",
    "rye spirit",
    "sazerac rye",
+   "rye for whiskey",
    "rye whiskey australia",
    "manhattan rye whiskey",
    "knob creek rye",
+   "whisky and rye"
+  ],
+  "tags": [
    "rye bourbon",
    "high west double rye",
    "rye whiskeys",
@@ -495,9 +509,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "canadian rye whiskey",
    "minor case rye whiskey",
    "whiskey in the rye",
-   "rye whiskey brands"
-  ],
-  "tags": [
+   "rye whiskey brands",
    "jack daniels rye",
    "best rye whiskey",
    "australian rye whiskey",
@@ -509,17 +521,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "rye whiskey types",
    "straight rye whiskey",
    "whiskey bourbon rye",
-   "bourbon rye whiskey",
-   "bourbon versus rye",
-   "good rye whiskey",
-   "rye whiskey recommendations",
-   "best rye bourbon",
-   "whisky",
-   "scotch",
-   "bourbon",
-   "japanese whiskey",
-   "single malt",
-   "starward whisky"
+   "bourbon rye whiskey"
   ],
   "faqSeeds": [
    {
@@ -706,33 +708,39 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "rye spirit"
+   "rye spirit",
+   "rye for whiskey",
+   "whisky and rye"
   ]
  },
  "japanese-whisky": {
-  "primary": "buy japanese whisky online",
-  "primaryVolume": 90,
-  "primaryKd": 5,
+  "primary": "nikka whiskey",
+  "primaryVolume": 1300,
+  "primaryKd": 18,
   "secondary": [
+   "japanese whiskey",
+   "hibiki whiskey",
    "japanese whisky",
    "suntory 196",
+   "suntory whisky",
    "japanese gin",
    "nikka from the barrel",
-   "nikka whiskey",
+   "toki whiskey",
    "hibiki whisky",
    "yamazaki whiskey",
    "nikka whisky",
    "hibiki suntory whisky",
+   "nikka",
+   "japanese single malt whiskey",
+   "japanese scotch"
+  ],
+  "tags": [
    "nikka whisky from the barrel",
    "japanese whiskey yamazaki",
    "japanese single malt",
    "best japanese whiskey",
    "black nikka",
-   "suntory double lemon"
-  ],
-  "tags": [
-   "japanese whiskey",
-   "hibiki whiskey",
+   "suntory double lemon",
    "hibiki japanese whiskey",
    "yamazaki whisky",
    "best japanese whisky",
@@ -741,18 +749,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "toki japanese whiskey",
    "nikka coffey grain",
    "barrel nikka",
+   "japanese blended whisky",
    "japanese blend whisky",
    "japanese single malt whisky",
    "japanese malt whiskey",
    "hibiki harmony whisky",
-   "nikka whiskey from the barrel",
-   "japanese bourbon",
-   "japanese whiskey brands",
-   "good japanese whiskey",
-   "best japanese scotch",
-   "fuji single blended japanese whisky",
-   "fuji single malt japanese whisky",
-   "nikka from the barrel whisky"
+   "nikka whiskey from the barrel"
   ],
   "faqSeeds": [
    {
@@ -939,8 +941,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "nikka whiskey",
-   "yamazaki whiskey"
+   "yamazaki whiskey",
+   "nikka",
+   "japanese single malt whiskey",
+   "japanese scotch"
   ]
  },
  "australian-whisky": {
@@ -951,21 +955,23 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "starward whisky",
    "lark whiskey",
    "lark classic cask",
+   "australian bourbon",
    "best australian whisky",
    "australian whiskey brands",
    "australian single malt whisky",
    "best australian scotch",
    "australian spirits",
+   "lark single malt",
    "australian single malt whiskey",
    "australian made spirits",
    "lark tasmanian peated",
+   "starward single malt",
+   "lark single malt whisky"
+  ],
+  "tags": [
    "lark symphony",
    "lark cask strength",
    "best australian whiskey",
-   "lark gift pack"
-  ],
-  "tags": [
-   "australian bourbon",
    "78 australian whiskey",
    "australian single malt",
    "lark whisky price",
@@ -982,11 +988,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tasmanian whisky brands",
    "lark chinotto citrus cask",
    "lark classic cask single malt",
-   "lark whisky review",
-   "lark st",
-   "lark whiskey tasmania",
-   "lark classic",
-   "lark chinotto cask"
+   "lark whisky review"
   ],
   "faqSeeds": [
    {
@@ -1174,7 +1176,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "lark whiskey",
-   "lark gift pack"
+   "lark single malt",
+   "starward single malt",
+   "lark single malt whisky"
   ]
  },
  "french-vodka": {
@@ -1186,19 +1190,24 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "absolut vodka",
    "cheap vodka",
    "absolute vodka",
+   "ciroc vodka",
    "cruiser vodka",
    "vodka bottle",
+   "ciroc",
    "tito's vodka",
    "gray goose vodka 1 liter",
    "vodka 1l",
    "vodka smirnoff",
+   "vodka &",
+   "buy vodka online",
+   "vodka for sale online"
+  ],
+  "tags": [
    "grey goose vodka 1l",
    "grey goose vodka 1 litre",
    "bottle of vodka",
    "vodka cheap",
-   "cheapest vodka"
-  ],
-  "tags": [
+   "cheapest vodka",
    "sky vodka",
    "vodka premix",
    "vodka cans",
@@ -1213,14 +1222,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "mini vodka",
    "vodka and prices",
    "vodka low cost",
-   "vodka flavours",
-   "alize vodka",
-   "vodka red",
-   "1 liter vodka",
-   "vodka bottles",
-   "o vodka",
-   "vodka on special",
-   "vodka special"
+   "vodka flavours"
   ],
   "faqSeeds": [
    {
@@ -1407,7 +1409,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "cruiser vodka"
+   "cruiser vodka",
+   "vodka &",
+   "buy vodka online",
+   "vodka for sale online"
   ]
  },
  "russian-vodka": {
@@ -1415,12 +1420,25 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 320,
   "primaryKd": 15,
   "secondary": [
+   "smirnoff vodka",
+   "cheap vodka",
    "cruiser vodka",
+   "vodka bottle",
    "vodka to drink",
    "crystal head vodka",
+   "vodka 1l",
    "polish vodka",
    "russian vodka",
    "smirnoff vodka 1 litre",
+   "vodka smirnoff",
+   "bottle of vodka",
+   "vodka &",
+   "buy vodka online",
+   "vodka for sale online"
+  ],
+  "tags": [
+   "vodka cheap",
+   "cheapest vodka",
    "1l vodka",
    "700ml vodka",
    "absolut vanilla vodka",
@@ -1429,16 +1447,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "russian standard vodka",
    "1 litre vodka",
    "smirnoff distilled vodka",
-   "vodka 700ml"
-  ],
-  "tags": [
-   "smirnoff vodka",
-   "vodka bottle",
-   "vodka 1l",
-   "vodka smirnoff",
-   "bottle of vodka",
-   "vodka cheap",
-   "cheapest vodka",
+   "vodka 700ml",
    "mini vodka",
    "skull head vodka",
    "vodka and prices",
@@ -1447,13 +1456,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "vodka cruiser raspberry",
    "best russian vodka",
    "1 liter vodka",
-   "vodka bottles",
-   "1 litre smirnoff vodka",
-   "smirnoff red label vodka",
-   "crystal head skull vodka",
-   "o vodka",
-   "vodka on special",
-   "vodka special"
+   "vodka bottles"
   ],
   "faqSeeds": [
    {
@@ -1640,7 +1643,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "cruiser vodka"
+   "cruiser vodka",
+   "vodka &",
+   "buy vodka online",
+   "vodka for sale online"
   ]
  },
  "polish-vodka": {
@@ -1648,45 +1654,43 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 260,
   "primaryKd": 14,
   "secondary": [
-   "ciroc vodka",
-   "ketel one vodka",
-   "belvedere vodka 1l",
-   "flavoured vodka",
-   "polish beer",
-   "lychee vodka",
-   "titos vodka",
-   "500ml vodka",
-   "blck vodka",
-   "wyborowa vodka",
-   "alize vodka",
-   "vodka red",
-   "chopin polish vodka",
-   "litchi vodka",
-   "grass vodka zubrowka"
-  ],
-  "tags": [
    "absolut vodka",
+   "cheap vodka",
+   "ciroc vodka",
+   "vodka bottle",
    "vodka to drink",
    "tito's vodka",
+   "ketel one vodka",
    "vodka 1l",
    "crystal head vodka",
    "polish vodka",
    "russian vodka",
-   "200ml vodka",
-   "passion vodka",
-   "tangle vodka",
-   "100 vodka proof",
-   "polish wodka",
-   "absolut vodka miniature",
-   "absolut vodka mini",
-   "bulk vodka",
-   "chopin potato vodka",
-   "tito's vodka handmade",
-   "polish vodka australia",
-   "polish cherry vodka",
-   "vodka chopin potato",
-   "50ml vodka",
-   "700ml of vodka"
+   "vodka &",
+   "chopin vodka",
+   "buy vodka online",
+   "vodka for sale online"
+  ],
+  "tags": [
+   "bottle of vodka",
+   "vodka cheap",
+   "cheapest vodka",
+   "belvedere vodka 1l",
+   "flavoured vodka",
+   "1l vodka",
+   "700ml vodka",
+   "vodka 1 litre",
+   "polish beer",
+   "vodka price",
+   "1 litre vodka",
+   "vodka 700ml",
+   "lychee vodka",
+   "titos vodka",
+   "500ml vodka",
+   "vodka and prices",
+   "blck vodka",
+   "wyborowa vodka",
+   "alize vodka",
+   "vodka red"
   ],
   "faqSeeds": [
    {
@@ -1872,39 +1876,47 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "vodka &",
+   "chopin vodka",
+   "buy vodka online",
+   "vodka for sale online"
+  ]
  },
  "grey-goose": {
-  "primary": "grey goose bottle",
-  "primaryVolume": 320,
-  "primaryKd": 22,
+  "primary": "grey goose vodka 700ml",
+  "primaryVolume": 880,
+  "primaryKd": 13,
   "secondary": [
    "grey goose 1l",
    "grey goose 1 litre",
+   "gray goose vodka 1 liter",
    "1l grey goose",
+   "grey goose vodka 1l",
+   "grey goose vodka 1 litre",
    "grey grouse scotch",
+   "grey goose bottle",
    "gray goose 1l",
    "grey goose cost",
    "gray goose cost",
    "price of grey goose vodka 1 litre",
    "1 liter grey goose",
    "grey goose 1 litre best price",
+   "goose vodka price"
+  ],
+  "tags": [
    "cost of gray goose vodka",
    "gray goose vodka cost",
    "grey goose vodka cost",
    "1 liter grey goose cost",
-   "grey goose vodka bottle"
-  ],
-  "tags": [
-   "gray goose vodka 1 liter",
-   "grey goose vodka 1l",
-   "grey goose vodka 1 litre",
+   "grey goose vodka bottle",
    "grey goose 1 liter",
    "grey goose one litre",
    "bottle of gray goose",
    "grey goose vodka 200ml",
    "grey grouse whiskey",
    "giant grey goose bottle",
+   "goose vodka 1l",
    "200ml grey goose",
    "700ml grey goose",
    "700ml grey goose vodka",
@@ -1912,12 +1924,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "grey goose vodka 4.5 litre",
    "grey goose 200ml",
    "grey goose 1.75 liter",
-   "earl grey gin",
-   "grey goose vodka 1 l",
-   "grey goose 1 l",
-   "1 l grey goose vodka",
-   "gray goose alcohol content",
-   "grey goose 1.75 l"
+   "earl grey gin"
   ],
   "faqSeeds": [
    {
@@ -2103,15 +2110,39 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "grey goose bottle",
+   "goose vodka price"
+  ]
  },
  "belvedere": {
-  "primary": "belvedere vodka price",
-  "primaryVolume": 170,
-  "primaryKd": 9,
+  "primary": "vodka belvedere",
+  "primaryVolume": 480,
+  "primaryKd": 11,
   "secondary": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
    "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "vodka belvedere 700ml",
+   "belvedere liquor",
+   "belvedere vodka price",
+   "belvedere price vodka"
+  ],
+  "tags": [
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum",
+   "captain morgan spiced rum",
    "belvedere vodka 700ml",
+   "belvedere vodka 1l",
    "belvedere 1l",
    "the belvedere reviews",
    "belvedere apartments",
@@ -2124,31 +2155,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "1l belvedere vodka",
    "belvedere vodka cost",
    "belvedere 1.75 l",
-   "belvedere 1.75 liter"
-  ],
-  "tags": [
-   "belvedere vodka 1l",
-   "belvedere vodka 1.75 liter",
-   "belvedere vidka",
-   "belvedere 1 liter",
-   "belvedere vodka 6 litre",
-   "belvedere 1.75 litre",
-   "belvedere vodka 1.75 litre",
-   "belvedere vodka 1.75 l",
-   "tequila",
-   "gin",
-   "smirnoff vodka",
-   "cognac",
-   "absolut vodka",
-   "rum",
-   "cheap vodka",
-   "patron tequila",
-   "coffee liqueur",
-   "absolute vodka",
-   "clase azul tequila",
-   "azul tequila",
-   "spiced rum",
-   "captain morgan spiced rum"
+   "belvedere 1.75 liter",
+   "belvedere vodka 1.75 liter"
   ],
   "faqSeeds": [
    {
@@ -2334,31 +2342,22 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "vodka belvedere 700ml",
+   "belvedere liquor",
+   "belvedere vodka price",
+   "belvedere price vodka"
+  ]
  },
  "mezcal": {
   "primary": "buy mezcal online australia",
   "primaryVolume": 70,
   "primaryKd": 6,
   "secondary": [
-   "mezcal vs tequila",
-   "400 conejos mezcal",
-   "kimo sabe mezcal",
-   "madre mezcal",
-   "tequila vs mezcal",
-   "mezcal brands",
-   "mezcal australia",
-   "discover mezcal",
-   "del maguey mezcal",
-   "best mezcal",
-   "kimo sabe mezcal review",
-   "bozal mezcal",
    "tequila",
    "gin",
-   "cognac"
-  ],
-  "tags": [
    "smirnoff vodka",
+   "cognac",
    "absolut vodka",
    "rum",
    "belvedere vodka",
@@ -2369,7 +2368,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "clase azul tequila",
    "azul tequila",
    "spiced rum",
-   "captain morgan spiced rum",
+   "captain morgan spiced rum"
+  ],
+  "tags": [
    "gin gifts",
    "gin gifts australia",
    "orange liqueur",
@@ -2379,7 +2380,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "gin gift packs",
    "germain liqueur",
    "don julio tequila",
-   "sierra tequila"
+   "sierra tequila",
+   "mezcal vs tequila",
+   "400 conejos mezcal",
+   "kimo sabe mezcal",
+   "madre mezcal",
+   "tequila vs mezcal",
+   "mezcal brands",
+   "mezcal australia",
+   "discover mezcal",
+   "del maguey mezcal",
+   "best mezcal"
   ],
   "faqSeeds": [
    {
@@ -2568,9 +2579,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "patron": {
-  "primary": "patron price",
-  "primaryVolume": 140,
-  "primaryKd": 10,
+  "primary": "patron tequila price",
+  "primaryVolume": 390,
+  "primaryKd": 7,
   "secondary": [
    "patron",
    "patron tequila",
@@ -2586,9 +2597,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "patron tequila silver",
    "patron silver tequila 700ml",
    "tequila patron añejo",
-   "patron xo"
+   "patron price"
   ],
   "tags": [
+   "patron xo",
    "patron cafe",
    "patron mini",
    "patron tequila alcohol",
@@ -2607,241 +2619,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tequila patron coffee",
    "small patron bottle",
    "little patron bottles",
-   "mini patron tequila bottles",
-   "cost of patron silver tequila",
-   "cost of patron silver",
-   "patron coffe"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": []
- },
- "don-julio": {
-  "primary": "don julio 1942 price",
-  "primaryVolume": 320,
-  "primaryKd": 14,
-  "secondary": [
-   "don julio",
-   "don julio 1942",
-   "don julio tequila",
-   "1942 tequila",
-   "don julio brands",
-   "1942 don julio",
-   "don julio reposado",
-   "reposado don julio",
-   "1942 tequila anejo",
-   "tequila don julio reposado",
-   "don julio anejo",
-   "tequila don julio",
-   "tequila don julio 1942",
-   "don julio blanco tequila",
-   "don julio reposado tequila"
-  ],
-  "tags": [
-   "don julio tequila reposado",
-   "don julio 70",
-   "don julio brand",
-   "don julio branding",
-   "don julio tequila 1942",
-   "don julio real",
-   "tequila 1942 don julio",
-   "cost of don julio",
-   "don hulio 1942",
-   "donjulio 1942",
-   "don julio rosado",
-   "1942 don julio cost",
-   "don julio anejo tequila",
-   "don julio 1942 tequila cost",
-   "tequila 1942",
-   "don julio tequilla",
-   "don julio cost",
-   "don julio ultima reserva",
-   "mini don julio",
-   "don julio mini",
-   "don julio 1942 50ml",
-   "don julio tequila 1842"
+   "mini patron tequila bottles"
   ],
   "faqSeeds": [
    {
@@ -3028,7 +2806,238 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "don julio brands"
+   "patron price"
+  ]
+ },
+ "don-julio": {
+  "primary": "don julio brands",
+  "primaryVolume": 1000,
+  "primaryKd": 18,
+  "secondary": [
+   "don julio",
+   "don julio 1942",
+   "don julio tequila",
+   "1942 tequila",
+   "1942 don julio",
+   "don julio reposado",
+   "reposado don julio",
+   "1942 tequila anejo",
+   "tequila don julio reposado",
+   "don julio anejo",
+   "tequila don julio",
+   "tequila don julio 1942",
+   "don julio blanco tequila",
+   "don julio reposado tequila",
+   "don julio 1942 price"
+  ],
+  "tags": [
+   "don julio tequila reposado",
+   "don julio 70",
+   "don julio brand",
+   "don julio branding",
+   "don julio tequila 1942",
+   "don julio real",
+   "tequila 1942 don julio",
+   "cost of don julio",
+   "don hulio 1942",
+   "donjulio 1942",
+   "don julio rosado",
+   "1942 don julio cost",
+   "don julio anejo tequila",
+   "don julio 1942 tequila cost",
+   "tequila 1942",
+   "don julio tequilla",
+   "don julio cost",
+   "don julio ultima reserva",
+   "mini don julio",
+   "don julio mini"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "don julio 1942 price"
   ]
  },
  "jose-cuervo": {
@@ -3036,7 +3045,25 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 90,
   "primaryKd": 13,
   "secondary": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
    "jose cuervo",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "spiced rum"
+  ],
+  "tags": [
+   "captain morgan spiced rum",
+   "gin gifts",
    "jose cuervo tequila",
    "jose cuervo 1l",
    "cuervo tequila",
@@ -3050,31 +3077,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tequila jose cuervo silver",
    "jose cuervo silver tequila",
    "jose cuervo agave",
-   "tequila jose cuervo 1l"
-  ],
-  "tags": [
+   "tequila jose cuervo 1l",
    "jose cuervo tequila agave",
    "blue agave tequila jose cuervo",
    "tequila cuervo gold",
-   "gold tequila jose cuervo",
-   "gold jose cuervo tequila",
-   "jose cuervo tequila 1l",
-   "tequila",
-   "gin",
-   "smirnoff vodka",
-   "cognac",
-   "absolut vodka",
-   "rum",
-   "belvedere vodka",
-   "cheap vodka",
-   "patron tequila",
-   "coffee liqueur",
-   "absolute vodka",
-   "clase azul tequila",
-   "azul tequila",
-   "spiced rum",
-   "captain morgan spiced rum",
-   "gin gifts"
+   "gold tequila jose cuervo"
   ],
   "faqSeeds": [
    {
@@ -3267,32 +3274,35 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 390,
   "primaryKd": 7,
   "secondary": [
+   "tequila",
+   "patron tequila",
    "clase azul tequila",
    "azul tequila",
    "sierra tequila",
    "blanco tequila",
    "patrón tequila",
    "tequila blanco",
+   "patron silver tequila",
+   "1942 tequila anejo",
    "tequila reposado",
    "silver tequila",
    "casamigos reposado tequila",
-   "tequila bottle",
-   "herradura tequila",
-   "tequila australia",
-   "casa azul tequila",
-   "white and blue bottle of tequila",
-   "don julio tequila reposado"
+   "tequila for sale",
+   "tequila sale"
   ],
   "tags": [
-   "tequila",
-   "patron tequila",
-   "patron silver tequila",
-   "1942 tequila anejo",
+   "tequila bottle",
+   "herradura tequila",
    "tequila don julio reposado",
+   "affordable tequila",
+   "tequila australia",
+   "casa azul tequila",
    "tequila patron",
    "tequila don julio",
    "tequila don julio 1942",
    "don julio blanco tequila",
+   "white and blue bottle of tequila",
+   "don julio tequila reposado",
    "tequila azul",
    "white tequila",
    "tequila sierra",
@@ -3300,12 +3310,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "patron tequila silver",
    "tequila 1l",
    "blue tequila",
-   "tequila bottles",
-   "tequila specials",
-   "fancy tequila",
-   "tequila patron añejo",
-   "tequila silver",
-   "tequila 700ml"
+   "tequila bottles"
   ],
   "faqSeeds": [
    {
@@ -3491,52 +3496,53 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "tequila for sale",
+   "tequila sale"
+  ]
  },
  "gold-tequila": {
   "primary": "buy tequila",
   "primaryVolume": 320,
   "primaryKd": 11,
   "secondary": [
-   "1800 anejo",
-   "tequila 1800",
-   "white tequila",
-   "tequila sierra",
-   "captain morgan spiced gold",
-   "1800 silver tequila",
-   "gold label whiskey",
-   "tequila 1l",
-   "tequila bottles",
-   "tequila specials",
-   "tequila silver",
-   "tequila 700ml",
-   "tequila 818",
-   "tequila price",
-   "tequila deals"
-  ],
-  "tags": [
    "tequila",
    "patron tequila",
    "sierra tequila",
    "jose cuervo tequila",
    "blanco tequila",
+   "reposado tequila",
    "patrón tequila",
    "patron silver tequila",
    "1942 tequila anejo",
    "tequila blanco",
+   "1800 anejo",
+   "tequila 1800",
    "tequila don julio reposado",
+   "tequila for sale",
+   "tequila sale"
+  ],
+  "tags": [
    "silver tequila",
    "tequila bottle",
+   "tequila reposado",
+   "affordable tequila",
    "tequila patron",
    "tequila don julio",
    "tequila don julio 1942",
    "don julio blanco tequila",
    "tequila australia",
+   "white tequila",
+   "tequila sierra",
+   "captain morgan spiced gold",
    "white and blue bottle of tequila",
    "don julio tequila reposado",
-   "patron tequila silver",
-   "patron silver tequila 700ml",
-   "tequila patron añejo"
+   "1800 silver tequila",
+   "gold label whiskey",
+   "tequila 1l",
+   "tequila bottles",
+   "tequila specials",
+   "patron tequila silver"
   ],
   "faqSeeds": [
    {
@@ -3722,12 +3728,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "tequila for sale",
+   "tequila sale"
+  ]
  },
  "spiced-rum": {
-  "primary": "buy rum",
-  "primaryVolume": 480,
-  "primaryKd": 13,
+  "primary": "kraken black spiced rum",
+  "primaryVolume": 1600,
+  "primaryKd": 24,
   "secondary": [
    "rum",
    "kraken rum",
@@ -3736,16 +3745,18 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "bacardi white rum",
    "rum with spices",
    "coconut rum",
-   "kraken black spiced rum",
    "bacardi rum",
    "dark rum",
    "caribbean rum",
    "captain morgan rum",
    "plantation rum",
-   "premium rum",
-   "bacardi spiced rum"
+   "buy rum",
+   "the kraken spiced rum",
+   "captain rum spiced"
   ],
   "tags": [
+   "premium rum",
+   "bacardi spiced rum",
    "havana club rum",
    "light rum",
    "op rum",
@@ -3763,11 +3774,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "bottle of rum",
    "rum bottle",
    "bundaberg rum 700ml",
-   "rum australia",
-   "rum brands",
-   "kraken coffee rum",
-   "banana rum",
-   "black bart rum"
+   "rum australia"
   ],
   "faqSeeds": [
    {
@@ -3955,16 +3962,33 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "kraken rum",
-   "kraken black spiced rum"
+   "buy rum",
+   "the kraken spiced rum",
+   "captain rum spiced"
   ]
  },
  "white-rum": {
-  "primary": "rum for sale",
-  "primaryVolume": 210,
-  "primaryKd": 12,
+  "primary": "buy rum",
+  "primaryVolume": 480,
+  "primaryKd": 13,
   "secondary": [
+   "rum",
    "kraken rum",
+   "spiced rum",
+   "captain morgan spiced rum",
+   "bacardi white rum",
+   "rum with spices",
    "kraken black spiced rum",
+   "bacardi rum",
+   "dark rum",
+   "caribbean rum",
+   "captain morgan rum",
+   "plantation rum",
+   "premium rum",
+   "bacardi sale",
+   "rum for sale"
+  ],
+  "tags": [
    "havana club rum",
    "light rum",
    "op rum",
@@ -3975,33 +3999,16 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "bundaberg red rum",
    "australian rum",
    "cuban rum",
+   "best rum",
    "bottle of rum",
    "rum bottle",
-   "bundaberg rum 700ml"
-  ],
-  "tags": [
-   "rum",
-   "spiced rum",
-   "captain morgan spiced rum",
-   "bacardi white rum",
-   "rum with spices",
-   "bacardi rum",
-   "dark rum",
-   "caribbean rum",
-   "captain morgan rum",
-   "plantation rum",
-   "premium rum",
+   "bundaberg rum 700ml",
    "rum australia",
    "rum brands",
    "kraken coffee rum",
    "banana rum",
    "black bart rum",
-   "rum cans",
-   "rum kraken spiced",
-   "bacardi rum superior white",
-   "bacardi superior white rum",
-   "bacardí superior white rum",
-   "captain morgan black rum"
+   "rum cans"
   ],
   "faqSeeds": [
    {
@@ -4189,7 +4196,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "kraken rum",
-   "kraken black spiced rum"
+   "kraken black spiced rum",
+   "bacardi sale",
+   "rum for sale"
   ]
  },
  "gin": {
@@ -4197,6 +4206,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 480,
   "primaryKd": 16,
   "secondary": [
+   "gin",
    "pink gin",
    "gin gifts",
    "gin gifts australia",
@@ -4208,13 +4218,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "gin brands",
    "gin gift pack",
    "gin specials",
+   "gin sale",
+   "gin for sale",
+   "buy gin australia"
+  ],
+  "tags": [
    "gin and tonic cans",
    "gin bottle",
    "flavoured gin",
-   "gin gift set"
-  ],
-  "tags": [
-   "gin",
+   "gin gift set",
    "gin alcohol",
    "gin premix",
    "gin and tonic premix",
@@ -4230,12 +4242,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "buy gin online australia",
    "cal gin",
    "le tribute gin",
-   "australia gin",
-   "gin australia",
-   "gin and tonic can",
-   "gin and tonic in a can",
-   "gin & tonic in a can",
-   "gin on special"
+   "australia gin"
   ],
   "faqSeeds": [
    {
@@ -4422,32 +4429,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "pink gin"
+   "pink gin",
+   "gin sale",
+   "gin for sale",
+   "buy gin australia"
   ]
  },
  "baijiu": {
-  "primary": "moutai price",
-  "primaryVolume": 260,
-  "primaryKd": 17,
+  "primary": "kweichow moutai",
+  "primaryVolume": 1000,
+  "primaryKd": 28,
   "secondary": [
-   "coffee liqueur",
-   "orange liqueur",
-   "germain liqueur",
-   "black sambuca",
-   "black bottle brandy",
-   "kweichow moutai",
-   "cherry brandy",
-   "baileys liqueur",
-   "hazelnut liqueur",
-   "sky vodka",
-   "louis xiii cognac",
-   "kahlua coffee liqueur",
-   "chinese baijiu",
-   "baijiu alcohol",
-   "moutai wine"
-  ],
-  "tags": [
-   "kweichow moutai 500ml",
    "tequila",
    "gin",
    "smirnoff vodka",
@@ -4457,18 +4449,34 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "belvedere vodka",
    "cheap vodka",
    "patron tequila",
+   "coffee liqueur",
+   "orange liqueur",
    "absolute vodka",
    "clase azul tequila",
+   "moutai price",
+   "price moutai"
+  ],
+  "tags": [
    "azul tequila",
    "spiced rum",
    "captain morgan spiced rum",
    "gin gifts",
    "gin gifts australia",
+   "germain liqueur",
    "ciroc vodka",
    "bacardi white rum",
    "rum with spices",
    "gin gift packs",
-   "don julio tequila"
+   "don julio tequila",
+   "black sambuca",
+   "black bottle brandy",
+   "cherry brandy",
+   "baileys liqueur",
+   "hazelnut liqueur",
+   "sky vodka",
+   "louis xiii cognac",
+   "kahlua coffee liqueur",
+   "chinese baijiu"
   ],
   "faqSeeds": [
    {
@@ -4655,35 +4663,39 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "kweichow moutai"
+   "moutai price",
+   "price moutai"
   ]
  },
  "cognac-brandy": {
-  "primary": "buy brandy online",
-  "primaryVolume": 390,
-  "primaryKd": 6,
+  "primary": "hennessy cognac",
+  "primaryVolume": 1600,
+  "primaryKd": 23,
   "secondary": [
+   "cognac",
    "hennessy xo",
    "martell",
    "martell blue swift",
    "martell swift blue",
-   "hennessy cognac",
+   "armagnac",
+   "black bottle brandy",
    "martell vsop",
    "martell xo",
+   "cherry brandy",
+   "louis xiii cognac",
    "hennessy vs cognac",
+   "martell cognac",
+   "buy brandy online",
+   "hennessy cognac price"
+  ],
+  "tags": [
    "martell cordon bleu",
    "brandy alcohol",
    "xo cognac",
    "hennessy xo cognac",
    "cognac vsop france",
    "martell cognac xo",
-   "cognac hennessy paradis"
-  ],
-  "tags": [
-   "cognac",
-   "black bottle brandy",
-   "cherry brandy",
-   "louis xiii cognac",
+   "cognac hennessy paradis",
    "remy martin xo",
    "cognac brandy",
    "martell konjak",
@@ -4696,12 +4708,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "remy martin xo cognac",
    "hennesy cognac",
    "hennessy is a cognac",
-   "louis thirteenth cognac",
-   "hennessy and cognac",
-   "hennessy whiskey",
-   "french cognac",
-   "armagnac brandy",
-   "courvoisier cognac"
+   "louis thirteenth cognac"
   ],
   "faqSeeds": [
    {
@@ -4888,32 +4895,37 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "hennessy cognac"
+   "armagnac",
+   "martell cognac",
+   "buy brandy online",
+   "hennessy cognac price"
   ]
  },
  "baileys-irish-cream": {
-  "primary": "baileys price",
-  "primaryVolume": 480,
-  "primaryKd": 15,
+  "primary": "irish cream",
+  "primaryVolume": 1300,
+  "primaryKd": 26,
   "secondary": [
    "baileys",
    "baileys irish cream",
    "baileys irish cream whiskey",
-   "irish cream",
    "jameson irish whiskey",
+   "baileys liqueur",
    "baileys irish cream 1l",
    "baileys 1l",
+   "baileys irish cream liqueur",
+   "liqueur baileys",
    "baileys irish cream 1 litre",
    "baileys irish cream 1 litre best price",
    "baileys 700ml",
    "choc baileys",
    "baileys strawberry and cream",
-   "one litre baileys",
-   "baileys flavours",
-   "flavored baileys"
+   "baileys price"
   ],
   "tags": [
-   "baileys liqueur",
+   "one litre baileys",
+   "baileys flavours",
+   "flavored baileys",
    "baileys irish cream liqueur 1 litre",
    "baileys liqueur 1l",
    "baileys 1 litre",
@@ -4930,11 +4942,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "baileys chocolate liqueur",
    "baileys irish cream abv",
    "baileys 1 liter",
-   "cream liqueur liqueurs",
-   "baileys irish cream specials",
-   "baileys bristol cream",
-   "baileys irish cream cinnamon",
-   "best price baileys irish cream 1 litre"
+   "cream liqueur liqueurs"
   ],
   "faqSeeds": [
    {
@@ -5121,22 +5129,34 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "irish cream",
-   "jameson irish whiskey"
+   "jameson irish whiskey",
+   "baileys irish cream liqueur",
+   "liqueur baileys",
+   "baileys price"
   ]
  },
  "coffee-liqueur": {
-  "primary": "kahlua price",
-  "primaryVolume": 720,
-  "primaryKd": 14,
+  "primary": "kahlua liquor",
+  "primaryVolume": 1000,
+  "primaryKd": 15,
   "secondary": [
+   "tequila",
+   "gin",
    "kahlua",
-   "kahlua liquor",
+   "coffee liqueur",
+   "kahlua liqueur",
+   "kahlua coffee liqueur",
+   "kahlua price",
    "coffee and liqueur",
    "kahlua and coffee liqueur",
+   "coffee tequila",
+   "coffee liquor",
    "coffee whiskey",
    "kahlua 1 litre",
    "best coffee liqueur",
+   "kahlua cost"
+  ],
+  "tags": [
    "kahlua liqueur coffee",
    "kahlua 1l",
    "liqueur coffee",
@@ -5144,11 +5164,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "mr black coffee liqueur 700ml",
    "alcohol percentage kahlua",
    "kahlua liqueur alcohol content",
-   "kahlua 1 litre best price"
-  ],
-  "tags": [
-   "coffee liqueur",
-   "kahlua coffee liqueur",
+   "kahlua 1 litre best price",
    "kahlua espresso martini cans",
    "percent alcohol kahlua",
    "coffee liqueurs",
@@ -5160,15 +5176,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "1 litre kahlua",
    "coffee liquier",
    "coffee whisky",
-   "vodka coffee",
-   "kahlua specials",
-   "kahlua 200ml",
-   "coffee liquors",
-   "grada coffee liqueur",
-   "mister black coffee liqueur",
-   "matcha kahlua",
-   "tequila",
-   "gin"
+   "vodka coffee"
   ],
   "faqSeeds": [
    {
@@ -5355,7 +5363,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "kahlua liquor"
+   "kahlua liqueur",
+   "kahlua price",
+   "coffee liquor",
+   "kahlua cost"
   ]
  },
  "orange-liqueur": {
@@ -5363,25 +5374,29 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 480,
   "primaryKd": 12,
   "secondary": [
+   "orange liqueur",
+   "germain liqueur",
    "saint germain cafe",
    "st germain cafe",
    "cointreau 700ml",
    "orange flavoured liqueur",
+   "cointreau liqueur",
+   "marnier liqueur",
    "cointreau 1l",
    "orange liqueurs",
    "chandon orange spritz",
+   "buy cointreau",
+   "cointreau cost",
    "cointreau 1 ltr",
-   "cointreau specials",
+   "cointreau specials"
+  ],
+  "tags": [
    "cointreau 1 litre best price",
    "blood orange liqueur",
    "saint germain cafes",
    "cointreau liqueur orange",
    "cointreau 1 litre",
-   "alcohol orange"
-  ],
-  "tags": [
-   "orange liqueur",
-   "germain liqueur",
+   "alcohol orange",
    "blood orange beverage",
    "st germain liquor",
    "cointreau 1 liter",
@@ -5395,13 +5410,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "orange vodka",
    "cointreau on special",
    "st germain elderflower liqueur 750ml",
-   "st. germain elderflower liqueur",
-   "cost of grand marnier",
-   "grand marnier cost",
-   "saint germain liqueur",
-   "orange liqueur france",
-   "orange liqueur french",
-   "cointreau noir"
+   "st. germain elderflower liqueur"
   ],
   "faqSeeds": [
    {
@@ -5587,30 +5596,18 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "cointreau liqueur",
+   "marnier liqueur",
+   "buy cointreau",
+   "cointreau cost"
+  ]
  },
  "cinnamon-liqueur": {
   "primary": "cinnamon liqueur",
   "primaryVolume": 110,
   "primaryKd": 10,
   "secondary": [
-   "cinnamon flavored whiskey",
-   "cinnamon whisky cocktail",
-   "vodka premix",
-   "vodka cans",
-   "ratu spiced rum",
-   "pineapple rum",
-   "chartreuse liqueur green",
-   "sambuca black",
-   "banana liqueur",
-   "vodka absolut",
-   "mini vodka",
-   "skull head vodka",
-   "bundaberg spiced rum",
-   "best rum",
-   "gin alcohol"
-  ],
-  "tags": [
    "tequila",
    "gin",
    "smirnoff vodka",
@@ -5625,14 +5622,29 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "clase azul tequila",
    "azul tequila",
    "spiced rum",
-   "captain morgan spiced rum",
+   "captain morgan spiced rum"
+  ],
+  "tags": [
    "gin gifts",
    "gin gifts australia",
    "orange liqueur",
    "ciroc vodka",
    "bacardi white rum",
    "rum with spices",
-   "gin gift packs"
+   "gin gift packs",
+   "vodka premix",
+   "vodka cans",
+   "ratu spiced rum",
+   "pineapple rum",
+   "chartreuse liqueur green",
+   "sambuca black",
+   "banana liqueur",
+   "vodka absolut",
+   "mini vodka",
+   "skull head vodka",
+   "bundaberg spiced rum",
+   "best rum",
+   "gin alcohol"
   ],
   "faqSeeds": [
    {
@@ -5827,22 +5839,26 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "secondary": [
    "campari negroni",
    "jagermeister cost",
+   "chartreuse liqueur green",
+   "amaro averna",
    "chartreuse green",
    "amaro del capo",
    "vecchio amaro del capo",
+   "aperol price",
    "aperol 1l",
    "aperol spritz pack",
+   "averna amaro",
    "aperol aperitivo",
+   "aperol bottle",
    "italian liqueur amaro",
-   "aperol 700ml",
+   "aperol 700ml"
+  ],
+  "tags": [
    "aperol spritz bottled",
    "aperol spritz in a bottle",
    "amaro capo",
    "cost of aperol",
-   "aperol gift pack"
-  ],
-  "tags": [
-   "chartreuse liqueur green",
+   "aperol gift pack",
    "aperol 1 litre",
    "aperol spritz standard drinks",
    "aperol spritz premix",
@@ -5857,13 +5873,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "jagermeister alcohol volume",
    "averna amaro siciliano",
    "aperol spritz kit",
-   "cost of campari",
-   "aperol spritz to go",
-   "aperol to go",
-   "canned aperol spritz",
-   "aperol spritz in a can",
-   "campari price",
-   "aperol spritz pre mixed"
+   "cost of campari"
   ],
   "faqSeeds": [
    {
@@ -6049,30 +6059,484 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "amaro averna",
+   "aperol price",
+   "averna amaro",
+   "aperol bottle"
+  ]
  },
  "absinthe": {
   "primary": "buy absinthe",
   "primaryVolume": 260,
   "primaryKd": 16,
   "secondary": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "coffee liqueur",
+   "absolute vodka",
+   "clase azul tequila",
+   "azul tequila",
+   "absinthe liquor",
+   "absinthe order"
+  ],
+  "tags": [
+   "spiced rum",
+   "captain morgan spiced rum",
+   "gin gifts",
+   "gin gifts australia",
+   "orange liqueur",
+   "ciroc vodka",
+   "bacardi white rum",
+   "rum with spices",
+   "gin gift packs",
+   "baileys irish cream liqueur 1 litre",
+   "baileys liqueur 1l",
+   "baileys liqueur 1 litre",
+   "cream liqueur",
+   "galliano and sambuca",
    "absinthe australia",
    "absinthe green fairy",
    "absinthe alcohol green fairy",
    "green fairy drink absinthe",
    "black absinthe",
-   "absinthe fountain",
-   "the green fairy absinthe",
-   "absinthe sydney",
-   "absinthe in australia",
-   "absinthe la",
-   "baileys irish cream liqueur 1 litre",
-   "baileys liqueur 1l",
-   "baileys liqueur 1 litre",
-   "cream liqueur",
-   "galliano and sambuca"
+   "absinthe fountain"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "absinthe liquor",
+   "absinthe order"
+  ]
+ },
+ "limoncello": {
+  "primary": "limoncello buy",
+  "primaryVolume": 260,
+  "primaryKd": 7,
+  "secondary": [
+   "tequila",
+   "gin",
+   "smirnoff vodka",
+   "cognac",
+   "absolut vodka",
+   "rum",
+   "belvedere vodka",
+   "cheap vodka",
+   "patron tequila",
+   "best limoncello",
+   "manly spirits limoncello",
+   "limoncello liqueur",
+   "buy limoncello liqueur",
+   "buy limoncello",
+   "limoncello liqueur price"
   ],
   "tags": [
+   "de bortoli limoncello spritz",
+   "limoncello liqueur alcohol content",
+   "limoncello alcohol volume",
+   "luxardo limoncello",
+   "solbevi limoncello",
+   "top rated limoncello",
+   "best limoncello liqueur",
+   "luxardo limoncello liqueur",
+   "small limoncello bottles",
+   "best limoncello australia",
+   "mini limoncello bottles",
+   "limoncello cans",
+   "limoncello spritz de bortoli",
+   "limoncello price",
+   "limoncello mixers",
+   "miniature limoncello bottles",
+   "limoncello australia pty ltd reviews",
+   "limoncello australia",
+   "mini limoncello",
+   "grain alcohol for limoncello"
+  ],
+  "faqSeeds": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "informational": [
+   {
+    "keyword": "limoncello",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello spritz",
+    "volume": 14800,
+    "kd": 20,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absinthe",
+    "volume": 8100,
+    "kd": 26,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "absolut vodka absolut",
+    "volume": 6600,
+    "kd": 18,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur amaretto",
+    "volume": 6600,
+    "kd": 25,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "sambuca",
+    "volume": 5400,
+    "kd": 19,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "limoncello recipe",
+    "volume": 4400,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "white rum",
+    "volume": 4400,
+    "kd": 14,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "elderflower liqueur",
+    "volume": 3600,
+    "kd": 22,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "grey goose liquor",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "malibu rum",
+    "volume": 2900,
+    "kd": 28,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "drinks using gin",
+    "volume": 2900,
+    "kd": 27,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "liqueur",
+    "volume": 2900,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "vodka cruisers",
+    "volume": 2400,
+    "kd": 24,
+    "intent": "Informational"
+   },
+   {
+    "keyword": "amaretto liqueur",
+    "volume": 1900,
+    "kd": 17,
+    "intent": "Informational"
+   }
+  ],
+  "transactional": [
+   "limoncello liqueur",
+   "buy limoncello liqueur",
+   "buy limoncello",
+   "limoncello liqueur price"
+  ]
+ },
+ "sambuca": {
+  "primary": "galliano sambuca",
+  "primaryVolume": 720,
+  "primaryKd": 12,
+  "secondary": [
    "tequila",
    "gin",
    "smirnoff vodka",
@@ -6087,438 +6551,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "clase azul tequila",
    "azul tequila",
    "spiced rum",
-   "captain morgan spiced rum",
-   "gin gifts",
-   "gin gifts australia",
-   "orange liqueur",
-   "ciroc vodka",
-   "bacardi white rum",
-   "rum with spices",
-   "gin gift packs"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": []
- },
- "limoncello": {
-  "primary": "limoncello buy",
-  "primaryVolume": 260,
-  "primaryKd": 7,
-  "secondary": [
-   "best limoncello",
-   "manly spirits limoncello",
-   "de bortoli limoncello spritz",
-   "limoncello liqueur alcohol content",
-   "limoncello alcohol volume",
-   "luxardo limoncello",
-   "solbevi limoncello",
-   "top rated limoncello",
-   "best limoncello liqueur",
-   "luxardo limoncello liqueur",
-   "small limoncello bottles",
-   "best limoncello australia",
-   "mini limoncello bottles",
-   "limoncello cans",
-   "limoncello spritz de bortoli"
+   "captain morgan spiced rum"
   ],
   "tags": [
-   "limoncello price",
-   "limoncello mixers",
-   "miniature limoncello bottles",
-   "limoncello australia pty ltd reviews",
-   "limoncello australia",
-   "mini limoncello",
-   "grain alcohol for limoncello",
-   "limoncello zoncello",
-   "bella limoncello",
-   "meletti limoncello",
-   "limoncello luxardo",
-   "limoncello custard",
-   "pallini limoncello australia",
-   "tequila",
-   "gin",
-   "smirnoff vodka",
-   "cognac",
-   "absolut vodka",
-   "rum",
-   "belvedere vodka",
-   "cheap vodka",
-   "patron tequila"
-  ],
-  "faqSeeds": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "informational": [
-   {
-    "keyword": "limoncello",
-    "volume": 18100,
-    "kd": 23,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello spritz",
-    "volume": 14800,
-    "kd": 20,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absinthe",
-    "volume": 8100,
-    "kd": 26,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "absolut vodka absolut",
-    "volume": 6600,
-    "kd": 18,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur amaretto",
-    "volume": 6600,
-    "kd": 25,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "sambuca",
-    "volume": 5400,
-    "kd": 19,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "limoncello recipe",
-    "volume": 4400,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "white rum",
-    "volume": 4400,
-    "kd": 14,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "elderflower liqueur",
-    "volume": 3600,
-    "kd": 22,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "grey goose liquor",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "malibu rum",
-    "volume": 2900,
-    "kd": 28,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "drinks using gin",
-    "volume": 2900,
-    "kd": 27,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "liqueur",
-    "volume": 2900,
-    "kd": 17,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "vodka cruisers",
-    "volume": 2400,
-    "kd": 24,
-    "intent": "Informational"
-   },
-   {
-    "keyword": "amaretto liqueur",
-    "volume": 1900,
-    "kd": 17,
-    "intent": "Informational"
-   }
-  ],
-  "transactional": []
- },
- "sambuca": {
-  "primary": "galliano sambuca",
-  "primaryVolume": 720,
-  "primaryKd": 12,
-  "secondary": [
+   "gin gifts",
+   "gin gifts australia",
+   "black sambuca",
+   "sambuca black",
    "galliano black sambuca",
+   "galliano and sambuca",
    "white sambuca",
    "alcohol in sambuca",
    "sambuca white",
@@ -6533,30 +6574,6 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "alcohol content sambuca",
    "black sambuca 700ml",
    "sambuca alcohol percent"
-  ],
-  "tags": [
-   "black sambuca",
-   "sambuca black",
-   "galliano and sambuca",
-   "cost of sambuca",
-   "galliano sambuca black",
-   "tequila",
-   "gin",
-   "smirnoff vodka",
-   "cognac",
-   "absolut vodka",
-   "rum",
-   "belvedere vodka",
-   "cheap vodka",
-   "patron tequila",
-   "coffee liqueur",
-   "absolute vodka",
-   "clase azul tequila",
-   "azul tequila",
-   "spiced rum",
-   "captain morgan spiced rum",
-   "gin gifts",
-   "gin gifts australia"
   ],
   "faqSeeds": [
    {
@@ -6745,12 +6762,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "soju": {
-  "primary": "soju buy",
-  "primaryVolume": 50,
-  "primaryKd": 17,
+  "primary": "jinro soju",
+  "primaryVolume": 1300,
+  "primaryKd": 14,
   "secondary": [
    "soju alcohol",
-   "jinro soju",
    "korean wine soju",
    "soju bottle",
    "soju price",
@@ -6763,7 +6779,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "soju flavour",
    "soju flavors",
    "soju japanese drink",
-   "soju beer"
+   "soju beer",
+   "soju buy"
   ],
   "tags": [
    "soju drink price",
@@ -6785,9 +6802,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "soju grape",
    "soju apple",
    "order soju",
-   "yoghurt soju",
-   "hwayo soju",
-   "sizak soju"
+   "yoghurt soju"
   ],
   "faqSeeds": [
    {
@@ -6974,13 +6989,13 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "jinro soju"
+   "soju buy"
   ]
  },
  "lager": {
-  "primary": "heineken lager",
-  "primaryVolume": 260,
-  "primaryKd": 16,
+  "primary": "lager beer",
+  "primaryVolume": 1000,
+  "primaryKd": 17,
   "secondary": [
    "corona beer",
    "low carb beer",
@@ -6996,10 +7011,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "zero carb beer",
    "low calorie beer",
    "byron bay beer",
-   "beer sale"
+   "heineken lager"
   ],
   "tags": [
-   "lager beer",
    "beer for cheap",
    "aus lager",
    "light beer",
@@ -7019,8 +7033,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "porter beer",
    "belgium beer",
    "0 carb beer",
-   "low alcohol beer",
-   "white rabbit beer"
+   "low alcohol beer"
   ],
   "faqSeeds": [
    {
@@ -7210,7 +7223,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "corona beer",
    "heineken beer",
    "mountain goat beer",
-   "beer sale"
+   "heineken lager"
   ]
  },
  "imported-beer": {
@@ -7221,6 +7234,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tiger beer",
    "modelo beer",
    "german beer",
+   "peroni red",
    "ipa ale beer",
    "pale ale style beer",
    "peroni beer",
@@ -7231,10 +7245,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "lager beer",
    "pacific ale",
    "india pale ale australia",
-   "4 pines pacific ale",
-   "buy australian beer online"
+   "heineken beer price"
   ],
   "tags": [
+   "4 pines pacific ale",
    "menabrea beer",
    "hoegaarden beer",
    "ipa on beer",
@@ -7253,10 +7267,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "goat pale ale",
    "leffe beer",
    "polish beer",
-   "emu export beer",
-   "ichnusa beer",
-   "black beer",
-   "australian pale ale"
+   "emu export beer"
   ],
   "faqSeeds": [
    {
@@ -7446,7 +7457,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "tiger beer",
    "chang beer",
    "india pale ale beer",
-   "buy australian beer online"
+   "heineken beer price"
   ]
  },
  "non-alcoholic-beer": {
@@ -7467,10 +7478,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "no alcohol beer",
    "non alc wines",
    "non alcoholic fizzy wine",
-   "non alcoholic sparkling wine",
-   "alcohol free champagne"
+   "beer non alcoholic",
+   "buy non alcoholic wine"
   ],
   "tags": [
+   "non alcoholic sparkling wine",
+   "alcohol free champagne",
    "sparkling champagne non alcoholic",
    "best non alcoholic beer australia",
    "best zero alcohol beer",
@@ -7481,18 +7494,14 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "alcohol free red wine",
    "beer for gluten free",
    "gluten and wheat free beer",
+   "non alcoholic cider",
    "best non alcoholic drinks",
    "good non alcoholic wine",
    "non alcoholic beers",
    "low alcohol sparkling wine",
    "non alcoholic wines",
    "zero alcohol red wine",
-   "alcohol free rose",
-   "best alcohol free wine",
-   "best rated non alcoholic wine",
-   "non-alcoholic beer",
-   "zero alcohol gin",
-   "best non alcoholic wine australia"
+   "alcohol free rose"
   ],
   "faqSeeds": [
    {
@@ -7678,7 +7687,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "beer non alcoholic",
+   "buy non alcoholic wine"
+  ]
  },
  "ginger-beer": {
   "primary": "buy ginger beer",
@@ -7696,12 +7708,14 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "matso's ginger beer",
    "green ginger wine",
    "little dragon ginger beer",
+   "ginger wine",
    "ginger bear",
    "alcoholic ginger beer australia",
-   "cascade ginger beer",
-   "ginger beer is non alcoholic"
+   "buy ginger beer online"
   ],
   "tags": [
+   "cascade ginger beer",
+   "ginger beer is non alcoholic",
    "diet ginger beer",
    "alcohol ginger beer",
    "hard ginger beer",
@@ -7719,11 +7733,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "best ginger beer",
    "sugar free ginger beer",
    "bertie ginger beer",
-   "brown snake ginger beer",
-   "amply ginger beer",
-   "amplys ginger beer",
-   "ginger beer specials",
-   "ginger beer with less sugar"
+   "brown snake ginger beer"
   ],
   "faqSeeds": [
    {
@@ -7911,7 +7921,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "green ginger",
-   "little dragon ginger beer"
+   "little dragon ginger beer",
+   "ginger wine",
+   "buy ginger beer online"
   ]
  },
  "red-wine": {
@@ -7927,37 +7939,35 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "carbonated wine",
    "grenache red",
    "chardonnay wine",
+   "sparkling shiraz",
    "wine pinot",
+   "merlot wine",
    "red wine au",
    "shiraz red wine",
+   "red wine sale",
+   "red beer"
+  ],
+  "tags": [
    "rosé wine",
    "cabernet sauvignon wine",
    "cab sav wine",
-   "bubbly wine"
-  ],
-  "tags": [
+   "bubbly wine",
    "rose in wine",
+   "sparkling red wine",
    "rose a wine",
    "malbec red wine",
    "chardonnay white wine",
    "pinot noir red wine",
    "pinot wine red",
+   "sparkling red",
    "red wine australia",
    "sauvignon red wine",
    "cheap red wine",
    "rosette wine",
    "sweet red wine australia",
+   "sparkling red wine australia",
    "case of red wine",
-   "red wine deals",
-   "red wines australia",
-   "wine offers",
-   "wine case",
-   "red wines cabernet",
-   "red wine bottle",
-   "red wine offers",
-   "rosè wine",
-   "cab sauv red wine",
-   "popular red wine"
+   "sparkling shiraz wine"
   ],
   "faqSeeds": [
    {
@@ -8145,7 +8155,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "grenache red",
-   "wine pinot"
+   "wine pinot",
+   "red wine sale",
+   "red beer"
   ]
  },
  "white-wine": {
@@ -8153,45 +8165,43 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 480,
   "primaryKd": 17,
   "secondary": [
+   "red wine",
    "sauvignon blanc",
+   "rose wine",
+   "white wine",
    "sauvignon white wine",
    "sparkling wine",
    "wine white wines",
    "dry white wine",
-   "wine pinot",
-   "white wines",
-   "sweet white wine",
-   "merlot wine",
-   "sauvignon blanc wine",
-   "rose in wine",
-   "sav blanc wine",
-   "chardonnay white wine",
-   "pinot noir red wine",
-   "sparkling white wine"
-  ],
-  "tags": [
-   "red wine",
-   "rose wine",
-   "white wine",
    "wine delivery",
    "wine deals",
    "carbonated wine",
    "chardonnay wine",
+   "wine pinot",
+   "sauvignon blanc wine",
+   "buy white wine"
+  ],
+  "tags": [
+   "white wines",
+   "sweet white wine",
+   "merlot wine",
+   "rose in wine",
    "red wine au",
    "cabernet sauvignon wine",
    "cab sav wine",
    "bubbly wine",
+   "sav blanc wine",
+   "chardonnay white wine",
+   "pinot noir red wine",
+   "sparkling white wine",
    "best white wine",
    "buy white wine online",
    "sweet white wines",
+   "moscato rose wine",
    "sauvignon red wine",
    "white dry wines",
    "australian white wine",
-   "sauvignon blanc white wine",
-   "white new zealand wine",
-   "chardonnay wines",
-   "case of red wine",
-   "sparking wine"
+   "sauvignon blanc white wine"
   ],
   "faqSeeds": [
    {
@@ -8380,7 +8390,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": [
    "sauvignon white wine",
    "wine pinot",
-   "sauvignon blanc wine"
+   "sauvignon blanc wine",
+   "buy white wine"
   ]
  },
  "rose-wine": {
@@ -8388,23 +8399,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 90,
   "primaryKd": 8,
   "secondary": [
-   "sparkling rose",
-   "rose fizzy wine",
-   "sparkling rose wine",
-   "rose sparkling wine",
-   "bird in hand sparkling rose",
-   "rose sparkle",
-   "chandon rose sparkling wine",
-   "rose prosecco",
-   "prosecco rose wine",
-   "sparkiling rose",
-   "rose red wine",
-   "sparking rose",
-   "rose wine online delivery",
-   "best sparkling rose",
-   "champagne"
-  ],
-  "tags": [
+   "champagne",
    "red wine",
    "rose wine",
    "white wine",
@@ -8418,6 +8413,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "wine white wines",
    "dry white wine",
    "low carb beer",
+   "rose sparkling"
+  ],
+  "tags": [
    "flavoured beer",
    "beer flavours",
    "carb friendly beer",
@@ -8426,7 +8424,18 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "ginger beer alcoholic",
    "wine deals",
    "carbonated wine",
-   "ipa ale beer"
+   "ipa ale beer",
+   "sparkling rose",
+   "rose fizzy wine",
+   "rose in wine",
+   "rose a wine",
+   "sparkling rose wine",
+   "rose sparkling wine",
+   "bird in hand sparkling rose",
+   "rose sparkle",
+   "chandon rose sparkling wine",
+   "rose prosecco",
+   "prosecco rose wine"
   ],
   "faqSeeds": [
    {
@@ -8612,36 +8621,40 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "rose sparkling"
+  ]
  },
  "sparkling": {
   "primary": "buy sparkling wine online",
   "primaryVolume": 390,
   "primaryKd": 12,
   "secondary": [
+   "champagne",
+   "sparkling wine",
    "bird in hand sparkling",
    "coopers sparkling ale",
    "sparkling shiraz",
    "sparkling",
    "sparkling red wine",
+   "sparkling rose",
    "australian sparkling wine",
    "sparkling wines",
    "sparkling mineral water",
    "arras sparkling wine",
+   "sparkling rose wine",
+   "sparkling wine sale",
+   "sparkling champagne"
+  ],
+  "tags": [
    "sparkling red",
    "cheap champagne",
    "tasmanian sparkling wine",
    "sweet champagne",
-   "less expensive champagne",
-   "cheap sparkling wine"
-  ],
-  "tags": [
-   "champagne",
-   "sparkling wine",
-   "sparkling rose",
-   "sparkling rose wine",
    "rose sparkling wine",
    "sparkling white wine",
+   "less expensive champagne",
+   "cheap sparkling wine",
    "sweet sparkling wine",
    "sparkling red wine australia",
    "tasmanian sparkling",
@@ -8653,11 +8666,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "s pellegrino sparkling water",
    "sparkling water cans",
    "coopers sparkling ale cans",
-   "australian sparkling",
-   "french sparkling wine",
-   "pink sparkling wine",
-   "sparkling shiraz wine",
-   "australian sparkling red"
+   "australian sparkling"
   ],
   "faqSeeds": [
    {
@@ -8845,7 +8854,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "bird in hand sparkling",
-   "sparkling"
+   "sparkling",
+   "sparkling wine sale",
+   "sparkling champagne"
   ]
  },
  "port-wine": {
@@ -8853,9 +8864,33 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 0,
   "primaryKd": null,
   "secondary": [
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
    "apple cider",
    "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer"
+  ],
+  "tags": [
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
+   "wine deals",
+   "carbonated wine",
    "somersby cider",
+   "ipa ale beer",
+   "pale ale style beer",
    "mercury cider",
    "strongbow cider",
    "beer for cheap",
@@ -8865,33 +8900,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "carbless beer",
    "premix drinks",
    "sydney cider",
-   "beer can",
-   "cheap beer",
-   "stonewood beer"
-  ],
-  "tags": [
-   "champagne",
-   "red wine",
-   "rose wine",
-   "white wine",
-   "james squire ginger beer",
-   "alcoholic ginger beer",
-   "brookvale union ginger beer",
-   "wine delivery",
-   "sparkling wine",
-   "wine white wines",
-   "dry white wine",
-   "low carb beer",
-   "flavoured beer",
-   "beer flavours",
-   "carb friendly beer",
-   "modelo beer",
-   "german beer",
-   "ginger beer alcoholic",
-   "wine deals",
-   "carbonated wine",
-   "ipa ale beer",
-   "pale ale style beer"
+   "beer can"
   ],
   "faqSeeds": [
    {
@@ -9080,49 +9089,47 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "vodka-premix": {
-  "primary": "vodka cruiser 24 pack prices",
-  "primaryVolume": 720,
-  "primaryKd": 14,
+  "primary": "cruiser vodka",
+  "primaryVolume": 1600,
+  "primaryKd": 17,
   "secondary": [
+   "smirnoff vodka",
    "cruiser",
    "premix king",
-   "cruiser vodka",
+   "cheap vodka",
    "premixed drinks",
+   "vodka bottle",
+   "premix drinks",
    "premix king punchbowl",
+   "vodka 1l",
    "cruiser drink",
    "vodka cruiser 4 pack",
    "vodka cruiser double",
-   "double vodka cruisers",
-   "tequila premix",
-   "cruiser doubles",
-   "vodka cruisers 10 pack",
-   "gin premix",
-   "gin and tonic premix",
-   "vodka premix cans"
+   "vodka smirnoff",
+   "vodka cruiser 24 pack prices",
+   "bottle of vodka"
   ],
   "tags": [
-   "smirnoff vodka",
-   "cheap vodka",
-   "vodka bottle",
-   "premix drinks",
-   "vodka 1l",
-   "vodka smirnoff",
-   "bottle of vodka",
    "smirnoff vodka 1 litre",
    "vodka cheap",
    "cheapest vodka",
    "sky vodka",
+   "double vodka cruisers",
    "vodka premix",
    "vodka cans",
    "1l vodka",
    "vodka 1 litre",
+   "tequila premix",
+   "cruiser doubles",
+   "vodka cruisers 10 pack",
    "vodka price",
    "1 litre vodka",
    "vodka 700ml",
    "mini vodka",
-   "vodka and prices",
-   "196 vodka",
-   "vodka o 1 litre"
+   "gin premix",
+   "gin and tonic premix",
+   "vodka premix cans",
+   "vodka and prices"
   ],
   "faqSeeds": [
    {
@@ -9310,8 +9317,8 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "premix king",
-   "cruiser vodka",
-   "premix king punchbowl"
+   "premix king punchbowl",
+   "vodka cruiser 24 pack prices"
   ]
  },
  "zero-sugar-seltzers": {
@@ -9355,9 +9362,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "no sugar drinks",
    "cocacola zero sugar",
    "sugar free carbonated drinks",
-   "coca cola 0 sugar",
-   "zero sugar jelly",
-   "coke zero bottle"
+   "coca cola 0 sugar"
   ],
   "faqSeeds": [
    {
@@ -9546,16 +9551,27 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "cider": {
-  "primary": "somersby cider bottle",
-  "primaryVolume": 70,
-  "primaryKd": 10,
+  "primary": "mercury hard cider",
+  "primaryVolume": 1000,
+  "primaryKd": 15,
   "secondary": [
+   "somersby",
+   "apple cider",
+   "somersby apple cider",
    "bilpin cider",
-   "mercury hard cider",
+   "somersby cider",
+   "mercury cider",
+   "strongbow cider",
+   "sydney cider",
    "apple cider alcohol",
    "craft cider",
    "hard cider",
    "pure blonde cider",
+   "cider strongbow",
+   "somersby cider bottle",
+   "cider somersby"
+  ],
+  "tags": [
    "magners cider",
    "5 seeds cider",
    "hardcore cider",
@@ -9564,15 +9580,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "strongbow apple cider",
    "apple cider somersby",
    "beer & cider",
-   "scapegoat cider"
-  ],
-  "tags": [
-   "apple cider",
-   "somersby apple cider",
-   "somersby cider",
-   "mercury cider",
-   "strongbow cider",
-   "sydney cider",
+   "scapegoat cider",
    "cider house",
    "cider brands",
    "non alcoholic cider",
@@ -9583,12 +9591,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "bilpin apple cider",
    "pear cider somersby",
    "somersby cider 10 pack",
-   "somersby apple cider 24 pack",
-   "hills apple cider",
-   "james squire apple cider",
-   "cider aus",
-   "cider beverage",
-   "alcohol free cider"
+   "somersby apple cider 24 pack"
   ],
   "faqSeeds": [
    {
@@ -9776,7 +9779,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "bilpin cider",
-   "mercury hard cider"
+   "cider strongbow",
+   "somersby cider bottle",
+   "cider somersby"
   ]
  },
  "mixers-water-condiments": {
@@ -9790,20 +9795,22 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "rockstar energy drink",
    "v energy drinks",
    "can of monster energy",
+   "sugar free energy drinks",
    "energy drinks australia",
    "monster energy drink peach",
    "water outages",
+   "energy drink sugar free",
+   "zero sugar energy drink",
    "sugar free energy drink",
+   "monster energy price",
+   "buy tonic water online"
+  ],
+  "tags": [
    "great energy drinks",
    "gatorade energy drink",
    "monster energy drink can",
    "monster energy peachy",
-   "energy drink brands"
-  ],
-  "tags": [
-   "sugar free energy drinks",
-   "energy drink sugar free",
-   "zero sugar energy drink",
+   "energy drink brands",
    "v energy drink 500ml",
    "cost of red bull energy drink",
    "monster energy drink 24 pack",
@@ -9818,11 +9825,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "original monster energy",
    "energy shot drinks",
    "energy drinks sugar free",
-   "caffeine free energy drink",
-   "monster energy pink",
-   "sugarless energy drinks",
-   "sports energy drink",
-   "sports energy drinks"
+   "caffeine free energy drink"
   ],
   "faqSeeds": [
    {
@@ -10010,35 +10013,39 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "mother energy drink",
-   "rockstar energy drink"
+   "rockstar energy drink",
+   "monster energy price",
+   "buy tonic water online"
   ]
  },
  "irish-whiskey": {
-  "primary": "whiskey deals",
-  "primaryVolume": 320,
-  "primaryKd": 18,
+  "primary": "bushmills whiskey",
+  "primaryVolume": 1300,
+  "primaryKd": 16,
   "secondary": [
+   "japanese whiskey",
    "irish whiskey",
-   "bushmills whiskey",
+   "bourbon whiskey",
+   "scotch whiskey",
+   "rye whiskey",
    "jameson irish whiskey",
    "redbreast whiskey",
    "premium scotch whiskey",
+   "bushmills",
    "glenfiddich whiskey",
    "whiskey from ireland",
    "irish whiskey brands",
    "redbreast irish whiskey",
+   "bushmills irish whiskey",
+   "whiskey deals"
+  ],
+  "tags": [
    "scotch and whiskey blend",
    "cheap whiskey",
    "good whiskey",
    "single highland malt scotch whiskey",
    "irish whisky",
-   "nice whiskey"
-  ],
-  "tags": [
-   "japanese whiskey",
-   "bourbon whiskey",
-   "scotch whiskey",
-   "rye whiskey",
+   "nice whiskey",
    "glenlivet whiskey",
    "whiskey offers",
    "irish whiskeys",
@@ -10052,11 +10059,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "morris whiskey",
    "glen whiskey",
    "glendalough whiskey",
-   "nice irish whiskey",
-   "best irish whisky",
-   "recommended irish whiskey",
-   "good whiskey for gift",
-   "connemara whiskey"
+   "nice irish whiskey"
   ],
   "faqSeeds": [
    {
@@ -10243,51 +10246,50 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "bushmills whiskey",
    "jameson irish whiskey",
-   "redbreast whiskey"
+   "redbreast whiskey",
+   "bushmills irish whiskey",
+   "whiskey deals"
   ]
  },
  "vodka": {
-  "primary": "buy vodka online",
-  "primaryVolume": 390,
-  "primaryKd": 11,
+  "primary": "smirnoff liquor",
+  "primaryVolume": 3600,
+  "primaryKd": 24,
   "secondary": [
-   "smirnoff",
-   "smirnoff ice",
-   "smirnoff liquor",
-   "smirnoff double black",
-   "cruiser vodka",
-   "smirnoff 700ml",
-   "vodka and prices",
-   "vodka low cost",
-   "vodka flavours",
-   "1 liter vodka",
-   "vodka bottles",
-   "o vodka",
-   "vodka on special",
-   "vodka special",
-   "small vodka"
-  ],
-  "tags": [
    "smirnoff vodka",
    "absolut vodka",
+   "absolut liquor",
+   "smirnoff",
+   "smirnoff ice",
    "cheap vodka",
+   "smirnoff double black",
    "absolute vodka",
+   "cruiser vodka",
    "vodka bottle",
+   "skyy vodka",
    "tito's vodka",
+   "smirnoff vodka 1l",
+   "smirnoff vodka 700ml",
+   "vodka &"
+  ],
+  "tags": [
+   "absolut vodka 700ml",
    "vodka 1l",
    "vodka smirnoff",
    "bottle of vodka",
    "vodka cheap",
    "cheapest vodka",
    "sky vodka",
+   "smirnoff vodka 1 litre",
+   "smirnoff 700ml",
    "vodka premix",
    "vodka cans",
    "1l vodka",
    "flavoured vodka",
    "700ml vodka",
    "vodka 1 litre",
+   "smirnoff 1l",
    "vodka absolut",
    "vodka price",
    "1 litre vodka",
@@ -10478,43 +10480,34 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "smirnoff liquor",
-   "cruiser vodka"
+   "cruiser vodka",
+   "smirnoff vodka 1l",
+   "smirnoff vodka 700ml",
+   "vodka &"
   ]
  },
  "rum": {
-  "primary": "bottle of malibu rum",
-  "primaryVolume": 70,
-  "primaryKd": 11,
+  "primary": "malibu rum liquor",
+  "primaryVolume": 2400,
+  "primaryKd": 17,
   "secondary": [
-   "kraken rum",
-   "kraken black spiced rum",
-   "rum australia",
-   "rum brands",
-   "kraken coffee rum",
-   "banana rum",
-   "black bart rum",
-   "rum cans",
-   "rum kraken spiced",
-   "bacardi rum superior white",
-   "bacardi superior white rum",
-   "bacardí superior white rum",
-   "captain morgan black rum",
-   "best spiced rum australia",
-   "1l rum"
-  ],
-  "tags": [
    "rum",
+   "kraken rum",
    "spiced rum",
    "bacardi white rum",
    "rum with spices",
+   "kraken black spiced rum",
    "bacardi rum",
    "dark rum",
    "caribbean rum",
    "captain morgan rum",
    "plantation rum",
    "premium rum",
+   "malibu liquor",
    "havana club rum",
+   "malibu 700ml"
+  ],
+  "tags": [
    "light rum",
    "op rum",
    "black rum",
@@ -10524,8 +10517,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "bundaberg red rum",
    "australian rum",
    "cuban rum",
+   "best rum",
+   "rum australia",
+   "rum brands",
+   "kraken coffee rum",
+   "banana rum",
+   "black bart rum",
+   "rum cans",
+   "rum kraken spiced",
    "bottle of rum",
-   "rum bottle"
+   "rum bottle",
+   "bundaberg rum 700ml"
   ],
   "faqSeeds": [
    {
@@ -10713,7 +10715,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ],
   "transactional": [
    "kraken rum",
-   "kraken black spiced rum"
+   "kraken black spiced rum",
+   "malibu liquor",
+   "malibu 700ml"
   ]
  },
  "champagne": {
@@ -10721,45 +10725,43 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 590,
   "primaryKd": 16,
   "secondary": [
+   "champagne",
+   "moet",
+   "moet champagne",
+   "veuve champagne",
+   "chandon champagne",
+   "krug",
+   "piper champagne",
+   "krug champagne",
+   "chandon rose",
+   "moet and chandon champagne",
+   "cheap champagne",
+   "sweet champagne",
    "nice champagne",
+   "less expensive champagne",
+   "chandon sparkling wine"
+  ],
+  "tags": [
    "champagne price",
    "janz champagne",
    "bottle of champagne",
    "french champagne specials",
+   "champagne wine bottle",
+   "moet & chandon champagne",
+   "cost moet champagne",
    "champagne cheap",
+   "prosecco champagne",
    "sweet champagne australia",
    "champagne on special",
+   "chandon rose sparkling wine",
    "miniature champagne",
    "champagne australia",
    "small bottle of champagne",
+   "champagne moet",
+   "wine and champagne",
    "french champagne wine",
    "champagne brut",
-   "wine champagne",
-   "champagne sparkling wine"
-  ],
-  "tags": [
-   "champagne",
-   "cheap champagne",
-   "sweet champagne",
-   "less expensive champagne",
-   "cheap sparkling champagne",
-   "champagne prices",
-   "champagne vs sparkling",
-   "cheap french champagne",
-   "cheapest champagne",
-   "champagne bubbly",
-   "sparkling wine or champagne",
-   "champagne & sparkling wine",
-   "champagne in small bottles",
-   "mini sparkling champagne bottles",
-   "champagne in australia",
-   "champagne or sparkling wine",
-   "champagne drink price",
-   "champagne fruity",
-   "lowest price champagne",
-   "sparkly champagne",
-   "champagne on offer",
-   "piccolo champagne bottles"
+   "wine champagne"
   ],
   "faqSeeds": [
    {
@@ -10945,52 +10947,55 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "krug",
+   "piper champagne",
+   "krug champagne",
+   "chandon sparkling wine"
+  ]
  },
  "liqueur": {
   "primary": "kahlua liqueur price",
   "primaryVolume": 390,
   "primaryKd": 12,
   "secondary": [
+   "coffee liqueur",
+   "orange liqueur",
+   "germain liqueur",
+   "liqueurs",
+   "hazelnut liqueur",
+   "kahlua coffee liqueur",
+   "banana liqueur",
    "sour apple liqueur",
    "peach liqueur",
+   "baileys irish cream liqueur 1 litre",
+   "baileys liqueur 1l",
+   "limoncello liqueur",
+   "buy limoncello liqueur",
+   "disaronno price",
+   "price for disaronno"
+  ],
+  "tags": [
+   "cream liqueur",
+   "orange flavoured liqueur",
    "whiskey liqueur",
    "cream liqueur liqueurs",
+   "disaronno amaretto liqueur",
    "ginger liqueur",
+   "kahlua liqueur coffee",
    "caramel liqueur",
+   "blood orange liqueur",
+   "liqueur coffee",
+   "best limoncello liqueur",
    "chartreuse green liqueur",
    "bols curacao liqueur",
    "chocolate mint liqueur",
    "whisky liqueur",
    "amarula cream liqueur",
+   "amaretto disaronno liqueur",
    "aperitif liqueur",
    "blue coloured liqueur",
-   "strawberry and cream liqueur",
-   "what is grand marnier liqueur"
-  ],
-  "tags": [
-   "coffee liqueur",
-   "orange liqueur",
-   "germain liqueur",
-   "hazelnut liqueur",
-   "kahlua coffee liqueur",
-   "banana liqueur",
-   "baileys irish cream liqueur 1 litre",
-   "baileys liqueur 1l",
-   "cream liqueur",
-   "orange flavoured liqueur",
-   "kahlua liqueur coffee",
-   "blood orange liqueur",
-   "liqueur coffee",
-   "cointreau liqueur orange",
-   "fruit flavored liqueur",
-   "premium coffee liqueur",
-   "coffee flavored liqueur",
-   "good coffee liqueur",
-   "kahlúa coffee liqueur",
-   "italian hazelnut liqueur",
-   "scotch liqueur",
-   "scotch whiskey liqueur"
+   "strawberry and cream liqueur"
   ],
   "faqSeeds": [
    {
@@ -11176,7 +11181,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "limoncello liqueur",
+   "buy limoncello liqueur",
+   "disaronno price",
+   "price for disaronno"
+  ]
  },
  "australian-beer": {
   "primary": "buy australian beer online",
@@ -11184,10 +11194,32 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryKd": 15,
   "secondary": [
    "balter cerveza",
+   "flavoured beer",
+   "beer flavours",
+   "ipa ale beer",
+   "coopers sparkling ale",
+   "pale ale style beer",
+   "aussie beer",
    "mountain goat beer",
+   "stone and wood beer",
+   "beer mx",
+   "mid strength beer",
    "india pale ale beer",
+   "lager beer",
+   "beer for cheap",
+   "beer prices"
+  ],
+  "tags": [
+   "pacific ale",
+   "aus lager",
+   "india pale ale australia",
+   "4 pines pacific ale",
    "coopers lager",
    "radler beer",
+   "beer can",
+   "cheap beer",
+   "stonewood beer",
+   "australian sparkling wine",
    "beer flavored",
    "balter beer australia",
    "best aussie beer",
@@ -11197,31 +11229,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "hazy pale ale",
    "4 pines pale ale",
    "pilsner beer",
-   "beer prices"
-  ],
-  "tags": [
-   "flavoured beer",
-   "beer flavours",
-   "ipa ale beer",
-   "coopers sparkling ale",
-   "pale ale style beer",
-   "aussie beer",
-   "stone and wood beer",
-   "beer mx",
-   "mid strength beer",
-   "lager beer",
-   "beer for cheap",
-   "pacific ale",
-   "aus lager",
-   "india pale ale australia",
-   "4 pines pacific ale",
-   "beer can",
-   "cheap beer",
-   "stonewood beer",
-   "low alcohol beer",
-   "balter hazy ipa",
-   "coopers pale ale cans",
-   "beer carton"
+   "low alcohol beer"
   ],
   "faqSeeds": [
    {
@@ -11415,12 +11423,35 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "prosecco": {
-  "primary": "cora prosecco",
-  "primaryVolume": 50,
-  "primaryKd": 8,
+  "primary": "buy prosecco",
+  "primaryVolume": 390,
+  "primaryKd": 17,
   "secondary": [
-   "pink prosecco",
-   "mini prosecco bottle",
+   "prosecco",
+   "champagne",
+   "red wine",
+   "rose wine",
+   "white wine",
+   "apple cider",
+   "somersby apple cider",
+   "james squire ginger beer",
+   "alcoholic ginger beer",
+   "brookvale union ginger beer",
+   "wine delivery",
+   "sparkling wine",
+   "wine white wines",
+   "prosecco sale",
+   "cora prosecco"
+  ],
+  "tags": [
+   "dry white wine",
+   "low carb beer",
+   "flavoured beer",
+   "beer flavours",
+   "carb friendly beer",
+   "modelo beer",
+   "german beer",
+   "ginger beer alcoholic",
    "no carb beer",
    "low carb beer australia",
    "lowest calorie beer",
@@ -11432,32 +11463,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "malbec red wine",
    "beer carton",
    "best beer",
-   "best australian beer",
-   "best beer australia"
-  ],
-  "tags": [
-   "rose prosecco",
-   "prosecco rose wine",
-   "champagne",
-   "red wine",
-   "rose wine",
-   "white wine",
-   "apple cider",
-   "somersby apple cider",
-   "james squire ginger beer",
-   "alcoholic ginger beer",
-   "brookvale union ginger beer",
-   "wine delivery",
-   "sparkling wine",
-   "wine white wines",
-   "dry white wine",
-   "low carb beer",
-   "flavoured beer",
-   "beer flavours",
-   "carb friendly beer",
-   "modelo beer",
-   "german beer",
-   "ginger beer alcoholic"
+   "best australian beer"
   ],
   "faqSeeds": [
    {
@@ -11643,31 +11649,16 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "prosecco sale",
+   "cora prosecco"
+  ]
  },
  "pinot-grigio": {
   "primary": "wine pinot",
   "primaryVolume": 1600,
   "primaryKd": 23,
   "secondary": [
-   "pinot gris white wine",
-   "white wine pinot grigio",
-   "pinot noir wine price",
-   "red pinot noir wine",
-   "is pinot noir red wine",
-   "pinot noir brands",
-   "pinot noir red or white",
-   "blood of the earth pinot noir",
-   "non alcoholic pinot noir",
-   "pinot noir a white wine",
-   "pinot noir delivery",
-   "dark beer",
-   "lite beer",
-   "full strength beer",
-   "beer with no carbs"
-  ],
-  "tags": [
-   "pinot noir red wine",
    "champagne",
    "red wine",
    "rose wine",
@@ -11679,6 +11670,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "brookvale union ginger beer",
    "wine delivery",
    "sparkling wine",
+   "pinot wine",
+   "buy pinot gris online",
+   "wine pinot grigio",
+   "buy pinot gris"
+  ],
+  "tags": [
    "wine white wines",
    "dry white wine",
    "low carb beer",
@@ -11688,7 +11685,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "modelo beer",
    "german beer",
    "ginger beer alcoholic",
-   "wine deals"
+   "wine deals",
+   "dark beer",
+   "lite beer",
+   "full strength beer",
+   "beer with no carbs",
+   "pinot noir red wine",
+   "pinot wine red",
+   "pinot grigio white wine",
+   "pinot gris white wine",
+   "pinot sparkling wine",
+   "white wine pinot grigio"
   ],
   "faqSeeds": [
    {
@@ -11874,18 +11881,35 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "pinot wine",
+   "buy pinot gris online",
+   "wine pinot grigio",
+   "buy pinot gris"
+  ]
  },
  "sauvignon-blanc": {
-  "primary": "premium sauvignon blanc",
-  "primaryVolume": 70,
-  "primaryKd": 11,
+  "primary": "sauvignon white wine",
+  "primaryVolume": 4400,
+  "primaryKd": 21,
   "secondary": [
-   "sauvignon white wine",
+   "champagne",
+   "red wine",
+   "sauvignon blanc",
+   "rose wine",
+   "white wine",
+   "apple cider",
    "sauvignon blanc wine",
+   "cabernet sauvignon wine",
+   "sav blanc wine",
    "sauvignon red wine",
    "sauvignon blanc white wine",
+   "white sauvignon wine",
    "sauvignon blanc dry white wine",
+   "blanc sauvignon wine",
+   "sauvignon wine"
+  ],
+  "tags": [
    "sauvignon blanc for cooking",
    "sauvignon blanc wine price",
    "wine cabernet sauvignon",
@@ -11895,12 +11919,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "sauvignon blanc wine for cooking",
    "sauv blanc white wine",
    "blanc wine",
-   "highest rated sauvignon blanc"
-  ],
-  "tags": [
-   "sauvignon blanc",
-   "cabernet sauvignon wine",
-   "sav blanc wine",
+   "highest rated sauvignon blanc",
    "sauv blanc for cooking",
    "sauvignon blanc from france",
    "sauvignon blonc",
@@ -11910,16 +11929,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "saubignon blanc",
    "sauv blanc abv",
    "sauvignon blanc day",
-   "sauvignon blanc delivery",
-   "savuignon blanc",
-   "cabernet sauvignon a red wine",
-   "cabernet sauvignon napa valley",
-   "cabernet sauvignon wine red",
-   "champagne",
-   "red wine",
-   "rose wine",
-   "white wine",
-   "apple cider"
+   "sauvignon blanc delivery"
   ],
   "faqSeeds": [
    {
@@ -12106,32 +12116,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "sauvignon white wine",
-   "sauvignon blanc wine"
+   "sauvignon blanc wine",
+   "white sauvignon wine",
+   "blanc sauvignon wine",
+   "sauvignon wine"
   ]
  },
  "pink-gin": {
-  "primary": "gin sale",
-  "primaryVolume": 480,
-  "primaryKd": 20,
+  "primary": "pink gin",
+  "primaryVolume": 4400,
+  "primaryKd": 21,
   "secondary": [
-   "pink gin",
-   "gin cans",
-   "bottle of gin",
-   "gin presents",
-   "glas gin tonic",
-   "good gin",
-   "sydney gin",
-   "premix gin",
-   "gin price",
-   "gin 1l",
-   "buy gin online australia",
-   "cal gin",
-   "le tribute gin",
-   "australia gin",
-   "gin australia"
-  ],
-  "tags": [
    "gin",
    "gin gifts",
    "gin gifts australia",
@@ -12143,17 +12138,32 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "gin brands",
    "gin gift pack",
    "gin specials",
+   "gin sale",
+   "pink vodka",
    "gin and tonic cans",
+   "gin pink"
+  ],
+  "tags": [
    "gin bottle",
    "flavoured gin",
    "gin gift set",
    "gin alcohol",
+   "gin cans",
+   "bottle of gin",
+   "gin presents",
+   "glas gin tonic",
+   "good gin",
+   "sydney gin",
    "gin premix",
    "gin and tonic premix",
-   "gin and tonic can",
-   "gin and tonic in a can",
-   "gin & tonic in a can",
-   "gin on special"
+   "premix gin",
+   "gin price",
+   "gin 1l",
+   "buy gin online australia",
+   "cal gin",
+   "le tribute gin",
+   "australia gin",
+   "gin australia"
   ],
   "faqSeeds": [
    {
@@ -12340,7 +12350,9 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "pink gin"
+   "gin sale",
+   "pink vodka",
+   "gin pink"
   ]
  },
  "ouzo": {
@@ -12348,23 +12360,6 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 6600,
   "primaryKd": 27,
   "secondary": [
-   "absolut raspberri vodka",
-   "tequila azul",
-   "best spiced rum",
-   "spiced rum the kraken",
-   "cognac brandy",
-   "baileys chocolate liqueur",
-   "vodka cruiser raspberry",
-   "best russian vodka",
-   "1 litre smirnoff vodka",
-   "smirnoff red label vodka",
-   "crystal head skull vodka",
-   "don julio tequila 1942",
-   "espolon tequila blanco",
-   "blue tequila",
-   "fancy tequila"
-  ],
-  "tags": [
    "tequila",
    "gin",
    "smirnoff vodka",
@@ -12379,14 +12374,29 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "clase azul tequila",
    "azul tequila",
    "spiced rum",
-   "captain morgan spiced rum",
+   "captain morgan spiced rum"
+  ],
+  "tags": [
    "gin gifts",
    "gin gifts australia",
    "orange liqueur",
    "ciroc vodka",
    "bacardi white rum",
    "rum with spices",
-   "gin gift packs"
+   "gin gift packs",
+   "absolut raspberri vodka",
+   "tequila azul",
+   "best spiced rum",
+   "spiced rum the kraken",
+   "cognac brandy",
+   "baileys chocolate liqueur",
+   "vodka cruiser raspberry",
+   "best russian vodka",
+   "1 litre smirnoff vodka",
+   "smirnoff red label vodka",
+   "crystal head skull vodka",
+   "don julio tequila 1942",
+   "espolon tequila blanco"
   ],
   "faqSeeds": [
    {
@@ -12579,9 +12589,24 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 590,
   "primaryKd": 10,
   "secondary": [
+   "low carb beer",
+   "carb friendly beer",
+   "mid strength beer",
+   "zero carb beer",
+   "low calorie beer",
+   "lightweight beer",
+   "carbless beer",
+   "no carb beer",
+   "low carb beer australia",
+   "lowest calorie beer",
    "low carb beers",
+   "0 carb beer",
+   "low alcohol beer",
    "best low carb beer australia",
-   "low calorie beer australia",
+   "low calorie beer australia"
+  ],
+  "tags": [
+   "full strength beer",
    "best low carb beer",
    "beer that is low in carbs",
    "beers that are low in carbs",
@@ -12593,31 +12618,14 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "low calorie beer au",
    "best mid strength beer australia",
    "mid strength wine",
-   "good low carb beer"
-  ],
-  "tags": [
-   "low carb beer",
-   "carb friendly beer",
-   "mid strength beer",
-   "zero carb beer",
-   "low calorie beer",
-   "lightweight beer",
-   "carbless beer",
-   "no carb beer",
-   "low carb beer australia",
-   "lowest calorie beer",
-   "0 carb beer",
-   "low alcohol beer",
-   "full strength beer",
+   "good low carb beer",
    "lowest carb beer",
    "hahn beer low carb",
    "low alcohol beer australia",
    "low carb zero alcohol beer",
    "mid strength pale ale",
    "mid strength low carb beer",
-   "best low carb beers",
-   "low calorie australian beer",
-   "low carb lager"
+   "best low carb beers"
   ],
   "faqSeeds": [
    {
@@ -12810,23 +12818,6 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 1900,
   "primaryKd": 15,
   "secondary": [
-   "less alcohol beer",
-   "reduced alcohol beer",
-   "sparkling champagne non alcoholic",
-   "best non alcoholic beer australia",
-   "best zero alcohol beer",
-   "diet ginger beer",
-   "pinot wine red",
-   "best white wine",
-   "buy white wine online",
-   "beer in australia",
-   "beer is best",
-   "german wheat beer",
-   "pale ale beer",
-   "beer with mango",
-   "black beer"
-  ],
-  "tags": [
    "champagne",
    "red wine",
    "rose wine",
@@ -12840,7 +12831,12 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "sparkling wine",
    "wine white wines",
    "dry white wine",
+   "red grenache",
+   "buy grenache"
+  ],
+  "tags": [
    "low carb beer",
+   "grenache wine",
    "flavoured beer",
    "beer flavours",
    "carb friendly beer",
@@ -12848,7 +12844,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "german beer",
    "ginger beer alcoholic",
    "wine deals",
-   "carbonated wine"
+   "carbonated wine",
+   "grenache red wine",
+   "less alcohol beer",
+   "reduced alcohol beer",
+   "sparkling champagne non alcoholic",
+   "best non alcoholic beer australia",
+   "best zero alcohol beer",
+   "diet ginger beer",
+   "pinot wine red",
+   "best white wine",
+   "buy white wine online"
   ],
   "faqSeeds": [
    {
@@ -13034,7 +13040,10 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "red grenache",
+   "buy grenache"
+  ]
  },
  "german-beer": {
   "primary": "german beer",
@@ -13042,33 +13051,22 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryKd": 23,
   "secondary": [
    "tiger beer",
-   "mountain goat beer",
-   "chang beer",
-   "leffe beer",
-   "emu export beer",
-   "ichnusa beer",
-   "beer australia",
-   "beer slab",
-   "beer price in australia",
-   "larger beer",
-   "flavored beer",
-   "beer gift",
-   "beer offers",
-   "beer price",
-   "fruity beer"
-  ],
-  "tags": [
    "flavoured beer",
    "beer flavours",
    "modelo beer",
    "aussie beer",
    "peroni beer",
+   "mountain goat beer",
    "stone and wood beer",
    "beer mx",
    "mid strength beer",
    "mythos beer",
+   "chang beer",
    "lager beer",
    "beer for cheap",
+   "beer price in australia"
+  ],
+  "tags": [
    "beer can",
    "cheap beer",
    "stonewood beer",
@@ -13078,7 +13076,17 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "best aussie beer",
    "hoegaarden beer",
    "beer carton",
-   "best beer"
+   "best beer",
+   "leffe beer",
+   "emu export beer",
+   "ichnusa beer",
+   "beer australia",
+   "beer slab",
+   "larger beer",
+   "flavored beer",
+   "beer gift",
+   "beer offers",
+   "beer price"
   ],
   "faqSeeds": [
    {
@@ -13276,28 +13284,6 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "primaryVolume": 480,
   "primaryKd": 15,
   "secondary": [
-   "red wines cabernet",
-   "cab sauv red wine",
-   "cab sav red wine",
-   "cabernet dry red wine",
-   "red wine cabernet sauvignon",
-   "red cabernet wine",
-   "red wine cab sav",
-   "cab wine",
-   "bordeaux cabernet",
-   "bordeaux wine cabernet sauvignon",
-   "cabernet online",
-   "cabernet sauvignon a red wine",
-   "cabernet sauvignon napa valley",
-   "cabernet sauvignon wine red",
-   "wine red cabernet"
-  ],
-  "tags": [
-   "cabernet sauvignon wine",
-   "cab sav wine",
-   "sauvignon red wine",
-   "wine cabernet sauvignon",
-   "dry red wine cabernet sauvignon",
    "champagne",
    "red wine",
    "rose wine",
@@ -13312,9 +13298,29 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "wine white wines",
    "dry white wine",
    "low carb beer",
+   "cabernet red"
+  ],
+  "tags": [
    "flavoured beer",
    "beer flavours",
-   "carb friendly beer"
+   "carb friendly beer",
+   "cabernet sauvignon wine",
+   "cab sav wine",
+   "sauvignon red wine",
+   "red wines cabernet",
+   "cab sauv red wine",
+   "wine cabernet sauvignon",
+   "cab sav red wine",
+   "cabernet dry red wine",
+   "dry red wine cabernet sauvignon",
+   "red wine cabernet sauvignon",
+   "red cabernet wine",
+   "red wine cab sav",
+   "cab wine",
+   "bordeaux cabernet",
+   "bordeaux wine cabernet sauvignon",
+   "cabernet online",
+   "cabernet sauvignon a red wine"
   ],
   "faqSeeds": [
    {
@@ -13500,30 +13506,15 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
     "intent": "Informational"
    }
   ],
-  "transactional": []
+  "transactional": [
+   "cabernet red"
+  ]
  },
  "pilsner": {
   "primary": "beer pilsner",
   "primaryVolume": 260,
   "primaryKd": 11,
   "secondary": [
-   "lager pilsner",
-   "light beer australia",
-   "lime beer",
-   "non alcoholic wine drinks",
-   "0 alcohol beer",
-   "alcohol free red wine",
-   "beer for gluten free",
-   "gluten and wheat free beer",
-   "alcohol ginger beer",
-   "hard ginger beer",
-   "spicy ginger beer",
-   "best alcoholic ginger beer",
-   "james squires ginger beer",
-   "remedy ginger beer",
-   "red wine australia"
-  ],
-  "tags": [
    "champagne",
    "red wine",
    "rose wine",
@@ -13538,14 +13529,29 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "wine white wines",
    "dry white wine",
    "low carb beer",
-   "flavoured beer",
+   "flavoured beer"
+  ],
+  "tags": [
    "beer flavours",
    "carb friendly beer",
    "modelo beer",
    "german beer",
    "ginger beer alcoholic",
    "wine deals",
-   "carbonated wine"
+   "carbonated wine",
+   "pilsner",
+   "pilsner beer",
+   "light beer australia",
+   "lime beer",
+   "non alcoholic wine drinks",
+   "0 alcohol beer",
+   "alcohol free red wine",
+   "beer for gluten free",
+   "gluten and wheat free beer",
+   "alcohol ginger beer",
+   "hard ginger beer",
+   "spicy ginger beer",
+   "best alcoholic ginger beer"
   ],
   "faqSeeds": [
    {
@@ -13735,4 +13741,4 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  }
 };
 
-export const SITE_TAGS: string[] = ["tequila","baileys","champagne","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","kahlua","absolut vodka","rum","kraken rum","corona beer","patron","don julio","sauvignon blanc","belvedere vodka","rose wine","white wine","baileys irish cream","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","bilpin cider","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","suntory 196","jose cuervo","hennessy xo","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","martell","martell blue swift","grenache red","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","japanese gin","grey goose 1l","cafe patron","kraken black spiced rum","martell swift blue","hennessy cognac","mountain goat beer","wine pinot","strongbow cider","sugar free syrup","nikka whiskey","bushmills whiskey","dalmore whisky","single malt scotch whisky","whiskey bourbon jim beam","wild turkey bourbon","buffalo trace kentucky bourbon","rye whiskey","vodka bottle","xo tequila patron cafe","bacardi rum","dark rum","black sambuca","jinro soju","nikka from the barrel","irish cream","jameson irish whiskey","saint germain cafe"];
+export const SITE_TAGS: string[] = ["tequila","baileys","prosecco","champagne","jack daniels","whisky","gin","smirnoff vodka","scotch","bourbon","cognac","red wine","jim beam","kahlua","absolut vodka","rum","kraken rum","corona beer","johnnie walker","patron","don julio","sauvignon blanc","moet","belvedere vodka","rose wine","white wine","baileys irish cream","somersby","absolut liquor","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","smirnoff","smirnoff ice","moet champagne","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","jack daniels 700ml","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","macallan","bilpin cider","veuve champagne","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","laphroaig","jack daniels 1 litre","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","smirnoff double black","grenache wine","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","whisky gift pack","dimple whiskey","whiskey gift","suntory 196","jose cuervo","hennessy xo","peroni red","malibu rum liquor","pilsner","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","whiskey gifts australia","royal salute","jim beam bourbon","suntory whisky","martell","martell blue swift","grenache red","chandon champagne","liqueurs","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","jim beam 1 litre","jack daniels 1l","japanese gin"];

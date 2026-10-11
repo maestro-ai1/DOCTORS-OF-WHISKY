@@ -51,14 +51,14 @@ export function AuthoritySection() {
 
             <div className="pt-2 flex flex-wrap gap-3">
               <Link
-                href="/about"
+                href="/about/"
                 className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-700 to-amber-600 hover:from-amber-600 hover:to-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider shadow-md transition-all"
               >
                 <span>About Vaults &amp; Provenance</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-neutral-900 hover:bg-neutral-800 border border-neutral-700 text-neutral-300 text-xs font-semibold transition-colors"
               >
                 <span>Private Sommelier Consultation</span>

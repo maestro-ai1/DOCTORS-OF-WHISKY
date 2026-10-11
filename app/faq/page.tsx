@@ -89,7 +89,7 @@ export default function FaqPage() {
               <span>WhatsApp Direct Hotline (+61420128746)</span>
             </a>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-700 text-neutral-200 font-bold text-xs"
             >
               <span>Submit Web Inquiry Form</span>

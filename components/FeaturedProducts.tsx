@@ -26,7 +26,7 @@ export function FeaturedProducts({ products: featuredProducts }: { products: Pro
           </div>
 
           <Link
-            href="/shop"
+            href="/shop/"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-950/60 hover:bg-amber-900/80 border border-amber-700/60 text-amber-300 text-xs font-bold uppercase tracking-wider transition-all self-start md:self-auto shrink-0 shadow-sm"
           >
             <span>Browse Full Catalog</span>
@@ -60,7 +60,7 @@ export function FeaturedProducts({ products: featuredProducts }: { products: Pro
           </div>
 
           <Link
-            href="/contact"
+            href="/contact/"
             className="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs whitespace-nowrap transition-colors"
           >
             Inquire With Concierge

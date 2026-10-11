@@ -4,14 +4,14 @@ import { SITE, CONTACT } from '@/lib/config';
 import { Wine, ShieldCheck } from 'lucide-react';
 
 const FOOTER_LINKS = [
-  { label: 'About Us', href: '/about' },
-  { label: 'FAQ', href: '/faq' },
-  { label: 'Privacy Policy', href: '/privacy' },
-  { label: 'Terms of Service', href: '/terms' },
-  { label: 'Refund Policy', href: '/refund-policy' },
-  { label: 'Shipping Information', href: '/shipping' },
-  { label: 'Contact Us', href: '/contact' },
-  { label: 'Blog', href: '/blog' },
+  { label: 'About Us', href: '/about/' },
+  { label: 'FAQ', href: '/faq/' },
+  { label: 'Privacy Policy', href: '/privacy/' },
+  { label: 'Terms of Service', href: '/terms/' },
+  { label: 'Refund Policy', href: '/refund-policy/' },
+  { label: 'Shipping Information', href: '/shipping/' },
+  { label: 'Contact Us', href: '/contact/' },
+  { label: 'Blog', href: '/blog/' },
 ];
 
 const PAYMENT_CHIPS = [

@@ -83,7 +83,7 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
             Home
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-neutral-600" />
-          <Link href="/shop" className="hover:text-amber-300 transition-colors">
+          <Link href="/shop/" className="hover:text-amber-300 transition-colors">
             Shop
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-neutral-600" />

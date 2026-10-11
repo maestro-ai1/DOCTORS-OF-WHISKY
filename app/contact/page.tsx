@@ -56,10 +56,10 @@ export default function ContactPage() {
             <span>Sydney Private Concierge Desk</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">
-            Contact Doctors of Whisky
+            Contact Doctors of Whisky: Whiskey for Sale and Order Help
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-xl mx-auto font-light leading-relaxed">
-            Inquire about rare bottle sourcing, private cellar viewings in Sydney, wholesale allocations, or payment verification.
+            Ask about whiskey for sale, bottle availability and price, rare bottle sourcing, wholesale allocations, orders or delivery anywhere in Australia. We reply quickly by WhatsApp, email or phone.
           </p>
         </div>
 

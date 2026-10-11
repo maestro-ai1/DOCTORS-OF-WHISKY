@@ -22,6 +22,11 @@ export function ShopView({ page = 1 }: { page?: number }) {
               tequila, vodka, gin, rum, cognac and liqueurs, plus wine, beer and premixes. Every order ships Australia-wide with
               insured delivery, and buyers must be 18 or over. Browse by collection below or filter the full range.
             </p>
+            <div className="flex flex-wrap gap-3 pt-1">
+              <Link href="/shop/whisky/" className="px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-sm transition-colors">Shop the whisky sale</Link>
+              <Link href="/shop/spirit/" className="px-5 py-2.5 rounded-lg border border-amber-700/60 text-amber-300 hover:bg-neutral-900 font-semibold text-sm transition-colors">Spirits: gin, vodka, tequila</Link>
+              <Link href="/contact/" className="px-5 py-2.5 rounded-lg border border-neutral-700 text-neutral-200 hover:bg-neutral-900 font-semibold text-sm transition-colors">Need help choosing?</Link>
+            </div>
           </div>
           <nav aria-label="Shop by collection" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pb-8 border-b border-neutral-900">
             {MAIN_CATEGORIES.map((cat) => (

@@ -88,7 +88,7 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
             <p className="text-sm text-neutral-400">
               New vault allocations for {sub.name} are currently undergoing Sommelier inspection. Please check back shortly or inquire directly.
             </p>
-            <Link href="/contact" className="inline-block px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs">
+            <Link href="/contact/" className="inline-block px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs">
               Inquire With Concierge
             </Link>
           </div>
@@ -126,7 +126,7 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
           </section>
         )}
 
-        <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 15)} title={`Related searches: ${sub.primaryKeyword}`} />
+        <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 5)} title={`Related searches: ${sub.primaryKeyword}`} />
         <TagCloud tags={sub.tags && sub.tags.length >= 20 ? linkList(sub.tags, path, path, 20) : buildTagLinks(sub.tags ?? subcategoryTags(subSlug, 60), path, path, 20, collectionTagTemplates(sub.name))} title="Popular searches and tags" />
 
         {/* Subcategory FAQ (page 1 only, so paginated pages do not repeat it) */}

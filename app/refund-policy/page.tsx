@@ -114,7 +114,7 @@ export default function RefundPolicyPage() {
           </div>
           <div className="flex items-center gap-3">
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-neutral-950 font-bold text-xs transition-colors"
             >
               Contact Us

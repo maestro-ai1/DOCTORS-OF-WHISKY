@@ -2,12 +2,16 @@
 // primary = highest-volume Transactional keyword; primaries = next Transactional; secondary = 15; tags = the visible tags line (Commercial + Transactional, highest volume).
 export const HOME_SEO = {
  "primary": {
-  "kw": "glenfiddich",
-  "vol": 14800,
-  "kd": 27,
+  "kw": "whisky sale",
+  "vol": 480,
+  "kd": 12,
   "intent": "Transactional"
  },
  "primaries": [
+  {
+   "kw": "glenfiddich",
+   "vol": 14800
+  },
   {
    "kw": "pinot grigio",
    "vol": 8100
@@ -21,15 +25,15 @@ export const HOME_SEO = {
    "vol": 8100
   },
   {
-   "kw": "don julio",
-   "vol": 8100
-  },
-  {
-   "kw": "premix king",
+   "kw": "don julioooo",
    "vol": 5400
   }
  ],
  "secondary": [
+  {
+   "kw": "johnnie walker",
+   "vol": 8100
+  },
   {
    "kw": "baileys irish cream",
    "vol": 6600
@@ -43,52 +47,48 @@ export const HOME_SEO = {
    "vol": 6600
   },
   {
-   "kw": "ouzo",
-   "vol": 6600
-  },
-  {
-   "kw": "tequila from tequila",
-   "vol": 6600
-  },
-  {
-   "kw": "beer ginger beer",
-   "vol": 6600
-  },
-  {
-   "kw": "jameson whisky",
-   "vol": 6600
-  },
-  {
    "kw": "johnnie walker blue label",
    "vol": 6600
   },
   {
-   "kw": "cruisers",
-   "vol": 6600
-  },
-  {
-   "kw": "rose wine",
-   "vol": 6600
-  },
-  {
-   "kw": "white wine",
-   "vol": 6600
-  },
-  {
-   "kw": "somersby",
-   "vol": 6600
-  },
-  {
-   "kw": "cognac cognac",
+   "kw": "macallan 12",
    "vol": 5400
   },
   {
-   "kw": "smirnoff",
-   "vol": 5400
+   "kw": "japanese whiskey",
+   "vol": 4400
   },
   {
-   "kw": "don julioooo",
-   "vol": 5400
+   "kw": "patron tequila",
+   "vol": 3600
+  },
+  {
+   "kw": "single malt",
+   "vol": 3600
+  },
+  {
+   "kw": "irish whiskey",
+   "vol": 3600
+  },
+  {
+   "kw": "scotch whisky",
+   "vol": 2900
+  },
+  {
+   "kw": "hibiki whiskey",
+   "vol": 2900
+  },
+  {
+   "kw": "bourbon whiskey",
+   "vol": 2400
+  },
+  {
+   "kw": "whisky gift pack",
+   "vol": 2400
+  },
+  {
+   "kw": "glenfiddich 18",
+   "vol": 2400
   }
  ],
  "tags": [
@@ -173,16 +173,20 @@ export const HOME_SEO = {
    "vol": 8100
   },
   {
+   "kw": "don julio",
+   "vol": 8100
+  },
+  {
+   "kw": "johnnie walker",
+   "vol": 8100
+  },
+  {
    "kw": "patron",
    "vol": 8100
   },
   {
    "kw": "sauvignon blanc",
    "vol": 8100
-  },
-  {
-   "kw": "absolut liquor",
-   "vol": 6600
   },
   {
    "kw": "pinot grigio",

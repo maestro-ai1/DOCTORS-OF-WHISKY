@@ -203,7 +203,7 @@ export function BrandSlider() {
           {/* Link to all brands */}
           <div className="flex items-center gap-2">
             <Link
-              href="/shop"
+              href="/shop/"
               className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-amber-400 hover:text-amber-300 ml-2 px-3 py-1.5 rounded-lg bg-amber-950/40 border border-amber-800/40 transition-colors"
             >
               <span>View All Brands</span>

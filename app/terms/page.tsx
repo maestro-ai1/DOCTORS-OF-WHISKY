@@ -44,7 +44,7 @@ export default function TermsPage() {
         </div>
 
         <div className="pt-6 border-t border-neutral-900">
-          <Link href="/shop" className="text-xs text-amber-400 hover:text-amber-300 font-bold">
+          <Link href="/shop/" className="text-xs text-amber-400 hover:text-amber-300 font-bold">
             ← Back to Shop
           </Link>
         </div>

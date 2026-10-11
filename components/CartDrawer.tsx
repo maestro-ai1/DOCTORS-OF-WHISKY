@@ -136,7 +136,7 @@ export function CartDrawer() {
                   </p>
                 </div>
                 <Link
-                  href="/shop"
+                  href="/shop/"
                   onClick={closeCart}
                   className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-amber-700 to-amber-600 hover:from-amber-600 hover:to-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider transition-all"
                 >

@@ -13,9 +13,9 @@ import { buildMetadata } from '@/lib/seo';
 import { HOME_SEO } from '@/lib/data/home-seo';
 
 export const metadata = buildMetadata({
-  title: 'Buy Glenfiddich, Tequila & Whisky Online Australia',
+  title: 'Whisky Sale Online Australia | Buy Whisky, Tequila & Gin',
   description:
-    'Buy Glenfiddich, tequila, whisky, gin, champagne, prosecco, Baileys, Jim Beam and Jack Daniels online in Australia. Insured delivery, 18+.',
+    'Whisky sale at Doctors of Whisky: buy Glenfiddich, Johnnie Walker, Lark, tequila, gin and champagne online with insured delivery across Australia. 18+ only.',
   path: '/',
   keywords: [HOME_SEO.primary.kw, ...HOME_SEO.primaries.map((k) => k.kw), ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
 });
