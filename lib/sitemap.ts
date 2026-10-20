@@ -70,6 +70,16 @@ function pageNumbers(total: number, size: number) {
   return Array.from({ length: Math.max(0, Math.ceil(total / size) - 1) }, (_, i) => i + 2);
 }
 
+/** Small sitemap of the money pages, so Google sees what to crawl first. */
+export const priorityEntries = (): SitemapEntry[] =>
+  [
+    '/', '/shop/', '/shop/whisky/', '/shop/spirit/', '/shop/beer-premix-wine/',
+    '/shop/beer-premix-wine/collection/champagne/', '/shop/beer-premix-wine/collection/sparkling/', '/shop/beer-premix-wine/collection/prosecco/',
+    '/shop/beer-premix-wine/collection/lager/', '/shop/beer-premix-wine/collection/imported-beer/',
+    '/shop/whisky/collection/scotch-whisky/', '/shop/whisky/collection/japanese-whisky/', '/shop/whisky/collection/bourbon/',
+    '/gifts/whisky/', '/gifts/gin/', '/collections/tequila/', '/collections/smirnoff/', '/collections/absolut/', '/faq/',
+  ].map((path) => ({ path, changefreq: 'daily', priority: 1.0, lastmod: SITE_UPDATED }));
+
 export const collectionEntries = (): SitemapEntry[] => [
   ...MAIN_CATEGORIES.map((c) => ({ path: `/shop/${c.slug}/`, changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED })),
   ...SUBCATEGORIES.map((s) => ({ path: `/shop/${s.category}/collection/${s.slug}/`, changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED })),

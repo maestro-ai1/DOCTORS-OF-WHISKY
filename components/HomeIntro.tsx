@@ -10,6 +10,23 @@ import { titleCase } from '@/lib/seo';
  *   tags line = the highest-volume Commercial + Transactional keywords (baileys, tequila, prosecco, jack daniels, champagne, whisky, veuve clicquot ...)
  * Every keyword links to the closest real product or collection page.
  */
+const TOP_RANGES = [
+  { label: 'Champagne', href: '/shop/beer-premix-wine/collection/champagne/' },
+  { label: 'Sparkling wine', href: '/shop/beer-premix-wine/collection/sparkling/' },
+  { label: 'Prosecco', href: '/shop/beer-premix-wine/collection/prosecco/' },
+  { label: 'Heineken and lager', href: '/shop/beer-premix-wine/collection/lager/' },
+  { label: 'Imported beer', href: '/shop/beer-premix-wine/collection/imported-beer/' },
+  { label: 'Scotch whisky', href: '/shop/whisky/collection/scotch-whisky/' },
+  { label: 'Japanese whisky', href: '/shop/whisky/collection/japanese-whisky/' },
+  { label: 'Bourbon', href: '/shop/whisky/collection/bourbon/' },
+  { label: 'Whisky gift packs', href: '/gifts/whisky/' },
+  { label: 'Tequila', href: '/collections/tequila/' },
+  { label: 'Gin gifts', href: '/gifts/gin/' },
+  { label: 'Smirnoff', href: '/collections/smirnoff/' },
+  { label: 'Absolut', href: '/collections/absolut/' },
+  { label: 'Spirits', href: '/shop/spirit/' },
+];
+
 export function HomeIntro() {
   const secondary = linkList(HOME_SEO.secondary.map((k) => k.kw), '/shop/', '/', 5);
   const tags = linkList(HOME_SEO.tags.map((k) => k.kw), '/shop/', '/', VISIBLE_TAGS + 2);
@@ -49,7 +66,17 @@ export function HomeIntro() {
               ))}
             </ul>
           </section>
-          <section aria-label="Popular whisky searches" className="space-y-3">
+          <section aria-label="Shop our top ranges" className="space-y-3">
+            <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider text-center">Shop our top ranges</h2>
+            <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
+              {TOP_RANGES.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{l.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <section aria-label="Popular whisky searches"className="space-y-3">
             <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider text-center">Popular searches in Australia</h2>
             <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
               {secondary.map((l) => (
