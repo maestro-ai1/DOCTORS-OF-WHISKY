@@ -459,6 +459,9 @@ export function CheckoutForm() {
                     })} AUD
                   </span>
                 </div>
+                <p className="text-right text-neutral-400">
+                  Includes GST of <span className="font-mono text-neutral-200">${(finalTotal / 11).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                </p>
               </div>
             </div>
 

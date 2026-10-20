@@ -1,5 +1,6 @@
 'use client';
 
+import { gstIncluded } from '@/lib/orders/summary';
 import React, { useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from '@/components/AppLink';
@@ -83,10 +84,16 @@ function ThankYouOrderContent() {
                 </li>
               ))}
             </ul>
-            <div className="flex justify-between font-bold text-neutral-100 pt-1 border-t border-neutral-800">
+            <div className="space-y-1 pt-2 text-neutral-400">
+              <div className="flex justify-between"><span>Subtotal (incl. GST)</span><span className="font-mono text-neutral-200">{aud(stored.order.totals.subtotal)}</span></div>
+              {stored.order.totals.cryptoDiscount > 0 && <div className="flex justify-between text-emerald-400"><span>Crypto discount</span><span className="font-mono">-{aud(stored.order.totals.cryptoDiscount)}</span></div>}
+              <div className="flex justify-between"><span>Delivery</span><span className="font-mono text-neutral-200">{stored.order.totals.shipping > 0 ? aud(stored.order.totals.shipping) : 'FREE'}</span></div>
+            </div>
+            <div className="flex justify-between font-bold text-neutral-100 pt-2 border-t border-neutral-800">
               <span>Total due ({stored.order.paymentMethodName})</span>
               <span className="font-mono text-amber-400">{aud(stored.order.totals.total)}</span>
             </div>
+            <p className="text-right text-neutral-400">Includes GST of {aud(gstIncluded(stored.order.totals))}</p>
           </div>
         )}
 
