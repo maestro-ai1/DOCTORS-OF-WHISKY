@@ -25,4 +25,6 @@
 }
 
 /* 18+ gate: hidden for returning visitors and staff pages (class set by the script in <head>) */
-.age-ok #age-gate { display: none; }
+.age-ok #age-gate, [data-age='ok'] #age-gate { display: none; }
+/* Tailwind v4 no longer shows the hand cursor on buttons: restore it for everything clickable */
+button:not(:disabled), [role='button']:not([aria-disabled='true']), summary, select, input[type='checkbox'], input[type='radio'], label[for] { cursor: pointer; }
