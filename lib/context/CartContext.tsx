@@ -8,6 +8,8 @@ import { SITE, CONTACT, SHOP_RULES, PAYMENT_METHODS } from '@/lib/config';
 
 interface CartContextType {
   items: CartItem[];
+  /** true once the saved cart has been read from the browser (false during the server render and first paint) */
+  cartReady: boolean;
   addToCart: (product: Product, quantity?: number) => void;
   removeFromCart: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
@@ -39,29 +41,37 @@ interface CartContextType {
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
-  const [items, setItems] = useState<CartItem[]>(() => {
-    if (typeof window === 'undefined') return [];
-    try {
-      const saved = localStorage.getItem(SITE.cartKey);
-      return saved ? JSON.parse(saved) : [];
-    } catch (e) {
-      console.error('Failed to load cart from localStorage', e);
-      return [];
-    }
-  });
+  const router = useRouter();
+  // Start empty so the first client render matches the server HTML exactly; the saved cart is loaded right after hydration.
+  // (Reading localStorage during the first render made the header cart count differ from the server HTML, which forced React to
+  // rebuild the whole page and wiped the age-gate state.)
+  const [items, setItems] = useState<CartItem[]>([]);
+  const [cartLoaded, setCartLoaded] = useState(false);
 
   const [paymentMethod, setPaymentMethod] = useState<string>('payid');
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
 
-  // Save to localStorage whenever items change
   useEffect(() => {
+    try {
+      const saved = localStorage.getItem(SITE.cartKey);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time load after hydration, see above
+      if (saved) setItems(JSON.parse(saved));
+    } catch (e) {
+      console.error('Failed to load cart from localStorage', e);
+    }
+    setCartLoaded(true);
+  }, []);
+
+  // Save to localStorage whenever items change (only after the saved cart has been loaded, so it is never overwritten with [])
+  useEffect(() => {
+    if (!cartLoaded) return;
     try {
       localStorage.setItem(SITE.cartKey, JSON.stringify(items));
     } catch (e) {
       console.error('Failed to save cart to localStorage', e);
     }
-  }, [items]);
+  }, [items, cartLoaded]);
 
   const addToCart = (product: Product, quantity = 1) => {
     setItems((prev) => {
@@ -130,7 +140,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const closeCart = () => setIsCartOpen(false);
   const openCheckout = () => {
     setIsCartOpen(false);
-    setIsCheckoutOpen(true);
+    router.push('/checkout/');
   };
   const closeCheckout = () => setIsCheckoutOpen(false);
 
@@ -186,6 +196,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     <CartContext.Provider
       value={{
         items,
+        cartReady: cartLoaded,
         addToCart,
         removeFromCart,
         updateQuantity,

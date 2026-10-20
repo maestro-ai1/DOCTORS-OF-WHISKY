@@ -111,7 +111,7 @@ export default function RootLayout({
   const jsonLd = { '@context': 'https://schema.org', '@graph': [storeLd, websiteLd] };
 
   return (
-    <html lang="en-AU" className="dark bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-800 selection:text-amber-100">
+    <html lang="en-AU" suppressHydrationWarning className="dark bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-800 selection:text-amber-100">
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld(jsonLd) }} />
         <script dangerouslySetInnerHTML={{ __html: AGE_GATE_HEAD_SCRIPT }} />

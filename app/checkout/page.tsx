@@ -1,14 +1,12 @@
 'use client';
 
-import { useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { CheckoutForm } from '@/components/CheckoutForm';
 import { useCart } from '@/lib/context/CartContext';
 
 export default function CheckoutPage() {
-  const { items } = useCart();
-  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false);
-  if (!mounted) return <div className="min-h-[60vh]" aria-busy="true" />;
+  const { items, cartReady } = useCart();
+  if (!cartReady) return <div className="min-h-[60vh]" aria-busy="true" />;
   // The cart is read from localStorage after the page loads, so an empty cart is only shown once there is nothing to check out.
   if (items.length === 0) {
     return (
