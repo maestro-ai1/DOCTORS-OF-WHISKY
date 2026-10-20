@@ -26,7 +26,7 @@ async function shrinkImage(file: File): Promise<File> {
   }
 }
 
-export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; token: string; whatsappUrl: string }) {
+export function PayClient({ refCode, token, whatsappUrl, network }: { refCode: string; token: string; whatsappUrl: string; network?: string }) {
   const input = useRef<HTMLInputElement>(null);
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -63,6 +63,7 @@ export function PayClient({ refCode, token, whatsappUrl }: { refCode: string; to
     try {
       const body = new FormData();
       body.set('t', token);
+      if (network) body.set('network', network);
       body.set('file', file);
       const res = await fetch(`/api/pay/${refCode}/proof/`, { method: 'POST', body });
       const data = (await res.json().catch(() => ({}))) as { success?: boolean; message?: string; error?: string; whatsappUrl?: string };

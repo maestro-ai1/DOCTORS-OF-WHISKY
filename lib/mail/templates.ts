@@ -46,7 +46,32 @@ const itemsText = (o: OrderRecord) => `${o.lines.map((l) => `${l.quantity} x ${l
 // ---------------------------------------------------------------------------------------------------------------------------
 // 1. Sent to the customer when they order: confirmation, awaiting payment (no payment details yet)
 // ---------------------------------------------------------------------------------------------------------------------------
-export function customerOrderEmail(o: OrderRecord) {
+export const isCryptoOrder = (o: Pick<OrderRecord, 'paymentMethod'>) => o.paymentMethod.startsWith('crypto');
+
+export function customerOrderEmail(o: OrderRecord, payUrl?: string | null) {
+  if (isCryptoOrder(o) && payUrl) {
+    const subject = `Order ${o.ref}: complete your crypto payment (${aud(o.totals.total)})`;
+    const html = shell(
+      'Complete your crypto payment',
+      `<p style="font-size:14px;line-height:1.6;margin:0 0 10px">Hi ${esc(firstName(o))}, we have received your order <strong>${esc(o.ref)}</strong>.</p>
+${itemsHtml(o)}
+<p style="font-size:14px;line-height:1.6;margin:0 0 12px">Open the secure payment page to choose Bitcoin or USDT, scan the QR code or copy the wallet address, then upload your payment screenshot.</p>
+<p style="margin:0 0 6px">${button(payUrl, 'Pay with crypto', '#b45309')}</p>
+<p style="font-size:12px;color:#57534e;line-height:1.5;margin:0">${esc(TERMS_LINE)}</p>`,
+    );
+    const text = `Order ${o.ref}: complete your crypto payment
+
+Hi ${firstName(o)}, we have received your order ${o.ref}.
+
+${itemsText(o)}
+
+Pay with crypto (choose Bitcoin or USDT, then upload your screenshot):
+${payUrl}
+
+${TERMS_LINE}
+${CONTACT.email} · ${CONTACT.phone}`;
+    return { subject, html, text };
+  }
   const subject = `Order ${o.ref} confirmed: awaiting payment`;
   const html = shell(
     'Order confirmed: awaiting payment',
@@ -131,22 +156,41 @@ export function salesNotificationEmail(o: OrderRecord) {
     `New order ${o.ref}`,
     `${itemsHtml(o)}
 <p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(o.customer.fullName)}</strong> · ${esc(o.paymentMethodName)}<br><a href="mailto:${esc(o.customer.email)}">${esc(o.customer.email)}</a> · ${esc(o.customer.phone)}<br>${esc(o.customer.address)}, ${esc(o.customer.city)} ${esc(o.customer.state)} ${esc(o.customer.postcode)}${o.customer.notes ? `<br><em>${esc(o.customer.notes)}</em>` : ''}</p>
-<p style="margin:0">${button(admin, 'Send payment details', '#111111')}</p>`,
+<p style="margin:0">${button(admin, isCryptoOrder(o) ? 'Open admin' : 'Send payment details', '#111111')}</p>`,
   );
-  const text = `NEW ORDER ${o.ref}\n${itemsText(o)}\n\n${o.customer.fullName} · ${o.paymentMethodName}\n${o.customer.email} · ${o.customer.phone}\n${o.customer.address}, ${o.customer.city} ${o.customer.state} ${o.customer.postcode}${o.customer.notes ? `\nNotes: ${o.customer.notes}` : ''}\n\nSend payment details: ${admin}`;
+  const text = `NEW ORDER ${o.ref}\n${itemsText(o)}\n\n${o.customer.fullName} · ${o.paymentMethodName}\n${o.customer.email} · ${o.customer.phone}\n${o.customer.address}, ${o.customer.city} ${o.customer.state} ${o.customer.postcode}${o.customer.notes ? `\nNotes: ${o.customer.notes}` : ''}\n\n${isCryptoOrder(o) ? 'Open admin' : 'Send payment details'}: ${admin}`;
   return { subject, html, text };
 }
 
-export function proofReceivedEmail(o: OrderRecord, fileName: string, note?: string) {
-  const subject = `Payment screenshot: ${o.ref}: ${aud(o.totals.total)}: ${o.customer.fullName}`;
+export function proofReceivedEmail(o: OrderRecord, fileName: string, note?: string, network?: string) {
+  const crypto = isCryptoOrder(o);
+  const subject = `${crypto ? 'PAID (crypto): ' : 'Payment screenshot: '}${o.ref}: ${aud(o.totals.total)}: ${o.customer.fullName}`;
   const admin = `${siteOrigin()}/admin/`;
   const html = shell(
     'Payment screenshot received',
-    `<p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(o.customer.fullName)}</strong> sent a screenshot for order <strong>${esc(o.ref)}</strong> (${esc(aud(o.totals.total))}). It is attached: <em>${esc(fileName)}</em>.</p>
+    `<p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(o.customer.fullName)}</strong> says they have paid${crypto ? ' by crypto' : ''}${network ? ` (<strong>${esc(network)}</strong>)` : ''} and sent a screenshot for order <strong>${esc(o.ref)}</strong> (${esc(aud(o.totals.total))}). It is attached: <em>${esc(fileName)}</em>.</p>
 ${note ? `<p style="font-size:14px;background:#f7f4ee;border-radius:8px;padding:9px 12px;margin:0 0 10px">${esc(note)}</p>` : ''}
-<p style="margin:0">${button(admin, 'Open admin', '#111111')}</p>`,
+<p style="margin:0">${button(admin, 'Open admin', '#111111')}</p>${crypto ? '<p style="font-size:12px;color:#57534e;margin:8px 0 0">Check the amount in your wallet, then press &quot;Payment received&quot; on the order to confirm to the customer.</p>' : ''}`,
   );
-  const text = `PAYMENT SCREENSHOT: ${o.ref}\n${o.customer.fullName} sent a screenshot (${aud(o.totals.total)}). Attached: ${fileName}${note ? `\nNote: ${note}` : ''}\n\nAdmin: ${admin}`;
+  const text = `PAYMENT SCREENSHOT: ${o.ref}\n${o.customer.fullName} says they have paid${crypto ? ' by crypto' : ''}${network ? ` (${network})` : ''} and sent a screenshot (${aud(o.totals.total)}). Attached: ${fileName}${note ? `\nNote: ${note}` : ''}\n\nAdmin: ${admin}`;
+  return { subject, html, text };
+}
+
+/** Sent to the customer as soon as their crypto payment screenshot arrives. */
+export function cryptoScreenshotCustomerEmail(o: OrderRecord) {
+  const subject = `We received your crypto payment: order ${o.ref}`;
+  const html = shell(
+    'Crypto payment received',
+    `<p style="font-size:14px;line-height:1.6;margin:0 0 10px">Thank you, ${esc(firstName(o))}. We have your payment screenshot for order <strong>${esc(o.ref)}</strong> (${esc(aud(o.totals.total))}).</p>
+<p style="font-size:14px;line-height:1.6;margin:0 0 10px">We are matching it against our wallet now and will email you again the moment your payment is confirmed. After that your order goes straight to dispatch.</p>
+<p style="font-size:12px;color:#57534e;line-height:1.5;margin:0">${esc(TERMS_LINE)}</p>`,
+  );
+  const text = `Crypto payment received: order ${o.ref}
+
+Thank you, ${firstName(o)}. We have your payment screenshot for order ${o.ref} (${aud(o.totals.total)}).
+We are matching it against our wallet now and will email you again the moment your payment is confirmed.
+
+${TERMS_LINE}`;
   return { subject, html, text };
 }
 

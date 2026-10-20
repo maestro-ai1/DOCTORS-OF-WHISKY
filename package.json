@@ -1,5 +1,11 @@
 {
-  "browserslist": ["chrome >= 111", "edge >= 111", "firefox >= 111", "safari >= 16.4", "ios_saf >= 16.4"],
+  "browserslist": [
+    "chrome >= 111",
+    "edge >= 111",
+    "firefox >= 111",
+    "safari >= 16.4",
+    "ios_saf >= 16.4"
+  ],
   "name": "ai-studio-applet",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +27,7 @@
     "next": "^15.4.9",
     "nodemailer": "^10.0.13",
     "postcss": "^8.5.6",
+    "qrcode": "^1.5.4",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "sharp": "^0.35.5",
@@ -31,6 +38,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/nodemailer": "^8.0.2",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "9.39.1",

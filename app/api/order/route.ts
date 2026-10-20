@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { CONTACT } from '@/lib/config';
 import { clientIp } from '@/lib/admin/guard';
-import { customerOrderEmail, orderWhatsappText, salesNotificationEmail, whatsappLink } from '@/lib/mail/templates';
+import { payPageUrl } from '@/lib/orders/link-token';
+import { customerOrderEmail, isCryptoOrder, siteOrigin, orderWhatsappText, salesNotificationEmail, whatsappLink } from '@/lib/mail/templates';
 import { SALES_EMAIL, isMailConfigured, sendMail } from '@/lib/mail/transport';
 import { priceOrder } from '@/lib/orders/pricing';
 import { getOrder, isPersistent, newOrderRef, rateLimit, saveOrder } from '@/lib/orders/store';
@@ -81,6 +82,10 @@ export async function POST(req: NextRequest) {
     replies: [],
   };
 
+  // Crypto orders go straight to the wallet page: the signed link works as the customer's private key to it.
+  const payUrl = isCryptoOrder(order) ? payPageUrl(order.ref, siteOrigin()) : null;
+  if (payUrl) order.status = 'awaiting_payment';
+
   // 7. Persist first, so a mail outage can never lose an order
   let stored = false;
   try {
@@ -97,7 +102,7 @@ export async function POST(req: NextRequest) {
       return sendMail({ to: SALES_EMAIL(), subject: m.subject, html: m.html, text: m.text, replyTo: order.customer.email });
     })(),
     (async () => {
-      const m = customerOrderEmail(order);
+      const m = customerOrderEmail(order, payUrl);
       return sendMail({ to: order.customer.email, subject: m.subject, html: m.html, text: m.text, replyTo: SALES_EMAIL() });
     })(),
   ]);
@@ -129,6 +134,7 @@ export async function POST(req: NextRequest) {
       success: true,
       orderRef: order.ref,
       order: summary,
+      payPath: payUrl ? new URL(payUrl).pathname + new URL(payUrl).search : undefined,
       confirmationEmail: customerRes.ok ? 'sent' : 'failed',
       whatsappUrl: whatsappLink(orderWhatsappText(order)),
       contact: { phone: CONTACT.phone, email: CONTACT.email },

@@ -1,7 +1,8 @@
 import { randomUUID } from 'node:crypto';
 import { NextRequest, NextResponse } from 'next/server';
 import { clientIp } from '@/lib/admin/guard';
-import { paymentWhatsappText, proofReceivedEmail, whatsappLink } from '@/lib/mail/templates';
+import { CRYPTO_WALLETS } from '@/lib/config';
+import { cryptoScreenshotCustomerEmail, isCryptoOrder, paymentWhatsappText, proofReceivedEmail, whatsappLink } from '@/lib/mail/templates';
 import { SALES_EMAIL, isMailConfigured, sendMail } from '@/lib/mail/transport';
 import { verifyLinkToken } from '@/lib/orders/link-token';
 import { getOrder, rateLimit, updateOrder } from '@/lib/orders/store';
@@ -68,7 +69,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ ref
 
   if (!isMailConfigured()) return fail(503, 'We cannot take uploads right now. Please send your screenshot on WhatsApp.', { whatsappUrl: waFallback });
 
-  const mail = proofReceivedEmail(order, fileName, note || undefined);
+  const picked = CRYPTO_WALLETS.find((w) => w.id === String(form.get('network') || ''));
+  const network = picked ? `${picked.label} · ${picked.network}` : undefined;
+  const mail = proofReceivedEmail(order, fileName, note || undefined, network);
   const result = await sendMail({
     to: SALES_EMAIL(),
     subject: mail.subject,
@@ -81,6 +84,12 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ ref
   await updateOrder(ref, (o) => {
     (o.proofs ||= []).push({ id: randomUUID(), at: new Date().toISOString(), fileName, contentType: kind.type, bytes: bytes.length, note: note || undefined, emailed: result.ok });
   }).catch(() => null);
+
+  // Crypto orders: tell the customer straight away that the payment screenshot arrived.
+  if (result.ok && isCryptoOrder(order)) {
+    const ack = cryptoScreenshotCustomerEmail(order);
+    await sendMail({ to: order.customer.email, subject: ack.subject, html: ack.html, text: ack.text, replyTo: SALES_EMAIL() }).catch(() => null);
+  }
 
   if (!result.ok) return fail(502, 'We could not send your screenshot just now. Please send it on WhatsApp so nothing is lost.', { whatsappUrl: waFallback });
   return NextResponse.json({ success: true, message: 'Thank you. We have received your payment screenshot and will confirm your order shortly.' }, { status: 200, headers });

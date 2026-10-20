@@ -37,7 +37,14 @@ export const SHOP_RULES = {
   cryptoDiscountPercent: 12, // 12% auto discount on Crypto
 };
 
-export const PAYMENT_METHODS = [
+/** Public receive addresses only (never keys or seeds). Shown on the crypto payment page with a QR code. */
+export const CRYPTO_WALLETS = [
+  { id: 'btc', label: 'Bitcoin', short: 'BTC', network: 'Bitcoin network', address: 'bc1q26x7nc3r2vjzyzjvv2mzg56sudtwum4xteg3hd', uri: 'bitcoin:bc1q26x7nc3r2vjzyzjvv2mzg56sudtwum4xteg3hd' },
+  { id: 'usdt-trc20', label: 'USDT', short: 'USDT', network: 'TRC20 (TRON network)', address: 'TXsafxfWLDFPdU8aNNec7fTZH4jkKfWYDP', uri: 'TXsafxfWLDFPdU8aNNec7fTZH4jkKfWYDP' },
+  { id: 'usdt-erc20', label: 'USDT', short: 'USDT', network: 'ERC20 (Ethereum network)', address: '0xaF80aa1ca688A1318e1F39E273cAf5895bE12749', uri: '0xaF80aa1ca688A1318e1F39E273cAf5895bE12749' },
+] as const;
+
+export const PAYMENT_METHODS: { id: string; name: string; badge: string; details: string; type: string; note: string; legacy?: boolean }[] = [
   {
     id: 'payid',
     name: 'PayID / Osko Fast Payment',
@@ -55,7 +62,16 @@ export const PAYMENT_METHODS = [
     note: 'Include your Order Reference (e.g. DOW-XXXX) in payment description.',
   },
   {
+    id: 'crypto',
+    name: 'Cryptocurrency (Bitcoin / USDT)',
+    badge: '12% Instant Savings',
+    details: CRYPTO_WALLETS.map((w) => `${w.label} (${w.network}): ${w.address}`).join('\n'),
+    type: 'crypto',
+    note: 'Choose Bitcoin, USDT (TRC20) or USDT (ERC20) on the next page. Your wallet address and QR code appear straight after you place the order.',
+  },
+  {
     id: 'crypto-btc',
+    legacy: true,
     name: 'Bitcoin (BTC)',
     badge: '12% Instant Savings',
     details: 'bc1q26x7nc3r2vjzyzjvv2mzg56sudtwum4xteg3hd',
@@ -64,6 +80,7 @@ export const PAYMENT_METHODS = [
   },
   {
     id: 'crypto-usdt-trc20',
+    legacy: true,
     name: 'Tether USDT (TRC20)',
     badge: '12% Instant Savings',
     details: 'TXsafxfWLDFPdU8aNNec7fTZH4jkKfWYDP',
@@ -72,6 +89,7 @@ export const PAYMENT_METHODS = [
   },
   {
     id: 'crypto-usdt-erc20',
+    legacy: true,
     name: 'Tether USDT (ERC20)',
     badge: '12% Instant Savings',
     details: '0xaF80aa1ca688A1318e1F39E273cAf5895bE12749',
@@ -79,6 +97,9 @@ export const PAYMENT_METHODS = [
     note: 'Send USDT on the Ethereum (ERC20) network only. Instant 12% discount applied.',
   },
 ];
+
+/** Methods offered at checkout (the three older per-coin methods are kept only so earlier orders still display). */
+export const CHECKOUT_PAYMENT_METHODS = PAYMENT_METHODS.filter((m) => !m.legacy);
 
 export const BRAND_AUTHORITY = {
   foundingYear: '2016',

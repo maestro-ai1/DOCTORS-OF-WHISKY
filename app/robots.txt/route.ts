@@ -34,7 +34,7 @@ const AI_INDEXING_CRAWLERS = [
 /** Bytespider is very aggressive, so it is allowed but asked to slow down. */
 const THROTTLED = ['Bytespider'];
 
-const DISALLOW = ['/thank-you-order/', '/api/order/', '/api/contact/', '/admin/', '/api/admin/', '/pay/', '/api/pay/', '/search/'];
+const DISALLOW = ['/thank-you-order/', '/checkout/', '/api/order/', '/api/contact/', '/admin/', '/api/admin/', '/pay/', '/api/pay/', '/search/'];
 
 export function GET() {
   const disallow = DISALLOW.map((d) => `Disallow: ${d}`).join('\n');

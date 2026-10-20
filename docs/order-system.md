@@ -55,3 +55,9 @@ Re-run the hash script, update `ADMIN_PASSWORD_HASH` (and optionally `ADMIN_SESS
 3. The Upload button opens /pay/<order>/?t=<private token>: a private page where the customer sees the amount and details and uploads a screenshot (JPG, PNG, WebP, HEIC or PDF up to 4 MB). It arrives in sales@ as an email attachment and the order shows a screenshot badge.
 4. Step 2 'Payment received' emails the customer that the order is confirmed. Step 3 'Dispatched' emails the tracking number. Status changes automatically.
 Links use ADMIN_SESSION_SECRET (or ORDER_LINK_SECRET) to sign each customer's link: changing it invalidates links already sent.
+
+## Crypto checkout (Bitcoin / USDT)
+- Checkout is now a full page at `/checkout/` (noindex), opened from the cart drawer. Payment options: PayID, bank transfer (both unchanged) and one "Cryptocurrency (Bitcoin / USDT)" option (method id `crypto`, 12% discount, priced on the server). The old per-coin ids stay only so earlier orders display.
+- A crypto order saves as `awaiting_payment`, emails the customer a "Pay with crypto" button and sends the browser straight to the private `/pay/<ref>/?t=<token>` page: tabs Bitcoin / USDT TRC20 / USDT ERC20, QR code, copy button, network warning, screenshot upload.
+- Upload: you get `PAID (crypto): <ref> ...` with the screenshot and the coin/network the customer picked; the customer is emailed "We received your crypto payment" straight away. After checking your wallet press "Payment received" in /admin/ to send the final confirmation.
+- Wallet addresses live in `CRYPTO_WALLETS` in `lib/config.ts` (public addresses only). Not automatic: nothing checks the blockchain.

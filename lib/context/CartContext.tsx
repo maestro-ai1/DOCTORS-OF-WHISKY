@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { waText } from '@/lib/whatsapp';
 import { Product, CartItem } from '@/lib/types';
 import { SITE, CONTACT, SHOP_RULES, PAYMENT_METHODS } from '@/lib/config';
@@ -118,7 +119,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   );
 
   const isCryptoPayment =
-    paymentMethod.startsWith('crypto-');
+    paymentMethod.startsWith('crypto');
   const cryptoDiscountAmount = isCryptoPayment
     ? (subtotal * SHOP_RULES.cryptoDiscountPercent) / 100
     : 0;

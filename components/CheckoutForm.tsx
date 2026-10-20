@@ -3,11 +3,11 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/lib/context/CartContext';
-import { PAYMENT_METHODS, CONTACT, SHOP_RULES } from '@/lib/config';
+import Link from 'next/link';
+import { CHECKOUT_PAYMENT_METHODS, PAYMENT_METHODS, CONTACT, SITE } from '@/lib/config';
 import { CopyField } from '@/components/CopyField';
 import { validateCustomer } from '@/lib/orders/validate';
 import {
-  X,
   ShieldCheck,
   CreditCard,
   Building,
@@ -18,12 +18,14 @@ import {
   Lock,
 } from 'lucide-react';
 
-export function CheckoutModal() {
+// Gold, bold and large (16px stops iPhones zooming in) so the form reads clearly on the black theme.
+const INPUT = 'w-full px-4 py-3 rounded-xl bg-neutral-900 border-2 border-amber-700/70 text-amber-300 font-bold text-base placeholder:text-neutral-500 placeholder:font-normal focus:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500/30 aria-[invalid=true]:border-red-500';
+const LABEL = 'block text-sm font-bold text-amber-400';
+
+export function CheckoutForm() {
   const router = useRouter();
   const {
     items,
-    isCheckoutOpen,
-    closeCheckout,
     subtotal,
     shippingFee,
     isCryptoPayment,
@@ -51,8 +53,6 @@ export function CheckoutModal() {
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const [fallbackWhatsapp, setFallbackWhatsapp] = useState('');
   const [website, setWebsite] = useState(''); // honeypot: hidden from people, filled by bots
-
-  if (!isCheckoutOpen) return null;
 
   const currentPayment =
     PAYMENT_METHODS.find((p) => p.id === paymentMethod) || PAYMENT_METHODS[0];
@@ -90,6 +90,7 @@ export function CheckoutModal() {
         order?: unknown;
         whatsappUrl?: string;
         confirmationEmail?: string;
+        payPath?: string;
         error?: string;
         fieldErrors?: Record<string, string>;
       };
@@ -107,8 +108,13 @@ export function CheckoutModal() {
         JSON.stringify({ orderRef: data.orderRef, order: data.order, whatsappUrl: data.whatsappUrl, confirmationEmail: data.confirmationEmail, customerEmail: formData.email }),
       );
       clearCart();
-      closeCheckout();
-      router.push(`/thank-you-order?ref=${encodeURIComponent(data.orderRef)}`);
+      // Crypto orders go straight to the private wallet page; PayID and bank transfer keep the existing thank-you page.
+      if (isCryptoPayment && data.payPath) {
+        // Full page load: the pay page is exempt from the age gate. Empty the saved cart first so it is not restored.
+        try { localStorage.removeItem(SITE.cartKey); } catch { /* ignore */ }
+        window.location.assign(data.payPath);
+      }
+      else router.push(`/thank-you-order?ref=${encodeURIComponent(data.orderRef)}`);
     } catch (err) {
       console.error(err);
       setErrorMsg('Network error. Your order has not been placed. Please try again or order on WhatsApp.');
@@ -119,42 +125,26 @@ export function CheckoutModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md overflow-y-auto animate-in fade-in duration-200">
-      <div
-        className="relative w-full max-w-4xl bg-neutral-950 border border-amber-800/60 rounded-3xl overflow-hidden shadow-2xl my-8 max-h-[95vh] flex flex-col"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Modal Header */}
-        <div className="p-6 border-b border-neutral-800 bg-neutral-900/60 flex items-center justify-between shrink-0">
+    <div className="bg-neutral-950">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <div className="mb-6 sm:mb-8 flex items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-amber-950 border border-amber-700/60 flex items-center justify-center text-amber-400">
+            <div className="w-11 h-11 rounded-xl bg-amber-950 border border-amber-700/60 flex items-center justify-center text-amber-400 shrink-0">
               <Lock className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="font-serif font-bold text-xl text-neutral-100">
-                Secure Australian Vault Checkout
-              </h2>
-              <p className="text-xs text-neutral-400">
-                Encrypted &amp; Insured Transit · Sydney CBD Dispatch
-              </p>
+              <h1 className="font-serif font-bold text-2xl sm:text-3xl text-neutral-100">Secure Checkout</h1>
+              <p className="text-xs sm:text-sm text-neutral-400">Insured transit · Sydney dispatch</p>
             </div>
           </div>
-
-          <button
-            type="button"
-            onClick={closeCheckout}
-            className="p-2 rounded-lg text-neutral-400 hover:text-white hover:bg-neutral-800 transition-colors"
-          >
-            <X className="w-5 h-5" />
-          </button>
+          <Link href="/shop/" className="text-sm font-semibold text-amber-400 hover:text-amber-300 underline underline-offset-4 shrink-0">Keep shopping</Link>
         </div>
 
-        {/* Modal Body */}
-        <div className="flex-1 overflow-y-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Left Column: Form Details (7 cols) */}
           <form id="checkout-form" onSubmit={handleSubmit} className="lg:col-span-7 space-y-6">
             {errorMsg && (
-              <div role="alert" className="p-3.5 rounded-xl bg-red-950/60 border border-red-800 text-red-300 text-xs space-y-1.5">
+              <div role="alert" className="p-3.5 rounded-xl bg-red-950/60 border border-red-800 text-red-200 text-sm space-y-1.5">
                 <p className="font-semibold">{errorMsg}</p>
                 {Object.values(fieldErrors).length > 0 && (
                   <ul className="list-disc pl-4 space-y-0.5">
@@ -171,14 +161,14 @@ export function CheckoutModal() {
 
             {/* 1. Customer & Shipping Info */}
             <div className="space-y-4">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 pb-2 border-b border-neutral-800 flex items-center gap-2">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 pb-2 border-b border-neutral-800 flex items-center gap-2">
                 <Truck className="w-4 h-4" />
                 <span>1. Australian Delivery Address</span>
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Full Name *</label>
+                  <label className={LABEL}>Full Name *</label>
                   <input
                     type="text"
                     required
@@ -188,12 +178,12 @@ export function CheckoutModal() {
                     value={formData.fullName}
                     onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                     placeholder="e.g. Lachlan Murdoch"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    className={INPUT}
                   />
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Email Address *</label>
+                  <label className={LABEL}>Email Address *</label>
                   <input
                     type="email"
                     required
@@ -203,31 +193,31 @@ export function CheckoutModal() {
                     aria-invalid={Boolean(fieldErrors.email)}
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="sales@doctorsofwhisky.com.au"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    placeholder="you@example.com"
+                    className={INPUT}
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Mobile Phone (18+ SMS alerts) *</label>
+                  <label className={LABEL}>Mobile number *</label>
                   <input
                     type="tel"
                     required
-                    autoComplete="tel"
+                    autoComplete="tel-national"
                     inputMode="tel"
                     maxLength={30}
                     aria-invalid={Boolean(fieldErrors.phone)}
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="0420 128 746"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    placeholder="0412 345 678"
+                    className={INPUT}
                   />
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Street Address *</label>
+                  <label className={LABEL}>Street Address *</label>
                   <input
                     type="text"
                     required
@@ -237,14 +227,14 @@ export function CheckoutModal() {
                     value={formData.address}
                     onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                     placeholder="e.g. Level 14, 1 Bligh Street"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    className={INPUT}
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-3 gap-3">
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Suburb / City *</label>
+                  <label className={LABEL}>Suburb / City *</label>
                   <input
                     type="text"
                     required
@@ -254,16 +244,16 @@ export function CheckoutModal() {
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                     placeholder="Sydney"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    className={INPUT}
                   />
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">State *</label>
+                  <label className={LABEL}>State *</label>
                   <select
                     value={formData.state}
                     onChange={(e) => setFormData({ ...formData, state: e.target.value })}
-                    className="w-full px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    className={INPUT}
                   >
                     <option value="NSW">NSW</option>
                     <option value="VIC">VIC</option>
@@ -277,7 +267,7 @@ export function CheckoutModal() {
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs text-neutral-400">Postcode *</label>
+                  <label className={LABEL}>Postcode *</label>
                   <input
                     type="text"
                     required
@@ -289,35 +279,35 @@ export function CheckoutModal() {
                     value={formData.postcode}
                     onChange={(e) => setFormData({ ...formData, postcode: e.target.value })}
                     placeholder="2000"
-                    className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                    className={INPUT}
                   />
                 </div>
               </div>
 
               <div className="space-y-1">
-                <label className="text-xs text-neutral-400">Courier Delivery Notes / Gate Code (Optional)</label>
+                <label className={LABEL}>Courier Delivery Notes / Gate Code (Optional)</label>
                 <input
                   type="text"
                   maxLength={300}
                   value={formData.notes}
                   onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                   placeholder="e.g. Leave with building concierge if unattended"
-                  className="w-full px-3.5 py-2 rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-100 text-xs focus:border-amber-500 focus:outline-none aria-[invalid=true]:border-red-500"
+                  className={INPUT}
                 />
               </div>
             </div>
 
             {/* 2. Payment Method Selector */}
             <div className="space-y-3 pt-2">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 pb-2 border-b border-neutral-800 flex items-center justify-between">
-                <span>2. Select Payment Gateway</span>
-                <span className="text-emerald-400 text-[10px] font-bold">
-                  12% Off via BTC / USDT
+              <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 pb-2 border-b border-neutral-800 flex items-center justify-between">
+                <span>2. Choose how to pay</span>
+                <span className="text-emerald-400 text-[11px] font-bold">
+                  12% off with crypto
                 </span>
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                {PAYMENT_METHODS.map((method) => {
+                {CHECKOUT_PAYMENT_METHODS.map((method) => {
                   const isSelected = paymentMethod === method.id;
                   return (
                     <div
@@ -330,7 +320,7 @@ export function CheckoutModal() {
                       }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="font-serif font-bold text-xs">
+                        <span className="font-serif font-bold text-sm">
                           {method.name}
                         </span>
                         <span
@@ -343,7 +333,7 @@ export function CheckoutModal() {
                           {method.badge}
                         </span>
                       </div>
-                      <p className="text-[11px] text-neutral-400 mt-1.5 leading-snug">
+                      <p className="text-xs text-neutral-300 mt-1.5 leading-snug">
                         {method.note}
                       </p>
                     </div>
@@ -355,7 +345,7 @@ export function CheckoutModal() {
             {/* Direct CopyField Details for Selected Method */}
             <div className="p-4 rounded-xl bg-neutral-900 border border-amber-900/40 space-y-3">
               <span className="text-[10px] uppercase tracking-wider font-bold text-amber-400 block">
-                Direct Settlement Account Details (Click to Copy):
+                {currentPayment.type === 'crypto' ? 'Crypto payment' : 'Payment details (tap to copy)'}
               </span>
 
               {paymentMethod === 'payid' && (
@@ -378,8 +368,7 @@ export function CheckoutModal() {
                   <div className="text-[11px] text-emerald-400 font-bold">
                     ✓ 12% Instant Savings Applied: -${cryptoDiscountAmount.toFixed(2)} AUD
                   </div>
-                  <CopyField label={`${currentPayment.name} wallet address`} value={currentPayment.details} />
-                  <p className="text-[11px] text-neutral-400">{currentPayment.note}</p>
+                  <p className="text-xs text-neutral-300">After you place the order you go straight to the crypto payment page: choose Bitcoin, USDT (TRC20) or USDT (ERC20), scan the QR code or copy the address, pay, then upload your screenshot.</p>
                 </div>
               )}
             </div>
@@ -400,7 +389,7 @@ export function CheckoutModal() {
                   onChange={(e) => setFormData({ ...formData, ageConfirmed: e.target.checked })}
                   className="mt-0.5 w-4 h-4 rounded bg-neutral-950 border-neutral-700 text-amber-600 focus:ring-amber-500"
                 />
-                <span className="text-xs text-neutral-300 leading-tight">
+                <span className="text-sm text-neutral-200 leading-snug">
                   I confirm that I am <strong>18 years of age or older</strong> and agree to show valid photo identification upon courier delivery (NSW Liquor Act 2007 / Victorian Liquor Control Reform Act 1998).
                 </span>
               </label>
@@ -481,7 +470,7 @@ export function CheckoutModal() {
                 disabled={isSubmitting}
                 className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 hover:from-amber-600 hover:to-amber-500 text-neutral-950 font-bold text-xs uppercase tracking-wider shadow-lg shadow-amber-950/60 transition-all active:scale-98 disabled:opacity-50"
               >
-                {isSubmitting ? 'Securing Allocation...' : 'Confirm Order & Generate Reference'}
+                {isSubmitting ? 'Placing your order...' : isCryptoPayment ? 'Continue to crypto payment' : 'Confirm Order & Generate Reference'}
               </button>
 
               <div className="p-3 rounded-lg bg-neutral-950 border border-neutral-800 text-[11px] text-neutral-400 text-center flex items-center justify-center gap-1.5">

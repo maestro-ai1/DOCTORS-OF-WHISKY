@@ -1,9 +1,10 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { CONTACT } from '@/lib/config';
-import { TERMS_LINE, aud, paymentWhatsappText, whatsappLink } from '@/lib/mail/templates';
+import { TERMS_LINE, aud, isCryptoOrder, paymentWhatsappText, whatsappLink } from '@/lib/mail/templates';
 import { verifyLinkToken } from '@/lib/orders/link-token';
 import { getOrder } from '@/lib/orders/store';
+import { CryptoPay } from './CryptoPay';
 import { PayClient } from './PayClient';
 
 export const dynamic = 'force-dynamic';
@@ -41,6 +42,7 @@ export default async function PayPage({ params, searchParams }: { params: Promis
   }
 
   const wa = whatsappLink(paymentWhatsappText(order));
+  const crypto = isCryptoOrder(order);
   const paid = order.status === 'paid' || order.status === 'dispatched' || order.status === 'completed';
 
   return (
@@ -59,6 +61,8 @@ export default async function PayPage({ params, searchParams }: { params: Promis
             Payment received, order confirmed.{' '}
             {order.status === 'dispatched' && order.trackingNumber ? <>Tracking: <span className="font-mono font-bold">{order.trackingNumber}</span></> : 'A tracking number will be provided.'}
           </p>
+        ) : crypto ? (
+          <p className="text-sm text-neutral-300">Includes your 12% crypto discount. Choose Bitcoin or USDT below, pay, then upload your screenshot.</p>
         ) : (
           <div className="rounded-xl bg-amber-50 text-neutral-900 border border-amber-200 p-3 text-sm">
             <p className="font-bold">{order.paymentMethodName}</p>
@@ -71,7 +75,7 @@ export default async function PayPage({ params, searchParams }: { params: Promis
         )}
       </section>
 
-      {!paid && <PayClient refCode={order.ref} token={t || ''} whatsappUrl={wa} />}
+      {!paid && (crypto ? <CryptoPay refCode={order.ref} token={t || ''} whatsappUrl={wa} amount={aud(order.totals.total)} /> : <PayClient refCode={order.ref} token={t || ''} whatsappUrl={wa} />)}
 
       <p className="text-center text-xs text-neutral-400 leading-relaxed">
         {TERMS_LINE}
