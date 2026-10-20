@@ -200,16 +200,50 @@ export function dispatchedEmail(o: OrderRecord, tracking: string) {
 // ---------------------------------------------------------------------------------------------------------------------------
 // Shop notifications
 // ---------------------------------------------------------------------------------------------------------------------------
+/** Labelled detail rows (customer, contact, delivery...), aligned in two columns with thin gold-tinted dividers. */
+const detailsTable = (title: string, rows: [string, string][]) => {
+  const cell = 'padding:7px 0;border-bottom:1px solid #333333;font-size:13.5px;vertical-align:top;';
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin:0 0 14px">
+<tr><td colspan="2" style="padding:0 0 6px;font:bold 11px Arial,sans-serif;letter-spacing:1.2px;text-transform:uppercase;color:#d4af37;border-bottom:2px solid #d4af37">${esc(title)}</td></tr>
+${rows.map(([k, v]) => `<tr><td style="${cell}color:#a3a3a3;width:34%">${esc(k)}</td><td style="${cell}color:#f5f5f5;font-weight:bold">${v}</td></tr>`).join('')}
+</table>`;
+};
+
+const mailLink = (email: string) => `<a href="mailto:${esc(email)}" style="color:#d4af37;text-decoration:none">${esc(email)}</a>`;
+
+const customerRows = (o: OrderRecord): [string, string][] => [
+  ['Name', esc(o.customer.fullName)],
+  ['Email', mailLink(o.customer.email)],
+  ['Mobile', esc(o.customer.phone)],
+  ['Delivery address', `${esc(o.customer.address)}<br>${esc(o.customer.city)} ${esc(o.customer.state)} ${esc(o.customer.postcode)}`],
+  ...(o.customer.notes ? ([['Delivery notes', esc(o.customer.notes)]] as [string, string][]) : []),
+  ['Payment method', esc(o.paymentMethodName)],
+];
+
 export function salesNotificationEmail(o: OrderRecord) {
   const subject = `New order ${o.ref}: ${aud(o.totals.total)}: ${o.customer.fullName}`;
   const admin = `${siteOrigin()}/admin/`;
+  const crypto = isCryptoOrder(o);
   const html = shell(
-    `New order ${o.ref}`,
-    `${itemsHtml(o)}
-<p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(o.customer.fullName)}</strong> · ${esc(o.paymentMethodName)}<br><a href="mailto:${esc(o.customer.email)}">${esc(o.customer.email)}</a> · ${esc(o.customer.phone)}<br>${esc(o.customer.address)}, ${esc(o.customer.city)} ${esc(o.customer.state)} ${esc(o.customer.postcode)}${o.customer.notes ? `<br><em>${esc(o.customer.notes)}</em>` : ''}</p>
-<p style="margin:0">${button(admin, isCryptoOrder(o) ? 'Open admin' : 'Send payment details', '#d4af37')}</p>`,
+    'New order received',
+    `${refBox(o)}
+${detailsTable('Customer', customerRows(o))}
+${itemsHtml(o)}
+<p style="margin:0 0 6px">${button(admin, crypto ? 'Open admin' : 'Send payment details', '#d4af37')}</p>
+${crypto ? '<p style="font-size:12px;color:#a3a3a3;line-height:1.5;margin:6px 0 0">Crypto order: the customer has been sent to the wallet page. You will get a separate email when they upload their payment screenshot.</p>' : ''}`,
   );
-  const text = `NEW ORDER ${o.ref}\n${itemsText(o)}\n\n${o.customer.fullName} · ${o.paymentMethodName}\n${o.customer.email} · ${o.customer.phone}\n${o.customer.address}, ${o.customer.city} ${o.customer.state} ${o.customer.postcode}${o.customer.notes ? `\nNotes: ${o.customer.notes}` : ''}\n\n${isCryptoOrder(o) ? 'Open admin' : 'Send payment details'}: ${admin}`;
+  const text = `NEW ORDER ${o.ref}
+
+${o.customer.fullName}
+${o.customer.email}
+${o.customer.phone}
+${o.customer.address}, ${o.customer.city} ${o.customer.state} ${o.customer.postcode}${o.customer.notes ? `
+Notes: ${o.customer.notes}` : ''}
+Payment: ${o.paymentMethodName}
+
+${itemsText(o)}
+
+${crypto ? 'Open admin' : 'Send payment details'}: ${admin}`;
   return { subject, html, text };
 }
 
@@ -217,13 +251,31 @@ export function proofReceivedEmail(o: OrderRecord, fileName: string, note?: stri
   const crypto = isCryptoOrder(o);
   const subject = `${crypto ? 'PAID (crypto): ' : 'Payment screenshot: '}${o.ref}: ${aud(o.totals.total)}: ${o.customer.fullName}`;
   const admin = `${siteOrigin()}/admin/`;
+  const rows: [string, string][] = [
+    ['Customer', esc(o.customer.fullName)],
+    ['Email', mailLink(o.customer.email)],
+    ['Mobile', esc(o.customer.phone)],
+    ['Payment method', esc(o.paymentMethodName)],
+    ...(network ? ([['Paid with', esc(network)]] as [string, string][]) : []),
+    ['Amount due', esc(aud(o.totals.total))],
+    ['Includes GST of', esc(aud(gstIncluded(o.totals)))],
+    ['Screenshot', `${esc(fileName)} (attached)`],
+    ...(note ? ([['Customer note', esc(note)]] as [string, string][]) : []),
+  ];
   const html = shell(
-    'Payment screenshot received',
-    `<p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(o.customer.fullName)}</strong> says they have paid${crypto ? ' by crypto' : ''}${network ? ` (<strong>${esc(network)}</strong>)` : ''} and sent a screenshot for order <strong>${esc(o.ref)}</strong> (${esc(aud(o.totals.total))}). It is attached: <em>${esc(fileName)}</em>.</p>
-${note ? `<p style="font-size:14px;background:#262626;border-radius:8px;padding:9px 12px;margin:0 0 10px">${esc(note)}</p>` : ''}
-<p style="margin:0">${button(admin, 'Open admin', '#d4af37')}</p>${crypto ? '<p style="font-size:12px;color:#a3a3a3;margin:8px 0 0">Check the amount in your wallet, then press &quot;Payment received&quot; on the order to confirm to the customer.</p>' : ''}`,
+    crypto ? 'Crypto payment screenshot received' : 'Payment screenshot received',
+    `${refBox(o)}
+${detailsTable('Payment details', rows)}
+<p style="margin:0 0 6px">${button(admin, 'Open admin', '#d4af37')}</p>
+${crypto ? '<p style="font-size:12px;color:#a3a3a3;line-height:1.5;margin:6px 0 0">Check the amount in your wallet, then press &quot;Payment received&quot; on the order to confirm to the customer.</p>' : ''}`,
   );
-  const text = `PAYMENT SCREENSHOT: ${o.ref}\n${o.customer.fullName} says they have paid${crypto ? ' by crypto' : ''}${network ? ` (${network})` : ''} and sent a screenshot (${aud(o.totals.total)}). Attached: ${fileName}${note ? `\nNote: ${note}` : ''}\n\nAdmin: ${admin}`;
+  const text = `PAYMENT SCREENSHOT: ${o.ref}
+${o.customer.fullName} (${o.customer.email}, ${o.customer.phone}) says they have paid${crypto ? ' by crypto' : ''}${network ? ` (${network})` : ''}.
+Amount due: ${aud(o.totals.total)} (includes GST of ${aud(gstIncluded(o.totals))})
+Attached: ${fileName}${note ? `
+Note: ${note}` : ''}
+
+Admin: ${admin}`;
   return { subject, html, text };
 }
 
@@ -249,7 +301,9 @@ export function contactEmail(c: { name: string; email: string; phone?: string; s
   const subject = `Website enquiry: ${c.subject}`;
   const html = shell(
     'New website enquiry',
-    `<p style="font-size:14px;line-height:1.6;margin:0 0 10px"><strong>${esc(c.name)}</strong> &lt;<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>&gt;${c.phone ? `<br>${esc(c.phone)}` : ''}</p><p style="font-size:14px;line-height:1.7;margin:0">${esc(c.message).replace(/\n/g, '<br>')}</p>`,
+    `${detailsTable('From', [['Name', esc(c.name)], ['Email', mailLink(c.email)], ...(c.phone ? ([['Mobile', esc(c.phone)]] as [string, string][]) : []), ['Subject', esc(c.subject)]])}
+<div style="font:bold 11px Arial,sans-serif;letter-spacing:1.2px;text-transform:uppercase;color:#d4af37;border-bottom:2px solid #d4af37;padding-bottom:6px;margin:0 0 8px">Message</div>
+<p style="font-size:14px;line-height:1.7;margin:0 0 6px;color:#f5f5f5">${esc(c.message).replace(/\n/g, '<br>')}</p>`,
   );
   const text = `From: ${c.name} <${c.email}>${c.phone ? `\nPhone: ${c.phone}` : ''}\nSubject: ${c.subject}\n\n${c.message}`;
   return { subject, html, text };
