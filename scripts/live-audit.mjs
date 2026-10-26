@@ -26,7 +26,7 @@ const run = async (u) => {
   for (const m of h.matchAll(/<img\b[^>]*>/g)) { if (!/\balt="[^"]+"/.test(m[0])) f(p, 'img missing alt'); }
   const tm = h.match(/aria-label="Popular searches and tags"[\s\S]*?<\/ul>/);
   const tc = tm ? (tm[0].match(/<li>/g) || []).length : 0;
-  if (/^\/(blog|shop)\/[^/]+\/[^/]+\/$/.test(p) && !p.includes('/collection/')) { tagCounts.push(tc); if (tc < 10) w(p, 'only ' + tc + ' tags'); }
+  if (/^\/(blog|shop)\/[^/]+\/[^/]+\/$/.test(p) && !p.includes('/collection/') && !/^\/(blog|shop)\/page\//.test(p)) { tagCounts.push(tc); if (tc < 10) w(p, 'only ' + tc + ' tags'); }
   if (p === '/' && !/aria-label="Tags line"/.test(h)) f(p, 'homepage tags line missing');
   if (tc) tags++;
 };

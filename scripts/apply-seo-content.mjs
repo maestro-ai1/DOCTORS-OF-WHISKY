@@ -246,35 +246,49 @@ for (const sub of subs) {
   const brandNames = st.brands.map((b) => b.brand);
   const topBrands = brandNames.slice(0, 4);
   const primary = set ? set.primary : sub.primaryKeyword;
+  // Commerce phrases (champagne sale, patron tequila price, buy rum) stay in the title, H1 and meta description only.
+  // Sentences use a natural topic so the copy never reads like a keyword list.
+  const COMMERCE = /\b(buy|sale|price|prices|cost|online|deals?|specials?|cheap|australia)\b/i;
+  const topic = sub.name;
+  const topicLower = topic.toLowerCase();
   sub.primaryKeyword = primary;
   sub.secondaryKeywords = set ? set.secondary : sub.secondaryKeywords;
 
   sub.tags = set ? set.tags.slice(0, 20) : sub.tags;
-  sub.description = `Buy ${sub.name} online in Australia: ${st.n} bottles${topBrands.length ? ` from ${joinList(topBrands.slice(0, 3))}` : ''}, priced from ${money(st.min)} to ${money(st.max)} AUD. Insured delivery, 18+ only.`;
+  const sameAsBrand = brandNames.length === 1 && norm(brandNames[0]) === norm(sub.name);
+  const priceBit = st.min === st.max ? `${money(st.min)} AUD` : `${money(st.min)} to ${money(st.max)} AUD`;
+  const mkDesc = (nBrands, withInsured) => {
+    const brandBit = topBrands.length && !sameAsBrand && nBrands ? ` from ${joinList(topBrands.slice(0, nBrands))}` : '';
+    const tail = withInsured ? ' Insured delivery Australia-wide, 18+ only.' : ' Insured delivery, 18+.';
+    return COMMERCE.test(primary || '') || !norm(`Buy ${sub.name} online in Australia`).includes(norm(primary || ''))
+      ? `${tc(primary)}: ${st.n} ${sub.name} ${st.n === 1 ? 'bottle' : 'bottles'}${brandBit}, ${priceBit}.${tail}`
+      : `Buy ${sub.name} online in Australia: ${st.n} ${st.n === 1 ? 'bottle' : 'bottles'}${brandBit}, ${priceBit}.${tail}`;
+  };
+  sub.description = [mkDesc(3, true), mkDesc(2, true), mkDesc(2, false), mkDesc(1, false), mkDesc(0, false)].find((d) => d.length <= 158) || mkDesc(0, false);
   if (primary && !norm(sub.description).includes(norm(primary))) sub.description = `${tc(primary)}: ${sub.description}`;
-
+  if (sub.description.length < 110) sub.description += ' Pay by PayID, bank transfer or crypto.';
   const brandFacts = topBrands.map((b) => brandFactFor({ brand: b })).filter(Boolean).slice(0, 2);
   sub.longDescription = [
     `${facts.what} Doctors of Whisky lists ${st.n} ${catLower} ${st.n === 1 ? 'bottle' : 'bottles'}${brandNames.length ? ` across ${brandNames.length} ${brandNames.length === 1 ? 'brand' : 'brands'}, including ${joinList(topBrands)}` : ''}, priced from ${money(st.min)} to ${money(st.max)} AUD.`,
     [...brandFacts, facts.serve].filter(Boolean).join(' '),
-    `To buy ${primary} online in Australia, choose a bottle above and add it to your cart. Orders of ${money(RULES.free)} AUD or more ship free by express courier, while smaller orders pay a flat ${money(RULES.fee)} AUD fee, with a ${money(RULES.min)} AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with ${RULES.crypto}% off for crypto.`,
+    `To buy ${topicLower} online in Australia, choose a bottle above and add it to your cart. Orders of ${money(RULES.free)} AUD or more ship free by express courier, while smaller orders pay a flat ${money(RULES.fee)} AUD fee, with a ${money(RULES.min)} AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with ${RULES.crypto}% off for crypto.`,
   ];
 
   const buyKw = set && set.secondary.find((k) => /^(buy|best|cheap)\b/.test(k) && k.split(' ').length <= 5);
-  const whereQ = buyKw ? (/^buy /.test(buyKw) ? `Where can I ${buyKw} in Australia?` : `Where can I buy ${primary} online in Australia?`) : `Where can I buy ${primary} online in Australia?`;
+  const whereQ = buyKw ? (/^buy /.test(buyKw) ? `Where can I ${buyKw} in Australia?` : `Where can I buy ${topicLower} online in Australia?`) : `Where can I buy ${topicLower} online in Australia?`;
   const cheapest = st.cheapest;
   const priciest = st.list.slice().sort((a, b) => b.price - a.price)[0];
   sub.faqs = [
     {
-      question: `How much does ${primary} cost in Australia?`,
+      question: `How much does ${topicLower} cost in Australia?`,
       answer: `${sub.name} at Doctors of Whisky ranges from ${money(st.min)} AUD (${cheapest ? cheapest.name : 'entry bottles'}) to ${money(st.max)} AUD (${priciest ? priciest.name : 'top-shelf bottles'}). Paying with Bitcoin or USDT takes ${RULES.crypto}% off, and orders of ${money(RULES.free)} AUD or more ship free.`,
     },
     {
       question: whereQ,
-      answer: `Order ${primary} from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is ${money(RULES.min)} AUD.`,
+      answer: `Order ${topicLower} from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is ${money(RULES.min)} AUD.`,
     },
     {
-      question: `Which ${catLower} brands do you sell?`,
+      question: brandNames.length === 1 ? `Which ${catLower} bottles do you stock?` : `Which ${catLower} brands do you sell?`,
       answer: brandNames.length
         ? `Our ${catLower} range includes ${joinList(st.brands.slice(0, 8).map((b) => `${b.brand} (${b.n})`))}. Open any brand or bottle for size, strength and price.`
         : `Browse the ${catLower} range above for the current bottles, sizes and prices.`,
@@ -292,6 +306,9 @@ for (const sub of subs) {
       answer: `${facts.gift || `${sub.name} makes a thoughtful gift for adults.`} Delivery is insured and Australia-wide, and you can message the team on WhatsApp (${WHATSAPP}) with any gift questions.`,
     },
   ];
+  // one extra FAQ for the best cheap / affordable / discount keyword the collection already carries (used once, naturally)
+  const sup = set && set.secondary.find((k) => /^(cheap|affordable|discount|inexpensive)\b/.test(k) && k.split(' ').length <= 4);
+  if (sup) sub.faqs.splice(2, 0, { question: `Where can I find ${sup} online in Australia?`, answer: `${sub.name} at Doctors of Whisky starts from ${money(st.min)} AUD${cheapest ? ` (${cheapest.name})` : ''}. Compare the prices above, spend ${money(RULES.free)} AUD or more for free express delivery, and pay by PayID, bank transfer, Bitcoin or USDT (${RULES.crypto}% off with crypto).` });
 }
 
 // ---- write back ----

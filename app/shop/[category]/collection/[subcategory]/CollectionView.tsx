@@ -14,6 +14,7 @@ import { TagCloud } from '@/components/TagCloud';
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { authorityFor } from '@/lib/data/authority-links';
+import { relatedCollections } from '@/lib/data/related-collections';
 import { VISIBLE_TAGS, buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
 
 /** A collection page; collections larger than SHOP_PAGE_SIZE are split into /page/2/, /page/3/ ... */
@@ -129,6 +130,18 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
           </section>
         )}
 
+        {page === 1 && relatedCollections(subSlug).length > 0 && (
+          <nav aria-label="Related collections" className="pt-8 border-t border-neutral-900 space-y-2">
+            <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider">Related collections</h2>
+            <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+              {relatedCollections(subSlug).map((r) => (
+                <li key={r.href}>
+                  <Link href={r.href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{r.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
         <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 5)} title={`Related searches: ${sub.primaryKeyword}`} />
         <TagCloud tags={collectionTags} title="Popular searches and tags" />
 
