@@ -10744,6 +10744,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "chandon sparkling wine"
   ],
   "tags": [
+   "buy champagne",
+   "champagne on sale",
+   "champagne for sale",
+   "mini champagne",
+   "moet and chandon price",
    "champagne price",
    "janz champagne",
    "bottle of champagne",
@@ -10758,12 +10763,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "chandon rose sparkling wine",
    "miniature champagne",
    "champagne australia",
-   "small bottle of champagne",
-   "champagne moet",
-   "wine and champagne",
-   "french champagne wine",
-   "champagne brut",
-   "wine champagne"
+   "small bottle of champagne"
   ],
   "faqSeeds": [
    {
@@ -10953,7 +10953,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "krug",
    "piper champagne",
    "krug champagne",
-   "chandon sparkling wine"
+   "chandon sparkling wine",
+   "buy champagne",
+   "champagne on sale",
+   "champagne for sale",
+   "moet and chandon price"
   ]
  },
  "liqueur": {

@@ -21124,7 +21124,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-captain-morgan-1l-spiced-rum",
     "slug": "captain-morgan-1l-spiced-rum",
     "name": "Captain Morgan 1L Spiced Rum",
-    "brand": "Captain",
+    "brand": "Captain Morgan",
     "category": "spirit",
     "subCategory": "Spiced Rum",
     "subCategorySlug": "spiced-rum",
@@ -21186,9 +21186,9 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Price Captain Morgan Rum | Captain Morgan 1L Spiced Rum",
-    "metaDescription": "Price Captain Morgan Rum: Buy Captain Morgan 1L Spiced Rum online in Australia for $64.99 AUD. Spiced Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Price Captain Morgan Rum: Buy Captain Morgan 1L Spiced Rum online in Australia for $64.99 AUD. Spiced Rum from Captain Morgan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "Captain Morgan 1L Spiced Rum sits in our spiced rum range, alongside 3 other Captain bottles. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
+      "Captain Morgan 1L Spiced Rum sits in our spiced rum range, alongside 4 other Captain Morgan bottles. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Captain Morgan 1L Spiced Rum is listed at 35.0% - 40.0% ABV in a 1L format, from Caribbean.",
       "Buy Captain Morgan 1L Spiced Rum online in Australia for $64.99 AUD. Orders of $1,500 AUD or more ship free by express courier; below that a flat $75 AUD fee applies. There is a $300 AUD minimum order, delivery is insured, and an adult (18+) must sign for every parcel."
     ],
@@ -21219,7 +21219,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-captain-morgan-spiced-rum",
     "slug": "captain-morgan-spiced-rum",
     "name": "Captain Morgan Spiced Rum",
-    "brand": "Captain",
+    "brand": "Captain Morgan",
     "category": "spirit",
     "subCategory": "Spiced Rum",
     "subCategorySlug": "spiced-rum",
@@ -21282,9 +21282,9 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Captain Morgan Alcohol Price | Captain Morgan Spiced Rum",
-    "metaDescription": "Captain Morgan Alcohol Price: Buy Captain Morgan Spiced Rum (700ml) online in Australia for $59.99 AUD. Spiced Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Captain Morgan Alcohol Price: Buy Captain Morgan Spiced Rum (700ml) online in Australia for $59.99 AUD. Spiced Rum from Captain Morgan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "Captain Morgan Spiced Rum comes from Captain. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
+      "Captain Morgan Spiced Rum comes from Captain Morgan. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Captain Morgan Spiced Rum is listed at 35.0% - 40.0% ABV in a 700ml format, from Caribbean.",
       "If you are looking for captain morgan black rum, Captain Morgan Spiced Rum is available from Doctors of Whisky at $59.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
@@ -21315,7 +21315,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-captain-morgan-spiced-rum-200ml",
     "slug": "captain-morgan-spiced-rum-200ml",
     "name": "Captain Morgan Spiced Rum 200ml",
-    "brand": "Captain",
+    "brand": "Captain Morgan",
     "category": "spirit",
     "subCategory": "Spiced Rum",
     "subCategorySlug": "spiced-rum",
@@ -21377,9 +21377,9 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Captain Morgan Rum Spiced | Captain Morgan Spiced Rum 200ml",
-    "metaDescription": "Captain Morgan Rum Spiced: Buy Captain Morgan Spiced Rum 200ml online in Australia for $15.99 AUD. Spiced Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Captain Morgan Rum Spiced: Buy Captain Morgan Spiced Rum 200ml online in Australia for $15.99 AUD. Spiced Rum from Captain Morgan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "Captain Morgan Spiced Rum 200ml comes from Captain. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
+      "Captain Morgan Spiced Rum 200ml comes from Captain Morgan. Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Captain Morgan Spiced Rum 200ml is listed at 35.0% - 40.0% ABV in a 200ml format, from Caribbean.",
       "If you are looking for captain morgan white rum, Captain Morgan Spiced Rum 200ml is available from Doctors of Whisky at $15.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
@@ -22077,7 +22077,7 @@ export const PRODUCTS: Product[] = [
     "id": "prod-captain-morgan-white-rum",
     "slug": "captain-morgan-white-rum",
     "name": "Captain Morgan White Rum",
-    "brand": "Captain",
+    "brand": "Captain Morgan",
     "category": "spirit",
     "subCategory": "White Rum",
     "subCategorySlug": "white-rum",
@@ -22139,9 +22139,9 @@ export const PRODUCTS: Product[] = [
       }
     ],
     "metaTitle": "Price Captain Morgan | Captain Morgan White Rum",
-    "metaDescription": "Price Captain Morgan: Buy Captain Morgan White Rum (700ml) online in Australia for $50 AUD. White Rum from Captain. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaDescription": "Price Captain Morgan: Buy Captain Morgan White Rum (700ml) online in Australia for $50 AUD. White Rum from Captain Morgan. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
-      "White rum is a light, usually unaged or lightly aged rum used in mojitos, daiquiris and piña coladas. Captain Morgan White Rum is Captain’s expression in this style.",
+      "White rum is a light, usually unaged or lightly aged rum used in mojitos, daiquiris and piña coladas. Captain Morgan White Rum is Captain Morgan’s expression in this style.",
       "Use white rum in mojitos and daiquiris, or with cola and lime. Captain Morgan White Rum is listed at 37.5% - 40.0% ABV in a 700ml format, from Caribbean.",
       "Captain Morgan White Rum is $50 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
@@ -55259,6 +55259,87 @@ export const PRODUCTS: Product[] = [
       "Absolut Mango Vodka 1L comes from Absolut. Vodka is a clear spirit distilled from grain, potatoes or other fermentable materials and usually filtered for a clean, neutral taste.",
       "Serve vodka well chilled and neat, in a martini, or with soda, tonic or juice. Absolut Mango Vodka 1L is sold in a 1L format.",
       "If you are looking for absolut vodka, Absolut Mango Vodka 1L is available from Doctors of Whisky at $80.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+    ]
+  },
+  {
+    "id": "prod-pol-roger-brut-vintage-gift-box",
+    "slug": "pol-roger-brut-vintage-gift-box",
+    "name": "Pol Roger Brut Vintage Gift Box",
+    "brand": "Pol Roger",
+    "category": "beer-premix-wine",
+    "subCategorySlug": "champagne",
+    "subCategory": "Champagne",
+    "country": "",
+    "price": 183.99,
+    "abv": "",
+    "size": "750ml",
+    "images": [
+      "/images/products/champagne/pol-roger-brut-vintage-gift-box.jpg"
+    ],
+    "description": "Pol Roger Brut Vintage Gift Box (750ml) is a champagne from Pol Roger. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "stock": 6,
+    "featured": false,
+    "sku": "SMR-POLROGERBRUTVINTAGEGIFTB",
+    "primaryKeyword": "pol roger brut vintage gift",
+    "secondaryKeywords": [
+      "champagne",
+      "moet",
+      "moet champagne",
+      "veuve champagne",
+      "chandon champagne",
+      "chandon rose",
+      "moet and chandon champagne",
+      "cheap champagne",
+      "sweet champagne",
+      "nice champagne",
+      "less expensive champagne",
+      "mini champagne",
+      "champagne price",
+      "janz champagne",
+      "bottle of champagne"
+    ],
+    "faqs": [
+      {
+        "question": "How much does Pol Roger Brut Vintage Gift Box cost in Australia?",
+        "answer": "Pol Roger Brut Vintage Gift Box is priced at $183.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
+      },
+      {
+        "question": "Where do I buy Pol Roger online in Australia?",
+        "answer": "You can buy Pol Roger Brut Vintage Gift Box from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
+      },
+      {
+        "question": "What size and strength is Pol Roger Brut Vintage Gift Box?",
+        "answer": "Pol Roger Brut Vintage Gift Box is sold in a 750ml format. It is a champagne. Check the label for the exact strength of the batch you receive."
+      },
+      {
+        "question": "How should I serve Pol Roger Brut Vintage Gift Box?",
+        "answer": "Serve Champagne well chilled in a tulip or flute glass."
+      },
+      {
+        "question": "Is Pol Roger Brut Vintage Gift Box a good gift?",
+        "answer": "Champagne is a classic gift for celebrations. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
+      }
+    ],
+    "metaTitle": "Buy Pol Roger Brut Vintage Gift Box Online Australia",
+    "metaDescription": "Buy Pol Roger Brut Vintage Gift Box (750ml) online in Australia for $183.99 AUD. Champagne from Pol Roger. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "tags": [
+      "french champagne specials",
+      "champagne wine bottle",
+      "moet & chandon champagne",
+      "cost moet champagne",
+      "champagne cheap",
+      "prosecco champagne",
+      "sweet champagne australia",
+      "champagne on special",
+      "chandon rose sparkling wine",
+      "miniature champagne",
+      "champagne australia",
+      "small bottle of champagne"
+    ],
+    "longDescription": [
+      "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Pol Roger Brut Vintage Gift Box is Pol Roger’s expression in this style.",
+      "Serve Champagne well chilled in a tulip or flute glass. Pol Roger Brut Vintage Gift Box is sold in a 750ml format.",
+      "Pol Roger Brut Vintage Gift Box is $183.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $1,500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ]
   }
 ];

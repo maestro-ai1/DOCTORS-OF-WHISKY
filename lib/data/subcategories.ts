@@ -1277,7 +1277,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "spiced-rum",
     "name": "Spiced Rum",
     "category": "spirit",
-    "description": "Kraken Black Spiced Rum: 11 Spiced Rum bottles from Kraken, Captain and Bacardi, $15.99 to $160 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Kraken Black Spiced Rum: 11 Spiced Rum bottles from Kraken, Captain Morgan and Bacardi, $15.99 to $160 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg",
     "primaryKeyword": "kraken black spiced rum",
     "secondaryKeywords": [
@@ -1308,7 +1308,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which spiced rum brands do you sell?",
-        "answer": "Our spiced rum range includes Kraken (5), Captain (3), Bacardi (2) and Captain Morgan (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our spiced rum range includes Kraken (5), Captain Morgan (4) and Bacardi (2). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is spiced rum?",
@@ -1324,7 +1324,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Doctors of Whisky lists 11 spiced rum bottles across 4 brands, including Kraken, Captain, Bacardi and Captain Morgan, priced from $15.99 to $160 AUD.",
+      "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Doctors of Whisky lists 11 spiced rum bottles across 3 brands, including Kraken, Captain Morgan and Bacardi, priced from $15.99 to $160 AUD.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice.",
       "To buy spiced rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1355,7 +1355,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "white-rum",
     "name": "White Rum",
     "category": "spirit",
-    "description": "Buy Rum: 5 White Rum bottles from Bacardi, Captain and Probitas, $45 to $180 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Rum: 5 White Rum bottles from Bacardi, Captain Morgan and Probitas, $45 to $180 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/white-rum/white-rum--tds-bacardi-blanca-200.jpg",
     "primaryKeyword": "buy rum",
     "secondaryKeywords": [
@@ -1386,7 +1386,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which white rum brands do you sell?",
-        "answer": "Our white rum range includes Bacardi (2), Captain (1), Probitas (1) and Saint (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our white rum range includes Bacardi (2), Captain Morgan (1), Probitas (1) and Saint (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is white rum?",
@@ -1402,7 +1402,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "White rum is a light, usually unaged or lightly aged rum used in mojitos, daiquiris and piña coladas. Doctors of Whisky lists 5 white rum bottles across 4 brands, including Bacardi, Captain, Probitas and Saint, priced from $45 to $180 AUD.",
+      "White rum is a light, usually unaged or lightly aged rum used in mojitos, daiquiris and piña coladas. Doctors of Whisky lists 5 white rum bottles across 4 brands, including Bacardi, Captain Morgan, Probitas and Saint, priced from $45 to $180 AUD.",
       "Use white rum in mojitos and daiquiris, or with cola and lime.",
       "To buy white rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -3645,7 +3645,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "champagne",
     "name": "Champagne",
     "category": "beer-premix-wine",
-    "description": "Champagne Sale: 22 Champagne bottles from Laurent-Perrier, Taittinger and Moet & Chandon, $70.99 to $289.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Champagne Sale: 23 Champagne bottles from Laurent-Perrier, Pol Roger and Taittinger, $70.99 to $289.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/champagne/laurent-perrier-la-cuvee-brut-rose-champagne-nv-magnum.jpg",
     "primaryKeyword": "champagne sale",
     "secondaryKeywords": [
@@ -3666,6 +3666,11 @@ export const SUBCATEGORIES: Subcategory[] = [
       "chandon sparkling wine"
     ],
     "tags": [
+      "buy champagne",
+      "champagne on sale",
+      "champagne for sale",
+      "mini champagne",
+      "moet and chandon price",
       "champagne price",
       "janz champagne",
       "bottle of champagne",
@@ -3680,12 +3685,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "chandon rose sparkling wine",
       "miniature champagne",
       "champagne australia",
-      "small bottle of champagne",
-      "champagne moet",
-      "wine and champagne",
-      "french champagne wine",
-      "champagne brut",
-      "wine champagne"
+      "small bottle of champagne"
     ],
     "faqs": [
       {
@@ -3702,7 +3702,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which champagne brands do you sell?",
-        "answer": "Our champagne range includes Laurent-Perrier (5), Taittinger (3), Moet & Chandon (3), Veuve Clicquot (3), Pol Roger (2), Perrier-Jouet (2), Krug (1) and Bollinger (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our champagne range includes Laurent-Perrier (5), Pol Roger (3), Taittinger (3), Moet & Chandon (3), Veuve Clicquot (3), Perrier-Jouet (2), Krug (1) and Bollinger (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is champagne?",
@@ -3718,7 +3718,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Doctors of Whisky lists 22 champagne bottles across 10 brands, including Laurent-Perrier, Taittinger, Moet & Chandon and Veuve Clicquot, priced from $70.99 to $289.99 AUD.",
+      "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Doctors of Whisky lists 23 champagne bottles across 10 brands, including Laurent-Perrier, Pol Roger, Taittinger and Moet & Chandon, priced from $70.99 to $289.99 AUD.",
       "Serve Champagne well chilled in a tulip or flute glass.",
       "To buy champagne online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]

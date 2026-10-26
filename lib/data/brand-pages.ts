@@ -422,6 +422,30 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "captain-morgan",
+  "brand": "Captain Morgan",
+  "primary": {
+   "kw": "captain morgan",
+   "vol": 5400,
+   "kd": 14,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "captain morgan rum",
+    "vol": 720,
+    "kd": 15,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "captain morgan 700ml",
+    "vol": 320,
+    "kd": 9,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "chivas-regal",
   "brand": "Chivas Regal",
   "primary": {
@@ -780,6 +804,17 @@ export const BRAND_PAGES: BrandPageSeo[] = [
     "intent": "Commercial"
    }
   ]
+ },
+ {
+  "slug": "pol-roger",
+  "brand": "Pol Roger",
+  "primary": {
+   "kw": "pol roger",
+   "vol": 1300,
+   "kd": 11,
+   "intent": "Commercial"
+  },
+  "secondary": []
  },
  {
   "slug": "glendronach",

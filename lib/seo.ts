@@ -222,6 +222,12 @@ export function productLd(product: Product) {
         '@type': 'OfferShippingDetails',
         shippingRate: { '@type': 'MonetaryAmount', value: product.price >= SHOP_RULES.freeShippingThreshold ? 0 : SHOP_RULES.shippingFee, currency: SITE.currency.code },
         shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
+        // matches /shipping/: dispatched from Sydney, 24 hours metro to 3-5 business days regional
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
+          transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 5, unitCode: 'DAY' },
+        },
       },
     },
   };

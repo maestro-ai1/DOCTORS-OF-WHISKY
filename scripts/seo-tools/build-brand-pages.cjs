@@ -51,7 +51,7 @@ const EXTRA = {
   'Pol Roger': [{ kw: 'pol roger', raw: 'Commercial', intent: 'Commercial', vol: 1300, kd: 11 }],
   'Captain Morgan': [{ kw: 'captain morgan', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 14 }],
 };
-const SKIP = new Set(['Baileys', 'Patron', 'Don Julio', 'Grey Goose', 'Belvedere', 'Smirnoff', 'Absolut', 'Jose Cuervo', 'Lark', 'Absinthe', 'Russian Vodka', 'Vodka Premix', 'Little', 'Captain', 'Penfolds', 'Sheridans', 'Courvoisier']);
+const SKIP = new Set(['Baileys', 'Patron', 'Don Julio', 'Grey Goose', 'Belvedere', 'Smirnoff', 'Absolut', 'Jose Cuervo', 'Lark', 'Absinthe', 'Russian Vodka', 'Vodka Premix', 'Little', 'Penfolds', 'Sheridans', 'Courvoisier']);
 const by = {};
 for (const p of products) (by[p.brand] ||= []).push(p);
 const slugify = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
