@@ -27,6 +27,22 @@ const TOP_RANGES = [
   { label: 'Spirits', href: '/shop/spirit/' },
 ];
 
+/** Brand hub pages: exact-brand anchors that pass homepage authority to the pages that own each brand keyword. */
+const TOP_BRANDS = [
+  { label: 'Veuve Clicquot champagne', href: '/brands/veuve-clicquot/' },
+  { label: 'Hennessy cognac', href: '/brands/hennessy/' },
+  { label: 'Jameson Irish whiskey', href: '/brands/jameson/' },
+  { label: 'Jack Daniels', href: '/brands/jack-daniels/' },
+  { label: 'Glenfiddich', href: '/brands/glenfiddich/' },
+  { label: 'Johnnie Walker', href: '/brands/johnnie-walker/' },
+  { label: 'Starward whisky', href: '/brands/starward/' },
+  { label: 'Espolòn tequila', href: '/brands/espolon/' },
+  { label: 'Casamigos tequila', href: '/brands/casamigos/' },
+  { label: 'Captain Morgan rum', href: '/brands/captain-morgan/' },
+  { label: 'Taittinger champagne', href: '/brands/taittinger/' },
+  { label: 'Moët & Chandon', href: '/brands/moet-and-chandon/' },
+];
+
 export function HomeIntro() {
   const secondary = linkList(HOME_SEO.secondary.map((k) => k.kw), '/shop/', '/', 5);
   const tags = linkList(HOME_SEO.tags.map((k) => k.kw), '/shop/', '/', VISIBLE_TAGS + 2);
@@ -74,6 +90,17 @@ export function HomeIntro() {
                   <Link href={l.href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{l.label}</Link>
                 </li>
               ))}
+            </ul>
+          </section>
+          <section aria-label="Shop by brand" className="space-y-3">
+            <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider text-center">Shop by brand</h2>
+            <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
+              {TOP_BRANDS.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{l.label}</Link>
+                </li>
+              ))}
+              <li><Link href="/brands/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">All brands</Link></li>
             </ul>
           </section>
           <section aria-label="Popular whisky searches"className="space-y-3">
