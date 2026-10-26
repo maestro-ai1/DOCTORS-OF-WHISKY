@@ -14463,7 +14463,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/polish-vodka/polish-vodka--tds-belvedere-intense.jpg"
     ],
-    "description": "Belvedere Intense Polish Vodka (700ml) is a polish vodka from Belvedere, made in Poland. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for belvedere vodka? This page lists the price, size and insured delivery details.",
+    "description": "Belvedere Intense Polish Vodka (700ml) is a polish vodka from Belvedere, made in Poland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Balanced sweetness with a warming spice note.",
@@ -14471,7 +14471,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 9,
     "sku": "BELVEDERE-BELVEDERE-INTENSE-POLISH",
-    "primaryKeyword": "belvedere vodka",
+    "primaryKeyword": "belvedere intense polish vodka",
     "secondaryKeywords": [
       "belvedere vodka 700ml",
       "belvedere cost",
@@ -14511,8 +14511,8 @@ export const PRODUCTS: Product[] = [
         "answer": "A quality Polish vodka is a dependable gift for anyone who enjoys a clean, cold pour. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Belvedere Vodka | Belvedere Intense Polish Vodka",
-    "metaDescription": "Belvedere Vodka: Buy Belvedere Intense Polish Vodka (700ml) online in Australia for $130 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Belvedere Intense Polish Vodka Online Australia",
+    "metaDescription": "Buy Belvedere Intense Polish Vodka (700ml) online in Australia for $130 AUD. Polish Vodka from Belvedere. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Polish vodka is made from rye, wheat, potato or other grains and has a long tradition of clean, characterful spirit. Belvedere Intense Polish Vodka is Belvedere’s expression in this style. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Polish vodka ice-cold and neat, or mix it in a martini or Bloody Mary. Belvedere Intense Polish Vodka is listed at 37.5% - 40.0% ABV in a 700ml format, from Poland.",
@@ -17237,7 +17237,7 @@ export const PRODUCTS: Product[] = [
     "badge": "LIMITED EDITION",
     "stock": 7,
     "sku": "PATRON-PATRON-CITRONGE-1L",
-    "primaryKeyword": "patron",
+    "primaryKeyword": "patron citronge 1l patron",
     "secondaryKeywords": [
       "patron tequila",
       "patron silver",
@@ -17324,7 +17324,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/patron/patron--tds-patron-citronge-lime-750ml.jpg"
     ],
-    "description": "Patron Citronge Lime 750ml Patrón is a tequila from Patron, made in Mexico. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for patron tequila? This page lists the price, size and insured delivery details.",
+    "description": "Patron Citronge Lime 750ml Patrón is a tequila from Patron, made in Mexico. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Smooth grain character with mineral freshness.",
       "palate": "Clean, rounded, and refreshingly smooth.",
@@ -17332,7 +17332,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 8,
     "sku": "PATRON-PATRON-CITRONGE-LIME",
-    "primaryKeyword": "patron tequila",
+    "primaryKeyword": "patron citronge lime 750ml patron",
     "secondaryKeywords": [
       "patron",
       "patron silver",
@@ -17356,7 +17356,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Patron Citronge Lime 750ml Patrón is priced at $325 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy patron cost online in Australia?",
+        "question": "Where do I buy patron xo coffee tequila online in Australia?",
         "answer": "You can buy Patron Citronge Lime 750ml Patrón from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -17372,8 +17372,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Patrón is one of the best-known premium tequilas, and a popular gift for tequila lovers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Patron Tequila | Patron Citronge Lime 750ml Patrón",
-    "metaDescription": "Patron Tequila: Buy Patron Citronge Lime 750ml Patrón online in Australia for $325 AUD. Tequila from Patron. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Patron Citronge Lime 750ml Patrón Online Australia",
+    "metaDescription": "Buy Patron Citronge Lime 750ml Patrón online in Australia for $325 AUD. Tequila from Patron. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Patron Citronge Lime 750ml Patrón is Patron’s expression in this style. Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave.",
       "Sip Patrón neat or chilled, or use the Silver in a margarita or Paloma. Patron Citronge Lime 750ml Patrón is listed at 38.0% - 40.0% ABV in a 750ml format, from Mexico.",
@@ -38596,7 +38596,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 6,
     "sku": "MOET-MOET-CHANDON-IMPERIAL",
-    "primaryKeyword": "moet",
+    "primaryKeyword": "moet chandon imperial bottle sparkling",
     "secondaryKeywords": [
       "moet champagne",
       "cost moet champagne",
@@ -38683,7 +38683,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/sparkling/sparkling--tds-moet-rose-imperial.jpg"
     ],
-    "description": "Moet Rose Imperial Sparkling Wine (750ml) is a sparkling wine from Moet, made in France / Australia. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for moet champagne? This page lists the price, size and insured delivery details.",
+    "description": "Moet Rose Imperial Sparkling Wine (750ml) is a sparkling wine from Moet, made in France / Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Ripe berry fruit and soft oak.",
       "palate": "Clean malt sweetness with a crisp bite.",
@@ -38692,7 +38692,7 @@ export const PRODUCTS: Product[] = [
     "badge": "LIMITED EDITION",
     "stock": 7,
     "sku": "MOET-MOET-ROSE-IMPERIAL",
-    "primaryKeyword": "moet champagne",
+    "primaryKeyword": "moet rose imperial sparkling wine",
     "secondaryKeywords": [
       "moet",
       "cost moet champagne",
@@ -38732,8 +38732,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Sparkling wine is the classic celebration gift. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Moet Champagne | Moet Rose Imperial Sparkling Wine",
-    "metaDescription": "Moet Champagne: Buy Moet Rose Imperial Sparkling Wine (750ml) online in Australia for $75 AUD. Sparkling Wine from Moet. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Moet Rose Imperial Sparkling Wine Online Australia",
+    "metaDescription": "Buy Moet Rose Imperial Sparkling Wine (750ml) online in Australia for $75 AUD. Sparkling Wine from Moet. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Moet Rose Imperial Sparkling Wine comes from Moet. Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France.",
       "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass. Moet Rose Imperial Sparkling Wine is listed at 11.5% - 12.5% ABV in a 750ml format, from France / Australia.",
@@ -42488,7 +42488,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-GLENMORANGIE14YEAROLDTHE",
-    "primaryKeyword": "glenmorangie",
+    "primaryKeyword": "glenmorangie 14 year old the",
     "secondaryKeywords": [
       "glenmorangie scotch",
       "glenmorangie single malt scotch",
@@ -42579,7 +42579,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-GLENMORANGIE18YEAROLDEXT",
-    "primaryKeyword": "glenmorangie 18",
+    "primaryKeyword": "glenmorangie 18 year old extremely",
     "secondaryKeywords": [
       "glenmorangie 18 year old",
       "glenmorangie scotch",
@@ -42666,11 +42666,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/glenmorangie-1996-grand-vintage-23-year-old-single-malt-scotch-whisky.jpg"
     ],
-    "description": "Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky (700ml) is a scotch whisky from Glenmorangie, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for glenmorangie scotch? This page lists the price, size and insured delivery details.",
+    "description": "Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky (700ml) is a scotch whisky from Glenmorangie, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-GLENMORANGIE1996GRANDVIN",
-    "primaryKeyword": "glenmorangie scotch",
+    "primaryKeyword": "glenmorangie 1996 grand vintage 23",
     "secondaryKeywords": [
       "glenmorangie single malt scotch",
       "glenmorangie malt scotch",
@@ -42710,8 +42710,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Glenmorangie Scotch | Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky",
-    "metaDescription": "Glenmorangie Scotch: Buy Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky (700ml) online in Australia for $1,099.99 AUD. Scotch Whisky from Glenmorangie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky Online Australia",
+    "metaDescription": "Buy Glenmorangie 1996 Grand Vintage 23 Year Old Single Malt Scotch Whisky (700ml) online in Australia for $1,099.99 AUD. Scotch Whisky from Glenmorangie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "single malt scotch whisky",
       "macallan whisky",
@@ -46840,7 +46840,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-LICOR43HORCHATASPANISHCR",
-    "primaryKeyword": "licor 43",
+    "primaryKeyword": "licor 43 horchata spanish cream",
     "secondaryKeywords": [
       "43 licor",
       "coffee liqueur",
@@ -46864,7 +46864,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Licor 43 Horchata Spanish Cream Liqueur is priced at $36.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy licor 43 online in Australia?",
+        "question": "Where do I buy 43 licor online in Australia?",
         "answer": "You can buy Licor 43 Horchata Spanish Cream Liqueur from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {

@@ -641,10 +641,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "grey-goose",
     "name": "Grey Goose",
     "category": "spirit",
-    "description": "Grey Goose Vodka 700ml: 11 Grey Goose bottles, $7.99 to $290 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
+    "description": "Buy Grey Goose online in Australia: 11 bottles, $7.99 to $290 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
     "heroImage": "/images/products/grey-goose/grey-goose--tds-grey-goose-1l.jpg",
-    "primaryKeyword": "grey goose vodka 700ml",
+    "primaryKeyword": "grey goose",
     "secondaryKeywords": [
+      "grey goose vodka 700ml",
       "grey goose 1l",
       "grey goose 1 litre",
       "gray goose vodka 1 liter",
@@ -658,8 +659,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "gray goose cost",
       "price of grey goose vodka 1 litre",
       "1 liter grey goose",
-      "grey goose 1 litre best price",
-      "goose vodka price"
+      "grey goose 1 litre best price"
     ],
     "faqs": [
       {
@@ -693,6 +693,8 @@ export const SUBCATEGORIES: Subcategory[] = [
       "To buy grey goose online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
     "tags": [
+      "grey goose liquor",
+      "grey goose vodka",
       "cost of gray goose vodka",
       "gray goose vodka cost",
       "grey goose vodka cost",
@@ -710,26 +712,24 @@ export const SUBCATEGORIES: Subcategory[] = [
       "700ml grey goose vodka",
       "grey goose vodka 1.75 l",
       "grey goose vodka 4.5 litre",
-      "grey goose 200ml",
-      "grey goose 1.75 liter",
-      "earl grey gin"
+      "grey goose 200ml"
     ]
   },
   {
     "slug": "belvedere",
     "name": "Belvedere",
     "category": "spirit",
-    "description": "Vodka Belvedere: 7 Belvedere bottles, $26.99 to $250 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
+    "description": "Belvedere Vodka: 7 Belvedere bottles, $26.99 to $250 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
     "heroImage": "/images/products/belvedere/belvedere--tds-belvedere-1l.jpg",
-    "primaryKeyword": "vodka belvedere",
+    "primaryKeyword": "belvedere vodka",
     "secondaryKeywords": [
+      "vodka belvedere",
       "tequila",
       "gin",
       "smirnoff vodka",
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka",
       "cheap vodka",
       "patron tequila",
       "coffee liqueur",
@@ -883,11 +883,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "patron",
     "name": "Patrón",
     "category": "spirit",
-    "description": "Patron Tequila Price: 11 Patrón bottles, $160 to $890 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
+    "description": "Buy Patrón online in Australia: 11 bottles, $160 to $890 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
     "heroImage": "/images/products/patron/patron--tds-patron-50ml-collection.jpg",
-    "primaryKeyword": "patron tequila price",
+    "primaryKeyword": "patron",
     "secondaryKeywords": [
-      "patron",
+      "patron tequila price",
       "patron tequila",
       "cafe patron",
       "xo tequila patron cafe",
@@ -961,11 +961,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "don-julio",
     "name": "Don Julio",
     "category": "spirit",
-    "description": "Don Julio Brands: 11 Don Julio bottles, $97.99 to $990 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
+    "description": "Buy Don Julio online in Australia: 11 bottles, $97.99 to $990 AUD. Insured delivery Australia-wide, 18+ only. Pay by PayID, bank transfer or crypto.",
     "heroImage": "/images/products/don-julio/don-julio--tds-don-julio-1942-50ml.jpg",
-    "primaryKeyword": "don julio brands",
+    "primaryKeyword": "don julio",
     "secondaryKeywords": [
-      "don julio",
+      "don julio brands",
       "don julio 1942",
       "don julio tequila",
       "1942 tequila",
@@ -1673,9 +1673,9 @@ export const SUBCATEGORIES: Subcategory[] = [
     "category": "spirit",
     "description": "Buy Baileys Irish Cream online in Australia: 11 bottles from Baileys, Maverick and Sheridans, $14.99 to $85 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/baileys-irish-cream/baileys-irish-cream--tds-baileys-1l.jpg",
-    "primaryKeyword": "irish cream",
+    "primaryKeyword": "baileys",
     "secondaryKeywords": [
-      "baileys",
+      "irish cream",
       "baileys irish cream",
       "baileys irish cream whiskey",
       "jameson irish whiskey",

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CollectionPageProps): Promise
 
   const path = `/shop/${catSlug}/collection/${subSlug}/`;
   return buildMetadata({
-    title: sub.name.toLowerCase().includes(sub.primaryKeyword.toLowerCase()) ? `Buy ${sub.name} Online Australia` : `${titleCase(sub.primaryKeyword)} | Buy ${sub.name} Online`,
+    title: /^buy /i.test(sub.primaryKeyword) ? `${titleCase(sub.primaryKeyword)} Australia` : sub.name.toLowerCase().includes(sub.primaryKeyword.toLowerCase()) ? `${titleCase(sub.primaryKeyword)} | Buy Online Australia` : `${titleCase(sub.primaryKeyword)} | Buy ${sub.name} Online`,
     description: sub.description,
     path,
     keywords: subcategoryTags(subSlug, 120),

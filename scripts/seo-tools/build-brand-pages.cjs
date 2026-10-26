@@ -32,7 +32,7 @@ const used = new Set();
 // (product-level primaries do not block a brand hub: the hub takes the brand head term and the product falls back to its own name)
 for (const g of ['categories', 'subcategories', 'pages']) for (const e of map[g] || []) { const p = e.primary || e.fallbackPrimary; if (p) used.add(p.kw); }
 // curated landing pages
-['buy tequila online', 'smirnoff liquor', 'buy absolut vodka', 'gin gifts australia', 'whisky gift pack', 'whisky sale'].forEach((k) => used.add(k));
+['buy tequila online', 'smirnoff liquor', 'absolut vodka', 'buy absolut vodka', 'gin gifts australia', 'whisky gift pack', 'whisky sale'].forEach((k) => used.add(k));
 
 // brands that already have their own collection or are not real brands
 // Keywords read from Semrush AU (Domain/Keyword Overview, 2026-10-25) that the Sep-28 bank export does not carry.
@@ -47,6 +47,8 @@ const EXTRA = {
   Casamigos: [{ kw: 'casamigos', raw: 'Commercial', intent: 'Commercial', vol: 1900, kd: 17 }],
   'Crown Royal': [{ kw: 'crown royal', raw: 'Commercial', intent: 'Commercial', vol: 1900, kd: 19 }],
   Starward: [{ kw: 'starward', raw: 'Navigational', intent: 'Navigational', vol: 1900, kd: 19 }],
+  'Moet & Chandon': [{ kw: 'moet', raw: 'Commercial', intent: 'Commercial', vol: 8100, kd: 24 }, { kw: 'moet champagne', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 27 }, { kw: 'moet and chandon champagne', raw: 'Commercial', intent: 'Commercial', vol: 1000, kd: 28 }, { kw: 'moet and chandon price', raw: 'Transactional', intent: 'Transactional', vol: 170, kd: 13 }],
+  Glenmorangie: [{ kw: 'glenmorangie', raw: 'Navigational', intent: 'Navigational', vol: 4400, kd: 24 }, { kw: 'glenmorangie signet', raw: 'Transactional', intent: 'Transactional', vol: 1600, kd: 14 }, { kw: 'glenmorangie 12', raw: 'Informational', intent: 'Informational', vol: 2400, kd: 17 }],
   Taittinger: [{ kw: 'taittinger', raw: 'Commercial', intent: 'Commercial', vol: 1000, kd: 17 }],
   'Pol Roger': [{ kw: 'pol roger', raw: 'Commercial', intent: 'Commercial', vol: 1300, kd: 11 }],
   'Captain Morgan': [{ kw: 'captain morgan', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 14 }],
@@ -59,7 +61,7 @@ const slugify = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').
 const rows = [];
 for (const [brand, list] of Object.entries(by)) {
   if (SKIP.has(brand) || list.filter((p) => !p.images[0].endsWith(".svg")).length < 3) continue; // hub needs 3+ real-photo products
-  const bt = norm(brand).split(' ').filter((x) => x.length > 2);
+  const bt = ({ 'Moet & Chandon': ['moet'] }[brand]) || norm(brand).split(' ').filter((x) => x.length > 2); // the searched head term is just 'moet'
   if (!bt.length) continue;
   const cand = [...(EXTRA[brand] || []).map((k) => ({ ...k, w: k.kw.split(' ') })), ...K].filter((k) => bt.every((x) => k.w.includes(x)) && k.w.every((x) => bt.includes(x) || MOD.has(x) || /^\d+$/.test(x)));
   { const seenKw = new Set(); for (let i = 0; i < cand.length; i++) { if (seenKw.has(cand[i].kw)) cand.splice(i--, 1); else seenKw.add(cand[i].kw); } } // EXTRA (fresh Semrush) wins over the bank
@@ -67,8 +69,10 @@ for (const [brand, list] of Object.entries(by)) {
   const best = (arr) => arr.slice().sort((a, b) => b.vol - a.vol);
   const T = best(cand.filter((k) => k.intent === 'Transactional' && !used.has(k.kw)));
   const C = best(cand.filter((k) => k.intent === 'Commercial' && !used.has(k.kw)));
+  const N = best(cand.filter((k) => k.intent === 'Navigational' && !used.has(k.kw)));
   let primary = T[0] || null;
   if (C[0] && (!primary || (C[0].vol >= 1000 && C[0].vol >= primary.vol * 2.5))) primary = C[0]; // high-volume exception
+  if (N[0] && N[0].vol >= 1000 && (!primary || N[0].vol >= primary.vol * 2.5)) primary = N[0]; // brand head term exception
   if (!primary || primary.vol < 300) continue;
   const rest = best(cand.filter((k) => k.kw !== primary.kw && !used.has(k.kw) && k.vol >= 100)).slice(0, 5);
   rows.push({ brand, slug: slugify(brand), n: list.length, primary, secondary: rest });

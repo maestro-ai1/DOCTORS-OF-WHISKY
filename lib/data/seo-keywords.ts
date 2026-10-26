@@ -1885,10 +1885,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "grey-goose": {
-  "primary": "grey goose vodka 700ml",
-  "primaryVolume": 880,
-  "primaryKd": 13,
+  "primary": "grey goose",
+  "primaryVolume": 6600,
+  "primaryKd": 28,
   "secondary": [
+   "grey goose vodka 700ml",
    "grey goose 1l",
    "grey goose 1 litre",
    "gray goose vodka 1 liter",
@@ -1902,10 +1903,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "gray goose cost",
    "price of grey goose vodka 1 litre",
    "1 liter grey goose",
-   "grey goose 1 litre best price",
-   "goose vodka price"
+   "grey goose 1 litre best price"
   ],
   "tags": [
+   "grey goose liquor",
+   "grey goose vodka",
    "cost of gray goose vodka",
    "gray goose vodka cost",
    "grey goose vodka cost",
@@ -2112,22 +2114,22 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "grey goose bottle",
-   "goose vodka price"
+   "grey goose vodka 700ml",
+   "grey goose bottle"
   ]
  },
  "belvedere": {
-  "primary": "vodka belvedere",
-  "primaryVolume": 480,
-  "primaryKd": 11,
+  "primary": "belvedere vodka",
+  "primaryVolume": 6600,
+  "primaryKd": 15,
   "secondary": [
+   "vodka belvedere",
    "tequila",
    "gin",
    "smirnoff vodka",
    "cognac",
    "absolut vodka",
    "rum",
-   "belvedere vodka",
    "cheap vodka",
    "patron tequila",
    "coffee liqueur",
@@ -2344,6 +2346,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
+   "vodka belvedere",
    "vodka belvedere 700ml",
    "belvedere liquor",
    "belvedere vodka price",
@@ -2580,11 +2583,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "patron": {
-  "primary": "patron tequila price",
-  "primaryVolume": 390,
-  "primaryKd": 7,
+  "primary": "patron",
+  "primaryVolume": 8100,
+  "primaryKd": 17,
   "secondary": [
-   "patron",
+   "patron tequila price",
    "patron tequila",
    "cafe patron",
    "xo tequila patron cafe",
@@ -2807,15 +2810,16 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
+   "patron tequila price",
    "patron price"
   ]
  },
  "don-julio": {
-  "primary": "don julio brands",
-  "primaryVolume": 1000,
+  "primary": "don julio",
+  "primaryVolume": 8100,
   "primaryKd": 18,
   "secondary": [
-   "don julio",
+   "don julio brands",
    "don julio 1942",
    "don julio tequila",
    "1942 tequila",
@@ -3038,6 +3042,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
+   "don julio brands",
    "don julio 1942 price"
   ]
  },
@@ -4905,11 +4910,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "baileys-irish-cream": {
-  "primary": "irish cream",
-  "primaryVolume": 1300,
-  "primaryKd": 26,
+  "primary": "baileys",
+  "primaryVolume": 22200,
+  "primaryKd": 21,
   "secondary": [
-   "baileys",
+   "irish cream",
    "baileys irish cream",
    "baileys irish cream whiskey",
    "jameson irish whiskey",
@@ -5132,6 +5137,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
+   "irish cream",
    "jameson irish whiskey",
    "baileys irish cream liqueur",
    "liqueur baileys",

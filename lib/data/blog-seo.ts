@@ -548,7 +548,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "best-cream-coffee-liqueurs-for-cocktails": {
-  "primaryKeyword": "baileys irish",
+  "primaryKeyword": "cream liqueur",
   "secondaryKeywords": [
    "baileys chocolate",
    "chocolate baileys",
@@ -563,11 +563,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "alcohol content in baileys",
    "cream liqueur baileys",
    "what is baileys liqueur",
-   "irish cream whiskey",
-   "baileys irish cream alcohol content"
+   "irish cream whiskey"
   ],
   "tags": [
-   "baileys",
    "kahlua",
    "baileys irish cream",
    "baileys irish cream whiskey",
@@ -1177,9 +1175,8 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "grey-goose-vs-belvedere-vodka-compared": {
-  "primaryKeyword": "grey goose liquor",
+  "primaryKeyword": "grey goose vs belvedere",
   "secondaryKeywords": [
-   "grey goose",
    "belvedere reservation",
    "belvedere griffith",
    "belvedere reserve",
@@ -1192,11 +1189,9 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "belvedere sydney",
    "the belvedere woody point",
    "belvedere st",
-   "belvedere farm",
-   "belvedere street"
+   "belvedere farm"
   ],
   "tags": [
-   "belvedere vodka",
    "grey goose 1l",
    "grey goose 1 litre",
    "gray goose vodka 1 liter",
@@ -1765,7 +1760,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
   ]
  },
  "vodka-brands-absolut-skyy-titos-how-to-choose": {
-  "primaryKeyword": "absolut vodka",
+  "primaryKeyword": "tito vodka",
   "secondaryKeywords": [
    "vodka cruiser",
    "vodka cruisers",
@@ -1780,14 +1775,11 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "vodka ketel",
    "premium french vodka",
    "australian vodka",
-   "finlandia vodka",
-   "vodka sky"
+   "finlandia vodka"
   ],
   "tags": [
    "smirnoff vodka",
-   "absolut vodka",
    "absolut liquor",
-   "belvedere vodka",
    "cheap vodka",
    "absolute vodka",
    "ciroc vodka",

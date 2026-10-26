@@ -158,7 +158,7 @@ let sameBrandCount = {};
 for (const p of products) sameBrandCount[p.brand] = (sameBrandCount[p.brand] || 0) + 1;
 
 // one keyword = one URL: product primaries must be unique and must not take a landing-page keyword
-const OWNED = new Set(['buy absolut vodka', 'buy tequila online', 'smirnoff liquor', 'gin gifts australia', 'whisky gift pack', 'whisky sale']);
+const OWNED = new Set(['absolut vodka', 'buy absolut vodka', 'buy tequila online', 'smirnoff liquor', 'gin gifts australia', 'whisky gift pack', 'whisky sale']);
 const usedPrimary = new Set(OWNED);
 for (const p of products) {
   const sub = subBySlug[p.subCategorySlug];

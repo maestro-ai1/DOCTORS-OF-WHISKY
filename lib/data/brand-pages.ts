@@ -296,6 +296,36 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   "secondary": []
  },
  {
+  "slug": "moet-and-chandon",
+  "brand": "Moet & Chandon",
+  "primary": {
+   "kw": "moet",
+   "vol": 8100,
+   "kd": 24,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "moet champagne",
+    "vol": 5400,
+    "kd": 27,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "cost moet champagne",
+    "vol": 390,
+    "kd": 10,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "champagne moet",
+    "vol": 170,
+    "kd": 21,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "heineken",
   "brand": "Heineken",
   "primary": {
@@ -484,6 +514,48 @@ export const BRAND_PAGES: BrandPageSeo[] = [
     "vol": 480,
     "kd": 11,
     "intent": "Transactional"
+   }
+  ]
+ },
+ {
+  "slug": "glenmorangie",
+  "brand": "Glenmorangie",
+  "primary": {
+   "kw": "glenmorangie",
+   "vol": 4400,
+   "kd": 24,
+   "intent": "Navigational"
+  },
+  "secondary": [
+   {
+    "kw": "glenmorangie 12",
+    "vol": 2400,
+    "kd": 17,
+    "intent": "Informational"
+   },
+   {
+    "kw": "glenmorangie 10",
+    "vol": 880,
+    "kd": 9,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "glenmorangie 18",
+    "vol": 720,
+    "kd": 11,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "glenmorangie whisky",
+    "vol": 170,
+    "kd": 17,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "glenmorangie scotch",
+    "vol": 140,
+    "kd": 17,
+    "intent": "Commercial"
    }
   ]
  },
@@ -946,30 +1018,6 @@ export const BRAND_PAGES: BrandPageSeo[] = [
    "intent": "Commercial"
   },
   "secondary": []
- },
- {
-  "slug": "moet-and-chandon",
-  "brand": "Moet & Chandon",
-  "primary": {
-   "kw": "moet and chandon champagne",
-   "vol": 1000,
-   "kd": 28,
-   "intent": "Commercial"
-  },
-  "secondary": [
-   {
-    "kw": "champagne moet and chandon",
-    "vol": 140,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "kw": "moet chandon 750ml",
-    "vol": 110,
-    "kd": 7,
-    "intent": "Commercial"
-   }
-  ]
  },
  {
   "slug": "the-dalmore",
