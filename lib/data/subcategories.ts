@@ -3962,7 +3962,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "name": "Pinot Grigio",
     "category": "beer-premix-wine",
     "description": "Wine Pinot: 2 Pinot Grigio bottles from Three Trails and Farmer & The Scientist, $11.99 to $22.99 AUD. Insured delivery Australia-wide, 18+ only.",
-    "heroImage": "/images/products/coming-soon.svg",
+    "heroImage": "/images/products/pinot-grigio/three-trails-south-eastern-australian-pinot-grigio.jpg",
     "primaryKeyword": "wine pinot",
     "secondaryKeywords": [
       "champagne",

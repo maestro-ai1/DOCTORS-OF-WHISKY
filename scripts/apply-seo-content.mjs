@@ -157,6 +157,9 @@ function naturalKeyword(p, kws) {
 let sameBrandCount = {};
 for (const p of products) sameBrandCount[p.brand] = (sameBrandCount[p.brand] || 0) + 1;
 
+// one keyword = one URL: product primaries must be unique and must not take a landing-page keyword
+const OWNED = new Set(['buy absolut vodka', 'buy tequila online', 'smirnoff liquor', 'gin gifts australia', 'whisky gift pack', 'whisky sale']);
+const usedPrimary = new Set(OWNED);
 for (const p of products) {
   const sub = subBySlug[p.subCategorySlug];
   const catName = sub ? sub.name : p.subCategory;
@@ -164,6 +167,12 @@ for (const p of products) {
   const facts = SUB_FACTS[p.subCategorySlug] || { what: '', serve: '', gift: '' };
   const styleLower = (p.style || catName).toLowerCase();
   const kws = productKeywords(p);
+  if (usedPrimary.has(kws.primary)) {
+    const words = norm(p.name).split(' ');
+    const alts = [words.slice(0, 8).join(' '), norm(p.name), norm(p.name + ' ' + p.size)];
+    kws.primary = alts.find((a) => !usedPrimary.has(a)) || norm(p.name + ' ' + p.slug.split('-').slice(-2).join(' '));
+  }
+  usedPrimary.add(kws.primary);
   p.primaryKeyword = kws.primary;
   p.secondaryKeywords = kws.secondary;
   if (kws.tags) p.tags = kws.tags;

@@ -92,7 +92,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   ]
  },
  "/contact/": {
-  "primary": "doctors of whisky",
+  "primary": "contact doctors of whisky",
   "secondary": [],
   "tags": []
  },

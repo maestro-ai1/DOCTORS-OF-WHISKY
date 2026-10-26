@@ -87,6 +87,48 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "jim-beam",
+  "brand": "Jim Beam",
+  "primary": {
+   "kw": "jim beam",
+   "vol": 9900,
+   "kd": 18,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "jim beam bourbon",
+    "vol": 1900,
+    "kd": 18,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jim beam bourbon whiskey",
+    "vol": 1600,
+    "kd": 23,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jim beam 1 litre",
+    "vol": 1600,
+    "kd": 11,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "whiskey bourbon jim beam",
+    "vol": 1300,
+    "kd": 22,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jim beam 700ml",
+    "vol": 1000,
+    "kd": 11,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "johnnie-walker",
   "brand": "Johnnie Walker",
   "primary": {
@@ -530,6 +572,24 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "ardbeg",
+  "brand": "Ardbeg",
+  "primary": {
+   "kw": "ardbeg",
+   "vol": 1000,
+   "kd": 19,
+   "intent": "Transactional"
+  },
+  "secondary": [
+   {
+    "kw": "ardbeg whiskey",
+    "vol": 140,
+    "kd": 11,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "ballantines",
   "brand": "Ballantines",
   "primary": {
@@ -578,6 +638,24 @@ export const BRAND_PAGES: BrandPageSeo[] = [
    {
     "kw": "bourbon reserve woodford",
     "vol": 210,
+    "kd": 14,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
+  "slug": "redbreast",
+  "brand": "Redbreast",
+  "primary": {
+   "kw": "redbreast whiskey",
+   "vol": 1000,
+   "kd": 15,
+   "intent": "Transactional"
+  },
+  "secondary": [
+   {
+    "kw": "redbreast whisky",
+    "vol": 110,
     "kd": 14,
     "intent": "Commercial"
    }

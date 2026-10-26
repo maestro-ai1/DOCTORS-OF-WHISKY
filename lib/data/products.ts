@@ -34781,7 +34781,7 @@ export const PRODUCTS: Product[] = [
     "badge": "BEST SELLER",
     "stock": 4,
     "sku": "CORONA-CORONA-BROWN-BOX-2",
-    "primaryKeyword": "corona brown box 355 bottles",
+    "primaryKeyword": "corona brown box 355 bottles imported beer",
     "secondaryKeywords": [
       "modelo beer",
       "german beer",
@@ -43937,7 +43937,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "3x 700ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/scotch-whisky/ardbeg-anthology-collection-limited-edition-single-malt-scotch-whisky.jpg"
     ],
     "description": "Ardbeg Anthology Collection Limited Edition Single Malt Scotch Whisky (3x 700ml) is a scotch whisky from Ardbeg, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -44571,7 +44571,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "700ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/bourbon/jim-beam-white-label-kentucky-bourbon-whiskey.jpg"
     ],
     "description": "Jim Beam White Label Kentucky Bourbon Whiskey (700ml) is a bourbon whiskey from Jim Beam, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -45750,7 +45750,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "700ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/irish-whiskey/redbreast-18-year-old-single-pot-still-irish-whiskey.jpg"
     ],
     "description": "Redbreast 18 Year Old Single Pot Still Irish Whiskey (700ml) is an irish whiskey from Redbreast, made in Ireland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -45933,11 +45933,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/vodka/absolut-swedish-vodka.jpg"
     ],
-    "description": "Absolut Swedish Vodka (700ml) is a vodka from Absolut, made in Sweden. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for buy absolut vodka? This page lists the price, size and insured delivery details.",
+    "description": "Absolut Swedish Vodka (700ml) is a vodka from Absolut, made in Sweden. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-ABSOLUTSWEDISHVODKA",
-    "primaryKeyword": "buy absolut vodka",
+    "primaryKeyword": "absolut swedish vodka",
     "secondaryKeywords": [
       "absolut vodka",
       "absolut liquor",
@@ -45977,8 +45977,8 @@ export const PRODUCTS: Product[] = [
         "answer": "A well-known vodka is an easy, crowd-pleasing gift for entertainers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Buy Absolut Vodka | Absolut Swedish Vodka",
-    "metaDescription": "Buy Absolut Vodka: Buy Absolut Swedish Vodka (700ml) online in Australia for $49.99 AUD. Vodka from Absolut. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Absolut Swedish Vodka Online Australia",
+    "metaDescription": "Buy Absolut Swedish Vodka (700ml) online in Australia for $49.99 AUD. Vodka from Absolut. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "absolute vodka",
       "vodka bottle",
@@ -46653,7 +46653,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "700ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/liqueur/sour-puss-sour-peach-blended-liqueur.jpg"
     ],
     "description": "Sour Puss Sour Peach Blended Liqueur (700ml) is a liqueurs from Wet Pussy, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -47283,13 +47283,13 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "750ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/champagne/laurent-perrier-la-cuvee-brut-rose-champagne-nv.jpg"
     ],
     "description": "Laurent-Perrier La Cuvee Brut Rose Champagne NV (750ml) is a champagne from Laurent-Perrier, made in France. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-LAURENTPERRIERLACUVEEBRU",
-    "primaryKeyword": "laurent perrier la cuvee brut",
+    "primaryKeyword": "laurent perrier la cuvee brut rose champagne nv",
     "secondaryKeywords": [
       "laurent perrier champagne",
       "champagne",
@@ -47379,7 +47379,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-LAURENTPERRIERLACUVEEBRU",
-    "primaryKeyword": "laurent perrier la cuvee brut",
+    "primaryKeyword": "laurent perrier la cuvee brut rose champagne nv magnum",
     "secondaryKeywords": [
       "laurent perrier champagne",
       "champagne",
@@ -47739,7 +47739,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-VICTORIABITTERVBBEERCASE",
-    "primaryKeyword": "victoria bitter vb beer case",
+    "primaryKeyword": "victoria bitter vb beer case 4 x 6",
     "secondaryKeywords": [
       "flavoured beer",
       "beer flavours",
@@ -48363,7 +48363,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "24x 275ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/vodka-premix/smirnoff-ice-original-pre-mix-vodka-case-bottles.jpg"
     ],
     "description": "Smirnoff ICE Original Pre-Mix Vodka Case Bottles (24x 275ml) is a pre-mixed from Smirnoff. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for smirnoff premix? This page lists the price, size and insured delivery details.",
     "stock": 6,
@@ -48813,7 +48813,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "750ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/pinot-grigio/three-trails-south-eastern-australian-pinot-grigio.jpg"
     ],
     "description": "Three Trails South Eastern Australian Pinot Grigio (750ml) is a white wine from Three Trails, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -48903,7 +48903,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "750ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/pinot-grigio/farmer-and-the-scientist-heathcote-pinot-grigio-2021.jpg"
     ],
     "description": "Farmer & The Scientist Heathcote Pinot Grigio 2021 (750ml) is a white wine from Farmer & The Scientist, made in Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
@@ -49533,7 +49533,7 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "700ml",
     "images": [
-      "/images/products/coming-soon.svg"
+      "/images/products/ouzo/ouzo-12.jpg"
     ],
     "description": "Ouzo 12 Liqueur (700ml) is a liqueur from Ouzo 12, made in Greece. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
