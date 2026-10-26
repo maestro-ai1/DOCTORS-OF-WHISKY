@@ -24,7 +24,7 @@ export const NEW_GUIDES_4 = [
     seoTitle: 'Limoncello Spritz Recipe: Easy 3-Ingredient Serve',
     excerpt: 'A limoncello spritz is limoncello, sparkling wine and soda over ice. Here is the exact recipe, the best ratios, easy variations and how to choose a bottle.',
     category: 'Cocktail Guide',
-    image: '/images/blog/shared/home-bar.webp',
+    image: '/images/blog/limoncello-spritz-recipe.webp',
     primaryKeyword: 'limoncello spritz recipe',
     relatedSubcategory: 'liqueur',
     lead: 'A limoncello spritz recipe needs only three things: limoncello, sparkling wine and soda water over plenty of ice. It is bright, lightly sweet and easy to make for one person or a whole table. This guide gives the exact ratio, explains how to adjust it for your taste, and shows how to choose a limoncello and a sparkling wine that suit the drink.',
@@ -106,7 +106,7 @@ export const NEW_GUIDES_4 = [
     seoTitle: 'What Is Gin Made From? Juniper, Botanicals, Method',
     excerpt: 'Gin is a neutral spirit flavoured with juniper and other botanicals. Learn what gin is made from, how it is distilled and how to choose a bottle.',
     category: 'Spirits Guide',
-    image: '/images/blog/shared/copper-still.webp',
+    image: '/images/blog/what-is-gin-made-from.webp',
     primaryKeyword: 'what is gin made from',
     relatedSubcategory: 'gin',
     lead: 'What is gin made from? Gin starts as a neutral spirit made from grain or another fermentable base, then is flavoured with juniper berries and other botanicals. Juniper is the one flavour that must lead, and everything else, from citrus peel to coriander seed, shapes the style. This guide explains the base spirit, the botanicals, the main production methods and how to choose a bottle.',
@@ -188,7 +188,7 @@ export const NEW_GUIDES_4 = [
     seoTitle: 'How Many Standard Drinks in a Bottle of Wine?',
     excerpt: 'A 750 ml bottle of wine holds about 7 to 8 standard drinks. See how to calculate standard drinks from ABV and volume, with a table for common wine styles.',
     category: 'Wine Guide',
-    image: '/images/blog/shared/vineyard.webp',
+    image: '/images/blog/how-many-standard-drinks-in-a-bottle-of-wine.webp',
     primaryKeyword: 'how many standard drinks in a bottle of wine',
     relatedSubcategory: 'white-wine',
     lead: 'How many standard drinks in a bottle of wine? A typical 750 ml bottle of table wine at 12 to 13.5 percent alcohol contains roughly 7 to 8 standard drinks. The exact number depends on the strength printed on the label. This guide shows the simple formula, gives examples for red, white, rosé and sparkling wine, and explains the Australian drinking guidelines.',
@@ -265,94 +265,12 @@ export const NEW_GUIDES_4 = [
 
   newGuide({
     ...D,
-    slug: 'what-is-prosecco',
-    title: 'What Is Prosecco? Italian Sparkling Wine, Styles and How It Differs From Champagne',
-    seoTitle: 'What Is Prosecco? Styles, Taste and Champagne Difference',
-    excerpt: 'Prosecco is a dry to off-dry Italian sparkling wine made mainly from the glera grape. Learn how it is made, its styles and how it compares with champagne.',
-    category: 'Wine Guide',
-    image: '/images/blog/shared/vineyard.webp',
-    primaryKeyword: 'what is prosecco',
-    relatedSubcategory: 'prosecco',
-    lead: 'What is prosecco? Prosecco is an Italian sparkling wine made mainly from the glera grape in the Veneto and Friuli Venezia Giulia regions. It is lighter, fruitier and usually cheaper than champagne, and it is made by a method that keeps the fresh fruit flavour. This guide explains how prosecco is made, what it tastes like, the sweetness labels and how to choose a bottle.',
-    takeaways: [
-      'Prosecco is made mainly from the glera grape and is produced in north-east Italy.',
-      'Most prosecco gets its bubbles in a tank, the Charmat method, which keeps it fresh and fruity.',
-      'On the label, brut is dry, extra dry is slightly sweeter and dry is sweeter again.',
-      'Prosecco suits spritzes, brunch and casual celebrations.',
-    ],
-    sections: [
-      {
-        heading: 'Where does prosecco come from?',
-        paragraphs: [
-          'Prosecco comes from north-east Italy, mainly the Veneto region and Friuli Venezia Giulia. The name is protected, so true prosecco must come from the designated area and follow the rules for the grape and production. The best-known zones include Conegliano Valdobbiadene and Asolo, whose bottles carry their own designations.',
-          'Australia also produces prosecco-style wines. The King Valley in Victoria is known for growing prosecco grapes, because Italian migrants brought the vines and winemaking tradition to the region. Check the label to see whether a bottle is Italian prosecco or an Australian one.',
-        ],
-      },
-      {
-        heading: 'What is prosecco made from?',
-        paragraphs: [
-          'Prosecco is made mainly from the glera grape, a white grape with floral, apple and pear flavours. Producers may blend in small amounts of other approved grapes. The grape is harvested, pressed, fermented into a still base wine and then turned into sparkling wine.',
-          'Glera is naturally aromatic and fresh, which is why prosecco tastes of green apple, pear, white peach and honeysuckle rather than the toasty, yeasty notes you find in champagne.',
-        ],
-      },
-      {
-        heading: 'How is prosecco made?',
-        paragraphs: [
-          'Most prosecco uses the Charmat or tank method. After the base wine is made, a second fermentation takes place in a large pressurised steel tank rather than in the bottle. This traps the carbon dioxide, creates the bubbles, and keeps the delicate fruit flavours intact before the wine is filtered and bottled under pressure.',
-          'Champagne instead undergoes its second fermentation in the bottle and ages on the yeast for months or years, which adds the biscuit and brioche flavours. The tank method is faster and less expensive, which is one reason prosecco is more affordable.',
-        ],
-      },
-      {
-        heading: 'How sweet is prosecco?',
-        paragraphs: [
-          'The label tells you the sweetness. Brut is the driest, with up to 12 grams of sugar per litre. Extra dry is slightly sweeter, between 12 and 17 grams, and dry is sweeter again, between 17 and 32 grams. Confusingly, extra dry is not the driest style.',
-          'If you want a crisp drink or you are making a spritz, choose brut. If you prefer a softer, fruitier glass or you are serving it with dessert, extra dry or dry may suit you better.',
-        ],
-      },
-      {
-        heading: 'What is the difference between prosecco and champagne?',
-        paragraphs: [
-          'Champagne is made in the Champagne region of France, mainly from chardonnay, pinot noir and pinot meunier, with the second fermentation in the bottle. Prosecco is Italian, mainly made from glera, with the second fermentation in a tank.',
-          'The result is that prosecco is lighter, fruitier and more floral, with softer bubbles, while champagne is more complex and savoury. Compare our [champagne collection](' + CHAMPAGNE + ') with the [prosecco collection](' + PROSECCO + ') to see the range and prices side by side.',
-        ],
-      },
-      {
-        heading: 'How do you serve and drink prosecco?',
-        paragraphs: [
-          'Serve prosecco well chilled at about 6 to 8 degrees Celsius, in a tulip or white wine glass. Pour slowly, tilting the glass, to protect the bubbles. Prosecco is best drunk young and fresh, so check the vintage or release date and drink it within a year or two.',
-          'It is the base of the Aperol spritz and the Bellini, and it works in a [limoncello spritz](/blog/limoncello-spritz-recipe/). It also pairs well with salty snacks, seafood, antipasto and light pasta.',
-        ],
-      },
-      {
-        heading: 'How do you choose a prosecco?',
-        paragraphs: [
-          'Choose brut for mixing and extra dry for an easy fruity glass. Look for a clear label stating the region, the sweetness and the producer. Consider Australian options if you want to support local wine; see the [sparkling wine collection](' + SPARKLING + ').',
-          'Our current range includes [Brown Brothers King Valley Prosecco](/shop/beer-premix-wine/brown-brothers-king-valley-prosecco-nv/) and [De Bortoli King Valley Prosecco](/shop/beer-premix-wine/de-bortoli-king-valley-prosecco/). We deliver insured across Australia, and an adult (18+) must sign for every parcel.',
-        ],
-      },
-    ],
-    faqs: [
-      { question: 'What is prosecco made from?', answer: 'Prosecco is made mainly from the glera grape, grown in north-east Italy.' },
-      { question: 'Is prosecco the same as champagne?', answer: 'No. Champagne comes from France and has its second fermentation in the bottle, while prosecco is Italian and usually ferments in a tank.' },
-      { question: 'Is prosecco sweet or dry?', answer: 'It depends on the label. Brut is dry, extra dry is slightly sweeter and dry is sweeter again.' },
-      { question: 'How long does prosecco last?', answer: 'Prosecco is best within one to two years of release. Once opened, reseal it with a sparkling wine stopper and drink within a day or two.' },
-      { question: 'Where can I buy prosecco online in Australia?', answer: 'You can buy prosecco online from Doctors of Whisky with insured delivery across Australia. An adult (18+) must sign for every delivery.' },
-    ],
-    outbound: [
-      { text: 'Wikipedia: Prosecco', url: 'https://en.wikipedia.org/wiki/Prosecco' },
-      { text: 'Encyclopaedia Britannica: Prosecco', url: 'https://www.britannica.com/topic/prosecco' },
-      { text: 'Wikipedia: Glera (grape)', url: 'https://en.wikipedia.org/wiki/Glera' },
-    ],
-  }),
-
-  newGuide({
-    ...D,
     slug: 'cointreau-cocktails',
     title: 'Cointreau Cocktails: 6 Classic Drinks to Make With Cointreau at Home',
     seoTitle: 'Cointreau Cocktails: 6 Easy Classic Recipes',
     excerpt: 'Cointreau is a clear orange liqueur used in the margarita, cosmopolitan and sidecar. Here are six classic Cointreau cocktails with simple recipes and tips.',
     category: 'Cocktail Guide',
-    image: '/images/blog/shared/home-bar.webp',
+    image: '/images/blog/cointreau-cocktails.webp',
     primaryKeyword: 'cointreau cocktails',
     relatedSubcategory: 'orange-liqueur',
     lead: 'Cointreau cocktails include some of the best-known drinks in the world: the margarita, the cosmopolitan, the sidecar and the white lady. Cointreau is a clear orange liqueur with a bright, balanced citrus flavour, and a single bottle unlocks a long list of recipes. This guide gives six classic Cointreau cocktails with simple measures, plus tips on how to use and store the bottle.',
@@ -388,7 +306,7 @@ export const NEW_GUIDES_4 = [
         heading: 'How do you make a sidecar?',
         paragraphs: [
           'Shake 50 ml of [cognac](' + COGNAC + '), 20 ml of Cointreau and 20 ml of fresh lemon juice with ice and strain into a chilled coupe. Some recipes rim the glass with sugar, which is optional.',
-          'A VS or VSOP cognac is ideal. Read more in our guide to [cognac vs brandy](/blog/cognac-vs-brandy/) before choosing a bottle.',
+          'A VS or VSOP cognac is ideal. Read more in our guide to [cognac vs brandy](/blog/cognac-vs-brandy-explained/) before choosing a bottle.',
         ],
       },
       {
@@ -429,94 +347,12 @@ export const NEW_GUIDES_4 = [
 
   newGuide({
     ...D,
-    slug: 'cognac-vs-brandy',
-    title: 'Cognac vs Brandy: What Is the Difference and Which Should You Buy?',
-    seoTitle: 'Cognac vs Brandy: Differences, Grades and Buying Tips',
-    excerpt: 'All cognac is brandy, but not all brandy is cognac. Learn the difference in region, grapes, ageing and grades such as VS, VSOP and XO.',
-    category: 'Spirits Guide',
-    image: '/images/blog/shared/barrel-room.webp',
-    primaryKeyword: 'cognac vs brandy',
-    relatedSubcategory: 'cognac-brandy',
-    lead: 'Cognac vs brandy comes down to one rule: all cognac is brandy, but only brandy made in the Cognac region of France under strict rules can be called cognac. Brandy is the broad category of spirits distilled from wine or fruit. This guide explains the difference in place, grapes, distillation and ageing, decodes VS, VSOP and XO, and helps you choose a bottle.',
-    takeaways: [
-      'Brandy is a spirit distilled from wine or other fermented fruit juice.',
-      'Cognac is brandy from the Cognac region of France, double distilled in copper pot stills.',
-      'Age grades: VS is at least two years, VSOP at least four years and XO at least ten years.',
-      'Cognac is usually more expensive than other brandy because of regional rules and ageing.',
-    ],
-    sections: [
-      {
-        heading: 'What is brandy?',
-        paragraphs: [
-          'Brandy is a spirit made by distilling wine or other fermented fruit juice. It is usually aged in oak, which gives it colour and flavours of vanilla, dried fruit and spice. Brandy is made all over the world, from Spain and Italy to Australia, South Africa and the United States.',
-          'Some brandies are made from grapes, while others, such as apple brandy and pear brandy, are made from other fruit. Fruit brandies are often called by their fruit, for example calvados or eau de vie.',
-        ],
-      },
-      {
-        heading: 'What is cognac?',
-        paragraphs: [
-          'Cognac is a brandy made in the Cognac region of south-west France. To be called cognac it must be made from approved white grapes, mainly ugni blanc, distilled twice in copper pot stills and aged in French oak for at least two years. The rules are protected by law.',
-          'Because of these rules, cognac has a reputation for smoothness and complexity. Brands such as [Hennessy](/brands/hennessy/) and [Martell](/brands/martell/) are among the best-known producers.',
-        ],
-      },
-      {
-        heading: 'What are the main differences between cognac and brandy?',
-        paragraphs: [
-          'Location: cognac must come from the Cognac region, while brandy can come from anywhere. Grapes: cognac uses specific white grapes, while brandy uses many. Distillation: cognac is double distilled in pot stills, while other brandy may use column stills or a single distillation. Ageing: cognac must be aged in oak for a minimum period and is graded by age.',
-          'In taste, cognac tends to be smoother, more floral and fruity, while other brandy can be sweeter, simpler or more rustic. Neither is better in every case: it depends on how you plan to drink it.',
-        ],
-      },
-      {
-        heading: 'What do VS, VSOP and XO mean?',
-        paragraphs: [
-          'These grades describe the youngest spirit in the blend. VS (very special) is at least two years old. VSOP (very superior old pale) is at least four years old. XO (extra old) is at least ten years old. Many producers use much older spirits than the minimum.',
-          'VS is the best choice for cocktails and mixing, VSOP is a versatile step up for sipping and cocktails, and XO is for slow sipping. Browse the [cognac and brandy collection](' + COGNAC + ') to compare grades and prices.',
-        ],
-      },
-      {
-        heading: 'How do you drink cognac and brandy?',
-        paragraphs: [
-          'Sip cognac neat at room temperature from a tulip glass or a small snifter. Do not heat it; the warmth of your hand is enough to release the aroma. Add a small splash of water if it seems too strong. VS and VSOP also work well in cocktails such as the sidecar and the brandy Alexander.',
-          'Simple serves include brandy and ginger ale and cognac and tonic over ice. A [sidecar](/blog/cointreau-cocktails/) is a classic way to use a VS or VSOP.',
-        ],
-      },
-      {
-        heading: 'Which should you buy?',
-        paragraphs: [
-          'Buy cognac for gifts, sipping and special occasions, and for cocktails where you want a polished flavour. Buy a standard brandy for cooking, mixing and everyday use, where the price matters more than subtlety.',
-          'If you are new to cognac, a VSOP is a good starting point. For a big occasion, look at XO and the premium bottles. See the full [cognac collection](' + COGNAC + ') and [Hennessy VS](/shop/spirit/hennessy-vs-cognac/) for a popular entry point.',
-        ],
-      },
-      {
-        heading: 'How do you store cognac and brandy?',
-        paragraphs: [
-          'Store the bottle upright, in a cool, dark place, away from heat and sunlight. Unlike wine, cognac does not improve in the bottle, so an opened or unopened bottle will taste the same as the day it was bottled.',
-          'Once opened, it keeps well for years if the cap is sealed. We deliver insured across Australia, and an adult (18+) must sign for every parcel.',
-        ],
-      },
-    ],
-    faqs: [
-      { question: 'Is cognac a brandy?', answer: 'Yes. All cognac is brandy, but only brandy made in the Cognac region of France under strict rules can be called cognac.' },
-      { question: 'What does VSOP mean on cognac?', answer: 'VSOP means very superior old pale, and the youngest spirit in the blend must be at least four years old.' },
-      { question: 'Is cognac better than brandy?', answer: 'Cognac is generally smoother and more refined, but a good brandy can suit cooking, mixing and everyday drinking.' },
-      { question: 'How should you drink cognac?', answer: 'Sip it neat at room temperature from a tulip glass, or use VS and VSOP in cocktails.' },
-      { question: 'Where can I buy cognac online in Australia?', answer: 'You can buy cognac online from Doctors of Whisky with insured delivery across Australia. An adult (18+) must sign for every delivery.' },
-    ],
-    outbound: [
-      { text: 'Wikipedia: Cognac', url: 'https://en.wikipedia.org/wiki/Cognac' },
-      { text: 'Encyclopaedia Britannica: Brandy', url: 'https://www.britannica.com/topic/brandy' },
-      { text: 'Cognac Bureau (BNIC)', url: 'https://www.cognac.fr/en/' },
-    ],
-  }),
-
-  newGuide({
-    ...D,
     slug: 'how-long-does-champagne-last',
     title: 'How Long Does Champagne Last? Unopened, Opened and How to Store It',
     seoTitle: 'How Long Does Champagne Last? Storage Guide',
     excerpt: 'Non-vintage champagne keeps for 3 to 4 years unopened and vintage for longer. Opened champagne is best within 1 to 3 days. Learn how to store it properly.',
     category: 'Wine Guide',
-    image: '/images/blog/shared/vineyard.webp',
+    image: '/images/blog/how-long-does-champagne-last.webp',
     primaryKeyword: 'how long does champagne last',
     relatedSubcategory: 'champagne',
     lead: 'How long does champagne last? Unopened non-vintage champagne is generally at its best for three to four years after you buy it, vintage champagne can last ten years or more, and opened champagne should be finished within one to three days. How you store the bottle makes a big difference. This guide covers shelf life, storage, how to keep an opened bottle fizzy and how to tell if champagne has gone off.',
@@ -598,7 +434,7 @@ export const NEW_GUIDES_4 = [
     seoTitle: 'Absolut Vodka Flavours: Guide and Serving Ideas',
     excerpt: 'Absolut makes flavoured vodkas including vanilla, pears, lime, mango and chilli pepper. Here is how each tastes and the best way to mix and serve them.',
     category: 'Spirits Guide',
-    image: '/images/blog/shared/home-bar.webp',
+    image: '/images/blog/absolut-vodka-flavours.webp',
     primaryKeyword: 'absolut vodka flavours',
     relatedSubcategory: 'vodka',
     lead: 'Absolut vodka flavours turn a clean Swedish vodka into easy mixers for cocktails and long drinks. Absolut Vanilla, Pears, Lime and Mango each pair with different mixers, and Absolut Tabasco adds a spicy kick for savoury drinks. This guide explains the main flavours, how they taste, simple serves for each and how to choose between them.',
@@ -680,7 +516,7 @@ export const NEW_GUIDES_4 = [
     seoTitle: 'Best Tequila for Margaritas: Blanco vs Reposado',
     excerpt: 'The best tequila for margaritas is a 100 percent agave blanco or reposado. See how the styles differ, the classic recipe and which bottles to try.',
     category: 'Spirits Guide',
-    image: '/images/blog/shared/home-bar.webp',
+    image: '/images/blog/best-tequila-for-margaritas.webp',
     primaryKeyword: 'best tequila for margaritas',
     relatedSubcategory: 'white-tequila',
     lead: 'The best tequila for margaritas is a 100 percent agave blanco or reposado tequila, because they have the bright agave and citrus flavours that match lime juice and orange liqueur. Añejo is richer and better for sipping. This guide compares the styles, gives the classic margarita recipe, lists bottles worth trying and explains what to avoid on the label.',

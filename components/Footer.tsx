@@ -5,6 +5,7 @@ import { Wine, ShieldCheck } from 'lucide-react';
 
 /** Shop and topic pages (new landing pages live here, not under policies). */
 const QUICK_LINKS = [
+  { label: 'Whisky Sale', href: '/' },
   { label: 'Whisky Gift Packs', href: '/gifts/whisky/' },
   { label: 'Gin Gifts', href: '/gifts/gin/' },
   { label: 'Buy Tequila', href: '/collections/tequila/' },

@@ -43937,7 +43937,8 @@ export const PRODUCTS: Product[] = [
     "abv": "",
     "size": "3x 700ml",
     "images": [
-      "/images/products/scotch-whisky/ardbeg-anthology-collection-limited-edition-single-malt-scotch-whisky.jpg"
+      "/images/products/scotch-whisky/ardbeg-anthology-collection-limited-edition-single-malt-scotch-whisky.jpg",
+      "/images/products/scotch-whisky/ardbeg-anthology-collection-limited-edition-single-malt-scotch-whisky-2.jpg"
     ],
     "description": "Ardbeg Anthology Collection Limited Edition Single Malt Scotch Whisky (3x 700ml) is a scotch whisky from Ardbeg, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,

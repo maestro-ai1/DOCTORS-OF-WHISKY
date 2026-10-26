@@ -181,22 +181,6 @@ export const NEW_GUIDE_EXTRAS: Record<string, { heading: string; paragraphs: str
       ],
     },
   ],
-  'what-is-prosecco': [
-    {
-      heading: "What food pairs with prosecco?",
-      paragraphs: [
-        "Prosecco has high acidity and a light, fruity style, so it pairs well with salty and fried foods. Try it with antipasto, prosciutto, soft cheese, tempura, fish and chips and fresh seafood. It also works with light pasta dishes and fruit salads.",
-        "For spicy food, choose an extra dry or dry prosecco, because a little sweetness balances heat. For rich or creamy food, a brut will cut through the richness with its crisp acidity.",
-      ],
-    },
-    {
-      heading: "What are the best prosecco cocktails?",
-      paragraphs: [
-        "The Aperol spritz is the best known: three parts prosecco, two parts Aperol and one part soda over ice with an orange slice. The Bellini is prosecco topped onto white peach purée, and the mimosa is prosecco with orange juice.",
-        "You can also add prosecco to a [limoncello spritz](/blog/limoncello-spritz-recipe/) or a [pink gin spritz](/blog/pink-gin-and-soda-what-is-pink-gin/). Read our wider [prosecco and spritz guide](/blog/prosecco-guide-aperol-spritz-rose-mimosa/) for more recipes.",
-      ],
-    },
-  ],
   'cointreau-cocktails': [
     {
       heading: "What can you use instead of Cointreau?",
@@ -217,22 +201,6 @@ export const NEW_GUIDE_EXTRAS: Record<string, { heading: string; paragraphs: str
       paragraphs: [
         "Use a chilled coupe or martini glass for the cosmopolitan, sidecar and white lady, because the drinks are served without ice and stay colder in a stemmed glass. Use a rocks glass or a margarita glass over fresh ice for the margarita, and a large wine glass for a Cointreau spritz.",
         "Chill glasses in the freezer for ten minutes before serving. A cold glass keeps the drink at the right temperature for longer, which matters more than the exact shape of the glass.",
-      ],
-    },
-  ],
-  'cognac-vs-brandy': [
-    {
-      heading: "What are some well-known cognac houses?",
-      paragraphs: [
-        "The best-known cognac houses include Hennessy, Martell, Rémy Martin and Courvoisier. Each has its own house style: Martell tends to be smooth and fruity, Courvoisier is known for its floral notes, and Hennessy is known for its rich, spicy profile.",
-        "See our brand pages for [Hennessy](/brands/hennessy/) and [Martell](/brands/martell/), and read our longer guide to [cognac vs brandy explained](/blog/cognac-vs-brandy-explained/) for the history and production details.",
-      ],
-    },
-    {
-      heading: "What are the best cocktails with cognac?",
-      paragraphs: [
-        "The sidecar, the French connection and the brandy Alexander are classics. A simple highball of cognac and ginger ale is easy and refreshing, and a cognac old fashioned swaps whisky for cognac with sugar and bitters.",
-        "Use a VS or VSOP in cocktails. Keep XO for sipping, because the delicate flavours are lost when mixed.",
       ],
     },
   ],

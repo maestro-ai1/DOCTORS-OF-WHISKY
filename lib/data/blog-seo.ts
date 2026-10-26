@@ -340,6 +340,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
  "cognac-vs-brandy-explained": {
   "primaryKeyword": "what is cognac",
   "secondaryKeywords": [
+   "cognac vs brandy",
    "st agnes brandy",
    "what is the cognac",
    "cognac is what",
@@ -353,8 +354,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "cognac vsop",
    "drinks with brandy",
    "brandy cocktail recipe",
-   "calvados brandy",
-   "cordon bleu martell cognac"
+   "calvados brandy"
   ],
   "tags": [
    "cognac",
@@ -1263,6 +1263,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
  "prosecco-guide-aperol-spritz-rose-mimosa": {
   "primaryKeyword": "prosecco for aperol spritz",
   "secondaryKeywords": [
+   "what is prosecco",
    "de bortoli prosecco",
    "belvino prosecco",
    "sensi prosecco",
@@ -1276,8 +1277,7 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "aperol spritz prosecco",
    "belena prosecco",
    "prosecco bellini",
-   "aperitif prosecco aperol",
-   "prosecco cocktails bellini"
+   "aperitif prosecco aperol"
   ],
   "tags": [
    "prosecco",
@@ -2100,48 +2100,6 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "chinese alcohol"
   ]
  },
- "what-is-prosecco": {
-  "primaryKeyword": "what is prosecco",
-  "secondaryKeywords": [
-   "sparkling moscato",
-   "sparklings restaurant",
-   "sparkling ale",
-   "black chook sparkling shiraz",
-   "sparkling cider",
-   "bird in the hand sparkling",
-   "sparkling margarita",
-   "sparkling cuvee",
-   "sparkling pinot noir bird in hand",
-   "apple cider sparkling",
-   "yellowtail bubbly",
-   "sparkling reds",
-   "sparkling brut",
-   "pellegrino sparkling mineral water",
-   "sparkling natural mineral water"
-  ],
-  "tags": [
-   "sparkling water sparkling water",
-   "bws prosecco",
-   "prosecco dan murphy",
-   "red bubbly wine",
-   "arras sparkling",
-   "prosecco bws",
-   "jansz sparkling",
-   "australian bubbly wine",
-   "bird in hand sparkling pinot noir",
-   "debortoli prosecco",
-   "oyster bay sparkling",
-   "affordable sparkling wine",
-   "sparkling asti",
-   "jansz sparkling wine",
-   "lightly sparkling water",
-   "yellow tail sparkling wine",
-   "coopers brewery sparkling ale",
-   "non alcoholic sparkling",
-   "non alcohol sparkling",
-   "italian prosecco"
-  ]
- },
  "cointreau-cocktails": {
   "primaryKeyword": "cointreau cocktails",
   "secondaryKeywords": [
@@ -2174,48 +2132,6 @@ export const BLOG_SEO: Record<string, { primaryKeyword: string; secondaryKeyword
    "cointreau dan murphys",
    "margarita premix cans",
    "sparkling margarita jose cuervo"
-  ]
- },
- "cognac-vs-brandy": {
-  "primaryKeyword": "cognac vs brandy",
-  "secondaryKeywords": [
-   "brandy alexander recipe",
-   "st remy",
-   "brandy for cocktails",
-   "apple and brandy",
-   "drinks with brandy",
-   "brandy cocktail recipe",
-   "calvados apple brandy",
-   "dan murphy brandy",
-   "brandy alexander cocktail drink recipe",
-   "brandy and cream",
-   "hennessy drink",
-   "hennessy brandy",
-   "how to drink brandy",
-   "cognac alcohol",
-   "brandy melville makeup bag"
-  ],
-  "tags": [
-   "cognac cognac",
-   "apricot brandy",
-   "slivovitz plum brandy",
-   "st remy vsop",
-   "brandy booze",
-   "cognac martell cognac",
-   "hennessy bws",
-   "brandy sale",
-   "brandy sales",
-   "hennessy a cognac",
-   "martell cognac blue swift",
-   "cheap cognac",
-   "buy brandy",
-   "bws hennessy",
-   "brandy australia",
-   "brandy for cheap",
-   "best brandy",
-   "brandy spirit",
-   "cooking brandy",
-   "brandy napoleon"
   ]
  },
  "how-long-does-champagne-last": {
