@@ -44,6 +44,9 @@ function RichText({ text }: { text: string }) {
   return <>{parts}</>;
 }
 
+const anchor = (h: string) => h.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const longDate = (d: string) => new Date(d).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+
 const isoDate = (d: string) => {
   const t = Date.parse(d);
   return Number.isNaN(t) ? CONTENT_UPDATED : new Date(t).toISOString().slice(0, 10);
@@ -125,6 +128,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <h1 className="text-3xl sm:text-4xl font-serif font-bold text-neutral-100 leading-tight">{post.title}</h1>
           <div className="flex items-center gap-4 text-xs text-neutral-400">
             <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" /><time dateTime={isoDate(post.date)}>{post.date}</time></span>
+            <span className="flex items-center gap-1">Updated <time dateTime={post.updated || CONTENT_UPDATED}>{longDate(post.updated || CONTENT_UPDATED)}</time></span>
             <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime}</span>
           </div>
         </header>
@@ -151,6 +155,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </aside>
         )}
 
+        {(post.sections || []).length > 2 && (
+          <nav aria-label="Table of contents" className="rounded-2xl border border-neutral-800 bg-neutral-900/50 p-5 space-y-2">
+            <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider">Table of contents</h2>
+            <ol className="list-decimal pl-5 space-y-1 text-sm text-neutral-300">
+              {(post.sections || []).map((section) => (
+                <li key={section.heading}><a href={`#${anchor(section.heading)}`} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{section.heading}</a></li>
+              ))}
+            </ol>
+          </nav>
+        )}
+
         <div className="space-y-5">
           {post.body.map((para, idx) => (
             <p key={idx} className="text-sm sm:text-base text-neutral-300 leading-relaxed font-light">
@@ -166,7 +181,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <Image src={inline.src} alt={`${inline.alt} - ${post.primaryKeyword}`} fill className="object-cover" sizes="(max-width: 768px) 100vw, 768px" />
             </figure>
           )}
-          <section className="space-y-4">
+          <section id={anchor(section.heading)} className="space-y-4 scroll-mt-24">
             <h2 className="text-xl sm:text-2xl font-serif font-bold text-neutral-100">{section.heading}</h2>
             {section.paragraphs.map((p, j) => (
               <p key={j} className="text-sm sm:text-base text-neutral-300 leading-relaxed font-light"><RichText text={p} /></p>

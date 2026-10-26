@@ -5,6 +5,7 @@ import { BLOG_SEO } from '@/lib/data/blog-seo';
 import { NEW_GUIDES_1 } from '@/lib/data/blog-new-1';
 import { NEW_GUIDES_2 } from '@/lib/data/blog-new-2';
 import { NEW_GUIDES_3 } from '@/lib/data/blog-new-3';
+import { NEW_GUIDES_4 } from '@/lib/data/blog-new-4';
 
 const BASE_POSTS: BlogPost[] = [
   {
@@ -1531,7 +1532,7 @@ function withExtras(post: BlogPost): BlogPost {
   return merged;
 }
 
-export const BLOG_POSTS: BlogPost[] = [...BASE_POSTS, ...NEW_GUIDES_1, ...NEW_GUIDES_2, ...NEW_GUIDES_3].map(withExtras);
+export const BLOG_POSTS: BlogPost[] = [...NEW_GUIDES_4, ...BASE_POSTS, ...NEW_GUIDES_1, ...NEW_GUIDES_2, ...NEW_GUIDES_3].map(withExtras);
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

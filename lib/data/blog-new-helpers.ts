@@ -16,6 +16,9 @@ export interface NewGuide {
   sections: { heading: string; paragraphs: string[]; links?: { text: string; href: string }[] }[];
   faqs: { question: string; answer: string }[];
   outbound: { text: string; url: string }[];
+  /** Defaults to the original batch date; set for newer posts. */
+  date?: string;
+  updated?: string;
 }
 
 const wordsIn = (g: NewGuide) =>
@@ -50,13 +53,13 @@ export function newGuide(g: NewGuide): BlogPost {
     body: [g.lead],
     image: g.image,
     category: g.category,
-    date: 'October 2, 2026',
+    date: g.date ?? 'October 2, 2026',
     readTime: `${Math.max(5, Math.round((wordsIn(g) + sections.slice(g.sections.length).flatMap((s) => s.paragraphs).join(' ').split(/\s+/).length) / 230))} min read`,
     primaryKeyword: g.primaryKeyword,
     secondaryKeywords: [],
     relatedSubcategory: g.relatedSubcategory,
     outboundLinks: g.outbound,
-    updated: '2026-10-02',
+    updated: g.updated ?? '2026-10-02',
     keyTakeaways: g.takeaways,
     sections,
     faqs: g.faqs,

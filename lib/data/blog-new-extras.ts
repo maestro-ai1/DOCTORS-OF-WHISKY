@@ -133,4 +133,169 @@ export const NEW_GUIDE_EXTRAS: Record<string, { heading: string; paragraphs: str
       ],
     },
   ],
+  'limoncello-spritz-recipe': [
+    {
+      heading: "What food goes well with a limoncello spritz?",
+      paragraphs: [
+        "The bright lemon and gentle sweetness suit light, salty and fresh foods. Try it with antipasto, olives, prosciutto and melon, seafood, grilled prawns or a simple lemon pasta. It also works with soft cheeses and with fresh fruit desserts.",
+        "Because the spritz is lightly sweet, avoid pairing it with very sweet desserts, which can make both taste flat. A salty snack is the best partner, and it keeps guests happy while they wait for dinner.",
+      ],
+    },
+    {
+      heading: "How can you make the drink look great for guests?",
+      paragraphs: [
+        "Presentation takes only a minute. Use a large wine glass or a stemless tumbler, fill it with ice to the top and add a long strip of lemon peel rather than just a slice. Add a sprig of mint, which brings a fresh scent every time someone lifts the glass.",
+        "For parties, freeze lemon slices or edible flowers into the ice and serve the spritz in a jug with a long spoon. Keep the ingredients cold in a bucket of ice so that each refill tastes as good as the first.",
+      ],
+    },
+  ],
+  'what-is-gin-made-from': [
+    {
+      heading: "What is the difference between gin and other clear spirits?",
+      paragraphs: [
+        "Vodka is bottled without added flavour, while gin must taste mainly of juniper. White rum is made from sugar cane and has sweet, grassy notes, and white tequila is made from agave and tastes of pepper and cooked agave. Gin is the only one of these defined by its botanicals.",
+        "If you enjoy herbal and aromatic spirits, gin is the natural next step from vodka. Try a classic with tonic first, and then move on to martinis and negronis as your taste develops.",
+      ],
+    },
+    {
+      heading: "How do you taste gin properly?",
+      paragraphs: [
+        "Pour a small amount into a glass, add a few drops of water and smell it. The water opens up the aroma. Note the first impression, usually juniper or citrus, then look for spice, floral and herbal notes. Taste it neat, then with a mixer.",
+        "Tasting gin neat shows you its character and quality. A well-made gin should feel balanced, with the juniper supported by the other botanicals rather than hidden by them.",
+      ],
+    },
+  ],
+  'how-many-standard-drinks-in-a-bottle-of-wine': [
+    {
+      heading: "How many standard drinks are in other common drinks?",
+      paragraphs: [
+        "A 375 ml can of full-strength beer at 4.8 percent has about 1.4 standard drinks. A 30 ml nip of spirits at 40 percent contains about one. A 700 ml bottle of whisky at 40 percent contains about 22 standard drinks, and a 750 ml bottle of champagne at 12 percent contains about 7.1.",
+        "These numbers show why a standard drink is such a helpful measure. A bottle of spirits holds roughly three bottles of wine worth of alcohol, even though the volume is similar.",
+      ],
+    },
+    {
+      heading: "What is the safest way to pace your drinking at home?",
+      paragraphs: [
+        "Use a measure or a clearly marked glass, drink water between drinks and have food in your stomach before you start. Plan how many drinks you will have and stop at that number. If you drink at home, avoid topping up your glass without noticing how much you have had.",
+        "Plan transport before you drink, and never drive after drinking. If you feel unwell or are worried about your own drinking, speak to a doctor or call the national alcohol and drug helpline.",
+      ],
+    },
+  ],
+  'what-is-prosecco': [
+    {
+      heading: "What food pairs with prosecco?",
+      paragraphs: [
+        "Prosecco has high acidity and a light, fruity style, so it pairs well with salty and fried foods. Try it with antipasto, prosciutto, soft cheese, tempura, fish and chips and fresh seafood. It also works with light pasta dishes and fruit salads.",
+        "For spicy food, choose an extra dry or dry prosecco, because a little sweetness balances heat. For rich or creamy food, a brut will cut through the richness with its crisp acidity.",
+      ],
+    },
+    {
+      heading: "What are the best prosecco cocktails?",
+      paragraphs: [
+        "The Aperol spritz is the best known: three parts prosecco, two parts Aperol and one part soda over ice with an orange slice. The Bellini is prosecco topped onto white peach purée, and the mimosa is prosecco with orange juice.",
+        "You can also add prosecco to a [limoncello spritz](/blog/limoncello-spritz-recipe/) or a [pink gin spritz](/blog/pink-gin-and-soda-what-is-pink-gin/). Read our wider [prosecco and spritz guide](/blog/prosecco-guide-aperol-spritz-rose-mimosa/) for more recipes.",
+      ],
+    },
+  ],
+  'cointreau-cocktails': [
+    {
+      heading: "What can you use instead of Cointreau?",
+      paragraphs: [
+        "If you do not have Cointreau, triple sec or another orange liqueur such as Grand Marnier can replace it. Triple sec is usually sweeter and lighter in flavour, so use a little less. Grand Marnier is cognac-based and richer, which suits a sidecar well.",
+        "Check the [orange liqueur collection](/shop/spirit/collection/orange-liqueur/) for options. Remember that the swap changes the drink slightly, so taste and adjust.",
+      ],
+    },
+    {
+      heading: "How many standard drinks are in a Cointreau cocktail?",
+      paragraphs: [
+        "Cointreau is 40 percent ABV, so a 25 ml measure contains about 0.8 standard drinks on its own, and a margarita with 50 ml of tequila and 25 ml of Cointreau contains about 2.3 standard drinks. Cocktails often contain more alcohol than they taste of.",
+        "Count your drinks, drink water between cocktails, and follow the Australian guidelines of no more than four standard drinks on any one day.",
+      ],
+    },
+    {
+      heading: "Which glass should you use for each Cointreau cocktail?",
+      paragraphs: [
+        "Use a chilled coupe or martini glass for the cosmopolitan, sidecar and white lady, because the drinks are served without ice and stay colder in a stemmed glass. Use a rocks glass or a margarita glass over fresh ice for the margarita, and a large wine glass for a Cointreau spritz.",
+        "Chill glasses in the freezer for ten minutes before serving. A cold glass keeps the drink at the right temperature for longer, which matters more than the exact shape of the glass.",
+      ],
+    },
+  ],
+  'cognac-vs-brandy': [
+    {
+      heading: "What are some well-known cognac houses?",
+      paragraphs: [
+        "The best-known cognac houses include Hennessy, Martell, Rémy Martin and Courvoisier. Each has its own house style: Martell tends to be smooth and fruity, Courvoisier is known for its floral notes, and Hennessy is known for its rich, spicy profile.",
+        "See our brand pages for [Hennessy](/brands/hennessy/) and [Martell](/brands/martell/), and read our longer guide to [cognac vs brandy explained](/blog/cognac-vs-brandy-explained/) for the history and production details.",
+      ],
+    },
+    {
+      heading: "What are the best cocktails with cognac?",
+      paragraphs: [
+        "The sidecar, the French connection and the brandy Alexander are classics. A simple highball of cognac and ginger ale is easy and refreshing, and a cognac old fashioned swaps whisky for cognac with sugar and bitters.",
+        "Use a VS or VSOP in cocktails. Keep XO for sipping, because the delicate flavours are lost when mixed.",
+      ],
+    },
+  ],
+  'how-long-does-champagne-last': [
+    {
+      heading: "Can you freeze champagne to chill it quickly?",
+      paragraphs: [
+        "You can use the freezer for 20 to 30 minutes in an emergency, but set a timer. If a bottle is forgotten it can freeze and burst, which is dangerous. An ice bucket filled with ice and cold water chills a bottle in about 20 minutes and is safer.",
+        "Never put champagne in the freezer overnight. A slow, steady chill in the fridge is the best method if you have time.",
+      ],
+    },
+    {
+      heading: "How do you open champagne safely?",
+      paragraphs: [
+        "Keep the bottle chilled and point it away from people. Remove the foil and loosen the wire cage while holding the cork. Hold the cork and turn the bottle, not the cork, until you feel the pressure push it out. Aim for a soft sigh rather than a loud pop.",
+        "Hold the bottle at a 45 degree angle, and keep a glass or cloth nearby to catch any foam. Never use a knife or point the bottle towards your face.",
+      ],
+    },
+  ],
+  'absolut-vodka-flavours': [
+    {
+      heading: "What are some easy Absolut cocktail recipes?",
+      paragraphs: [
+        "A vodka soda is 40 ml of Absolut flavour over ice with soda and a citrus wedge. A vodka tonic uses 40 ml with tonic. A moscow mule uses 50 ml with ginger beer and lime. A simple cosmopolitan uses 40 ml of Absolut Lime or plain vodka with cranberry juice and Cointreau.",
+        "For party batches, multiply each recipe by the number of guests, keep the mixers chilled and add soda just before serving so it stays fizzy.",
+      ],
+    },
+    {
+      heading: "How many standard drinks are in a vodka drink?",
+      paragraphs: [
+        "A 40 ml measure of vodka at 37.5 percent contains about 1.2 standard drinks, and a 30 ml measure contains about 0.9. A cocktail with two measures contains about 2.4. Check the label of your bottle, because strength can vary slightly by product.",
+        "Measure each pour with a jigger so you know how many drinks you have had, and alternate with water.",
+      ],
+    },
+    {
+      heading: "How should you store flavoured vodka?",
+      paragraphs: [
+        "Store the bottle upright in a cool place away from sunlight, or keep it in the freezer if you like it very cold. Flavoured vodka keeps well once opened because of its alcohol content, although the aroma of delicate flavours such as pear or vanilla can fade slowly over a long time.",
+        "Close the cap tightly after each use and use the bottle within a year or two for the freshest flavour. Keep unopened spare bottles in a cupboard rather than a warm kitchen.",
+      ],
+    },
+  ],
+  'best-tequila-for-margaritas': [
+    {
+      heading: "How should you salt the rim of a margarita glass?",
+      paragraphs: [
+        "Run a lime wedge around the outer edge of the glass, then dip the rim into a plate of flaky sea salt. Salting only the outside edge keeps salt from falling into the drink. Chill the glass first so the salt sticks and the drink stays cold.",
+        "If you prefer a different rim, try tajín for a spicy kick, or a mix of salt and sugar for a softer drink.",
+      ],
+    },
+    {
+      heading: "What are some margarita variations to try?",
+      paragraphs: [
+        "Add muddled jalapeño for a spicy margarita, blend with ice for a frozen version, or swap lime for grapefruit juice for a paloma-style drink. A smoky version uses a splash of mezcal in place of some tequila.",
+        "For a lighter option, make a long margarita with soda water, or add fresh strawberries or mango for a fruit margarita. Taste after each change and adjust the lime and the sweetness.",
+      ],
+    },
+    {
+      heading: "How much tequila do you need for a party?",
+      paragraphs: [
+        "Plan on about 50 ml of tequila per margarita. A 700 ml bottle makes roughly 14 margaritas, so a gathering of ten people each having two drinks needs about one and a half bottles. Buy a little extra so that you do not run out, and keep limes, orange liqueur and ice in good supply.",
+        "Pre-squeeze the lime juice on the morning of the party and keep it chilled. Use it within a day for the best flavour, then shake each drink to order.",
+      ],
+    },
+  ],
 };
