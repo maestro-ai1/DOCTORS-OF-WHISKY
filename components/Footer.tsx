@@ -10,6 +10,7 @@ const QUICK_LINKS = [
   { label: 'Buy Tequila', href: '/collections/tequila/' },
   { label: 'Smirnoff Vodka', href: '/collections/smirnoff/' },
   { label: 'Absolut Vodka', href: '/collections/absolut/' },
+  { label: 'Shop by Brand', href: '/brands/' },
   { label: 'Blog', href: '/blog/' },
 ];
 

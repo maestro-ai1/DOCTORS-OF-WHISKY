@@ -1,3 +1,4 @@
+import { BRAND_HUBS } from '@/lib/data/brand-hubs';
 import { createHash } from 'node:crypto';
 import { PRODUCTS } from '@/lib/data/products';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
@@ -46,7 +47,8 @@ export function llmsTxt(full = false): string {
     `- [Gin gifts](${D}/gifts/gin/): gin gift packs and gift-ready bottles by budget`,
     `- [Buy tequila online](${D}/collections/tequila/): Patrón, Don Julio, Jose Cuervo, white, gold and reposado tequila`,
     `- [Smirnoff vodka](${D}/collections/smirnoff/): Smirnoff vodka and premix range`,
-    `- [Absolut vodka](${D}/collections/absolut/): Absolut vodka and premium vodka comparison`
+    `- [Absolut vodka](${D}/collections/absolut/): Absolut vodka and premium vodka comparison`,
+    `- [Shop by brand](${D}/brands/): brand pages for ${BRAND_HUBS.map((c) => c.breadcrumb[2].name).join(', ')}`
   );
   lines.push('', '## Collector journal (guides)', '');
   for (const post of BLOG_POSTS) lines.push(`- [${post.title}](${D}/blog/${post.slug}/): ${post.excerpt}`);

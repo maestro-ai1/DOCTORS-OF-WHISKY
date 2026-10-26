@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/glendronach--tds-glendronach-21-chill.jpg"
     ],
-    "description": "Distilled on 11th June 1993 and matured in a single Pedro Ximénez sherry puncheon for 26 years. Bottled at natural cask strength without chill filtration. A quintessential Highland sherry monster. Searching for glendronach 18? This page lists the price, size and insured delivery details.",
+    "description": "Distilled on 11th June 1993 and matured in a single Pedro Ximénez sherry puncheon for 26 years. Bottled at natural cask strength without chill filtration. A quintessential Highland sherry monster. Searching for the glendronach 1993 26 year? This page lists the price, size and insured delivery details.",
     "tastingNotes": {
       "nose": "Black treacle, brandied cherries, espresso crema, roasted chestnuts, and old antique leather.",
       "palate": "Viscous and mouth-coating. Damson plum jam, dark chocolate truffles, nutmeg, and Seville orange marmalade.",
@@ -231,7 +231,7 @@ export const PRODUCTS: Product[] = [
     "featured": true,
     "sku": "GLD-1993-SC18",
     "vintage": "1993 Vintage",
-    "primaryKeyword": "glendronach 18",
+    "primaryKeyword": "the glendronach 1993 26 year",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -271,8 +271,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Glendronach 18 | The GlenDronach 1993 26 Year Old Single Cask Batch 18",
-    "metaDescription": "Glendronach 18: Buy The GlenDronach 1993 26 Year Old Single Cask Batch 18 (700ml) online in Australia for $1,250 AUD. Single Malt from GlenDronach. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy The GlenDronach 1993 26 Year Old Single Cask Batch 18 Online Australia",
+    "metaDescription": "Buy The GlenDronach 1993 26 Year Old Single Cask Batch 18 (700ml) online in Australia for $1,250 AUD. Single Malt from GlenDronach. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "GlenDronach is a Highland single malt distillery at Forgue, Aberdeenshire, founded in 1826 and known for whisky matured in sherry casks. The GlenDronach 1993 26 Year Old Single Cask Batch 18 sits in our scotch whisky range, alongside 5 other GlenDronach bottles. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. The GlenDronach 1993 26 Year Old Single Cask Batch 18 is listed at 52.8% ABV in a 700ml format, from Highland, Scotland.",
@@ -1979,7 +1979,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 5,
     "sku": "MACALLAN-MACALLAN-12YO-COLOUR",
-    "primaryKeyword": "macallan",
+    "primaryKeyword": "macallan 12yo colour collection scotch",
     "secondaryKeywords": [
       "macallan single malt",
       "macallan sherry oak",
@@ -4367,7 +4367,7 @@ export const PRODUCTS: Product[] = [
     "badge": "COLLECTOR RELEASE",
     "stock": 12,
     "sku": "GLENDRONACH-GLENDRONACH-21-CHILL",
-    "primaryKeyword": "glendronach 21",
+    "primaryKeyword": "glendronach 21 chill scotch whisky",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -4391,7 +4391,7 @@ export const PRODUCTS: Product[] = [
         "answer": "GlenDronach 21 Chill Scotch Whisky is priced at $770 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy glendronach 21 online in Australia?",
+        "question": "Where do I buy GlenDronach Single Malt / Blended Scotch online in Australia?",
         "answer": "You can buy GlenDronach 21 Chill Scotch Whisky from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -5129,7 +5129,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 11,
     "sku": "LAPHROAIG-LAPHROAIG-10-GLASS",
-    "primaryKeyword": "laphroaig 10",
+    "primaryKeyword": "laphroaig 10 glass pack scotch",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -5174,7 +5174,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Laphroaig 10 Glass Pack Scotch Whisky comes from Laphroaig. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig 10 Glass Pack Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
-      "If you are looking for laphroaig 10 islay, Laphroaig 10 Glass Pack Scotch Whisky is available from Doctors of Whisky at $97.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for laphroaig 10 year old, Laphroaig 10 Glass Pack Scotch Whisky is available from Doctors of Whisky at $97.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "islay single malt laphroaig",
@@ -5407,7 +5407,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/laphroaig--tds-laphroaig-12yo.jpg"
     ],
-    "description": "Laphroaig 12yo Scotch Whisky (700ml) is a scotch whisky from Laphroaig, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for laphroaig scotch? This page lists the price, size and insured delivery details.",
+    "description": "Laphroaig 12yo Scotch Whisky (700ml) is a scotch whisky from Laphroaig, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Vanilla, toffee and light citrus zest.",
       "palate": "Butterscotch and gentle peat warmth.",
@@ -5415,7 +5415,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 5,
     "sku": "LAPHROAIG-LAPHROAIG-12YO-SCOTCH",
-    "primaryKeyword": "laphroaig scotch",
+    "primaryKeyword": "laphroaig 12yo scotch whisky",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -5455,8 +5455,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Laphroaig Scotch | Laphroaig 12yo Scotch Whisky",
-    "metaDescription": "Laphroaig Scotch: Buy Laphroaig 12yo Scotch Whisky (700ml) online in Australia for $2,590 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Laphroaig 12yo Scotch Whisky Online Australia",
+    "metaDescription": "Buy Laphroaig 12yo Scotch Whisky (700ml) online in Australia for $2,590 AUD. Scotch Whisky from Laphroaig. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009. Laphroaig 12yo Scotch Whisky is Laphroaig’s expression in this style. Laphroaig is an Islay single malt distillery, founded in 1815 and famous for its peat-smoke and seaweed character.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. Laphroaig 12yo Scotch Whisky is listed at 40.0% - 46.0% ABV in a 700ml format, from Scotland.",
@@ -6273,7 +6273,7 @@ export const PRODUCTS: Product[] = [
     "badge": "COLLECTOR RELEASE",
     "stock": 5,
     "sku": "ROYAL-SALUTE-ROYAL-SALUTE-2",
-    "primaryKeyword": "royal salute",
+    "primaryKeyword": "royal salute 21yo polo estancia",
     "secondaryKeywords": [
       "royal salute scotch",
       "royal salute scotch price",
@@ -8266,7 +8266,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-wild-turkey-kentucky-spirit-1l.jpg"
     ],
-    "description": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is a bourbon whiskey from Wild Turkey, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for wild turkey bourbon? This page lists the price, size and insured delivery details.",
+    "description": "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is a bourbon whiskey from Wild Turkey, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Heather honey with a whisper of smoke.",
       "palate": "Brown sugar, oak and stewed fruit.",
@@ -8274,7 +8274,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 12,
     "sku": "WILD-TURKEY-WILD-TURKEY",
-    "primaryKeyword": "wild turkey bourbon",
+    "primaryKeyword": "wild turkey kentucky spirit 1l",
     "secondaryKeywords": [
       "wild turkey bourbon australia",
       "bourbon wild turkey",
@@ -8314,8 +8314,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Bourbon suits gifting for both cocktail fans and neat sippers, and small-batch and single-barrel bottles are popular choices. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Wild Turkey Bourbon | Wild Turkey Kentucky Spirit 1L Bourbon Whiskey",
-    "metaDescription": "Wild Turkey Bourbon: Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $139.99 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey Online Australia",
+    "metaDescription": "Buy Wild Turkey Kentucky Spirit 1L Bourbon Whiskey online in Australia for $139.99 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Wild Turkey Kentucky Spirit 1L Bourbon Whiskey sits in our bourbon whiskey range, alongside 2 other Wild Turkey bottles. Bourbon is American whiskey made from a mash of at least 51% corn and aged in new charred oak containers, which gives its vanilla and caramel character.",
       "Enjoy bourbon neat, over ice, or in classics such as the Old Fashioned, Manhattan and Whiskey Sour. Wild Turkey Kentucky Spirit 1L Bourbon Whiskey is listed at 40.0% - 50.0% ABV in a 1L format, from United States.",
@@ -8361,7 +8361,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/bourbon--tds-wild-turkey-rare-breed-1l-new-1.jpg"
     ],
-    "description": "Wild Turkey Rare Breed 1L New Bourbon Whiskey is a bourbon whiskey from Wild Turkey, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for wild turkey bourbon australia? This page lists the price, size and insured delivery details.",
+    "description": "Wild Turkey Rare Breed 1L New Bourbon Whiskey is a bourbon whiskey from Wild Turkey, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Honeyed malt and gentle spice.",
       "palate": "Silky malt with ginger spice.",
@@ -8369,7 +8369,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 4,
     "sku": "WILD-TURKEY-WILD-TURKEY-2",
-    "primaryKeyword": "wild turkey bourbon australia",
+    "primaryKeyword": "wild turkey rare breed 1l",
     "secondaryKeywords": [
       "wild turkey bourbon",
       "bourbon wild turkey",
@@ -8393,7 +8393,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Wild Turkey Rare Breed 1L New Bourbon Whiskey is priced at $250 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy wild turkey bourbon online in Australia?",
+        "question": "Where do I buy bourbon wild turkey online in Australia?",
         "answer": "You can buy Wild Turkey Rare Breed 1L New Bourbon Whiskey from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -8409,8 +8409,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Bourbon suits gifting for both cocktail fans and neat sippers, and small-batch and single-barrel bottles are popular choices. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Wild Turkey Bourbon Australia | Wild Turkey Rare Breed 1L New Bourbon Whiskey",
-    "metaDescription": "Wild Turkey Bourbon Australia: Buy Wild Turkey Rare Breed 1L New Bourbon Whiskey online in Australia for $250 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Wild Turkey Rare Breed 1L New Bourbon Whiskey Online Australia",
+    "metaDescription": "Buy Wild Turkey Rare Breed 1L New Bourbon Whiskey online in Australia for $250 AUD. Bourbon Whiskey from Wild Turkey. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Bourbon is American whiskey made from a mash of at least 51% corn and aged in new charred oak containers, which gives its vanilla and caramel character. Wild Turkey Rare Breed 1L New Bourbon Whiskey is Wild Turkey’s expression in this style.",
       "Enjoy bourbon neat, over ice, or in classics such as the Old Fashioned, Manhattan and Whiskey Sour. Wild Turkey Rare Breed 1L New Bourbon Whiskey is listed at 40.0% - 50.0% ABV in a 1L format, from United States.",
@@ -20946,7 +20946,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg"
     ],
-    "description": "Bacardi Cuarto Sherry Spiced Rum (700ml) is a spiced rum from Bacardi, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for bacardi cost? This page lists the price, size and insured delivery details.",
+    "description": "Bacardi Cuarto Sherry Spiced Rum (700ml) is a spiced rum from Bacardi, made in Caribbean. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Aromatic herbs and delicate florals.",
       "palate": "Silky texture with citrus and pepper.",
@@ -20955,7 +20955,7 @@ export const PRODUCTS: Product[] = [
     "badge": "BEST SELLER",
     "stock": 4,
     "sku": "BACARDI-BACARDI-CUARTO-SHERRY",
-    "primaryKeyword": "bacardi cost",
+    "primaryKeyword": "bacardi cuarto sherry spiced rum",
     "secondaryKeywords": [
       "bacardi white rum",
       "bacardi rum",
@@ -20979,7 +20979,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Bacardi Cuarto Sherry Spiced Rum is priced at $150 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy spiced bacardi online in Australia?",
+        "question": "Where do I buy bacardi white rum online in Australia?",
         "answer": "You can buy Bacardi Cuarto Sherry Spiced Rum from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -20995,8 +20995,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Spiced rum is a friendly gift for anyone who likes easy-drinking spirits and mixers. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Bacardi Cost | Bacardi Cuarto Sherry Spiced Rum",
-    "metaDescription": "Bacardi Cost: Buy Bacardi Cuarto Sherry Spiced Rum (700ml) online in Australia for $150 AUD. Spiced Rum from Bacardi. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Bacardi Cuarto Sherry Spiced Rum Online Australia",
+    "metaDescription": "Buy Bacardi Cuarto Sherry Spiced Rum (700ml) online in Australia for $150 AUD. Spiced Rum from Bacardi. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Bacardi Cuarto Sherry Spiced Rum is Bacardi’s expression in this style.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice. Bacardi Cuarto Sherry Spiced Rum is listed at 35.0% - 40.0% ABV in a 700ml format, from Caribbean.",
@@ -24006,7 +24006,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 6,
     "sku": "MARTELL-MARTELL-CORDON-BLEU",
-    "primaryKeyword": "martell",
+    "primaryKeyword": "martell cordon bleu cognac brandy",
     "secondaryKeywords": [
       "martell vsop",
       "martell xo",
@@ -38112,7 +38112,7 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/rose-wine/rose-wine--tds-laurent-perrier-cuvee-rose.jpg"
     ],
-    "description": "Laurent Perrier Cuvee Rose Rosé Wine (750ml) is a rosé wine from Laurent, made in France / Australia. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for laurent perrier champagne? This page lists the price, size and insured delivery details.",
+    "description": "Laurent Perrier Cuvee Rose Rosé Wine (750ml) is a rosé wine from Laurent, made in France / Australia. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "tastingNotes": {
       "nose": "Ripe berry fruit and soft oak.",
       "palate": "Silky texture with elegant fruit layers.",
@@ -38120,7 +38120,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 11,
     "sku": "LAURENT-LAURENT-PERRIER-CUVEE",
-    "primaryKeyword": "laurent perrier champagne",
+    "primaryKeyword": "laurent perrier cuvee rose rose",
     "secondaryKeywords": [
       "sparkling rose",
       "rose fizzy wine",
@@ -38160,8 +38160,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Rosé is a popular gift for summer gatherings. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Laurent Perrier Champagne | Laurent Perrier Cuvee Rose Rosé Wine",
-    "metaDescription": "Laurent Perrier Champagne: Buy Laurent Perrier Cuvee Rose Rosé Wine (750ml) online in Australia for $80 AUD. Rosé Wine from Laurent. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Laurent Perrier Cuvee Rose Rosé Wine Online Australia",
+    "metaDescription": "Buy Laurent Perrier Cuvee Rose Rosé Wine (750ml) online in Australia for $80 AUD. Rosé Wine from Laurent. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "longDescription": [
       "Laurent Perrier Cuvee Rose Rosé Wine sits in our rosé wine range, alongside 1 other Laurent bottle. Rosé is made from red grapes with brief skin contact, giving a pink colour and fresh, fruity flavour.",
       "Serve rosé chilled, around 8 to 10 degrees Celsius, especially in warm weather. Laurent Perrier Cuvee Rose Rosé Wine is listed at 12.0% - 13.0% ABV in a 750ml format, from France / Australia.",
@@ -42029,7 +42029,7 @@ export const PRODUCTS: Product[] = [
     },
     "stock": 12,
     "sku": "JACK-DANIELS-JACK-DANIELS-3",
-    "primaryKeyword": "jack daniels",
+    "primaryKeyword": "jack daniels original bbq sauce",
     "secondaryKeywords": [
       "jack daniels single barrel",
       "jack daniels bourbon",
@@ -42074,7 +42074,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Jack Daniels Original Bbq Sauce comes from Jack Daniels. Mixers, water and condiments round out a home bar and dining table.",
       "Serve mixers and water chilled, and use condiments to season food and cocktails as directed. Jack Daniels Original Bbq Sauce is listed at 0.0% ABV in a 330ml format, from International.",
-      "If you are looking for jack daniels cost, Jack Daniels Original Bbq Sauce is available from Doctors of Whisky at $5.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for jack daniels single barrel, Jack Daniels Original Bbq Sauce is available from Doctors of Whisky at $5.99 AUD. We deliver Australia-wide with insured shipping (free from $1,500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "zero sugar energy drink",
@@ -43031,11 +43031,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/balvenie-12-year-old-golden-cask-rum-cask-finish-single-malt-scotch-whisky.jpg"
     ],
-    "description": "Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky (700ml) is a scotch whisky from Balvenie, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for balvenie scotch? This page lists the price, size and insured delivery details.",
+    "description": "Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky (700ml) is a scotch whisky from Balvenie, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-BALVENIE12YEAROLDGOLDENC",
-    "primaryKeyword": "balvenie scotch",
+    "primaryKeyword": "balvenie 12 year old golden",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -43075,8 +43075,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Balvenie Scotch | Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky",
-    "metaDescription": "Balvenie Scotch: Buy Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky (700ml) online in Australia for $119.99 AUD. Scotch Whisky from Balvenie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky Online Australia",
+    "metaDescription": "Buy Balvenie 12 Year Old Golden Cask Rum Cask Finish Single Malt Scotch Whisky (700ml) online in Australia for $119.99 AUD. Scotch Whisky from Balvenie. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "balvenie double",
       "macallan whisky",
@@ -44033,7 +44033,7 @@ export const PRODUCTS: Product[] = [
     "stock": 6,
     "featured": false,
     "sku": "NEW-BALLANTINESFINESTBLENDED",
-    "primaryKeyword": "ballantines",
+    "primaryKeyword": "ballantine s finest blended scotch",
     "secondaryKeywords": [
       "whisky",
       "scotch",
@@ -44073,7 +44073,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Ballantines | Ballantine's Finest Blended Scotch Whisky",
+    "metaTitle": "Buy Ballantine's Finest Blended Scotch Whisky Online Australia",
     "metaDescription": "Buy Ballantine's Finest Blended Scotch Whisky (700ml) online in Australia for $48.99 AUD. Scotch Whisky from Ballantines. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "best whiskey",
@@ -44302,11 +44302,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/scotch-whisky/aberlour-12-year-old-non-chill-filtered-single-malt-scotch-whisky.jpg"
     ],
-    "description": "Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky (700ml) is a scotch whisky from Aberlour, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for aberlour scotch? This page lists the price, size and insured delivery details.",
+    "description": "Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky (700ml) is a scotch whisky from Aberlour, made in Scotland. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-ABERLOUR12YEAROLDNONCHIL",
-    "primaryKeyword": "aberlour scotch",
+    "primaryKeyword": "aberlour 12 year old non",
     "secondaryKeywords": [
       "aberlour single malt scotch",
       "whisky",
@@ -44346,8 +44346,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Scotch is a classic gift for whisky lovers, and age-stated single malts and blended luxury bottles suit milestone occasions. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Aberlour Scotch | Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky",
-    "metaDescription": "Aberlour Scotch: Buy Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky (700ml) online in Australia for $109.99 AUD. Scotch Whisky from Aberlour. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky Online Australia",
+    "metaDescription": "Buy Aberlour 12 Year Old Non-Chill Filtered Single Malt Scotch Whisky (700ml) online in Australia for $109.99 AUD. Scotch Whisky from Aberlour. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "macallan whisky",
       "best whiskey",
@@ -44844,11 +44844,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/bourbon/woodford-reserve-double-oaked-kentucky-straight-bourbon-whiskey.jpg"
     ],
-    "description": "Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey (700ml) is an american whiskey from Woodford Reserve, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for bourbon reserve woodford? This page lists the price, size and insured delivery details.",
+    "description": "Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey (700ml) is an american whiskey from Woodford Reserve, made in the United States. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-WOODFORDRESERVEDOUBLEOAK",
-    "primaryKeyword": "bourbon reserve woodford",
+    "primaryKeyword": "woodford reserve double oaked kentucky",
     "secondaryKeywords": [
       "bourbon",
       "bourbon brands",
@@ -44872,7 +44872,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey is priced at $94.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $1,500 AUD or more ship free, and the minimum order is $300 AUD."
       },
       {
-        "question": "Where do I buy woodford reserve bourbon online in Australia?",
+        "question": "Where do I buy bourbon woodford online in Australia?",
         "answer": "You can buy Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -44888,8 +44888,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Bourbon suits gifting for both cocktail fans and neat sippers, and small-batch and single-barrel bottles are popular choices. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Bourbon Reserve Woodford | Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey",
-    "metaDescription": "Bourbon Reserve Woodford: Buy Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey (700ml) online in Australia for $94.99 AUD. American Whiskey from Woodford Reserve. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey Online Australia",
+    "metaDescription": "Buy Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey (700ml) online in Australia for $94.99 AUD. American Whiskey from Woodford Reserve. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "australian bourbon",
       "kentucky bourbon",
@@ -45116,11 +45116,11 @@ export const PRODUCTS: Product[] = [
     "images": [
       "/images/products/japanese-whisky/hibiki-harmony-suntory-japanese-blended-whisky.jpg"
     ],
-    "description": "Hibiki Harmony Suntory Japanese Blended Whisky (700ml) is a japanese whisky from Hibiki, made in Japan. Buy it online from Doctors of Whisky with insured delivery across Australia. Searching for hibiki scotch? This page lists the price, size and insured delivery details.",
+    "description": "Hibiki Harmony Suntory Japanese Blended Whisky (700ml) is a japanese whisky from Hibiki, made in Japan. Buy it online from Doctors of Whisky with insured delivery across Australia.",
     "stock": 6,
     "featured": false,
     "sku": "NEW-HIBIKIHARMONYSUNTORYJAPA",
-    "primaryKeyword": "hibiki scotch",
+    "primaryKeyword": "hibiki harmony suntory japanese blended",
     "secondaryKeywords": [
       "japanese whiskey",
       "hibiki whiskey",
@@ -45160,8 +45160,8 @@ export const PRODUCTS: Product[] = [
         "answer": "Japanese whisky is a prestigious gift, and age-stated and limited releases are especially sought after. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
       }
     ],
-    "metaTitle": "Hibiki Scotch | Hibiki Harmony Suntory Japanese Blended Whisky",
-    "metaDescription": "Hibiki Scotch: Buy Hibiki Harmony Suntory Japanese Blended Whisky (700ml) online in Australia for $159.99 AUD. Japanese Whisky from Hibiki. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "metaTitle": "Buy Hibiki Harmony Suntory Japanese Blended Whisky Online Australia",
+    "metaDescription": "Buy Hibiki Harmony Suntory Japanese Blended Whisky (700ml) online in Australia for $159.99 AUD. Japanese Whisky from Hibiki. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
     "tags": [
       "yamazaki whisky",
       "best japanese whisky",

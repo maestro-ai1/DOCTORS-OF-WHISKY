@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from '@/components/AppLink';
 import { Product } from '@/lib/types';
 import { productAlt } from '@/lib/alt';
+import { BRAND_PAGES } from '@/lib/data/brand-pages';
 import { CONTACT, SHOP_RULES } from '@/lib/config';
 import { useCart } from '@/lib/context/CartContext';
 import { useWishlist } from '@/lib/context/WishlistContext';
@@ -205,7 +206,9 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
             <div className="space-y-2">
               <div className="flex items-center justify-between text-xs">
                 <span className="text-amber-500 font-bold uppercase tracking-widest">
-                  {product.brand}
+                  {BRAND_PAGES.some((b) => b.brand === product.brand) ? (
+                    <Link href={`/brands/${BRAND_PAGES.find((b) => b.brand === product.brand)!.slug}/`} className="hover:text-amber-300 transition-colors">{product.brand}</Link>
+                  ) : product.brand}
                 </span>
                 <span className="font-mono text-neutral-400">SKU: {product.sku}</span>
               </div>

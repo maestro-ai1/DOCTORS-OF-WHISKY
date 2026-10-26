@@ -1,3 +1,4 @@
+import { BRAND_HUBS } from '@/lib/data/brand-hubs';
 import { PRODUCTS } from '@/lib/data/products';
 import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { SUBCATEGORIES } from '@/lib/data/subcategories';
@@ -52,6 +53,8 @@ export const pagesEntries = (): SitemapEntry[] => [
   { path: '/collections/tequila/', changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED },
   { path: '/collections/smirnoff/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
   { path: '/collections/absolut/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
+  { path: '/brands/', changefreq: 'weekly', priority: 0.8, lastmod: SITE_UPDATED },
+  ...BRAND_HUBS.map((c) => ({ path: c.path, changefreq: 'weekly', priority: 0.85, lastmod: SITE_UPDATED })),
   { path: '/blog/', changefreq: 'weekly', priority: 0.7 },
   { path: '/faq/', changefreq: 'weekly', priority: 0.8 },
   { path: '/about/', changefreq: 'monthly', priority: 0.7 },
@@ -77,7 +80,7 @@ export const priorityEntries = (): SitemapEntry[] =>
     '/shop/beer-premix-wine/collection/champagne/', '/shop/beer-premix-wine/collection/sparkling/', '/shop/beer-premix-wine/collection/prosecco/',
     '/shop/beer-premix-wine/collection/lager/', '/shop/beer-premix-wine/collection/imported-beer/',
     '/shop/whisky/collection/scotch-whisky/', '/shop/whisky/collection/japanese-whisky/', '/shop/whisky/collection/bourbon/',
-    '/gifts/whisky/', '/gifts/gin/', '/collections/tequila/', '/collections/smirnoff/', '/collections/absolut/', '/faq/',
+    '/gifts/whisky/', '/gifts/gin/', '/collections/tequila/', '/collections/smirnoff/', '/collections/absolut/', '/brands/', '/faq/',
   ].map((path) => ({ path, changefreq: 'daily', priority: 1.0, lastmod: SITE_UPDATED }));
 
 export const collectionEntries = (): SitemapEntry[] => [
