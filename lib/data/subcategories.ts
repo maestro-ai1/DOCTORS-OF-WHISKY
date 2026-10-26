@@ -161,7 +161,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "rye-whiskey",
     "name": "Rye Whiskey",
     "category": "whisky",
-    "description": "Whiskey & Rye: 10 Rye Whiskey bottles from Redwood, Elijah Craig and High, $69.99 to $475 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Whiskey & Rye: 12 Rye Whiskey bottles from Redwood, Crown Royal and Elijah Craig, $69.99 to $475 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/rye-whiskey/rye-whiskey--tds-elijah-craig-rye.jpg",
     "primaryKeyword": "whiskey & rye",
     "secondaryKeywords": [
@@ -192,7 +192,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which rye whiskey brands do you sell?",
-        "answer": "Our rye whiskey range includes Redwood (2), Elijah Craig (1), High (1), Jack Daniels (1), Michters (1), Pikesville (1), Sagamore (1) and Sazerac (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our rye whiskey range includes Redwood (2), Crown Royal (2), Elijah Craig (1), High (1), Jack Daniels (1), Michters (1), Pikesville (1) and Sagamore (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is rye whiskey?",
@@ -208,7 +208,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Rye whiskey is American whiskey made from a mash of at least 51% rye grain, giving a spicier, drier profile than bourbon. Doctors of Whisky lists 10 rye whiskey bottles across 9 brands, including Redwood, Elijah Craig, High and Jack Daniels, priced from $69.99 to $475 AUD.",
+      "Rye whiskey is American whiskey made from a mash of at least 51% rye grain, giving a spicier, drier profile than bourbon. Doctors of Whisky lists 12 rye whiskey bottles across 10 brands, including Redwood, Crown Royal, Elijah Craig and High, priced from $69.99 to $475 AUD.",
       "Rye is the traditional base for the Manhattan and Sazerac, and also sips well neat or over a large cube.",
       "To buy rye whiskey online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -317,7 +317,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "australian-whisky",
     "name": "Australian Whisky",
     "category": "whisky",
-    "description": "Lark Whisky: 11 Australian Whisky bottles from Lark, $54.99 to $1,990 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Lark Whisky: 17 Australian Whisky bottles from Lark and Starward, $54.99 to $1,990 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/australian-whisky/lark--tds-dark-lark-2026.jpg",
     "primaryKeyword": "lark whisky",
     "secondaryKeywords": [
@@ -347,8 +347,8 @@ export const SUBCATEGORIES: Subcategory[] = [
         "answer": "Order australian whisky from Doctors of Whisky, a Sydney-based bottle shop that delivers across Australia. Add bottles to your cart, choose PayID, bank transfer, Bitcoin or USDT, and an adult (18+) signs for delivery. The minimum order is $300 AUD."
       },
       {
-        "question": "Which australian whisky bottles do you stock?",
-        "answer": "Our australian whisky range includes Lark (11). Open any brand or bottle for size, strength and price."
+        "question": "Which australian whisky brands do you sell?",
+        "answer": "Our australian whisky range includes Lark (11) and Starward (6). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is australian whisky?",
@@ -364,7 +364,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks. Doctors of Whisky lists 11 australian whisky bottles across 1 brand, including Lark, priced from $54.99 to $1,990 AUD.",
+      "Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks. Doctors of Whisky lists 17 australian whisky bottles across 2 brands, including Lark and Starward, priced from $54.99 to $1,990 AUD.",
       "Lark Distillery in Tasmania was founded by Bill Lark in 1992 and is widely credited with reviving Australian whisky making. Try Australian single malt neat first, then with a splash of water to reveal more fruit and spice.",
       "To buy australian whisky online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1121,7 +1121,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "white-tequila",
     "name": "White Tequila",
     "category": "spirit",
-    "description": "Tequila For Sale: 9 White Tequila bottles from Padre, Cabo and Gran Patron, $64.99 to $290 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Tequila For Sale: 11 White Tequila bottles from Padre, Cabo and Gran Patron, $64.99 to $290 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/white-tequila/white-tequila--tds-cabo-wabo-blanco-new.jpg",
     "primaryKeyword": "tequila for sale",
     "secondaryKeywords": [
@@ -1168,7 +1168,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Blanco (white or silver) tequila is unaged or aged for no more than two months, and tastes of fresh agave, citrus and pepper. Doctors of Whisky lists 9 white tequila bottles across 8 brands, including Padre, Cabo, Gran Patron and Kah, priced from $64.99 to $290 AUD.",
+      "Blanco (white or silver) tequila is unaged or aged for no more than two months, and tastes of fresh agave, citrus and pepper. Doctors of Whisky lists 11 white tequila bottles across 10 brands, including Padre, Cabo, Gran Patron and Kah, priced from $64.99 to $290 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use blanco tequila in margaritas, palomas and tequila sodas, or sip it neat.",
       "To buy white tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1199,7 +1199,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "gold-tequila",
     "name": "Gold Tequila",
     "category": "spirit",
-    "description": "Buy Tequila: 9 Gold Tequila bottles from Jose Cuervo, Herradurra and Cabo, $60.99 to $295 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Tequila: 13 Gold Tequila bottles from Jose Cuervo, Herradurra and Casamigos, $60.99 to $295 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/gold-tequila/gold-tequila--tds-cabo-wabo-anejo-new.jpg",
     "primaryKeyword": "buy tequila",
     "secondaryKeywords": [
@@ -1230,7 +1230,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which gold tequila brands do you sell?",
-        "answer": "Our gold tequila range includes Jose Cuervo (3), Herradurra (2), Cabo (1), Clase (1), Don Julio (1) and Rio (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our gold tequila range includes Jose Cuervo (3), Herradurra (2), Casamigos (2), Espolon (2), Cabo (1), Clase (1), Don Julio (1) and Rio (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is gold tequila?",
@@ -1246,7 +1246,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Gold tequila (joven) is often a blend of unaged tequila with aged tequila or added colouring and flavouring, and is popular for mixing. Doctors of Whisky lists 9 gold tequila bottles across 6 brands, including Jose Cuervo, Herradurra, Cabo and Clase, priced from $60.99 to $295 AUD.",
+      "Gold tequila (joven) is often a blend of unaged tequila with aged tequila or added colouring and flavouring, and is popular for mixing. Doctors of Whisky lists 13 gold tequila bottles across 8 brands, including Jose Cuervo, Herradurra, Casamigos and Espolon, priced from $60.99 to $295 AUD.",
       "Jose Cuervo is one of the oldest tequila houses in the world, producing tequila in Jalisco, Mexico. Gold tequila works well in margaritas, tequila sunrises and shots with lime.",
       "To buy gold tequila online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1277,7 +1277,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "spiced-rum",
     "name": "Spiced Rum",
     "category": "spirit",
-    "description": "Kraken Black Spiced Rum: 10 Spiced Rum bottles from Kraken, Captain and Bacardi, $15.99 to $160 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Kraken Black Spiced Rum: 11 Spiced Rum bottles from Kraken, Captain and Bacardi, $15.99 to $160 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/spiced-rum/spiced-rum--tds-bacardi-cuarto-sherry.jpg",
     "primaryKeyword": "kraken black spiced rum",
     "secondaryKeywords": [
@@ -1308,7 +1308,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which spiced rum brands do you sell?",
-        "answer": "Our spiced rum range includes Kraken (5), Captain (3) and Bacardi (2). Open any brand or bottle for size, strength and price."
+        "answer": "Our spiced rum range includes Kraken (5), Captain (3), Bacardi (2) and Captain Morgan (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is spiced rum?",
@@ -1324,7 +1324,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Doctors of Whisky lists 10 spiced rum bottles across 3 brands, including Kraken, Captain and Bacardi, priced from $15.99 to $160 AUD.",
+      "Spiced rum is rum infused with spices such as vanilla, cinnamon, clove and orange peel. Doctors of Whisky lists 11 spiced rum bottles across 4 brands, including Kraken, Captain, Bacardi and Captain Morgan, priced from $15.99 to $160 AUD.",
       "Mix spiced rum with cola or ginger beer, or sip it over ice.",
       "To buy spiced rum online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1593,7 +1593,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "cognac-brandy",
     "name": "Cognac & Brandy",
     "category": "spirit",
-    "description": "Hennessy Cognac: 37 Cognac & Brandy bottles from Courvoisier, Martell and Coquerel, $7.99 to $5,400 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Hennessy Cognac: 39 Cognac & Brandy bottles from Courvoisier, Martell and Hennessy, $7.99 to $5,400 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/cognac-brandy/martell--tds-martell-blue-swift-90a7dfbe-881b-48a1-9ac0-b4e9564f57bf.jpg",
     "primaryKeyword": "hennessy cognac",
     "secondaryKeywords": [
@@ -1624,7 +1624,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which cognac & brandy brands do you sell?",
-        "answer": "Our cognac & brandy range includes Courvoisier (7), Martell (5), Coquerel (4), Camus (3), Hennessy (3), Alize (2), Remy (2) and Rémy Martin (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our cognac & brandy range includes Courvoisier (8), Martell (5), Hennessy (4), Coquerel (4), Camus (3), Alize (2), Remy (2) and Rémy Martin (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is cognac & brandy?",
@@ -1640,7 +1640,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Doctors of Whisky lists 37 cognac & brandy bottles across 18 brands, including Courvoisier, Martell, Coquerel and Camus, priced from $7.99 to $5,400 AUD.",
+      "Cognac is a brandy made from white grapes in the Cognac region of France, double-distilled in copper pot stills and aged in oak, with ages labelled VS, VSOP and XO. Doctors of Whisky lists 39 cognac & brandy bottles across 18 brands, including Courvoisier, Martell, Hennessy and Coquerel, priced from $7.99 to $5,400 AUD.",
       "Martell is the oldest of the great Cognac houses, founded in 1715 by Jean Martell. Sip cognac neat from a tulip glass, or use VS and VSOP in cocktails such as the Sidecar.",
       "To buy cognac & brandy online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1749,7 +1749,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "coffee-liqueur",
     "name": "Coffee Liqueur",
     "category": "spirit",
-    "description": "Kahlua Liquor: 10 Coffee Liqueur bottles from Patron, Sheridans and Kahlua, $34.99 to $85 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Kahlua Liquor: 11 Coffee Liqueur bottles from Patron, Kahlua and Sheridans, $34.99 to $85 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/coffee-liqueur/coffee-liqueur--tds-avion-espresso-tequila.jpg",
     "primaryKeyword": "kahlua liquor",
     "secondaryKeywords": [
@@ -1780,7 +1780,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which coffee liqueur brands do you sell?",
-        "answer": "Our coffee liqueur range includes Patron (4), Sheridans (3), Kahlua (2) and Avion (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our coffee liqueur range includes Patron (4), Kahlua (3), Sheridans (3) and Avion (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is coffee liqueur?",
@@ -1796,7 +1796,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Coffee liqueur combines coffee flavour with sugar and spirit; Kahlúa is the best-known example. Doctors of Whisky lists 10 coffee liqueur bottles across 4 brands, including Patron, Sheridans, Kahlua and Avion, priced from $34.99 to $85 AUD.",
+      "Coffee liqueur combines coffee flavour with sugar and spirit; Kahlúa is the best-known example. Doctors of Whisky lists 11 coffee liqueur bottles across 4 brands, including Patron, Kahlua, Sheridans and Avion, priced from $34.99 to $85 AUD.",
       "Patrón is a premium tequila made in Jalisco, Mexico from 100% Weber blue agave. Use coffee liqueur in an espresso martini or White Russian, or pour it over ice cream.",
       "To buy coffee liqueur online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -1827,7 +1827,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "orange-liqueur",
     "name": "Orange Liqueur",
     "category": "spirit",
-    "description": "Cointreau Price: 5 Orange Liqueur bottles from Cointreau, 1800 and Jagermeister, $7.99 to $71.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Cointreau Price: 7 Orange Liqueur bottles from Cointreau, 1800 and Jagermeister, $7.99 to $102.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/orange-liqueur/orange-liqueur--tds-1800-guachimonton.jpg",
     "primaryKeyword": "cointreau price",
     "secondaryKeywords": [
@@ -1850,7 +1850,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does orange liqueur cost in Australia?",
-        "answer": "Orange Liqueur at Doctors of Whisky ranges from $7.99 AUD (Cointreau 50ml Orange Liqueur) to $71.99 AUD (Cointreau Orange Liqueur). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Orange Liqueur at Doctors of Whisky ranges from $7.99 AUD (Cointreau 50ml Orange Liqueur) to $102.99 AUD (Cointreau Triple Sec Liqueur 1L). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy cointreau in Australia?",
@@ -1858,7 +1858,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which orange liqueur brands do you sell?",
-        "answer": "Our orange liqueur range includes Cointreau (3), 1800 (1) and Jagermeister (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our orange liqueur range includes Cointreau (4), 1800 (1), Jagermeister (1) and Grand Marnier (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is orange liqueur?",
@@ -1874,7 +1874,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Orange liqueurs such as Cointreau and Grand Marnier are flavoured with orange peel and are essential in margaritas, cosmopolitans and Sidecars. Doctors of Whisky lists 5 orange liqueur bottles across 3 brands, including Cointreau, 1800 and Jagermeister, priced from $7.99 to $71.99 AUD.",
+      "Orange liqueurs such as Cointreau and Grand Marnier are flavoured with orange peel and are essential in margaritas, cosmopolitans and Sidecars. Doctors of Whisky lists 7 orange liqueur bottles across 4 brands, including Cointreau, 1800, Jagermeister and Grand Marnier, priced from $7.99 to $102.99 AUD.",
       "Use orange liqueur in margaritas and cosmopolitans, or sip Grand Marnier neat after dinner.",
       "To buy orange liqueur online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -2857,7 +2857,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "rose-wine",
     "name": "Rosé Wine",
     "category": "beer-premix-wine",
-    "description": "Buy Sparkling Rose Online: 10 Rosé Wine bottles from Batch, Casa and Chandon, $75 to $280 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Sparkling Rose Online: 11 Rosé Wine bottles from Batch, Casa and Chandon, $53.99 to $280 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/rose-wine/rose-wine--tds-batch-co-bondi-spritz-24pack-cans.jpg",
     "primaryKeyword": "buy sparkling rose online",
     "secondaryKeywords": [
@@ -2880,7 +2880,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does rosé wine cost in Australia?",
-        "answer": "Rosé Wine at Doctors of Whisky ranges from $75 AUD (Mateus Rose Rosé Wine) to $280 AUD (Casa Canavel Doc Rose Rosé Wine). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Rosé Wine at Doctors of Whisky ranges from $53.99 AUD (Chateau d'Esclans Whispering Angel Rosé) to $280 AUD (Casa Canavel Doc Rose Rosé Wine). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy rosé wine online in Australia?",
@@ -2904,7 +2904,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Rosé is made from red grapes with brief skin contact, giving a pink colour and fresh, fruity flavour. Doctors of Whisky lists 10 rosé wine bottles across 9 brands, including Batch, Casa, Chandon and Coolabah, priced from $75 to $280 AUD.",
+      "Rosé is made from red grapes with brief skin contact, giving a pink colour and fresh, fruity flavour. Doctors of Whisky lists 11 rosé wine bottles across 10 brands, including Batch, Casa, Chandon and Coolabah, priced from $53.99 to $280 AUD.",
       "Serve rosé chilled, around 8 to 10 degrees Celsius, especially in warm weather.",
       "To buy rosé wine online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -2935,7 +2935,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "sparkling",
     "name": "Sparkling Wine",
     "category": "beer-premix-wine",
-    "description": "Buy Sparkling Wine Online: 6 Sparkling Wine bottles from Moet, Dom Pérignon and Sparkling, $75 to $780 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Sparkling Wine Online: 8 Sparkling Wine bottles from Moet, Chandon and Dom Pérignon, $30.99 to $780 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/sparkling/sparkling--tds-gh-mumm-corodn-rouge-brut-4ed4acd1-ceed-4bd6-a095-bebd780071c7.jpg",
     "primaryKeyword": "buy sparkling wine online",
     "secondaryKeywords": [
@@ -2958,7 +2958,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does sparkling wine cost in Australia?",
-        "answer": "Sparkling Wine at Doctors of Whisky ranges from $75 AUD (Moet Rose Imperial Sparkling Wine) to $780 AUD (Dom Pérignon Vintage Rosé Champagne 2008). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Sparkling Wine at Doctors of Whisky ranges from $30.99 AUD (Chandon Rosé NV) to $780 AUD (Dom Pérignon Vintage Rosé Champagne 2008). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy sparkling wine online in Australia?",
@@ -2966,7 +2966,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which sparkling wine brands do you sell?",
-        "answer": "Our sparkling wine range includes Moet (2), Dom Pérignon (1), Sparkling (1), Laurent (1) and Piper (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our sparkling wine range includes Moet (2), Chandon (2), Dom Pérignon (1), Sparkling (1), Laurent (1) and Piper (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is sparkling wine?",
@@ -2982,7 +2982,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France. Doctors of Whisky lists 6 sparkling wine bottles across 5 brands, including Moet, Dom Pérignon, Sparkling and Laurent, priced from $75 to $780 AUD.",
+      "Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France. Doctors of Whisky lists 8 sparkling wine bottles across 6 brands, including Moet, Chandon, Dom Pérignon and Sparkling, priced from $30.99 to $780 AUD.",
       "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass.",
       "To buy sparkling wine online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],
@@ -3407,7 +3407,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "irish-whiskey",
     "name": "Irish Whiskey",
     "category": "whisky",
-    "description": "Bushmills Whiskey: 6 Irish Whiskey bottles from Bushmills and Redbreast, $49.99 to $799.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Bushmills Whiskey: 13 Irish Whiskey bottles from Jameson, Bushmills and Redbreast, $49.99 to $799.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/irish-whiskey/redbreast-21-year-old-antipodes-2000-first-fill-oloroso-sherry-cask-strength-irish-whiskey.jpg",
     "primaryKeyword": "bushmills whiskey",
     "secondaryKeywords": [
@@ -3460,7 +3460,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which irish whiskey brands do you sell?",
-        "answer": "Our irish whiskey range includes Bushmills (3) and Redbreast (3). Open any brand or bottle for size, strength and price."
+        "answer": "Our irish whiskey range includes Jameson (7), Bushmills (3) and Redbreast (3). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is irish whiskey?",
@@ -3476,7 +3476,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Irish whiskey is whiskey made in Ireland and matured in wooden casks for at least three years. Doctors of Whisky lists 6 irish whiskey bottles across 2 brands, including Bushmills and Redbreast, priced from $49.99 to $799.99 AUD.",
+      "Irish whiskey is whiskey made in Ireland and matured in wooden casks for at least three years. Doctors of Whisky lists 13 irish whiskey bottles across 3 brands, including Jameson, Bushmills and Redbreast, priced from $49.99 to $799.99 AUD.",
       "Enjoy Irish whiskey neat, over ice, in a highball, or in an Irish coffee.",
       "To buy irish whiskey online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
@@ -3485,7 +3485,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "vodka",
     "name": "Vodka",
     "category": "spirit",
-    "description": "Buy Vodka Online: 2 Vodka bottles from Absolut, $49.99 to $79.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Vodka Online: 6 Vodka bottles from Absolut, $49.99 to $80.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/vodka/absolut-tabasco-chilli-pepper-flavoured-swedish-vodka.jpg",
     "primaryKeyword": "buy vodka online",
     "secondaryKeywords": [
@@ -3530,7 +3530,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does vodka cost in Australia?",
-        "answer": "Vodka at Doctors of Whisky ranges from $49.99 AUD (Absolut Swedish Vodka) to $79.99 AUD (Absolut Tabasco Chilli Pepper Flavoured Swedish Vodka). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Vodka at Doctors of Whisky ranges from $49.99 AUD (Absolut Swedish Vodka) to $80.99 AUD (Absolut Mango Vodka 1L). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy vodka online in Australia?",
@@ -3542,7 +3542,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which vodka bottles do you stock?",
-        "answer": "Our vodka range includes Absolut (2). Open any brand or bottle for size, strength and price."
+        "answer": "Our vodka range includes Absolut (6). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is vodka?",
@@ -3558,7 +3558,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Vodka is a clear spirit distilled from grain, potatoes or other fermentable materials and usually filtered for a clean, neutral taste. Doctors of Whisky lists 2 vodka bottles across 1 brand, including Absolut, priced from $49.99 to $79.99 AUD.",
+      "Vodka is a clear spirit distilled from grain, potatoes or other fermentable materials and usually filtered for a clean, neutral taste. Doctors of Whisky lists 6 vodka bottles across 1 brand, including Absolut, priced from $49.99 to $80.99 AUD.",
       "Serve vodka well chilled and neat, in a martini, or with soda, tonic or juice.",
       "To buy vodka online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]
@@ -3645,7 +3645,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "champagne",
     "name": "Champagne",
     "category": "beer-premix-wine",
-    "description": "Champagne Sale: 6 Champagne bottles from Laurent-Perrier and Krug, $74.99 to $289.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Champagne Sale: 22 Champagne bottles from Laurent-Perrier, Taittinger and Moet & Chandon, $70.99 to $289.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/champagne/laurent-perrier-la-cuvee-brut-rose-champagne-nv-magnum.jpg",
     "primaryKeyword": "champagne sale",
     "secondaryKeywords": [
@@ -3690,7 +3690,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "faqs": [
       {
         "question": "How much does champagne cost in Australia?",
-        "answer": "Champagne at Doctors of Whisky ranges from $74.99 AUD (Laurent-Perrier La Cuvee Brut Champagne NV) to $289.99 AUD (Laurent-Perrier La Cuvee Brut Rose Champagne NV Magnum). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
+        "answer": "Champagne at Doctors of Whisky ranges from $70.99 AUD (Pol Roger Brut Reserve NV Gift Box) to $289.99 AUD (Laurent-Perrier La Cuvee Brut Rose Champagne NV Magnum). Paying with Bitcoin or USDT takes 12% off, and orders of $1,500 AUD or more ship free."
       },
       {
         "question": "Where can I buy champagne online in Australia?",
@@ -3698,11 +3698,11 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Where can I find cheap champagne online in Australia?",
-        "answer": "Champagne at Doctors of Whisky starts from $74.99 AUD (Laurent-Perrier La Cuvee Brut Champagne NV). Compare the prices above, spend $1,500 AUD or more for free express delivery, and pay by PayID, bank transfer, Bitcoin or USDT (12% off with crypto)."
+        "answer": "Champagne at Doctors of Whisky starts from $70.99 AUD (Pol Roger Brut Reserve NV Gift Box). Compare the prices above, spend $1,500 AUD or more for free express delivery, and pay by PayID, bank transfer, Bitcoin or USDT (12% off with crypto)."
       },
       {
         "question": "Which champagne brands do you sell?",
-        "answer": "Our champagne range includes Laurent-Perrier (5) and Krug (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our champagne range includes Laurent-Perrier (5), Taittinger (3), Moet & Chandon (3), Veuve Clicquot (3), Pol Roger (2), Perrier-Jouet (2), Krug (1) and Bollinger (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is champagne?",
@@ -3718,7 +3718,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Doctors of Whisky lists 6 champagne bottles across 2 brands, including Laurent-Perrier and Krug, priced from $74.99 to $289.99 AUD.",
+      "Champagne is sparkling wine from the Champagne region of France, made by the traditional method with a second fermentation in the bottle. Doctors of Whisky lists 22 champagne bottles across 10 brands, including Laurent-Perrier, Taittinger, Moet & Chandon and Veuve Clicquot, priced from $70.99 to $289.99 AUD.",
       "Serve Champagne well chilled in a tulip or flute glass.",
       "To buy champagne online in Australia, choose a bottle above and add it to your cart. Orders of $1,500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $300 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ]

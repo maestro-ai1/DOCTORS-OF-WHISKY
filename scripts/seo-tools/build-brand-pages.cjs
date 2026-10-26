@@ -36,7 +36,21 @@ for (const g of ['categories', 'subcategories', 'pages']) for (const e of map[g]
 
 // brands that already have their own collection or are not real brands
 // Keywords read from Semrush AU (Domain/Keyword Overview, 2026-10-25) that the Sep-28 bank export does not carry.
-const EXTRA = { Heineken: [{ kw: 'heineken', raw: 'Informational, Transactional', intent: 'Transactional', vol: 6600, kd: 26 }] };
+const EXTRA = {
+  Heineken: [{ kw: 'heineken', raw: 'Transactional', intent: 'Transactional', vol: 6600, kd: 26 }],
+  // Semrush AU Keyword Overview, 2026-10-26: brand head terms (Commercial, KD <= 29)
+  'Veuve Clicquot': [{ kw: 'veuve clicquot', raw: 'Commercial', intent: 'Commercial', vol: 14800, kd: 22 }, { kw: 'veuve clicquot price', raw: 'Transactional', intent: 'Transactional', vol: 390, kd: 17 }],
+  Hennessy: [{ kw: 'hennessy', raw: 'Commercial', intent: 'Commercial', vol: 12100, kd: 26 }, { kw: 'hennessy vsop', raw: 'Commercial', intent: 'Commercial', vol: 3600, kd: 17 }],
+  Jameson: [{ kw: 'jameson', raw: 'Commercial', intent: 'Commercial', vol: 4400, kd: 16 }, { kw: 'jameson whiskey price', raw: 'Transactional', intent: 'Transactional', vol: 390, kd: 14 }],
+  Bollinger: [{ kw: 'bollinger champagne', raw: 'Commercial', intent: 'Commercial', vol: 4400, kd: 20 }],
+  Espolon: [{ kw: 'espolon tequila', raw: 'Commercial', intent: 'Commercial', vol: 2400, kd: 17 }],
+  Casamigos: [{ kw: 'casamigos', raw: 'Commercial', intent: 'Commercial', vol: 1900, kd: 17 }],
+  'Crown Royal': [{ kw: 'crown royal', raw: 'Commercial', intent: 'Commercial', vol: 1900, kd: 19 }],
+  Starward: [{ kw: 'starward', raw: 'Navigational', intent: 'Navigational', vol: 1900, kd: 19 }],
+  Taittinger: [{ kw: 'taittinger', raw: 'Commercial', intent: 'Commercial', vol: 1000, kd: 17 }],
+  'Pol Roger': [{ kw: 'pol roger', raw: 'Commercial', intent: 'Commercial', vol: 1300, kd: 11 }],
+  'Captain Morgan': [{ kw: 'captain morgan', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 14 }],
+};
 const SKIP = new Set(['Baileys', 'Patron', 'Don Julio', 'Grey Goose', 'Belvedere', 'Smirnoff', 'Absolut', 'Jose Cuervo', 'Lark', 'Absinthe', 'Russian Vodka', 'Vodka Premix', 'Little', 'Captain', 'Penfolds', 'Sheridans', 'Courvoisier']);
 const by = {};
 for (const p of products) (by[p.brand] ||= []).push(p);
@@ -48,6 +62,7 @@ for (const [brand, list] of Object.entries(by)) {
   const bt = norm(brand).split(' ').filter((x) => x.length > 2);
   if (!bt.length) continue;
   const cand = [...(EXTRA[brand] || []).map((k) => ({ ...k, w: k.kw.split(' ') })), ...K].filter((k) => bt.every((x) => k.w.includes(x)) && k.w.every((x) => bt.includes(x) || MOD.has(x) || /^\d+$/.test(x)));
+  { const seenKw = new Set(); for (let i = 0; i < cand.length; i++) { if (seenKw.has(cand[i].kw)) cand.splice(i--, 1); else seenKw.add(cand[i].kw); } } // EXTRA (fresh Semrush) wins over the bank
   if (!cand.length) continue;
   const best = (arr) => arr.slice().sort((a, b) => b.vol - a.vol);
   const T = best(cand.filter((k) => k.intent === 'Transactional' && !used.has(k.kw)));

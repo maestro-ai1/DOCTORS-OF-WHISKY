@@ -87,6 +87,120 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "veuve-clicquot",
+  "brand": "Veuve Clicquot",
+  "primary": {
+   "kw": "veuve clicquot",
+   "vol": 14800,
+   "kd": 22,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "veuve clicquot price",
+    "vol": 390,
+    "kd": 17,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "veuve clicquot champagne price",
+    "vol": 260,
+    "kd": 14,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "clicquot veuve price",
+    "vol": 140,
+    "kd": 8,
+    "intent": "Transactional"
+   }
+  ]
+ },
+ {
+  "slug": "hennessy",
+  "brand": "Hennessy",
+  "primary": {
+   "kw": "hennessy",
+   "vol": 12100,
+   "kd": 26,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "hennessy cognac price",
+    "vol": 320,
+    "kd": 9,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "hennessy and cognac",
+    "vol": 320,
+    "kd": 16,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "hennessy whiskey",
+    "vol": 320,
+    "kd": 17,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "cognac hennessy price",
+    "vol": 210,
+    "kd": 11,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "cognac hennessy",
+    "vol": 110,
+    "kd": 11,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
+  "slug": "kahlua",
+  "brand": "Kahlua",
+  "primary": {
+   "kw": "kahlua",
+   "vol": 9900,
+   "kd": 24,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "kahlua liqueur",
+    "vol": 880,
+    "kd": 20,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "kahlua price",
+    "vol": 720,
+    "kd": 14,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "kahlua 1 litre",
+    "vol": 320,
+    "kd": 14,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "kahlua cost",
+    "vol": 260,
+    "kd": 11,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "kahlua 1l",
+    "vol": 260,
+    "kd": 14,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "jim-beam",
   "brand": "Jim Beam",
   "primary": {
@@ -224,6 +338,48 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "jameson",
+  "brand": "Jameson",
+  "primary": {
+   "kw": "jameson whisky",
+   "vol": 6600,
+   "kd": 20,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "jameson",
+    "vol": 4400,
+    "kd": 16,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jameson whiskey",
+    "vol": 1900,
+    "kd": 10,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jameson 1 litre",
+    "vol": 590,
+    "kd": 17,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jameson 700ml",
+    "vol": 480,
+    "kd": 11,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "jameson whiskey price",
+    "vol": 390,
+    "kd": 14,
+    "intent": "Transactional"
+   }
+  ]
+ },
+ {
   "slug": "macallan",
   "brand": "Macallan",
   "primary": {
@@ -303,6 +459,30 @@ export const BRAND_PAGES: BrandPageSeo[] = [
     "kw": "chivas regal price",
     "vol": 480,
     "kd": 11,
+    "intent": "Transactional"
+   }
+  ]
+ },
+ {
+  "slug": "starward",
+  "brand": "Starward",
+  "primary": {
+   "kw": "starward whisky",
+   "vol": 3600,
+   "kd": 20,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "starward",
+    "vol": 1900,
+    "kd": 19,
+    "intent": "Navigational"
+   },
+   {
+    "kw": "starward single malt",
+    "vol": 260,
+    "kd": 23,
     "intent": "Transactional"
    }
   ]
@@ -422,6 +602,24 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "espolon",
+  "brand": "Espolon",
+  "primary": {
+   "kw": "espolon tequila",
+   "vol": 2400,
+   "kd": 17,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "tequila espolon",
+    "vol": 170,
+    "kd": 13,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "martell",
   "brand": "Martell",
   "primary": {
@@ -441,6 +639,48 @@ export const BRAND_PAGES: BrandPageSeo[] = [
     "kw": "cognac martell",
     "vol": 110,
     "kd": 14,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
+  "slug": "chandon",
+  "brand": "Chandon",
+  "primary": {
+   "kw": "chandon champagne",
+   "vol": 1900,
+   "kd": 28,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "chandon champagne price",
+    "vol": 320,
+    "kd": 10,
+    "intent": "Transactional"
+   },
+   {
+    "kw": "chandon specials",
+    "vol": 110,
+    "kd": 10,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
+  "slug": "casamigos",
+  "brand": "Casamigos",
+  "primary": {
+   "kw": "casamigos tequila",
+   "vol": 1600,
+   "kd": 20,
+   "intent": "Transactional"
+  },
+  "secondary": [
+   {
+    "kw": "casamigos",
+    "vol": 1900,
+    "kd": 17,
     "intent": "Commercial"
    }
   ]
@@ -662,6 +902,41 @@ export const BRAND_PAGES: BrandPageSeo[] = [
   ]
  },
  {
+  "slug": "taittinger",
+  "brand": "Taittinger",
+  "primary": {
+   "kw": "taittinger",
+   "vol": 1000,
+   "kd": 17,
+   "intent": "Commercial"
+  },
+  "secondary": []
+ },
+ {
+  "slug": "moet-and-chandon",
+  "brand": "Moet & Chandon",
+  "primary": {
+   "kw": "moet and chandon champagne",
+   "vol": 1000,
+   "kd": 28,
+   "intent": "Commercial"
+  },
+  "secondary": [
+   {
+    "kw": "champagne moet and chandon",
+    "vol": 140,
+    "kd": 17,
+    "intent": "Commercial"
+   },
+   {
+    "kw": "moet chandon 750ml",
+    "vol": 110,
+    "kd": 7,
+    "intent": "Commercial"
+   }
+  ]
+ },
+ {
   "slug": "the-dalmore",
   "brand": "The Dalmore",
   "primary": {
@@ -805,48 +1080,6 @@ export const BRAND_PAGES: BrandPageSeo[] = [
    {
     "kw": "aberlour single malt whiskey",
     "vol": 170,
-    "kd": 9,
-    "intent": "Transactional"
-   }
-  ]
- },
- {
-  "slug": "hennessy",
-  "brand": "Hennessy",
-  "primary": {
-   "kw": "hennessy cognac price",
-   "vol": 320,
-   "kd": 9,
-   "intent": "Transactional"
-  },
-  "secondary": [
-   {
-    "kw": "hennessy and cognac",
-    "vol": 320,
-    "kd": 16,
-    "intent": "Commercial"
-   },
-   {
-    "kw": "hennessy whiskey",
-    "vol": 320,
-    "kd": 17,
-    "intent": "Commercial"
-   },
-   {
-    "kw": "cognac hennessy price",
-    "vol": 210,
-    "kd": 11,
-    "intent": "Transactional"
-   },
-   {
-    "kw": "cognac hennessy",
-    "vol": 110,
-    "kd": 11,
-    "intent": "Commercial"
-   },
-   {
-    "kw": "price of cognac hennessy",
-    "vol": 110,
     "kd": 9,
     "intent": "Transactional"
    }
