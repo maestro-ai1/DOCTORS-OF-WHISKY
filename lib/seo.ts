@@ -5,7 +5,7 @@ import type { Product } from '@/lib/types';
 
 export const BASE_URL = `https://${SITE.domain}`;
 /** Bump when page content genuinely changes — used for sitemap <lastmod> and og:updated_time. */
-export const CONTENT_UPDATED = '2026-10-04';
+export const CONTENT_UPDATED = '2026-10-29';
 
 export const DEFAULT_OG_IMAGE = {
   url: `${BASE_URL}/og-default.png`,
@@ -222,6 +222,13 @@ export function productLd(product: Product) {
         '@type': 'OfferShippingDetails',
         shippingRate: { '@type': 'MonetaryAmount', value: product.price >= SHOP_RULES.freeShippingThreshold ? 0 : SHOP_RULES.shippingFee, currency: SITE.currency.code },
         shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
+      },
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: 'AU',
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 7,
+        merchantReturnLink: absoluteUrl('/refund-policy/'),
       },
     },
   };
