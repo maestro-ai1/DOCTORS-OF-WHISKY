@@ -1,6 +1,7 @@
 import type { BlogPost } from '@/lib/types';
 import { SHOP_RULES } from '@/lib/config';
 import { NEW_GUIDE_EXTRAS } from '@/lib/data/blog-new-extras';
+import { NEW_GUIDE_EXTRAS_2 } from '@/lib/data/blog-new-extras-2';
 
 export interface NewGuide {
   slug: string;
@@ -30,6 +31,7 @@ export function newGuide(g: NewGuide): BlogPost {
   const sections = [
     ...g.sections,
     ...(NEW_GUIDE_EXTRAS[g.slug] ?? []),
+    ...(NEW_GUIDE_EXTRAS_2[g.slug] ?? []),
     {
       heading: 'How do you buy online from Doctors of Whisky?',
       paragraphs: [
