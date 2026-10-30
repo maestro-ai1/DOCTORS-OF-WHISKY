@@ -34,6 +34,8 @@ export interface Product {
   tags?: string[];
   faqs: FaqItem[];
   metaTitle: string;
+  /** H1 shown on the product page; always contains the primary keyword */
+  h1?: string;
   metaDescription: string;
   /** extra keyword-rich paragraphs rendered below the lead description */
   longDescription?: string[];

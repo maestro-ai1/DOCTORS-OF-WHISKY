@@ -10,10 +10,12 @@ import { Sparkles, ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { buildMetadata, breadcrumbLd, itemListLd, webPageLd, ld, titleCase } from '@/lib/seo';
 import { CATEGORY_SEO } from '@/lib/data/category-seo';
+import { FeaturedCollections, ALL_FEATURED } from '@/components/FeaturedCollections';
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { TagCloud } from '@/components/TagCloud';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { authorityFor } from '@/lib/data/authority-links';
+import { BLOG_POSTS } from '@/lib/data/blog';
 import { VISIBLE_TAGS, linkList } from '@/lib/tag-links';
 
 interface CategoryPageProps {
@@ -83,10 +85,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             </div>
             <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">
-              {currentCat.name}
+              {titleCase(CATEGORY_SEO[catSlug].primary)} in Australia
             </h1>
             <p className="text-xs sm:text-sm text-neutral-400 max-w-2xl font-light leading-relaxed">
-              {currentCat.description}
+              {titleCase(CATEGORY_SEO[catSlug].primary)}: {currentCat.description} Browse {products.length} bottles across {subcategories.length} collections, with insured delivery Australia-wide.
             </p>
             <h2 className="text-lg font-serif font-bold text-amber-300">
               {titleCase(CATEGORY_SEO[catSlug].primary)}: {products.length} bottles across {subcategories.length} collections
@@ -99,7 +101,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <div className="space-y-5">
             <h2 className="text-lg font-serif font-bold text-neutral-100">Shop by Collection</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {subcategories.map((sub) => {
+              {subcategories.map((sub, si) => {
                 const count = products.filter((p) => p.subCategorySlug === sub.slug).length;
                 return (
                   <Link
@@ -108,7 +110,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     className="group relative rounded-2xl overflow-hidden border border-neutral-800 hover:border-amber-600/60 bg-neutral-900/60 transition-all flex items-center gap-4 p-4"
                   >
                     <div className="relative w-20 h-20 shrink-0 rounded-xl overflow-hidden bg-white">
-                      <Image src={sub.heroImage} alt={`${sub.name} collection`} fill className="object-contain p-1.5" sizes="80px" />
+                      <Image src={sub.heroImage} alt={si === 0 ? `${CATEGORY_SEO[catSlug].primary} - ${sub.name} collection` : `${sub.name} collection`} fill className="object-contain p-1.5" sizes="80px" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-serif font-bold text-neutral-100 group-hover:text-amber-300 transition-colors truncate">
@@ -143,16 +145,30 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <div className="space-y-5">
             <h2 className="text-lg font-serif font-bold text-neutral-100">Featured Allocations</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {featuredProducts.map((product) => (
+              {featuredProducts.map((product, i) => (
                 <div key={product.id} className="h-full">
-                  <ProductCard product={product} />
+                  <ProductCard product={product} altKeyword={i === 0 ? CATEGORY_SEO[catSlug].primary : undefined} />
                 </div>
               ))}
             </div>
           </div>
         )}
-        <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 5)} title={`Related searches: ${CATEGORY_SEO[catSlug].primary}`} />
+        <RelatedSearches links={linkList(CATEGORY_SEO[catSlug].secondary, path, path, 5)} title={`Related searches: ${CATEGORY_SEO[catSlug].secondary[0] || CATEGORY_SEO[catSlug].primary}`} />
         <TagCloud tags={linkList(CATEGORY_SEO[catSlug].tags, path, path, VISIBLE_TAGS)} title="Popular searches and tags" />
+        <FeaturedCollections links={ALL_FEATURED.filter((l) => (catSlug === 'whisky' ? l.href.startsWith('/gifts/whisky') : catSlug === 'spirit' ? !l.href.startsWith('/gifts/whisky') : false))} />
+        <section aria-label="Explore more" className="pt-8 border-t border-neutral-900 space-y-3">
+          <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider">Explore more of Doctors of Whisky</h2>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2 text-sm">
+            {MAIN_CATEGORIES.filter((c) => c.slug !== catSlug).map((c) => (
+              <li key={c.slug}><Link href={`/shop/${c.slug}/`} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Shop {c.name.toLowerCase()}</Link></li>
+            ))}
+            {BLOG_POSTS.filter((b) => subcategories.some((s) => s.slug === b.relatedSubcategory)).slice(0, 4).map((b) => (
+              <li key={b.slug}><Link href={`/blog/${b.slug}/`} className="text-amber-400 hover:text-amber-300 underline underline-offset-2">{b.title}</Link></li>
+            ))}
+            <li><Link href="/brands/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Shop by brand</Link></li>
+            <li><Link href="/shipping/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Delivery and shipping</Link></li>
+          </ul>
+        </section>
         <AuthorityLinks links={authorityFor(subcategories[0]?.slug ?? '')} title={`Learn more about ${currentCat.name.toLowerCase()}`} />
       </div>
     </div>

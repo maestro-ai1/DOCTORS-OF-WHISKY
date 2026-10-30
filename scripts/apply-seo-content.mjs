@@ -48,6 +48,7 @@ const subBySlug = Object.fromEntries(subs.map((s) => [s.slug, s]));
 const hash = (s) => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; };
 const pick = (arr, seed) => arr[hash(seed) % arr.length];
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const inc = (a, b) => (' ' + norm(a) + ' ').includes(' ' + norm(b) + ' ');
 const article = (w) => (/^[aeiou]/i.test(w) ? 'an' : 'a');
 const lc = (s) => s.charAt(0).toLowerCase() + s.slice(1);
 const BRAND_FIX = { Glendronach: 'GlenDronach' };
@@ -193,10 +194,11 @@ for (const p of products) {
   }
 
   const ageBit = p.age ? `, carrying an age statement of ${p.age}` : '';
+  const primSent = inc(p.name, kws.primary) ? '' : ` If you are searching for ${kws.primary}, this is the listing, with price, size and insured delivery shown above.`;
   const p1Variants = [
-    `${p.name} comes from ${p.brand}. ${brandFact} ${whatBit}`.replace(/\s+/g, ' ').trim(),
-    `${whatBit} ${p.name} is ${p.brand}’s expression in this style${ageBit}. ${brandFact}`.replace(/\s+/g, ' ').trim(),
-    `${brandFact} ${p.name} sits in our ${catLower} range${nOthers > 0 ? `, alongside ${nOthers} other ${p.brand} ${nOthers === 1 ? 'bottle' : 'bottles'}` : ''}. ${whatBit}`.replace(/\s+/g, ' ').trim(),
+    `${p.name} comes from ${p.brand}.${primSent} ${brandFact} ${whatBit}`.replace(/\s+/g, ' ').trim(),
+    `${p.name} is ${p.brand}’s expression in this style${ageBit}.${primSent} ${brandFact} ${whatBit}`.replace(/\s+/g, ' ').trim(),
+    `${p.name} sits in our ${catLower} range${nOthers > 0 ? `, alongside ${nOthers} other ${p.brand} ${nOthers === 1 ? 'bottle' : 'bottles'}` : ''}.${primSent} ${brandFact} ${whatBit}`.replace(/\s+/g, ' ').trim(),
   ];
   const p2 = `${facts.serve} ${p.name} is ${p.abv ? `listed at ${p.abv} ABV in` : 'sold in'} a ${p.size} format${where ? `, from ${where}` : ''}.`;
   const buyVariants = [
@@ -235,15 +237,19 @@ for (const p of products) {
   ];
 
   // the primary keyword must read naturally in the lead copy (idempotent: appended once)
-  p.description = p.description.replace(/ Looking for [^?]+\? You can buy it online from Doctors of Whisky with insured delivery across Australia\./g, '').replace(/ Searching for [^?]+\? This page lists the price, size and insured delivery details\./g, '').trim();
-  if (!norm(p.description).includes(norm(kws.primary))) {
-    p.description = `${p.description.trim()} Searching for ${kws.primary}? This page lists the price, size and insured delivery details.`;
+  p.description = p.description.replace(/ Looking for [^?]+\? You can buy it online from Doctors of Whisky with insured delivery across Australia\./g, '').replace(/ Searching for [^?]+\? This page lists the price, size and insured delivery details\./g, '').replace(/^[^:]{0,90}: (?=\S)/, (m) => (norm(m).includes(norm(p.name).slice(0, 12)) ? '' : m)).trim();
+  if (!inc(p.description, kws.primary)) {
+    // name-based primaries lead the paragraph with the product name; bank keywords get a short natural sentence
+    p.description = norm(p.name).includes(norm(kws.primary)) ? `${p.name}: ${p.description.trim()}` : `${p.description.trim()} Searching for ${kws.primary}? This page lists the price, size and insured delivery details.`;
   }
-  const agePart = p.age && !p.name.toLowerCase().includes(p.age.toLowerCase().split(' ')[0]) ? ` ${p.age}` : '';
-  p.metaTitle = `Buy ${p.name}${agePart} Online Australia`;
-  if (!norm(p.metaTitle).includes(norm(kws.primary))) p.metaTitle = `${tc(kws.primary)} | ${p.name}${agePart}`;
+  // title starts with the primary (<= 60 chars); H1 always contains the primary
+  const Pk = tc(kws.primary);
+  const inName = inc(p.name, kws.primary);
+  p.metaTitle = [`${Pk} | ${p.name}`, `${Pk} | Buy Online in Australia`, `${Pk} | Doctors of Whisky`, Pk].find((t) => t.length <= 60) || Pk.slice(0, 60).replace(/\s+\S*$/, '');
+  if (inName && p.name.length <= 60 && (norm(p.name) + ' ').startsWith(norm(kws.primary) + ' ')) p.metaTitle = p.name;
+  p.h1 = inName ? p.name : `${Pk}: ${p.name}`;
   p.metaDescription = `Buy ${p.name}${sizeBit} online in Australia for ${money(p.price)} AUD. ${styleTitle} from ${p.brand}. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.`;
-  if (!norm(p.metaDescription).includes(norm(kws.primary))) p.metaDescription = `${tc(kws.primary)}: ${p.metaDescription}`;
+  if (!inc(p.metaDescription, kws.primary)) p.metaDescription = `${tc(kws.primary)}: ${p.metaDescription}`;
 }
 
 // ---- 4. subcategories ----

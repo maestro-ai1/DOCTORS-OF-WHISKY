@@ -7,6 +7,8 @@ import { BLOG_POSTS } from '@/lib/data/blog';
 import { ProductCardServer as ProductCard } from '@/components/ProductCardServer';
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { linkList } from '@/lib/tag-links';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { authorityFor } from '@/lib/data/authority-links';
 import { SHOP_RULES } from '@/lib/config';
 import { buildMetadata, breadcrumbLd, faqLd, itemListLd, webPageLd, ld } from '@/lib/seo';
 import type { Product } from '@/lib/types';
@@ -66,6 +68,10 @@ const FAQS = [
     answer: 'Yes. Buyers must be 18 or over, and the delivery needs to be received by an adult.',
   },
   {
+    question: 'How can I pay for a whisky gift?',
+    answer: `Pay by PayID, bank transfer, Bitcoin or USDT. Paying with crypto takes ${SHOP_RULES.cryptoDiscountPercent}% off.`,
+  },
+  {
     question: 'Can you help me choose a whisky gift?',
     answer: 'Yes. Message us on WhatsApp or use the contact form with the budget and what the recipient likes, and we will suggest bottles from the range.',
   },
@@ -103,7 +109,7 @@ export default function WhiskyGiftsPage() {
             <ChevronRight className="w-3.5 h-3.5 text-neutral-600" />
             <span className="text-neutral-200 font-medium">Whisky gift packs</span>
           </nav>
-          <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">Whisky Gift Packs: Buy Whisky Gifts Online in Australia</h1>
+          <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">Whisky Gift Pack: Buy Whisky Gifts Online in Australia</h1>
           <p className="text-sm sm:text-base text-neutral-300 max-w-3xl font-light leading-relaxed">
             Looking for a whisky gift pack? Doctors of Whisky is a Sydney bottle shop with {giftSets.length} ready-to-give whisky sets and collections, plus
             a whiskey gift for every budget from {money(SHOP_RULES.minOrder)} up. Choose a bottle, pay securely and we deliver it insured Australia-wide.
@@ -174,6 +180,7 @@ export default function WhiskyGiftsPage() {
         </section>
 
         <RelatedSearches links={linkList(SECONDARY, '/shop/whisky/', PATH, 5)} title="Related searches: whisky gifts" />
+        <AuthorityLinks links={authorityFor('scotch-whisky')} title="Learn more about whisky" />
       </div>
     </div>
   );

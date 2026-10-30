@@ -49,7 +49,7 @@ export function HeroSlider() {
           {/* Real, on-brand bottle photography as a full-bleed background */}
           <Image
             src={slide.image}
-            alt={`${slide.title} - buy whisky online in Australia`}
+            alt={idx === 0 ? `${slide.title} - whisky sale, buy whisky online in Australia` : `${slide.title} - buy whisky online in Australia`}
             fill
             priority={idx === 0}
             fetchPriority={idx === 0 ? 'high' : 'auto'}

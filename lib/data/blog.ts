@@ -53,8 +53,8 @@ const BASE_POSTS: BlogPost[] = [
         "url": "https://www.legislation.gov.uk/uksi/2009/2890/contents/made"
       },
       {
-        "text": "Scotch Whisky Association: types of Scotch",
-        "url": "https://www.scotch-whisky.org.uk/insights/what-is-scotch-whisky/"
+        "text": "Wikipedia: Scotch whisky",
+        "url": "https://en.wikipedia.org/wiki/Scotch_whisky"
       },
       {
         "text": "Whisky Advocate: single malt vs blended",
@@ -1328,8 +1328,8 @@ const BASE_POSTS: BlogPost[] = [
         "url": "https://www.scotch-whisky.org.uk/"
       },
       {
-        "text": "Wikipedia: whisky maturation",
-        "url": "https://en.wikipedia.org/wiki/Whisky_maturation"
+        "text": "Wikipedia: whisky",
+        "url": "https://en.wikipedia.org/wiki/Whisky"
       }
     ]
   },
@@ -1539,7 +1539,15 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 }
 
 export function getRelatedBlogPosts(post: BlogPost, limit = 3): BlogPost[] {
-  return BLOG_POSTS
-    .filter(p => p.slug !== post.slug && p.relatedSubcategory === post.relatedSubcategory)
-    .slice(0, limit);
+  // ring neighbours (ordered by collection then slug): every guide links to the guides around it, so none is an orphan
+  const ring = [...BLOG_POSTS].sort((a, b) => a.relatedSubcategory.localeCompare(b.relatedSubcategory) || a.slug.localeCompare(b.slug));
+  const at = ring.findIndex(p => p.slug === post.slug);
+  const out: BlogPost[] = [];
+  for (let step = 1; step <= ring.length && out.length < limit; step++) {
+    for (const dir of [1, -1]) {
+      const p = ring[(((at + dir * step) % ring.length) + ring.length) % ring.length];
+      if (p && p.slug !== post.slug && !out.some(o => o.slug === p.slug) && out.length < limit) out.push(p);
+    }
+  }
+  return out;
 }

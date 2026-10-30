@@ -47,7 +47,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     notFound();
   }
 
-  const relatedProducts = getRelatedProducts(product, 3);
+  const relatedProducts = getRelatedProducts(product, 6);
   const category = MAIN_CATEGORIES.find((c) => c.slug === product.category);
   const collectionPath = `/shop/${product.category}/collection/${product.subCategorySlug}/`;
   const selfPath = `/shop/${product.category}/${product.slug}/`;
@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <ProductDetailClient product={product} relatedProducts={relatedProducts} />
       <div className="bg-neutral-950 px-4 sm:px-6 lg:px-8 pb-12">
         <div className="max-w-7xl mx-auto">
-          <RelatedSearches links={relatedLinks} title={`Related searches: ${product.primaryKeyword}`} />
+          <RelatedSearches links={relatedLinks} title={`Related searches: ${product.secondaryKeywords[0] || product.primaryKeyword}`} />
           <TagCloud tags={tagLinks} title="Popular searches and tags" />
           <AuthorityLinks links={authorityFor(product.subCategorySlug)} title={`Learn more about ${product.subCategory.toLowerCase()}`} />
         </div>

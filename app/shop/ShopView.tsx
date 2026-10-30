@@ -4,6 +4,7 @@ import { MAIN_CATEGORIES } from '@/lib/data/menu';
 import { getSubcategoriesByCategory } from '@/lib/data/subcategories';
 import { PRODUCTS } from '@/lib/data/products';
 import ShopClient from './ShopClient';
+import { FeaturedCollections } from '@/components/FeaturedCollections';
 import { ShopGrid } from '@/components/ShopGrid';
 import { SHOP_BRANDS, SHOP_COUNTRIES } from '@/lib/shop-pages';
 
@@ -46,6 +47,7 @@ export function ShopView({ page = 1 }: { page?: number }) {
               </div>
             ))}
           </nav>
+          <FeaturedCollections />
         </div>
       </section>
       <ShopClient brands={SHOP_BRANDS} countries={SHOP_COUNTRIES} total={PRODUCTS.length}>

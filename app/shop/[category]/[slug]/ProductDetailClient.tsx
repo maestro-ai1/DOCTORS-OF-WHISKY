@@ -214,7 +214,7 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
               </div>
 
               <h1 className="text-2xl sm:text-4xl font-serif font-bold text-neutral-100 tracking-tight leading-tight">
-                {product.name}
+                {product.h1 || product.name}
               </h1>
 
               {product.vintage && (

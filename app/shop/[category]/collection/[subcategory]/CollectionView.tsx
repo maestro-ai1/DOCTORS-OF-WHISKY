@@ -9,7 +9,7 @@ import { ProductCardServer as ProductCard } from '@/components/ProductCardServer
 import { Pager } from '@/components/Pager';
 import { SHOP_PAGE_SIZE } from '@/lib/shop-pages';
 import { ArrowLeft, ChevronRight, HelpCircle, Sparkles } from 'lucide-react';
-import { subcategoryTags, breadcrumbLd, itemListLd, faqLd, webPageLd, ld, titleCase } from '@/lib/seo';
+import { subcategoryTags, breadcrumbLd, itemListLd, faqLd, webPageLd, ld, titleCase, h1With } from '@/lib/seo';
 import { TagCloud } from '@/components/TagCloud';
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
@@ -79,7 +79,7 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             </div>
             <h1 className="text-3xl sm:text-5xl font-serif font-bold text-neutral-100 tracking-tight">
-              Buy {sub.name} Online in Australia{page > 1 ? ` – Page ${page}` : ''}
+              {h1With(sub.primaryKeyword, `Buy ${sub.name} Online in Australia`)}{page > 1 ? ` – Page ${page}` : ''}
             </h1>
             <p className="text-xs sm:text-sm text-neutral-400 max-w-2xl font-light leading-relaxed">
               {sub.description}
@@ -131,7 +131,7 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
         )}
 
         {page === 1 && relatedCollections(subSlug).length > 0 && (
-          <nav aria-label="Related collections" className="pt-8 border-t border-neutral-900 space-y-2">
+          <section aria-label="Related collections" className="pt-8 border-t border-neutral-900 space-y-2">
             <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider">Related collections</h2>
             <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
               {relatedCollections(subSlug).map((r) => (
@@ -140,9 +140,9 @@ export function CollectionView({ catSlug, subSlug, page }: { catSlug: string; su
                 </li>
               ))}
             </ul>
-          </nav>
+          </section>
         )}
-        <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 5)} title={`Related searches: ${sub.primaryKeyword}`} />
+        <RelatedSearches links={linkList(sub.secondaryKeywords, path, path, 5)} title={`Related searches: ${sub.secondaryKeywords[0] || sub.primaryKeyword}`} />
         <TagCloud tags={collectionTags} title="Popular searches and tags" />
 
         {/* Subcategory FAQ (page 1 only, so paginated pages do not repeat it) */}

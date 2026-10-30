@@ -56,6 +56,22 @@ export const AUTHORITY_LINKS: Record<string, AuthorityLink[]> = {
   'zero-sugar-seltzers': [WIKI('Hard_seltzer', 'hard seltzer'), DRINKS],
   cider: [WIKI('Cider', 'cider'), DRINKS],
   'mixers-water-condiments': [WIKI('Mixer_(drink)', 'drink mixers'), DRINKS],
+  'irish-whiskey': [WIKI('Irish_whiskey', 'Irish whiskey'), SPIRITS],
+  vodka: [WIKI('Vodka', 'vodka'), SPIRITS],
+  rum: [WIKI('Rum', 'rum'), SPIRITS],
+  champagne: [WIKI('Champagne', 'Champagne'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  liqueur: [WIKI('Liqueur', 'liqueur'), SPIRITS],
+  'australian-beer': [WIKI('Beer_in_Australia', 'beer in Australia'), DRINKS],
+  prosecco: [WIKI('Prosecco', 'Prosecco'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  'pinot-grigio': [WIKI('Pinot_gris', 'Pinot gris and Pinot grigio'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  'sauvignon-blanc': [WIKI('Sauvignon_blanc', 'Sauvignon blanc'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  'pink-gin': [WIKI('Pink_gin', 'pink gin'), SPIRITS],
+  ouzo: [WIKI('Ouzo', 'ouzo'), SPIRITS],
+  'low-carb-beer': [WIKI('Low-alcohol_beer', 'low-alcohol and light beer'), DRINKS],
+  grenache: [WIKI('Grenache', 'Grenache'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  'german-beer': [WIKI('German_beer', 'German beer'), DRINKS],
+  'cabernet-sauvignon': [WIKI('Cabernet_Sauvignon', 'Cabernet Sauvignon'), { text: 'Wine Australia', url: 'https://www.wineaustralia.com/' }],
+  pilsner: [WIKI('Pilsner', 'pilsner'), DRINKS],
 };
 
 export function authorityFor(subSlug: string): AuthorityLink[] {

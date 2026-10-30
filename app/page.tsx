@@ -17,7 +17,7 @@ export const metadata = buildMetadata({
   description:
     'Whisky sale at Doctors of Whisky: buy Glenfiddich, Johnnie Walker, Lark, tequila, gin and champagne online with insured delivery across Australia. 18+ only.',
   path: '/',
-  keywords: [HOME_SEO.primary.kw, ...HOME_SEO.primaries.map((k) => k.kw), ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
+  keywords: [HOME_SEO.primary.kw, ...HOME_SEO.secondary.map((k) => k.kw), ...HOME_SEO.tags.map((k) => k.kw)],
 });
 
 export default function HomePage() {

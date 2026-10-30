@@ -2,7 +2,7 @@ import { PRODUCTS } from '@/lib/data/products';
 import { SUBCATEGORIES } from '@/lib/data/subcategories';
 import { BRAND_PAGES } from '@/lib/data/brand-pages';
 import { SHOP_RULES } from '@/lib/config';
-import { titleCase } from '@/lib/seo';
+import { titleCase, h1With } from '@/lib/seo';
 import type { CuratedConfig, CuratedSection } from '@/lib/data/curated';
 import type { Product } from '@/lib/types';
 
@@ -72,6 +72,7 @@ function build(bp: (typeof BRAND_PAGES)[number]): CuratedConfig | null {
     { question: `How much does ${bp.brand} cost in Australia?`, answer: `${bp.brand} at Doctors of Whisky ranges from ${money(min)} AUD (${cheapest.name}) to ${money(max)} AUD (${priciest.name}). Pay by PayID, bank transfer, Bitcoin or USDT, with ${SHOP_RULES.cryptoDiscountPercent}% off for crypto.` },
     { question: `Do you deliver ${bp.brand} across Australia?`, answer: `Yes. ${SHIP}` },
     { question: `Can you help me choose a ${bp.brand} bottle?`, answer: 'Yes. Message us on WhatsApp or use the contact form with your budget and taste and we will suggest a bottle.' },
+    { question: `How can I pay for ${bp.brand}?`, answer: `Pay by PayID, bank transfer, Bitcoin or USDT. Paying with crypto takes ${SHOP_RULES.cryptoDiscountPercent}% off.` },
     { question: 'Is there an age limit?', answer: 'Yes. Buyers must be 18 or over and delivery must be received by an adult.' },
   ];
   for (const g of generic) {
@@ -93,9 +94,10 @@ function build(bp: (typeof BRAND_PAGES)[number]): CuratedConfig | null {
     path,
     title,
     description,
-    h1: `Buy ${bp.brand} Online in Australia`,
-    intro: `Doctors of Whisky stocks ${list.length} ${bp.brand} bottles${sizes.length ? ` in ${joinList(sizes.slice(0, 3))}` : ''}, from ${money(min)} to ${money(max)} AUD. Pick a bottle, pay securely and we deliver it insured Australia-wide.`,
+    h1: h1With(bp.primary.kw, `Buy ${bp.brand} Online in Australia`),
+    intro: `${titleCase(bp.primary.kw)}: Doctors of Whisky stocks ${list.length} ${bp.brand} bottles${sizes.length ? ` in ${joinList(sizes.slice(0, 3))}` : ''}, from ${money(min)} to ${money(max)} AUD. Pick a bottle, pay securely and we deliver it insured Australia-wide.`,
     primary: bp.primary.kw,
+    authoritySlug: subs[0]?.slug,
     secondary: bp.secondary.map((k) => k.kw),
     breadcrumb: [{ name: 'Home', path: '/' }, { name: 'Brands', path: '/brands/' }, { name: bp.brand, path }],
     ctaLabel: subs[0] ? `Browse ${subs[0].name}` : 'Shop all bottles',

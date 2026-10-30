@@ -7,44 +7,31 @@ export const HOME_SEO = {
   "kd": 12,
   "intent": "Transactional"
  },
- "primaries": [
+ "primaries": [],
+ "secondary": [
   {
-   "kw": "glenfiddich",
+   "kw": "whisky",
    "vol": 14800
   },
   {
-   "kw": "pinot grigio",
-   "vol": 8100
+   "kw": "scotch",
+   "vol": 9900
   },
   {
-   "kw": "corona beer",
-   "vol": 8100
+   "kw": "bourbon",
+   "vol": 9900
   },
   {
-   "kw": "kraken rum",
-   "vol": 8100
-  },
-  {
-   "kw": "regal chivas whisky",
+   "kw": "japanese whiskey",
    "vol": 4400
-  }
- ],
- "secondary": [
+  },
+  {
+   "kw": "single malt",
+   "vol": 3600
+  },
   {
    "kw": "johnnie walker",
    "vol": 8100
-  },
-  {
-   "kw": "baileys irish cream",
-   "vol": 6600
-  },
-  {
-   "kw": "belvedere vodka",
-   "vol": 6600
-  },
-  {
-   "kw": "chandon brut",
-   "vol": 6600
   },
   {
    "kw": "johnnie walker blue label",
@@ -53,18 +40,6 @@ export const HOME_SEO = {
   {
    "kw": "macallan 12",
    "vol": 5400
-  },
-  {
-   "kw": "japanese whiskey",
-   "vol": 4400
-  },
-  {
-   "kw": "patron tequila",
-   "vol": 3600
-  },
-  {
-   "kw": "single malt",
-   "vol": 3600
   },
   {
    "kw": "irish whiskey",
@@ -89,6 +64,10 @@ export const HOME_SEO = {
   {
    "kw": "glenfiddich 18",
    "vol": 2400
+  },
+  {
+   "kw": "cheap whiskey",
+   "vol": 480
   }
  ],
  "tags": [

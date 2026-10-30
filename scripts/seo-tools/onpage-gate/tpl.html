@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keyword Map Audit</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#2a2f3a;--tx:#e8eaed;--mut:#9aa3b2;--acc:#d9a441;--T:#2fb36d;--C:#4a8df0;--N:#e0a030;--I:#8a93a3;--X:#e5534b;--ok:#2fb36d;--bad:#e5534b}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f5f6f8;--card:#fff;--line:#dde1e8;--tx:#1b1f27;--mut:#5d6675;--acc:#9a6a10}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 system-ui,Segoe UI,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:20px 16px 80px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}h3{font-size:15px;margin:16px 0 6px}
+.sub{color:var(--mut);margin:0 0 16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}.kpi b{display:block;font-size:24px}.kpi span{color:var(--mut);font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}
+.bd{display:inline-block;min-width:20px;text-align:center;font-weight:700;font-size:11px;border-radius:5px;padding:1px 6px;color:#fff}
+.bT{background:var(--T)}.bC{background:var(--C)}.bN{background:var(--N)}.bI{background:var(--I)}.b\?{background:var(--X)}
+.chip{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:3px 8px;margin:2px;background:var(--bg)}
+.chip small{color:var(--mut)}
+.ok{color:var(--ok)}.no{color:var(--bad)}.mut{color:var(--mut)}
+table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{position:sticky;top:0;background:var(--card);font-size:12px;color:var(--mut);z-index:1}
+.tw{overflow:auto;max-height:70vh;border:1px solid var(--line);border-radius:10px}
+tr.pg:hover{background:rgba(127,127,127,.08);cursor:pointer}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+input,select,button{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit}button.on{border-color:var(--acc);color:var(--acc)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:800px){.grid2{grid-template-columns:1fr}}
+.pu span{display:inline-block;width:18px;text-align:center;border-radius:4px;font-size:10px;font-weight:700;margin-right:2px}
+.pu .y{background:var(--ok);color:#fff}.pu .n{background:var(--bad);color:#fff}
+.flag{display:inline-block;font-size:10px;border:1px solid var(--bad);color:var(--bad);border-radius:4px;padding:0 4px;margin:1px}
+.det td{background:rgba(127,127,127,.06)}
+.cols{columns:2;column-gap:20px}
+.prop{border-left:3px solid var(--acc)}
+a{color:var(--acc)}
+code{background:var(--bg);padding:0 4px;border-radius:4px}
+</style></head><body><div class="wrap">
+<h1>Keyword Map Audit: Doctors of Whisky</h1>
+<p class="sub">Live site <b>doctorsofwhisky.com.au</b> checked 30 Oct 2026 against the Semrush keyword bank (79 AU files, 28 Sep 2026, used exactly as exported). Intent key: <span class="bd bT">T</span> Transactional <span class="bd bC">C</span> Commercial <span class="bd bN">N</span> Navigational <span class="bd bI">I</span> Informational <span class="bd b?">?</span> not in bank. Mixed intents resolve by priority T &gt; C &gt; N &gt; I.</p>
+<div class="kpis" id="kpis"></div>
+
+<h2>1. Why 0 clicks? What I could and could not verify</h2>
+<div class="grid2">
+<div class="card"><h3>Checked live today (observed)</h3><ul id="obs"></ul></div>
+<div class="card"><h3>Not verified (needs you)</h3><ul>
+<li><b>Search Console numbers.</b> The Chrome profile is signed in as genydreder@gmail.com, which has no access to the property (both the domain and https URL-prefix versions refused). Open the property in the right account, or export Performance + Pages reports, and I will read them.</li>
+<li>Whether Google indexed the pages since 11 Oct (then: 5 indexed, 2 crawled-not-indexed, 7 known URLs out of ~690).</li>
+</ul>
+<p class="mut">Plain reading: no technical block exists (all pages 200, canonical correct, no noindex, robots open). With a site this new, 0 clicks usually means pages are not indexed or sit beyond page 5 for every query. The mapping problems below make the second worse: most pages target keywords with no volume, and the head terms are spread as secondaries instead of owned by one page.</p></div></div>
+
+<h2>2. Homepage map</h2>
+<div id="home"></div>
+
+<h2>3. Findings across all pages</h2>
+<div id="finds"></div>
+
+<h2>4. Full mapping explorer</h2>
+<p class="sub">One row per URL: primary (focus) keyword with intent, volume, KD and where it appears on the live page (<b>T</b>itle <b>D</b>escription <b>H</b>1 <b>P</b>aragraph <b>A</b>lt), then the 5 visible secondary keywords (shown = appears in the page text). Click a row for the full list.</p>
+<div class="bar" id="bar"></div>
+<div class="tw"><table><thead><tr><th>URL</th><th>Type</th><th>Primary keyword</th><th>I</th><th>Vol</th><th>KD</th><th>Used in</th><th>5 visible secondary</th><th>Flags</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="mut" id="cnt"></p>
+</div>
+<script>
+const DATA=/*DATA*/;
+const R=DATA.rows,S=DATA.stats;
+const $=(i)=>document.getElementById(i);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const bd=i=>`<span class="bd b${i}">${i}</span>`;
+const fm=n=>n<0?'-':n.toLocaleString('en-AU');
+const FL={nobank:'primary not in bank',notT:'primary not Transactional',blogTC:'blog primary is T/C',vol0:'primary volume 0',kd:'KD above 29',noTitle:'primary missing from title',noH1:'primary missing from H1',noP1:'primary missing from 1st paragraph',noAlt:'no image alt with primary',secHidden:'a visible secondary not on page'};
+// KPIs
+const nb=S.cnt;const k=[[S.pages,'pages mapped (live)'],[fm(S.bankUnique),'bank keywords (unique)'],[nb.nobank||0,'primaries not in the bank'],[nb.notT||0,'non-blog primaries not Transactional'],[nb.noH1||0,'pages without primary in H1'],[R.filter(r=>r.t==='Product'&&r.p[2]<=0).length,'product primaries with no volume']];
+$('kpis').innerHTML=k.map(x=>`<div class="kpi"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('');
+$('obs').innerHTML=['All '+S.pages+' mapped URLs return HTTP 200, canonical matches, no noindex.','robots.txt allows Googlebot and Bingbot; sitemaps list pages, collections, products and blog.','Homepage title, meta description and H1 all contain the primary "whisky sale".','The homepage lists 6 primary keywords; five of them (pinot grigio, corona beer and others) are off-topic for a "whisky sale" page.','Three homepage "primaries" are also the primaries of brand hubs, so two URLs fight for the same query.','Primary keyword is Transactional on only '+(S.byType.Product.T)+' of '+S.byType.Product.n+' products; '+S.byType.Product.X+' product primaries are not in the Semrush bank at all.'].map(x=>`<li>${x}</li>`).join('');
+// Homepage
+const H=R[0];const used=(r)=>['Title','Description','H1','1st paragraph','Image alt'].map((n,i)=>`<span class="chip">${r.pu[i]?'<b class="ok">&#10003;</b>':'<b class="no">&#10007;</b>'} ${n}</span>`).join('');
+const sk=(s)=>`<span class="chip">${bd(s[1])} <b>${esc(s[0])}</b> <small>vol ${fm(s[2])} / KD ${s[3]<0?'-':s[3]}</small> ${s[5]?'<b class="ok" title="appears in page text">&#10003; shown</b>':'<b class="no">not shown</b>'}${s[6]?' <small>linked</small>':''}</span>`;
+let h=`<div class="card"><h3>Current mapping for <code>/</code></h3>
+<p><b>Title:</b> ${esc(H.ti)}<br><b>Description:</b> ${esc(H.de)}<br><b>H1:</b> ${esc(H.h1)}</p>
+<h3>Primary (focus) keyword</h3><p><span class="chip">${bd(H.p[1])} <b>${esc(H.p[0])}</b> <small>vol ${fm(H.p[2])} / KD ${H.p[3]} &middot; ${esc(H.p[4])}</small></span> ${used(H)} <span class="chip">appears ${H.pu[5]}x in page text</span></p>
+<h3>5 visible secondary keywords</h3><p>${H.s.map(sk).join('')}</p>
+<h3>Other keywords listed as "primaries" on the homepage (breaks one-primary rule)</h3><p>${(H.extra||[]).map(x=>`<span class="chip">${bd(x[1])} <b>${esc(x[0])}</b> <small>vol ${fm(x[2])} / KD ${x[3]}</small></span>`).join('')}</p>
+<p class="mut">glenfiddich, kraken rum and regal chivas whisky are also the primaries of /brands/glenfiddich/, /brands/kraken/ and /brands/chivas-regal/: duplicate primaries across two URLs. pinot grigio and corona beer have no page of their own that owns them.</p>
+<h3>Visible tag links (10 of ${H.tags.length})</h3><p>${H.tags.slice(0,10).map(t=>`<span class="chip">${bd(t[1])} ${esc(t[0])} <small>${fm(t[2])}</small></span>`).join('')}</p></div>`;
+h+=`<div class="card prop"><h3>Proposed homepage remap (not applied, for your approval)</h3>
+<p>Goal: one clear topic for the homepage so Google can place it. Primary stays the best Transactional whisky term; the 5 visible secondaries become the whisky head terms the homepage should own; brand and other-category terms move to the pages that sell them.</p>
+<table><thead><tr><th>Slot</th><th>Keyword</th><th>I</th><th>Vol</th><th>KD</th><th>Why</th></tr></thead><tbody>
+<tr><td>Primary</td><td><b>whisky sale</b></td><td>${bd('T')}</td><td>480</td><td>12</td><td>Highest-volume Transactional generic whisky term in the bank; keep.</td></tr>
+<tr><td>Secondary 1</td><td>whisky</td><td>${bd('C')}</td><td>14,800</td><td>23 (file: Whisky). Site stores 28</td><td>Head term; today it is a visible secondary on 77 pages. Home should own it.</td></tr>
+<tr><td>Secondary 2</td><td>scotch</td><td>${bd('C')}</td><td>9,900</td><td>15</td><td>Core range.</td></tr>
+<tr><td>Secondary 3</td><td>bourbon</td><td>${bd('C')}</td><td>9,900</td><td>16</td><td>Core range.</td></tr>
+<tr><td>Secondary 4</td><td>japanese whiskey</td><td>${bd('C')}</td><td>4,400</td><td>24</td><td>Already used on 82 pages; keep on home only as head term.</td></tr>
+<tr><td>Secondary 5</td><td>single malt</td><td>${bd('C')}</td><td>3,600</td><td>15</td><td>Core range.</td></tr>
+</tbody></table>
+<p class="mut">Supporting taglines (not primaries): whisky on sale (T 390, KD 11), whiskey sale (T 480, KD 18), buy whisky online (T 390, KD 28 &mdash; already /shop/whisky/ primary, so tagline only), cheap whiskey (C 480), whisky australia (C 390).<br>
+Remove from the homepage primaries: glenfiddich, regal chivas whisky, kraken rum (owned by their brand hubs), pinot grigio and corona beer (give them a stocked sub-category/hub to own them).<br>
+Add the primary to one image alt (currently none).</p></div>`;
+$('home').innerHTML=h;
+// Findings
+const byT=Object.entries(S.byType).map(([t,o])=>`<tr><td>${t}</td><td>${o.n}</td><td>${o.T}</td><td>${o.C}</td><td>${o.N}</td><td>${o.I}</td><td>${o.X}</td><td>${fm(o.vol)}</td></tr>`).join('');
+const strand=DATA.stranded.map(x=>`<tr><td>${esc(x[0])}</td><td>${bd(x[1])}</td><td>${fm(x[2])}</td><td>${x[3]}</td><td>${x[4]}</td></tr>`).join('');
+const over=DATA.over.map(x=>`<tr><td>${esc(x[0])}</td><td>${bd(x[1])}</td><td>${fm(x[2])}</td><td>${x[4]}</td></tr>`).join('');
+$('finds').innerHTML=`<div class="card"><h3>Primary keyword intent by page type</h3><table><thead><tr><th>Type</th><th>Pages</th><th>T</th><th>C</th><th>N</th><th>I</th><th>Not in bank</th><th>Sum of primary volume</th></tr></thead><tbody>${byT}</tbody></table>
+<p class="mut">Rule: product, category, sub-category, hub and landing primaries = Transactional; blog primaries = Informational/Navigational. Brand pages (About, Contact) use the brand name and are excluded from flags.</p></div>
+<div class="grid2"><div class="card"><h3>Head terms that sit in the visible 5 secondaries but are the primary of no page</h3><table><thead><tr><th>Keyword</th><th>I</th><th>Vol</th><th>KD</th><th>Pages using it</th></tr></thead><tbody>${strand}</tbody></table><p class="mut">Commercial terms cannot be primaries under the golden rule, so each needs a Transactional sibling on its owning page (for example tequila &rarr; buy tequila online).</p></div>
+<div class="card"><h3>Most repeated visible secondaries (cannibalisation risk)</h3><table><thead><tr><th>Keyword</th><th>I</th><th>Vol</th><th>Pages</th></tr></thead><tbody>${over}</tbody></table><p class="mut">When 40-80 pages push the same phrase, Google has no single page to rank for it. Each head term should be visible on its owner page and its direct children only.</p></div></div>
+<div class="card"><h3>Issue counts (click to filter the explorer)</h3>${Object.entries(FL).map(([f,n])=>`<button onclick="setFlag('${f}')">${n}: <b>${nb[f]||0}</b></button>`).join(' ')}</div>`;
+// Explorer
+let flt={q:'',t:'',i:'',f:''};
+const types=[...new Set(R.map(r=>r.t))];
+$('bar').innerHTML=`<input id="q" placeholder="search url or keyword" size="30"><select id="st"><option value="">All types</option>${types.map(t=>`<option>${t}</option>`).join('')}</select><select id="si"><option value="">Any primary intent</option><option>T</option><option>C</option><option>N</option><option>I</option><option value="?">not in bank</option></select><select id="sf"><option value="">Any flag</option>${Object.entries(FL).map(([f,n])=>`<option value="${f}">${n}</option>`).join('')}</select><button onclick="reset()">Reset</button>`;
+function setFlag(f){$('sf').value=f;flt.f=f;draw();$('bar').scrollIntoView()}
+function reset(){['q','st','si','sf'].forEach(i=>$(i).value='');flt={q:'',t:'',i:'',f:''};draw()}
+$('q').oninput=e=>{flt.q=e.target.value.toLowerCase();draw()};$('st').onchange=e=>{flt.t=e.target.value;draw()};$('si').onchange=e=>{flt.i=e.target.value;draw()};$('sf').onchange=e=>{flt.f=e.target.value;draw()};
+const open_=new Set();
+function row(r){const pu=['T','D','H','P','A'].map((c,i)=>`<span class="${r.pu[i]?'y':'n'}">${c}</span>`).join('');
+ const sec=r.s.map(s=>`<span class="chip" title="${esc(s[4])}">${bd(s[1])} ${esc(s[0])} <small>${fm(s[2])}</small>${s[5]?'':' <b class="no">!</b>'}</span>`).join('');
+ let x=`<tr class="pg" onclick="tog('${r.u}')"><td><a href="https://doctorsofwhisky.com.au${r.u}" target="_blank" onclick="event.stopPropagation()">${esc(r.u)}</a></td><td>${r.t}</td><td><b>${esc(r.p[0])}</b></td><td>${bd(r.p[1])}</td><td>${fm(r.p[2])}</td><td>${r.p[3]<0?'-':r.p[3]}</td><td class="pu">${pu}</td><td>${sec}</td><td>${r.f.map(f=>`<span class="flag">${FL[f]}</span>`).join('')}</td></tr>`;
+ if(open_.has(r.u))x+=`<tr class="det"><td colspan="9"><b>Title:</b> ${esc(r.ti)}<br><b>H1:</b> ${esc(r.h1)}<br><b>Description:</b> ${esc(r.de)}<br><b>Primary raw intent:</b> ${esc(r.p[4])}<br><b>More secondary (${r.more.length}):</b> ${r.more.map(m=>`${bd(m[1])} ${esc(m[0])} <small>${fm(m[2])}</small>`).join(' &middot; ')}<br><b>Tags (${r.tags.length}):</b> ${r.tags.map(m=>`${bd(m[1])} ${esc(m[0])}`).join(' &middot; ')}</td></tr>`;return x}
+function tog(u){open_.has(u)?open_.delete(u):open_.add(u);draw()}
+function draw(){const q=flt.q;const rs=R.filter(r=>(!flt.t||r.t===flt.t)&&(!flt.i||r.p[1]===flt.i)&&(!flt.f||r.f.includes(flt.f))&&(!q||r.u.includes(q)||r.p[0].includes(q)||r.s.some(s=>s[0].includes(q))));
+ $('cnt').textContent=rs.length+' of '+R.length+' pages'+(rs.length>400?' (showing first 400)':'');$('tb').innerHTML=rs.slice(0,400).map(row).join('')}
+draw();
+</script></body></html>

@@ -25,6 +25,11 @@ Goal: **high turnover**. Pages exist to sell.
 
 **Audits before every push:** `npx tsc --noEmit`, `npm run build`, then against `npx next start -p 3100`: `scripts/live-audit.mjs`, `integrity-audit.mjs`, `seo-score-audit.mjs`, `blog-audit.mjs`, `seo-tools/check-tags.mjs` and `seo-tools/smcheck.mjs`. Targets: 0 failures, 0 broken links, every page 100%.
 
+
+## On-page SEO gate (added 2026-10-30, mandatory)
+
+Before any SEO work is reported done, run the live-crawl gate in `scripts/seo-tools/onpage-gate/` (README there) and give the owner the two reports it builds: `docs/keyword-report/keyword-map-audit-2026-10-30.html` (primary + 5 secondary + intent T/C/N/I and where each appears) and `onpage-seo-compliance-2026-10-30.html` (35 rules: mapping, headings, title/meta, links, images, schema, blog, product). A presence-only check (primary appears in title/H1) is not enough: the primary must be in the bank, Transactional (Informational/Navigational on blogs), have volume, be unique, and be carried by the H1, title (starting with it), meta description, first paragraph and an image alt. Product pages: primary from the bank or live Semrush; products with no keyword volume use the exact product name (ledger: `docs/keyword-report/product-keyword-ledger-2026-10-30.csv`). Save every live Semrush pull as a CSV in `Whisky Keywords Bank/`.
+
 ## Folder layout (important: some inputs live OUTSIDE the repo)
 
 ```

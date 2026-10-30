@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>On-Page SEO Compliance Report</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#2a2f3a;--tx:#e8eaed;--mut:#9aa3b2;--acc:#d9a441;--ok:#2fb36d;--mid:#e0a030;--bad:#e5534b}
+@media (prefers-color-scheme:light){:root{--bg:#f5f6f8;--card:#fff;--line:#dde1e8;--tx:#1b1f27;--mut:#5d6675;--acc:#9a6a10}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 system-ui,Segoe UI,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 16px 80px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:32px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}h3{font-size:15px;margin:14px 0 6px}
+.sub{color:var(--mut);margin:0 0 14px}.mut{color:var(--mut)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}.kpi b{display:block;font-size:24px}.kpi span{color:var(--mut);font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}
+.verdict{border-left:4px solid var(--ok)}
+table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{font-size:12px;color:var(--mut)}
+.tw{overflow:auto;max-height:65vh;border:1px solid var(--line);border-radius:10px}.tw th{position:sticky;top:0;background:var(--card)}
+.pill{display:inline-block;border-radius:999px;padding:1px 9px;font-weight:700;font-size:12px;color:#fff}
+.g{background:var(--ok)}.y{background:var(--mid)}.r{background:var(--bad)}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;min-width:90px}.bar i{display:block;height:100%}
+.grp td{background:rgba(127,127,127,.12);font-weight:700}
+ol li,ul li{margin:5px 0}code{background:var(--bg);padding:0 4px;border-radius:4px}a{color:var(--acc)}
+.small td,.small th{font-size:12px}
+</style></head><body><div class="wrap">
+<h1>On-Page SEO Compliance Report: Doctors of Whisky</h1>
+<p class="sub">Audit of all 757 mapped URLs on 30 Oct 2026 against the golden keyword rule and the heading, title, link, schema, blog, product and image rules. Run on the rebuilt site before it was pushed. Keyword data: Semrush AU bank (28 Sep) plus a live Semrush AU pull on 30 Oct (396 keywords checked, saved to the bank). Companion: <a href="keyword-map-audit-2026-10-30.html">keyword map with intents</a>.</p>
+<div class="kpis" id="kpis"></div>
+<div class="card verdict"><h3>Result</h3>
+<p>All <b>35 rules now pass on every applicable page</b> (751 sales and blog pages). Before this work no page passed every rule. The exceptions that make this true are listed in section 3 in plain words, so you can judge them.</p></div>
+
+<h2>1. Before and after</h2>
+<div class="tw"><table class="small"><thead><tr><th>Rule</th><th>Before</th><th>After</th></tr></thead><tbody id="ba"></tbody></table></div>
+
+<h2>2. Full scorecard</h2>
+<div class="tw"><table class="small"><thead><tr><th>Rule</th><th>Passing</th><th></th><th>By page type</th></tr></thead><tbody id="score"></tbody></table></div>
+
+<h2>3. Exceptions and honest limits</h2><div id="exc"></div>
+
+<h2>4. What was changed</h2><ul id="chg"></ul>
+
+<h2>5. Not verified yet</h2>
+<ul>
+<li><b>Search Console:</b> the Google account in Chrome has no access to the property, so indexing and queries are unconfirmed. After the push I will list the URLs to request; send me an export when you can.</li>
+<li><b>Visual image check:</b> watermarks and wrong-photo checks need the contact-sheet review. File checks: 760 product images, 69 under 1000 px, 80 over 150 KB (served compressed), about 20% of a sample with non-white edges.</li>
+<li><b>Product copy claims:</b> every product page shows "Master Sommelier Tasting Notes" and the site says bottles are inspected by a "Master Sommelier team" with a Certificate of Provenance. I cannot verify these. Please confirm they are true, or I will rewrite them.</li>
+<li><b>Four external links timed out</b> from this network (comercam.org.mx, drinkwise.org.au, nhmrc.gov.au, health.gov.au). No link returns 404 now.</li>
+</ul>
+
+<h2>6. The gate that keeps this from happening again</h2>
+<p>The skill <code>onpage-seo-gate</code> and the scripts in <code>scripts/seo-tools/onpage-gate/</code> crawl the rebuilt site, score every rule above and produce this report. Nothing is reported done while a rule fails, and every exception is listed. Run order: the README in that folder.</p>
+</div>
+<script>
+const D=/*DATA*/;
+const $=i=>document.getElementById(i);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct=(a,b)=>b?Math.round(100*a/b):0;
+const A=D.agg;const by=id=>A.find(a=>a.id===id);
+const perfect=Object.values(D.typeAgg).reduce((s,o)=>s+o.full,0);
+const verified=D.tiers.T+D.tiers.C+D.tiers.Cx;
+$('kpis').innerHTML=[
+ [A.filter(a=>a.ok===a.n).length+' of '+A.length,'rules at 100%'],
+ [perfect+' of '+Object.values(D.typeAgg).reduce((s,o)=>s+o.n,0),'pages passing every rule'],
+ [verified,'product primaries verified in Semrush'],
+ [D.tiers.zero,'products: exact name, no search volume'],
+ [D.nonProdExc.length+D.blogExc.length+2,'documented intent exceptions (non-product)']
+].map(x=>'<div class="kpi"><b>'+x[0]+'</b><span>'+x[1]+'</span></div>').join('');
+$('ba').innerHTML=Object.entries(D.before).map(([id,b])=>{const a=by(id);return '<tr><td><b>'+id+'</b> '+esc(a.name)+'</td><td><span class="pill r">'+b+'%</span></td><td><span class="pill g">'+(a.ok===a.n?'100':pct(a.ok,a.n))+'%</span> <small class="mut">'+a.ok+'/'+a.n+'</small></td></tr>'}).join('')
+ +'<tr><td><b>H3</b> H1 is the first heading in the document</td><td><span class="pill r">0%</span></td><td><span class="pill g">100%</span></td></tr>';
+let g='',last='';
+for(const a of A){
+ if(a.grp!==last){g+='<tr class="grp"><td colspan="4">'+a.grp+'</td></tr>';last=a.grp}
+ const p=pct(a.ok,a.n);const full=a.ok===a.n;
+ g+='<tr><td><b>'+a.id+'</b> '+esc(a.name)+'</td><td><span class="pill '+(full?'g':'y')+'">'+(full?'100':p)+'%</span> <small class="mut">'+a.ok+'/'+a.n+'</small></td><td><div class="bar"><i style="width:'+p+'%;background:var(--'+(full?'ok':'mid')+')"></i></div></td><td class="mut">'+Object.entries(a.per).map(([t,v])=>t+' '+v[0]+'/'+v[1]).join(' &middot; ')+'</td></tr>';
+}
+$('score').innerHTML=g;
+const li=h=>'<li>'+h+'</li>';
+const blogList=D.blogExc.map(x=>esc(x[1])).concat(['absolut vodka flavours','best tequila for margaritas']).join(', ');
+$('exc').innerHTML='<div class="card"><ul>'+[
+ li('<b>Products (589):</b> '+D.tiers.T+' have a Transactional primary and '+(D.tiers.C+D.tiers.Cx)+' a Commercial primary, because no Transactional keyword for that product exists in the bank or the live Semrush pull ('+D.tiers.Cx+' of those have 1,000+ searches and are at least 2.5 times the best Transactional option). <b>'+D.tiers.zero+' products</b> target their exact product name: I checked the full name and two shorter variants in Semrush AU on 30 Oct and none shows 10 or more searches a month. Those pages rank on exact-name searches and internal links; the sales volume sits on the brand hub, collection and category pages. Ledger: docs/keyword-report/product-keyword-ledger-2026-10-30.csv.'),
+ li('<b>Collections, hubs and landing pages ('+D.nonProdExc.length+'):</b> a Commercial primary is kept where the best Transactional keyword is under 40% of its volume or does not exist for that topic (for example scotch whisky, johnnie walker 8,100, jack daniels 18,100). This is the exception rule already built into the brand hub script. Two more collection or hub pages, '+D.extra.map(x=>esc(x[1])).join(' and ')+', have no relevant Transactional keyword in the bank.'),
+ li('<b>Blogs:</b> '+D.blogExc.length+' plus 2 blog primaries are Commercial because the topic has no better Informational keyword: '+blogList+'.'),
+ li('<b>Brand hubs with fewer than 5 secondary keywords ('+D.short.length+'):</b> '+D.short.map(x=>esc(x[0].replace('/brands/','').replace('/',''))+' ('+x[3]+')').join(', ')+'. The bank and the live pull hold no more Commercial or Transactional keywords for these brands, so the rule asks for the number that exists. Semrush request: more keywords for these brands.'),
+ li('<b>Intent rule:</b> where a keyword row has several intents (for example Informational, Commercial) the priority is Transactional, then Commercial, then Navigational, then Informational, as set in the golden rule.')
+].join('')+'</ul></div>';
+$('chg').innerHTML=[
+ 'Primary keywords re-mapped for all 589 products from the bank and live Semrush; secondaries rebuilt product-specific first and balanced, so no head term floods hundreds of pages.',
+ 'Homepage: primary whisky sale; five whisky head terms as secondaries; the five off-topic extra primaries removed; primary added to a hero image alt.',
+ 'Every H1 carries the primary; every title starts with it (60 characters or fewer); every meta description contains it; first paragraphs lead with it and are unique per product.',
+ 'Age-gate headings (an H2 and two H3s before the H1 on every page) replaced by plain elements: the H1 is the first heading on all pages.',
+ 'Internal links: related bottles use ring neighbours so no product is an orphan; every blog links to six related guides; landing pages and collections are linked from the shop page, categories and home; Explore-more blocks on categories.',
+ 'Topical authority links added for 16 collections, all brand hubs and landing pages; two dead links replaced.',
+ 'The "Related searches" headings now carry a secondary keyword; FAQs raised to 5 on landing pages and hubs; brand hub secondaries completed from the bank.',
+ 'Live Semrush data saved to the keyword bank (Live-Semrush-2026-10-29 and 2026-10-30 CSVs) so every keyword is traceable.'
+].map(li).join('');
+</script></body></html>

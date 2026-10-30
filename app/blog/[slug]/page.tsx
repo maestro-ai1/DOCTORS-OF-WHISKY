@@ -13,7 +13,7 @@ import { RelatedSearches } from '@/components/RelatedSearches';
 import { inlineImageFor, topicFor } from '@/lib/data/blog-images';
 import { VISIBLE_TAGS, buildTagLinks, linkList, collectionTagTemplates } from '@/lib/tag-links';
 import { SITE } from '@/lib/config';
-import { buildMetadata, breadcrumbLd, faqLd, absoluteUrl, subcategoryTags, blogTags, CONTENT_UPDATED } from '@/lib/seo';
+import { buildMetadata, breadcrumbLd, faqLd, absoluteUrl, subcategoryTags, blogTags, CONTENT_UPDATED, h1With, titleStartsWith, descWith } from '@/lib/seo';
 import { ChevronRight, Calendar, Clock, ExternalLink, ArrowRight, HelpCircle } from 'lucide-react';
 
 interface BlogPostPageProps {
@@ -58,8 +58,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   if (!post) return { title: 'Article Not Found | Doctors of Whisky', robots: { index: false } };
 
   return buildMetadata({
-    title: post.seoTitle || post.title,
-    description: post.seoDescription || post.excerpt,
+    title: titleStartsWith(post.primaryKeyword, post.seoTitle || post.title),
+    description: descWith(post.primaryKeyword, post.seoDescription || post.excerpt),
     path: `/blog/${post.slug}/`,
     keywords: blogTags(post, 60),
     image: { url: post.image, width: 1600, height: 900, alt: `${post.title} — ${post.primaryKeyword}` },
@@ -73,7 +73,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const post = getBlogPostBySlug(slug);
   if (!post) notFound();
 
-  const related = getRelatedBlogPosts(post, 3);
+  const related = getRelatedBlogPosts(post, 6);
   const sub = getSubcategoryBySlug(post.relatedSubcategory);
   const relatedProducts = sub ? getProductsBySubCategory(sub.slug).slice(0, 3) : [];
   const inline = inlineImageFor(post.slug);
@@ -125,7 +125,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <span className="inline-block px-2.5 py-0.5 rounded-md bg-amber-950 border border-amber-700/60 text-amber-300 text-[10px] font-bold uppercase tracking-wider">
             {post.category}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-neutral-100 leading-tight">{post.title}</h1>
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-neutral-100 leading-tight">{h1With(post.primaryKeyword, post.title)}</h1>
           <div className="flex items-center gap-4 text-xs text-neutral-400">
             <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" /><time dateTime={isoDate(post.date)}>{post.date}</time></span>
             <span className="flex items-center gap-1">Updated <time dateTime={post.updated || CONTENT_UPDATED}>{longDate(post.updated || CONTENT_UPDATED)}</time></span>
@@ -237,7 +237,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </section>
         )}
 
-        <RelatedSearches links={relatedLinks} title={`Related searches: ${post.primaryKeyword}`} />
+        <RelatedSearches links={relatedLinks} title={`Related searches: ${post.secondaryKeywords?.[0] || post.primaryKeyword}`} />
         <TagCloud tags={tagLinks} title="Popular searches and tags" />
 
         <section className="pt-8 border-t border-neutral-900 space-y-3">

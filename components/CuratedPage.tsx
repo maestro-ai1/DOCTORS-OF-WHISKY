@@ -5,6 +5,8 @@ import { ProductCardServer as ProductCard } from '@/components/ProductCardServer
 import { RelatedSearches } from '@/components/RelatedSearches';
 import { linkList } from '@/lib/tag-links';
 import { breadcrumbLd, faqLd, itemListLd, webPageLd, ld } from '@/lib/seo';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { authorityFor } from '@/lib/data/authority-links';
 import type { CuratedConfig } from '@/lib/data/curated';
 
 /** Server-rendered curated landing page (tequila hub, Smirnoff, Absolut, gin gifts). */
@@ -88,7 +90,8 @@ export function CuratedPage({ cfg }: { cfg: CuratedConfig }) {
           </div>
         </section>
 
-        <RelatedSearches links={linkList(cfg.secondary, cfg.ctaHref, cfg.path, 5)} title={`Related searches: ${cfg.primary}`} />
+        <RelatedSearches links={linkList(cfg.secondary, cfg.ctaHref, cfg.path, 5)} title={`Related searches: ${cfg.secondary[0] || cfg.primary}`} />
+        {cfg.authoritySlug && <AuthorityLinks links={authorityFor(cfg.authoritySlug)} title={`Learn more about ${cfg.primary}`} />}
       </div>
     </div>
   );

@@ -50,7 +50,6 @@ export function HomeIntro() {
   const rest = HOME_SEO.headline.filter((w) => !HOME_SEO.primary.kw.includes(w)).map(titleCase);
   const buyList = ['Whisky', ...rest];
   const lead = buyList.length > 1 ? `${buyList.slice(0, -1).join(', ')} and ${buyList[buyList.length - 1]}` : buyList[0];
-  const feature = HOME_SEO.primaries.slice(0, 3).map((k) => titleCase(k.kw));
   return (
     <section aria-label="Shop online in Australia" className="bg-neutral-950 border-b border-neutral-900 px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
       <div className="max-w-5xl mx-auto space-y-5 text-center">
@@ -103,7 +102,17 @@ export function HomeIntro() {
               <li><Link href="/brands/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">All brands</Link></li>
             </ul>
           </section>
-          <section aria-label="Popular whisky searches"className="space-y-3">
+          <section aria-label="Gifts and featured collections" className="space-y-3">
+            <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider text-center">Gifts and featured collections</h2>
+            <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
+              <li><Link href="/gifts/whisky/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Whisky gift pack</Link></li>
+              <li><Link href="/gifts/gin/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Gin gifts Australia</Link></li>
+              <li><Link href="/collections/tequila/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Buy tequila online</Link></li>
+              <li><Link href="/collections/smirnoff/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Smirnoff liquor</Link></li>
+              <li><Link href="/collections/absolut/" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Absolut vodka</Link></li>
+            </ul>
+          </section>
+          <section aria-label="Popular whisky searches" className="space-y-3">
             <h2 className="text-sm font-serif font-bold text-neutral-100 uppercase tracking-wider text-center">Popular searches in Australia</h2>
             <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
               {secondary.map((l) => (

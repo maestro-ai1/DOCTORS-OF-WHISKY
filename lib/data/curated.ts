@@ -25,6 +25,8 @@ export interface CuratedConfig {
   intro: string;
   primary: string;
   secondary: string[];
+  /** sub-category slug whose reference links (Wikipedia, regulators) the page shows */
+  authoritySlug?: string;
   breadcrumb: { name: string; path: string }[];
   ctaLabel: string;
   ctaHref: string;
@@ -50,6 +52,7 @@ const SHIP = `Insured delivery across Australia: a flat ${money(SHOP_RULES.shipp
 const baseFaqs = (what: string) => [
   { question: `Do you deliver ${what} across Australia?`, answer: `Yes. ${SHIP}` },
   { question: 'Is there an age limit?', answer: 'Yes. Buyers must be 18 or over and delivery must be received by an adult.' },
+  { question: 'How can I pay?', answer: `Pay by PayID, bank transfer, Bitcoin or USDT. Paying with crypto takes ${SHOP_RULES.cryptoDiscountPercent}% off.` },
   { question: 'Can you help me choose?', answer: 'Yes. Message us on WhatsApp or use the contact form with your budget and taste and we will suggest bottles from the range.' },
 ];
 
@@ -64,6 +67,7 @@ function build(): Record<string, CuratedConfig> {
   ];
   const tequila: CuratedConfig = {
     slug: 'tequila',
+    authoritySlug: 'white-tequila',
     path: '/collections/tequila/',
     title: 'Buy Tequila Online Australia | Patrón, Don Julio',
     description: 'Buy tequila online in Australia: Patrón, Don Julio, Jose Cuervo, white, gold, reposado and añejo tequila, with insured delivery Australia-wide. 18+ only.',
@@ -103,11 +107,12 @@ function build(): Record<string, CuratedConfig> {
   const smirnoffSizes = sizes(smirnoffAll.filter(full));
   const smirnoff: CuratedConfig = {
     slug: 'smirnoff',
+    authoritySlug: 'vodka',
     path: '/collections/smirnoff/',
-    title: 'Smirnoff Vodka Australia | Buy Smirnoff Online',
-    description: 'Buy Smirnoff vodka online in Australia: Smirnoff No. 21 and premix ranges at everyday prices, with insured delivery Australia-wide. 18+ only.',
-    h1: 'Smirnoff Vodka: Buy Smirnoff Online in Australia',
-    intro: `Smirnoff is one of the world's best-selling vodkas. Buy Smirnoff vodka${smirnoffSizes.length ? ` in ${smirnoffSizes.slice(0, 3).join(', ')}` : ''} and Smirnoff premixes online from Doctors of Whisky, with insured delivery across Australia.`,
+    title: 'Smirnoff Liquor Australia | Buy Smirnoff Vodka Online',
+    description: 'Smirnoff liquor in Australia: buy Smirnoff vodka online, No. 21 and premix ranges at everyday prices, with insured delivery Australia-wide. 18+ only.',
+    h1: 'Smirnoff Liquor: Buy Smirnoff Vodka Online in Australia',
+    intro: `Smirnoff liquor is one of the world's best-selling vodkas. Buy Smirnoff vodka${smirnoffSizes.length ? ` in ${smirnoffSizes.slice(0, 3).join(', ')}` : ''} and Smirnoff premixes online from Doctors of Whisky, with insured delivery across Australia.`,
     primary: 'smirnoff liquor',
     secondary: ['smirnoff vodka', 'smirnoff', 'smirnoff ice', 'smirnoff double black', 'smirnoff vodka 1l', 'smirnoff 700ml', 'smirnoff vodka 1 litre'],
     breadcrumb: [{ name: 'Home', path: '/' }, { name: 'Vodka', path: '/shop/spirit/collection/vodka/' }, { name: 'Smirnoff', path: '/collections/smirnoff/' }],
@@ -132,6 +137,7 @@ function build(): Record<string, CuratedConfig> {
   const premiumVodka = bySubs(['grey-goose', 'belvedere']).filter(full).sort(rank).slice(0, 6);
   const absolut: CuratedConfig = {
     slug: 'absolut',
+    authoritySlug: 'vodka',
     path: '/collections/absolut/',
     title: 'Absolut Vodka Australia | Buy Absolut Online',
     description: 'Buy Absolut vodka online in Australia at everyday prices, with insured delivery Australia-wide. Compare Absolut with Grey Goose and Belvedere. 18+ only.',
@@ -172,11 +178,12 @@ function build(): Record<string, CuratedConfig> {
   ].filter((s) => s.products.length > 0);
   const ginGifts: CuratedConfig = {
     slug: 'gin-gifts',
+    authoritySlug: 'gin',
     path: '/gifts/gin/',
     title: 'Gin Gifts Australia | Buy Gin Gift Packs Online',
-    description: 'Gin gifts in Australia: buy gin gift packs and gift-ready bottles online, by budget, with insured delivery Australia-wide. 18+ only.',
-    h1: 'Gin Gifts: Buy Gin Gift Packs Online in Australia',
-    intro: `Looking for gin gifts? Choose a gift-ready gin pack or a bottle by budget, and Doctors of Whisky will deliver it insured anywhere in Australia.`,
+    description: 'Gin gifts Australia: buy gin gift packs and gift-ready bottles online, by budget, with insured delivery Australia-wide. 18+ only.',
+    h1: 'Gin Gifts Australia: Buy Gin Gift Packs Online',
+    intro: `Looking for gin gifts Australia? Choose a gift-ready gin pack or a bottle by budget, and Doctors of Whisky will deliver it insured anywhere in Australia.`,
     primary: 'gin gifts australia',
     secondary: ['gin gifts', 'gin gift packs', 'gin gift set australia', 'gin gift pack', 'gin gift set', 'gin presents'],
     breadcrumb: [{ name: 'Home', path: '/' }, { name: 'Gin', path: '/shop/spirit/collection/gin/' }, { name: 'Gin gifts', path: '/gifts/gin/' }],
@@ -188,7 +195,7 @@ function build(): Record<string, CuratedConfig> {
       'A gift pack or set reads as a present straight away; otherwise match the bottle to your budget using the bands below.',
       `The minimum order is ${money(SHOP_RULES.minOrder)}, so add a mixer or a second bottle if the gift is under that.`,
     ],
-    faqs: baseFaqs('gin gifts'),
+    faqs: [...baseFaqs('gin gifts'), { question: 'Which gin makes the best gift?', answer: 'A gift-ready pack or set reads as a present straight away. For a bottle, choose by budget: the sections above group gin by price, and London dry is the classic juniper-led choice.' }],
     sections: [
       ...(ginSets.length ? [{ id: 'sets', h2: 'Gin gift sets and packs', note: 'Packs, sets and collections that arrive ready to give.', products: ginSets.slice(0, 9) } as CuratedSection] : []),
       ...ginBands,

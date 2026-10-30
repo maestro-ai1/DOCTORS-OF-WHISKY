@@ -29,6 +29,24 @@ export function titleCase(s: string): string {
     .replace(/\b(\d+)l\b/gi, (_m, n) => n + 'L');
 }
 
+/** H1 that always contains the primary keyword: the base heading when it already does, else keyword-led. */
+export function h1With(primary: string, base: string): string {
+  const n = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+  return ` ${n(base)} `.includes(` ${n(primary)} `) ? base : `${titleCase(primary)}: ${base}`;
+}
+
+/** Title that starts with the primary keyword: the base title when it already does, else keyword-led. */
+export function titleStartsWith(primary: string, base: string): string {
+  const n = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+  return `${n(base)} `.startsWith(`${n(primary)} `) ? base : `${titleCase(primary)}: ${base}`;
+}
+
+/** Meta description that contains the primary keyword: unchanged when it already does, else keyword-led. */
+export function descWith(primary: string, base: string): string {
+  const n = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+  return ` ${n(base)} `.includes(` ${n(primary)} `) ? base : `${titleCase(primary)}: ${base}`;
+}
+
 /** Trim to a sentence/word boundary so descriptions never end in "...". */
 export function fitDescription(text: string, max = 158, min = 110): string {
   const clean = text.replace(/\s+/g, ' ').trim();

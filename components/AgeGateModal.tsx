@@ -33,14 +33,14 @@ export function AgeGateModal() {
 
             <div className="space-y-1 mb-6">
               <span className="text-xs uppercase tracking-[0.25em] text-amber-500 font-semibold">Australian Liquor Compliance</span>
-              <h2 id="age-title" className="text-2xl sm:text-3xl font-serif font-bold text-neutral-100 tracking-tight">
+              <p id="age-title" className="text-2xl sm:text-3xl font-serif font-bold text-neutral-100 tracking-tight">
                 Doctors of Whisky
-              </h2>
+              </p>
               <p className="text-xs text-neutral-400 italic">Australia&apos;s Home for Rare, Collectable &amp; Fine Spirits</p>
             </div>
 
             <div className="bg-neutral-900/90 border border-neutral-800/80 rounded-xl p-4 mb-6 text-left">
-              <h3 className="text-sm font-semibold text-neutral-200 mb-1 text-center">Are you 18 years of age or older?</h3>
+              <p className="text-sm font-semibold text-neutral-200 mb-1 text-center">Are you 18 years of age or older?</p>
               <p className="text-[11px] text-neutral-400 leading-relaxed text-center">
                 You must be of legal Australian drinking age to browse, purchase, or reserve our curated vault collections.
               </p>
@@ -74,7 +74,7 @@ export function AgeGateModal() {
             <div className="mx-auto w-14 h-14 rounded-full bg-red-950/80 border border-red-700/50 flex items-center justify-center text-red-400">
               <AlertTriangle className="w-7 h-7" />
             </div>
-            <h3 className="text-xl font-serif font-bold text-neutral-200">Access Restricted</h3>
+            <p className="text-xl font-serif font-bold text-neutral-200">Access Restricted</p>
             <p className="text-xs text-neutral-400 leading-relaxed max-w-sm mx-auto">
               In accordance with Australian Liquor Licensing laws, you must be 18 years or older to enter Doctors of Whisky.
             </p>

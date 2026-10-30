@@ -78,5 +78,17 @@ export function relatedCollections(slug: string): { label: string; href: string 
     const sub = SUBCATEGORIES.find((x) => x.slug === s);
     if (sub && PRODUCTS.some((p) => p.subCategorySlug === s)) out.push({ label: sub.name, href: `/shop/${sub.category}/collection/${sub.slug}/` });
   }
+  // ring neighbours inside the same main category so every collection receives links from its neighbours
+  const mine = SUBCATEGORIES.find((x) => x.slug === slug);
+  if (mine) {
+    const ring = SUBCATEGORIES.filter((x) => x.category === mine.category && PRODUCTS.some((p) => p.subCategorySlug === x.slug)).sort((a, b) => a.slug.localeCompare(b.slug));
+    const at = ring.findIndex((x) => x.slug === slug);
+    for (let step = 1; step <= 3 && at >= 0 && ring.length > 1; step++) {
+      for (const dir of [1, -1]) {
+        const n = ring[(((at + dir * step) % ring.length) + ring.length) % ring.length];
+        if (n && n.slug !== slug && !out.some((o) => o.href === `/shop/${n.category}/collection/${n.slug}/`)) out.push({ label: n.name, href: `/shop/${n.category}/collection/${n.slug}/` });
+      }
+    }
+  }
   return [...out, ...(LANDING[slug] ?? [])];
 }
