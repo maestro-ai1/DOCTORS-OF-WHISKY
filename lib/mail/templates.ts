@@ -35,7 +35,7 @@ const shell = (title: string, body: string) => `<!doctype html><html><head><meta
 <div style="background:#111;color:#d4af37;padding:12px 18px;border-radius:12px 12px 0 0;font:bold 17px Georgia,serif">${esc(SITE.name)}</div>
 <div style="background:#fff;padding:18px;border-radius:0 0 12px 12px;border:1px solid #e7e0d4">
 <h1 style="font:bold 18px Georgia,serif;margin:0 0 12px">${esc(title)}</h1>${body}
-<p style="font-size:11px;color:#78716c;margin:18px 0 0;border-top:1px solid #eee7da;padding-top:10px;line-height:1.5">${esc(SITE.name)} · ${esc(CONTACT.email)} · ${esc(CONTACT.phone)}<br>Licence ${esc(CONTACT.liquorLicence)} · ABN ${esc(CONTACT.abn)} · 18+ only, photo ID on delivery</p>
+<p style="font-size:11px;color:#78716c;margin:18px 0 0;border-top:1px solid #eee7da;padding-top:10px;line-height:1.5">${esc(SITE.name)} · ${esc(CONTACT.email)} · ${esc(CONTACT.phone)}<br>Licence ${esc(CONTACT.liquorLicence)} · 18+ only, photo ID on delivery</p>
 </div></div></body></html>`;
 
 const itemsHtml = (o: OrderRecord) =>

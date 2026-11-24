@@ -145,7 +145,6 @@ export default function ContactPage() {
             </div>
 
             <div className="p-5 rounded-2xl bg-neutral-900/60 border border-neutral-800 text-xs text-neutral-400 space-y-1.5">
-              <p><strong className="text-neutral-300">ABN:</strong> {CONTACT.abn}</p>
               <p><strong className="text-neutral-300">NSW Liquor Licence:</strong> {CONTACT.liquorLicence}</p>
               <p className="text-[11px] text-neutral-400 pt-1">
                 Under the NSW Liquor Act 2007, it is an offence to supply liquor to persons under 18.
