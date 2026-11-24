@@ -5,7 +5,7 @@ import { Sparkles, Truck, ShieldCheck, ChevronRight } from 'lucide-react';
 const MESSAGES = [
   {
     icon: Truck,
-    text: 'FREE Australia-Wide Express Courier on orders over $1,500 AUD',
+    text: 'FREE Australia-Wide Express Courier on orders over $500 AUD',
     href: '/shop',
   },
   {

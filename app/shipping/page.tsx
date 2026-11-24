@@ -28,7 +28,7 @@ export default function ShippingPage() {
           </div>
           <div className="p-5 rounded-2xl bg-neutral-900/60 border border-neutral-800 text-center space-y-2">
             <span className="text-amber-400 font-serif font-bold text-2xl">${SHOP_RULES.shippingFee} AUD</span>
-            <span className="text-xs text-neutral-400 block">Flat Courier for orders &lt; $1,500</span>
+            <span className="text-xs text-neutral-400 block">Flat Courier for orders &lt; $500</span>
           </div>
         </div>
 

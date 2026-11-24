@@ -166,7 +166,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
     const shippingText =
       shippingFee === 0
-        ? 'FREE (Express Insured Courier over $1,500 AUD)'
+        ? 'FREE (Express Insured Courier over $500 AUD)'
         : `$${shippingFee} AUD (Flat-rate Courier)`;
 
     const rule = '----------------------------------------';

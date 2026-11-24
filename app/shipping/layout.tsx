@@ -7,7 +7,7 @@ import { PAGE_SEO } from '@/lib/data/page-seo';
 
 const TITLE = 'Wine Delivery & Whisky Delivery Australia | Shipping';
 const DESC =
-  'Wine delivery and insured whisky and spirits delivery across Australia: $300 minimum order, free express courier over $1,500, flat $75 shipping below that, signature on delivery for 18+.';
+  'Wine delivery and insured whisky and spirits delivery across Australia: $250 minimum order, free express courier over $500, flat $75 shipping below that, signature on delivery for 18+.';
 
 export const metadata = buildMetadata({
   title: TITLE,

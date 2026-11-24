@@ -32,7 +32,7 @@ export const HOMEPAGE_FAQS: FaqItem[] = [
   },
   {
     question: 'What are the minimum order and free shipping thresholds?',
-    answer: 'To ensure white-glove packaging and dedicated insured courier handling for every parcel, Doctors of Whisky operates with a minimum order value of $300 AUD. All orders of $1,500 AUD and above receive complimentary Australia-wide Express courier shipping. For orders between $300 and $1,499 AUD, a flat shipping fee of $75 AUD applies.'
+    answer: 'To ensure white-glove packaging and dedicated insured courier handling for every parcel, Doctors of Whisky operates with a minimum order value of $250 AUD. All orders of $500 AUD and above receive complimentary Australia-wide Express courier shipping. For orders between $250 and $499 AUD, a flat shipping fee of $75 AUD applies.'
   }
 ];
 
@@ -64,7 +64,7 @@ export const ALL_FAQS: FaqItem[] = [
   },
   {
     question: 'Do you deliver whisky to Melbourne, Brisbane, Perth and other cities?',
-    answer: 'Yes. We deliver to every Australian state and territory, including Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Hobart and Darwin. Delivery is insured, needs an adult signature, and orders of $1,500 AUD or more ship free by express courier.'
+    answer: 'Yes. We deliver to every Australian state and territory, including Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Hobart and Darwin. Delivery is insured, needs an adult signature, and orders of $500 AUD or more ship free by express courier.'
   },
   {
     question: 'What are the legal age verification requirements for Australian orders?',

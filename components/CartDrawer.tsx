@@ -110,7 +110,7 @@ export function CartDrawer() {
             </div>
           </div>
 
-          {/* Min Order Warning if under $300 */}
+          {/* Min Order Warning if under the minimum order */}
           {!isMinOrderMet && items.length > 0 && (
             <div className="p-3.5 bg-red-950/40 border-b border-red-900/50 flex items-start gap-2.5 text-xs text-red-300">
               <AlertCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />

@@ -153,7 +153,7 @@ export default function ShopClient({ brands, countries, total, children }: ShopC
               {showWishlistOnly ? 'Your Saved Vault Bottles' : 'Rare Spirits & Collectable Whiskies'}
             </h2>
             <p className="text-xs sm:text-sm text-neutral-400 mt-1 max-w-2xl font-light">
-              Showing {filterMode ? filteredProducts.length : total} authenticated bottles stored in our Sydney climate vaults. Eligible for 12% Crypto discount &amp; free Australian transit over $1,500 AUD.
+              Showing {filterMode ? filteredProducts.length : total} authenticated bottles stored in our Sydney climate vaults. Eligible for 12% Crypto discount &amp; free Australian transit over $500 AUD.
             </p>
           </div>
 

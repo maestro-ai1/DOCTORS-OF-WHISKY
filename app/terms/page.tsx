@@ -29,7 +29,7 @@ export default function TermsPage() {
 
           <div className="space-y-2">
             <h2 className="text-base font-serif font-bold text-neutral-100">2. Orders &amp; Minimum Order Threshold</h2>
-            <p>To preserve specialized courier transit standards, Doctors of Whisky enforces a minimum order value of $300 AUD per transaction. Orders below this value will not be fulfilled.</p>
+            <p>To preserve specialized courier transit standards, Doctors of Whisky enforces a minimum order value of $250 AUD per transaction. Orders below this value will not be fulfilled.</p>
           </div>
 
           <div className="space-y-2">

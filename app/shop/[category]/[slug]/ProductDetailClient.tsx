@@ -285,7 +285,7 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
                   {isFreeShipEligible ? (
                     <strong className="text-emerald-400">Eligible for FREE Express Australia-Wide Courier</strong>
                   ) : (
-                    <span>Add $75 Flat Courier or reach $1,500 AUD for Free Courier</span>
+                    <span>Add $75 Flat Courier or reach $500 AUD for Free Courier</span>
                   )}
                 </span>
                 <span className="text-emerald-400 font-bold">

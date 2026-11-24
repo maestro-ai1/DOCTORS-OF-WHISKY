@@ -233,6 +233,7 @@ export function productLd(product: Product) {
       priceCurrency: SITE.currency.code,
       price: product.price,
       priceValidUntil: '2027-06-30',
+      validFrom: '2026-10-04',
       availability: product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       itemCondition: 'https://schema.org/NewCondition',
       seller: { '@type': 'Organization', name: SITE.name, url: `${BASE_URL}/` },

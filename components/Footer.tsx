@@ -101,7 +101,7 @@ export function Footer() {
 
         <div className="border-t border-neutral-900 pt-3 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-neutral-400">
           <p>© {new Date().getFullYear()} {SITE.name} Pty Ltd. All rights reserved. Sydney, NSW, Australia.</p>
-          <p className="text-[10px]">{SITE.domain} · AUD ($) · Min order $300 AUD</p>
+          <p className="text-[10px]">{SITE.domain} · AUD ($) · Min order $250 AUD</p>
         </div>
       </div>
     </footer>

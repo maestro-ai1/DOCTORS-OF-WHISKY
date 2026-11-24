@@ -30,9 +30,9 @@ export const CONTACT = {
 };
 
 export const SHOP_RULES = {
-  minOrder: 300, // $300 AUD minimum order
-  freeShippingThreshold: 1500, // $1,500 AUD free express courier
-  shippingFee: 75, // $75 AUD flat fee under $1,500
+  minOrder: 250, // $250 AUD minimum order
+  freeShippingThreshold: 500, // $500 AUD free express courier
+  shippingFee: 75, // $75 AUD flat fee under $500
   cryptoDiscountPercent: 12, // 12% auto discount on Crypto
 };
 

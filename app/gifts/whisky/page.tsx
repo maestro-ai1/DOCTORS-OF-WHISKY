@@ -49,9 +49,9 @@ const pickBand = (min: number, max: number, n = 6) =>
     .sort((a, b) => (b.badge === 'BEST SELLER' ? 1 : 0) - (a.badge === 'BEST SELLER' ? 1 : 0) || Number(b.featured) - Number(a.featured) || a.price - b.price)
     .slice(0, n);
 const BANDS = [
-  { id: 'under-700', h: `Whisky gifts from ${money(SHOP_RULES.minOrder)} to $700`, note: `Our minimum order is ${money(SHOP_RULES.minOrder)}, so these work as a single gift or paired with a second bottle.`, products: pickBand(SHOP_RULES.minOrder, 700) },
-  { id: '700-1500', h: 'Whisky gifts from $700 to $1,500', note: 'Aged single malts and limited releases that make a statement.', products: pickBand(700, SHOP_RULES.freeShippingThreshold) },
-  { id: 'over-1500', h: `Premium whisky gifts over ${money(SHOP_RULES.freeShippingThreshold)}`, note: `Orders of ${money(SHOP_RULES.freeShippingThreshold)} or more ship free by express courier.`, products: pickBand(SHOP_RULES.freeShippingThreshold, 1e9) },
+  { id: 'under-500', h: `Whisky gifts from ${money(SHOP_RULES.minOrder)} to ${money(SHOP_RULES.freeShippingThreshold)}`, note: `Our minimum order is ${money(SHOP_RULES.minOrder)}, so these work as a single gift or paired with a second bottle.`, products: pickBand(SHOP_RULES.minOrder, SHOP_RULES.freeShippingThreshold) },
+  { id: '500-1000', h: `Whisky gifts from ${money(SHOP_RULES.freeShippingThreshold)} to $1,000`, note: `Aged single malts and limited releases that ship free by express courier.`, products: pickBand(SHOP_RULES.freeShippingThreshold, 1000) },
+  { id: 'over-1000', h: 'Premium whisky gifts over $1,000', note: 'Rare and limited bottles that make a statement.', products: pickBand(1000, 1e9) },
 ].filter((b) => b.products.length > 0);
 
 const FAQS = [
