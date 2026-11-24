@@ -12,7 +12,7 @@ export default function TermsPage() {
             Terms of Service &amp; Legal Notices
           </h1>
           <p className="text-xs text-neutral-400">
-            Updated: September 2026 · Doctors of Whisky Pty Ltd (ABN: {CONTACT.abn})
+            Updated: September 2026 · Doctors of Whisky Pty Ltd
           </p>
         </div>
 

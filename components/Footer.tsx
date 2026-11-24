@@ -52,7 +52,7 @@ export function Footer() {
               Rare single malts, Japanese whisky and collectible spirits, sommelier-inspected and stored in climate-regulated Sydney cellars.
             </p>
             <p className="text-[11px] text-neutral-400 font-mono">
-              ABN {CONTACT.abn} · Liquor Licence {CONTACT.liquorLicence}
+              Liquor Licence {CONTACT.liquorLicence}
             </p>
           </div>
 

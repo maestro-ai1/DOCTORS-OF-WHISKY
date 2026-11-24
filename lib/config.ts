@@ -27,7 +27,6 @@ export const CONTACT = {
   country: 'Australia',
   hours: 'Mon - Sat: 9:00 AM – 7:00 PM (AEST)',
   liquorLicence: 'LIQP770017482',
-  abn: '74 618 992 410',
 };
 
 export const SHOP_RULES = {
