@@ -376,12 +376,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Legacy Rare Cask Series Para 100 Vintage Single Malt"
   },
@@ -4042,7 +4042,6 @@ export const PRODUCTS: Product[] = [
       "glendronach 12 yo",
       "glendronach 12yo",
       "glendronach 12 australia",
-      "glendronach 12 near me",
       "glendronach 12 price",
       "glendronach 12 year",
       "glendronach 12 year single malt scotch",
@@ -4075,7 +4074,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "GlenDronach 12yo 50ml Scotch Whisky comes from GlenDronach. If you are searching for buy glendronach 12, this is the listing, with price, size and insured delivery shown above. GlenDronach is a Highland single malt distillery at Forgue, Aberdeenshire, founded in 1826 and known for whisky matured in sherry casks. Scotch whisky is whisky made in Scotland from malted barley and other cereals, distilled and matured in oak casks for at least three years under the Scotch Whisky Regulations 2009.",
       "Sip single malt neat or with a few drops of water to open it up; blended Scotch also works over ice or in a highball. GlenDronach 12yo 50ml Scotch Whisky is listed at 40.0% - 46.0% ABV in a 50ml format, from Scotland.",
-      "If you are looking for glendronach 12 near me, GlenDronach 12yo 50ml Scotch Whisky is available from Doctors of Whisky at $1,850 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for glendronach 12 year old, GlenDronach 12yo 50ml Scotch Whisky is available from Doctors of Whisky at $1,850 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "best whiskey",
@@ -10770,12 +10769,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Dark Lark Whiskey: Dark Lark 2026 Australian Whisky"
   },
@@ -10861,12 +10860,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Christmas Cask Australian Whisky"
   },
@@ -10952,12 +10951,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Classic 100ml Australian Whisky"
   },
@@ -11044,12 +11043,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark chinotto cask",
       "lark whiskey hobart",
-      "whisky"
+      "whisky",
+      "scotch"
     ],
     "h1": "Lark Classic Pack Australian Whisky"
   },
@@ -11135,12 +11134,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Dark Lark 2023 Australian Whisky"
   },
@@ -11226,12 +11225,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Devils Storm Australian Whisky"
   },
@@ -11318,12 +11317,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Fire Trail Australian Whisky"
   },
@@ -11409,12 +11408,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Ruby Abyss Australian Whisky"
   },
@@ -11500,12 +11499,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Symphony No1 100ml Australian Whisky"
   },
@@ -11591,12 +11590,12 @@ export const PRODUCTS: Product[] = [
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
       "lark classic cask single malt",
-      "lark whisky review",
       "lark st",
       "lark whiskey tasmania",
       "lark classic",
       "lark chinotto cask",
-      "lark whiskey hobart"
+      "lark whiskey hobart",
+      "whisky"
     ],
     "h1": "Lark Xmas Cask 100ml Australian Whisky"
   },
@@ -15248,7 +15247,6 @@ export const PRODUCTS: Product[] = [
       "belvedere 1 liter",
       "belvedere cost",
       "belvedere vodka cost",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd"
@@ -15280,7 +15278,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Belvedere 1L comes from Belvedere. If you are searching for vodka belvedere, this is the listing, with price, size and insured delivery shown above. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 1L is listed at 40.0% ABV in a 1L format, from Poland.",
-      "If you are looking for belvedere vodka cost, Belvedere 1L is available from Doctors of Whisky at $87.99 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere vodka 1 litre, Belvedere 1L is available from Doctors of Whisky at $87.99 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "smirnoff vodka",
@@ -15335,7 +15333,6 @@ export const PRODUCTS: Product[] = [
     "secondaryKeywords": [
       "belvedere cost",
       "belvedere vodka cost",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15371,7 +15368,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Belvedere 200ml comes from Belvedere. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 200ml is listed at 40.0% ABV in a 200ml format, from Poland.",
-      "If you are looking for belvedere vidka, Belvedere 200ml is available from Doctors of Whisky at $26.99 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere 200ml, Belvedere 200ml is available from Doctors of Whisky at $26.99 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "patron tequila",
@@ -15429,7 +15426,6 @@ export const PRODUCTS: Product[] = [
       "vodka belvedere price",
       "belvedere cost",
       "belvedere vodka cost",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15462,7 +15458,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Belvedere 375ml comes from Belvedere. If you are searching for belvedere liquor, this is the listing, with price, size and insured delivery shown above. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 375ml is listed at 40.0% ABV in a 375ml format, from Poland.",
-      "If you are looking for belvedere organic vodka, Belvedere 375ml is available from Doctors of Whisky at $60 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere cost, Belvedere 375ml is available from Doctors of Whisky at $60 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "coffee liqueur",
@@ -15522,7 +15518,6 @@ export const PRODUCTS: Product[] = [
       "belvedere cost",
       "belvedere vodka cost",
       "belvedere vodka 700ml",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15555,7 +15550,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Belvedere 700 comes from Belvedere. If you are searching for belvedere vodka price, this is the listing, with price, size and insured delivery shown above. Belvedere is a Polish rye vodka made at the Dobrogniewice distillery.",
       "Serve Belvedere ice-cold and neat, or in a dry martini. Belvedere 700 is listed at 40.0% ABV in a 700ml format, from Poland.",
-      "If you are looking for belvedere organic vodka, Belvedere 700 is available from Doctors of Whisky at $250 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for belvedere vidka, Belvedere 700 is available from Doctors of Whisky at $250 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "cheap vodka",
@@ -15611,7 +15606,6 @@ export const PRODUCTS: Product[] = [
       "belvedere vodka 700ml",
       "belvedere cost",
       "belvedere 700ml",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15704,7 +15698,6 @@ export const PRODUCTS: Product[] = [
       "belvedere cost",
       "belvedere 700ml",
       "belvedere vodka cost",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15717,7 +15710,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Belvedere Mango Gb is priced at $70 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $500 AUD or more ship free, and the minimum order is $250 AUD."
       },
       {
-        "question": "Where do I buy belvedere mango gb online in Australia?",
+        "question": "Where do I buy belvedere vodka 700ml online in Australia?",
         "answer": "You can buy Belvedere Mango Gb from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -15795,7 +15788,6 @@ export const PRODUCTS: Product[] = [
       "belvedere cost",
       "belvedere 700ml",
       "belvedere vodka cost",
-      "the belvedere reviews",
       "belvedere apartments",
       "belvedere organic vodka",
       "belvedere rd",
@@ -15808,7 +15800,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Belvedere Smogory Forest is priced at $95 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $500 AUD or more ship free, and the minimum order is $250 AUD."
       },
       {
-        "question": "Where do I buy belvedere cost online in Australia?",
+        "question": "Where do I buy belvedere smogory forest online in Australia?",
         "answer": "You can buy Belvedere Smogory Forest from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -15891,8 +15883,7 @@ export const PRODUCTS: Product[] = [
       "mezcal australia",
       "discover mezcal",
       "del maguey mezcal",
-      "best mezcal",
-      "kimo sabe mezcal review"
+      "best mezcal"
     ],
     "faqs": [
       {
@@ -15982,8 +15973,7 @@ export const PRODUCTS: Product[] = [
       "mezcal australia",
       "discover mezcal",
       "del maguey mezcal",
-      "best mezcal",
-      "kimo sabe mezcal review"
+      "best mezcal"
     ],
     "faqs": [
       {
@@ -16074,7 +16064,6 @@ export const PRODUCTS: Product[] = [
       "discover mezcal",
       "del maguey mezcal",
       "best mezcal",
-      "kimo sabe mezcal review",
       "bozal mezcal"
     ],
     "faqs": [
@@ -16104,7 +16093,7 @@ export const PRODUCTS: Product[] = [
     "longDescription": [
       "Mezcal Elote comes from Mezcal. Mezcal is a Mexican agave spirit, most often made from espadín agave, with a smoky character from roasting the agave hearts in earthen pits.",
       "Sip mezcal neat with orange slices, or use it in a smoky margarita or Paloma. Mezcal Elote is listed at 40.0% - 45.0% ABV in a 700ml format, from Mexico.",
-      "If you are looking for del maguey mezcal, Mezcal Elote is available from Doctors of Whisky at $165 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+      "If you are looking for tequila vs mezcal, Mezcal Elote is available from Doctors of Whisky at $165 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
     ],
     "tags": [
       "absolut vodka",
@@ -16167,7 +16156,6 @@ export const PRODUCTS: Product[] = [
       "discover mezcal",
       "del maguey mezcal",
       "best mezcal",
-      "kimo sabe mezcal review",
       "bozal mezcal"
     ],
     "faqs": [
@@ -16176,7 +16164,7 @@ export const PRODUCTS: Product[] = [
         "answer": "Mezcal Espladin is priced at $210 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $500 AUD or more ship free, and the minimum order is $250 AUD."
       },
       {
-        "question": "Where do I buy bozal mezcal online in Australia?",
+        "question": "Where do I buy tequila vs mezcal online in Australia?",
         "answer": "You can buy Mezcal Espladin from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
       },
       {
@@ -16258,8 +16246,7 @@ export const PRODUCTS: Product[] = [
       "mezcal australia",
       "discover mezcal",
       "del maguey mezcal",
-      "best mezcal",
-      "kimo sabe mezcal review"
+      "best mezcal"
     ],
     "faqs": [
       {
@@ -31000,7 +30987,6 @@ export const PRODUCTS: Product[] = [
       "limoncello spritz de bortoli",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "mini limoncello",
       "grain alcohol for limoncello",
       "limoncello zoncello",
@@ -31015,7 +31001,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "24 Ice Frozen Cocktails 5pack Limoncello"
   },
@@ -31090,7 +31077,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31106,7 +31092,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Bottega Limoncino Limoncello"
   },
@@ -31181,7 +31168,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31197,7 +31183,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Franciacorta Limonel Limoncello"
   },
@@ -31273,7 +31260,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31289,7 +31275,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Limoncetta Di Sorrento Limoncello"
   },
@@ -31364,7 +31351,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31380,7 +31366,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Nastro Doro Limoncello"
   },
@@ -31455,7 +31442,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31471,7 +31457,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Toschi Limoncello 50ml"
   },
@@ -31547,7 +31534,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31563,7 +31549,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Toschi Limoncello"
   },
@@ -31638,7 +31625,6 @@ export const PRODUCTS: Product[] = [
       "limoncello price",
       "limoncello mixers",
       "miniature limoncello bottles",
-      "limoncello australia pty ltd reviews",
       "limoncello australia",
       "mini limoncello",
       "grain alcohol for limoncello",
@@ -31654,7 +31640,8 @@ export const PRODUCTS: Product[] = [
       "cognac",
       "absolut vodka",
       "rum",
-      "belvedere vodka"
+      "belvedere vodka",
+      "cheap vodka"
     ],
     "h1": "Villa Massa Spritz Glass Pack Limoncello"
   },
@@ -51364,8 +51351,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Two Fold is Starward’s expression in this style. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
@@ -51446,8 +51432,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Nova sits in our australian whisky range, alongside 5 other Starward bottles. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
@@ -51528,8 +51513,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Fortis Single Malt Whisky is Starward’s expression in this style. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
@@ -51610,8 +51594,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Honeycomb sits in our australian whisky range, alongside 5 other Starward bottles. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
@@ -51692,8 +51675,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Octave Barrels Whisky comes from Starward. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
@@ -51774,8 +51756,7 @@ export const PRODUCTS: Product[] = [
       "tasmania best whisky",
       "tasmanian whisky brands",
       "lark chinotto citrus cask",
-      "lark classic cask single malt",
-      "lark whisky review"
+      "lark classic cask single malt"
     ],
     "longDescription": [
       "Starward Unexpeated Whisky is Starward’s expression in this style. Australian whisky is made by craft distilleries, notably in Tasmania, often using local barley and ex-wine or ex-fortified-wine casks.",
