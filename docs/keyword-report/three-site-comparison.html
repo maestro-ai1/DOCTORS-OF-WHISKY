@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Three-site on-page comparison and rules</title>
+<style>
+:root{--bg:#0f0f10;--card:#18181b;--line:#2a2a2e;--tx:#e7e5e4;--mut:#a8a29e;--gold:#fbbf24;--ok:#22c55e;--warn:#f59e0b;--bad:#ef4444}
+@media(prefers-color-scheme:light){:root{--bg:#faf9f7;--card:#fff;--line:#e5e1da;--tx:#1c1917;--mut:#6b6560;--gold:#b45309}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 system-ui,Segoe UI,sans-serif;padding:18px;max-width:1000px;margin-inline:auto}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:16px;margin:26px 0 8px;color:var(--gold)}p.s{color:var(--mut);margin:0 0 12px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--mut);font-weight:600;font-size:12px}
+.w{overflow-x:auto}.ok{color:var(--ok);font-weight:700}.warn{color:var(--warn);font-weight:700}.bad{color:var(--bad);font-weight:700}
+code{font-size:12px}ul{margin:6px 0 0 18px;padding:0}li{margin:3px 0}.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+</style></head><body>
+<h1>Three-site on-page comparison and the rules we follow</h1>
+<p class="s">Doctors of Whisky (DOW) vs ebikedirect.eu vs ebikesforsale.com.au. Live crawl 2026-11-24 (DOW 265 pages, e-bikes 236 pages sampled) plus DOW's stored mapping measured with ebikedirect.eu's own rule set. ebikedirect.eu figures come from the earlier report in the e-bikes folder (not re-measured).</p>
+
+<h2>1. How each site maps keywords</h2>
+<div class="w"><table>
+<tr><th>Measure</th><th>Doctors of Whisky</th><th>ebikedirect.eu</th><th>ebikesforsale.com.au</th></tr>
+<tr><td>Collection / category primaries that are Transactional</td><td class="ok">81% (48 of 59)</td><td>62%</td><td class="bad">7% (2 of 29)</td></tr>
+<tr><td>Brand hub pages</td><td class="ok">39 (brands with 3+ products)</td><td class="ok">42 (every brand)</td><td class="warn">11</td></tr>
+<tr><td>Model-line pages</td><td class="warn">0</td><td>8 (pilot)</td><td class="warn">0</td></tr>
+<tr><td>Product primary is a real bank keyword</td><td>41% (244 of 589)</td><td>35%</td><td class="bad">1%</td></tr>
+<tr><td>Product primary is a name fallback</td><td>59% (flagged in the map)</td><td>65% ("buy &lt;name&gt;", flagged)</td><td class="bad">about 99%, not flagged</td></tr>
+<tr><td>Intent of real product primaries</td><td>57 T, 187 C</td><td>about 98% T</td><td>none</td></tr>
+<tr><td>Secondaries that are T or C</td><td class="ok">100%</td><td class="ok">100%</td><td class="ok">99.6%</td></tr>
+<tr><td>Duplicate primaries</td><td class="ok">0</td><td class="ok">0</td><td class="ok">0</td></tr>
+<tr><td>Scripted check against the keyword bank</td><td class="warn">run by hand; ~9 small issues, 38 near-me/review keywords removed</td><td class="ok">scripted (P/S/F/K/U/G)</td><td class="warn">structure only</td></tr>
+</table></div>
+
+<h2>2. Live on-page check</h2>
+<div class="w"><table>
+<tr><th>Check</th><th>Doctors of Whisky (265 pages)</th><th>ebikesforsale (236 pages)</th></tr>
+<tr><td>Title 60 characters or fewer</td><td class="ok">100%</td><td>97%</td></tr>
+<tr><td>Meta description 110-158 characters</td><td class="ok">100%</td><td>98%</td></tr>
+<tr><td>Exactly one H1, first heading, no skipped levels</td><td class="ok">100% / 100% / 100%</td><td>100% / 100% / 99%</td></tr>
+<tr><td>Title starts with the primary</td><td>97%</td><td>not measurable (no keywords tag)</td></tr>
+<tr><td>H1 contains the primary</td><td>95% (blogs 90%)</td><td>not measurable</td></tr>
+<tr><td>Primary in the first paragraph</td><td>96%</td><td>not measurable</td></tr>
+<tr><td>FAQs 5 or more</td><td>94%</td><td>94%</td></tr>
+<tr><td>Breadcrumb schema (non-home pages)</td><td class="ok">97%</td><td class="bad">21%</td></tr>
+<tr><td>Product schema on product pages</td><td class="ok">96%</td><td>77%</td></tr>
+<tr><td>Average words per page</td><td class="ok">1,037 (blogs 1,679)</td><td class="warn">584 (blogs 1,521)</td></tr>
+<tr><td>Images without alt text</td><td class="ok">0</td><td class="ok">0</td></tr>
+<tr><td>Duplicate titles / metas / noindex / errors</td><td class="ok">0 / 0 / 0 / 0</td><td class="ok">0 / 0 / 0 / 0</td></tr>
+</table></div>
+<p class="s" style="margin-top:8px">DOW misses are mostly by design: paginated pages (<code>/shop/page/N/</code>, <code>/blog/page/N/</code>) do not repeat the primary or FAQs, and About, Brands and Refund Policy have no sales keyword. One real miss: <code>/shop/spirit/patron-cafe-patron/</code> has the primary in the title but not the H1.</p>
+
+<h2>3. What ebikedirect.eu does that DOW does not yet</h2>
+<ol>
+<li><b>Model-line pages</b>: one page per product family (e.g. "macallan 12", "glenfiddich 12") to hold big model keywords.</li>
+<li><b>"buy &lt;name&gt;" fallback</b> on products with no bank keyword (Transactional, flagged), instead of the plain name.</li>
+<li><b>Scripted bank check</b> (stored volume/KD/intent must equal the bank row; guard words blocked) run before every push.</li>
+</ol>
+
+<h2>4. The rules (Doctors of Whisky golden rule, 2026-10)</h2>
+<div class="box"><b>Keywords</b><ul>
+<li>One primary per URL, one keyword = one URL (site-wide unique). Transactional first; Commercial allowed when it has at least 2.5x the volume; brand head terms may be C/N/I when the volume is very high (owner exception).</li>
+<li>KD 29 or lower. Intent priority T &gt; C &gt; N &gt; I. Volume under 10 is out.</li>
+<li>Secondaries: 15 stored, 5 visible, all Transactional or Commercial. Tags: 20 stored, 10 visible. Visible copy = 1 primary + 5 secondary + 4 supporting. No stuffing.</li>
+<li>Homepage primary "whisky sale". About and Contact are brand pages. Blogs: Informational/Navigational primary; the keyword is in the H1.</li>
+<li>Brand head terms go to the brand hub or collection that sells them, never to a product or a blog.</li>
+<li>Stock check: a keyword gets a page only if the shop sells it. Guard words ("near me", "review", competitor retailers) are never used.</li></ul>
+<b>On-page (every page)</b><ul>
+<li>Title 60 characters or fewer and starts with the primary; meta 110-158 with the primary and a call to action.</li>
+<li>Exactly one H1, the first heading in the document, containing the primary; 3+ H2s (blogs 8+); no skipped levels.</li>
+<li>Primary in the first paragraph; unique copy (no shared blurb across products); truthful claims only.</li>
+<li>3+ contextual internal links, varied anchors; outbound authority links (blogs 2+); no competitor retailers; no dead links.</li>
+<li>Schema: BreadcrumbList; Product + Offer (with shipping delivery time and return policy); FAQPage (5 FAQs, each with one supporting keyword); BlogPosting.</li></ul>
+<b>Blogs</b><ul><li>1,500+ words, table of contents, visible updated date, 5 FAQs, 3+ authority links, 8+ internal links, unique colour cover (16:9), one topic per post (merge overlaps).</li></ul>
+<b>Images</b><ul><li>Products: real photo on pure white, square 1200 master, no watermark or logo, new filename for every change, alt = the focus keyword.</li></ul>
+<b>Process</b><ul><li>Live crawl, not stored data. Run type-check, build and all audits before every push; re-run on production after deploy; report numbers and what was not verified.</li></ul></div>
+
+<p class="s" style="margin-top:16px">Rules also live in <code>C:\claude projects\WEBSITE-BUILD-KIT\</code> and the DOW <code>docs/PROJECT-SEO-GUIDE.md</code>.</p>
+</body></html>

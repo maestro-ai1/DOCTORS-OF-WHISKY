@@ -49,6 +49,13 @@ const EXTRA = {
   Starward: [{ kw: 'starward', raw: 'Navigational', intent: 'Navigational', vol: 1900, kd: 19 }],
   'Moet & Chandon': [{ kw: 'moet', raw: 'Commercial', intent: 'Commercial', vol: 8100, kd: 24 }, { kw: 'moet champagne', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 27 }, { kw: 'moet and chandon champagne', raw: 'Commercial', intent: 'Commercial', vol: 1000, kd: 28 }, { kw: 'moet and chandon price', raw: 'Transactional', intent: 'Transactional', vol: 170, kd: 13 }],
   Glenmorangie: [{ kw: 'glenmorangie', raw: 'Navigational', intent: 'Navigational', vol: 4400, kd: 24 }, { kw: 'glenmorangie signet', raw: 'Transactional', intent: 'Transactional', vol: 1600, kd: 14 }, { kw: 'glenmorangie 12', raw: 'Informational', intent: 'Informational', vol: 2400, kd: 17 }],
+  // Semrush AU refreshed 2026-11-28 (Update metrics): head terms that are larger than the current hub primary
+  Fireball: [{ kw: 'fireball', raw: 'Transactional', intent: 'Transactional', vol: 14800, kd: 24 }],
+  Hibiki: [{ kw: 'hibiki', raw: 'Commercial', intent: 'Commercial', vol: 3600, kd: 12 }],
+  'Wild Turkey': [{ kw: 'wild turkey', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 22 }],
+  Bacardi: [{ kw: 'bacardi', raw: 'Navigational', intent: 'Navigational', vol: 6600, kd: 26 }],
+  Chandon: [{ kw: 'chandon', raw: 'Transactional', intent: 'Transactional', vol: 8100, kd: 28 }],
+  Mumm: [{ kw: 'mumm champagne', raw: 'Informational', intent: 'Informational', vol: 9900, kd: 19 }],
   Taittinger: [{ kw: 'taittinger', raw: 'Commercial', intent: 'Commercial', vol: 1000, kd: 17 }],
   'Pol Roger': [{ kw: 'pol roger', raw: 'Commercial', intent: 'Commercial', vol: 1300, kd: 11 }],
   'Captain Morgan': [{ kw: 'captain morgan', raw: 'Commercial', intent: 'Commercial', vol: 5400, kd: 14 }],
@@ -72,6 +79,8 @@ for (const [brand, list] of Object.entries(by)) {
   const N = best(cand.filter((k) => k.intent === 'Navigational' && !used.has(k.kw)));
   let primary = T[0] || null;
   if (C[0] && (!primary || (C[0].vol >= 1000 && C[0].vol >= primary.vol * 2.5))) primary = C[0]; // high-volume exception
+  const I0 = best(cand.filter((k) => k.intent === 'Informational' && !used.has(k.kw)))[0]; // owner exception: a very large brand head term may be Informational
+  if (I0 && I0.vol >= 5000 && (!primary || I0.vol >= primary.vol * 2.5)) primary = I0;
   if (N[0] && N[0].vol >= 1000 && (!primary || N[0].vol >= primary.vol * 2.5)) primary = N[0]; // brand head term exception
   if (!primary || primary.vol < 300) continue;
   const rest = best(cand.filter((k) => k.kw !== primary.kw && !used.has(k.kw) && k.vol >= 100)).slice(0, 5);

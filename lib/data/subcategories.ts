@@ -1827,10 +1827,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "orange-liqueur",
     "name": "Orange Liqueur",
     "category": "spirit",
-    "description": "Cointreau Price: 7 Orange Liqueur bottles from Cointreau, 1800 and Jagermeister, $7.99 to $102.99 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Triple Sec: 7 Orange Liqueur bottles from Cointreau, 1800 and Jagermeister, $7.99 to $102.99 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/orange-liqueur/orange-liqueur--tds-1800-guachimonton.jpg",
-    "primaryKeyword": "cointreau price",
+    "primaryKeyword": "triple sec",
     "secondaryKeywords": [
+      "cointreau price",
       "orange liqueur",
       "germain liqueur",
       "saint germain cafe",
@@ -1844,8 +1845,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "chandon orange spritz",
       "buy cointreau",
       "cointreau cost",
-      "cointreau 1 ltr",
-      "cointreau specials"
+      "cointreau 1 ltr"
     ],
     "faqs": [
       {
@@ -2311,10 +2311,11 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "soju",
     "name": "Soju",
     "category": "other",
-    "description": "Jinro Soju: 11 Soju bottles from Charm, Jinro and Chum, $6.99 to $195 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Soju online in Australia: 11 bottles from Charm, Jinro and Chum, $6.99 to $195 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/soju/soju--tds-charm-malgeun-kiwiberry.jpg",
-    "primaryKeyword": "jinro soju",
+    "primaryKeyword": "soju",
     "secondaryKeywords": [
+      "jinro soju",
       "soju alcohol",
       "korean wine soju",
       "soju bottle",
@@ -2328,8 +2329,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       "soju flavour",
       "soju flavors",
       "soju japanese drink",
-      "soju beer",
-      "soju buy"
+      "soju beer"
     ],
     "faqs": [
       {
@@ -2935,7 +2935,7 @@ export const SUBCATEGORIES: Subcategory[] = [
     "slug": "sparkling",
     "name": "Sparkling Wine",
     "category": "beer-premix-wine",
-    "description": "Buy Sparkling Wine Online: 8 Sparkling Wine bottles from Moet, Chandon and Dom Pérignon, $30.99 to $780 AUD. Insured delivery Australia-wide, 18+ only.",
+    "description": "Buy Sparkling Wine Online: 10 Sparkling Wine bottles from Moet, Chandon and Mumm, $30.99 to $780 AUD. Insured delivery Australia-wide, 18+ only.",
     "heroImage": "/images/products/sparkling/sparkling--tds-gh-mumm-corodn-rouge-brut-4ed4acd1-ceed-4bd6-a095-bebd780071c7.jpg",
     "primaryKeyword": "buy sparkling wine online",
     "secondaryKeywords": [
@@ -2966,7 +2966,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       },
       {
         "question": "Which sparkling wine brands do you sell?",
-        "answer": "Our sparkling wine range includes Moet (2), Chandon (2), Dom Pérignon (1), Sparkling (1), Laurent (1) and Piper (1). Open any brand or bottle for size, strength and price."
+        "answer": "Our sparkling wine range includes Moet (2), Chandon (2), Mumm (2), Dom Pérignon (1), Sparkling (1), Laurent (1) and Piper (1). Open any brand or bottle for size, strength and price."
       },
       {
         "question": "What is sparkling wine?",
@@ -2982,7 +2982,7 @@ export const SUBCATEGORIES: Subcategory[] = [
       }
     ],
     "longDescription": [
-      "Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France. Doctors of Whisky lists 8 sparkling wine bottles across 6 brands, including Moet, Chandon, Dom Pérignon and Sparkling, priced from $30.99 to $780 AUD.",
+      "Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France. Doctors of Whisky lists 10 sparkling wine bottles across 7 brands, including Moet, Chandon, Mumm and Dom Pérignon, priced from $30.99 to $780 AUD.",
       "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass.",
       "To buy sparkling wine online in Australia, choose a bottle above and add it to your cart. Orders of $500 AUD or more ship free by express courier, while smaller orders pay a flat $75 AUD fee, with a $250 AUD minimum order. Every delivery is insured, needs an adult (18+) signature, and can be paid by PayID, bank transfer, Bitcoin or USDT with 12% off for crypto."
     ],

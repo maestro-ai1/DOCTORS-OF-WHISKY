@@ -53195,6 +53195,178 @@ export const PRODUCTS: Product[] = [
       "Pol Roger Brut Vintage Gift Box is $183.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $500 AUD or more for free express delivery, and remember that every order needs an adult signature."
     ],
     "h1": "Pol Roger Brut Vintage Gift Box"
+  },
+  {
+    "id": "prod-mumm-marlborough-brut-prestige",
+    "slug": "mumm-marlborough-brut-prestige",
+    "name": "Mumm Marlborough Brut Prestige",
+    "brand": "Mumm",
+    "category": "beer-premix-wine",
+    "subCategorySlug": "sparkling",
+    "subCategory": "Sparkling Wine",
+    "country": "",
+    "price": 46.99,
+    "abv": "",
+    "size": "750ml",
+    "images": [
+      "/images/products/sparkling/mumm-marlborough-brut-prestige.jpg"
+    ],
+    "description": "Mumm Marlborough Brut Prestige (750ml) is a sparkling wine from Mumm. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "stock": 6,
+    "featured": false,
+    "sku": "SMR-MUMMMARLBOROUGHBRUTPREST",
+    "primaryKeyword": "mumm marlborough brut prestige",
+    "secondaryKeywords": [
+      "champagne",
+      "sparkling wine",
+      "coopers sparkling ale",
+      "sparkling shiraz",
+      "sparkling red wine",
+      "sparkling rose",
+      "australian sparkling wine",
+      "sparkling wines",
+      "sparkling mineral water",
+      "arras sparkling wine",
+      "sparkling rose wine",
+      "sparkling red",
+      "cheap champagne",
+      "tasmanian sparkling wine",
+      "sweet champagne"
+    ],
+    "faqs": [
+      {
+        "question": "How much does Mumm Marlborough Brut Prestige cost in Australia?",
+        "answer": "Mumm Marlborough Brut Prestige is priced at $46.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $500 AUD or more ship free, and the minimum order is $250 AUD."
+      },
+      {
+        "question": "Can I buy Mumm Marlborough Brut Prestige online and have it delivered in Australia?",
+        "answer": "You can buy Mumm Marlborough Brut Prestige from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
+      },
+      {
+        "question": "What size and strength is Mumm Marlborough Brut Prestige?",
+        "answer": "Mumm Marlborough Brut Prestige is sold in a 750ml format. It is a sparkling wine. Check the label for the exact strength of the batch you receive."
+      },
+      {
+        "question": "How should I serve Mumm Marlborough Brut Prestige?",
+        "answer": "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass."
+      },
+      {
+        "question": "Is Mumm Marlborough Brut Prestige a good gift?",
+        "answer": "Sparkling wine is the classic celebration gift. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
+      }
+    ],
+    "metaTitle": "Mumm Marlborough Brut Prestige",
+    "metaDescription": "Buy Mumm Marlborough Brut Prestige (750ml) online in Australia for $46.99 AUD. Sparkling Wine from Mumm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "tags": [
+      "rose sparkling wine",
+      "sparkling white wine",
+      "less expensive champagne",
+      "cheap sparkling wine",
+      "sweet sparkling wine",
+      "sparkling red wine australia",
+      "tasmanian sparkling",
+      "best sparkling wine",
+      "coopers sparkling",
+      "henkell sparkling wine",
+      "nice champagne",
+      "fresita strawberry sparkling",
+      "s pellegrino sparkling water",
+      "sparkling water cans",
+      "coopers sparkling ale cans",
+      "australian sparkling"
+    ],
+    "longDescription": [
+      "Mumm Marlborough Brut Prestige comes from Mumm. Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France.",
+      "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass. Mumm Marlborough Brut Prestige is sold in a 750ml format.",
+      "If you are looking for mumm marlborough brut prestige, Mumm Marlborough Brut Prestige is available from Doctors of Whisky at $46.99 AUD. We deliver Australia-wide with insured shipping (free from $500 AUD, otherwise $75 AUD), and payment is by PayID, bank transfer, Bitcoin or USDT, with 12% off when you pay in crypto."
+    ],
+    "h1": "Mumm Marlborough Brut Prestige"
+  },
+  {
+    "id": "prod-mumm-tasmania-brut-prestige-nv",
+    "slug": "mumm-tasmania-brut-prestige-nv",
+    "name": "Mumm Tasmania Brut Prestige NV",
+    "brand": "Mumm",
+    "category": "beer-premix-wine",
+    "subCategorySlug": "sparkling",
+    "subCategory": "Sparkling Wine",
+    "country": "",
+    "price": 46.99,
+    "abv": "",
+    "size": "750ml",
+    "images": [
+      "/images/products/sparkling/mumm-tasmania-brut-prestige-nv.jpg"
+    ],
+    "description": "Mumm Tasmania Brut Prestige NV (750ml) is a sparkling wine from Mumm. Buy it online from Doctors of Whisky with insured delivery across Australia.",
+    "stock": 6,
+    "featured": false,
+    "sku": "SMR-MUMMTASMANIABRUTPRESTIGE",
+    "primaryKeyword": "mumm tasmania brut prestige nv",
+    "secondaryKeywords": [
+      "champagne",
+      "sparkling wine",
+      "coopers sparkling ale",
+      "sparkling shiraz",
+      "sparkling red wine",
+      "sparkling rose",
+      "australian sparkling wine",
+      "sparkling wines",
+      "sparkling mineral water",
+      "arras sparkling wine",
+      "sparkling rose wine",
+      "sparkling red",
+      "cheap champagne",
+      "tasmanian sparkling wine",
+      "sweet champagne"
+    ],
+    "faqs": [
+      {
+        "question": "How much does Mumm Tasmania Brut Prestige NV cost in Australia?",
+        "answer": "Mumm Tasmania Brut Prestige NV is priced at $46.99 AUD at Doctors of Whisky. Paying with Bitcoin or USDT takes 12% off, orders of $500 AUD or more ship free, and the minimum order is $250 AUD."
+      },
+      {
+        "question": "Where do I buy Mumm online in Australia?",
+        "answer": "You can buy Mumm Tasmania Brut Prestige NV from Doctors of Whisky, a Sydney-based bottle shop that delivers Australia-wide. Add it to your cart, or message the team on WhatsApp (+61 420 128 746) to confirm your order. Buyers must be 18 or over."
+      },
+      {
+        "question": "What size and strength is Mumm Tasmania Brut Prestige NV?",
+        "answer": "Mumm Tasmania Brut Prestige NV is sold in a 750ml format. It is a sparkling wine. Check the label for the exact strength of the batch you receive."
+      },
+      {
+        "question": "How should I serve Mumm Tasmania Brut Prestige NV?",
+        "answer": "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass."
+      },
+      {
+        "question": "Is Mumm Tasmania Brut Prestige NV a good gift?",
+        "answer": "Sparkling wine is the classic celebration gift. To arrange a gift order or ask about delivery, message the team on WhatsApp (+61 420 128 746) before you check out."
+      }
+    ],
+    "metaTitle": "Mumm Tasmania Brut Prestige NV",
+    "metaDescription": "Buy Mumm Tasmania Brut Prestige NV (750ml) online in Australia for $46.99 AUD. Sparkling Wine from Mumm. Insured delivery, 18+ only, pay by PayID, bank transfer or crypto.",
+    "tags": [
+      "rose sparkling wine",
+      "sparkling white wine",
+      "less expensive champagne",
+      "cheap sparkling wine",
+      "sweet sparkling wine",
+      "sparkling red wine australia",
+      "tasmanian sparkling",
+      "best sparkling wine",
+      "coopers sparkling",
+      "henkell sparkling wine",
+      "nice champagne",
+      "fresita strawberry sparkling",
+      "s pellegrino sparkling water",
+      "sparkling water cans",
+      "coopers sparkling ale cans",
+      "australian sparkling"
+    ],
+    "longDescription": [
+      "Mumm Tasmania Brut Prestige NV is Mumm’s expression in this style. Sparkling wine gets its bubbles from a second fermentation; Champagne is sparkling wine made in the Champagne region of France.",
+      "Serve sparkling wine well chilled, around 6 to 8 degrees Celsius, in a flute or tulip glass. Mumm Tasmania Brut Prestige NV is sold in a 750ml format.",
+      "Mumm Tasmania Brut Prestige NV is $46.99 AUD at Doctors of Whisky, shipped Australia-wide from Sydney. Pay by PayID, bank transfer, Bitcoin or USDT (12% crypto discount), spend $500 AUD or more for free express delivery, and remember that every order needs an adult signature."
+    ],
+    "h1": "Mumm Tasmania Brut Prestige NV"
   }
 ];
 

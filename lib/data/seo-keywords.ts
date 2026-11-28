@@ -5379,10 +5379,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   ]
  },
  "orange-liqueur": {
-  "primary": "cointreau price",
-  "primaryVolume": 480,
-  "primaryKd": 12,
+  "primary": "triple sec",
+  "primaryVolume": 9900,
+  "primaryKd": 22,
   "secondary": [
+   "cointreau price",
    "orange liqueur",
    "germain liqueur",
    "saint germain cafe",
@@ -5396,8 +5397,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "chandon orange spritz",
    "buy cointreau",
    "cointreau cost",
-   "cointreau 1 ltr",
-   "cointreau specials"
+   "cointreau 1 ltr"
   ],
   "tags": [
    "cointreau 1 litre best price",
@@ -5606,6 +5606,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
+   "cointreau price",
    "cointreau liqueur",
    "marnier liqueur",
    "buy cointreau",
@@ -6771,10 +6772,11 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
   "transactional": []
  },
  "soju": {
-  "primary": "jinro soju",
-  "primaryVolume": 1300,
-  "primaryKd": 14,
+  "primary": "soju",
+  "primaryVolume": 22200,
+  "primaryKd": 20,
   "secondary": [
+   "jinro soju",
    "soju alcohol",
    "korean wine soju",
    "soju bottle",
@@ -6788,8 +6790,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    "soju flavour",
    "soju flavors",
    "soju japanese drink",
-   "soju beer",
-   "soju buy"
+   "soju beer"
   ],
   "tags": [
    "soju drink price",
@@ -6998,7 +6999,7 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
    }
   ],
   "transactional": [
-   "soju buy"
+   "jinro soju"
   ]
  },
  "lager": {
@@ -13756,4 +13757,4 @@ export const SEO_KEYWORDS: Record<string, SeoKeywordSet> = {
  }
 };
 
-export const SITE_TAGS: string[] = ["tequila","baileys","prosecco","champagne","jack daniels","whisky","gin","glenfiddich","smirnoff vodka","scotch","bourbon","cognac","red wine","glenfiddich 12","jim beam","kahlua","absolut vodka","rum","kraken rum","corona beer","johnnie walker","patron","don julio","sauvignon blanc","moet","belvedere vodka","rose wine","white wine","jameson whisky","tequila from tequila","baileys irish cream","somersby","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","moet champagne","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","jack daniels 700ml","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","macallan","bilpin cider","veuve champagne","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","laphroaig","jack daniels 1 litre","tanqueray gin","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","grenache wine","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","dimple whiskey","suntory 196","jose cuervo","espolon tequila","hennessy xo","peroni red","malibu rum liquor","pilsner","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","royal salute","jim beam bourbon","suntory whisky","gordons london dry gin","malfy gin","martell","martell blue swift","grenache red","chandon champagne","liqueurs","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink","jim beam 1 litre"];
+export const SITE_TAGS: string[] = ["tequila","baileys","prosecco","champagne","jack daniels","whisky","gin","glenfiddich","smirnoff vodka","scotch","bourbon","cognac","red wine","glenfiddich 12","jim beam","kahlua","triple sec","absolut vodka","rum","kraken rum","corona beer","johnnie walker","patron","don julio","sauvignon blanc","moet","belvedere vodka","rose wine","white wine","jameson whisky","tequila from tequila","baileys irish cream","somersby","ouzo","apple cider","somersby apple cider","premix king","don julio 1942","cruiser","moet champagne","japanese whiskey","regal chivas whisky","pink gin","james squire ginger beer","sauvignon white wine","jack daniels 700ml","single malt","starward whisky","irish whiskey","lark whisky","cheap vodka","patron tequila","smirnoff liquor","alcoholic ginger beer","brookvale union ginger beer","wine delivery","sparkling wine","wine white wines","dry white wine","macallan","bilpin cider","veuve champagne","balter cerveza","best inexpensive wines","scotch whisky","hibiki whiskey","bourbon brands","coffee liqueur","low carb beer","mother energy drink","laphroaig","jack daniels 1 litre","tanqueray gin","baileys irish cream whiskey","heineken beer","tiger beer","bird in hand sparkling","grenache wine","bourbon whiskey","single malt whiskey","japanese whisky","absolute vodka","clase azul tequila","azul tequila","spiced rum","captain morgan spiced rum","gin gifts","gin gifts australia","orange liqueur","flavoured beer","beer flavours","carb friendly beer","modelo beer","german beer","ginger beer alcoholic","wine deals","carbonated wine","dimple whiskey","suntory 196","jose cuervo","espolon tequila","hennessy xo","peroni red","malibu rum liquor","pilsner","macallan whiskey","bourbon whiskey kentucky straight","buffalo trace bourbon","ciroc vodka","bacardi white rum","rum with spices","gin gift packs","germain liqueur","ipa ale beer","pale ale style beer","brookvale ginger beer","coopers sparkling ale","somersby cider","monster energy drinks","royal salute","jim beam bourbon","suntory whisky","gordons london dry gin","malfy gin","martell","martell blue swift","grenache red","chandon champagne","liqueurs","whiskey gifts australia","scotch whiskey","whisky malt single","singleton whiskey","jim beam bourbon whiskey","whisky buffalo trace bourbon","cruiser vodka","don julio tequila","sierra tequila","coconut rum","gin delivery","gin gift set australia","aussie beer","peroni beer","zero alcohol beer","chardonnay wine","sparkling shiraz","mercury cider","soju alcohol","white monster energy drink","rockstar energy drink"];
