@@ -112,3 +112,7 @@ Product pages: start with brands that have hubs (Glenfiddich, Macallan, Johnnie 
 
 ## Log
 - 2026-10-30: 5 requests accepted, then Quota Exceeded.
+
+## 2026-11-28 session
+- Batch 1 pushed (d0608de). Google Search Console in the built-in pane was signed out (landing page), so no Google requests were made; IndexNow sent to Bing/Yandex for all URLs.
+- **Priority queue when GSC is signed in again (new or re-keyed pages):** /brands/fireball/ (fireball 14,800), /brands/mumm/ (mumm champagne 9,900), /shop/other/collection/soju/ (soju 22,200), /brands/chandon/ (chandon 8,100), /brands/bacardi/ (bacardi 6,600), /brands/wild-turkey/ (wild turkey 5,400), /brands/hibiki/ (hibiki 3,600), /shop/spirit/collection/orange-liqueur/ (triple sec 9,900). Then the earlier queue above (skip URLs already indexed).
